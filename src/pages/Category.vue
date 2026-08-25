@@ -32,6 +32,8 @@
       <!-- 月份归档 -->
       <div v-if="months.length > 1" class="month-tabs wrap">
         <a
+          v-for="m in months"
+          :key="m"
           :href="`/GameHub/category.html?cat=${curCat || ''}&month=${m}`"
           class="month-tab"
           :class="{ active: curMonth === m }"
