@@ -1,5 +1,11 @@
 [
   {
+    "hash": "1524b2d",
+    "date": "2026-08-25T13:12:43+08:00",
+    "message": "fix: 分类页白屏 — 月份归档 tab 补上 v-for（fmtMonth 收到 undefined 导致渲染崩溃）",
+    "url": "https://github.com/xi7ang/GameHub/commit/1524b2d032de77bb75f89812a523560eec80df5d"
+  },
+  {
     "hash": "98d7061",
     "date": "2026-08-25T13:04:37+08:00",
     "message": "style: 资源卡片优化 — 移除描述和平台角标，渐变描边+顶部稀有度光条+右下切角",
