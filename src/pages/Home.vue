@@ -24,6 +24,22 @@
       </div>
     </section>
 
+    <!-- 推荐资源 -->
+    <section v-if="featured.length" class="container section">
+      <h2 class="section-title">🔥 精选推荐</h2>
+      <div class="rc-grid">
+        <ResourceCard v-for="r in featured" :key="r.id" :r="r" />
+      </div>
+    </section>
+
+    <!-- 最新资源 -->
+    <section class="container section">
+      <h2 class="section-title">🆕 最新更新</h2>
+      <div class="rc-grid">
+        <ResourceCard v-for="r in latest" :key="r.id" :r="r" />
+      </div>
+    </section>
+
     <!-- 分类宫格 -->
     <section class="container section">
       <h2 class="section-title">🗂️ 资源分类</h2>
@@ -39,22 +55,6 @@
           <div class="cat-card__name">{{ c.name }}</div>
           <div class="cat-card__count text-low">{{ countBy(c.key) }} 个资源</div>
         </a>
-      </div>
-    </section>
-
-    <!-- 推荐资源 -->
-    <section v-if="featured.length" class="container section">
-      <h2 class="section-title">🔥 精选推荐</h2>
-      <div class="rc-grid">
-        <ResourceCard v-for="r in featured" :key="r.id" :r="r" />
-      </div>
-    </section>
-
-    <!-- 最新资源 -->
-    <section class="container section">
-      <h2 class="section-title">🆕 最新更新</h2>
-      <div class="rc-grid">
-        <ResourceCard v-for="r in latest" :key="r.id" :r="r" />
       </div>
     </section>
 

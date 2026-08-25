@@ -1,5 +1,11 @@
 [
   {
+    "hash": "77ee00c",
+    "date": "2026-08-25T13:14:36+08:00",
+    "message": "fix: 分类页白屏 — 月份归档 tab 补上 v-for（fmtMonth 收到 undefined 导致渲染崩溃）",
+    "url": "https://github.com/xi7ang/GameHub/commit/77ee00ca7748f9815051bda2ffb7e629f3fe0af1"
+  },
+  {
     "hash": "7fdc937",
     "date": "2026-08-25T13:14:02+08:00",
     "message": "fix: 分类页白屏 — 月份归档 tab 补上 v-for（fmtMonth 收到 undefined 导致渲染崩溃）",
