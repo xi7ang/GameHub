@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b06bbb1",
+    "date": "2026-08-25T10:19:22+08:00",
+    "message": "data: 迁移旧站 1038 条游戏资源，精选 8 条推荐",
+    "url": "https://github.com/xi7ang/GameHub/commit/b06bbb15576622b8c324361b7c0213618cf4cab6"
+  },
+  {
     "hash": "91e5472",
     "date": "2026-08-25T10:16:56+08:00",
     "message": "feat: GameHub 初版 — Vite+Vue MPA 骨架、暗色赛博设计系统、Canvas 粒子背景墙、8 分类、资源/分类/配置后台、CI 部署",
