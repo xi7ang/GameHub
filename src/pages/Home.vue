@@ -154,8 +154,8 @@ onMounted(load)
   font-weight: 600;
   letter-spacing: 0.12em;
   color: var(--neon-cyan);
-  border: 1px solid rgba(34, 211, 238, 0.3);
-  background: rgba(34, 211, 238, 0.06);
+  border: 1px solid rgba(var(--accent2-rgb), 0.3);
+  background: rgba(var(--accent2-rgb), 0.06);
   margin-bottom: 22px;
   animation: fadeInUp 0.6s ease-out;
 }
@@ -169,11 +169,11 @@ onMounted(load)
 }
 .hero__title em {
   font-style: normal;
-  background: linear-gradient(135deg, var(--neon-purple) 0%, var(--neon-cyan) 60%, var(--neon-pink) 100%);
+  background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-terracotta) 60%, var(--accent-gold-deep) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter: drop-shadow(0 0 24px rgba(139, 92, 246, 0.4));
+  filter: drop-shadow(0 0 24px rgba(var(--accent-rgb), 0.4));
 }
 .hero__subtitle {
   font-size: 16px;
@@ -189,7 +189,7 @@ onMounted(load)
   font-size: 12px;
   color: var(--text-mid);
   border: 1px solid var(--glass-border);
-  background: rgba(139, 92, 246, 0.05);
+  background: rgba(var(--accent-rgb), 0.05);
   transition: all 0.2s;
 }
 .hot-tag:hover { color: var(--neon-cyan); border-color: var(--neon-cyan); }
@@ -208,7 +208,7 @@ onMounted(load)
   font-family: var(--font-display);
   font-size: 32px;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--neon-purple), var(--neon-cyan));
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-terracotta));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -248,7 +248,7 @@ onMounted(load)
   align-items: center;
   gap: 14px;
   padding: 13px 0;
-  border-bottom: 1px solid rgba(139, 92, 246, 0.08);
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.08);
   transition: padding 0.2s;
 }
 .commit-item:last-child { border-bottom: none; }

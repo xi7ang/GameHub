@@ -160,15 +160,15 @@ onMounted(load)
   font-size: 14px;
   color: var(--text-mid);
   border: 1px solid var(--glass-border);
-  background: rgba(139, 92, 246, 0.04);
+  background: rgba(var(--accent-rgb), 0.04);
   transition: all 0.2s;
 }
 .cat-tab:hover, .month-tab:hover { color: var(--text-hi); border-color: var(--neon-purple); }
 .cat-tab.active, .month-tab.active {
   color: #fff;
-  background: linear-gradient(135deg, var(--neon-purple), #6366f1);
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
   border-color: transparent;
-  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.35);
+  box-shadow: 0 4px 16px rgba(var(--accent-rgb), 0.35);
 }
 
 .filters { margin-bottom: 22px; position: relative; z-index: 1; }

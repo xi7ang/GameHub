@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0f26a39",
+    "date": "2026-08-25T10:28:33+08:00",
+    "message": "chore: 清洗 970 条资源标题 — 去除站点营销噪声、提取版本号/英文名/特性标签",
+    "url": "https://github.com/xi7ang/GameHub/commit/0f26a394b362553d72da7949de6273d922d6f28e"
+  },
+  {
     "hash": "b06bbb1",
     "date": "2026-08-25T10:19:22+08:00",
     "message": "data: 迁移旧站 1038 条游戏资源，精选 8 条推荐",

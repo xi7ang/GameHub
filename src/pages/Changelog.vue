@@ -56,7 +56,7 @@ onMounted(load)
 .page-hero { padding: 56px 0 26px; position: relative; z-index: 1; }
 .page-hero__title { font-family: var(--font-display); font-size: 32px; font-weight: 700; margin-bottom: 6px; }
 .log-list { padding: 22px 26px; position: relative; z-index: 1; }
-.log-item { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid rgba(139, 92, 246, 0.08); }
+.log-item { display: flex; gap: 16px; padding: 14px 0; border-bottom: 1px solid rgba(var(--accent-rgb), 0.08); }
 .log-item:last-child { border-bottom: none; }
 .log-item__dot {
   width: 10px;
@@ -64,7 +64,7 @@ onMounted(load)
   border-radius: 50%;
   margin-top: 6px;
   background: linear-gradient(135deg, var(--neon-purple), var(--neon-cyan));
-  box-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
+  box-shadow: 0 0 10px rgba(var(--accent-rgb), 0.6);
 }
 .log-item__msg { font-size: 15px; }
 .log-item__meta { font-size: 12px; margin-top: 4px; }

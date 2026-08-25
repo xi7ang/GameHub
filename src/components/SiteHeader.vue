@@ -42,10 +42,10 @@ const site = state.site
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(5, 5, 14, 0.75);
+  background: rgba(var(--bg-0-rgb), 0.75);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(139, 92, 246, 0.12);
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.12);
 }
 .site-header__inner {
   display: flex;
@@ -76,7 +76,7 @@ const site = state.site
   color: var(--text-mid);
   transition: all 0.2s;
 }
-.nav-link:hover { color: var(--text-hi); background: rgba(139, 92, 246, 0.1); }
+.nav-link:hover { color: var(--text-hi); background: rgba(var(--accent-rgb), 0.1); }
 .nav-cta {
   padding: 7px 14px;
   border-radius: 8px;
@@ -87,7 +87,7 @@ const site = state.site
   transition: all 0.2s;
 }
 .nav-cta:hover { border-color: var(--neon-purple); box-shadow: var(--shadow-glow); }
-.nav-cta--tg { border-color: rgba(34, 211, 238, 0.35); }
+.nav-cta--tg { border-color: rgba(var(--accent2-rgb), 0.35); }
 .nav-cta--tg:hover { border-color: var(--neon-cyan); }
 .theme-toggle {
   width: 38px;

@@ -306,11 +306,11 @@
         </div>
         <div class="form-group">
           <label class="form-label">渐变色1</label>
-          <input v-model="catEditing.gradient0" class="form-input" placeholder="#8b5cf6" />
+          <input v-model="catEditing.gradient0" class="form-input" placeholder="#c99a5b" />
         </div>
         <div class="form-group">
           <label class="form-label">渐变色2</label>
-          <input v-model="catEditing.gradient1" class="form-input" placeholder="#6366f1" />
+          <input v-model="catEditing.gradient1" class="form-input" placeholder="#a87b3f" />
         </div>
         <div class="form-group">
           <label class="form-label">排序（小在前）</label>
@@ -536,7 +536,7 @@ function openCatEdit(c) {
     gradient0: c.gradient[0],
     gradient1: c.gradient[1],
     originalKey: c.key,
-  } : { key: '', name: '', emoji: '🎮', gradient0: '#8b5cf6', gradient1: '#6366f1', order: cats.value.length + 1, show: true, originalKey: null })
+  } : { key: '', name: '', emoji: '🎮', gradient0: '#c99a5b', gradient1: '#a87b3f', order: cats.value.length + 1, show: true, originalKey: null })
   catEditVisible.value = true
 }
 function confirmCatEdit() {
@@ -545,7 +545,7 @@ function confirmCatEdit() {
     key: catEditing.key,
     name: catEditing.name,
     emoji: catEditing.emoji || '🎮',
-    gradient: [catEditing.gradient0 || '#8b5cf6', catEditing.gradient1 || '#6366f1'],
+    gradient: [catEditing.gradient0 || '#c99a5b', catEditing.gradient1 || '#a87b3f'],
     order: catEditing.order || 99,
     show: catEditing.show,
   }
@@ -710,7 +710,7 @@ onMounted(async () => {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(5, 5, 14, 0.85);
+  background: rgba(var(--bg-0-rgb), 0.85);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--glass-border);
   padding: 12px 0;
@@ -731,11 +731,11 @@ onMounted(async () => {
   font-weight: 600;
   transition: all 0.2s;
 }
-.admin-nav__item:hover { background: rgba(139, 92, 246, 0.08); color: var(--text-hi); }
+.admin-nav__item:hover { background: rgba(var(--accent-rgb), 0.08); color: var(--text-hi); }
 .admin-nav__item.active {
-  background: linear-gradient(135deg, var(--neon-purple), #6366f1);
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
   color: #fff;
-  box-shadow: 0 4px 16px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 4px 16px rgba(var(--accent-rgb), 0.3);
 }
 .admin-content { padding: 26px; min-height: 500px; }
 
@@ -750,11 +750,11 @@ onMounted(async () => {
   border-bottom: 1px solid var(--glass-border);
   white-space: nowrap;
 }
-.admin-table td { padding: 10px 12px; border-bottom: 1px solid rgba(139, 92, 246, 0.07); vertical-align: middle; }
-.admin-table tr:hover td { background: rgba(139, 92, 246, 0.04); }
+.admin-table td { padding: 10px 12px; border-bottom: 1px solid rgba(var(--accent-rgb), 0.07); vertical-align: middle; }
+.admin-table tr:hover td { background: rgba(var(--accent-rgb), 0.04); }
 .res-title { max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
 .pwd { font-family: var(--font-display); color: var(--neon-cyan); }
-.badge.ok { color: var(--neon-green); border-color: rgba(52, 211, 153, 0.4); }
+.badge.ok { color: var(--accent-sage); border-color: rgba(125, 163, 125, 0.45); }
 .badge.bad { color: #fb7185; border-color: rgba(244, 63, 94, 0.4); }
 .empty-row { text-align: center; padding: 40px; }
 
@@ -764,7 +764,7 @@ onMounted(async () => {
   align-items: center;
   gap: 14px;
   padding: 12px 14px;
-  border-bottom: 1px solid rgba(139, 92, 246, 0.07);
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.07);
 }
 .cat-row__icon {
   width: 40px;
@@ -790,7 +790,7 @@ onMounted(async () => {
   margin-top: 24px;
   padding: 16px;
   border-radius: 14px;
-  background: rgba(16, 16, 42, 0.92);
+  background: rgba(var(--bg-2-rgb), 0.92);
   border: 1px solid var(--neon-purple);
   backdrop-filter: blur(16px);
   box-shadow: var(--shadow-glow);

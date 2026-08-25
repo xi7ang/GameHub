@@ -37,11 +37,11 @@ function hashStr(s) {
   return h
 }
 const GRADS = [
-  ['#8b5cf6', '#6366f1'],
-  ['#22d3ee', '#3b82f6'],
-  ['#f472b6', '#a855f7'],
-  ['#34d399', '#0ea5e9'],
-  ['#fbbf24', '#f97316'],
+  ['#c99a5b', '#a87b3f'],
+  ['#7d9cb3', '#4f6d8a'],
+  ['#c46a4a', '#8a5a9a'],
+  ['#7da37d', '#5d7c93'],
+  ['#b08a5f', '#8a6844'],
   ['#fb7185', '#e11d48'],
 ]
 const coverStyle = computed(() => {
@@ -74,7 +74,7 @@ function fmtDate(iso) {
 }
 .rc:hover {
   transform: translateY(-4px);
-  border-color: rgba(139, 92, 246, 0.45);
+  border-color: rgba(var(--accent-rgb), 0.45);
   box-shadow: var(--shadow-glow);
 }
 .rc__cover {
@@ -110,7 +110,7 @@ function fmtDate(iso) {
   right: 8px;
   z-index: 3;
   font-size: 15px;
-  background: rgba(5, 5, 14, 0.6);
+  background: rgba(var(--bg-0-rgb), 0.6);
   border-radius: 8px;
   padding: 3px 7px;
   backdrop-filter: blur(4px);
@@ -134,7 +134,7 @@ function fmtDate(iso) {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(5, 5, 14, 0.75);
+  background: rgba(var(--bg-0-rgb), 0.75);
   color: #fb7185;
   font-weight: 700;
   font-size: 14px;

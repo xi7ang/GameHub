@@ -130,7 +130,7 @@ function hashStr(s) {
 }
 const coverStyle = computed(() => {
   if (!r.value) return {}
-  const [a, b] = cat.value?.gradient || ['#8b5cf6', '#6366f1']
+  const [a, b] = cat.value?.gradient || ['#c99a5b', '#a87b3f']
   const deg = hashStr(r.value.title + 'c') % 360
   return { background: `linear-gradient(${deg}deg, ${a}cc, ${b}99)` }
 })
@@ -239,8 +239,8 @@ onMounted(load)
 .pwd-code {
   padding: 6px 14px;
   border-radius: 8px;
-  background: rgba(139, 92, 246, 0.12);
-  border: 1px dashed rgba(139, 92, 246, 0.4);
+  background: rgba(var(--accent-rgb), 0.12);
+  border: 1px dashed rgba(var(--accent-rgb), 0.4);
   font-family: var(--font-display);
   font-size: 16px;
   font-weight: 700;

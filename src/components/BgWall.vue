@@ -69,11 +69,11 @@ function hashStr(s) {
   return h
 }
 const GRADS = [
-  ['#8b5cf6', '#6366f1'],
-  ['#22d3ee', '#3b82f6'],
-  ['#f472b6', '#a855f7'],
-  ['#34d399', '#0ea5e9'],
-  ['#fbbf24', '#f97316'],
+  ['#c99a5b', '#a87b3f'],
+  ['#7d9cb3', '#4f6d8a'],
+  ['#c46a4a', '#8a5a9a'],
+  ['#7da37d', '#5d7c93'],
+  ['#b08a5f', '#8a6844'],
   ['#fb7185', '#e11d48'],
 ]
 function coverStyle(tile) {
@@ -110,7 +110,7 @@ function initParticles(w, h) {
     vx: (Math.random() - 0.5) * 0.25,
     vy: (Math.random() - 0.5) * 0.25,
     r: Math.random() * 2 + 0.8,
-    hue: Math.random() * 60 + 260, // 紫-青范围
+    hue: Math.random() * 40 + 18, // 琥珀-赤陶暖色范围
   }))
 }
 
@@ -125,8 +125,8 @@ function draw(t) {
   const ox = mouseX * 14
   const oy = mouseY * 14
   const nebula = ctx.createRadialGradient(w / 2 + ox, h * 0.3 + oy, 0, w / 2 + ox, h * 0.3 + oy, Math.max(w, h) * 0.55)
-  nebula.addColorStop(0, 'rgba(139, 92, 246, 0.10)')
-  nebula.addColorStop(0.5, 'rgba(34, 211, 238, 0.04)')
+  nebula.addColorStop(0, 'rgba(201, 154, 91, 0.12)')
+  nebula.addColorStop(0.5, 'rgba(125, 156, 179, 0.07)')
   nebula.addColorStop(1, 'transparent')
   ctx.fillStyle = nebula
   ctx.fillRect(0, 0, w, h)
@@ -135,7 +135,7 @@ function draw(t) {
   stars.forEach((s) => {
     const a = s.a * (0.5 + 0.5 * Math.sin(t * s.tw + s.ph))
     ctx.beginPath()
-    ctx.fillStyle = `rgba(200, 200, 255, ${a})`
+    ctx.fillStyle = `rgba(233, 228, 216, ${a})`
     ctx.arc(s.x + mouseX * 6, s.y + mouseY * 6, s.r, 0, Math.PI * 2)
     ctx.fill()
   })
@@ -149,7 +149,7 @@ function draw(t) {
     if (p.y < 0) p.y = h
     if (p.y > h) p.y = 0
     ctx.beginPath()
-    ctx.fillStyle = `hsla(${p.hue}, 90%, 70%, 0.5)`
+    ctx.fillStyle = `hsla(${p.hue}, 55%, 62%, 0.45)`
     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2)
     ctx.fill()
   })
@@ -160,7 +160,7 @@ function draw(t) {
       const d = Math.hypot(dx, dy)
       if (d < 130) {
         ctx.beginPath()
-        ctx.strokeStyle = `hsla(265, 80%, 70%, ${0.16 * (1 - d / 130)})`
+        ctx.strokeStyle = `hsla(38, 45%, 62%, ${0.14 * (1 - d / 130)})`
         ctx.lineWidth = 0.6
         ctx.moveTo(particles[i].x, particles[i].y)
         ctx.lineTo(particles[j].x, particles[j].y)
@@ -249,7 +249,7 @@ onBeforeUnmount(() => {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 90% 70% at 50% 0%, rgba(5, 5, 14, 0.25) 0%, var(--bg-0) 78%),
-    linear-gradient(180deg, rgba(5, 5, 14, 0.6) 0%, rgba(5, 5, 14, 0.85) 45%, var(--bg-0) 100%);
+    radial-gradient(ellipse 90% 70% at 50% 0%, rgba(var(--bg-0-rgb), 0.25) 0%, var(--bg-0) 78%),
+    linear-gradient(180deg, rgba(var(--bg-0-rgb), 0.6) 0%, rgba(var(--bg-0-rgb), 0.85) 45%, var(--bg-0) 100%);
 }
 </style>

@@ -66,7 +66,7 @@ function catLabel(key) {
 
 function catMeta(key) {
   const c = state.categories.find((c) => c.key === key)
-  return c || { key, name: key, emoji: '📦', gradient: ['#78909C', '#455A64'] }
+  return c || { key, name: key, emoji: '📦', gradient: ['#7d9cb3', '#4f6d8a'] }
 }
 
 async function load() {
