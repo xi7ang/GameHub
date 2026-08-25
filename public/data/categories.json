@@ -1,0 +1,66 @@
+[
+  {
+    "key": "pc",
+    "name": "单机游戏",
+    "emoji": "🖥️",
+    "gradient": ["#7C4DFF", "#448AFF"],
+    "order": 1,
+    "show": true
+  },
+  {
+    "key": "mobile",
+    "name": "手游",
+    "emoji": "📱",
+    "gradient": ["#00E5FF", "#00BFA5"],
+    "order": 2,
+    "show": true
+  },
+  {
+    "key": "switch",
+    "name": "Switch",
+    "emoji": "🎮",
+    "gradient": ["#FF1744", "#FF9100"],
+    "order": 3,
+    "show": true
+  },
+  {
+    "key": "online",
+    "name": "联机游戏",
+    "emoji": "🌐",
+    "gradient": ["#FF6E40", "#FFD740"],
+    "order": 4,
+    "show": true
+  },
+  {
+    "key": "mod",
+    "name": "MOD/补丁",
+    "emoji": "🔧",
+    "gradient": ["#D500F9", "#651FFF"],
+    "order": 5,
+    "show": true
+  },
+  {
+    "key": "emu",
+    "name": "模拟器",
+    "emoji": "🕹️",
+    "gradient": ["#00E676", "#0091EA"],
+    "order": 6,
+    "show": true
+  },
+  {
+    "key": "tool",
+    "name": "游戏工具",
+    "emoji": "🧰",
+    "gradient": ["#FFAB40", "#FF6D00"],
+    "order": 7,
+    "show": true
+  },
+  {
+    "key": "other",
+    "name": "其他",
+    "emoji": "📦",
+    "gradient": ["#78909C", "#455A64"],
+    "order": 8,
+    "show": true
+  }
+]

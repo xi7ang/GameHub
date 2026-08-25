@@ -1,0 +1,22 @@
+{
+  "name": "gamehub",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate.js",
+    "gen-commits": "node scripts/gen-commits.js",
+    "prebuild": "node scripts/validate.js && node scripts/gen-commits.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}

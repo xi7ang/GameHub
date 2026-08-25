@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - 你掉进了虚空裂隙 | GameHub</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #05050e;
+      color: #f4f4ff;
+      font-family: 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+      overflow: hidden;
+    }
+    .wrap { text-align: center; padding: 20px; position: relative; z-index: 1; }
+    .code {
+      font-family: 'Chakra Petch', monospace;
+      font-size: clamp(80px, 16vw, 160px);
+      font-weight: 700;
+      background: linear-gradient(135deg, #8b5cf6, #22d3ee, #f472b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 0 30px rgba(139, 92, 246, 0.4));
+      line-height: 1.1;
+    }
+    .msg { font-size: 18px; margin: 16px 0 28px; color: #b8b8d8; }
+    .btn {
+      display: inline-block;
+      padding: 12px 32px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #8b5cf6, #6366f1);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 4px 20px rgba(139, 92, 246, 0.35);
+      transition: all 0.2s;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(139, 92, 246, 0.55); }
+    .glow {
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 40% at 50% -10%, rgba(139, 92, 246, 0.18), transparent 70%),
+        radial-gradient(ellipse 50% 40% at 80% 90%, rgba(34, 211, 238, 0.08), transparent 70%);
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="code">404</div>
+    <p class="msg">🎮 你掉进了虚空裂隙，这个页面不存在</p>
+    <a class="btn" href="/GameHub/">← 返回 GameHub</a>
+  </div>
+</body>
+</html>
