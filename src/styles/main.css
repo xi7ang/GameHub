@@ -53,6 +53,7 @@
   --glass-border: rgba(201, 154, 91, 0.16);
   --glass-bg-strong: rgba(20, 23, 28, 0.78);
   --scrim: rgba(13, 15, 18, 0.78);
+  --wall-bg: linear-gradient(180deg, #0f151c 0%, #1b2838 50%, #0f151c 100%);
 
   --radius: 14px;
   --radius-lg: 20px;
@@ -100,6 +101,7 @@
   --glass-border: rgba(168, 123, 63, 0.22);
   --glass-bg-strong: rgba(255, 255, 255, 0.85);
   --scrim: rgba(245, 243, 238, 0.85);
+  --wall-bg: linear-gradient(180deg, #eae6dc 0%, #f7f4ec 50%, #eae6dc 100%);
 
   --shadow-glow: 0 0 26px rgba(168, 123, 63, 0.18);
   --shadow-card: 0 8px 28px rgba(60, 50, 35, 0.12);

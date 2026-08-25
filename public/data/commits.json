@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ef6ae39",
+    "date": "2026-08-25T10:37:44+08:00",
+    "message": "style: 自然暖调配色替换霓虹渐变，修复 light 主题切换（补全 data-theme 覆盖规则）",
+    "url": "https://github.com/xi7ang/GameHub/commit/ef6ae398a9202962b30f369af630480ef5d5f06b"
+  },
+  {
     "hash": "0f26a39",
     "date": "2026-08-25T10:28:33+08:00",
     "message": "chore: 清洗 970 条资源标题 — 去除站点营销噪声、提取版本号/英文名/特性标签",

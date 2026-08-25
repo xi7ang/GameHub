@@ -1,196 +1,77 @@
 <template>
+  <!-- 全页背景：游戏封面墙（搬运自 xi7ang.github.io HomepageHero 成熟实现） -->
   <div class="bg-wall" aria-hidden="true">
-    <!-- Canvas 粒子星云层 -->
-    <canvas ref="canvasRef" class="bg-wall__canvas"></canvas>
-
-    <!-- 多层错向滚动封面墙 -->
-    <div class="bg-wall__marquee">
-      <div
-        v-for="(row, ri) in marqueeRows"
-        :key="ri"
-        class="bg-wall__row"
-        :class="ri % 2 === 0 ? 'scroll-left' : 'scroll-right'"
-        :style="{ animationDuration: row.speed + 's' }"
-      >
-        <div v-for="(tile, ti) in row.tiles" :key="ti" class="bg-wall__tile">
+    <div class="game-wall">
+      <div class="game-wall__track">
+        <template v-for="(row, ri) in gameRows" :key="ri">
           <div
-            class="bg-wall__cover"
-            :style="coverStyle(tile)"
+            class="game-wall__row"
+            :class="ri % 2 === 0 ? 'scroll-left' : 'scroll-right'"
+            :style="{ animationDuration: rowSpeed + 's', marginLeft: rowMargin(ri) }"
           >
-            <span class="bg-wall__tile-title">{{ tile.title }}</span>
+            <div
+              v-for="(game, gi) in [...row, ...row]"
+              :key="'t' + ri + '_' + gi"
+              class="game-tile"
+              :style="{ background: game.bg || '#2a475e' }"
+            >
+              <img
+                v-if="game.img"
+                :src="game.img"
+                :alt="game.name"
+                class="game-tile__img"
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+                draggable="false"
+              />
+              <span v-else class="game-tile__name">{{ game.short }}</span>
+            </div>
           </div>
-        </div>
+        </template>
       </div>
     </div>
-
-    <!-- 渐隐遮罩 -->
+    <!-- 遮罩（跟随主题） -->
     <div class="bg-wall__fade"></div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, computed } from 'vue'
-import { useData } from '../composables/useData.js'
+// ── 游戏封面墙数据（搬运自旧站 HomepageHero.vue）──
+const BASE = import.meta.env.BASE_URL // '/GameHub/'
 
-const { state } = useData()
-
-const canvasRef = ref(null)
-let ctx = null
-let rafId = null
-let particles = []
-let stars = []
-let mouseX = 0
-let mouseY = 0
-
-// ── 封面墙数据：取资源标题（无图时用渐变+标题），不足则用默认游戏名 ──
-const FALLBACK = ['塞尔达传说', '黑神话悟空', '星露谷物语', '原神', '艾尔登法环', '空洞骑士', '死亡细胞', '双人成行', '我的世界', '泰拉瑞亚', '只狼', '战神', '最终幻想', '怪物猎人', '巫师3', '赛博朋克2077', '生化危机', '古墓丽影', '使命召唤', '暗黑破坏神']
-
-const coverTitles = computed(() => {
-  const titles = state.resources.map((r) => r.title).filter(Boolean)
-  return titles.length >= 20 ? titles : [...titles, ...FALLBACK].slice(0, 40)
-})
-
-const marqueeRows = computed(() => {
-  const t = coverTitles.value
-  const count = Math.max(6, Math.ceil(t.length / 4))
-  return [0, 1, 2].map((ri, idx) => {
-    const tiles = []
-    for (let i = 0; i < count; i++) {
-      tiles.push({ title: t[(ri * 7 + i * 3 + idx * 5) % t.length] })
-    }
-    return { speed: 40 + ri * 18, tiles }
-  })
-})
-
-// 确定性 hash → 霓虹渐变
-function hashStr(s) {
-  let h = 0
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0
-  return h
-}
-const GRADS = [
-  ['#c99a5b', '#a87b3f'],
-  ['#7d9cb3', '#4f6d8a'],
-  ['#c46a4a', '#8a5a9a'],
-  ['#7da37d', '#5d7c93'],
-  ['#b08a5f', '#8a6844'],
-  ['#fb7185', '#e11d48'],
+const gameCovers = [
+  { name: '反恐精英2', short: 'CS2', img: `${BASE}game-covers/cs2.jpg` },
+  { name: 'DOTA2', short: 'DOTA2', img: `${BASE}game-covers/dota2.jpg` },
+  { name: 'GTA5', short: 'GTA5', img: `${BASE}game-covers/gta5.jpg` },
+  { name: 'Apex英雄', short: 'Apex', img: `${BASE}game-covers/apex.jpg` },
+  { name: '星露谷物语', short: '星露谷', img: `${BASE}game-covers/stardew.jpg` },
+  { name: '盖瑞模组', short: '盖瑞模组', img: `${BASE}game-covers/garrysmod.jpg` },
+  { name: '无人深空', short: '无人深空', img: `${BASE}game-covers/nomansky.jpg` },
+  { name: '求生之路2', short: '求生之路', img: `${BASE}game-covers/l4d2.jpg` },
+  { name: '欧洲卡车模拟2', short: '欧卡2', img: `${BASE}game-covers/eurotruck.jpg` },
+  { name: '骑马与砍杀2', short: '骑砍2', img: `${BASE}game-covers/mountblade.jpg` },
+  { name: '僵尸毁灭工程', short: '僵毁', img: `${BASE}game-covers/projectzomboid.jpg` },
+  { name: '环世界', short: '环世界', img: `${BASE}game-covers/rimworld.jpg` },
+  { name: '壁纸引擎', short: '壁纸引擎', img: `${BASE}game-covers/wallpaperengine.jpg` },
 ]
-function coverStyle(tile) {
-  const [a, b] = GRADS[hashStr(tile.title) % GRADS.length]
-  const deg = hashStr(tile.title + 'd') % 360
-  return {
-    background: `linear-gradient(${deg}deg, ${a}33, ${b}66)`,
-    border: `1px solid ${a}55`,
-    boxShadow: `0 0 24px ${a}22`,
+
+function shuffle(arr) {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
   }
+  return a
 }
 
-// ── Canvas 粒子星云 ──
-function resize() {
-  const canvas = canvasRef.value
-  if (!canvas) return
-  canvas.width = canvas.offsetWidth * devicePixelRatio
-  canvas.height = canvas.offsetHeight * devicePixelRatio
-  ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0)
+// 18 行封面墙，每行独立洗牌；双份渲染实现无缝滚动
+const gameRows = Array.from({ length: 18 }, () => shuffle(gameCovers))
+const rowSpeed = 190
+
+function rowMargin(ri) {
+  return ri % 2 === 0 ? '-35px' : '35px'
 }
-
-function initParticles(w, h) {
-  stars = Array.from({ length: 90 }, () => ({
-    x: Math.random() * w,
-    y: Math.random() * h,
-    r: Math.random() * 1.6 + 0.4,
-    a: Math.random() * 0.7 + 0.2,
-    tw: Math.random() * 0.02 + 0.005,
-    ph: Math.random() * Math.PI * 2,
-  }))
-  particles = Array.from({ length: 26 }, () => ({
-    x: Math.random() * w,
-    y: Math.random() * h,
-    vx: (Math.random() - 0.5) * 0.25,
-    vy: (Math.random() - 0.5) * 0.25,
-    r: Math.random() * 2 + 0.8,
-    hue: Math.random() * 40 + 18, // 琥珀-赤陶暖色范围
-  }))
-}
-
-function draw(t) {
-  const canvas = canvasRef.value
-  if (!canvas) return
-  const w = canvas.offsetWidth
-  const h = canvas.offsetHeight
-  ctx.clearRect(0, 0, w, h)
-
-  // 星云光晕（跟随鼠标轻微偏移）
-  const ox = mouseX * 14
-  const oy = mouseY * 14
-  const nebula = ctx.createRadialGradient(w / 2 + ox, h * 0.3 + oy, 0, w / 2 + ox, h * 0.3 + oy, Math.max(w, h) * 0.55)
-  nebula.addColorStop(0, 'rgba(201, 154, 91, 0.12)')
-  nebula.addColorStop(0.5, 'rgba(125, 156, 179, 0.07)')
-  nebula.addColorStop(1, 'transparent')
-  ctx.fillStyle = nebula
-  ctx.fillRect(0, 0, w, h)
-
-  // 星星（闪烁）
-  stars.forEach((s) => {
-    const a = s.a * (0.5 + 0.5 * Math.sin(t * s.tw + s.ph))
-    ctx.beginPath()
-    ctx.fillStyle = `rgba(233, 228, 216, ${a})`
-    ctx.arc(s.x + mouseX * 6, s.y + mouseY * 6, s.r, 0, Math.PI * 2)
-    ctx.fill()
-  })
-
-  // 漂浮粒子（连线成网）
-  particles.forEach((p, i) => {
-    p.x += p.vx
-    p.y += p.vy
-    if (p.x < 0) p.x = w
-    if (p.x > w) p.x = 0
-    if (p.y < 0) p.y = h
-    if (p.y > h) p.y = 0
-    ctx.beginPath()
-    ctx.fillStyle = `hsla(${p.hue}, 55%, 62%, 0.45)`
-    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2)
-    ctx.fill()
-  })
-  for (let i = 0; i < particles.length; i++) {
-    for (let j = i + 1; j < particles.length; j++) {
-      const dx = particles[i].x - particles[j].x
-      const dy = particles[i].y - particles[j].y
-      const d = Math.hypot(dx, dy)
-      if (d < 130) {
-        ctx.beginPath()
-        ctx.strokeStyle = `hsla(38, 45%, 62%, ${0.14 * (1 - d / 130)})`
-        ctx.lineWidth = 0.6
-        ctx.moveTo(particles[i].x, particles[i].y)
-        ctx.lineTo(particles[j].x, particles[j].y)
-        ctx.stroke()
-      }
-    }
-  }
-  rafId = requestAnimationFrame(draw)
-}
-
-function onMouseMove(e) {
-  mouseX = (e.clientX / window.innerWidth - 0.5) * 2
-  mouseY = (e.clientY / window.innerHeight - 0.5) * 2
-}
-
-onMounted(() => {
-  const canvas = canvasRef.value
-  ctx = canvas.getContext('2d')
-  resize()
-  initParticles(canvas.offsetWidth, canvas.offsetHeight)
-  window.addEventListener('resize', () => { resize(); initParticles(canvas.offsetWidth, canvas.offsetHeight) })
-  window.addEventListener('mousemove', onMouseMove, { passive: true })
-  rafId = requestAnimationFrame(draw)
-})
-
-onBeforeUnmount(() => {
-  cancelAnimationFrame(rafId)
-  window.removeEventListener('resize', resize)
-  window.removeEventListener('mousemove', onMouseMove)
-})
 </script>
 
 <style scoped>
@@ -199,57 +80,104 @@ onBeforeUnmount(() => {
   inset: 0;
   z-index: -2;
   overflow: hidden;
-  background: var(--bg-0);
+  user-select: none;
+  -webkit-user-select: none;
+  background: var(--wall-bg);
 }
-.bg-wall__canvas {
+
+/* ── 封面墙（旧站原版结构）── */
+.game-wall {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  inset: -10% -5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+  transform: rotate(-3deg) scale(1.1);
 }
-.bg-wall__marquee {
-  position: absolute;
-  inset: 0;
+
+.game-wall__track {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  opacity: 0.5;
-}
-.bg-wall__row {
-  display: flex;
-  gap: 16px;
-  width: max-content;
-}
-.scroll-left { animation: scrollLeft linear infinite; }
-.scroll-right { animation: scrollRight linear infinite; }
-@keyframes scrollLeft { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-@keyframes scrollRight { from { transform: translateX(-50%); } to { transform: translateX(0); } }
-.bg-wall__tile { flex-shrink: 0; }
-.bg-wall__cover {
-  width: 150px;
-  height: 200px;
-  border-radius: 10px;
-  display: flex;
-  align-items: flex-end;
-  padding: 10px;
-  backdrop-filter: blur(2px);
-}
-.bg-wall__tile-title {
-  font-family: var(--font-display);
-  font-size: 13px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  gap: 8px;
+  will-change: transform;
+  width: 100%;
   overflow: hidden;
 }
+
+.game-wall__row {
+  display: flex;
+  gap: 8px;
+  width: max-content;
+  will-change: transform;
+}
+
+.game-wall__row.scroll-left {
+  animation: scroll-left 32s linear infinite;
+}
+
+.game-wall__row.scroll-right {
+  animation: scroll-right 32s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.game-tile {
+  width: 184px;
+  height: 69px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.28;
+  border: none;
+  box-shadow: none;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.game-tile__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  -webkit-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+.game-tile__name {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* ── 遮罩（跟随主题，避免旧站硬编码深色穿帮）── */
 .bg-wall__fade {
-  position: absolute;
+  content: '';
+  position: fixed;
   inset: 0;
-  background:
-    radial-gradient(ellipse 90% 70% at 50% 0%, rgba(var(--bg-0-rgb), 0.25) 0%, var(--bg-0) 78%),
-    linear-gradient(180deg, rgba(var(--bg-0-rgb), 0.6) 0%, rgba(var(--bg-0-rgb), 0.85) 45%, var(--bg-0) 100%);
+  z-index: -1;
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--bg-0-rgb), 0.92) 0%,
+    rgba(var(--bg-0-rgb), 0.3) 25%,
+    rgba(var(--bg-0-rgb), 0.3) 75%,
+    rgba(var(--bg-0-rgb), 0.92) 100%
+  );
+  pointer-events: none;
 }
 </style>
