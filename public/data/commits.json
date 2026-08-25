@@ -1,5 +1,11 @@
 [
   {
+    "hash": "45a880b",
+    "date": "2026-08-25T17:44:10+08:00",
+    "message": "style: 资源分类板块移到最新更新和最新动态之间",
+    "url": "https://github.com/xi7ang/GameHub/commit/45a880bd7ca8bb874318c320781481e3a2034be1"
+  },
+  {
     "hash": "77ee00c",
     "date": "2026-08-25T13:14:36+08:00",
     "message": "fix: 分类页白屏 — 月份归档 tab 补上 v-for（fmtMonth 收到 undefined 导致渲染崩溃）",
