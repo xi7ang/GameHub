@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8c2dfc7",
+    "date": "2026-08-25T10:47:16+08:00",
+    "message": "feat: 背景墙改为搬运旧站 HomepageHero 原版实现 — 18行错向滚动封面墙+Steam深蓝底+13张真实封面图",
+    "url": "https://github.com/xi7ang/GameHub/commit/8c2dfc74e6ca3a5c369100fa5d3152a8174332f7"
+  },
+  {
     "hash": "ef6ae39",
     "date": "2026-08-25T10:37:44+08:00",
     "message": "style: 自然暖调配色替换霓虹渐变，修复 light 主题切换（补全 data-theme 覆盖规则）",
