@@ -24,26 +24,6 @@
       </div>
     </section>
 
-    <!-- 数据统计条 -->
-    <section class="container stats fade-up">
-      <div class="stat glass">
-        <div class="stat__num">{{ state.resources.length }}</div>
-        <div class="stat__label text-low">资源总数</div>
-      </div>
-      <div class="stat glass">
-        <div class="stat__num">{{ state.categories.length }}</div>
-        <div class="stat__label text-low">游戏分类</div>
-      </div>
-      <div class="stat glass">
-        <div class="stat__num">{{ lastMonthCount }}</div>
-        <div class="stat__label text-low">本月新增</div>
-      </div>
-      <div class="stat glass">
-        <div class="stat__num">100%</div>
-        <div class="stat__label text-low">免费分享</div>
-      </div>
-    </section>
-
     <!-- 分类宫格 -->
     <section class="container section">
       <h2 class="section-title">🗂️ 资源分类</h2>
@@ -94,6 +74,26 @@
           <span class="commit-item__date text-low">{{ fmtDate(c.date) }}</span>
           <span class="commit-item__hash badge">{{ c.hash }}</span>
         </a>
+      </div>
+    </section>
+
+    <!-- 数据统计条（页脚上方） -->
+    <section class="container stats fade-up">
+      <div class="stat">
+        <div class="stat__num">{{ state.resources.length }}</div>
+        <div class="stat__label text-low">资源总数</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">{{ state.categories.length }}</div>
+        <div class="stat__label text-low">游戏分类</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">{{ lastMonthCount }}</div>
+        <div class="stat__label text-low">本月新增</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">100%</div>
+        <div class="stat__label text-low">免费分享</div>
       </div>
     </section>
 
@@ -194,26 +194,29 @@ onMounted(load)
 }
 .hot-tag:hover { color: var(--neon-cyan); border-color: var(--neon-cyan); }
 
-/* Stats */
+/* Stats（页脚上方，无边框） */
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-bottom: 20px;
+  gap: 24px;
+  padding: 36px 0 8px;
   position: relative;
   z-index: 1;
+  border-top: 1px solid rgba(var(--accent-rgb), 0.15);
+  margin-top: 8px;
 }
-.stat { padding: 22px; text-align: center; }
+.stat { text-align: center; }
 .stat__num {
   font-family: var(--font-display);
-  font-size: 32px;
+  font-size: clamp(30px, 4vw, 40px);
   font-weight: 700;
+  line-height: 1.1;
   background: linear-gradient(135deg, var(--accent-gold), var(--accent-terracotta));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.stat__label { font-size: 13px; margin-top: 4px; }
+.stat__label { font-size: 13px; margin-top: 6px; letter-spacing: 0.08em; }
 
 /* Categories */
 .cat-grid {
