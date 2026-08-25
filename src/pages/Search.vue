@@ -95,5 +95,5 @@ onMounted(() => {
 
 @media (max-width: 1024px) { .rc-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 768px) { .rc-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px) { .rc-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .rc-grid { grid-template-columns: repeat(2, 1fr); } }
 </style>

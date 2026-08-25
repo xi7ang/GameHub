@@ -312,5 +312,5 @@ onMounted(load)
   .detail__cover { min-height: 240px; }
   .rc-grid { grid-template-columns: repeat(2, 1fr); }
 }
-@media (max-width: 480px) { .rc-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .rc-grid { grid-template-columns: repeat(2, 1fr); } }
 </style>
