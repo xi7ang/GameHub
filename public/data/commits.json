@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f40896c",
+    "date": "2026-08-25T13:03:25+08:00",
+    "message": "style: 资源卡片优化 — 移除描述和平台角标，渐变描边+顶部稀有度光条+右下切角",
+    "url": "https://github.com/xi7ang/GameHub/commit/f40896c8cfc7bfb104439bbb0c311064f022db79"
+  },
+  {
     "hash": "3722cff",
     "date": "2026-08-25T12:58:37+08:00",
     "message": "style: 移动端资源卡片单栏改双栏（Home/分类/搜索/详情页同步）",
