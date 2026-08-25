@@ -12,12 +12,14 @@
         <a href="javascript:history.back()" class="back-link text-low">← 返回</a>
 
         <div class="detail glass fade-up">
-          <!-- 左：封面 -->
+          <!-- 左：封面（无图时霓虹渐变 + 游戏名伪封面） -->
           <div class="detail__cover" :style="coverStyle">
             <img v-if="r.cover" :src="r.cover" :alt="r.title" />
             <template v-else>
+              <span class="detail__cover-halo" :style="haloStyle"></span>
+              <span class="detail__cover-emoji">{{ cat?.emoji }}</span>
               <span class="detail__cover-title">{{ r.title }}</span>
-              <span class="detail__cover-glow"></span>
+              <span class="detail__cover-tag">GAME</span>
             </template>
             <span v-if="r.status === 'inactive'" class="detail__inactive">⚠️ 链接已失效</span>
           </div>
@@ -129,10 +131,15 @@ function hashStr(s) {
   return h
 }
 const coverStyle = computed(() => {
-  if (!r.value) return {}
+  if (!r.value || r.value.cover) return {}
   const [a, b] = cat.value?.gradient || ['#c99a5b', '#a87b3f']
   const deg = hashStr(r.value.title + 'c') % 360
-  return { background: `linear-gradient(${deg}deg, ${a}cc, ${b}99)` }
+  return { background: `linear-gradient(${deg}deg, ${a} 0%, ${b} 100%)` }
+})
+const haloStyle = computed(() => {
+  if (!r.value || r.value.cover) return {}
+  const [a] = cat.value?.gradient || ['#c99a5b', '#a87b3f']
+  return { background: `radial-gradient(circle at 50% 38%, ${a}55 0%, transparent 70%)` }
 })
 const catBadgeStyle = computed(() => {
   if (!cat.value) return {}
@@ -192,20 +199,52 @@ onMounted(load)
   position: relative;
   min-height: 380px;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   padding: 24px;
+  overflow: hidden;
 }
 .detail__cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.detail__cover-halo {
+  position: absolute;
+  inset: -20%;
+  z-index: 1;
+  pointer-events: none;
+}
+.detail__cover-emoji {
+  position: relative;
+  z-index: 2;
+  font-size: 44px;
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.45));
+}
 .detail__cover-title {
   position: relative;
   z-index: 2;
   font-family: var(--font-display);
-  font-size: 26px;
+  font-size: clamp(22px, 3vw, 30px);
   font-weight: 700;
   color: #fff;
-  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  text-shadow: 0 3px 16px rgba(0, 0, 0, 0.8), 0 0 32px rgba(255, 255, 255, 0.3);
+  line-height: 1.3;
+  max-width: 90%;
 }
-.detail__cover-glow { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 30%, rgba(0, 0, 0, 0.6)); }
+.detail__cover-tag {
+  position: relative;
+  z-index: 2;
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 100px;
+  padding: 3px 14px;
+  margin-top: 6px;
+  text-indent: 0.4em;
+}
 .detail__inactive {
   position: absolute;
   inset: 0;
