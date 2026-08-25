@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3722cff",
+    "date": "2026-08-25T12:58:37+08:00",
+    "message": "style: 移动端资源卡片单栏改双栏（Home/分类/搜索/详情页同步）",
+    "url": "https://github.com/xi7ang/GameHub/commit/3722cff1f0a96579d19cd1af1d8d0b39de01495d"
+  },
+  {
     "hash": "983e496",
     "date": "2026-08-25T12:53:46+08:00",
     "message": "style: 统计模块移至页脚上方（无边框+顶部渐变分隔线+大字渐变数字）",

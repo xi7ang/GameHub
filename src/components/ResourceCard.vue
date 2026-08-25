@@ -9,13 +9,11 @@
         <span class="rc__cover-title">{{ r.title }}</span>
         <span class="rc__cover-tag">GAME</span>
       </template>
-      <span v-if="r.platform && site?.platforms?.[r.platform]" class="rc__platform">{{ site.platforms[r.platform].icon }}</span>
       <span v-if="r.featured" class="rc__featured">🔥 推荐</span>
       <span v-if="r.status === 'inactive'" class="rc__inactive">链接失效</span>
     </div>
     <div class="rc__body">
       <h3 class="rc__title">{{ r.title }}</h3>
-      <p v-if="r.desc" class="rc__desc text-low">{{ r.desc }}</p>
       <div class="rc__meta">
         <span class="badge">{{ catLabel(r.category) }}</span>
         <span v-if="r.size" class="rc__size">{{ r.size }}</span>
@@ -31,7 +29,6 @@ import { useData } from '../composables/useData.js'
 
 const props = defineProps({ r: { type: Object, required: true } })
 const { state, catLabel, catMeta } = useData()
-const site = state.site
 
 function hashStr(s) {
   let h = 0
@@ -72,20 +69,55 @@ function fmtDate(iso) {
 
 <style scoped>
 .rc {
+  position: relative;
   display: flex;
   flex-direction: column;
   border-radius: var(--radius);
   overflow: hidden;
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  backdrop-filter: blur(10px);
+  /* 游戏卡牌风：渐变描边（双背景技巧）+ 深色内底 */
+  background:
+    linear-gradient(var(--bg-1), var(--bg-1)) padding-box,
+    linear-gradient(160deg, rgba(201, 154, 91, 0.65) 0%, rgba(201, 154, 91, 0.12) 35%, rgba(125, 156, 179, 0.3) 70%, rgba(201, 154, 91, 0.55) 100%) border-box;
+  border: 1.5px solid transparent;
   transition: all 0.25s ease;
   height: 100%;
 }
+/* 顶部稀有度光条（游戏卡牌质感） */
+.rc::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 3;
+  background: linear-gradient(90deg, transparent, rgba(201, 154, 91, 0.85), rgba(125, 156, 179, 0.5), transparent);
+  opacity: 0.7;
+  transition: opacity 0.25s;
+}
+/* 右下角切角（游戏 UI 常见元素） */
+.rc::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 18px;
+  height: 18px;
+  z-index: 3;
+  background: linear-gradient(225deg, transparent 50%, rgba(201, 154, 91, 0.35) 50%);
+  border-bottom-right-radius: var(--radius);
+  pointer-events: none;
+}
 .rc:hover {
   transform: translateY(-4px);
-  border-color: rgba(var(--accent-rgb), 0.45);
+  background:
+    linear-gradient(var(--bg-1), var(--bg-1)) padding-box,
+    linear-gradient(160deg, rgba(201, 154, 91, 0.9) 0%, rgba(201, 154, 91, 0.2) 35%, rgba(125, 156, 179, 0.45) 70%, rgba(201, 154, 91, 0.8) 100%) border-box;
   box-shadow: var(--shadow-glow);
+}
+.rc:hover::before {
+  opacity: 1;
+  box-shadow: 0 0 12px rgba(201, 154, 91, 0.4);
 }
 .rc__cover {
   position: relative;
@@ -141,17 +173,6 @@ function fmtDate(iso) {
   margin-top: 4px;
   text-indent: 0.35em;
 }
-.rc__platform {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  z-index: 3;
-  font-size: 15px;
-  background: rgba(var(--bg-0-rgb), 0.6);
-  border-radius: 8px;
-  padding: 3px 7px;
-  backdrop-filter: blur(4px);
-}
 .rc__featured {
   position: absolute;
   top: 8px;
@@ -176,20 +197,13 @@ function fmtDate(iso) {
   font-weight: 700;
   font-size: 14px;
 }
-.rc__body { padding: 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.rc__body { padding: 14px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .rc__title {
   font-size: 15px;
   font-weight: 600;
   line-height: 1.4;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.rc__desc {
-  font-size: 13px;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
