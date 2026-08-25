@@ -1,5 +1,11 @@
 [
   {
+    "hash": "eee4fb9",
+    "date": "2026-08-25T13:03:38+08:00",
+    "message": "style: 资源卡片优化 — 移除描述和平台角标，渐变描边+顶部稀有度光条+右下切角",
+    "url": "https://github.com/xi7ang/GameHub/commit/eee4fb94e53477243cc8ba54b4f1a67f0e229e06"
+  },
+  {
     "hash": "f40896c",
     "date": "2026-08-25T13:03:25+08:00",
     "message": "style: 资源卡片优化 — 移除描述和平台角标，渐变描边+顶部稀有度光条+右下切角",
