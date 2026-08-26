@@ -1,5 +1,11 @@
 [
   {
+    "hash": "548de3a",
+    "date": "2026-08-26T09:10:46+08:00",
+    "message": "feat: 移除主页卡片GAME角标与hero GAME RESOURCE LIBRARY文案",
+    "url": "https://github.com/xi7ang/GameHub/commit/548de3a1257ebd5dfcc14311b4ddc0bd3fe65a76"
+  },
+  {
     "hash": "65fd8f6",
     "date": "2026-08-25T23:50:25+08:00",
     "message": "sync: 新增资源《米尔卡可乐：苏打之王》",
