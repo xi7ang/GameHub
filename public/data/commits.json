@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5b32ce7",
+    "date": "2026-08-26T21:57:31+08:00",
+    "message": "fix: 详情页移动端封面显式宽度修复(34vw→70vw) + 一键获取弹窗改用icqr 3D动画树二维码",
+    "url": "https://github.com/xi7ang/GameHub/commit/5b32ce7041e8e31b1d23287a4572bf97b59243a1"
+  },
+  {
     "hash": "0655f25",
     "date": "2026-08-26T17:02:24+08:00",
     "message": "fix: 二维码弹窗QR未渲染(时序bug)+移动端封面70vw调大",
@@ -172,11 +178,5 @@
     "date": "2026-08-25T12:44:00+08:00",
     "message": "style: Steam 搜不到的 869 条资源改用霓虹渐变+游戏名伪封面（卡片+详情页，居中大字+光晕+分类emoji+GAME角标）",
     "url": "https://github.com/xi7ang/GameHub/commit/2aae78630b6e56cb21e47bef74a03932556fd6d7"
-  },
-  {
-    "hash": "5ce4fc4",
-    "date": "2026-08-25T12:34:46+08:00",
-    "message": "feat: 163 条资源接入 Steam 封面（storesearch API + cwebp 转 webp，共 164 张 3.4MB）",
-    "url": "https://github.com/xi7ang/GameHub/commit/5ce4fc41371c1923bc79ecf0e51e2b1d9bbbeb13"
   }
 ]

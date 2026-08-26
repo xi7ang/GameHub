@@ -79,19 +79,22 @@
       </div>
     </div>
 
-    <!-- 二维码弹窗（PC 端「一键获取」触发，icqr 3D 动画二维码） -->
-    <div v-if="showQr" class="modal-mask" @click.self="showQr = false">
-      <div class="modal glass modal--icqr">
-        <h3 class="modal__title">📱 扫码获取资源</h3>
-        <p class="text-low modal__hint">请使用手机扫码获取资源</p>
-        <div class="modal__iframe">
+    <!-- 二维码全屏遮罩（PC 端「一键获取」触发，icqr 3D 动画树二维码） -->
+    <div v-if="showQr" class="qr-overlay" @click.self="showQr = false">
+      <div class="qr-overlay__card glass">
+        <button class="qr-overlay__close" @click="showQr = false" title="关闭">✕</button>
+        <h3 class="qr-overlay__title">📱 扫码获取资源</h3>
+        <p class="qr-overlay__hint">请使用手机扫描下方二维码，获取资源链接</p>
+        <div class="qr-overlay__arrow">
+          <span class="qr-overlay__arrow-icon">⬇️</span>
+        </div>
+        <div class="qr-overlay__iframe">
           <iframe :src="icqrSrc" loading="lazy" allow="fullscreen" referrerpolicy="no-referrer"></iframe>
         </div>
-        <div v-if="r?.pwd" class="modal__pwd">
+        <div v-if="r?.pwd" class="qr-overlay__pwd">
           <span class="text-low">提取码：</span>
           <code class="pwd-code">{{ r.pwd }}</code>
         </div>
-        <button class="btn btn-sm mt-md" @click="showQr = false">关闭</button>
       </div>
     </div>
 
@@ -304,7 +307,6 @@ onMounted(load)</script>
 .modal { padding: 30px; text-align: center; max-width: 340px; width: 90%; }
 .modal__title { margin-bottom: 10px; }
 .modal__hint { font-size: 13px; margin-bottom: 16px; }
-.modal--icqr { max-width: 380px; }
 .modal__iframe {
   width: 100%;
   height: 380px;
@@ -314,6 +316,79 @@ onMounted(load)</script>
 }
 .modal__iframe iframe { width: 100%; height: 100%; border: 0; display: block; }
 .modal__pwd { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 4px; }
+
+/* 全屏遮罩版：大画布展示 icqr 3D 动画树 */
+.qr-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(3, 3, 10, 0.9);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.qr-overlay__card {
+  position: relative;
+  width: min(92vw, 1100px);
+  max-height: 94vh;
+  overflow-y: auto;
+  padding: 26px 30px 30px;
+  text-align: center;
+  border-radius: 18px;
+  border: 1px solid rgba(var(--accent-rgb), 0.18);
+  box-shadow: 0 0 60px rgba(var(--accent-rgb), 0.15);
+}
+.qr-overlay__close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  background: transparent;
+  color: var(--text-mid);
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 5;
+}
+.qr-overlay__close:hover { color: var(--neon-cyan); border-color: var(--neon-cyan); }
+.qr-overlay__title { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+.qr-overlay__hint { font-size: 14px; color: var(--text-mid); margin-bottom: 10px; }
+.qr-overlay__arrow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.qr-overlay__arrow-icon {
+  font-size: 44px;
+  line-height: 1;
+  animation: qrBounce 1.2s ease-in-out infinite;
+  filter: drop-shadow(0 0 14px rgba(34, 211, 238, 0.7));
+}
+@keyframes qrBounce {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(12px); opacity: 0.45; }
+}
+.qr-overlay__iframe {
+  width: 100%;
+  height: min(72vh, 760px);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.qr-overlay__iframe iframe { width: 100%; height: 100%; border: 0; display: block; }
+.qr-overlay__pwd { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 14px; }
+
+@media (max-width: 768px) {
+  .qr-overlay { padding: 12px; }
+  .qr-overlay__card { padding: 18px 14px 20px; width: 100%; }
+  .qr-overlay__iframe { height: 60vh; }
+}
 
 @media (max-width: 768px) {
   .detail { grid-template-columns: 1fr; }
