@@ -31,10 +31,11 @@
 <script setup>
 import { useData } from '../composables/useData.js'
 import { useTheme } from '../composables/useTheme.js'
+import { computed } from 'vue'
 
 const { state } = useData()
 const { theme, toggleTheme } = useTheme()
-const site = state.site
+const site = computed(() => state.site)
 </script>
 
 <style scoped>

@@ -35,14 +35,14 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, computed } from 'vue'
 import SiteHeader from '../components/SiteHeader.vue'
 import BgWall from '../components/BgWall.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
 
 const { state, load } = useData()
-const site = state.site
+const site = computed(() => state.site)
 onMounted(load)
 </script>
 

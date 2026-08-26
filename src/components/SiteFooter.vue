@@ -24,8 +24,9 @@
 
 <script setup>
 import { useData } from '../composables/useData.js'
+import { computed } from 'vue'
 const { state } = useData()
-const site = state.site
+const site = computed(() => state.site)
 const year = new Date().getFullYear()
 </script>
 

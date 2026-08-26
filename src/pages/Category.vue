@@ -88,7 +88,7 @@ import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
 
 const { state, load, catMeta } = useData()
-const site = state.site
+const site = computed(() => state.site)
 
 const params = new URLSearchParams(location.search)
 const curCat = params.get('cat')

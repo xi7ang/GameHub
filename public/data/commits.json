@@ -1,5 +1,11 @@
 [
   {
+    "hash": "56c76c9",
+    "date": "2026-08-26T09:38:12+08:00",
+    "message": "feat: 更新热门搜索关键词，替换无货词为实际有货的热门",
+    "url": "https://github.com/xi7ang/GameHub/commit/56c76c9740eaf304a8bf3a76b21aad61c96beb1b"
+  },
+  {
     "hash": "548de3a",
     "date": "2026-08-26T09:10:46+08:00",
     "message": "feat: 移除主页卡片GAME角标与hero GAME RESOURCE LIBRARY文案",

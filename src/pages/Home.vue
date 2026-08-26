@@ -110,7 +110,7 @@ import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
 
 const { state, load } = useData()
-const site = state.site
+const site = computed(() => state.site)
 
 const featured = computed(() => state.resources.filter((r) => r.featured).slice(0, 8))
 const latest = computed(() => state.resources.filter((r) => !r.featured).slice(0, 12))
