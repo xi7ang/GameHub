@@ -3,17 +3,50 @@
   "slogan": "全网游戏资源聚合 · 免费 · 持续更新",
   "description": "GameHub 游戏资源分享站，聚合单机/手游/Switch/联机/MOD/模拟器/游戏工具资源，夸克/UC/迅雷/百度/阿里多网盘支持，每日更新。",
   "announcement": "🎮 GameHub 上线！所有资源免费分享，仅供学习交流，请支持正版。",
-  "qqGroup": "https://qm.qq.com/q/M9U9Hhd1wQ",
+  "qqGroup": "https://qm.qq.com/q/EkPkbcVMaY",
   "telegram": "https://t.me/xi7ang",
   "email": "3511035605@qq.com",
   "footer": "所有资源仅供学习交流使用，请支持正版。如有版权问题，请联系删除。",
   "platforms": {
-    "quark": { "label": "夸克网盘", "icon": "🥤", "color": "#4A90E2" },
-    "uc": { "label": "UC网盘", "icon": "🟠", "color": "#FF6600" },
-    "xunlei": { "label": "迅雷云盘", "icon": "⚡", "color": "#2DBD6C" },
-    "baidu": { "label": "百度网盘", "icon": "🔵", "color": "#293BE4" },
-    "aliyun": { "label": "阿里云盘", "icon": "☁️", "color": "#4A90D9" },
-    "unknown": { "label": "网盘链接", "icon": "🔗", "color": "#888888" }
+    "quark": {
+      "label": "夸克网盘",
+      "icon": "🥤",
+      "color": "#4A90E2"
+    },
+    "uc": {
+      "label": "UC网盘",
+      "icon": "🟠",
+      "color": "#FF6600"
+    },
+    "xunlei": {
+      "label": "迅雷云盘",
+      "icon": "⚡",
+      "color": "#2DBD6C"
+    },
+    "baidu": {
+      "label": "百度网盘",
+      "icon": "🔵",
+      "color": "#293BE4"
+    },
+    "aliyun": {
+      "label": "阿里云盘",
+      "icon": "☁️",
+      "color": "#4A90D9"
+    },
+    "unknown": {
+      "label": "网盘链接",
+      "icon": "🔗",
+      "color": "#888888"
+    }
   },
-  "hotKeywords": ["双人成行", "博德之门3", "塞尔达", "星露谷", "模拟器", "联机", "中文版", "侠盗"]
+  "hotKeywords": [
+    "双人成行",
+    "博德之门3",
+    "塞尔达",
+    "星露谷",
+    "模拟器",
+    "联机",
+    "中文版",
+    "侠盗"
+  ]
 }
