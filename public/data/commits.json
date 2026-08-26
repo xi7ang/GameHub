@@ -1,5 +1,29 @@
 [
   {
+    "hash": "c2c4811",
+    "date": "2026-08-26T15:34:30+08:00",
+    "message": "style: 优化导航栏QQ群/Telegram按钮——品牌主题色+品牌图标，缩小比例适配移动端",
+    "url": "https://github.com/xi7ang/GameHub/commit/c2c4811a81c18c0b0d8e3c4d8dd0f76245bc768d"
+  },
+  {
+    "hash": "0c139be",
+    "date": "2026-08-26T15:28:19+08:00",
+    "message": "feat：更新QQ群链接",
+    "url": "https://github.com/xi7ang/GameHub/commit/0c139be5d245053648cd0054ae0e963ebd8f8c69"
+  },
+  {
+    "hash": "1d59443",
+    "date": "2026-08-26T15:28:18+08:00",
+    "message": "feat：更新QQ群链接",
+    "url": "https://github.com/xi7ang/GameHub/commit/1d594431b1be91d395281024bddbd02faab84a05"
+  },
+  {
+    "hash": "579f098",
+    "date": "2026-08-26T15:28:17+08:00",
+    "message": "feat：更新QQ群链接",
+    "url": "https://github.com/xi7ang/GameHub/commit/579f098bec9bc0ebcecc19fd6f687112fa86c0d7"
+  },
+  {
     "hash": "5d5db27",
     "date": "2026-08-26T13:17:53+08:00",
     "message": "fix: 站点配置表单修改时显示保存条（deep watch siteForm），修复后台无保存按钮问题",
@@ -154,23 +178,5 @@
     "date": "2026-08-25T10:37:44+08:00",
     "message": "style: 自然暖调配色替换霓虹渐变，修复 light 主题切换（补全 data-theme 覆盖规则）",
     "url": "https://github.com/xi7ang/GameHub/commit/ef6ae398a9202962b30f369af630480ef5d5f06b"
-  },
-  {
-    "hash": "0f26a39",
-    "date": "2026-08-25T10:28:33+08:00",
-    "message": "chore: 清洗 970 条资源标题 — 去除站点营销噪声、提取版本号/英文名/特性标签",
-    "url": "https://github.com/xi7ang/GameHub/commit/0f26a394b362553d72da7949de6273d922d6f28e"
-  },
-  {
-    "hash": "b06bbb1",
-    "date": "2026-08-25T10:19:22+08:00",
-    "message": "data: 迁移旧站 1038 条游戏资源，精选 8 条推荐",
-    "url": "https://github.com/xi7ang/GameHub/commit/b06bbb15576622b8c324361b7c0213618cf4cab6"
-  },
-  {
-    "hash": "91e5472",
-    "date": "2026-08-25T10:16:56+08:00",
-    "message": "feat: GameHub 初版 — Vite+Vue MPA 骨架、暗色赛博设计系统、Canvas 粒子背景墙、8 分类、资源/分类/配置后台、CI 部署",
-    "url": "https://github.com/xi7ang/GameHub/commit/91e54724f5037baba83f5f4b73e1061a8c4e2c58"
   }
 ]
