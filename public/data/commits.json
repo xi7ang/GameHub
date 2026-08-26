@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f235a2e",
+    "date": "2026-08-26T10:06:51+08:00",
+    "message": "fix: 修复site响应式丢失bug，热门关键词/口号/QQ群/邮箱等站点配置无法显示",
+    "url": "https://github.com/xi7ang/GameHub/commit/f235a2ebc502b7e4015d7fa2a31298f943f1a38f"
+  },
+  {
     "hash": "56c76c9",
     "date": "2026-08-26T09:38:12+08:00",
     "message": "feat: 更新热门搜索关键词，替换无货词为实际有货的热门",

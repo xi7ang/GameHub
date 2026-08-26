@@ -329,7 +329,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, computed, onMounted } from 'vue'
+import { ref, reactive, computed, onMounted, watch } from 'vue'
 import { useData } from '../composables/useData.js'
 
 const { state, load, parseLines, catLabel, catMeta } = useData()
@@ -420,6 +420,17 @@ const siteForm = reactive({})
 const dirty = ref(false)
 const saving = ref(false)
 const commitMsg = ref('')
+
+// 站点配置表单 deep watch：任何字段修改即标记 dirty，显示保存条
+// siteInit 标志防止 refreshAll() 初始化填充时误触发
+const siteInit = ref(false)
+watch(
+  siteForm,
+  () => {
+    if (siteInit.value) dirty.value = true
+  },
+  { deep: true, flush: 'sync' }
+)
 const tab = ref('resources')
 const tabs = [
   { key: 'resources', icon: '📦', name: '资源管理' },
@@ -434,10 +445,12 @@ const hotKeywordsStr = computed({
 })
 
 async function refreshAll() {
+  siteInit.value = false // 初始化填充期间不触发 dirty
   resources.value = await readFile('public/data/resources.json')
   cats.value = await readFile('public/data/categories.json')
   const site = await readFile('public/data/site.json')
   Object.assign(siteForm, JSON.parse(JSON.stringify(site)))
+  siteInit.value = true // 之后用户任何修改都会触发 dirty
   // 同步前台展示数据
   state.resources = [...resources.value]
   state.categories = [...cats.value]
