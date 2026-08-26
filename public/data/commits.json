@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b105f06",
+    "date": "2026-08-26T22:04:22+08:00",
+    "message": "feat: 一键获取改为全屏遮罩展示icqr 3D动画树二维码+动画箭头引导",
+    "url": "https://github.com/xi7ang/GameHub/commit/b105f0696055a38ce32bea009c957013ece0fcb4"
+  },
+  {
     "hash": "c4812be",
     "date": "2026-08-26T22:04:03+08:00",
     "message": "feat: 一键获取改为全屏遮罩展示icqr 3D动画树二维码+动画箭头引导",
@@ -172,11 +178,5 @@
     "date": "2026-08-25T12:53:46+08:00",
     "message": "style: 统计模块移至页脚上方（无边框+顶部渐变分隔线+大字渐变数字）",
     "url": "https://github.com/xi7ang/GameHub/commit/983e4968274096e427156f0969aa0e4db29a12eb"
-  },
-  {
-    "hash": "946cf01",
-    "date": "2026-08-25T12:53:13+08:00",
-    "message": "style: 统计模块移至页脚上方并取消边框（顶部渐变分隔线+大字渐变数字）",
-    "url": "https://github.com/xi7ang/GameHub/commit/946cf01c66f38dcd89ff7455ba062d31fceef03c"
   }
 ]
