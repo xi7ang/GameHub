@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5d5db27",
+    "date": "2026-08-26T13:17:53+08:00",
+    "message": "fix: 站点配置表单修改时显示保存条（deep watch siteForm），修复后台无保存按钮问题",
+    "url": "https://github.com/xi7ang/GameHub/commit/5d5db27eee7fbd563b60978fcc6d7b976e74d851"
+  },
+  {
     "hash": "f235a2e",
     "date": "2026-08-26T10:06:51+08:00",
     "message": "fix: 修复site响应式丢失bug，热门关键词/口号/QQ群/邮箱等站点配置无法显示",

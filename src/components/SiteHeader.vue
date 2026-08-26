@@ -17,8 +17,8 @@
         <a href="/GameHub/" class="nav-link">首页</a>
         <a href="/GameHub/category.html" class="nav-link">资源库</a>
         <a href="/GameHub/changelog.html" class="nav-link">更新日志</a>
-        <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="nav-cta">💬 QQ群</a>
-        <a v-if="site?.telegram" :href="site.telegram" target="_blank" rel="noreferrer" class="nav-cta nav-cta--tg">✈️ Telegram</a>
+        <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="nav-cta nav-cta--qq"><span class="cta-icon">🐧</span><span class="cta-text">QQ群</span></a>
+        <a v-if="site?.telegram" :href="site.telegram" target="_blank" rel="noreferrer" class="nav-cta nav-cta--tg"><svg class="cta-icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg><span class="cta-text">Telegram</span></a>
         <button class="theme-toggle" @click="toggleTheme" :title="theme === 'dark' ? '切换日间' : '切换夜间'">
           <span v-if="theme === 'dark'">☀️</span>
           <span v-else>🌙</span>
@@ -79,17 +79,24 @@ const site = computed(() => state.site)
 }
 .nav-link:hover { color: var(--text-hi); background: rgba(var(--accent-rgb), 0.1); }
 .nav-cta {
-  padding: 7px 14px;
-  border-radius: 8px;
-  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border-radius: 100px;
+  font-size: 12px;
   font-weight: 600;
-  border: 1px solid var(--glass-border);
-  color: var(--text-hi);
+  color: #fff;
+  border: 1px solid transparent;
   transition: all 0.2s;
+  white-space: nowrap;
 }
-.nav-cta:hover { border-color: var(--neon-purple); box-shadow: var(--shadow-glow); }
-.nav-cta--tg { border-color: rgba(var(--accent2-rgb), 0.35); }
-.nav-cta--tg:hover { border-color: var(--neon-cyan); }
+.cta-icon { display: inline-flex; font-size: 13px; line-height: 1; }
+.cta-text { line-height: 1; }
+.nav-cta--qq { background: #07c160; border-color: #06ad56; }
+.nav-cta--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); }
+.nav-cta--tg { background: #1da1f2; border-color: #1a91da; }
+.nav-cta--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
 .theme-toggle {
   width: 38px;
   height: 38px;
@@ -106,6 +113,15 @@ const site = computed(() => state.site)
 
 @media (max-width: 640px) {
   .nav-link { display: none; }
-  .brand__name { font-size: 19px; }
+  .brand__name { font-size: 18px; }
+  .site-header__inner { height: 56px; }
+  .site-nav { gap: 4px; }
+  .nav-cta { padding: 4px 9px; font-size: 11px; gap: 4px; }
+  .cta-icon { font-size: 12px; }
+  .theme-toggle { width: 32px; height: 32px; font-size: 14px; border-radius: 8px; }
+}
+@media (max-width: 400px) {
+  .brand__name { font-size: 16px; }
+  .nav-cta { padding: 3px 8px; font-size: 10.5px; }
 }
 </style>
