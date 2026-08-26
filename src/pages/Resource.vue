@@ -79,12 +79,14 @@
       </div>
     </div>
 
-    <!-- 二维码弹窗（PC 端「一键获取」触发） -->
+    <!-- 二维码弹窗（PC 端「一键获取」触发，icqr 3D 动画二维码） -->
     <div v-if="showQr" class="modal-mask" @click.self="showQr = false">
-      <div class="modal glass">
+      <div class="modal glass modal--icqr">
         <h3 class="modal__title">📱 扫码获取资源</h3>
         <p class="text-low modal__hint">请使用手机扫码获取资源</p>
-        <div class="modal__qr" ref="qrRef"></div>
+        <div class="modal__iframe">
+          <iframe :src="icqrSrc" loading="lazy" allow="fullscreen" referrerpolicy="no-referrer"></iframe>
+        </div>
         <div v-if="r?.pwd" class="modal__pwd">
           <span class="text-low">提取码：</span>
           <code class="pwd-code">{{ r.pwd }}</code>
@@ -98,8 +100,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch, nextTick } from 'vue'
-import QRCode from 'qrcode'
+import { ref, computed, onMounted } from 'vue'
 import SiteHeader from '../components/SiteHeader.vue'
 import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
@@ -110,7 +111,6 @@ const { state, load, catMeta } = useData()
 const params = new URLSearchParams(location.search)
 const id = params.get('id')
 const showQr = ref(false)
-const qrRef = ref(null)
 
 const r = computed(() => state.resources.find((x) => x.id === id))
 const cat = computed(() => (r.value ? catMeta(r.value.category) : null))
@@ -176,16 +176,15 @@ function onGet(e) {
     showQr.value = true
   }
 }
-
-watch(showQr, async (v) => {
-  if (!v || !r.value) return
-  await nextTick() // 先等 v-if 弹窗挂载完成，再拿 qrRef
-  if (!qrRef.value) return
-  QRCode.toCanvas(qrRef.value, r.value.url, { width: 220, margin: 1, color: { dark: '#0a0a1a', light: '#ffffff' } })
+// icqr 3D 动画二维码地址：q 参数 = base64('00' + url)
+const icqrSrc = computed(() => {
+  if (!r.value) return ''
+  const q = btoa(unescape(encodeURIComponent('00' + r.value.url)))
+  return `https://tree.icqr.com/?q=${q}`
 })
 
-onMounted(load)
-</script>
+
+onMounted(load)</script>
 
 <style scoped>
 .resource-page { min-height: 100vh; }
@@ -305,15 +304,22 @@ onMounted(load)
 .modal { padding: 30px; text-align: center; max-width: 340px; width: 90%; }
 .modal__title { margin-bottom: 10px; }
 .modal__hint { font-size: 13px; margin-bottom: 16px; }
-.modal__qr { display: flex; justify-content: center; margin-bottom: 12px; }
-.modal__qr canvas { border-radius: 10px; background: #fff; }
+.modal--icqr { max-width: 380px; }
+.modal__iframe {
+  width: 100%;
+  height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+.modal__iframe iframe { width: 100%; height: 100%; border: 0; display: block; }
 .modal__pwd { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 4px; }
 
 @media (max-width: 768px) {
   .detail { grid-template-columns: 1fr; }
-  /* 移动端封面：适中大小，比例协调（70vw × 16:9） */
+  /* 移动端封面：显式宽度 70vw（grid item 收缩到内容宽度是之前封面变小的根因） */
   .detail__cover {
-    max-width: 70vw;
+    width: min(70vw, 100%);
     min-height: 0;
     aspect-ratio: 16 / 9;
     justify-self: center;

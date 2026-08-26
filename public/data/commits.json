@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0655f25",
+    "date": "2026-08-26T17:02:24+08:00",
+    "message": "fix: 二维码弹窗QR未渲染(时序bug)+移动端封面70vw调大",
+    "url": "https://github.com/xi7ang/GameHub/commit/0655f25ab6b4b4bf8eadb7a82f0c0acf4836d48b"
+  },
+  {
     "hash": "8ff0558",
     "date": "2026-08-26T16:35:47+08:00",
     "message": "feat: 详情页信息优先重构——小封面(≤50vw)、获取卡片、一键获取PC弹码/移动端直跳",
@@ -172,11 +178,5 @@
     "date": "2026-08-25T12:34:46+08:00",
     "message": "feat: 163 条资源接入 Steam 封面（storesearch API + cwebp 转 webp，共 164 张 3.4MB）",
     "url": "https://github.com/xi7ang/GameHub/commit/5ce4fc41371c1923bc79ecf0e51e2b1d9bbbeb13"
-  },
-  {
-    "hash": "8c2dfc7",
-    "date": "2026-08-25T10:47:16+08:00",
-    "message": "feat: 背景墙改为搬运旧站 HomepageHero 原版实现 — 18行错向滚动封面墙+Steam深蓝底+13张真实封面图",
-    "url": "https://github.com/xi7ang/GameHub/commit/8c2dfc74e6ca3a5c369100fa5d3152a8174332f7"
   }
 ]
