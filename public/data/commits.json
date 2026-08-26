@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c4812be",
+    "date": "2026-08-26T22:04:03+08:00",
+    "message": "feat: 一键获取改为全屏遮罩展示icqr 3D动画树二维码+动画箭头引导",
+    "url": "https://github.com/xi7ang/GameHub/commit/c4812be466b8c3779e612edb444e997bc3ac78e5"
+  },
+  {
     "hash": "5b32ce7",
     "date": "2026-08-26T21:57:31+08:00",
     "message": "fix: 详情页移动端封面显式宽度修复(34vw→70vw) + 一键获取弹窗改用icqr 3D动画树二维码",
@@ -172,11 +178,5 @@
     "date": "2026-08-25T12:53:13+08:00",
     "message": "style: 统计模块移至页脚上方并取消边框（顶部渐变分隔线+大字渐变数字）",
     "url": "https://github.com/xi7ang/GameHub/commit/946cf01c66f38dcd89ff7455ba062d31fceef03c"
-  },
-  {
-    "hash": "2aae786",
-    "date": "2026-08-25T12:44:00+08:00",
-    "message": "style: Steam 搜不到的 869 条资源改用霓虹渐变+游戏名伪封面（卡片+详情页，居中大字+光晕+分类emoji+GAME角标）",
-    "url": "https://github.com/xi7ang/GameHub/commit/2aae78630b6e56cb21e47bef74a03932556fd6d7"
   }
 ]
