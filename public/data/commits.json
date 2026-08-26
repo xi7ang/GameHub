@@ -1,5 +1,41 @@
 [
   {
+    "hash": "65fd8f6",
+    "date": "2026-08-25T23:50:25+08:00",
+    "message": "sync: 新增资源《米尔卡可乐：苏打之王》",
+    "url": "https://github.com/xi7ang/GameHub/commit/65fd8f6557640cbdb5e93e3a3da18be9dbce56aa"
+  },
+  {
+    "hash": "773c05b",
+    "date": "2026-08-25T23:40:23+08:00",
+    "message": "sync: 新增资源《大侠狂想曲 Build.24887599》",
+    "url": "https://github.com/xi7ang/GameHub/commit/773c05b4117acd6c43e94f925181ed4348d78e4f"
+  },
+  {
+    "hash": "e079a92",
+    "date": "2026-08-25T23:30:42+08:00",
+    "message": "sync: 新增资源《奇异动物园 Build.24864714（Strange Zoo）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e079a926289d601e14039cc3e8aea478b85ad82c"
+  },
+  {
+    "hash": "ac7c297",
+    "date": "2026-08-25T23:21:09+08:00",
+    "message": "sync: 新增资源《渔力全开/How to Fish/单机+联机 Build.24847095》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ac7c297733cb338433f1f36dd166bab7853d6b03"
+  },
+  {
+    "hash": "2009904",
+    "date": "2026-08-25T23:11:57+08:00",
+    "message": "sync: 新增资源《鲜花与众神Build.24763380官方中文》",
+    "url": "https://github.com/xi7ang/GameHub/commit/200990423c8e4a64a6de889dd1ab0456467a1e96"
+  },
+  {
+    "hash": "ac9c09e",
+    "date": "2026-08-25T18:47:45+08:00",
+    "message": "data: 分类清洗 — 非游戏进 other、tool 误分重归 pc、双端游戏归 mobile、联机特征归 online",
+    "url": "https://github.com/xi7ang/GameHub/commit/ac9c09edb0aac0654ce0a4ee62f2ec71687ef3b6"
+  },
+  {
     "hash": "45a880b",
     "date": "2026-08-25T17:44:10+08:00",
     "message": "style: 资源分类板块移到最新更新和最新动态之间",

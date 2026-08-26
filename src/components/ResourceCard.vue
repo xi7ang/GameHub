@@ -7,7 +7,6 @@
         <span class="rc__cover-halo" :style="haloStyle"></span>
         <span class="rc__cover-emoji">{{ catMeta(r.category).emoji }}</span>
         <span class="rc__cover-title">{{ r.title }}</span>
-        <span class="rc__cover-tag">GAME</span>
       </template>
       <span v-if="r.featured" class="rc__featured">🔥 推荐</span>
       <span v-if="r.status === 'inactive'" class="rc__inactive">链接失效</span>
@@ -158,20 +157,6 @@ function fmtDate(iso) {
   text-align: center;
   line-height: 1.35;
   max-width: 95%;
-}
-.rc__cover-tag {
-  position: relative;
-  z-index: 2;
-  font-family: var(--font-display);
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 0.35em;
-  color: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 100px;
-  padding: 2px 10px;
-  margin-top: 4px;
-  text-indent: 0.35em;
 }
 .rc__featured {
   position: absolute;

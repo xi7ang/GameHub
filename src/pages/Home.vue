@@ -6,7 +6,6 @@
     <!-- Hero -->
     <section class="hero">
       <div class="container hero__inner">
-        <span class="hero__eyebrow">🎮 GAME RESOURCE LIBRARY</span>
         <h1 class="hero__title">发现全网<br /><em>优质游戏资源</em></h1>
         <p class="hero__subtitle">{{ site?.slogan }} · 单机 / 手游 / Switch / MOD 一站式聚合</p>
         <div class="hero__search">
@@ -144,21 +143,7 @@ onMounted(load)
 .home { min-height: 100vh; }
 
 /* Hero */
-.hero { padding: 90px 0 50px; text-align: center; position: relative; z-index: 1; }
-.hero__eyebrow {
-  display: inline-block;
-  padding: 6px 18px;
-  border-radius: 100px;
-  font-family: var(--font-display);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  color: var(--neon-cyan);
-  border: 1px solid rgba(var(--accent2-rgb), 0.3);
-  background: rgba(var(--accent2-rgb), 0.06);
-  margin-bottom: 22px;
-  animation: fadeInUp 0.6s ease-out;
-}
+.hero { padding: 110px 0 50px; text-align: center; position: relative; z-index: 1; }
 .hero__title {
   font-family: var(--font-display);
   font-size: clamp(40px, 6vw, 72px);
