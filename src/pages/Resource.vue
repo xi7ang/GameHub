@@ -178,10 +178,10 @@ function onGet(e) {
 }
 
 watch(showQr, async (v) => {
-  if (v && r.value && qrRef.value) {
-    await nextTick()
-    QRCode.toCanvas(qrRef.value, r.value.url, { width: 220, margin: 1, color: { dark: '#0a0a1a', light: '#ffffff' } })
-  }
+  if (!v || !r.value) return
+  await nextTick() // 先等 v-if 弹窗挂载完成，再拿 qrRef
+  if (!qrRef.value) return
+  QRCode.toCanvas(qrRef.value, r.value.url, { width: 220, margin: 1, color: { dark: '#0a0a1a', light: '#ffffff' } })
 })
 
 onMounted(load)
@@ -311,11 +311,11 @@ onMounted(load)
 
 @media (max-width: 768px) {
   .detail { grid-template-columns: 1fr; }
-  /* 移动端封面：不超过水平方向 1/2，居中缩略图 */
+  /* 移动端封面：适中大小，比例协调（70vw × 16:9） */
   .detail__cover {
-    max-width: 50vw;
+    max-width: 70vw;
     min-height: 0;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 9;
     justify-self: center;
     margin-top: 20px;
     border-radius: 12px;
