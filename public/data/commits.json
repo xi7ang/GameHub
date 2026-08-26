@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a9e3599",
+    "date": "2026-08-26T22:35:15+08:00",
+    "message": "feat: 弃用icqr改回qrcode库，渐变紫青游戏风二维码+游戏风弹窗",
+    "url": "https://github.com/xi7ang/GameHub/commit/a9e359975532be4003730002205e2723c9a21d5f"
+  },
+  {
     "hash": "b105f06",
     "date": "2026-08-26T22:04:22+08:00",
     "message": "feat: 一键获取改为全屏遮罩展示icqr 3D动画树二维码+动画箭头引导",
@@ -172,11 +178,5 @@
     "date": "2026-08-25T12:58:37+08:00",
     "message": "style: 移动端资源卡片单栏改双栏（Home/分类/搜索/详情页同步）",
     "url": "https://github.com/xi7ang/GameHub/commit/3722cff1f0a96579d19cd1af1d8d0b39de01495d"
-  },
-  {
-    "hash": "983e496",
-    "date": "2026-08-25T12:53:46+08:00",
-    "message": "style: 统计模块移至页脚上方（无边框+顶部渐变分隔线+大字渐变数字）",
-    "url": "https://github.com/xi7ang/GameHub/commit/983e4968274096e427156f0969aa0e4db29a12eb"
   }
 ]

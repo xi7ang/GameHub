@@ -194,10 +194,11 @@ async function drawGradientQr(canvas, text) {
   const tmp = document.createElement('canvas')
   tmp.width = tmp.height = size
   // 1. 生成基础二维码：深色模块不透明，浅色区域透明
+  // 注意：qrcode 库颜色只支持 hex（含 #RRGGBBAA），不支持 rgba() 字符串
   await QRCode.toCanvas(tmp, text, {
     width: size,
     margin: 2,
-    color: { dark: '#000000', light: 'rgba(255,255,255,0)' },
+    color: { dark: '#000000ff', light: '#ffffff00' },
   })
   // 2. 目标画布：白底 + 渐变填充
   const ctx = canvas.getContext('2d')
