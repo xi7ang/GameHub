@@ -20724,5 +20724,28 @@
     "addedAt": "2026-08-27T12:24:37+08:00",
     "updatedAt": "2026-08-27T12:24:37+08:00",
     "month": "202608"
+  },
+  {
+    "id": "pc-202608-0076",
+    "title": "雪山滑雪大冒险 2（全中文）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "休闲竞技",
+      "全中文冒险",
+      "滑雪闯关"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/f3f6a8a041d8?pwd=UwrZ",
+    "pwd": "UwrZ",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "desc": "全中文界面畅爽体验真实雪山滑雪，丰富赛道与角色技能升级，滑行操控流畅感十足，极具挑战的冒险闯关与死亡判定，让你在极速飞驰中享受刺激与乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-08-27T12:28:11+08:00",
+    "updatedAt": "2026-08-27T12:28:11+08:00",
+    "month": "202608"
   }
 ]
