@@ -20922,5 +20922,24 @@
     "addedAt": "2026-08-29T10:20:24+08:00",
     "updatedAt": "2026-08-29T10:20:24+08:00",
     "month": "202608"
+  },
+  {
+    "id": "pc-202608-0086",
+    "title": "制作我的三明治 Build.24205861（Make my Sandwich）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/cdff3a42fe10?pwd=bGcR",
+    "pwd": "bGcR",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "desc": "亲手打造专属三明治，从面包到配料自由搭配，体验趣味制作过程。每一层都是你的创意，满足味蕾的同时享受成就感。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-08-29T10:23:25+08:00",
+    "updatedAt": "2026-08-29T10:23:25+08:00",
+    "month": "202608"
   }
 ]
