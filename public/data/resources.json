@@ -21131,5 +21131,24 @@
     "addedAt": "2026-08-31T18:20:17+08:00",
     "updatedAt": "2026-08-31T18:20:17+08:00",
     "month": "202608"
+  },
+  {
+    "id": "pc-202608-0094",
+    "title": "银河旅店银河酒店v0.6.9Hotel Galactic",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6a04f6adf365?pwd=QlBa",
+    "pwd": "QlBa",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "desc": "星际旅人的终极栖息地，零重力客房与全息星空窗打造沉浸式体验，银河系特色美食与星际酒吧满足味蕾探索，AI管家提供24小时跨星系服务，让每一次入住都成为宇宙漫游的奇妙旅程。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-08-31T18:24:18+08:00",
+    "updatedAt": "2026-08-31T18:24:18+08:00",
+    "month": "202608"
   }
 ]
