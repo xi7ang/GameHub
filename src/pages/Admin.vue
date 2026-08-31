@@ -32,6 +32,12 @@
             <span class="badge">已连接 {{ repo }}</span>
           </div>
           <div class="flex gap-sm">
+            <span v-if="deployState.status !== 'idle'" class="deploy-badge" :class="deployState.status" title="点击查看部署详情" @click="openDeployRun">
+              <template v-if="deployState.status === 'queued' || deployState.status === 'in_progress'">🔄 部署中...</template>
+              <template v-else-if="deployState.status === 'success'">✅ 部署成功</template>
+              <template v-else-if="deployState.status === 'failure'">❌ 部署失败({{ deployState.conclusion }})</template>
+              <template v-else-if="deployState.status === 'timeout'">⏳ 超时，点击查看</template>
+            </span>
             <button class="btn btn-sm" :disabled="saving" @click="deploy">
               {{ deploying ? '触发中...' : '🚀 重新部署' }}
             </button>
@@ -872,6 +878,59 @@ function saveImport() {
 }
 
 // ── 保存 & 部署 ──
+const deployState = ref({ status: 'idle' }) // idle | queued | in_progress | success | failure | timeout
+let pollTimer = null
+let pollCount = 0
+const POLL_MAX = 40
+
+function openDeployRun() {
+  if (deployState.value.htmlUrl) window.open(deployState.value.htmlUrl, '_blank')
+}
+
+function stopPoll() {
+  if (pollTimer) { clearInterval(pollTimer); pollTimer = null }
+}
+
+async function pollDeploy() {
+  if (!token.value) return
+  try {
+    const data = await ghGet('/actions/runs?per_page=1')
+    const run = data.workflow_runs?.[0]
+    if (!run) return
+    // 只认 workflow_dispatch 或 push 触发的 deploy 工作流（排除旧记录）
+    if (run.status === 'completed') {
+      stopPoll()
+      deployState.value = {
+        status: run.conclusion === 'success' ? 'success' : 'failure',
+        conclusion: run.conclusion,
+        htmlUrl: run.html_url,
+      }
+      if (run.conclusion !== 'success') {
+        // 拉取失败日志摘要（jobs → 失败步骤）
+        try {
+          const jobs = await ghGet(`/actions/runs/${run.id}/jobs`)
+          const failedStep = jobs.jobs?.[0]?.steps?.find((s) => s.conclusion === 'failure')
+          deployState.value.failedStep = failedStep?.name || ''
+        } catch { /* 日志获取失败不阻塞 */ }
+      }
+    } else if (run.status === 'in_progress' || run.status === 'queued') {
+      deployState.value = { status: 'in_progress', htmlUrl: run.html_url }
+    }
+  } catch { /* 轮询失败保持现状，继续等 */ }
+  if (++pollCount >= POLL_MAX) {
+    stopPoll()
+    if (deployState.value.status === 'in_progress') deployState.value = { status: 'timeout' }
+  }
+}
+
+function startPoll() {
+  stopPoll()
+  pollCount = 0
+  deployState.value = { status: 'queued' }
+  pollTimer = setInterval(pollDeploy, 10000)
+  pollDeploy()
+}
+
 async function saveAll() {
   if (!dirty.value) return
   saving.value = true
@@ -906,6 +965,7 @@ async function deploy() {
     })
     if (!res.ok && res.status !== 204) throw new Error(`触发失败: ${res.status}`)
     alert('🚀 已触发重新部署')
+    startPoll()
   } catch (e) {
     alert('触发失败: ' + (e.message || e))
   } finally {
@@ -954,6 +1014,30 @@ onMounted(async () => {
   padding: 12px 0;
 }
 .admin-logo { font-family: var(--font-display); font-weight: 700; font-size: 17px; }
+
+/* 部署状态徽章 */
+.deploy-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.deploy-badge.queued, .deploy-badge.in_progress {
+  color: var(--neon-cyan);
+  border-color: rgba(45, 212, 191, 0.45);
+  background: rgba(45, 212, 191, 0.08);
+  animation: pulse 1.4s infinite;
+}
+.deploy-badge.success { color: var(--accent-sage); border-color: rgba(125, 163, 125, 0.5); background: rgba(125, 163, 125, 0.1); }
+.deploy-badge.failure { color: #fb7185; border-color: rgba(244, 63, 94, 0.5); background: rgba(244, 63, 94, 0.1); }
+.deploy-badge.timeout { color: #fbbf24; border-color: rgba(251, 191, 36, 0.5); background: rgba(251, 191, 36, 0.1); }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
 
 /* 主体 */
 .admin-body { display: grid; grid-template-columns: 180px 1fr; gap: 18px; padding-top: 22px; }
