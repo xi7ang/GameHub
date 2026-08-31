@@ -10,7 +10,6 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, '../public/data')
-const PLATFORMS = ['quark', 'uc', 'xunlei', 'baidu', 'aliyun', 'unknown']
 const STATUSES = ['active', 'inactive']
 const TAG_MAX = 8
 const ISO_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}([+-]\d{2}:\d{2}|Z)$/
@@ -44,10 +43,9 @@ cats.forEach((c, i) => {
 // ── site.json ──
 const site = read('site.json')
 check(site.siteName, 'site.json 缺 siteName')
-check(typeof site.platforms === 'object', 'site.json 缺 platforms')
-for (const k of Object.keys(site.platforms)) {
-  check(PLATFORMS.includes(k), `site.json platforms 含未知平台: ${k}`)
-}
+check(typeof site.platforms === 'object' && Object.keys(site.platforms).length > 0, 'site.json 缺 platforms')
+// 平台列表以 site.json 为准（后台可编辑），资源校验与之一致
+const PLATFORMS = Object.keys(site.platforms || {})
 
 // ── resources.json ──
 const res = read('resources.json')

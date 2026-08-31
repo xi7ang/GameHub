@@ -264,6 +264,23 @@
                 <label class="form-label">热门关键词（逗号分隔）</label>
                 <input v-model="hotKeywordsStr" class="form-input" />
               </div>
+              <!-- 平台配置（可编辑，新增网盘不用改代码） -->
+              <div class="form-group" style="grid-column: 1/-1">
+                <label class="form-label">平台配置</label>
+                <div v-for="(p, key) in siteForm.platforms" :key="key" class="plat-row">
+                  <code>{{ key }}</code>
+                  <input v-model="p.label" class="form-input" style="flex: 2" placeholder="平台名" />
+                  <input v-model="p.icon" class="form-input" style="width: 70px" placeholder="图标" />
+                  <input v-model="p.color" class="form-input" style="width: 100px" placeholder="#RRGGBB" />
+                  <button class="btn btn-sm btn-danger" @click="removePlatform(key)">删</button>
+                </div>
+                <div class="plat-row">
+                  <input v-model="newPlatKey" class="form-input" style="width: 90px" placeholder="key" />
+                  <input v-model="newPlatLabel" class="form-input" style="flex: 2" placeholder="新平台名" />
+                  <input v-model="newPlatIcon" class="form-input" style="width: 70px" placeholder="图标" />
+                  <button class="btn btn-sm btn-primary" @click="addPlatform">＋ 添加</button>
+                </div>
+              </div>
             </div>
           </template>
 
@@ -300,6 +317,146 @@
                 </table>
               </div>
             </div>
+          </template>
+
+          <!-- ═══ 数据体检 ═══ -->
+          <template v-else-if="tab === 'health'">
+            <div class="flex-between wrap gap-sm mb-md">
+              <h2>🩺 数据体检</h2>
+              <div class="flex gap-sm wrap">
+                <button class="btn btn-sm" @click="runHealthCheck">🔍 运行体检</button>
+                <button class="btn btn-sm btn-primary" :disabled="!healthFixable.length" @click="fixHealthAll">⚡ 一键修复({{ healthFixable.length }})</button>
+                <button class="btn btn-sm" :disabled="linkChecking" @click="triggerLinkCheck">{{ linkChecking ? '检测中...' : '🌐 链接检测' }}</button>
+              </div>
+            </div>
+
+            <!-- 校验结果 -->
+            <div v-if="healthRun" class="mb-md">
+              <div v-if="healthErrors.length" class="table-wrap">
+                <table class="admin-table">
+                  <thead><tr><th>资源</th><th>问题</th><th style="width: 150px">操作</th></tr></thead>
+                  <tbody>
+                    <tr v-for="(e, i) in healthErrors" :key="i">
+                      <td style="max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{ e.title }}</td>
+                      <td class="text-low">{{ e.msg }}</td>
+                      <td>
+                        <button v-if="e.res" class="btn btn-sm" @click="openEdit(e.res)">编辑</button>
+                        <button v-if="e.fix" class="btn btn-sm" @click="fixOne(e)">修复</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div v-else class="ok-banner mb-md">✅ 数据健康，未发现问题</div>
+            </div>
+
+            <!-- 重复 URL 处理 -->
+            <div v-if="dupUrls.length" class="mb-md">
+              <h3 class="mb-sm">🔁 重复链接 {{ dupUrls.length }} 组（保留最早一条，其余删除）</h3>
+              <div class="flex gap-sm mb-sm">
+                <button class="btn btn-sm btn-danger" @click="fixDupUrls">🗑 一键去重({{ dupTotal }} 条)</button>
+              </div>
+              <div class="table-wrap">
+                <table class="admin-table">
+                  <thead><tr><th>链接</th><th>重复条目</th></tr></thead>
+                  <tbody>
+                    <tr v-for="(g, i) in dupUrls.slice(0, 20)" :key="i">
+                      <td class="text-low" style="font-size: 12px; word-break: break-all; max-width: 300px">{{ g.url }}</td>
+                      <td class="text-low" style="font-size: 12px">{{ g.ids.join('、') }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- 链接检测报告 -->
+            <div v-if="linkReport" class="mb-md">
+              <h3 class="mb-sm">🌐 最近链接检测 <span class="text-low" style="font-size: 12px">{{ linkReport.checkedAt }}</span></h3>
+              <div class="flex gap-sm wrap mb-sm">
+                <span class="badge ok">正常 {{ linkReport.ok }}</span>
+                <span class="badge" :class="linkReport.warn ? '' : 'ok'">需确认 {{ linkReport.warn }}</span>
+                <span class="badge bad">失败 {{ linkReport.fail }}</span>
+                <button class="btn btn-sm" @click="loadLinkReport">刷新</button>
+              </div>
+              <div v-if="linkReport.fails.length" class="table-wrap">
+                <table class="admin-table">
+                  <thead><tr><th>资源</th><th>状态</th><th style="width: 150px">操作</th></tr></thead>
+                  <tbody>
+                    <tr v-for="(f, i) in linkReport.fails.slice(0, 50)" :key="i">
+                      <td style="max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{ f.title }}</td>
+                      <td><span class="badge" :class="f.status >= 400 && f.status < 500 ? 'bad' : ''">{{ f.status }}</span></td>
+                      <td>
+                        <button class="btn btn-sm" @click="openEdit(f)">编辑</button>
+                        <button class="btn btn-sm" @click="markInactive(f)">标失效</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </template>
+
+          <!-- ═══ 备份回滚 ═══ -->
+          <template v-else-if="tab === 'backup'">
+            <div class="flex-between mb-md">
+              <h2>💾 备份与回滚</h2>
+            </div>
+
+            <!-- 一键导出 -->
+            <div class="glass dash-panel mb-md">
+              <h3 class="mb-sm">📤 一键导出</h3>
+              <p class="text-low mb-sm" style="font-size: 12px">导出当前内存中的最新数据（含未提交修改），下载到本地备份。</p>
+              <div class="flex gap-sm wrap">
+                <button class="btn btn-sm" @click="exportJSON('resources')">📦 resources.json</button>
+                <button class="btn btn-sm" @click="exportJSON('categories')">🏷️ categories.json</button>
+                <button class="btn btn-sm" @click="exportJSON('site')">⚙️ site.json</button>
+                <button class="btn btn-sm btn-primary" @click="exportAll">📦 全部导出</button>
+              </div>
+            </div>
+
+            <!-- 历史版本回滚 -->
+            <div class="glass dash-panel">
+              <div class="flex-between mb-sm">
+                <h3>🕘 resources.json 历史版本（最近 {{ historyList.length }} 次提交）</h3>
+                <button class="btn btn-sm" @click="loadHistory">刷新</button>
+              </div>
+              <p class="text-low mb-sm" style="font-size: 12px">回滚会拉取该版本内容覆盖当前数据并提交，可随时再回滚回来。</p>
+              <div v-if="historyLoading" class="text-low">加载中...</div>
+              <div v-else-if="historyList.length" class="history-list">
+                <div v-for="c in historyList" :key="c.sha" class="history-row">
+                  <code class="text-low">{{ c.sha.slice(0, 7) }}</code>
+                  <span class="history-row__msg">{{ c.message }}</span>
+                  <span class="text-low" style="font-size: 12px">{{ fmtShort(c.date) }}</span>
+                  <button class="btn btn-sm" :disabled="rollbacking === c.sha" @click="rollbackTo(c.sha)">
+                    {{ rollbacking === c.sha ? '回滚中...' : '↩ 回滚到此版本' }}
+                  </button>
+                </div>
+              </div>
+              <div v-else class="text-low">暂无历史记录</div>
+            </div>
+          </template>
+
+          <!-- ═══ 操作日志 ═══ -->
+          <template v-else-if="tab === 'logs'">
+            <div class="flex-between mb-md">
+              <h2>📋 操作日志 <span class="text-low" style="font-size: 13px">最近 {{ opLogs.length }} 次提交</span></h2>
+              <button class="btn btn-sm" @click="loadOpLogs">刷新</button>
+            </div>
+            <p class="text-low mb-md" style="font-size: 12px">每次提交到 GitHub 自动记录：时间 / 操作者 / 改动文件数。回滚、封面入库也在这里留痕。</p>
+            <div v-if="opLogs.length" class="table-wrap">
+              <table class="admin-table">
+                <thead><tr><th>时间</th><th>操作者</th><th>改动</th><th>说明</th></tr></thead>
+                <tbody>
+                  <tr v-for="l in opLogs" :key="l.sha">
+                    <td class="text-low" style="font-size: 12px; white-space: nowrap">{{ fmtShort(l.date) }}</td>
+                    <td>{{ l.author }}</td>
+                    <td><span class="badge">{{ l.files }} 文件</span></td>
+                    <td class="text-low" style="font-size: 12px; max-width: 340px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{ l.message }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div v-else class="text-low">加载中...</div>
           </template>
 
           <!-- 保存条 -->
@@ -595,6 +752,9 @@ const tabs = [
   { key: 'categories', icon: '🏷️', name: '分类管理' },
   { key: 'site', icon: '⚙️', name: '站点配置' },
   { key: 'import', icon: '📥', name: '批量导入' },
+  { key: 'health', icon: '🩺', name: '数据体检' },
+  { key: 'backup', icon: '💾', name: '备份回滚' },
+  { key: 'logs', icon: '📋', name: '操作日志' },
 ]
 
 // ── Dashboard 统计 ──
@@ -668,10 +828,275 @@ const qualityWarns = computed(() => {
   return warns
 })
 
+// ── 数据体检（校验逻辑对齐 scripts/validate.js） ──
+const healthRun = ref(false)
+const healthErrors = ref([])
+const ISO_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}([+-]\d{2}:\d{2}|Z)$/
+
+function runHealthCheck() {
+  const errors = []
+  const seenIds = new Set()
+  const seenUrls = new Set()
+  const catKeys = new Set(cats.value.map((c) => c.key))
+  const platKeys = new Set(Object.keys(state.site?.platforms || {}))
+
+  resources.value.forEach((r, i) => {
+    const loc = `[${i}] ${r.title || r.id || '?'}`
+    if (!r.id || typeof r.id !== 'string') errors.push({ title: loc, msg: '缺 id', res: r, type: 'id' })
+    else if (seenIds.has(r.id)) errors.push({ title: loc, msg: `id 重复: ${r.id}`, res: r, type: 'id-dup' })
+    else seenIds.add(r.id)
+    if (!r.title) errors.push({ title: loc, msg: '缺 title', res: r, type: 'title' })
+    if (!catKeys.has(r.category)) errors.push({ title: loc, msg: `category 不存在: ${r.category}`, res: r, type: 'category' })
+    if (!platKeys.has(r.platform)) errors.push({ title: loc, msg: `platform 非法: ${r.platform}`, res: r, type: 'platform' })
+    if (!r.url || !/^https?:\/\//.test(r.url)) errors.push({ title: loc, msg: 'url 非法', res: r, type: 'url' })
+    else {
+      const u = r.url.replace(/[?&]pwd=[^&\s]+/, '').replace(/#.*$/, '')
+      if (seenUrls.has(u)) errors.push({ title: loc, msg: `url 重复: ${u}`, res: r, type: 'url-dup' })
+      else seenUrls.add(u)
+    }
+    if (r.pwd != null && typeof r.pwd !== 'string') errors.push({ title: loc, msg: 'pwd 必须是字符串', res: r, type: 'pwd' })
+    if (r.status !== 'active' && r.status !== 'inactive') errors.push({ title: loc, msg: `status 非法: ${r.status}`, res: r, type: 'status', fix: true })
+    if (typeof r.featured !== 'boolean') errors.push({ title: loc, msg: 'featured 必须是布尔', res: r, type: 'featured', fix: true })
+    if (!Array.isArray(r.tags)) errors.push({ title: loc, msg: 'tags 必须是数组', res: r, type: 'tags', fix: true })
+    else if (r.tags.length > 8) errors.push({ title: loc, msg: `tags 超过 8 个 (${r.tags.length})`, res: r, type: 'tags-max', fix: true })
+    if (!ISO_RE.test(r.addedAt)) errors.push({ title: loc, msg: `addedAt 非 ISO8601: ${r.addedAt}`, res: r, type: 'time' })
+    if (!ISO_RE.test(r.updatedAt)) errors.push({ title: loc, msg: `updatedAt 非 ISO8601: ${r.updatedAt}`, res: r, type: 'time' })
+    if (r.addedAt && ISO_RE.test(r.addedAt)) {
+      const m = r.addedAt.slice(0, 7).replace('-', '')
+      if (r.month !== m) errors.push({ title: loc, msg: `month(${r.month}) ≠ addedAt 派生(${m})`, res: r, type: 'month', fix: true })
+    }
+  })
+  healthErrors.value = errors
+  healthRun.value = true
+}
+
+const healthFixable = computed(() => healthErrors.value.filter((e) => e.fix))
+
+function fixOne(e) {
+  fixHealthItem(e)
+  runHealthCheck()
+  dirty.value = true
+}
+function fixHealthAll() {
+  const list = [...healthFixable.value]
+  if (!list.length) return
+  list.forEach(fixHealthItem)
+  runHealthCheck()
+  dirty.value = true
+  alert(`✅ 已修复 ${list.length} 项，记得点「提交到 GitHub」`)
+}
+function fixHealthItem(e) {
+  const r = e.res
+  if (!r) return
+  switch (e.type) {
+    case 'status': r.status = 'active'; break
+    case 'featured': r.featured = !!r.featured; break
+    case 'tags': r.tags = Array.isArray(r.tags) ? r.tags : []; break
+    case 'tags-max': r.tags = r.tags.slice(0, 8); break
+    case 'month': {
+      const m = r.addedAt.slice(0, 7).replace('-', '')
+      r.month = m
+      break
+    }
+  }
+}
+
+// 重复 URL 分组
+const dupUrls = computed(() => {
+  const map = new Map()
+  resources.value.forEach((r) => {
+    if (!r.url) return
+    const u = r.url.replace(/[?&]pwd=[^&\s]+/, '').replace(/#.*$/, '')
+    if (!map.has(u)) map.set(u, [])
+    map.get(u).push(r)
+  })
+  return [...map.entries()]
+    .filter(([, list]) => list.length > 1)
+    .map(([url, list]) => ({ url, ids: list.map((r) => r.id), list }))
+})
+const dupTotal = computed(() => dupUrls.value.reduce((n, g) => n + g.list.length - 1, 0))
+function fixDupUrls() {
+  if (!dupUrls.value.length) return
+  if (!confirm(`将删除 ${dupTotal.value} 条重复资源（每组保留最早一条），确定？`)) return
+  const keep = new Set()
+  dupUrls.value.forEach((g) => {
+    const sorted = [...g.list].sort((a, b) => (a.addedAt || '').localeCompare(b.addedAt || ''))
+    sorted.slice(1).forEach((r) => keep.add(r.id))
+  })
+  resources.value = resources.value.filter((r) => !keep.has(r.id))
+  dirty.value = true
+  alert(`🗑 已去重 ${keep.size} 条`)
+}
+
+// 失效链接检测（GitHub Actions 服务端跑，写回 link-report.json）
+const linkChecking = ref(false)
+const linkReport = ref(null)
+const LINK_WF = 'check-links.yml'
+async function triggerLinkCheck() {
+  linkChecking.value = true
+  try {
+    const res = await fetch(`${BASE}/repos/${REPO}/actions/workflows/${LINK_WF}/dispatches`, {
+      method: 'POST',
+      headers: { ...apiHeaders(), 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' }),
+    })
+    if (!res.ok && res.status !== 204) throw new Error(`触发失败: ${res.status}`)
+    alert('🚀 已触发链接检测（约 1-2 分钟，完成后点「刷新」查看报告）')
+    // 轮询报告（最多 8 次 × 15s）
+    let tries = 0
+    const t = setInterval(async () => {
+      tries++
+      const before = linkReport.value?.checkedAt || ''
+      await loadLinkReport()
+      if (linkReport.value && linkReport.value.checkedAt !== before) {
+        clearInterval(t)
+        linkChecking.value = false
+        alert('✅ 链接检测完成')
+      } else if (tries >= 8) {
+        clearInterval(t)
+        linkChecking.value = false
+      }
+    }, 15000)
+  } catch (e) {
+    alert('触发失败: ' + (e.message || e))
+    linkChecking.value = false
+  }
+}
+async function loadLinkReport() {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/link-report.json?t=${Date.now()}`)
+    if (!res.ok) { linkReport.value = null; return }
+    linkReport.value = await res.json()
+  } catch { linkReport.value = null }
+}
+function markInactive(r) {
+  const target = resources.value.find((x) => x.id === r.id)
+  if (!target) return
+  target.status = 'inactive'
+  target.updatedAt = new Date().toISOString().replace(/\.\d{3}Z$/, '+08:00').replace(/T/, 'T')
+  dirty.value = true
+  alert('⛔ 已标记为失效，记得提交')
+}
+
+// ── 备份与回滚 ──
+const historyList = ref([])
+const historyLoading = ref(false)
+const rollbacking = ref('')
+
+function exportJSON(kind) {
+  const map = {
+    resources: ['resources.json', resources.value],
+    categories: ['categories.json', cats.value],
+    site: ['site.json', { ...siteForm }],
+  }
+  const [name, data] = map[kind]
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
+  const a = document.createElement('a')
+  a.href = URL.createObjectURL(blob)
+  a.download = name
+  a.click()
+  URL.revokeObjectURL(a.href)
+}
+function exportAll() {
+  exportJSON('resources')
+  exportJSON('categories')
+  exportJSON('site')
+}
+
+async function loadHistory() {
+  historyLoading.value = true
+  try {
+    const data = await ghGet('/commits?path=public/data/resources.json&per_page=10')
+    historyList.value = data.map((c) => ({
+      sha: c.sha,
+      date: c.commit.committer.date,
+      message: c.commit.message.split('\n')[0],
+    }))
+  } catch (e) {
+    alert('加载历史失败: ' + (e.message || e))
+  } finally {
+    historyLoading.value = false
+  }
+}
+
+async function rollbackTo(sha) {
+  if (!confirm(`回滚 resources.json 到 ${sha.slice(0, 7)}？当前未提交的修改会被覆盖。`)) return
+  rollbacking.value = sha
+  try {
+    const meta = await ghGet(`/contents/public/data/resources.json?ref=${sha}`)
+    const content = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\n/g, '')))))
+    resources.value = content
+    state.resources = [...resources.value]
+    dirty.value = true
+    commitMsg.value = `rollback: 回滚数据到 ${sha.slice(0, 7)}`
+    alert('✅ 已载入历史版本到内存，确认无误后点「提交到 GitHub」生效')
+    tab.value = 'resources'
+  } catch (e) {
+    alert('回滚失败: ' + (e.message || e))
+  } finally {
+    rollbacking.value = ''
+  }
+}
+
+// ── 操作日志（GitHub 提交记录，含作者与改动文件数） ──
+const opLogs = ref([])
+async function loadOpLogs() {
+  try {
+    const data = await ghGet('/commits?per_page=15')
+    const logs = await Promise.all(data.map(async (c) => {
+      let files = 0
+      try {
+        const detail = await ghGet(`/commits/${c.sha}`)
+        files = detail.files?.length || 0
+      } catch { /* 单条失败不阻塞 */ }
+      return {
+        sha: c.sha,
+        date: c.commit.committer.date,
+        author: c.commit.author?.name || c.commit.author?.login || 'unknown',
+        message: c.commit.message.split('\n')[0],
+        files,
+      }
+    }))
+    opLogs.value = logs
+  } catch (e) {
+    alert('加载操作日志失败: ' + (e.message || e))
+  }
+}
+
 const hotKeywordsStr = computed({
   get: () => (siteForm.hotKeywords || []).join(', '),
   set: (v) => (siteForm.hotKeywords = v.split(/[,，]/).map((s) => s.trim()).filter(Boolean)),
 })
+
+// ── 平台配置（site.json platforms 可编辑） ──
+const newPlatKey = ref('')
+const newPlatLabel = ref('')
+const newPlatIcon = ref('')
+
+function addPlatform() {
+  const key = newPlatKey.value.trim().toLowerCase()
+  if (!key || !/^[a-z0-9-]+$/.test(key)) { alert('key 只能是小写字母/数字/连字符'); return }
+  if (siteForm.platforms?.[key]) { alert(`平台 ${key} 已存在`); return }
+  if (!newPlatLabel.value.trim()) { alert('请填写平台名称'); return }
+  if (!siteForm.platforms) siteForm.platforms = {}
+  siteForm.platforms[key] = {
+    label: newPlatLabel.value.trim(),
+    icon: newPlatIcon.value.trim() || '🔗',
+    color: '#888888',
+  }
+  newPlatKey.value = ''
+  newPlatLabel.value = ''
+  newPlatIcon.value = ''
+}
+function removePlatform(key) {
+  const used = resources.value.filter((r) => r.platform === key).length
+  const label = siteForm.platforms?.[key]?.label || key
+  if (used > 0 && !confirm(`平台「${label}」下有 ${used} 条资源，删除后这些资源将变为「未知平台」，确定删除？`)) return
+  if (used === 0 && !confirm(`确定删除平台「${label}」？`)) return
+  delete siteForm.platforms[key]
+  // 资源平台回退为 unknown
+  resources.value.forEach((r) => { if (r.platform === key) r.platform = 'unknown' })
+}
 
 async function refreshAll() {
   siteInit.value = false // 初始化填充期间不触发 dirty
@@ -1329,6 +1754,44 @@ onMounted(async () => {
   border: 1px solid rgba(244, 63, 94, 0.3);
   color: #fda4af;
 }
+
+/* 数据体检 */
+.ok-banner {
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(125, 163, 125, 0.1);
+  border: 1px solid rgba(125, 163, 125, 0.4);
+  color: var(--accent-sage);
+}
+
+/* 备份回滚 */
+.history-list { max-height: 420px; overflow-y: auto; }
+.history-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 4px;
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.07);
+  font-size: 13px;
+}
+.history-row code { flex-shrink: 0; }
+.history-row__msg {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 平台配置 */
+.plat-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.plat-row code { width: 80px; flex-shrink: 0; font-size: 12px; }
 
 /* 封面管理 */
 .cover-preview { width: 150px; height: 70px; object-fit: cover; border-radius: 8px; margin-top: 8px; border: 1px solid var(--glass-border); display: block; }
