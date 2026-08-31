@@ -133,10 +133,32 @@
               </div>
             </div>
 
+            <!-- 批量操作栏 -->
+            <div v-if="selectedIds.size" class="bulk-bar mb-md">
+              <span class="bulk-bar__count">已选 {{ selectedIds.size }} 条</span>
+              <select v-model="bulkCat" class="form-input" style="width: auto">
+                <option value="">→ 改分类...</option>
+                <option v-for="c in state.categories" :key="c.key" :value="c.key">{{ c.name }}</option>
+              </select>
+              <button class="btn btn-sm" @click="bulkChange('category')">应用</button>
+              <select v-model="bulkPlat" class="form-input" style="width: auto">
+                <option value="">→ 改平台...</option>
+                <option v-for="(p, k) in state.site?.platforms" :key="k" :value="k">{{ p.label }}</option>
+              </select>
+              <button class="btn btn-sm" @click="bulkChange('platform')">应用</button>
+              <button class="btn btn-sm" @click="bulkFeatured(true)">⭐ 推荐</button>
+              <button class="btn btn-sm" @click="bulkFeatured(false)">取消推荐</button>
+              <button class="btn btn-sm" @click="bulkStatus('inactive')">⛔ 标记失效</button>
+              <button class="btn btn-sm" @click="bulkStatus('active')">✅ 标记正常</button>
+              <button class="btn btn-sm btn-danger" @click="bulkDelete">🗑 删除</button>
+              <button class="btn btn-sm" @click="clearSelect">取消选择</button>
+            </div>
+
             <div class="table-wrap">
               <table class="admin-table">
                 <thead>
                   <tr>
+                    <th style="width: 32px"><input type="checkbox" :checked="allSelected" @change="toggleAll" /></th>
                     <th>ID</th>
                     <th>标题</th>
                     <th>分类</th>
@@ -149,7 +171,8 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="r in filteredResources" :key="r.id">
+                  <tr v-for="r in filteredResources" :key="r.id" :class="{ 'row-selected': selectedIds.has(r.id) }">
+                    <td><input type="checkbox" :checked="selectedIds.has(r.id)" @change="toggleOne(r.id)" /></td>
                     <td class="text-low" style="font-size: 12px">{{ r.id }}</td>
                     <td class="res-title">{{ r.title }}</td>
                     <td><span class="badge">{{ catLabel(r.category) }}</span></td>
@@ -607,6 +630,66 @@ const filteredResources = computed(() => {
   return resources.value.filter((r) => `${r.title} ${r.url} ${r.id}`.toLowerCase().includes(q))
 })
 
+// ── 批量操作 ──
+const selectedIds = ref(new Set())
+const bulkCat = ref('')
+const bulkPlat = ref('')
+const allSelected = computed(() => filteredResources.value.length > 0 && filteredResources.value.every((r) => selectedIds.value.has(r.id)))
+function toggleAll(e) {
+  if (e.target.checked) {
+    const s = new Set(selectedIds.value)
+    filteredResources.value.forEach((r) => s.add(r.id))
+    selectedIds.value = s
+  } else {
+    selectedIds.value = new Set()
+  }
+}
+function toggleOne(id) {
+  const s = new Set(selectedIds.value)
+  if (s.has(id)) s.delete(id)
+  else s.add(id)
+  selectedIds.value = s
+}
+function clearSelect() { selectedIds.value = new Set(); bulkCat.value = ''; bulkPlat.value = '' }
+const selectedItems = computed(() => resources.value.filter((r) => selectedIds.value.has(r.id)))
+function bulkChange(field) {
+  const val = field === 'category' ? bulkCat.value : bulkPlat.value
+  if (!val) { alert(field === 'category' ? '请先选择目标分类' : '请先选择目标平台'); return }
+  if (!selectedItems.value.length) return
+  const nowIso = new Date().toISOString().replace(/\.\d{3}Z$/, '+08:00').replace(/T/, 'T')
+  selectedItems.value.forEach((r) => {
+    r[field] = val
+    r.updatedAt = nowIso
+  })
+  clearSelect()
+  dirty.value = true
+  alert(`✅ 已更新 ${selectedItems.value.length} 条`)
+}
+function bulkFeatured(v) {
+  if (!selectedItems.value.length) return
+  const nowIso = new Date().toISOString().replace(/\.\d{3}Z$/, '+08:00').replace(/T/, 'T')
+  selectedItems.value.forEach((r) => { r.featured = v; r.updatedAt = nowIso })
+  clearSelect()
+  dirty.value = true
+}
+function bulkStatus(s) {
+  if (!selectedItems.value.length) return
+  const nowIso = new Date().toISOString().replace(/\.\d{3}Z$/, '+08:00').replace(/T/, 'T')
+  selectedItems.value.forEach((r) => { r.status = s; r.updatedAt = nowIso })
+  clearSelect()
+  dirty.value = true
+}
+function bulkDelete() {
+  const n = selectedItems.value.length
+  if (!n) return
+  if (!confirm(`确定删除选中的 ${n} 条资源？此操作不可撤销。`)) return
+  const ids = selectedIds.value
+  resources.value = resources.value.filter((x) => !ids.has(x.id))
+  clearSelect()
+  dirty.value = true
+  alert(`🗑 已删除 ${n} 条`)
+}
+
 const editVisible = ref(false)
 const editing = reactive({})
 function blankEdit() {
@@ -912,6 +995,21 @@ onMounted(async () => {
 .badge.ok { color: var(--accent-sage); border-color: rgba(125, 163, 125, 0.45); }
 .badge.bad { color: #fb7185; border-color: rgba(244, 63, 94, 0.4); }
 .empty-row { text-align: center; padding: 40px; }
+
+/* 批量操作栏 */
+.bulk-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(var(--neon-purple), 0.08);
+  border: 1px solid rgba(var(--neon-purple), 0.35);
+  font-size: 13px;
+}
+.bulk-bar__count { font-weight: 700; color: var(--neon-purple); margin-right: 4px; }
+.row-selected td { background: rgba(var(--neon-purple), 0.07); }
 
 /* 分类 */
 .cat-row {
