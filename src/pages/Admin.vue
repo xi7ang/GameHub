@@ -52,6 +52,76 @@
         </nav>
 
         <div class="admin-content glass">
+          <!-- ═══ 总览 Dashboard ═══ -->
+          <template v-if="tab === 'dashboard'">
+            <h2 class="mb-md">📈 数据总览</h2>
+
+            <!-- 统计卡片 -->
+            <div class="stat-grid mb-md">
+              <div class="stat-card">
+                <div class="stat-card__num">{{ resources.length }}</div>
+                <div class="stat-card__label">资源总数</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-card__num">{{ todayAdded }}</div>
+                <div class="stat-card__label">今日新增</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-card__num">{{ monthAdded }}</div>
+                <div class="stat-card__label">本月新增</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-card__num">{{ featuredCount }}</div>
+                <div class="stat-card__label">首页推荐</div>
+              </div>
+              <div class="stat-card" :class="{ warn: inactiveCount > 0 }">
+                <div class="stat-card__num">{{ inactiveCount }}</div>
+                <div class="stat-card__label">失效链接</div>
+              </div>
+            </div>
+
+            <!-- 数据完整度 -->
+            <h3 class="mb-sm">🩺 数据完整度</h3>
+            <div class="mb-md">
+              <div v-for="m in integrity" :key="m.label" class="integrity-row">
+                <span class="integrity-row__label">{{ m.label }}</span>
+                <div class="integrity-bar">
+                  <div class="integrity-bar__fill" :style="{ width: m.pct + '%', background: m.pct === 100 ? 'var(--accent-sage)' : m.pct >= 50 ? 'var(--accent-gold)' : '#fb7185' }"></div>
+                </div>
+                <span class="integrity-row__val">{{ m.ok }}/{{ m.total }} ({{ m.pct }}%)</span>
+              </div>
+            </div>
+
+            <div class="dash-grid">
+              <!-- 分类分布 -->
+              <div class="glass dash-panel">
+                <h3 class="mb-sm">🗂️ 分类分布</h3>
+                <div v-for="c in catDist" :key="c.name" class="dist-row">
+                  <span class="dist-row__label">{{ c.emoji }} {{ c.name }}</span>
+                  <div class="dist-bar"><div class="dist-bar__fill" :style="{ width: c.pct + '%' }"></div></div>
+                  <span class="dist-row__val">{{ c.count }}</span>
+                </div>
+              </div>
+              <!-- 月度趋势 -->
+              <div class="glass dash-panel">
+                <h3 class="mb-sm">📅 月度新增趋势</h3>
+                <div class="trend">
+                  <div v-for="m in monthTrend" :key="m.month" class="trend-col">
+                    <div class="trend-col__bar" :style="{ height: m.pct + '%' }" :title="m.month + ': ' + m.count + ' 条'"></div>
+                    <div class="trend-col__label">{{ m.label }}</div>
+                  </div>
+                </div>
+                <p v-if="!monthTrend.length" class="text-low">暂无数据</p>
+              </div>
+            </div>
+
+            <!-- 数据质量告警 -->
+            <div v-if="qualityWarns.length" class="mt-md">
+              <h3 class="mb-sm">⚠️ 数据质量提示</h3>
+              <div v-for="w in qualityWarns" :key="w" class="warn-row">{{ w }}</div>
+            </div>
+          </template>
+
           <!-- ═══ 资源管理 ═══ -->
           <template v-if="tab === 'resources'">
             <div class="flex-between wrap gap-sm mb-md">
@@ -431,13 +501,85 @@ watch(
   },
   { deep: true, flush: 'sync' }
 )
-const tab = ref('resources')
+const tab = ref('dashboard')
 const tabs = [
+  { key: 'dashboard', icon: '📈', name: '总览' },
   { key: 'resources', icon: '📦', name: '资源管理' },
   { key: 'categories', icon: '🏷️', name: '分类管理' },
   { key: 'site', icon: '⚙️', name: '站点配置' },
   { key: 'import', icon: '📥', name: '批量导入' },
 ]
+
+// ── Dashboard 统计 ──
+const todayAdded = computed(() => {
+  const t = new Date()
+  const p = (n) => String(n).padStart(2, '0')
+  const today = `${t.getFullYear()}-${p(t.getMonth() + 1)}-${p(t.getDate())}`
+  return resources.value.filter((r) => (r.addedAt || '').startsWith(today)).length
+})
+const monthAdded = computed(() => {
+  const t = new Date()
+  const ym = `${t.getFullYear()}${String(t.getMonth() + 1).padStart(2, '0')}`
+  return resources.value.filter((r) => (r.month || '') === ym).length
+})
+const featuredCount = computed(() => resources.value.filter((r) => r.featured).length)
+const inactiveCount = computed(() => resources.value.filter((r) => r.status === 'inactive').length)
+
+const integrity = computed(() => {
+  const total = resources.value.length || 1
+  const mk = (label, okCount) => ({
+    label,
+    ok: okCount,
+    total: resources.value.length,
+    pct: Math.round((okCount / total) * 100),
+  })
+  return [
+    mk('大小 (size)', resources.value.filter((r) => r.size).length),
+    mk('封面 (cover)', resources.value.filter((r) => r.cover).length),
+    mk('英文名 (enTitle)', resources.value.filter((r) => r.enTitle).length),
+    mk('描述 (desc)', resources.value.filter((r) => r.desc).length),
+  ]
+})
+
+const catDist = computed(() => {
+  const total = resources.value.length || 1
+  return [...cats.value]
+    .sort((a, b) => a.order - b.order)
+    .map((c) => ({
+      name: c.name,
+      emoji: c.emoji || '📦',
+      count: resources.value.filter((r) => r.category === c.key).length,
+      pct: Math.round((resources.value.filter((r) => r.category === c.key).length / total) * 100),
+    }))
+})
+
+const monthTrend = computed(() => {
+  const map = {}
+  resources.value.forEach((r) => { if (r.month) map[r.month] = (map[r.month] || 0) + 1 })
+  const keys = Object.keys(map).sort().slice(-6)
+  const max = Math.max(1, ...keys.map((k) => map[k]))
+  return keys.map((k) => ({
+    month: k,
+    label: `${k.slice(0, 4)}.${k.slice(4)}`,
+    count: map[k],
+    pct: Math.round((map[k] / max) * 100),
+  }))
+})
+
+const qualityWarns = computed(() => {
+  const warns = []
+  if (!resources.value.length) return warns
+  const noSize = resources.value.filter((r) => !r.size).length
+  const noCover = resources.value.filter((r) => !r.cover).length
+  const noEn = resources.value.filter((r) => !r.enTitle).length
+  if (noSize) warns.push(`📏 有 ${noSize} 条资源未填大小（占 ${Math.round((noSize / resources.value.length) * 100)}%），排序与展示不完整`)
+  if (noCover) warns.push(`🖼️ 有 ${noCover} 条资源无封面（占 ${Math.round((noCover / resources.value.length) * 100)}%），前台将显示渐变占位图`)
+  if (noEn) warns.push(`🌐 有 ${noEn} 条资源缺英文名（占 ${Math.round((noEn / resources.value.length) * 100)}%），Steam 封面匹配和英文搜索受影响`)
+  cats.value.forEach((c) => {
+    if (c.show && !resources.value.some((r) => r.category === c.key)) warns.push(`📭 分类「${c.name}」前台显示但无资源`)
+  })
+  return warns
+})
 
 const hotKeywordsStr = computed({
   get: () => (siteForm.hotKeywords || []).join(', '),
@@ -795,6 +937,56 @@ onMounted(async () => {
 /* 表单 */
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
 .import-area { min-height: 200px; font-family: monospace; font-size: 13px; }
+
+/* Dashboard */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
+.stat-card {
+  padding: 18px 16px;
+  border-radius: 14px;
+  background: rgba(var(--accent-rgb), 0.06);
+  border: 1px solid rgba(var(--accent-rgb), 0.15);
+  text-align: center;
+}
+.stat-card__num { font-size: 30px; font-weight: 800; font-family: var(--font-display); }
+.stat-card__label { font-size: 12px; color: var(--text-low); margin-top: 4px; }
+.stat-card.warn { border-color: rgba(244, 63, 94, 0.5); background: rgba(244, 63, 94, 0.08); }
+.stat-card.warn .stat-card__num { color: #fb7185; }
+
+.integrity-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.integrity-row__label { width: 130px; font-size: 13px; color: var(--text-mid); flex-shrink: 0; }
+.integrity-bar { flex: 1; height: 10px; border-radius: 6px; background: rgba(var(--accent-rgb), 0.1); overflow: hidden; }
+.integrity-bar__fill { height: 100%; border-radius: 6px; transition: width 0.4s; }
+.integrity-row__val { width: 110px; font-size: 12px; color: var(--text-low); text-align: right; flex-shrink: 0; }
+
+.dash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.dash-panel { padding: 20px; border-radius: 14px; }
+.dist-row { display: flex; align-items: center; gap: 12px; margin-bottom: 9px; font-size: 13px; }
+.dist-row__label { width: 110px; flex-shrink: 0; }
+.dist-bar { flex: 1; height: 9px; border-radius: 5px; background: rgba(var(--accent-rgb), 0.1); overflow: hidden; }
+.dist-bar__fill { height: 100%; border-radius: 5px; background: linear-gradient(90deg, var(--accent-gold), var(--accent-gold-deep)); }
+.dist-row__val { width: 44px; text-align: right; color: var(--text-low); flex-shrink: 0; }
+
+.trend { display: flex; align-items: flex-end; gap: 10px; height: 160px; padding-top: 8px; }
+.trend-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 6px; }
+.trend-col__bar {
+  width: 100%;
+  max-width: 44px;
+  min-height: 3px;
+  border-radius: 6px 6px 2px 2px;
+  background: linear-gradient(180deg, var(--neon-cyan), var(--neon-purple));
+  transition: height 0.4s;
+}
+.trend-col__label { font-size: 11px; color: var(--text-low); white-space: nowrap; }
+
+.warn-row {
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  font-size: 13px;
+  background: rgba(244, 63, 94, 0.08);
+  border: 1px solid rgba(244, 63, 94, 0.3);
+  color: #fda4af;
+}
 
 /* 保存条 */
 .save-bar {
