@@ -357,7 +357,11 @@
           </div>
           <div class="form-group">
             <label class="form-label">封面 URL（可空）</label>
-            <input v-model="editing.cover" class="form-input" placeholder="留空自动生成霓虹渐变封面" />
+            <div class="flex gap-sm">
+              <input v-model="editing.cover" class="form-input" placeholder="留空自动生成霓虹渐变封面" />
+              <button class="btn btn-sm" type="button" @click="openCoverPicker">🖼 管理</button>
+            </div>
+            <img v-if="editing.cover" :src="editing.cover" class="cover-preview" alt="预览" />
           </div>
           <div class="form-group" style="grid-column: 1/-1">
             <label class="form-label">描述</label>
@@ -422,6 +426,50 @@
           <button class="btn btn-primary" @click="confirmCatEdit">保存</button>
           <button class="btn" @click="catEditVisible = false">取消</button>
         </div>
+      </div>
+    </div>
+    <!-- 封面管理弹窗 -->
+    <div v-if="coverPickerVisible" class="modal-mask" @click.self="coverPickerVisible = false">
+      <div class="modal glass modal--wide">
+        <h3 class="modal__title">🖼 封面管理 <span class="text-low" style="font-size: 13px">已选: {{ editing.cover || '无' }}</span></h3>
+
+        <!-- ① 仓库已有封面 -->
+        <h4 class="cover-sec-title">① 仓库已有封面（点击选用）</h4>
+        <div class="cover-grid">
+          <div
+            v-for="c in repoCovers"
+            :key="c"
+            class="cover-cell"
+            :class="{ active: editing.cover === c.url }"
+            @click="pickCover(c.url)"
+          >
+            <img :src="c.url" :alt="c.name" loading="lazy" />
+            <span class="cover-cell__name">{{ c.name }}</span>
+          </div>
+          <div v-if="!repoCovers.length" class="text-low" style="grid-column: 1/-1">加载中...</div>
+        </div>
+
+        <!-- ② Steam 匹配 -->
+        <h4 class="cover-sec-title">② Steam 封面匹配</h4>
+        <div class="flex gap-sm mb-sm">
+          <input v-model="steamQuery" class="form-input" style="flex: 1" placeholder="输入英文名搜索，如：Stardew Valley" @keydown.enter="steamSearch" />
+          <button class="btn btn-sm" :disabled="steamLoading" @click="steamSearch">{{ steamLoading ? '搜索中...' : '🔍 搜索' }}</button>
+        </div>
+        <div v-if="steamResults.length" class="cover-grid">
+          <div v-for="s in steamResults" :key="s.id" class="cover-cell" :class="{ active: editing.cover === s.url }" @click="pickSteam(s)">
+            <img :src="s.url" :alt="s.name" loading="lazy" />
+            <span class="cover-cell__name">{{ s.name }}</span>
+          </div>
+        </div>
+        <p v-if="steamError" class="text-low" style="color: #fb7185; font-size: 12px">{{ steamError }}</p>
+
+        <!-- ③ URL 抓取入库 -->
+        <h4 class="cover-sec-title">③ 从图片 URL 抓取转 webp 入库</h4>
+        <div class="flex gap-sm">
+          <input v-model="grabUrl" class="form-input" style="flex: 1" placeholder="https://.../cover.jpg（支持 jpg/png/webp）" @keydown.enter="grabCover" />
+          <button class="btn btn-sm" :disabled="grabbing" @click="grabCover">{{ grabbing ? '抓取中...' : '⬇️ 抓取入库' }}</button>
+        </div>
+        <p v-if="grabMsg" class="text-low" style="font-size: 12px; margin-top: 6px" :style="{ color: grabErr ? '#fb7185' : '' }">{{ grabMsg }}</p>
       </div>
     </div>
   </div>
@@ -510,6 +558,16 @@ async function writeFile(filePath, content, message) {
   if (fileCache[filePath]?.sha) body.sha = fileCache[filePath].sha
   const meta = await ghPut(`/contents/${filePath}`, body)
   fileCache[filePath] = { sha: meta.content.sha, content }
+}
+// 二进制文件写入（封面图片）：base64 内容，需先查 sha 再覆盖
+async function writeFileBinary(filePath, base64Content, message) {
+  const body = { message, content: base64Content }
+  try {
+    const meta = await ghGet(`/contents/${filePath}`)
+    if (meta.sha) body.sha = meta.sha
+  } catch { /* 文件不存在则新建 */ }
+  const meta = await ghPut(`/contents/${filePath}`, body)
+  fileCache[filePath] = { sha: meta.content.sha }
 }
 
 // ── 数据状态 ──
@@ -827,6 +885,103 @@ function catIconStyle(c) {
 function countBy(key) { return resources.value.filter((r) => r.category === key).length }
 function platIcon(p) { return state.site?.platforms?.[p]?.icon || '🔗' }
 
+// ── 封面管理 ──
+const coverPickerVisible = ref(false)
+const repoCovers = ref([])
+const steamQuery = ref('')
+const steamResults = ref([])
+const steamLoading = ref(false)
+const steamError = ref('')
+const grabUrl = ref('')
+const grabbing = ref(false)
+const grabMsg = ref('')
+const grabErr = ref(false)
+const pendingUploads = ref([]) // 待入库 webp: { path, content }
+
+async function loadRepoCovers() {
+  try {
+    const files = await ghGet('/contents/public/covers')
+    repoCovers.value = files
+      .filter((f) => /^\.(webp|jpg|jpeg|png)$/i.test(f.name))
+      .map((f) => ({ name: f.name, url: `/GameHub/covers/${f.name}` }))
+      .sort((a, b) => a.name.localeCompare(b.name))
+  } catch {
+    repoCovers.value = []
+  }
+}
+
+function openCoverPicker() {
+  coverPickerVisible.value = true
+  loadRepoCovers()
+  steamError.value = ''
+  grabMsg.value = ''
+  grabErr.value = false
+}
+
+function pickCover(url) {
+  editing.cover = url
+}
+
+async function steamSearch() {
+  const q = steamQuery.value.trim()
+  if (!q) return
+  steamLoading.value = true
+  steamError.value = ''
+  try {
+    const res = await fetch(`https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(q)}&cc=cn&l=schinese`)
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    const json = await res.json()
+    steamResults.value = (json.items || []).slice(0, 12).map((it) => ({
+      id: it.id,
+      name: it.name,
+      url: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${it.id}/header.jpg`,
+    }))
+    if (!steamResults.value.length) steamError.value = '未找到匹配，换英文名试试'
+  } catch (e) {
+    steamError.value = '搜索失败: ' + (e.message || e)
+  } finally {
+    steamLoading.value = false
+  }
+}
+
+function pickSteam(s) {
+  editing.cover = s.url
+}
+
+// URL 抓图 → webp → 暂存，随 saveAll 一起提交（只部署一次）
+async function grabCover() {
+  const url = grabUrl.value.trim()
+  if (!url) return
+  grabbing.value = true
+  grabMsg.value = ''
+  grabErr.value = false
+  try {
+    const res = await fetch(url)
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    const blob = await res.blob()
+    const bmp = await createImageBitmap(blob)
+    const canvas = document.createElement('canvas')
+    canvas.width = bmp.width
+    canvas.height = bmp.height
+    canvas.getContext('2d').drawImage(bmp, 0, 0)
+    const webpBlob = await new Promise((r) => canvas.toBlob(r, 'image/webp', 0.82))
+    if (!webpBlob) throw new Error('webp 编码失败')
+    const buf = await webpBlob.arrayBuffer()
+    const bytes = new Uint8Array(buf)
+    let bin = ''
+    for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i])
+    const name = `cover-${Date.now()}.webp`
+    pendingUploads.value.push({ path: `public/covers/${name}`, content: btoa(bin) })
+    editing.cover = `/GameHub/covers/${name}`
+    grabMsg.value = `✅ 已暂存 /GameHub/covers/${name}（点击「提交到 GitHub」时一并上传）`
+  } catch (e) {
+    grabErr.value = true
+    grabMsg.value = '抓取失败: ' + (e.message || e) + '（可能被 CORS 拦截，可改用 Steam 匹配或直接粘贴 URL）'
+  } finally {
+    grabbing.value = false
+  }
+}
+
 // ── 批量导入 ──
 const importText = ref('')
 const importCat = ref('pc')
@@ -936,6 +1091,11 @@ async function saveAll() {
   saving.value = true
   try {
     const msg = commitMsg.value.trim() || 'chore: 更新 GameHub 数据'
+    // 先上传暂存的封面图片（每个文件一次 commit）
+    for (const up of pendingUploads.value) {
+      await writeFileBinary(up.path, up.content, `add: 封面 ${up.path.split('/').pop()}`)
+    }
+    pendingUploads.value = []
     await writeFile('public/data/resources.json', resources.value, msg)
     await writeFile('public/data/categories.json', cats.value, msg)
     await writeFile('public/data/site.json', { ...siteForm }, msg)
@@ -1168,6 +1328,38 @@ onMounted(async () => {
   background: rgba(244, 63, 94, 0.08);
   border: 1px solid rgba(244, 63, 94, 0.3);
   color: #fda4af;
+}
+
+/* 封面管理 */
+.cover-preview { width: 150px; height: 70px; object-fit: cover; border-radius: 8px; margin-top: 8px; border: 1px solid var(--glass-border); display: block; }
+.cover-sec-title { margin: 18px 0 10px; font-size: 14px; color: var(--text-mid); }
+.cover-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+  gap: 10px;
+  max-height: 240px;
+  overflow-y: auto;
+  padding: 2px;
+}
+.cover-cell {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  background: rgba(var(--accent-rgb), 0.06);
+  transition: all 0.15s;
+}
+.cover-cell:hover { border-color: var(--neon-cyan); transform: translateY(-2px); }
+.cover-cell.active { border-color: var(--neon-purple); box-shadow: 0 0 0 1px var(--neon-purple); }
+.cover-cell img { width: 100%; height: 56px; object-fit: cover; display: block; }
+.cover-cell__name {
+  display: block;
+  padding: 4px 6px;
+  font-size: 11px;
+  color: var(--text-low);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* 保存条 */
