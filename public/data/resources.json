@@ -201,7 +201,7 @@
     "cover": "/GameHub/covers/1623730.webp",
     "desc": "版本 v0.6.5.77287 · 单机 · 联机 · 存档 · MOD",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -220,7 +220,7 @@
     "cover": "/GameHub/covers/1623730.webp",
     "desc": "",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -441,7 +441,7 @@
     "cover": "/GameHub/covers/304240.webp",
     "desc": "中文",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -835,7 +835,7 @@
     "cover": "",
     "desc": "版本 v20260203 · DLC · 存档",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -997,7 +997,7 @@
     "cover": "",
     "desc": "",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -1185,7 +1185,7 @@
     "cover": "/GameHub/covers/304240.webp",
     "desc": "中文",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -1947,7 +1947,7 @@
     "cover": "",
     "desc": "",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -1992,7 +1992,7 @@
     "cover": "",
     "desc": "MOD",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604"
@@ -18514,7 +18514,7 @@
     "cover": "/GameHub/covers/3180150.webp",
     "desc": "版本 Build.21722697 · 模拟器",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -18632,7 +18632,7 @@
     "cover": "/GameHub/covers/1981570.webp",
     "desc": "版本 v1.2.2 · DLC",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -18711,7 +18711,7 @@
     "cover": "/GameHub/covers/2195120.webp",
     "desc": "版本 Build.24423357 · 单机 · 联机",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -18859,7 +18859,7 @@
     "cover": "/GameHub/covers/286160.webp",
     "desc": "版本 v1.5.3 · 模拟器 · 联机补丁 · 联机",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -19101,7 +19101,7 @@
     "cover": "/GameHub/covers/282440.webp",
     "desc": "中文",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -19423,7 +19423,7 @@
     "cover": "/GameHub/covers/2739990.webp",
     "desc": "版本 v0.2.62 · DLC",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -19463,7 +19463,7 @@
     "cover": "/GameHub/covers/2165620.webp",
     "desc": "版本 Build.24507911 · 模拟器",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -19546,7 +19546,7 @@
     "cover": "/GameHub/covers/270150.webp",
     "desc": "版本 Build.24390666 · DLC · 单机 · 联机",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
