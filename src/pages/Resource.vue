@@ -40,8 +40,8 @@
 
             <!-- 获取卡片：平台 + 提取码 + 一键获取 -->
             <div class="get-card">
-              <div class="platform-card" :style="platformCardStyle">
-                <div class="platform-card__icon">
+              <div class="platform-card">
+                <div class="platform-card__icon" :style="platformIconStyle">
                   <img v-if="platform?.iconImg" class="platform-card__icon-img" :src="platform.iconImg" :alt="platform?.label || '网盘'" />
                   <span v-else>{{ platform?.icon }}</span>
                 </div>
@@ -157,12 +157,9 @@ const catBadgeStyle = computed(() => {
     background: cat.value.gradient[0] + '14',
   }
 })
-const platformCardStyle = computed(() => {
+const platformIconStyle = computed(() => {
   const c = platform.value?.color || '#888'
-  return {
-    border: `1px solid ${c}44`,
-    background: `${c}0d`,
-  }
+  return { background: c + '1a' }
 })
 
 function fmtFull(iso) {
@@ -334,30 +331,30 @@ onMounted(load)</script>
   flex-direction: column;
   gap: 14px;
   margin: 16px 0 20px;
-  padding: 16px;
-  border-radius: 14px;
-  border: 1px solid rgba(var(--accent-rgb), 0.18);
-  background: rgba(var(--accent-rgb), 0.05);
+  padding: 18px;
+  border-radius: 16px;
+  /* 无边框：柔和渐变底替代框线 */
+  background: linear-gradient(160deg, rgba(var(--accent-rgb), 0.09), rgba(var(--accent-rgb), 0.02) 55%, transparent);
 }
 
 .platform-card {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 .platform-card__icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 28px;
-  flex: 0 0 40px;
-  height: 40px;
+  flex: 0 0 44px;
+  height: 44px;
+  border-radius: 12px;
+  font-size: 24px;
 }
 .platform-card__icon-img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
-  border-radius: 8px;
 }
 .platform-card__name { font-weight: 700; font-size: 15px; }
 .platform-card__desc { font-size: 13px; margin-top: 2px; }
@@ -374,7 +371,7 @@ onMounted(load)</script>
   letter-spacing: 0.1em;
   color: var(--neon-cyan);
 }
-.detail__btn { font-size: 16px; padding: 13px 28px; justify-content: center; }
+.detail__btn { font-size: 16px; padding: 13px 28px; justify-content: center; width: 100%; }
 .detail__desc { font-size: 15px; color: var(--text-mid); margin-bottom: 20px; }
 .detail__meta { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; margin-top: auto; border-top: 1px solid var(--glass-border); padding-top: 16px; }
 
