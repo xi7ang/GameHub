@@ -51,7 +51,8 @@
                 </div>
               </div>
 
-              <div v-if="r.pwd" class="pwd-row">
+              <!-- 提取码行：当前隐藏（pwd-row），需要时改回 v-if="r.pwd" -->
+              <div v-if="false && r.pwd" class="pwd-row">
                 <span class="text-low">提取码：</span>
                 <code class="pwd-code">{{ r.pwd }}</code>
                 <button class="btn btn-sm" @click="copyPwd">📋 复制</button>
