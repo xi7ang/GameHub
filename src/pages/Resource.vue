@@ -14,7 +14,11 @@
         <div class="detail glass fade-up">
           <!-- 封面：小尺寸配图（移动端 ≤50vw，PC 端 ≤1/2 宽） -->
           <div class="detail__cover" :style="coverStyle">
-            <img v-if="r.cover" :src="r.cover" :alt="r.title" />
+            <template v-if="r.cover">
+              <!-- 氛围底图（模糊放大） + 完整封面（contain 不裁切） -->
+              <img class="detail__cover-bg" :src="r.cover" alt="" aria-hidden="true" />
+              <img class="detail__cover-img" :src="r.cover" :alt="r.title" />
+            </template>
             <template v-else>
               <span class="detail__cover-halo" :style="haloStyle"></span>
               <span class="detail__cover-emoji">{{ cat?.emoji }}</span>
@@ -37,7 +41,10 @@
             <!-- 获取卡片：平台 + 提取码 + 一键获取 -->
             <div class="get-card">
               <div class="platform-card" :style="platformCardStyle">
-                <div class="platform-card__icon">{{ platform?.icon }}</div>
+                <div class="platform-card__icon">
+                  <img v-if="platform?.iconImg" class="platform-card__icon-img" :src="platform.iconImg" :alt="platform?.label || '网盘'" />
+                  <span v-else>{{ platform?.icon }}</span>
+                </div>
                 <div class="platform-card__body">
                   <div class="platform-card__name">{{ platform?.label }}</div>
                   <div v-if="platform?.desc" class="platform-card__desc text-low">{{ platform.desc }}</div>
@@ -262,7 +269,25 @@ onMounted(load)</script>
   padding: 24px;
   overflow: hidden;
 }
-.detail__cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.detail__cover-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(20px) brightness(0.62) saturate(1.2);
+  transform: scale(1.12);
+  pointer-events: none;
+}
+.detail__cover-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 6px;
+}
 .detail__cover-halo {
   position: absolute;
   inset: -20%;
@@ -320,7 +345,20 @@ onMounted(load)</script>
   align-items: center;
   gap: 14px;
 }
-.platform-card__icon { font-size: 28px; }
+.platform-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex: 0 0 40px;
+  height: 40px;
+}
+.platform-card__icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 8px;
+}
 .platform-card__name { font-weight: 700; font-size: 15px; }
 .platform-card__desc { font-size: 13px; margin-top: 2px; }
 
