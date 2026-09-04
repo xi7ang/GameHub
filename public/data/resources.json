@@ -21405,5 +21405,24 @@
     "addedAt": "2026-09-04T13:14:28+08:00",
     "updatedAt": "2026-09-04T13:14:28+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0008",
+    "title": "包裹混乱 Build.24944281（Package chaos）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/79aa7a7d5d96?pwd=0OP9",
+    "pwd": "0OP9",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "desc": "在混乱的包裹世界中，玩家需要快速识别、分类和配送，考验反应与策略。独特的关卡设计带来不断升级的挑战，趣味十足，让人欲罢不能。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-04T13:37:42+08:00",
+    "updatedAt": "2026-09-04T13:37:42+08:00",
+    "month": "202609"
   }
 ]
