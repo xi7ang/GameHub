@@ -16,7 +16,7 @@
           <a
             v-for="k in site?.hotKeywords || []"
             :key="k"
-            :href="`/GameHub/search.html?q=${encodeURIComponent(k)}`"
+            :href="`/search.html?q=${encodeURIComponent(k)}`"
             class="hot-tag"
           >{{ k }}</a>
         </div>
@@ -46,7 +46,7 @@
         <a
           v-for="(c, i) in state.categories"
           :key="c.key"
-          :href="`/GameHub/category.html?cat=${c.key}`"
+          :href="`/category.html?cat=${c.key}`"
           class="cat-card glass fade-up"
           :class="`fade-up-${(i % 3) + 1}`"
         >

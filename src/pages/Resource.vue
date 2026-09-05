@@ -83,7 +83,7 @@
       <div v-else class="empty glass">
         <div style="font-size: 40px; margin-bottom: 10px">🕹️</div>
         <p>资源不存在或已被移除</p>
-        <a href="/GameHub/" class="btn btn-primary mt-md">返回首页</a>
+        <a href="/" class="btn btn-primary mt-md">返回首页</a>
       </div>
     </div>
 
@@ -116,14 +116,46 @@ import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
+import { shortId } from '../lib/short.js'
+
+const BASE = import.meta.env.BASE_URL
 
 const { state, load, catMeta } = useData()
 const params = new URLSearchParams(location.search)
-const id = params.get('id')
+const rawId = params.get('id')
+const legacyCat = params.get('c')
 const showQr = ref(false)
 const qrRef = ref(null)
 
-const r = computed(() => state.resources.find((x) => x.id === id))
+// 详情查找：支持短码（6 位 base36）与旧语义 id；短码用 FNV-1a hash 动态匹配（资源量小，直接遍历）
+const r = computed(() => {
+  if (!rawId) return null
+  let hit = state.resources.find((x) => x.id === rawId)
+  if (!hit && /^[0-9a-z]{6}$/i.test(rawId)) {
+    hit = state.resources.find((x) => shortId(x.id) === rawId.toLowerCase()) || null
+  }
+  return hit
+})
+
+// 旧站链接兼容：/resource?c=games&id=1329 → 查 legacy-map → 302 到新短链
+async function resolveLegacy() {
+  if (r.value || !legacyCat || !rawId || !/^\d+$/.test(rawId)) return
+  try {
+    const map = await fetch(`${BASE}data/legacy-map.json`).then((res) => res.json())
+    const newId = map[`${legacyCat}:${rawId}`]
+    if (newId) {
+      location.replace(`/resource.html?id=${shortId(newId)}`)
+    }
+  } catch (e) {
+    console.error('legacy 映射加载失败:', e)
+  }
+}
+
+onMounted(async () => {
+  await load()
+  await resolveLegacy()
+})
+
 const cat = computed(() => (r.value ? catMeta(r.value.category) : null))
 const platform = computed(() => {
   if (!r.value) return null
@@ -241,7 +273,7 @@ watch(showQr, async (v) => {
   }
 })
 
-onMounted(load)</script>
+</script>
 
 <style scoped>
 .resource-page { min-height: 100vh; }

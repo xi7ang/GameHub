@@ -33,7 +33,7 @@
         <a
           v-for="r in results.slice(0, 8)"
           :key="r.id"
-          :href="`/GameHub/resource.html?id=${r.id}`"
+          :href="detailHref(r.id)"
           class="search-dropdown__item"
           @mousedown.prevent
         >
@@ -42,7 +42,7 @@
           <span class="badge">{{ catLabel(r.category) }}</span>
           <span class="badge">{{ platformLabel(r.platform) }}</span>
         </a>
-        <a :href="`/GameHub/search.html?q=${encodeURIComponent(query)}`" class="search-dropdown__more" @mousedown.prevent>
+        <a :href="`/search.html?q=${encodeURIComponent(query)}`" class="search-dropdown__more" @mousedown.prevent>
           查看全部结果 →
         </a>
       </template>
@@ -53,6 +53,7 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useData } from '../composables/useData.js'
+import { detailHref } from '../lib/short.js'
 
 const props = defineProps({
   placeholder: { type: String, default: '搜索游戏、资源名称...' },
@@ -90,7 +91,7 @@ function highlight(text) {
 }
 function goSearch() {
   if (!query.value.trim()) return
-  window.location.href = `/GameHub/search.html?q=${encodeURIComponent(query.value.trim())}`
+  window.location.href = `/search.html?q=${encodeURIComponent(query.value.trim())}`
 }
 function onBlur() {
   setTimeout(() => (focused.value = false), 150)

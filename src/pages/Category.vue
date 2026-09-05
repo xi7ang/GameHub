@@ -16,14 +16,14 @@
       <!-- 分类切换 -->
       <div class="cat-tabs wrap">
         <a
-          :href="`/GameHub/category.html${curCat ? '?cat=' + curCat : ''}`"
+          :href="`/category.html${curCat ? '?cat=' + curCat : ''}`"
           class="cat-tab"
           :class="{ active: !curCat }"
         >全部</a>
         <a
           v-for="c in state.categories"
           :key="c.key"
-          :href="`/GameHub/category.html?cat=${c.key}`"
+          :href="`/category.html?cat=${c.key}`"
           class="cat-tab"
           :class="{ active: curCat === c.key }"
         >{{ c.emoji }} {{ c.name }}</a>
@@ -34,13 +34,13 @@
         <a
           v-for="m in months"
           :key="m"
-          :href="`/GameHub/category.html?cat=${curCat || ''}&month=${m}`"
+          :href="`/category.html?cat=${curCat || ''}&month=${m}`"
           class="month-tab"
           :class="{ active: curMonth === m }"
         >{{ fmtMonth(m) }}</a>
         <a
           v-if="curMonth"
-          :href="`/GameHub/category.html?cat=${curCat || ''}`"
+          :href="`/category.html?cat=${curCat || ''}`"
           class="month-tab"
         >全部月份</a>
       </div>
@@ -71,7 +71,7 @@
       <div v-else class="empty glass">
         <div style="font-size: 40px; margin-bottom: 10px">🕹️</div>
         <p>该分类下暂无资源，去看看其他分类吧</p>
-        <a href="/GameHub/" class="btn btn-primary mt-md">返回首页</a>
+        <a href="/" class="btn btn-primary mt-md">返回首页</a>
       </div>
     </section>
 

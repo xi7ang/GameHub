@@ -7,7 +7,7 @@
  *   2. 优先用 enTitle（英文名最准），无则用 title 调 Steam storesearch API
  *   3. 匹配校验：返回结果 name 与查询词归一化后包含/相等，防错误匹配
  *   4. 下载 header.jpg → cwebp 转 webp → public/covers/{appid}.webp
- *   5. 更新 cover 字段为 /GameHub/covers/{appid}.webp
+ *   5. 更新 cover 字段为 /covers/{appid}.webp
  *
  * 用法：node scripts/fetch-covers.js [--limit N] [--dry-run]
  */
@@ -19,7 +19,7 @@ import { execSync } from 'node:child_process'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_FILE = path.join(__dirname, '../public/data/resources.json')
 const COVERS_DIR = path.join(__dirname, '../public/covers')
-const COVER_BASE = '/GameHub/covers/'
+const COVER_BASE = '/covers/'
 
 const args = process.argv.slice(2)
 const LIMIT = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1], 10) : null

@@ -2,7 +2,7 @@
 // 数据加载：fetch public/data/*.json，全局单例缓存
 import { reactive } from 'vue'
 
-const BASE = import.meta.env.BASE_URL // '/GameHub/'
+const BASE = import.meta.env.BASE_URL // '/'
 
 const state = reactive({
   resources: [],

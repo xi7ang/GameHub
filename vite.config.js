@@ -10,7 +10,7 @@ for (const p of pages) {
 }
 
 export default defineConfig({
-  base: '/GameHub/', // 非 username.github.io 仓库，Pages 部署在子路径
+  base: '/', // 非 username.github.io 仓库，Pages 部署在子路径
   plugins: [vue()],
   build: {
     outDir: 'dist',

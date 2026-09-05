@@ -1405,7 +1405,7 @@ async function loadRepoCovers() {
     const files = await ghGet('/contents/public/covers')
     repoCovers.value = files
       .filter((f) => /^\.(webp|jpg|jpeg|png)$/i.test(f.name))
-      .map((f) => ({ name: f.name, url: `/GameHub/covers/${f.name}` }))
+      .map((f) => ({ name: f.name, url: `/covers/${f.name}` }))
       .sort((a, b) => a.name.localeCompare(b.name))
   } catch {
     repoCovers.value = []
@@ -1474,8 +1474,8 @@ async function grabCover() {
     for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i])
     const name = `cover-${Date.now()}.webp`
     pendingUploads.value.push({ path: `public/covers/${name}`, content: btoa(bin) })
-    editing.cover = `/GameHub/covers/${name}`
-    grabMsg.value = `✅ 已暂存 /GameHub/covers/${name}（点击「提交到 GitHub」时一并上传）`
+    editing.cover = `/covers/${name}`
+    grabMsg.value = `✅ 已暂存 /covers/${name}（点击「提交到 GitHub」时一并上传）`
   } catch (e) {
     grabErr.value = true
     grabMsg.value = '抓取失败: ' + (e.message || e) + '（可能被 CORS 拦截，可改用 Steam 匹配或直接粘贴 URL）'

@@ -9,21 +9,21 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('/GameHub/fonts/cIflMapbsEk7TDLdtEz1BwkebIl1R5_F.woff2') format('woff2');
+  src: url('/fonts/cIflMapbsEk7TDLdtEz1BwkebIl1R5_F.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Chakra Petch';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('/GameHub/fonts/cIflMapbsEk7TDLdtEz1BwkebIl1SZ_F7AY.woff2') format('woff2');
+  src: url('/fonts/cIflMapbsEk7TDLdtEz1BwkebIl1SZ_F7AY.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Chakra Petch';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('/GameHub/fonts/cIflMapbsEk7TDLdtEz1BwkebIl1U5_F7AY.woff2') format('woff2');
+  src: url('/fonts/cIflMapbsEk7TDLdtEz1BwkebIl1U5_F7AY.woff2') format('woff2');
 }
 
 /* ── Tokens · 暗色（默认）── */

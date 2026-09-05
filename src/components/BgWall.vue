@@ -38,7 +38,7 @@
 
 <script setup>
 // ── 游戏封面墙数据（搬运自旧站 HomepageHero.vue）──
-const BASE = import.meta.env.BASE_URL // '/GameHub/'
+const BASE = import.meta.env.BASE_URL // '/'
 
 const gameCovers = [
   { name: '反恐精英2', short: 'CS2', img: `${BASE}game-covers/cs2.jpg` },

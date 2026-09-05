@@ -1,5 +1,5 @@
 <template>
-  <a :href="`/GameHub/resource.html?id=${r.id}`" class="rc">
+  <a :href="detailHref(r.id)" class="rc">
     <!-- 封面：有 cover 用图，无则霓虹渐变 + 游戏名伪封面 -->
     <div class="rc__cover" :style="coverStyle">
       <img v-if="r.cover" :src="r.cover" :alt="r.title" loading="lazy" />
@@ -25,6 +25,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useData } from '../composables/useData.js'
+import { detailHref } from '../lib/short.js'
 
 const props = defineProps({ r: { type: Object, required: true } })
 const { state, catLabel, catMeta } = useData()
