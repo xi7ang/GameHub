@@ -21500,5 +21500,28 @@
     "addedAt": "2026-09-05T08:23:45+08:00",
     "updatedAt": "2026-09-05T08:23:45+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0012",
+    "title": "刺客信条:幻景 豪华版+DLC 中文简体",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "重返初心",
+      "潜行暗杀",
+      "历史开放世界"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/b5ade8e14105?pwd=Wpji",
+    "pwd": "Wpji",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "desc": "重回初代刺客体验的经典之作，以巴格达为舞台的线性潜行冒险。豪华版包含专属装备与任务，DLC拓展了完整的故事脉络。中文简体支持让沉浸感倍增，适合追求纯粹刺杀快感与历史风情的玩家。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-05T08:24:39+08:00",
+    "updatedAt": "2026-09-05T08:24:39+08:00",
+    "month": "202609"
   }
 ]
