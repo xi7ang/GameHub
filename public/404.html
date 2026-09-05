@@ -58,5 +58,26 @@
     <p class="msg">🎮 你掉进了虚空裂隙，这个页面不存在</p>
     <a class="btn" href="/">← 返回 GameHub</a>
   </div>
+  <script>
+    // 旧站链接兼容：/resource?c=games&id=1329（无扩展名，在 GitHub Pages 上落到 404）→ 查映射跳转短链
+    (function () {
+      var q = new URLSearchParams(location.search)
+      var c = q.get('c')
+      var id = q.get('id')
+      if (!c || !/^\d+$/.test(id || '')) return
+      fetch('/data/legacy-map.json')
+        .then(function (r) { return r.json() })
+        .then(function (map) {
+          var newId = map[c + ':' + id]
+          if (!newId) return
+          // FNV-1a 32bit → base36 6 位（与 src/lib/short.js 一致）
+          var h = 2166136261
+          for (var i = 0; i < newId.length; i++) { h ^= newId.charCodeAt(i); h = (h * 16777619) >>> 0 }
+          var short = (h % 2176782336).toString(36).padStart(6, '0')
+          location.replace('/resource.html?id=' + short)
+        })
+        .catch(function () {})
+    })()
+  </script>
 </body>
 </html>
