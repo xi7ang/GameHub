@@ -21627,5 +21627,28 @@
     "addedAt": "2026-09-06T11:08:25+08:00",
     "updatedAt": "2026-09-06T11:08:25+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0016",
+    "title": "命运石之门：重启",
+    "enTitle": "STEINS;GATE RE:BOOT",
+    "category": "pc",
+    "tags": [
+      "动作冒险",
+      "冒险",
+      "休闲"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/a13224675ad7?pwd=pDpj",
+    "pwd": "i5rb",
+    "size": "14.8GB",
+    "sizeBytes": 15891378995,
+    "cover": "",
+    "desc": "《STEINS;GATE》以现代标准全面重启！角色、画面焕然一新，并追加全新剧情！ 角色设计、图像、UI全部更新，将以更加清晰、更加深刻的姿态呈现熟悉秋叶原。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-06T11:09:27+08:00",
+    "updatedAt": "2026-09-06T11:09:27+08:00",
+    "month": "202609"
   }
 ]
