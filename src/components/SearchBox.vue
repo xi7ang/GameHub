@@ -1,5 +1,5 @@
 <template>
-  <div class="search-box">
+  <div class="search-box" ref="boxRef">
     <div class="search-bar" :class="{ focused }">
       <svg class="search-bar__icon" viewBox="0 0 20 20" fill="none" width="18" height="18">
         <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.6"/>
@@ -11,7 +11,7 @@
         type="text"
         :placeholder="placeholder"
         class="search-bar__input"
-        @focus="focused = true"
+        @focus="onFocus"
         @blur="onBlur"
         @keydown.enter="goSearch"
         @keydown.escape="focused = false"
@@ -23,35 +23,37 @@
       </button>
     </div>
 
-    <!-- 即时下拉结果 -->
-    <div v-if="focused && query" class="search-dropdown glass">
-      <div v-if="results.length === 0" class="search-dropdown__empty text-low">
-        未找到「{{ query }}」相关资源，试试其他关键词
+    <!-- 即时下拉结果（Teleport 到 body 根级，fixed 跟随输入框，置顶避免被任何元素遮挡） -->
+    <Teleport to="body">
+      <div v-if="focused && query" class="search-dropdown glass" :style="dropStyle">
+        <div v-if="results.length === 0" class="search-dropdown__empty text-low">
+          未找到「{{ query }}」相关资源，试试其他关键词
+        </div>
+        <template v-else>
+          <div class="search-dropdown__meta text-low">{{ results.length }} 条结果</div>
+          <a
+            v-for="r in results.slice(0, 8)"
+            :key="r.id"
+            :href="detailHref(r.id)"
+            class="search-dropdown__item"
+            @mousedown.prevent
+          >
+            <span class="search-dropdown__dot" :style="{ background: catColor(r.category) }"></span>
+            <span class="search-dropdown__title" v-html="highlight(r.title)"></span>
+            <span class="badge">{{ catLabel(r.category) }}</span>
+            <span class="badge">{{ platformLabel(r.platform) }}</span>
+          </a>
+          <a :href="`/search.html?q=${encodeURIComponent(query)}`" class="search-dropdown__more" @mousedown.prevent>
+            查看全部结果 →
+          </a>
+        </template>
       </div>
-      <template v-else>
-        <div class="search-dropdown__meta text-low">{{ results.length }} 条结果</div>
-        <a
-          v-for="r in results.slice(0, 8)"
-          :key="r.id"
-          :href="detailHref(r.id)"
-          class="search-dropdown__item"
-          @mousedown.prevent
-        >
-          <span class="search-dropdown__dot" :style="{ background: catColor(r.category) }"></span>
-          <span class="search-dropdown__title" v-html="highlight(r.title)"></span>
-          <span class="badge">{{ catLabel(r.category) }}</span>
-          <span class="badge">{{ platformLabel(r.platform) }}</span>
-        </a>
-        <a :href="`/search.html?q=${encodeURIComponent(query)}`" class="search-dropdown__more" @mousedown.prevent>
-          查看全部结果 →
-        </a>
-      </template>
-    </div>
+    </Teleport>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import { useData } from '../composables/useData.js'
 import { detailHref } from '../lib/short.js'
 
@@ -64,6 +66,27 @@ const { state, catLabel, catMeta } = useData()
 const query = ref('')
 const focused = ref(false)
 const inputRef = ref(null)
+const boxRef = ref(null)
+
+// 下拉框 Teleport 到 body 后的 fixed 定位（相对视口跟随搜索框）
+const dropPos = ref({ top: 0, left: 0, width: 0, maxH: 420 })
+const dropStyle = computed(() => ({
+  position: 'fixed',
+  top: `${dropPos.value.top}px`,
+  left: `${dropPos.value.left}px`,
+  width: `${dropPos.value.width}px`,
+  maxHeight: `${dropPos.value.maxH}px`,
+}))
+
+function updateDropPos() {
+  const el = boxRef.value
+  if (!el) return
+  const r = el.getBoundingClientRect()
+  const gap = 10
+  const below = window.innerHeight - r.bottom - gap - 12
+  const maxH = Math.min(420, Math.max(160, below))
+  dropPos.value = { top: r.bottom + gap, left: r.left, width: r.width, maxH }
+}
 
 const results = computed(() => {
   const q = query.value.trim().toLowerCase()
@@ -93,6 +116,10 @@ function goSearch() {
   if (!query.value.trim()) return
   window.location.href = `/search.html?q=${encodeURIComponent(query.value.trim())}`
 }
+function onFocus() {
+  focused.value = true
+  updateDropPos()
+}
 function onBlur() {
   setTimeout(() => (focused.value = false), 150)
 }
@@ -104,14 +131,34 @@ function onKey(e) {
     inputRef.value?.focus()
   }
 }
+function onScroll() {
+  if (!focused.value) return
+  const el = boxRef.value
+  if (el) {
+    const r = el.getBoundingClientRect()
+    // 搜索框已滚出视口时收起下拉，避免 fixed 面板悬空
+    if (r.bottom < 0 || r.top > window.innerHeight) {
+      focused.value = false
+      return
+    }
+  }
+  updateDropPos()
+}
 onMounted(() => {
   window.addEventListener('keydown', onKey)
+  window.addEventListener('scroll', onScroll, true)
+  window.addEventListener('resize', onScroll)
   // 仅非触屏设备自动聚焦：避免手机/平板跳转 search 页时直接弹出输入法键盘
   if (props.autofocus && window.matchMedia?.('(hover: hover) and (pointer: fine)').matches) {
     inputRef.value?.focus()
+    nextTick(updateDropPos)
   }
 })
-onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', onKey)
+  window.removeEventListener('scroll', onScroll, true)
+  window.removeEventListener('resize', onScroll)
+})
 </script>
 
 <style scoped>
@@ -155,15 +202,11 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
   flex-shrink: 0;
 }
 .search-dropdown {
-  position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
-  right: 0;
+  /* Teleport 到 body 后由内联样式提供 fixed 定位；此处只管外观与层级 */
   border-radius: 14px;
   padding: 10px;
-  max-height: 420px;
   overflow-y: auto;
-  z-index: 95;
+  z-index: 10000; /* 根级置顶：盖过吸顶导航(z100)与页内一切内容 */
   /* 实底替代 .glass 的近乎透明背景，保证结果文字可读 */
   background: rgba(var(--bg-1-rgb), 0.96);
   border: 1px solid rgba(var(--accent-rgb), 0.28);
