@@ -21676,5 +21676,29 @@
     "addedAt": "2026-09-06T11:22:00+08:00",
     "updatedAt": "2026-09-06T11:22:00+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0018",
+    "title": "梦核：兔子洞",
+    "enTitle": "Dreamcore: Rabbit Hole",
+    "category": "pc",
+    "tags": [
+      "模拟",
+      "动作冒险",
+      "冒险",
+      "独立"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/5fa6f959320e?pwd=Zeet",
+    "pwd": "9pt8",
+    "size": "11.9GB",
+    "sizeBytes": 12777527705,
+    "cover": "",
+    "desc": "步行模拟游戏。探索温馨的边界空间，它们令人不安却又熟悉，仿佛曾在梦中到访过，激发你的想象力。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-06T11:22:55+08:00",
+    "updatedAt": "2026-09-06T11:22:55+08:00",
+    "month": "202609"
   }
 ]
