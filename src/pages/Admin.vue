@@ -100,6 +100,23 @@
               <div v-if="featuredPickTip" class="text-low" style="font-size: 12px; margin-top: 10px; line-height: 1.7">本次入选：{{ featuredPickTip }}</div>
             </div>
 
+            <!-- SEO：Sitemap & Robots 一键更新 -->
+            <div class="glass dash-panel mb-md">
+              <div class="flex-between wrap gap-sm">
+                <div>
+                  <h3 style="margin: 0 0 4px">🔍 Sitemap & Robots</h3>
+                  <p class="text-low" style="font-size: 12px; margin: 0">
+                    构建时自动按最新数据生成 <code>sitemap.xml</code>（{{ resources.length }} 条资源 + {{ cats.length }} 个分类）与 <code>robots.txt</code>；每次提交资源并部署后即自动刷新。点下方按钮立即重新部署刷新。
+                  </p>
+                  <p class="text-low" style="font-size: 12px; margin: 6px 0 0">
+                    🔗 <a :href="siteUrl + '/sitemap.xml'" target="_blank" rel="noreferrer">{{ siteUrl }}/sitemap.xml</a>　
+                    🔗 <a :href="siteUrl + '/robots.txt'" target="_blank" rel="noreferrer">{{ siteUrl }}/robots.txt</a>
+                  </p>
+                </div>
+                <button class="btn btn-sm btn-primary" :disabled="seoBusy" @click="triggerSeoRebuild">{{ seoBusy ? '触发中...' : '🚀 一键更新 Sitemap/Robots' }}</button>
+              </div>
+            </div>
+
             <!-- 数据完整度 -->
             <h3 class="mb-sm">🩺 数据完整度</h3>
             <div class="mb-md">
@@ -789,6 +806,29 @@ const inactiveCount = computed(() => resources.value.filter((r) => r.status === 
 // ── 精选推荐一键刷新 ──
 const FEATURED_LIMIT = 8
 const featuredPickTip = ref('')
+
+// ── SEO：Sitemap & Robots 一键更新 ──
+// sitemap.xml / robots.txt 在每次构建时由 scripts/gen-sitemap.js 自动生成（postbuild），
+// 因此任何资源提交并部署后都会自动刷新；此按钮用于手动触发一次重新部署立即生效。
+const siteUrl = computed(() => state.site?.url || 'https://pan.devmini.space')
+const seoBusy = ref(false)
+const DEPLOY_WF = 'deploy.yml'
+async function triggerSeoRebuild() {
+  seoBusy.value = true
+  try {
+    const res = await fetch(`${BASE}/repos/${REPO}/actions/workflows/${DEPLOY_WF}/dispatches`, {
+      method: 'POST',
+      headers: { ...apiHeaders(), 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' }),
+    })
+    if (!res.ok && res.status !== 204) throw new Error(`触发失败: ${res.status}`)
+    alert('🚀 已触发重新部署：构建将自动生成最新 sitemap.xml / robots.txt（约 2-3 分钟生效）')
+  } catch (e) {
+    alert('触发失败: ' + (e.message || e))
+  } finally {
+    seoBusy.value = false
+  }
+}
 
 // 信息完整度评分：真实封面是大头（非默认渐变封面），描述/大小/英文名等加分
 function featuredScore(r) {

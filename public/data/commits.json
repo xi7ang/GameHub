@@ -1,5 +1,29 @@
 [
   {
+    "hash": "7544a7d",
+    "date": "2026-09-06T13:44:48+08:00",
+    "message": "林中女巫封面修改",
+    "url": "https://github.com/xi7ang/GameHub/commit/7544a7de7245c40381e96bc1afdbef882fb4dc62"
+  },
+  {
+    "hash": "2be5ff4",
+    "date": "2026-09-06T13:44:47+08:00",
+    "message": "林中女巫封面修改",
+    "url": "https://github.com/xi7ang/GameHub/commit/2be5ff4a20efb48bba1401e86ac13421ef326965"
+  },
+  {
+    "hash": "4527b25",
+    "date": "2026-09-06T13:44:45+08:00",
+    "message": "林中女巫封面修改",
+    "url": "https://github.com/xi7ang/GameHub/commit/4527b25b340e3b2a11aa7d96c0816461bc268356"
+  },
+  {
+    "hash": "4a1df32",
+    "date": "2026-09-06T12:13:27+08:00",
+    "message": "chore(header): hide 更新日志 nav link on PC top nav",
+    "url": "https://github.com/xi7ang/GameHub/commit/4a1df3224339ed478857bc423b5becf3757a8138"
+  },
+  {
     "hash": "6fa8c8b",
     "date": "2026-09-06T11:51:30+08:00",
     "message": "feat(header): add glow/shine/waddle animations to QQ group button for visibility",
@@ -154,29 +178,5 @@
     "date": "2026-09-02T21:38:27+08:00",
     "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
     "url": "https://github.com/xi7ang/GameHub/commit/67efa80c7e7c3a25ff3dee9381c713465471a4c9"
-  },
-  {
-    "hash": "225b0b5",
-    "date": "2026-09-02T21:38:26+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/225b0b5ab46278c828f23358cd6e5195331af1e0"
-  },
-  {
-    "hash": "16e6662",
-    "date": "2026-09-02T21:38:25+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/16e6662a21ceb6c44b2c56287db9af231e813071"
-  },
-  {
-    "hash": "393d251",
-    "date": "2026-09-02T21:35:44+08:00",
-    "message": "feat: 后台支持一键刷新精选推荐（自动优选信息完整+真实封面资源并自动部署）",
-    "url": "https://github.com/xi7ang/GameHub/commit/393d2513026579ce58316098119078565eaac663"
-  },
-  {
-    "hash": "6df24fa",
-    "date": "2026-09-02T21:18:24+08:00",
-    "message": "style: 详情页 get-card/platform-card 去双层框线，改柔和渐变面板+全宽 CTA",
-    "url": "https://github.com/xi7ang/GameHub/commit/6df24fa6944d928823efdcb006a91fdf93bbcb4b"
   }
 ]

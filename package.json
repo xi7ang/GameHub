@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/gen-sitemap.js",
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
     "gen-commits": "node scripts/gen-commits.js",
+    "gen-sitemap": "node scripts/gen-sitemap.js",
     "prebuild": "node scripts/validate.js && node scripts/gen-commits.js"
   },
   "dependencies": {

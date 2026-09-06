@@ -52,6 +52,9 @@ const res = read('resources.json')
 check(Array.isArray(res), 'resources.json 必须是数组')
 const ids = new Set()
 const urls = new Set()
+// 封面路径必须指向 public/covers 下的本地文件（部署于域名根路径，不再允许 /GameHub 之类子路径前缀）
+const COVERS_DIR = path.join(__dirname, '../public/covers')
+const COVER_RE = /^\/covers\/[A-Za-z0-9._-]+\.(webp|jpg|jpeg|png)$/i
 res.forEach((r, i) => {
   const loc = `资源[${i}](${r.title || r.id || '?'})`
   check(r.id && typeof r.id === 'string', `${loc} 缺 id`)
@@ -71,6 +74,13 @@ res.forEach((r, i) => {
   check(typeof r.featured === 'boolean', `${loc} featured 必须是布尔`)
   check(Array.isArray(r.tags), `${loc} tags 必须是数组`)
   check(!r.tags || r.tags.length <= TAG_MAX, `${loc} tags 超过 ${TAG_MAX} 个`)
+  // 封面路径校验：空串合法（无封面）；非空必须为 /covers/xxx 且文件真实存在于仓库
+  if (r.cover) {
+    check(COVER_RE.test(r.cover), `${loc} cover 路径非法(必须形如 /covers/xxx.webp): ${r.cover}`)
+    const cfile = path.join(COVERS_DIR, path.basename(r.cover))
+    check(fs.existsSync(cfile), `${loc} cover 文件不存在于 public/covers: ${r.cover}`)
+    check(!/gamehub/i.test(r.cover), `${loc} cover 不应包含 /GameHub 子路径前缀: ${r.cover}`)
+  }
   check(ISO_RE.test(r.addedAt), `${loc} addedAt 必须是 ISO8601 到秒: ${r.addedAt}`)
   check(ISO_RE.test(r.updatedAt), `${loc} updatedAt 必须是 ISO8601 到秒: ${r.updatedAt}`)
   if (r.addedAt) {
