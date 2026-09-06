@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6fa8c8b",
+    "date": "2026-09-06T11:51:30+08:00",
+    "message": "feat(header): add glow/shine/waddle animations to QQ group button for visibility",
+    "url": "https://github.com/xi7ang/GameHub/commit/6fa8c8b17684b5141c7b09c2c232c2f456fdd3b8"
+  },
+  {
     "hash": "53917ce",
     "date": "2026-09-06T11:44:13+08:00",
     "message": "fix(search): teleport dropdown to body root, fixed z-index 10000 so results are never obscured",
@@ -172,11 +178,5 @@
     "date": "2026-09-02T21:18:24+08:00",
     "message": "style: 详情页 get-card/platform-card 去双层框线，改柔和渐变面板+全宽 CTA",
     "url": "https://github.com/xi7ang/GameHub/commit/6df24fa6944d928823efdcb006a91fdf93bbcb4b"
-  },
-  {
-    "hash": "f3f825c",
-    "date": "2026-09-02T21:05:13+08:00",
-    "message": "feat: 详情页夸克网盘图标替换为官方 logo 图片，封面改为完整显示不裁切",
-    "url": "https://github.com/xi7ang/GameHub/commit/f3f825c073c2062492b0e9768b5446690c8ab011"
   }
 ]

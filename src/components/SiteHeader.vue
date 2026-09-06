@@ -16,7 +16,8 @@
       <nav class="site-nav">
         <a href="/" class="nav-link">首页</a>
         <a href="/category.html" class="nav-link">资源库</a>
-        <a href="/changelog.html" class="nav-link">更新日志</a>
+        <!-- 更新日志入口已按要求隐藏（PC 端顶部导航） -->
+        <!-- <a href="/changelog.html" class="nav-link">更新日志</a> -->
         <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="nav-cta nav-cta--qq"><span class="cta-icon">🐧</span><span class="cta-text">QQ群</span></a>
         <a v-if="site?.telegram" :href="site.telegram" target="_blank" rel="noreferrer" class="nav-cta nav-cta--tg"><svg class="cta-icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg><span class="cta-text">Telegram</span></a>
         <button class="theme-toggle" @click="toggleTheme" :title="theme === 'dark' ? '切换日间' : '切换夜间'">
