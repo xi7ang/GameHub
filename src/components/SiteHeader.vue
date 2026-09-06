@@ -93,8 +93,48 @@ const site = computed(() => state.site)
 }
 .cta-icon { display: inline-flex; font-size: 13px; line-height: 1; }
 .cta-text { line-height: 1; }
-.nav-cta--qq { background: #07c160; border-color: #06ad56; }
-.nav-cta--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); }
+.nav-cta--qq { background: #07c160; border-color: #06ad56; position: relative; overflow: hidden; animation: qq-glow 2.4s ease-in-out infinite; }
+/* 扫光：一道白色光带周期划过按钮 */
+.nav-cta--qq::after {
+  content: '';
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -70%;
+  width: 45%;
+  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transform: skewX(-20deg);
+  animation: qq-shine 3s ease-in-out infinite;
+  pointer-events: none;
+}
+/* 🐧 企鹅左右摇摆，强化“这是入口”的提示 */
+.nav-cta--qq .cta-icon {
+  display: inline-flex;
+  transform-origin: 50% 90%;
+  animation: qq-waddle 1.6s ease-in-out infinite;
+}
+.nav-cta--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); animation-play-state: paused; }
+.nav-cta--qq:hover::after,
+.nav-cta--qq:hover .cta-icon { animation-play-state: paused; }
+
+/* QQ 按钮动效关键帧 */
+@keyframes qq-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(7, 193, 96, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(7, 193, 96, 0.65), 0 0 4px rgba(7, 193, 96, 0.4); }
+}
+@keyframes qq-shine {
+  0%, 55% { left: -70%; }
+  85%, 100% { left: 130%; }
+}
+@keyframes qq-waddle {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25% { transform: rotate(-12deg) translateY(-1px); }
+  75% { transform: rotate(12deg) translateY(1px); }
+}
+/* 尊重系统的“减少动态”偏好 */
+@media (prefers-reduced-motion: reduce) {
+  .nav-cta--qq, .nav-cta--qq::after, .nav-cta--qq .cta-icon { animation: none; }
+}
 .nav-cta--tg { background: #1da1f2; border-color: #1a91da; }
 .nav-cta--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
 .theme-toggle {

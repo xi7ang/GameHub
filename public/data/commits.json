@@ -1,5 +1,11 @@
 [
   {
+    "hash": "53917ce",
+    "date": "2026-09-06T11:44:13+08:00",
+    "message": "fix(search): teleport dropdown to body root, fixed z-index 10000 so results are never obscured",
+    "url": "https://github.com/xi7ang/GameHub/commit/53917ceeca35930d5f2f136f8ec4c9eea6436680"
+  },
+  {
     "hash": "47e3d5f",
     "date": "2026-09-06T11:31:24+08:00",
     "message": "fix(home): raise search dropdown above hot keywords; no autofocus on touch devices",
@@ -172,11 +178,5 @@
     "date": "2026-09-02T21:05:13+08:00",
     "message": "feat: 详情页夸克网盘图标替换为官方 logo 图片，封面改为完整显示不裁切",
     "url": "https://github.com/xi7ang/GameHub/commit/f3f825c073c2062492b0e9768b5446690c8ab011"
-  },
-  {
-    "hash": "4cfd165",
-    "date": "2026-09-02T13:29:18+08:00",
-    "message": "sync: 新增资源《气球塔防6 猴子塔防6 / Bloons TD 6/ 单机+联机/ PC+手机双》",
-    "url": "https://github.com/xi7ang/GameHub/commit/4cfd16567ca77a2fd1ffc0de68ee6bbcd42ef48b"
   }
 ]
