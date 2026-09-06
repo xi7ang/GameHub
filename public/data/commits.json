@@ -1,182 +1,182 @@
 [
   {
-    "hash": "c3f8136",
-    "date": "2026-08-31T22:03:55+08:00",
-    "message": "feat: 后台封面管理(仓库封面选择器/Steam搜索匹配/URL抓图转webp暂存入库+编辑弹窗封面预览)",
-    "url": "https://github.com/xi7ang/GameHub/commit/c3f8136eb077ba9370e5825d9c1d0c9af1f81a11"
+    "hash": "b391fb9",
+    "date": "2026-09-06T11:09:27+08:00",
+    "message": "sync: 新增资源《命运石之门：重启》",
+    "url": "https://github.com/xi7ang/GameHub/commit/b391fb977e4b886f1ddbeb04832618ff462b357d"
   },
   {
-    "hash": "1a46f4b",
-    "date": "2026-08-31T22:01:25+08:00",
-    "message": "feat: 后台部署状态可视化(轮询Actions运行状态/成功失败徽章/失败步骤摘要)",
-    "url": "https://github.com/xi7ang/GameHub/commit/1a46f4b153a6cb488c48d67385e9abee0b9546ce"
+    "hash": "7ae9baf",
+    "date": "2026-09-06T11:08:25+08:00",
+    "message": "sync: 新增资源《战争号令:装甲精英》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7ae9baf4ff1e31bcc48d163a5e3701d5faab00dc"
   },
   {
-    "hash": "2c152e8",
-    "date": "2026-08-31T22:00:14+08:00",
-    "message": "feat: 后台资源管理支持批量操作(勾选/全选/批量改分类平台/批量推荐/批量失效/批量删除)",
-    "url": "https://github.com/xi7ang/GameHub/commit/2c152e8bd0e290056696b7a28eebe79ef90c3456"
+    "hash": "f46e7b3",
+    "date": "2026-09-06T07:18:11+08:00",
+    "message": "fix(legacy): regenerate legacy-map from current old-site data, add games 1275-1350 mappings (games:1346 -> pc-202609-0012)",
+    "url": "https://github.com/xi7ang/GameHub/commit/f46e7b3b4804dff525a52176c28e65cdf3d1bc30"
   },
   {
-    "hash": "171bd07",
-    "date": "2026-08-31T21:58:35+08:00",
-    "message": "feat: 后台新增数据总览Dashboard(资源统计/完整度/分类分布/月度趋势/质量告警)",
-    "url": "https://github.com/xi7ang/GameHub/commit/171bd07b5bc47a0fa6887f6bc2b3a6e036e59568"
+    "hash": "6a825ac",
+    "date": "2026-09-05T23:05:33+08:00",
+    "message": "chore: pin custom domain pan.devmini.space via CNAME",
+    "url": "https://github.com/xi7ang/GameHub/commit/6a825ac12dc90d61d3916d2ecaa9e1134ccaea19"
   },
   {
-    "hash": "85de4a5",
-    "date": "2026-08-31T19:32:02+08:00",
-    "message": "sync: 新增资源《植物大战僵尸2国际版v13.2.1_内置无限阳光菜单+无限资源》",
-    "url": "https://github.com/xi7ang/GameHub/commit/85de4a5206cd90d3d20cc472464373e4375b3aeb"
+    "hash": "28987f5",
+    "date": "2026-09-05T22:16:53+08:00",
+    "message": "sync: 新增资源《植物大战僵尸3_内置无限阳光菜单.apk（安卓版）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/28987f51046374f4daedafbffa253867fea6373f"
   },
   {
-    "hash": "a9c471c",
-    "date": "2026-08-31T18:27:33+08:00",
-    "message": "sync: 新增资源《全面战争：法老 王朝版 v2.1.6 中文版 打包X》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a9c471c109103489f00c1b3025117b04429ec903"
+    "hash": "f51ce62",
+    "date": "2026-09-05T14:09:56+08:00",
+    "message": "feat: 404 页兜底旧站 /resource?c=&id= 链接跳转短链",
+    "url": "https://github.com/xi7ang/GameHub/commit/f51ce6292d735ac025074e2de1d816f09aecf097"
   },
   {
-    "hash": "d2fba29",
-    "date": "2026-08-31T18:24:18+08:00",
-    "message": "sync: 新增资源《银河旅店银河酒店v0.6.9Hotel Galactic》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d2fba294521878f9ead55552f2fd711b45483b5c"
+    "hash": "78034c6",
+    "date": "2026-09-05T14:06:09+08:00",
+    "message": "feat: 迁移根路径部署（base=/, 前缀清理, legacy-map 旧链兼容, 详情短码）",
+    "url": "https://github.com/xi7ang/GameHub/commit/78034c65b628df379bf03e895043bd45f775e6b4"
   },
   {
-    "hash": "84e164f",
-    "date": "2026-08-31T18:20:17+08:00",
-    "message": "sync: 新增资源《将军：古典时代Build.24786056Strategos》",
-    "url": "https://github.com/xi7ang/GameHub/commit/84e164fcf8ea4757190c612d60579773d090e59d"
+    "hash": "c44a3c2",
+    "date": "2026-09-05T08:27:24+08:00",
+    "message": "sync: 新增资源《极速跑者2：速度之王/SpeedRunners 2: King of Speed》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c44a3c25bd8992149380cf04c0015d98313b813f"
   },
   {
-    "hash": "929d0ba",
-    "date": "2026-08-31T18:17:04+08:00",
-    "message": "sync: 新增资源《气球塔防6 猴子塔防6 Build.24829026 单机+联机 PC/手机双端》",
-    "url": "https://github.com/xi7ang/GameHub/commit/929d0ba3ee5278e595a1cde8e4c76760416ae27e"
+    "hash": "5565041",
+    "date": "2026-09-05T08:26:29+08:00",
+    "message": "sync: 新增资源《加班：夜间巡逻/Overtime : Patrol》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5565041bdd4b3d13a85841593ea9a4e9c1335c86"
   },
   {
-    "hash": "a995cf6",
-    "date": "2026-08-31T12:47:32+08:00",
-    "message": "sync: 新增资源《山上那个猴儿 v1.0.42》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a995cf600bfc267d6795d06fec1e9cf66a9cd186"
+    "hash": "997f985",
+    "date": "2026-09-05T08:25:34+08:00",
+    "message": "sync: 新增资源《战锤40K：暗潮 v1.10.5329.0 中文联机》",
+    "url": "https://github.com/xi7ang/GameHub/commit/997f98581f25d237a0a8f80f51be38069d30dc48"
   },
   {
-    "hash": "24c0985",
-    "date": "2026-08-30T12:10:40+08:00",
-    "message": "sync: 新增资源《不服来通关：免广中文版更新》",
-    "url": "https://github.com/xi7ang/GameHub/commit/24c0985b11130d628785dce6688df7bd5f125867"
+    "hash": "2bc158e",
+    "date": "2026-09-05T08:24:40+08:00",
+    "message": "sync: 新增资源《刺客信条:幻景 豪华版+DLC 中文简体》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2bc158eb03e1dceb1135ca784eb60e7919738394"
   },
   {
-    "hash": "31edd6e",
-    "date": "2026-08-30T12:07:35+08:00",
-    "message": "sync: 新增资源《勇闯死人谷黑暗之日豪华版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/31edd6e7ca6c5ee50832ab200b5294b6231f209c"
+    "hash": "5c37ee4",
+    "date": "2026-09-05T08:23:45+08:00",
+    "message": "sync: 新增资源《密室逃脱模拟器2 v20029R 中文版 解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5c37ee4a81a505b1fa281d8d3914d94591e9198c"
   },
   {
-    "hash": "44d1d8f",
-    "date": "2026-08-30T12:04:22+08:00",
-    "message": "sync: 新增资源《度假岛模拟器/Resort Island Simulator》",
-    "url": "https://github.com/xi7ang/GameHub/commit/44d1d8fe229866affc5e7654736ac2a1a1385a35"
+    "hash": "6f17761",
+    "date": "2026-09-04T15:25:12+08:00",
+    "message": "sync: 新增资源《地府有点忙 /Reap and Rush v1.0082804》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6f177610d10884d9bbd128e7811615b3302c90ca"
   },
   {
-    "hash": "3cb1a4b",
-    "date": "2026-08-30T12:01:19+08:00",
-    "message": "sync: 新增资源《猫咪岛v1.0.4.apk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3cb1a4bb5402fbd8ea8be7c291a28a5f2ba4c56b"
+    "hash": "dd9edc7",
+    "date": "2026-09-04T15:24:13+08:00",
+    "message": "sync: 新增资源《火柴人战壕 /Stickman Trenches Build.24783128》",
+    "url": "https://github.com/xi7ang/GameHub/commit/dd9edc73cfe3041285f2b152784db5baab1d3dae"
   },
   {
-    "hash": "135c375",
-    "date": "2026-08-30T11:58:32+08:00",
-    "message": "sync: 新增资源《中华料理1.0.8kill.apk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/135c375b07fe39769d0e7f6217ec6be7f20859cc"
+    "hash": "3e3837d",
+    "date": "2026-09-04T15:23:12+08:00",
+    "message": "sync: 新增资源《汽车销售模拟器2023 二手车买卖模拟器 汽车买卖模拟器2023 Build.2》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3e3837da433cbf88935c4e3e7d0e7738dcacb7ea"
   },
   {
-    "hash": "5d49bc5",
-    "date": "2026-08-29T10:28:11+08:00",
-    "message": "sync: 新增资源《数独庄园 v1.1.1（Sudoku Mansion）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5d49bc51b257eb61ae785713f858878eb25d9236"
+    "hash": "1e1c293",
+    "date": "2026-09-04T13:37:42+08:00",
+    "message": "sync: 新增资源《包裹混乱 Build.24944281（Package chaos）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/1e1c29302e13d329c02b08cbf250c5d62273812c"
   },
   {
-    "hash": "7ace319",
-    "date": "2026-08-29T10:26:48+08:00",
-    "message": "sync: 新增资源《驾驶拉力赛 Build.24837351（DRIVE Rally）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7ace3196c34471c27089f2ab0ec1f9901b947ec2"
+    "hash": "5567cad",
+    "date": "2026-09-04T13:14:29+08:00",
+    "message": "sync: 新增资源《流星蝴蝶剑经典武侠动作》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5567cad94f7b5b92ba2d99de5edbdd16eabfbf4a"
   },
   {
-    "hash": "1228a39",
-    "date": "2026-08-29T10:23:25+08:00",
-    "message": "sync: 新增资源《制作我的三明治 Build.24205861（Make my Sandwich）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/1228a395e42b957d216789cf1433aa3d239045de"
+    "hash": "708e251",
+    "date": "2026-09-02T21:51:31+08:00",
+    "message": "style: 隐藏详情页 get-card 提取码行（pwd-row 保留可恢复）",
+    "url": "https://github.com/xi7ang/GameHub/commit/708e2511000d62e75707f88576bc91b26c44292b"
   },
   {
-    "hash": "aefe1cf",
-    "date": "2026-08-29T10:20:24+08:00",
-    "message": "sync: 新增资源《世界光环 Build.24950581（Aura of Worlds）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/aefe1cf6eeb0ef4de6b2aa2e6743d30c69a1d9d7"
+    "hash": "67efa80",
+    "date": "2026-09-02T21:38:27+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/67efa80c7e7c3a25ff3dee9381c713465471a4c9"
   },
   {
-    "hash": "049721d",
-    "date": "2026-08-29T10:17:15+08:00",
-    "message": "sync: 新增资源《月之冕 v20260825（Moon Corona）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/049721d65ee260b3b2006d4547a393f1f4ab0d46"
+    "hash": "225b0b5",
+    "date": "2026-09-02T21:38:26+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/225b0b5ab46278c828f23358cd6e5195331af1e0"
   },
   {
-    "hash": "14b0bed",
-    "date": "2026-08-28T12:47:19+08:00",
-    "message": "sync: 新增资源《僵尸前线3D解锁无限金币 无限钻石等》",
-    "url": "https://github.com/xi7ang/GameHub/commit/14b0bed81b698f05af0d9c056e345b3f2c84350d"
+    "hash": "16e6662",
+    "date": "2026-09-02T21:38:25+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/16e6662a21ceb6c44b2c56287db9af231e813071"
   },
   {
-    "hash": "4166ae2",
-    "date": "2026-08-28T12:42:53+08:00",
-    "message": "sync: 新增资源《热血西游记：天竺奇谭 完整豪华版全DLC内置金手指》",
-    "url": "https://github.com/xi7ang/GameHub/commit/4166ae24dac9ffc4decb229a18ba237a2640aecc"
+    "hash": "393d251",
+    "date": "2026-09-02T21:35:44+08:00",
+    "message": "feat: 后台支持一键刷新精选推荐（自动优选信息完整+真实封面资源并自动部署）",
+    "url": "https://github.com/xi7ang/GameHub/commit/393d2513026579ce58316098119078565eaac663"
   },
   {
-    "hash": "32443dc",
-    "date": "2026-08-28T12:39:35+08:00",
-    "message": "sync: 新增资源《史莱姆牧场完整中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/32443dc807c41c6ddd20a84f6e18b0ee106e86a7"
+    "hash": "6df24fa",
+    "date": "2026-09-02T21:18:24+08:00",
+    "message": "style: 详情页 get-card/platform-card 去双层框线，改柔和渐变面板+全宽 CTA",
+    "url": "https://github.com/xi7ang/GameHub/commit/6df24fa6944d928823efdcb006a91fdf93bbcb4b"
   },
   {
-    "hash": "9ade415",
-    "date": "2026-08-28T12:36:19+08:00",
-    "message": "sync: 新增资源《乐高都市：卧底风云/LEGO City Undercover》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9ade415660abce4daf1500cc57510bf2768bb3f0"
+    "hash": "f3f825c",
+    "date": "2026-09-02T21:05:13+08:00",
+    "message": "feat: 详情页夸克网盘图标替换为官方 logo 图片，封面改为完整显示不裁切",
+    "url": "https://github.com/xi7ang/GameHub/commit/f3f825c073c2062492b0e9768b5446690c8ab011"
   },
   {
-    "hash": "7a4103d",
-    "date": "2026-08-28T12:33:05+08:00",
-    "message": "sync: 新增资源《亚洲家长的上学之路/How Asian Parents went to Scho》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7a4103d05e965b8416b040b6b3cb96d41bd015b4"
+    "hash": "4cfd165",
+    "date": "2026-09-02T13:29:18+08:00",
+    "message": "sync: 新增资源《气球塔防6 猴子塔防6 / Bloons TD 6/ 单机+联机/ PC+手机双》",
+    "url": "https://github.com/xi7ang/GameHub/commit/4cfd16567ca77a2fd1ffc0de68ee6bbcd42ef48b"
   },
   {
-    "hash": "43f8f82",
-    "date": "2026-08-27T12:32:08+08:00",
-    "message": "sync: 新增资源《植物大战僵尸：重植版v1.5.1469.0赠存档 Plants vs. Zomb》",
-    "url": "https://github.com/xi7ang/GameHub/commit/43f8f82f03822739fa4419a1baa6107cdd432598"
+    "hash": "2d76866",
+    "date": "2026-09-02T13:24:30+08:00",
+    "message": "sync: 新增资源《古墓丽影三部曲：重制版 古墓丽影1-3 重制版/Tomb Raider I-II》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2d76866e3d213d723da231e89f9687a1fa23558a"
   },
   {
-    "hash": "a84bc56",
-    "date": "2026-08-27T12:31:35+08:00",
-    "message": "sync: 新增资源《水果忍者初代经典版 V1.0》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a84bc56564c05bd56464c1feb0ad315a8606316c"
+    "hash": "8c4bf2f",
+    "date": "2026-09-02T13:21:27+08:00",
+    "message": "sync: 新增资源《不正经的卡牌传说 v1.6.4（Fickle Card Legend）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8c4bf2f2a304deb163d38fb3d2c52b2c099a1c36"
   },
   {
-    "hash": "cdce249",
-    "date": "2026-08-27T12:28:11+08:00",
-    "message": "sync: 新增资源《雪山滑雪大冒险 2（全中文）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cdce249a7715baf88b04267c90500e25b8f0252d"
+    "hash": "9fb0cae",
+    "date": "2026-09-02T13:16:59+08:00",
+    "message": "sync: 新增资源《书呆子模拟器 Build.24589484（Nerd Simulator）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9fb0cae9b0a637d7fcc603613196d750ad20f0ff"
   },
   {
-    "hash": "f55d323",
-    "date": "2026-08-27T12:24:37+08:00",
-    "message": "sync: 新增资源《【跑酷】神庙逃亡2v1.118.0_内置大量资源【分享给自己q三次就行】.apk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f55d3239e6dfacc2c26ba4df4e93c922285a574c"
+    "hash": "e365c01",
+    "date": "2026-09-02T11:40:41+08:00",
+    "message": "sync: 新增资源《三国群英传8_Build.10012892_Kingdom Heroes 8》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e365c01547514b4e9b5518883e0aa3e9b75ac16c"
   },
   {
-    "hash": "a05ba16",
-    "date": "2026-08-27T12:23:03+08:00",
-    "message": "sync: 新增资源《割绳子v3.66.0（MOD菜单）.apk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a05ba16407bc7fda477a6de5326ec80488bb38c8"
+    "hash": "41885d8",
+    "date": "2026-09-01T11:47:54+08:00",
+    "message": "sync: 新增资源《宝可梦传说ZA v1.01免安装版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/41885d87aabf34fc0fbbeb43a615ef80a17b96b3"
   }
 ]

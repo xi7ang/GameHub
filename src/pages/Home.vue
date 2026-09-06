@@ -57,7 +57,7 @@
       </div>
     </section>
 
-    <!-- 最新动态 -->
+    <!-- 最新动态（已隐藏）
     <section v-if="state.commits.length" class="container section">
       <h2 class="section-title">📡 最新动态</h2>
       <div class="commit-list glass">
@@ -75,6 +75,7 @@
         </a>
       </div>
     </section>
+    -->
 
     <!-- 数据统计条（页脚上方） -->
     <section class="container stats fade-up">
