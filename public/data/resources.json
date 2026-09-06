@@ -21603,5 +21603,29 @@
     "addedAt": "2026-09-05T22:16:52+08:00",
     "updatedAt": "2026-09-05T22:16:52+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0015",
+    "title": "战争号令:装甲精英",
+    "enTitle": "Call to Arms: Panzer Elite",
+    "category": "pc",
+    "tags": [
+      "即时战略",
+      "动作",
+      "模拟",
+      "热门大作"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/94b1f7c59a52?pwd=Uz3z",
+    "pwd": "it8b",
+    "size": "63.6GB",
+    "sizeBytes": 68289980006,
+    "cover": "",
+    "desc": "在这款沉浸式的第三人称与第一人称游戏中率领一支二战坦克排。参与真实而富有战术性的战斗，驰骋于历史战场。你可以体验完整的战役模式，或在遭遇战模式中挑战自我，扮演德军或美军作战。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-06T11:08:25+08:00",
+    "updatedAt": "2026-09-06T11:08:25+08:00",
+    "month": "202609"
   }
 ]
