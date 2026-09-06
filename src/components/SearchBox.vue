@@ -161,6 +161,18 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
   max-height: 420px;
   overflow-y: auto;
   z-index: 95;
+  /* 实底替代 .glass 的近乎透明背景，保证结果文字可读 */
+  background: rgba(var(--bg-1-rgb), 0.96);
+  border: 1px solid rgba(var(--accent-rgb), 0.28);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55), 0 2px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+/* 覆盖 .glass:hover 的位移，下拉框不应整体浮动 */
+.search-dropdown.glass:hover {
+  transform: none;
+  border-color: rgba(var(--accent-rgb), 0.28);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
 }
 .search-dropdown__meta { font-size: 12px; padding: 4px 8px 8px; }
 .search-dropdown__item {
@@ -171,7 +183,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
   border-radius: 10px;
   transition: background 0.15s;
 }
-.search-dropdown__item:hover { background: rgba(var(--accent-rgb), 0.12); }
+.search-dropdown__item:hover { background: rgba(var(--accent-rgb), 0.18); }
 .search-dropdown__dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 .search-dropdown__title { flex: 1; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .search-dropdown__empty { padding: 18px; text-align: center; font-size: 14px; }

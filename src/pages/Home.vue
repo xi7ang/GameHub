@@ -12,7 +12,7 @@
           <SearchBox />
         </div>
         <div class="hero__hot">
-          <span class="text-low">热门：</span>
+          <span class="hot-label">🔥 热门搜索</span>
           <a
             v-for="k in site?.hotKeywords || []"
             :key="k"
@@ -168,17 +168,48 @@ onMounted(load)
   animation: fadeInUp 0.6s ease-out 0.16s both;
 }
 .hero__search { max-width: 640px; margin: 0 auto; animation: fadeInUp 0.6s ease-out 0.24s both; }
-.hero__hot { margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; animation: fadeInUp 0.6s ease-out 0.32s both; }
-.hot-tag {
-  padding: 5px 14px;
+.hero__hot {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.6s ease-out 0.32s both;
+}
+.hero__hot .hot-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  margin-right: 2px;
   border-radius: 100px;
-  font-size: 12px;
-  color: var(--text-mid);
-  border: 1px solid var(--glass-border);
-  background: rgba(var(--accent-rgb), 0.05);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-gold);
+  border: 1px dashed rgba(var(--accent-rgb), 0.55);
+  background: rgba(var(--accent-rgb), 0.08);
+  white-space: nowrap;
+}
+.hot-tag {
+  padding: 7px 18px;
+  border-radius: 100px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-hi);
+  border: 1px solid rgba(var(--accent-rgb), 0.5);
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.22), rgba(var(--accent2-rgb), 0.1));
+  box-shadow: inset 0 0 12px rgba(var(--accent-rgb), 0.06);
+  letter-spacing: 0.02em;
   transition: all 0.2s;
 }
-.hot-tag:hover { color: var(--neon-cyan); border-color: var(--neon-cyan); }
+.hot-tag:hover {
+  color: #fff;
+  border-color: var(--accent-gold);
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
+  box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.55), var(--shadow-glow);
+  transform: translateY(-2px);
+}
 
 /* Stats（页脚上方，无边框） */
 .stats {
