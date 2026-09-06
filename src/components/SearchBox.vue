@@ -106,7 +106,10 @@ function onKey(e) {
 }
 onMounted(() => {
   window.addEventListener('keydown', onKey)
-  if (props.autofocus) inputRef.value?.focus()
+  // 仅非触屏设备自动聚焦：避免手机/平板跳转 search 页时直接弹出输入法键盘
+  if (props.autofocus && window.matchMedia?.('(hover: hover) and (pointer: fine)').matches) {
+    inputRef.value?.focus()
+  }
 })
 onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
 </script>

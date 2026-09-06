@@ -1,5 +1,23 @@
 [
   {
+    "hash": "8ec4b6d",
+    "date": "2026-09-06T11:22:55+08:00",
+    "message": "sync: 新增资源《梦核：兔子洞》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8ec4b6db316d5510d2cd765024fdfe21e9816322"
+  },
+  {
+    "hash": "56208c3",
+    "date": "2026-09-06T11:22:00+08:00",
+    "message": "sync: 新增资源《林中小女巫》",
+    "url": "https://github.com/xi7ang/GameHub/commit/56208c38c571c1d2a91ef5d19227cc8833f9b416"
+  },
+  {
+    "hash": "9d48264",
+    "date": "2026-09-06T11:20:13+08:00",
+    "message": "style(home): solid search dropdown bg for readability, highlight hot keywords",
+    "url": "https://github.com/xi7ang/GameHub/commit/9d4826472ba87f820a801cb899c9bceadd8137e3"
+  },
+  {
     "hash": "13f37fe",
     "date": "2026-09-06T11:14:49+08:00",
     "message": "chore: hide 最新动态 section on homepage",
@@ -160,23 +178,5 @@
     "date": "2026-09-02T13:24:30+08:00",
     "message": "sync: 新增资源《古墓丽影三部曲：重制版 古墓丽影1-3 重制版/Tomb Raider I-II》",
     "url": "https://github.com/xi7ang/GameHub/commit/2d76866e3d213d723da231e89f9687a1fa23558a"
-  },
-  {
-    "hash": "8c4bf2f",
-    "date": "2026-09-02T13:21:27+08:00",
-    "message": "sync: 新增资源《不正经的卡牌传说 v1.6.4（Fickle Card Legend）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8c4bf2f2a304deb163d38fb3d2c52b2c099a1c36"
-  },
-  {
-    "hash": "9fb0cae",
-    "date": "2026-09-02T13:16:59+08:00",
-    "message": "sync: 新增资源《书呆子模拟器 Build.24589484（Nerd Simulator）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9fb0cae9b0a637d7fcc603613196d750ad20f0ff"
-  },
-  {
-    "hash": "e365c01",
-    "date": "2026-09-02T11:40:41+08:00",
-    "message": "sync: 新增资源《三国群英传8_Build.10012892_Kingdom Heroes 8》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e365c01547514b4e9b5518883e0aa3e9b75ac16c"
   }
 ]

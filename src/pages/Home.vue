@@ -167,7 +167,13 @@ onMounted(load)
   margin-bottom: 30px;
   animation: fadeInUp 0.6s ease-out 0.16s both;
 }
-.hero__search { max-width: 640px; margin: 0 auto; animation: fadeInUp 0.6s ease-out 0.24s both; }
+.hero__search {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5; /* 让搜索下拉浮层盖过 .hero__hot（动画 transform 也会创建层叠上下文） */
+  animation: fadeInUp 0.6s ease-out 0.24s both;
+}
 .hero__hot {
   margin-top: 22px;
   display: flex;
