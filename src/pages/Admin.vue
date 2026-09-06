@@ -275,6 +275,21 @@
                 <label class="form-label">公告</label>
                 <input v-model="siteForm.announcement" class="form-input" />
               </div>
+              <div class="form-group site-announcement-editor" style="grid-column: 1/-1">
+                <div class="flex-between wrap gap-sm">
+                  <div>
+                    <label class="form-label" style="margin-bottom: 2px">首页公告弹窗</label>
+                    <p class="text-low" style="font-size: 12px; margin: 0">用户进入首页时显示；修改版本号后，曾选择“今日关闭”的用户也会重新看到公告。</p>
+                  </div>
+                  <label class="toggle-label"><input v-model="siteForm.announcementModal.enabled" type="checkbox" /> 启用弹窗</label>
+                </div>
+                <input v-model="siteForm.announcementModal.title" class="form-input mt-md" placeholder="公告标题" />
+                <textarea v-model="siteForm.announcementModal.content" class="form-input announcement-editor__content" placeholder="公告正文，支持换行"></textarea>
+                <div class="flex gap-sm">
+                  <label class="form-label" style="margin: 0; white-space: nowrap">公告版本</label>
+                  <input v-model="siteForm.announcementModal.version" class="form-input" placeholder="例如 2026-09-07-1" />
+                </div>
+              </div>
               <div class="form-group">
                 <label class="form-label">QQ群链接</label>
                 <input v-model="siteForm.qqGroup" class="form-input" />
@@ -761,7 +776,14 @@ async function writeFileBinary(filePath, base64Content, message) {
 // ── 数据状态 ──
 const resources = ref([])
 const cats = ref([])
-const siteForm = reactive({})
+const siteForm = reactive({
+  announcementModal: {
+    enabled: false,
+    title: '站点公告',
+    content: '',
+    version: '',
+  },
+})
 const dirty = ref(false)
 const saving = ref(false)
 const commitMsg = ref('')
@@ -1220,6 +1242,7 @@ async function refreshAll() {
   resources.value = await readFile('public/data/resources.json')
   cats.value = await readFile('public/data/categories.json')
   const site = await readFile('public/data/site.json')
+  site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '' }
   Object.assign(siteForm, JSON.parse(JSON.stringify(site)))
   siteInit.value = true // 之后用户任何修改都会触发 dirty
   // 同步前台展示数据
@@ -1971,6 +1994,14 @@ onMounted(async () => {
 .modal { padding: 28px; max-height: 90vh; overflow-y: auto; width: 100%; }
 .modal--wide { max-width: 760px; }
 .modal__title { margin-bottom: 18px; }
+.site-announcement-editor {
+  padding: 18px;
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  background: rgba(var(--accent-rgb), 0.04);
+}
+.toggle-label { display: inline-flex; align-items: center; gap: 8px; color: var(--text-mid); font-size: 13px; cursor: pointer; }
+.announcement-editor__content { min-height: 150px; resize: vertical; margin: 10px 0; line-height: 1.7; }
 
 @media (max-width: 768px) {
   .admin-body { grid-template-columns: 1fr; }

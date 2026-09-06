@@ -3,6 +3,12 @@
   "slogan": "全网游戏资源聚合 · 免费 · 持续更新",
   "description": "GameHub 游戏资源分享站，聚合单机/手游/Switch/联机/MOD/模拟器/游戏工具资源，夸克/UC/迅雷/百度/阿里多网盘支持，每日更新。",
   "announcement": "🎮 GameHub 上线！所有资源免费分享，仅供学习交流，请支持正版。",
+  "announcementModal": {
+    "enabled": true,
+    "title": "站点公告",
+    "content": "🎮 欢迎来到 GameHub！\n\n所有资源仅供学习交流使用，请支持正版。",
+    "version": "2026-09-07"
+  },
   "qqGroup": "https://qm.qq.com/q/EkPkbcVMaY",
   "telegram": "https://t.me/xi7ang",
   "email": "3511035605@qq.com",

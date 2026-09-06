@@ -98,11 +98,25 @@
     </section>
 
     <SiteFooter />
+
+    <div v-if="announcementVisible" class="announcement-mask" @click.self="closeAnnouncement">
+      <section class="announcement-modal glass" role="dialog" aria-modal="true" aria-labelledby="announcement-title">
+        <button class="announcement-modal__close" type="button" title="关闭" aria-label="关闭公告" @click="closeAnnouncement">✕</button>
+        <div class="announcement-modal__icon">📢</div>
+        <p class="announcement-modal__eyebrow">GAMEHUB NOTICE</p>
+        <h2 id="announcement-title">{{ announcement.title || '站点公告' }}</h2>
+        <div class="announcement-modal__content">{{ announcement.content }}</div>
+        <div class="announcement-modal__actions">
+          <button class="btn btn-ghost" type="button" @click="closeAnnouncementForToday">今日关闭</button>
+          <button class="btn btn-primary" type="button" @click="closeAnnouncement">关闭</button>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import SiteHeader from '../components/SiteHeader.vue'
 import BgWall from '../components/BgWall.vue'
 import SearchBox from '../components/SearchBox.vue'
@@ -112,6 +126,9 @@ import { useData } from '../composables/useData.js'
 
 const { state, load } = useData()
 const site = computed(() => state.site)
+const announcementVisible = ref(false)
+const announcement = computed(() => state.site?.announcementModal || {})
+const ANNOUNCEMENT_DISMISSED_KEY = 'gamehub-announcement-dismissed'
 
 const featured = computed(() => state.resources.filter((r) => r.featured).slice(0, 8))
 const latest = computed(() => state.resources.filter((r) => !r.featured).slice(0, 12))
@@ -137,11 +154,93 @@ function fmtDate(iso) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`
 }
 
-onMounted(load)
+function announcementVersion() {
+  const item = announcement.value
+  return item.version || `${item.title || ''}:${item.content || ''}`
+}
+
+function localDateKey() {
+  const now = new Date()
+  const pad = (value) => String(value).padStart(2, '0')
+  return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`
+}
+
+function showAnnouncement() {
+  const item = announcement.value
+  if (!item.enabled || !item.content) return
+  try {
+    const dismissed = JSON.parse(localStorage.getItem(ANNOUNCEMENT_DISMISSED_KEY) || 'null')
+    const today = localDateKey()
+    if (dismissed?.version === announcementVersion() && dismissed?.date === today) return
+  } catch { /* 浏览器禁用存储时仍允许公告正常显示 */ }
+  announcementVisible.value = true
+}
+
+function closeAnnouncement() {
+  announcementVisible.value = false
+}
+
+function closeAnnouncementForToday() {
+  try {
+    localStorage.setItem(ANNOUNCEMENT_DISMISSED_KEY, JSON.stringify({
+      version: announcementVersion(),
+      date: localDateKey(),
+    }))
+  } catch { /* 不阻断关闭操作 */ }
+  closeAnnouncement()
+}
+
+onMounted(async () => {
+  await load()
+  showAnnouncement()
+})
 </script>
 
 <style scoped>
 .home { min-height: 100vh; }
+
+/* Announcement modal */
+.announcement-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(5, 7, 10, 0.78);
+  backdrop-filter: blur(8px);
+  animation: announcement-fade 0.2s ease-out;
+}
+.announcement-modal {
+  position: relative;
+  width: min(100%, 540px);
+  padding: 34px 34px 28px;
+  text-align: center;
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.5), var(--shadow-glow);
+  animation: announcement-rise 0.25s ease-out;
+}
+.announcement-modal:hover { transform: none; }
+.announcement-modal__close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-mid);
+  font-size: 15px;
+}
+.announcement-modal__close:hover { color: var(--text-hi); border-color: var(--accent-gold); }
+.announcement-modal__icon { font-size: 34px; line-height: 1; margin-bottom: 10px; }
+.announcement-modal__eyebrow { color: var(--accent-gold); font: 600 11px var(--font-display); letter-spacing: 0.16em; margin-bottom: 6px; }
+.announcement-modal h2 { font: 700 26px var(--font-display); margin-bottom: 18px; }
+.announcement-modal__content { color: var(--text-mid); font-size: 15px; line-height: 1.9; white-space: pre-line; text-align: left; }
+.announcement-modal__actions { display: flex; justify-content: center; gap: 10px; margin-top: 26px; }
+@keyframes announcement-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes announcement-rise { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
 
 /* Hero */
 .hero { padding: 110px 0 50px; text-align: center; position: relative; z-index: 1; }
@@ -292,5 +391,7 @@ onMounted(load)
 @media (max-width: 480px) {
   .rc-grid { grid-template-columns: repeat(2, 1fr); }
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
+  .announcement-modal { padding: 30px 22px 22px; }
+  .announcement-modal h2 { font-size: 23px; }
 }
 </style>

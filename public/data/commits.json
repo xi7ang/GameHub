@@ -1,5 +1,11 @@
 [
   {
+    "hash": "51e9cc2",
+    "date": "2026-09-06T14:24:39+08:00",
+    "message": "feat(seo): auto sitemap.xml+robots.txt on build, cover path validation, admin one-click SEO refresh",
+    "url": "https://github.com/xi7ang/GameHub/commit/51e9cc228ae0bb0fa5bc2236abb9e0f9ff8307ea"
+  },
+  {
     "hash": "7544a7d",
     "date": "2026-09-06T13:44:48+08:00",
     "message": "林中女巫封面修改",
@@ -172,11 +178,5 @@
     "date": "2026-09-02T21:51:31+08:00",
     "message": "style: 隐藏详情页 get-card 提取码行（pwd-row 保留可恢复）",
     "url": "https://github.com/xi7ang/GameHub/commit/708e2511000d62e75707f88576bc91b26c44292b"
-  },
-  {
-    "hash": "67efa80",
-    "date": "2026-09-02T21:38:27+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/67efa80c7e7c3a25ff3dee9381c713465471a4c9"
   }
 ]
