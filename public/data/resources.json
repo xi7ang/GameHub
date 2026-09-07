@@ -21725,5 +21725,29 @@
     "addedAt": "2026-09-07T09:56:57+08:00",
     "updatedAt": "2026-09-07T09:59:13+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0020",
+    "title": "霜雪列车2",
+    "enTitle": "Frostrain 2",
+    "category": "pc",
+    "tags": [
+      "策略战棋",
+      "独立",
+      "模拟",
+      "策略"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/4ef90aab5b79?pwd=04zg",
+    "pwd": "04zg",
+    "size": "1.5GB",
+    "sizeBytes": 1610612736,
+    "cover": "",
+    "desc": "成为最后的机车司机，统治这片冰封世界中仅存的列车社会。 收集、扩展并强化列车，结合强力遗物，构筑只属于你的独特协同。 你与乘客们的命运，如今掌握在你的手中。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-07T10:00:46+08:00",
+    "updatedAt": "2026-09-07T10:00:46+08:00",
+    "month": "202609"
   }
 ]
