@@ -21798,5 +21798,29 @@
     "addedAt": "2026-09-07T10:20:02+08:00",
     "updatedAt": "2026-09-07T10:20:02+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0023",
+    "title": "历史的终结",
+    "enTitle": "The End of History",
+    "category": "pc",
+    "tags": [
+      "策略战棋",
+      "独立",
+      "模拟",
+      "角色扮演"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/ddca9f64c751?pwd=yn0Y",
+    "pwd": "yn0Y",
+    "size": "3.3GB",
+    "sizeBytes": 3543348019,
+    "cover": "/GameHub/covers/2953520.webp",
+    "desc": "历史沙盒模拟游戏，每个NPC都有自己的人生。他们不会等你——结盟、结婚、背叛、复仇、死亡。王国因某人的意志而兴衰。 有时你影响历史，有时被历史裹挟——成为一生仅有一次的故事的观测者。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-07T10:21:05+08:00",
+    "updatedAt": "2026-09-07T10:21:05+08:00",
+    "month": "202609"
   }
 ]
