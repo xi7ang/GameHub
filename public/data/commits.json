@@ -1,5 +1,47 @@
 [
   {
+    "hash": "3897a66",
+    "date": "2026-09-07T10:00:47+08:00",
+    "message": "sync: 新增资源《霜雪列车2》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3897a66d8319b6503d6c01dcdcd8029a860eeadf"
+  },
+  {
+    "hash": "9d6fd3d",
+    "date": "2026-09-07T09:59:18+08:00",
+    "message": "fix(data): 修正 resources.json 提取码（误存百度码 → 更正为夸克码，0015-0019）",
+    "url": "https://github.com/xi7ang/GameHub/commit/9d6fd3d49785e9f9e56a9168a4b7599032e327b9"
+  },
+  {
+    "hash": "c00a8d5",
+    "date": "2026-09-07T09:56:57+08:00",
+    "message": "sync: 新增资源《风之马传说》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c00a8d53ac95c594467a59db8f6f1f62783c9c84"
+  },
+  {
+    "hash": "2a2690f",
+    "date": "2026-09-07T08:02:20+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/2a2690f36fd2fd5f568250f7dc16b3f4edb074a1"
+  },
+  {
+    "hash": "1f1702b",
+    "date": "2026-09-07T08:02:19+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/1f1702b30322044e9b21977eec4d3cd4291b9990"
+  },
+  {
+    "hash": "798f820",
+    "date": "2026-09-07T08:02:18+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/798f82019a3a0f18ab1d8e174f6f2903bf4bc1b9"
+  },
+  {
+    "hash": "411f435",
+    "date": "2026-09-07T07:25:06+08:00",
+    "message": "feat: add manageable homepage announcement modal",
+    "url": "https://github.com/xi7ang/GameHub/commit/411f43580b08772716e9369713b5406c892988b0"
+  },
+  {
     "hash": "51e9cc2",
     "date": "2026-09-06T14:24:39+08:00",
     "message": "feat(seo): auto sitemap.xml+robots.txt on build, cover path validation, admin one-click SEO refresh",
@@ -136,47 +178,5 @@
     "date": "2026-09-05T08:24:40+08:00",
     "message": "sync: 新增资源《刺客信条:幻景 豪华版+DLC 中文简体》",
     "url": "https://github.com/xi7ang/GameHub/commit/2bc158eb03e1dceb1135ca784eb60e7919738394"
-  },
-  {
-    "hash": "5c37ee4",
-    "date": "2026-09-05T08:23:45+08:00",
-    "message": "sync: 新增资源《密室逃脱模拟器2 v20029R 中文版 解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5c37ee4a81a505b1fa281d8d3914d94591e9198c"
-  },
-  {
-    "hash": "6f17761",
-    "date": "2026-09-04T15:25:12+08:00",
-    "message": "sync: 新增资源《地府有点忙 /Reap and Rush v1.0082804》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6f177610d10884d9bbd128e7811615b3302c90ca"
-  },
-  {
-    "hash": "dd9edc7",
-    "date": "2026-09-04T15:24:13+08:00",
-    "message": "sync: 新增资源《火柴人战壕 /Stickman Trenches Build.24783128》",
-    "url": "https://github.com/xi7ang/GameHub/commit/dd9edc73cfe3041285f2b152784db5baab1d3dae"
-  },
-  {
-    "hash": "3e3837d",
-    "date": "2026-09-04T15:23:12+08:00",
-    "message": "sync: 新增资源《汽车销售模拟器2023 二手车买卖模拟器 汽车买卖模拟器2023 Build.2》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3e3837da433cbf88935c4e3e7d0e7738dcacb7ea"
-  },
-  {
-    "hash": "1e1c293",
-    "date": "2026-09-04T13:37:42+08:00",
-    "message": "sync: 新增资源《包裹混乱 Build.24944281（Package chaos）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/1e1c29302e13d329c02b08cbf250c5d62273812c"
-  },
-  {
-    "hash": "5567cad",
-    "date": "2026-09-04T13:14:29+08:00",
-    "message": "sync: 新增资源《流星蝴蝶剑经典武侠动作》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5567cad94f7b5b92ba2d99de5edbdd16eabfbf4a"
-  },
-  {
-    "hash": "708e251",
-    "date": "2026-09-02T21:51:31+08:00",
-    "message": "style: 隐藏详情页 get-card 提取码行（pwd-row 保留可恢复）",
-    "url": "https://github.com/xi7ang/GameHub/commit/708e2511000d62e75707f88576bc91b26c44292b"
   }
 ]

@@ -105,6 +105,16 @@
         <div class="announcement-modal__icon">📢</div>
         <p class="announcement-modal__eyebrow">GAMEHUB NOTICE</p>
         <h2 id="announcement-title">{{ announcement.title || '站点公告' }}</h2>
+        <div class="announcement-socials">
+          <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="announcement-social announcement-social--qq">
+            <span class="announcement-social__icon">🐧</span>
+            <span>QQ群</span>
+          </a>
+          <a v-if="site?.telegram" :href="site.telegram" target="_blank" rel="noreferrer" class="announcement-social announcement-social--tg">
+            <svg class="announcement-social__icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg>
+            <span>TG频道</span>
+          </a>
+        </div>
         <div class="announcement-modal__content">{{ announcement.content }}</div>
         <div class="announcement-modal__actions">
           <button class="btn btn-ghost" type="button" @click="closeAnnouncementForToday">今日关闭</button>
@@ -208,7 +218,7 @@ onMounted(async () => {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background: rgba(5, 7, 10, 0.78);
+  background: var(--scrim);
   backdrop-filter: blur(8px);
   animation: announcement-fade 0.2s ease-out;
 }
@@ -217,10 +227,56 @@ onMounted(async () => {
   width: min(100%, 540px);
   padding: 34px 34px 28px;
   text-align: center;
-  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.5), var(--shadow-glow);
+  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.24), var(--shadow-card), var(--shadow-glow);
   animation: announcement-rise 0.25s ease-out;
 }
 .announcement-modal:hover { transform: none; }
+.announcement-socials { display: flex; justify-content: center; gap: 8px; margin: -6px 0 18px; }
+.announcement-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.announcement-social__icon { display: inline-flex; font-size: 13px; line-height: 1; }
+.announcement-social--qq { background: #07c160; border: 1px solid #06ad56; position: relative; overflow: hidden; animation: announcement-qq-glow 2.4s ease-in-out infinite; }
+.announcement-social--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); }
+.announcement-social--tg { background: #1da1f2; border: 1px solid #1a91da; }
+.announcement-social--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
+@keyframes announcement-qq-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(7, 193, 96, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(7, 193, 96, 0.65), 0 0 4px rgba(7, 193, 96, 0.4); }
+}
+.announcement-social--qq .announcement-social__icon { animation: announcement-qq-waddle 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
+@keyframes announcement-qq-waddle {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25% { transform: rotate(-12deg) translateY(-1px); }
+  75% { transform: rotate(12deg) translateY(1px); }
+}
+.announcement-social--qq:hover, .announcement-social--qq:hover .announcement-social__icon { animation-play-state: paused; }
+.announcement-social--qq::after {
+  content: '';
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: -70%;
+  width: 45%;
+  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transform: skewX(-20deg);
+  animation: announcement-qq-shine 3s ease-in-out infinite;
+  pointer-events: none;
+}
+@keyframes announcement-qq-shine {
+  0%, 55% { left: -70%; }
+  85%, 100% { left: 130%; }
+}
+.announcement-social--qq:hover::after { animation-play-state: paused; }
 .announcement-modal__close {
   position: absolute;
   top: 13px;
@@ -241,6 +297,9 @@ onMounted(async () => {
 .announcement-modal__actions { display: flex; justify-content: center; gap: 10px; margin-top: 26px; }
 @keyframes announcement-fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes announcement-rise { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  .announcement-social--qq, .announcement-social--qq::after, .announcement-social--qq .announcement-social__icon { animation: none; }
+}
 
 /* Hero */
 .hero { padding: 110px 0 50px; text-align: center; position: relative; z-index: 1; }
