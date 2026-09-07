@@ -3,7 +3,10 @@
     <div class="container">
       <div class="site-footer__top">
         <div class="site-footer__brand">
-          <div class="brand__name">Game<span class="brand__accent">Hub</span></div>
+          <div class="brand__name">
+            <template v-if="parts.accent">{{ parts.main }}<span class="brand__accent">{{ parts.accent }}</span></template>
+            <template v-else>{{ parts.main || site?.brand?.name || 'GameHub' }}</template>
+          </div>
           <p class="text-low">{{ site?.slogan }}</p>
         </div>
         <div class="site-footer__links">
@@ -16,7 +19,7 @@
       </div>
       <div class="site-footer__bottom text-low">
         <p>{{ site?.footer }}</p>
-        <p>Copyright © {{ year }} GameHub · <span id="busuanzi_container_site_uv">访客 <span id="busuanzi_value_site_uv"></span></span> · <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span></span></p>
+        <p>Copyright © {{ year }} {{ brandName(site) }} · <span id="busuanzi_container_site_uv">访客 <span id="busuanzi_value_site_uv"></span></span> · <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span></span></p>
       </div>
     </div>
   </footer>
@@ -24,9 +27,12 @@
 
 <script setup>
 import { useData } from '../composables/useData.js'
+import { useBrand } from '../composables/useBrand.js'
 import { computed } from 'vue'
 const { state } = useData()
 const site = computed(() => state.site)
+const { brandName, brandParts } = useBrand()
+const parts = computed(() => brandParts(site.value))
 const year = new Date().getFullYear()
 </script>
 

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b764a64",
+    "date": "2026-09-07T10:42:49+08:00",
+    "message": "feat: 公告栏更新为网感使用说明（欢迎语+三步上手+小提示）",
+    "url": "https://github.com/xi7ang/GameHub/commit/b764a643aa5ea14f672b93e11a9ad95a985c270f"
+  },
+  {
     "hash": "e16b684",
     "date": "2026-09-07T10:36:49+08:00",
     "message": "fix(data): 修正资源封面路径（去掉多余的 /GameHub 前缀），修复 CI 校验失败",
@@ -172,11 +178,5 @@
     "date": "2026-09-05T23:05:33+08:00",
     "message": "chore: pin custom domain pan.devmini.space via CNAME",
     "url": "https://github.com/xi7ang/GameHub/commit/6a825ac12dc90d61d3916d2ecaa9e1134ccaea19"
-  },
-  {
-    "hash": "28987f5",
-    "date": "2026-09-05T22:16:53+08:00",
-    "message": "sync: 新增资源《植物大战僵尸3_内置无限阳光菜单.apk（安卓版）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/28987f51046374f4daedafbffa253867fea6373f"
   }
 ]

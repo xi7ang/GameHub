@@ -28,7 +28,7 @@
       <header class="admin-topbar">
         <div class="container flex-between">
           <div class="flex gap-sm">
-            <span class="admin-logo">🎮 GameHub 后台</span>
+            <span class="admin-logo">🎮 {{ siteForm.brand?.name || 'GameHub' }} 后台</span>
             <span class="badge">已连接 {{ repo }}</span>
           </div>
           <div class="flex gap-sm">
@@ -266,6 +266,15 @@
               <div class="form-group">
                 <label class="form-label">站点名称</label>
                 <input v-model="siteForm.siteName" class="form-input" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">品牌名（一键换品牌）</label>
+                <input v-model="siteForm.brand.name" class="form-input" placeholder="如：GameHub" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">品牌高亮后缀（可留空）</label>
+                <input v-model="siteForm.brand.accent" class="form-input" placeholder="如：Hub（留空则整名无高亮）" />
+                <p class="text-low" style="font-size: 12px; margin-top: 4px">填完后保存：顶部 logo、底部品牌、页脚版权、浏览器标题、各页面标题一键全部更换。</p>
               </div>
               <div class="form-group">
                 <label class="form-label">口号</label>
@@ -777,6 +786,10 @@ async function writeFileBinary(filePath, base64Content, message) {
 const resources = ref([])
 const cats = ref([])
 const siteForm = reactive({
+  brand: {
+    name: 'GameHub',
+    accent: 'Hub',
+  },
   announcementModal: {
     enabled: false,
     title: '站点公告',
@@ -1243,6 +1256,13 @@ async function refreshAll() {
   cats.value = await readFile('public/data/categories.json')
   const site = await readFile('public/data/site.json')
   site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '' }
+  // 兼容旧版 site.json：无 brand 时按 siteName 首词推断品牌名，默认无高亮后缀
+  if (!site.brand) {
+    const fallbackName = String(site.siteName || 'GameHub').split(/\s+/)[0]
+    site.brand = { name: fallbackName, accent: '' }
+  }
+  site.brand.name = site.brand.name || String(site.siteName || 'GameHub').split(/\s+/)[0]
+  site.brand.accent = site.brand.accent != null ? site.brand.accent : ''
   Object.assign(siteForm, JSON.parse(JSON.stringify(site)))
   siteInit.value = true // 之后用户任何修改都会触发 dirty
   // 同步前台展示数据
@@ -1668,6 +1688,8 @@ async function saveAll() {
     state.resources = [...resources.value]
     state.categories = [...cats.value]
     state.site = { ...siteForm }
+    // 品牌名写入 localStorage：404 页与下次访问提前生效（不依赖 fetch 完成）
+    try { if (siteForm.brand?.name) localStorage.setItem('gamehub-brand', siteForm.brand.name) } catch (e) {}
     dirty.value = false
     commitMsg.value = ''
     alert('✅ 已提交到 GitHub，Actions 正在自动部署（3-5 分钟）')

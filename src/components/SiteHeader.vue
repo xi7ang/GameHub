@@ -10,7 +10,10 @@
             <path d="M5 3v3M19 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
           </svg>
         </span>
-        <span class="brand__name">Game<span class="brand__accent">Hub</span></span>
+        <span class="brand__name">
+          <template v-if="parts.accent">{{ parts.main }}<span class="brand__accent">{{ parts.accent }}</span></template>
+          <template v-else>{{ parts.main || site?.brand?.name || 'GameHub' }}</template>
+        </span>
       </a>
 
       <nav class="site-nav">
@@ -32,11 +35,14 @@
 <script setup>
 import { useData } from '../composables/useData.js'
 import { useTheme } from '../composables/useTheme.js'
+import { useBrand } from '../composables/useBrand.js'
 import { computed } from 'vue'
 
 const { state } = useData()
 const { theme, toggleTheme } = useTheme()
 const site = computed(() => state.site)
+const { brandParts } = useBrand()
+const parts = computed(() => brandParts(site.value))
 </script>
 
 <style scoped>

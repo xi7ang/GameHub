@@ -6,6 +6,10 @@
     "version": "2026-09-07-2"
   },
   "siteName": "GameHub 游戏资源库",
+  "brand": {
+    "name": "GameHub",
+    "accent": "Hub"
+  },
   "slogan": "全网游戏资源聚合 · 免费 · 持续更新",
   "description": "GameHub 游戏资源分享站，聚合单机/手游/Switch/联机/MOD/模拟器/游戏工具资源，夸克/UC/迅雷/百度/阿里多网盘支持，每日更新。",
   "announcement": "🎮 GameHub 游戏资源库 · 免费分享 · 每日更新",

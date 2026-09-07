@@ -69,6 +69,21 @@ function catMeta(key) {
   return c || { key, name: key, emoji: '📦', gradient: ['#7d9cb3', '#4f6d8a'] }
 }
 
+// 品牌动态化：site.json 的 brand.name 为当前品牌名。各页面 *.html 静态 title/meta 里
+// 写的是仓库默认品牌（=DEFAULT_BRAND），load 完成后统一替换成运行时品牌。
+// 这样后台“一键换品牌”后，浏览器页签 + og:title 同步生效，无需改 7 个 html。
+const DEFAULT_BRAND = 'GameHub'
+
+function applyBrandToDoc(site) {
+  const name = site?.brand?.name
+  if (!name || name === DEFAULT_BRAND) return
+  const swap = (s) => (s || '').split(DEFAULT_BRAND).join(name)
+  document.title = swap(document.title)
+  document.querySelectorAll('meta[property="og:title"], meta[name="description"]').forEach((m) => {
+    m.setAttribute('content', swap(m.getAttribute('content')))
+  })
+}
+
 async function load() {
   if (loaded) return state
   try {
@@ -82,6 +97,7 @@ async function load() {
     state.categories = cats.sort((a, b) => a.order - b.order)
     state.site = site
     state.commits = commits
+    applyBrandToDoc(site)
     loaded = true
   } catch (e) {
     state.error = String(e)

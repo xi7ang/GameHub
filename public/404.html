@@ -59,6 +59,15 @@
     <a class="btn" href="/">← 返回 GameHub</a>
   </div>
   <script>
+    // 品牌名跟随后台配置（Admin 保存时写入 gamehub-brand；拿不到则保持默认 GameHub）
+    try {
+      var b = localStorage.getItem('gamehub-brand')
+      if (b) {
+        document.title = document.title.replace(/GameHub/g, b)
+        var btn = document.querySelector('.btn')
+        if (btn) btn.textContent = btn.textContent.replace(/GameHub/g, b)
+      }
+    } catch (e) {}
     // 旧站链接兼容：/resource?c=games&id=1329（无扩展名，在 GitHub Pages 上落到 404）→ 查映射跳转短链
     (function () {
       var q = new URLSearchParams(location.search)
