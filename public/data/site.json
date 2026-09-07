@@ -1,14 +1,14 @@
 {
   "announcementModal": {
     "enabled": true,
-    "title": "站点公告",
-    "content": "🎮 欢迎来到 GameHub！\n\n所有资源仅供学习交流使用，请支持正版。",
-    "version": "2026-09-07"
+    "title": "嗨，欢迎来 GameHub 玩 🎮",
+    "content": "这里是个游戏资源小仓库，单机/手游/Switch/联机/MOD 都有，全部免费，主打一个分享交流～\n\n上手就三步：\n① 顶部搜游戏名，或者按分类慢慢逛；\n② 看到喜欢的点进去，挑个网盘（夸克/UC/迅雷/百度都行，哪个顺手用哪个）；\n③ 转存到自己网盘再下载，稳的一批。\n\n小提示：\n· 每天都有新货上架，没事回来蹲蹲；\n· 资源仅供学习交流，喜欢的话记得支持正版；\n· 游戏挂了/找不到，来群里喊一声，看到就会补。\n\n聊游戏、求资源，欢迎来 QQ 群 / Telegram 找我玩！",
+    "version": "2026-09-07-2"
   },
   "siteName": "GameHub 游戏资源库",
   "slogan": "全网游戏资源聚合 · 免费 · 持续更新",
   "description": "GameHub 游戏资源分享站，聚合单机/手游/Switch/联机/MOD/模拟器/游戏工具资源，夸克/UC/迅雷/百度/阿里多网盘支持，每日更新。",
-  "announcement": "🎮 GameHub 上线！所有资源免费分享，仅供学习交流，请支持正版。",
+  "announcement": "🎮 GameHub 游戏资源库 · 免费分享 · 每日更新",
   "qqGroup": "https://qm.qq.com/q/EkPkbcVMaY",
   "telegram": "https://t.me/xi7ang",
   "email": "3511035605@qq.com",

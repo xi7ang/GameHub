@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e16b684",
+    "date": "2026-09-07T10:36:49+08:00",
+    "message": "fix(data): 修正资源封面路径（去掉多余的 /GameHub 前缀），修复 CI 校验失败",
+    "url": "https://github.com/xi7ang/GameHub/commit/e16b684e17f03bf81e131ea85303404017e5e2b9"
+  },
+  {
     "hash": "e112c49",
     "date": "2026-09-07T10:31:34+08:00",
     "message": "feat: use light theme by default",
@@ -172,11 +178,5 @@
     "date": "2026-09-05T22:16:53+08:00",
     "message": "sync: 新增资源《植物大战僵尸3_内置无限阳光菜单.apk（安卓版）》",
     "url": "https://github.com/xi7ang/GameHub/commit/28987f51046374f4daedafbffa253867fea6373f"
-  },
-  {
-    "hash": "f51ce62",
-    "date": "2026-09-05T14:09:56+08:00",
-    "message": "feat: 404 页兜底旧站 /resource?c=&id= 链接跳转短链",
-    "url": "https://github.com/xi7ang/GameHub/commit/f51ce6292d735ac025074e2de1d816f09aecf097"
   }
 ]
