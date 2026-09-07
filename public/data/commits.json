@@ -1,5 +1,35 @@
 [
   {
+    "hash": "e112c49",
+    "date": "2026-09-07T10:31:34+08:00",
+    "message": "feat: use light theme by default",
+    "url": "https://github.com/xi7ang/GameHub/commit/e112c494e1f687002e65cb2a78076cd70663e15c"
+  },
+  {
+    "hash": "a431140",
+    "date": "2026-09-07T10:21:05+08:00",
+    "message": "sync: 新增资源《历史的终结》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a431140063956bc3ece1ce23b3c687a2fd8b4454"
+  },
+  {
+    "hash": "8517881",
+    "date": "2026-09-07T10:20:03+08:00",
+    "message": "sync: 新增资源《青岚物语》",
+    "url": "https://github.com/xi7ang/GameHub/commit/85178811b1f3c0d260edc13cfc8c6f4010afe649"
+  },
+  {
+    "hash": "d26ca29",
+    "date": "2026-09-07T10:19:04+08:00",
+    "message": "sync: 新增资源《铁尾传奇2：凛冬之战》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d26ca29a804b52ba6f985e923da313927fc186af"
+  },
+  {
+    "hash": "f5cf8ea",
+    "date": "2026-09-07T10:08:45+08:00",
+    "message": "feat: theme announcement modal and add community links",
+    "url": "https://github.com/xi7ang/GameHub/commit/f5cf8ea54f1e5712cd0642adc6810e281dd28201"
+  },
+  {
     "hash": "3897a66",
     "date": "2026-09-07T10:00:47+08:00",
     "message": "sync: 新增资源《霜雪列车2》",
@@ -148,35 +178,5 @@
     "date": "2026-09-05T14:09:56+08:00",
     "message": "feat: 404 页兜底旧站 /resource?c=&id= 链接跳转短链",
     "url": "https://github.com/xi7ang/GameHub/commit/f51ce6292d735ac025074e2de1d816f09aecf097"
-  },
-  {
-    "hash": "78034c6",
-    "date": "2026-09-05T14:06:09+08:00",
-    "message": "feat: 迁移根路径部署（base=/, 前缀清理, legacy-map 旧链兼容, 详情短码）",
-    "url": "https://github.com/xi7ang/GameHub/commit/78034c65b628df379bf03e895043bd45f775e6b4"
-  },
-  {
-    "hash": "c44a3c2",
-    "date": "2026-09-05T08:27:24+08:00",
-    "message": "sync: 新增资源《极速跑者2：速度之王/SpeedRunners 2: King of Speed》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c44a3c25bd8992149380cf04c0015d98313b813f"
-  },
-  {
-    "hash": "5565041",
-    "date": "2026-09-05T08:26:29+08:00",
-    "message": "sync: 新增资源《加班：夜间巡逻/Overtime : Patrol》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5565041bdd4b3d13a85841593ea9a4e9c1335c86"
-  },
-  {
-    "hash": "997f985",
-    "date": "2026-09-05T08:25:34+08:00",
-    "message": "sync: 新增资源《战锤40K：暗潮 v1.10.5329.0 中文联机》",
-    "url": "https://github.com/xi7ang/GameHub/commit/997f98581f25d237a0a8f80f51be38069d30dc48"
-  },
-  {
-    "hash": "2bc158e",
-    "date": "2026-09-05T08:24:40+08:00",
-    "message": "sync: 新增资源《刺客信条:幻景 豪华版+DLC 中文简体》",
-    "url": "https://github.com/xi7ang/GameHub/commit/2bc158eb03e1dceb1135ca784eb60e7919738394"
   }
 ]
