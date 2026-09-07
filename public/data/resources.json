@@ -21700,5 +21700,30 @@
     "addedAt": "2026-09-06T11:22:55+08:00",
     "updatedAt": "2026-09-06T11:22:55+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0019",
+    "title": "风之马传说",
+    "enTitle": "The Legend of Khiimori",
+    "category": "pc",
+    "tags": [
+      "热门大作",
+      "动作冒险",
+      "休闲",
+      "模拟",
+      "冒险"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/97952e74aa02?pwd=j8eb",
+    "pwd": "3ren",
+    "size": "22.4GB",
+    "sizeBytes": 24051816857,
+    "cover": "",
+    "desc": "在《The Legend of Khiimori》中化身勇敢的驿站骑师！与你的马儿建立羁绊，驰骋并驯服13世纪蒙古的旷野。培育并训练具备专长的马匹，探索这片富饶迷人大地的每个角落。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-07T09:56:57+08:00",
+    "updatedAt": "2026-09-07T09:56:57+08:00",
+    "month": "202609"
   }
 ]
