@@ -3,9 +3,7 @@
 全网游戏资源聚合分享站 · 单机 / 手游 / Switch / 联机 / MOD / 模拟器 / 游戏工具
 部署于 GitHub Pages，数据即仓库，commit 即更新。
 
-**线上地址：** https://xi7ang.github.io/GameHub/
-**管理后台：** https://xi7ang.github.io/GameHub/admin.html
-
+**线上地址：** https://pan.devmini.space/
 ## ✨ 功能
 
 - 🔍 资源搜索（首页即时下拉 + 搜索页，`/` 快捷键聚焦）
