@@ -19423,7 +19423,7 @@
     "cover": "/covers/2739990.webp",
     "desc": "版本 v0.2.62 · DLC",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -19463,7 +19463,7 @@
     "cover": "/covers/2165620.webp",
     "desc": "版本 Build.24507911 · 模拟器",
     "status": "active",
-    "featured": true,
+    "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202608"
@@ -21794,7 +21794,7 @@
     "cover": "/covers/2340520.webp",
     "desc": "一款以青岚岛屿为舞台的妖怪世界治愈田园生活模拟游戏。经营农场、修缮祖宅、与居民缔结温暖羁绊，还能幻化为各式妖怪形态，徜徉在一座随四季流转、悠然焕新的奇幻世界。",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-09-07T10:20:02+08:00",
     "updatedAt": "2026-09-07T10:20:02+08:00",
     "month": "202609"
@@ -21818,7 +21818,7 @@
     "cover": "/covers/2953520.webp",
     "desc": "历史沙盒模拟游戏，每个NPC都有自己的人生。他们不会等你——结盟、结婚、背叛、复仇、死亡。王国因某人的意志而兴衰。 有时你影响历史，有时被历史裹挟——成为一生仅有一次的故事的观测者。",
     "status": "active",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-09-07T10:21:05+08:00",
     "updatedAt": "2026-09-07T10:21:05+08:00",
     "month": "202609"
