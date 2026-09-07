@@ -1,5 +1,53 @@
 [
   {
+    "hash": "986d674",
+    "date": "2026-09-07T13:39:59+08:00",
+    "message": "feat: 后台支持一键更换品牌名（brand 配置驱动顶部/底部/页脚/页签标题全站替换）",
+    "url": "https://github.com/xi7ang/GameHub/commit/986d674b7f9104e42fde0d26101ae8dd616ea0d5"
+  },
+  {
+    "hash": "c2d5b07",
+    "date": "2026-09-07T10:59:34+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c2d5b0758dc1c7e3486eae28a8aeb069b1f27849"
+  },
+  {
+    "hash": "b33da71",
+    "date": "2026-09-07T10:59:32+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/b33da71284cb770fe1d8c7e70c78f52294648529"
+  },
+  {
+    "hash": "32889af",
+    "date": "2026-09-07T10:59:31+08:00",
+    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/32889af4074da0360c6bfeecb524c1058aa28cec"
+  },
+  {
+    "hash": "49adf6a",
+    "date": "2026-09-07T10:56:44+08:00",
+    "message": "更新 README.md",
+    "url": "https://github.com/xi7ang/GameHub/commit/49adf6a8a210ab2d4a715a288f8ffe48700799d3"
+  },
+  {
+    "hash": "6e3f9d9",
+    "date": "2026-09-07T10:50:18+08:00",
+    "message": "chore：公告更新",
+    "url": "https://github.com/xi7ang/GameHub/commit/6e3f9d9dcd3a57d39afcde0d3e78de10883176c3"
+  },
+  {
+    "hash": "a51d451",
+    "date": "2026-09-07T10:50:17+08:00",
+    "message": "chore：公告更新",
+    "url": "https://github.com/xi7ang/GameHub/commit/a51d45105fe8ad0617da9ffeea8cbd594a84a795"
+  },
+  {
+    "hash": "9fc9988",
+    "date": "2026-09-07T10:50:15+08:00",
+    "message": "chore：公告更新",
+    "url": "https://github.com/xi7ang/GameHub/commit/9fc9988051455c509c32c4d4f276b28aaa3a482d"
+  },
+  {
     "hash": "b764a64",
     "date": "2026-09-07T10:42:49+08:00",
     "message": "feat: 公告栏更新为网感使用说明（欢迎语+三步上手+小提示）",
@@ -130,53 +178,5 @@
     "date": "2026-09-06T11:31:24+08:00",
     "message": "fix(home): raise search dropdown above hot keywords; no autofocus on touch devices",
     "url": "https://github.com/xi7ang/GameHub/commit/47e3d5f1b38db6e503eeca409b1e492d03431a31"
-  },
-  {
-    "hash": "8ec4b6d",
-    "date": "2026-09-06T11:22:55+08:00",
-    "message": "sync: 新增资源《梦核：兔子洞》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8ec4b6db316d5510d2cd765024fdfe21e9816322"
-  },
-  {
-    "hash": "56208c3",
-    "date": "2026-09-06T11:22:00+08:00",
-    "message": "sync: 新增资源《林中小女巫》",
-    "url": "https://github.com/xi7ang/GameHub/commit/56208c38c571c1d2a91ef5d19227cc8833f9b416"
-  },
-  {
-    "hash": "9d48264",
-    "date": "2026-09-06T11:20:13+08:00",
-    "message": "style(home): solid search dropdown bg for readability, highlight hot keywords",
-    "url": "https://github.com/xi7ang/GameHub/commit/9d4826472ba87f820a801cb899c9bceadd8137e3"
-  },
-  {
-    "hash": "13f37fe",
-    "date": "2026-09-06T11:14:49+08:00",
-    "message": "chore: hide 最新动态 section on homepage",
-    "url": "https://github.com/xi7ang/GameHub/commit/13f37fec3b6d7e08cc0c39977db6455d7e8a5a2e"
-  },
-  {
-    "hash": "b391fb9",
-    "date": "2026-09-06T11:09:27+08:00",
-    "message": "sync: 新增资源《命运石之门：重启》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b391fb977e4b886f1ddbeb04832618ff462b357d"
-  },
-  {
-    "hash": "7ae9baf",
-    "date": "2026-09-06T11:08:25+08:00",
-    "message": "sync: 新增资源《战争号令:装甲精英》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7ae9baf4ff1e31bcc48d163a5e3701d5faab00dc"
-  },
-  {
-    "hash": "f46e7b3",
-    "date": "2026-09-06T07:18:11+08:00",
-    "message": "fix(legacy): regenerate legacy-map from current old-site data, add games 1275-1350 mappings (games:1346 -> pc-202609-0012)",
-    "url": "https://github.com/xi7ang/GameHub/commit/f46e7b3b4804dff525a52176c28e65cdf3d1bc30"
-  },
-  {
-    "hash": "6a825ac",
-    "date": "2026-09-05T23:05:33+08:00",
-    "message": "chore: pin custom domain pan.devmini.space via CNAME",
-    "url": "https://github.com/xi7ang/GameHub/commit/6a825ac12dc90d61d3916d2ecaa9e1134ccaea19"
   }
 ]
