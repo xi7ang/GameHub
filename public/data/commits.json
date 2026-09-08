@@ -1,5 +1,59 @@
 [
   {
+    "hash": "81fd92a",
+    "date": "2026-09-08T12:57:27+08:00",
+    "message": "sync: 新增资源《女神异闻录3-解压即玩版/ Reload Build.22672075 全DLC》",
+    "url": "https://github.com/xi7ang/GameHub/commit/81fd92a0a7429159e4e49d9d259612865d9aaa52"
+  },
+  {
+    "hash": "61c38be",
+    "date": "2026-09-08T12:56:21+08:00",
+    "message": "sync: 新增资源《海狸浮生记/ Timberborn v1.1.2.4》",
+    "url": "https://github.com/xi7ang/GameHub/commit/61c38be8b4e02055c8aae1b63614d4c9d8c69dc5"
+  },
+  {
+    "hash": "dbb3184",
+    "date": "2026-09-08T12:51:42+08:00",
+    "message": "sync: 新增资源《我的英雄学院 无尽正义/MY HERO ACADEMIA All's Justi》",
+    "url": "https://github.com/xi7ang/GameHub/commit/dbb3184a53abbbc42643bb6483deb8ee858dfe27"
+  },
+  {
+    "hash": "dbf89fa",
+    "date": "2026-09-08T12:50:31+08:00",
+    "message": "sync: 新增资源《德拉加传说v2.1.1 Legends of Dragaea: Idle Dun》",
+    "url": "https://github.com/xi7ang/GameHub/commit/dbf89fab5e6d0651c74ff80f6a7bed700cbc72ec"
+  },
+  {
+    "hash": "97c0470",
+    "date": "2026-09-07T22:22:58+08:00",
+    "message": "sync: 新增资源《大侠立志传v1.2.128_内置控制台+解锁完整版全DLC.apk》",
+    "url": "https://github.com/xi7ang/GameHub/commit/97c04708f532f99625d541a285679de237bd6aca"
+  },
+  {
+    "hash": "92737d8",
+    "date": "2026-09-07T19:33:11+08:00",
+    "message": "chore：更换brand",
+    "url": "https://github.com/xi7ang/GameHub/commit/92737d83678b14b5a56092e81ba49436e18569d9"
+  },
+  {
+    "hash": "2c0571e",
+    "date": "2026-09-07T19:33:10+08:00",
+    "message": "chore：更换brand",
+    "url": "https://github.com/xi7ang/GameHub/commit/2c0571e09ee0d4e444a2e98a11e584c79fbc45ac"
+  },
+  {
+    "hash": "7b14a4e",
+    "date": "2026-09-07T19:33:09+08:00",
+    "message": "chore：更换brand",
+    "url": "https://github.com/xi7ang/GameHub/commit/7b14a4e18a2d29be48e47e0f239de99533ff5e60"
+  },
+  {
+    "hash": "fe00096",
+    "date": "2026-09-07T13:41:31+08:00",
+    "message": "chore: 重生成 commits.json（rebase 后 log 变化）",
+    "url": "https://github.com/xi7ang/GameHub/commit/fe000962aca6db636a8af7f373c025d172c645f9"
+  },
+  {
     "hash": "986d674",
     "date": "2026-09-07T13:39:59+08:00",
     "message": "feat: 后台支持一键更换品牌名（brand 配置驱动顶部/底部/页脚/页签标题全站替换）",
@@ -124,59 +178,5 @@
     "date": "2026-09-07T08:02:18+08:00",
     "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
     "url": "https://github.com/xi7ang/GameHub/commit/798f82019a3a0f18ab1d8e174f6f2903bf4bc1b9"
-  },
-  {
-    "hash": "411f435",
-    "date": "2026-09-07T07:25:06+08:00",
-    "message": "feat: add manageable homepage announcement modal",
-    "url": "https://github.com/xi7ang/GameHub/commit/411f43580b08772716e9369713b5406c892988b0"
-  },
-  {
-    "hash": "51e9cc2",
-    "date": "2026-09-06T14:24:39+08:00",
-    "message": "feat(seo): auto sitemap.xml+robots.txt on build, cover path validation, admin one-click SEO refresh",
-    "url": "https://github.com/xi7ang/GameHub/commit/51e9cc228ae0bb0fa5bc2236abb9e0f9ff8307ea"
-  },
-  {
-    "hash": "7544a7d",
-    "date": "2026-09-06T13:44:48+08:00",
-    "message": "林中女巫封面修改",
-    "url": "https://github.com/xi7ang/GameHub/commit/7544a7de7245c40381e96bc1afdbef882fb4dc62"
-  },
-  {
-    "hash": "2be5ff4",
-    "date": "2026-09-06T13:44:47+08:00",
-    "message": "林中女巫封面修改",
-    "url": "https://github.com/xi7ang/GameHub/commit/2be5ff4a20efb48bba1401e86ac13421ef326965"
-  },
-  {
-    "hash": "4527b25",
-    "date": "2026-09-06T13:44:45+08:00",
-    "message": "林中女巫封面修改",
-    "url": "https://github.com/xi7ang/GameHub/commit/4527b25b340e3b2a11aa7d96c0816461bc268356"
-  },
-  {
-    "hash": "4a1df32",
-    "date": "2026-09-06T12:13:27+08:00",
-    "message": "chore(header): hide 更新日志 nav link on PC top nav",
-    "url": "https://github.com/xi7ang/GameHub/commit/4a1df3224339ed478857bc423b5becf3757a8138"
-  },
-  {
-    "hash": "6fa8c8b",
-    "date": "2026-09-06T11:51:30+08:00",
-    "message": "feat(header): add glow/shine/waddle animations to QQ group button for visibility",
-    "url": "https://github.com/xi7ang/GameHub/commit/6fa8c8b17684b5141c7b09c2c232c2f456fdd3b8"
-  },
-  {
-    "hash": "53917ce",
-    "date": "2026-09-06T11:44:13+08:00",
-    "message": "fix(search): teleport dropdown to body root, fixed z-index 10000 so results are never obscured",
-    "url": "https://github.com/xi7ang/GameHub/commit/53917ceeca35930d5f2f136f8ec4c9eea6436680"
-  },
-  {
-    "hash": "47e3d5f",
-    "date": "2026-09-06T11:31:24+08:00",
-    "message": "fix(home): raise search dropdown above hot keywords; no autofocus on touch devices",
-    "url": "https://github.com/xi7ang/GameHub/commit/47e3d5f1b38db6e503eeca409b1e492d03431a31"
   }
 ]

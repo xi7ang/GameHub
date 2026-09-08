@@ -293,10 +293,36 @@
                   <label class="toggle-label"><input v-model="siteForm.announcementModal.enabled" type="checkbox" /> 启用弹窗</label>
                 </div>
                 <input v-model="siteForm.announcementModal.title" class="form-input mt-md" placeholder="公告标题" />
-                <textarea v-model="siteForm.announcementModal.content" class="form-input announcement-editor__content" placeholder="公告正文，支持换行"></textarea>
+
+                <div class="flex-between wrap gap-sm" style="margin-top: 12px">
+                  <label class="form-label" style="margin-bottom: 2px">公告模式</label>
+                  <label class="toggle-label"><input v-model="amTimelineMode" type="checkbox" /> 时间线公告（多条可折叠）</label>
+                </div>
+
+                <!-- 时间线模式：条目列表编辑 -->
+                <template v-if="amTimelineMode">
+                  <p class="text-low" style="font-size: 12px; margin: 6px 0 8px">时间线每条：日期 + 标签 + 标题，默认折叠；用户点击后在弹窗内展开。倒序展示（最新在上）。</p>
+                  <div v-for="(it, i) in siteForm.announcementModal.items" :key="i" class="am-item">
+                    <div class="flex gap-sm" style="align-items: center">
+                      <input v-model="it.date" class="form-input" placeholder="日期 2026-09-08" style="flex: 0 0 150px" />
+                      <input v-model="it.tag" class="form-input" placeholder="标签(可选)" style="flex: 0 0 90px" />
+                      <button type="button" class="btn btn-sm btn-danger" @click="removeAnnItem(i)">删除</button>
+                      <span class="text-low" style="font-size: 12px">#{{ i + 1 }}</span>
+                    </div>
+                    <input v-model="it.title" class="form-input" style="margin-top: 6px" placeholder="条目标题" />
+                    <textarea v-model="it.content" class="form-input announcement-editor__content am-item-content" placeholder="条目正文，支持换行"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-sm" style="margin-top: 4px" @click="addAnnItem">＋ 添加时间线公告</button>
+                </template>
+
+                <!-- 纯文本模式：单段正文 -->
+                <template v-else>
+                  <textarea v-model="siteForm.announcementModal.content" class="form-input announcement-editor__content" style="margin-top: 8px" placeholder="公告正文，支持换行"></textarea>
+                </template>
+
                 <div class="flex gap-sm">
                   <label class="form-label" style="margin: 0; white-space: nowrap">公告版本</label>
-                  <input v-model="siteForm.announcementModal.version" class="form-input" placeholder="例如 2026-09-07-1" />
+                  <input v-model="siteForm.announcementModal.version" class="form-input" placeholder="例如 2026-09-08-1" />
                 </div>
               </div>
               <div class="form-group">
@@ -795,11 +821,45 @@ const siteForm = reactive({
     title: '站点公告',
     content: '',
     version: '',
+    items: [],
   },
 })
 const dirty = ref(false)
 const saving = ref(false)
 const commitMsg = ref('')
+
+// 公告模式：site.json 里 items 非空即时间线模式；切换模式自动建/删空数组
+const amTimelineMode = computed({
+  get: () => Array.isArray(siteForm.announcementModal?.items) && siteForm.announcementModal.items.length > 0,
+  set: (v) => {
+    if (!siteForm.announcementModal) siteForm.announcementModal = { enabled: false, title: '站点公告', content: '', version: '', items: [] }
+    if (v) {
+      if (!Array.isArray(siteForm.announcementModal.items)) siteForm.announcementModal.items = []
+      if (siteForm.announcementModal.items.length === 0) {
+        const now = new Date()
+        const p = (n) => String(n).padStart(2, '0')
+        const today = `${now.getFullYear()}-${p(now.getMonth() + 1)}-${p(now.getDate())}`
+        siteForm.announcementModal.items.push({ date: today, tag: '', title: '', content: siteForm.announcementModal.content || '' })
+        siteForm.announcementModal.content = ''
+      }
+    } else {
+      const first = siteForm.announcementModal.items[0]
+      if (first && !siteForm.announcementModal.content) siteForm.announcementModal.content = first.content || ''
+      siteForm.announcementModal.items = []
+    }
+    dirty.value = true
+  },
+})
+function addAnnItem() {
+  const now = new Date()
+  const p = (n) => String(n).padStart(2, '0')
+  const today = `${now.getFullYear()}-${p(now.getMonth() + 1)}-${p(now.getDate())}`
+  siteForm.announcementModal.items.push({ date: today, tag: '', title: '', content: '' })
+}
+function removeAnnItem(i) {
+  if (!confirm('删除这条时间线公告？')) return
+  siteForm.announcementModal.items.splice(i, 1)
+}
 
 // 站点配置表单 deep watch：任何字段修改即标记 dirty，显示保存条
 // siteInit 标志防止 refreshAll() 初始化填充时误触发
@@ -1255,7 +1315,8 @@ async function refreshAll() {
   resources.value = await readFile('public/data/resources.json')
   cats.value = await readFile('public/data/categories.json')
   const site = await readFile('public/data/site.json')
-  site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '' }
+  site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '', items: [] }
+  if (!Array.isArray(site.announcementModal.items)) site.announcementModal.items = []
   // 兼容旧版 site.json：无 brand 时按 siteName 首词推断品牌名，默认无高亮后缀
   if (!site.brand) {
     const fallbackName = String(site.siteName || 'GameHub').split(/\s+/)[0]
@@ -2024,6 +2085,14 @@ onMounted(async () => {
 }
 .toggle-label { display: inline-flex; align-items: center; gap: 8px; color: var(--text-mid); font-size: 13px; cursor: pointer; }
 .announcement-editor__content { min-height: 150px; resize: vertical; margin: 10px 0; line-height: 1.7; }
+.am-item {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+}
+.am-item-content { min-height: 70px; margin: 6px 0 0; }
 
 @media (max-width: 768px) {
   .admin-body { grid-template-columns: 1fr; }

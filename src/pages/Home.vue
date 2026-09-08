@@ -115,7 +115,33 @@
             <span>TG频道</span>
           </a>
         </div>
-        <div class="announcement-modal__content">{{ announcement.content }}</div>
+        <div v-if="timelineItems.length" class="announcement-timeline">
+          <div
+            v-for="(it, i) in timelineItems"
+            :key="it.date + i"
+            class="tl-item"
+            :class="{ open: expandedIdx === i }"
+          >
+            <button
+              type="button"
+              class="tl-head"
+              :aria-expanded="expandedIdx === i"
+              @click="toggleTimeline(i)"
+            >
+              <span class="tl-dot" aria-hidden="true"></span>
+              <span class="tl-main">
+                <span class="tl-topline">
+                  <span class="tl-date">{{ it.date }}</span>
+                  <span v-if="it.tag" class="tl-tag">{{ it.tag }}</span>
+                </span>
+                <span class="tl-title">{{ it.title }}</span>
+              </span>
+              <span class="tl-chev" aria-hidden="true">{{ expandedIdx === i ? '▾' : '▸' }}</span>
+            </button>
+            <div v-show="expandedIdx === i" class="tl-body">{{ it.content }}</div>
+          </div>
+        </div>
+        <div v-else class="announcement-modal__content">{{ announcement.content }}</div>
         <div class="announcement-modal__actions">
           <button class="btn btn-ghost" type="button" @click="closeAnnouncementForToday">今日关闭</button>
           <button class="btn btn-primary" type="button" @click="closeAnnouncement">关闭</button>
@@ -138,6 +164,11 @@ const { state, load } = useData()
 const site = computed(() => state.site)
 const announcementVisible = ref(false)
 const announcement = computed(() => state.site?.announcementModal || {})
+const timelineItems = computed(() => Array.isArray(announcement.value.items) ? announcement.value.items : [])
+const expandedIdx = ref(-1)
+function toggleTimeline(i) {
+  expandedIdx.value = expandedIdx.value === i ? -1 : i
+}
 const ANNOUNCEMENT_DISMISSED_KEY = 'gamehub-announcement-dismissed'
 
 const featured = computed(() => state.resources.filter((r) => r.featured).slice(0, 8))
@@ -177,7 +208,9 @@ function localDateKey() {
 
 function showAnnouncement() {
   const item = announcement.value
-  if (!item.enabled || !item.content) return
+  const hasText = item.content
+  const hasTimeline = Array.isArray(item.items) && item.items.length > 0
+  if (!item.enabled || (!hasText && !hasTimeline)) return
   try {
     const dismissed = JSON.parse(localStorage.getItem(ANNOUNCEMENT_DISMISSED_KEY) || 'null')
     const today = localDateKey()
@@ -294,6 +327,83 @@ onMounted(async () => {
 .announcement-modal__eyebrow { color: var(--accent-gold); font: 600 11px var(--font-display); letter-spacing: 0.16em; margin-bottom: 6px; }
 .announcement-modal h2 { font: 700 26px var(--font-display); margin-bottom: 18px; }
 .announcement-modal__content { color: var(--text-mid); font-size: 15px; line-height: 1.9; white-space: pre-line; text-align: left; }
+
+/* Timeline announcements */
+.announcement-timeline {
+  text-align: left;
+  max-height: 46vh;
+  overflow-y: auto;
+  padding: 2px 6px 2px 0;
+  scrollbar-width: thin;
+}
+.tl-item {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  background: rgba(var(--bg-1-rgb, 20, 20, 32), 0.45);
+  transition: border-color 0.2s;
+}
+.tl-item:last-child { margin-bottom: 0; }
+.tl-item.open { border-color: var(--accent-gold); }
+.tl-item::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 34px;
+  bottom: -10px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent-gold), transparent);
+  opacity: 0.35;
+}
+.tl-item:last-child::before { display: none; }
+.tl-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+.tl-dot {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-gold);
+  box-shadow: 0 0 8px rgba(var(--accent-rgb), 0.55);
+  margin-left: 2px;
+  margin-right: 6px;
+}
+.tl-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.tl-topline { display: flex; align-items: center; gap: 8px; }
+.tl-date {
+  font: 700 11px var(--font-display);
+  letter-spacing: 0.06em;
+  color: var(--accent-gold);
+}
+.tl-tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 8px;
+  border-radius: 100px;
+  color: var(--accent-terracotta);
+  border: 1px solid color-mix(in srgb, var(--accent-terracotta) 55%, transparent);
+}
+.tl-title { font-weight: 600; font-size: 14px; color: var(--text-hi); }
+.tl-chev { color: var(--text-mid); font-size: 12px; transition: transform 0.2s; }
+.tl-body {
+  padding: 2px 16px 14px 51px;
+  color: var(--text-mid);
+  font-size: 13.5px;
+  line-height: 1.8;
+  white-space: pre-line;
+}
 .announcement-modal__actions { display: flex; justify-content: center; gap: 10px; margin-top: 26px; }
 @keyframes announcement-fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes announcement-rise { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
