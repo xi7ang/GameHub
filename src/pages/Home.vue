@@ -138,10 +138,10 @@
               </span>
               <span class="tl-chev" aria-hidden="true">{{ expandedIdx === i ? '▾' : '▸' }}</span>
             </button>
-            <div v-show="expandedIdx === i" class="tl-body">{{ it.content }}</div>
+            <div v-show="expandedIdx === i" class="tl-body" v-html="linkify(it.content)"></div>
           </div>
         </div>
-        <div v-else class="announcement-modal__content">{{ announcement.content }}</div>
+        <div v-else class="announcement-modal__content" v-html="linkify(announcement.content)"></div>
         <div class="announcement-modal__actions">
           <button class="btn btn-ghost" type="button" @click="closeAnnouncementForToday">今日关闭</button>
           <button class="btn btn-primary" type="button" @click="closeAnnouncement">关闭</button>
@@ -168,6 +168,15 @@ const timelineItems = computed(() => Array.isArray(announcement.value.items) ? a
 const expandedIdx = ref(-1)
 function toggleTimeline(i) {
   expandedIdx.value = expandedIdx.value === i ? -1 : i
+}
+// 公告正文安全渲染：转义 HTML，仅把 http(s) URL 变成可点击链接（target=_blank）
+function linkify(text) {
+  const esc = String(text || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+  return esc.replace(/(https?:\/\/[^\s<)】]+)/g, (u) => `<a href="${u}" target="_blank" rel="noopener" class="tl-link">${u}</a>`)
 }
 const ANNOUNCEMENT_DISMISSED_KEY = 'gamehub-announcement-dismissed'
 
@@ -404,6 +413,14 @@ onMounted(async () => {
   line-height: 1.8;
   white-space: pre-line;
 }
+.tl-link {
+  color: var(--accent-gold);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent-gold) 55%, transparent);
+  text-underline-offset: 3px;
+  word-break: break-all;
+}
+.tl-link:hover { color: var(--accent-terracotta); }
 .announcement-modal__actions { display: flex; justify-content: center; gap: 10px; margin-top: 26px; }
 @keyframes announcement-fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes announcement-rise { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
