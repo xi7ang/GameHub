@@ -1,5 +1,77 @@
 [
   {
+    "hash": "7bb65c3",
+    "date": "2026-09-09T13:02:31+08:00",
+    "message": "sync: 新增资源《咖啡店经营经理中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7bb65c3ad0800dccc45eea6dbe731b81bca25ce0"
+  },
+  {
+    "hash": "6c423fc",
+    "date": "2026-09-09T13:01:13+08:00",
+    "message": "sync: 新增资源《礼帽大乱斗中文版解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6c423fc331ff1bb0bd76974654104a01dc02cb9c"
+  },
+  {
+    "hash": "6677f19",
+    "date": "2026-09-09T12:59:53+08:00",
+    "message": "sync: 新增资源《波斯传奇 高清汉化版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6677f1981ac6a745c4a052f7696b54f803d03e95"
+  },
+  {
+    "hash": "8dc4f62",
+    "date": "2026-09-09T12:58:23+08:00",
+    "message": "sync: 新增资源《史莱姆大骚动v01.07.000.apk|》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8dc4f62f952a70f90089344a0a8b5e9d0ef54e74"
+  },
+  {
+    "hash": "00bd4a2",
+    "date": "2026-09-09T12:57:09+08:00",
+    "message": "sync: 新增资源《校长我来当2_1.0.0_kill.apk|》",
+    "url": "https://github.com/xi7ang/GameHub/commit/00bd4a24f5dd4b73a26be747689e9c214d3a8015"
+  },
+  {
+    "hash": "3573142",
+    "date": "2026-09-08T20:08:11+08:00",
+    "message": "chore: 今日公告详情链接域名改为 pan.devmini.space（站点主域）",
+    "url": "https://github.com/xi7ang/GameHub/commit/3573142815ca9213d06498eb4bec4789d85045d3"
+  },
+  {
+    "hash": "9955461",
+    "date": "2026-09-08T20:01:27+08:00",
+    "message": "chore: 每日公告：发布【2026-09-08】游戏资源更新通知（4 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/9955461ca649d22445fac551012ed8a7f0682802"
+  },
+  {
+    "hash": "2824e5d",
+    "date": "2026-09-08T19:59:24+08:00",
+    "message": "feat: 公告正文自动识别 http(s) 链接并可点击（target=_blank），时间线与纯文本模式均生效",
+    "url": "https://github.com/xi7ang/GameHub/commit/2824e5de2e0dc654513afcfcffe8755f06b43e28"
+  },
+  {
+    "hash": "efadc3c",
+    "date": "2026-09-08T19:37:22+08:00",
+    "message": "chore: 公告更新",
+    "url": "https://github.com/xi7ang/GameHub/commit/efadc3c42230c46c2ad55cedb50a1dfac10e78d0"
+  },
+  {
+    "hash": "bf63f3c",
+    "date": "2026-09-08T19:37:20+08:00",
+    "message": "chore: 公告更新",
+    "url": "https://github.com/xi7ang/GameHub/commit/bf63f3c4c6bb15207d0ab7f058197378edd243d7"
+  },
+  {
+    "hash": "a8f3c1a",
+    "date": "2026-09-08T19:37:18+08:00",
+    "message": "chore: 公告更新",
+    "url": "https://github.com/xi7ang/GameHub/commit/a8f3c1a8dd8c6038dbae512fe2f824da2a9c4ce0"
+  },
+  {
+    "hash": "133528e",
+    "date": "2026-09-08T19:26:41+08:00",
+    "message": "feat: 首页公告弹窗支持时间线公告（多条带日期默认折叠，点击在原弹窗内展开）",
+    "url": "https://github.com/xi7ang/GameHub/commit/133528ef97c5f6821008cc73609de4c9097fc333"
+  },
+  {
     "hash": "81fd92a",
     "date": "2026-09-08T12:57:27+08:00",
     "message": "sync: 新增资源《女神异闻录3-解压即玩版/ Reload Build.22672075 全DLC》",
@@ -106,77 +178,5 @@
     "date": "2026-09-07T10:42:49+08:00",
     "message": "feat: 公告栏更新为网感使用说明（欢迎语+三步上手+小提示）",
     "url": "https://github.com/xi7ang/GameHub/commit/b764a643aa5ea14f672b93e11a9ad95a985c270f"
-  },
-  {
-    "hash": "e16b684",
-    "date": "2026-09-07T10:36:49+08:00",
-    "message": "fix(data): 修正资源封面路径（去掉多余的 /GameHub 前缀），修复 CI 校验失败",
-    "url": "https://github.com/xi7ang/GameHub/commit/e16b684e17f03bf81e131ea85303404017e5e2b9"
-  },
-  {
-    "hash": "e112c49",
-    "date": "2026-09-07T10:31:34+08:00",
-    "message": "feat: use light theme by default",
-    "url": "https://github.com/xi7ang/GameHub/commit/e112c494e1f687002e65cb2a78076cd70663e15c"
-  },
-  {
-    "hash": "a431140",
-    "date": "2026-09-07T10:21:05+08:00",
-    "message": "sync: 新增资源《历史的终结》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a431140063956bc3ece1ce23b3c687a2fd8b4454"
-  },
-  {
-    "hash": "8517881",
-    "date": "2026-09-07T10:20:03+08:00",
-    "message": "sync: 新增资源《青岚物语》",
-    "url": "https://github.com/xi7ang/GameHub/commit/85178811b1f3c0d260edc13cfc8c6f4010afe649"
-  },
-  {
-    "hash": "d26ca29",
-    "date": "2026-09-07T10:19:04+08:00",
-    "message": "sync: 新增资源《铁尾传奇2：凛冬之战》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d26ca29a804b52ba6f985e923da313927fc186af"
-  },
-  {
-    "hash": "f5cf8ea",
-    "date": "2026-09-07T10:08:45+08:00",
-    "message": "feat: theme announcement modal and add community links",
-    "url": "https://github.com/xi7ang/GameHub/commit/f5cf8ea54f1e5712cd0642adc6810e281dd28201"
-  },
-  {
-    "hash": "3897a66",
-    "date": "2026-09-07T10:00:47+08:00",
-    "message": "sync: 新增资源《霜雪列车2》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3897a66d8319b6503d6c01dcdcd8029a860eeadf"
-  },
-  {
-    "hash": "9d6fd3d",
-    "date": "2026-09-07T09:59:18+08:00",
-    "message": "fix(data): 修正 resources.json 提取码（误存百度码 → 更正为夸克码，0015-0019）",
-    "url": "https://github.com/xi7ang/GameHub/commit/9d6fd3d49785e9f9e56a9168a4b7599032e327b9"
-  },
-  {
-    "hash": "c00a8d5",
-    "date": "2026-09-07T09:56:57+08:00",
-    "message": "sync: 新增资源《风之马传说》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c00a8d53ac95c594467a59db8f6f1f62783c9c84"
-  },
-  {
-    "hash": "2a2690f",
-    "date": "2026-09-07T08:02:20+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/2a2690f36fd2fd5f568250f7dc16b3f4edb074a1"
-  },
-  {
-    "hash": "1f1702b",
-    "date": "2026-09-07T08:02:19+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/1f1702b30322044e9b21977eec4d3cd4291b9990"
-  },
-  {
-    "hash": "798f820",
-    "date": "2026-09-07T08:02:18+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/798f82019a3a0f18ab1d8e174f6f2903bf4bc1b9"
   }
 ]
