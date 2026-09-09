@@ -1,5 +1,11 @@
 [
   {
+    "hash": "27c8a5d",
+    "date": "2026-09-09T22:33:23+08:00",
+    "message": "style: 背景墙滚动速度 32s→90s",
+    "url": "https://github.com/xi7ang/GameHub/commit/27c8a5da98900552f4c752be070d93f43dc034ba"
+  },
+  {
     "hash": "15fdb64",
     "date": "2026-09-09T22:02:46+08:00",
     "message": "fix: bgwall.json 去掉 /GameHub/ 路径前缀，避免 BASE 双重拼接",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T19:37:20+08:00",
     "message": "chore: 公告更新",
     "url": "https://github.com/xi7ang/GameHub/commit/bf63f3c4c6bb15207d0ab7f058197378edd243d7"
-  },
-  {
-    "hash": "a8f3c1a",
-    "date": "2026-09-08T19:37:18+08:00",
-    "message": "chore: 公告更新",
-    "url": "https://github.com/xi7ang/GameHub/commit/a8f3c1a8dd8c6038dbae512fe2f824da2a9c4ce0"
   }
 ]

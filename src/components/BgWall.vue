@@ -129,7 +129,7 @@ const gameRows = computed(() => {
   }
   return rows
 })
-const rowSpeed = 190
+const rowSpeed = 500
 
 function rowMargin(ri) {
   return ri % 2 === 0 ? '-35px' : '35px'
