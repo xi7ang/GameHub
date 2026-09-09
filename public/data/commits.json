@@ -1,5 +1,17 @@
 [
   {
+    "hash": "c59ca4f",
+    "date": "2026-09-09T23:50:32+08:00",
+    "message": "chore: 每日公告：发布【2026-09-09】游戏资源更新通知（8 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c59ca4f3083b6859c8e6bf8201551f1dbe6c3d29"
+  },
+  {
+    "hash": "854533e",
+    "date": "2026-09-09T22:41:01+08:00",
+    "message": "style: 背景墙 rowSpeed 190→500，实际降低滚动速度",
+    "url": "https://github.com/xi7ang/GameHub/commit/854533ee7893932b093da6c56f8fb208e1030da4"
+  },
+  {
     "hash": "27c8a5d",
     "date": "2026-09-09T22:33:23+08:00",
     "message": "style: 背景墙滚动速度 32s→90s",
@@ -166,17 +178,5 @@
     "date": "2026-09-08T19:59:24+08:00",
     "message": "feat: 公告正文自动识别 http(s) 链接并可点击（target=_blank），时间线与纯文本模式均生效",
     "url": "https://github.com/xi7ang/GameHub/commit/2824e5de2e0dc654513afcfcffe8755f06b43e28"
-  },
-  {
-    "hash": "efadc3c",
-    "date": "2026-09-08T19:37:22+08:00",
-    "message": "chore: 公告更新",
-    "url": "https://github.com/xi7ang/GameHub/commit/efadc3c42230c46c2ad55cedb50a1dfac10e78d0"
-  },
-  {
-    "hash": "bf63f3c",
-    "date": "2026-09-08T19:37:20+08:00",
-    "message": "chore: 公告更新",
-    "url": "https://github.com/xi7ang/GameHub/commit/bf63f3c4c6bb15207d0ab7f058197378edd243d7"
   }
 ]

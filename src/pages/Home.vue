@@ -14,7 +14,7 @@
         <div class="hero__hot">
           <span class="hot-label">🔥 热门搜索</span>
           <a
-            v-for="k in site?.hotKeywords || []"
+            v-for="k in hotKeywords"
             :key="k"
             :href="`/search.html?q=${encodeURIComponent(k)}`"
             class="hot-tag"
@@ -180,6 +180,26 @@ function linkify(text) {
 }
 const ANNOUNCEMENT_DISMISSED_KEY = 'gamehub-announcement-dismissed'
 
+// 热门搜索关键词：每次打开从 hotKeywords.json 的 100+ 词中随机选 6-7 个
+const hotKeywords = ref([])
+async function pickRandomHotKeywords() {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/hotKeywords.json`)
+    if (!res.ok) return
+    const data = await res.json()
+    const pool = Array.isArray(data.keywords) ? data.keywords : []
+    // 随机洗牌
+    const arr = [...pool]
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    // 每次 6-7 个
+    const n = 6 + Math.floor(Math.random() * 2)
+    hotKeywords.value = arr.slice(0, n)
+  } catch { /* 加载失败不展示 */ }
+}
+
 // 游戏推荐：每次打开页面从有封面的资源中随机选 8 个
 const featured = ref([])
 function pickRandomFeatured() {
@@ -255,6 +275,7 @@ function closeAnnouncementForToday() {
 onMounted(async () => {
   await load()
   pickRandomFeatured()
+  pickRandomHotKeywords()
   showAnnouncement()
 })
 </script>
