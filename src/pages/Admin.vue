@@ -86,20 +86,6 @@
               </div>
             </div>
 
-            <!-- 精选推荐一键刷新 -->
-            <div class="glass dash-panel mb-md">
-              <div class="flex-between wrap gap-sm">
-                <div>
-                  <h3 style="margin: 0 0 4px">🎯 精选推荐（{{ featuredCount }}/{{ FEATURED_LIMIT }}）</h3>
-                  <p class="text-low" style="font-size: 12px; margin: 0">
-                    自动优选「信息完整 + 真实封面（非默认渐变图）」的资源，同标题去重，取前 {{ FEATURED_LIMIT }} 条上首页；确认后直接提交并自动部署。
-                  </p>
-                </div>
-                <button class="btn btn-sm btn-primary" :disabled="!resources.length || saving" @click="refreshFeatured">{{ saving ? '提交中...' : '✨ 一键刷新精选推荐' }}</button>
-              </div>
-              <div v-if="featuredPickTip" class="text-low" style="font-size: 12px; margin-top: 10px; line-height: 1.7">本次入选：{{ featuredPickTip }}</div>
-            </div>
-
             <!-- 背景墙随机刷新 -->
             <div class="glass dash-panel mb-md">
               <div class="flex-between wrap gap-sm">
@@ -912,104 +898,6 @@ const monthAdded = computed(() => {
 const featuredCount = computed(() => resources.value.filter((r) => r.featured).length)
 const inactiveCount = computed(() => resources.value.filter((r) => r.status === 'inactive').length)
 
-// ── 精选推荐一键刷新 ──
-const FEATURED_LIMIT = 8
-const featuredPickTip = ref('')
-
-// ── 背景墙随机刷新 ──
-const bgwallRefreshed = ref(false)
-function refreshBgWall() {
-  // 通过 BgWall.vue 暴露的全局方法重洗 18 行背景墙（纯前端，不提交 commit）
-  if (typeof window !== 'undefined' && typeof window.__bgwallRefresh === 'function') {
-    window.__bgwallRefresh()
-    bgwallRefreshed.value = true
-    setTimeout(() => { bgwallRefreshed.value = false }, 3000)
-  } else {
-    alert('背景墙组件未就绪，请返回首页后重试')
-  }
-}
-
-// ── SEO：Sitemap & Robots 一键更新 ──
-// sitemap.xml / robots.txt 在每次构建时由 scripts/gen-sitemap.js 自动生成（postbuild），
-// 因此任何资源提交并部署后都会自动刷新；此按钮用于手动触发一次重新部署立即生效。
-const siteUrl = computed(() => state.site?.url || 'https://pan.devmini.space')
-const seoBusy = ref(false)
-const DEPLOY_WF = 'deploy.yml'
-async function triggerSeoRebuild() {
-  seoBusy.value = true
-  try {
-    const res = await fetch(`${BASE}/repos/${REPO}/actions/workflows/${DEPLOY_WF}/dispatches`, {
-      method: 'POST',
-      headers: { ...apiHeaders(), 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ref: 'main' }),
-    })
-    if (!res.ok && res.status !== 204) throw new Error(`触发失败: ${res.status}`)
-    alert('🚀 已触发重新部署：构建将自动生成最新 sitemap.xml / robots.txt（约 2-3 分钟生效）')
-  } catch (e) {
-    alert('触发失败: ' + (e.message || e))
-  } finally {
-    seoBusy.value = false
-  }
-}
-
-// 信息完整度评分：真实封面是大头（非默认渐变封面），描述/大小/英文名等加分
-function featuredScore(r) {
-  let s = 0
-  if (r.cover) s += 1000
-  if (r.desc && String(r.desc).trim()) s += 100
-  if (r.size) s += 40
-  if (r.enTitle) s += 20
-  if (Array.isArray(r.tags) && r.tags.length) s += 20
-  if (r.pwd) s += 10
-  return s
-}
-function titleKey(r) {
-  return String(r.title || '').trim().toLowerCase().replace(/[\s/\\·、，,]+/g, '')
-}
-// 自动挑选：active 资源 → 评分排序（同分新的优先）→ 标题去重 → 前 8
-function pickFeaturedCandidates() {
-  const seen = new Set()
-  const scored = resources.value
-    .filter((r) => r.status !== 'inactive')
-    .map((r) => ({ r, s: featuredScore(r) }))
-    .sort(
-      (a, b) =>
-        b.s - a.s ||
-        String(b.r.updatedAt || '').localeCompare(String(a.r.updatedAt || '')) ||
-        String(b.r.addedAt || '').localeCompare(String(a.r.addedAt || ''))
-    )
-  const out = []
-  for (const { r } of scored) {
-    const k = titleKey(r)
-    if (seen.has(k)) continue
-    seen.add(k)
-    out.push(r)
-    if (out.length >= FEATURED_LIMIT) break
-  }
-  return out
-}
-async function refreshFeatured() {
-  const picked = pickFeaturedCandidates()
-  if (!picked.length) {
-    alert('暂无可推荐的资源')
-    return
-  }
-  const preview = picked
-    .map((r, i) => `${i + 1}. ${r.title}${r.cover ? '' : '（无封面）'}${r.size ? ' · ' + r.size : ''}`)
-    .join('\n')
-  const ok = confirm(
-    `将自动优选以下 ${picked.length} 条作为首页精选推荐（优先信息完整+真实封面，标题去重），\n并直接提交 GitHub 自动部署：\n\n${preview}\n\n确定执行？`
-  )
-  if (!ok) return
-  const ids = new Set(picked.map((r) => r.id))
-  resources.value.forEach((r) => {
-    r.featured = ids.has(r.id)
-  })
-  featuredPickTip.value = picked.map((r) => r.title).join(' / ')
-  dirty.value = true
-  commitMsg.value = 'feat: 一键刷新精选推荐（自动优选信息完整+真实封面）'
-  await saveAll()
-}
 
 const integrity = computed(() => {
   const total = resources.value.length || 1

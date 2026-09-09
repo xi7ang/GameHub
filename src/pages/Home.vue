@@ -23,9 +23,9 @@
       </div>
     </section>
 
-    <!-- 推荐资源 -->
+    <!-- 游戏推荐：每次打开随机从有封面的资源中选 8 个 -->
     <section v-if="featured.length" class="container section">
-      <h2 class="section-title">🔥 精选推荐</h2>
+      <h2 class="section-title">🎲 游戏推荐</h2>
       <div class="rc-grid">
         <ResourceCard v-for="r in featured" :key="r.id" :r="r" />
       </div>
@@ -180,8 +180,18 @@ function linkify(text) {
 }
 const ANNOUNCEMENT_DISMISSED_KEY = 'gamehub-announcement-dismissed'
 
-const featured = computed(() => state.resources.filter((r) => r.featured).slice(0, 8))
-const latest = computed(() => state.resources.filter((r) => !r.featured).slice(0, 12))
+// 游戏推荐：每次打开页面从有封面的资源中随机选 8 个
+const featured = ref([])
+function pickRandomFeatured() {
+  const pool = state.resources.filter((r) => r.cover && !/^data:/.test(r.cover))
+  const arr = [...pool]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  featured.value = arr.slice(0, 8)
+}
+const latest = computed(() => state.resources.slice(0, 12))
 const lastMonthCount = computed(() => {
   const now = new Date()
   const m = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}`
@@ -244,6 +254,7 @@ function closeAnnouncementForToday() {
 
 onMounted(async () => {
   await load()
+  pickRandomFeatured()
   showAnnouncement()
 })
 </script>

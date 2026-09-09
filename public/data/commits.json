@@ -1,5 +1,11 @@
 [
   {
+    "hash": "bd689f3",
+    "date": "2026-09-09T21:10:28+08:00",
+    "message": "perf: 背景墙胶囊图 jpg→webp，体积降 36%",
+    "url": "https://github.com/xi7ang/GameHub/commit/bd689f33624222d51d8f55841c99dffc2b0718c4"
+  },
+  {
     "hash": "3e7991b",
     "date": "2026-09-09T20:57:54+08:00",
     "message": "feat: Steam胶囊图背景墙(30张) + Admin一键随机刷新",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T12:56:21+08:00",
     "message": "sync: 新增资源《海狸浮生记/ Timberborn v1.1.2.4》",
     "url": "https://github.com/xi7ang/GameHub/commit/61c38be8b4e02055c8aae1b63614d4c9d8c69dc5"
-  },
-  {
-    "hash": "dbb3184",
-    "date": "2026-09-08T12:51:42+08:00",
-    "message": "sync: 新增资源《我的英雄学院 无尽正义/MY HERO ACADEMIA All's Justi》",
-    "url": "https://github.com/xi7ang/GameHub/commit/dbb3184a53abbbc42643bb6483deb8ee858dfe27"
   }
 ]
