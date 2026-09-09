@@ -174,11 +174,11 @@ function rowMargin(ri) {
 }
 
 .game-wall__row.scroll-left {
-  animation: scroll-left 32s linear infinite;
+  animation: scroll-left 90s linear infinite;
 }
 
 .game-wall__row.scroll-right {
-  animation: scroll-right 32s linear infinite;
+  animation: scroll-right 90s linear infinite;
 }
 
 @keyframes scroll-left {

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "15fdb64",
+    "date": "2026-09-09T22:02:46+08:00",
+    "message": "fix: bgwall.json 去掉 /GameHub/ 路径前缀，避免 BASE 双重拼接",
+    "url": "https://github.com/xi7ang/GameHub/commit/15fdb643019df7e494186cab4965174c92b828f7"
+  },
+  {
     "hash": "e2e861d",
     "date": "2026-09-09T21:49:42+08:00",
     "message": "fix: BgWall bgwall.json 路径拼接双重前缀修复",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T19:37:18+08:00",
     "message": "chore: 公告更新",
     "url": "https://github.com/xi7ang/GameHub/commit/a8f3c1a8dd8c6038dbae512fe2f824da2a9c4ce0"
-  },
-  {
-    "hash": "133528e",
-    "date": "2026-09-08T19:26:41+08:00",
-    "message": "feat: 首页公告弹窗支持时间线公告（多条带日期默认折叠，点击在原弹窗内展开）",
-    "url": "https://github.com/xi7ang/GameHub/commit/133528ef97c5f6821008cc73609de4c9097fc333"
   }
 ]
