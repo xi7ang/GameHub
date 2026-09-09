@@ -22193,5 +22193,25 @@
     "addedAt": "2026-09-09T17:09:09+08:00",
     "updatedAt": "2026-09-09T17:09:09+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0031",
+    "title": "车库翻新大师中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/010abb55cadd?pwd=xyHn",
+    "pwd": "xyHn",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "steamAppID": null,
+    "desc": "专业车库翻新方案，从地面修复到墙面美化，一站式解决老旧问题。环保材料施工，耐磨防滑，轻松打造整洁实用的多功能空间，让车库焕发新生。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-09T19:18:45+08:00",
+    "updatedAt": "2026-09-09T19:18:45+08:00",
+    "month": "202609"
   }
 ]
