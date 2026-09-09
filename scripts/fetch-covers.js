@@ -101,6 +101,7 @@ for (const r of targets) {
       if (outFile) {
         const kb = Math.round(fs.statSync(outFile).size / 1024)
         r.cover = `${COVER_BASE}${hit.id}.webp`
+        r.steamAppID = Number(hit.id) // 同步记录 Steam AppID，与 resources.json 新字段一致
         console.log(`✅ [${r.id}] ${r.title} → ${hit.name} (${hit.id}) ${kb}KB`)
         matched++
       } else {

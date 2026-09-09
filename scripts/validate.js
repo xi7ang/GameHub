@@ -81,6 +81,12 @@ res.forEach((r, i) => {
     check(fs.existsSync(cfile), `${loc} cover 文件不存在于 public/covers: ${r.cover}`)
     check(!/gamehub/i.test(r.cover), `${loc} cover 不应包含 /GameHub 子路径前缀: ${r.cover}`)
   }
+  // steamAppID：可选，存在时必须为正整数；且当 cover 形如 /covers/<数字>.webp 时必须一致
+  if (r.steamAppID != null) {
+    check(Number.isInteger(r.steamAppID) && r.steamAppID > 0, `${loc} steamAppID 必须是正整数: ${r.steamAppID}`)
+    const m = /^\/covers\/(\d+)\.webp$/.exec(r.cover || '')
+    if (m) check(Number(m[1]) === r.steamAppID, `${loc} steamAppID(${r.steamAppID}) 与 cover 文件名不一致`)
+  }
   check(ISO_RE.test(r.addedAt), `${loc} addedAt 必须是 ISO8601 到秒: ${r.addedAt}`)
   check(ISO_RE.test(r.updatedAt), `${loc} updatedAt 必须是 ISO8601 到秒: ${r.updatedAt}`)
   if (r.addedAt) {

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "efce60e",
+    "date": "2026-09-09T16:32:15+08:00",
+    "message": "feat: add Steam covers for 51 gamehub resources (batch mobile 170-282)",
+    "url": "https://github.com/xi7ang/GameHub/commit/efce60e3b76f15d25a4b319b534c7d5d75ff2db6"
+  },
+  {
     "hash": "6a85c91",
     "date": "2026-09-09T16:08:22+08:00",
     "message": "feat: add Steam covers for 28 gamehub resources (batch mobile 57-169)",
@@ -172,11 +178,5 @@
     "date": "2026-09-07T10:59:31+08:00",
     "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
     "url": "https://github.com/xi7ang/GameHub/commit/32889af4074da0360c6bfeecb524c1058aa28cec"
-  },
-  {
-    "hash": "49adf6a",
-    "date": "2026-09-07T10:56:44+08:00",
-    "message": "更新 README.md",
-    "url": "https://github.com/xi7ang/GameHub/commit/49adf6a8a210ab2d4a715a288f8ffe48700799d3"
   }
 ]
