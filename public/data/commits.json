@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5024e5c",
+    "date": "2026-09-09T15:29:35+08:00",
+    "message": "feat: add Steam covers for 49 gamehub resources (batch 100)",
+    "url": "https://github.com/xi7ang/GameHub/commit/5024e5c2a9efebfda6e557d74e07dfa84c917f5d"
+  },
+  {
     "hash": "e627eb5",
     "date": "2026-09-09T15:08:38+08:00",
     "message": "feat: add Steam covers for 8 rescued gamehub resources",
@@ -172,11 +178,5 @@
     "date": "2026-09-07T10:50:18+08:00",
     "message": "chore：公告更新",
     "url": "https://github.com/xi7ang/GameHub/commit/6e3f9d9dcd3a57d39afcde0d3e78de10883176c3"
-  },
-  {
-    "hash": "a51d451",
-    "date": "2026-09-07T10:50:17+08:00",
-    "message": "chore：公告更新",
-    "url": "https://github.com/xi7ang/GameHub/commit/a51d45105fe8ad0617da9ffeea8cbd594a84a795"
   }
 ]
