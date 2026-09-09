@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3e7991b",
+    "date": "2026-09-09T20:57:54+08:00",
+    "message": "feat: Steam胶囊图背景墙(30张) + Admin一键随机刷新",
+    "url": "https://github.com/xi7ang/GameHub/commit/3e7991b135b14258acf33179fe67bd1c24ebbdd2"
+  },
+  {
     "hash": "690085f",
     "date": "2026-09-09T20:31:51+08:00",
     "message": "feat: add Steam covers for 92 gamehub resources (final batch, 776 scanned)",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T12:51:42+08:00",
     "message": "sync: 新增资源《我的英雄学院 无尽正义/MY HERO ACADEMIA All's Justi》",
     "url": "https://github.com/xi7ang/GameHub/commit/dbb3184a53abbbc42643bb6483deb8ee858dfe27"
-  },
-  {
-    "hash": "dbf89fa",
-    "date": "2026-09-08T12:50:31+08:00",
-    "message": "sync: 新增资源《德拉加传说v2.1.1 Legends of Dragaea: Idle Dun》",
-    "url": "https://github.com/xi7ang/GameHub/commit/dbf89fab5e6d0651c74ff80f6a7bed700cbc72ec"
   }
 ]
