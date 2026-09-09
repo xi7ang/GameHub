@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e2e861d",
+    "date": "2026-09-09T21:49:42+08:00",
+    "message": "fix: BgWall bgwall.json 路径拼接双重前缀修复",
+    "url": "https://github.com/xi7ang/GameHub/commit/e2e861d87e87cf321eda4731b543aa4707bbdf7c"
+  },
+  {
     "hash": "3101955",
     "date": "2026-09-09T21:36:12+08:00",
     "message": "refactor: 主页游戏推荐改为随机选取(有封面资源) + 移除Admin精选刷新面板",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T19:26:41+08:00",
     "message": "feat: 首页公告弹窗支持时间线公告（多条带日期默认折叠，点击在原弹窗内展开）",
     "url": "https://github.com/xi7ang/GameHub/commit/133528ef97c5f6821008cc73609de4c9097fc333"
-  },
-  {
-    "hash": "81fd92a",
-    "date": "2026-09-08T12:57:27+08:00",
-    "message": "sync: 新增资源《女神异闻录3-解压即玩版/ Reload Build.22672075 全DLC》",
-    "url": "https://github.com/xi7ang/GameHub/commit/81fd92a0a7429159e4e49d9d259612865d9aaa52"
   }
 ]

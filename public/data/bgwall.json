@@ -3,152 +3,152 @@
     {
       "slug": "CS2",
       "name": "CS2",
-      "img": "/GameHub/game-covers/CS2.webp"
+      "img": "game-covers/CS2.webp"
     },
     {
       "slug": "Dota2",
       "name": "Dota2",
-      "img": "/GameHub/game-covers/Dota2.webp"
+      "img": "game-covers/Dota2.webp"
     },
     {
       "slug": "GTA5",
       "name": "GTA5",
-      "img": "/GameHub/game-covers/GTA5.webp"
+      "img": "game-covers/GTA5.webp"
     },
     {
       "slug": "Apex",
       "name": "Apex",
-      "img": "/GameHub/game-covers/Apex.webp"
+      "img": "game-covers/Apex.webp"
     },
     {
       "slug": "Stardew",
       "name": "Stardew",
-      "img": "/GameHub/game-covers/Stardew.webp"
+      "img": "game-covers/Stardew.webp"
     },
     {
       "slug": "GMod",
       "name": "GMod",
-      "img": "/GameHub/game-covers/GMod.webp"
+      "img": "game-covers/GMod.webp"
     },
     {
       "slug": "NoMansSky",
       "name": "NoMansSky",
-      "img": "/GameHub/game-covers/NoMansSky.webp"
+      "img": "game-covers/NoMansSky.webp"
     },
     {
       "slug": "L4D2",
       "name": "L4D2",
-      "img": "/GameHub/game-covers/L4D2.webp"
+      "img": "game-covers/L4D2.webp"
     },
     {
       "slug": "EuroTruck",
       "name": "EuroTruck",
-      "img": "/GameHub/game-covers/EuroTruck.webp"
+      "img": "game-covers/EuroTruck.webp"
     },
     {
       "slug": "MountBlade",
       "name": "MountBlade",
-      "img": "/GameHub/game-covers/MountBlade.webp"
+      "img": "game-covers/MountBlade.webp"
     },
     {
       "slug": "ProjectZomboid",
       "name": "ProjectZomboid",
-      "img": "/GameHub/game-covers/ProjectZomboid.webp"
+      "img": "game-covers/ProjectZomboid.webp"
     },
     {
       "slug": "RimWorld",
       "name": "RimWorld",
-      "img": "/GameHub/game-covers/RimWorld.webp"
+      "img": "game-covers/RimWorld.webp"
     },
     {
       "slug": "WallpaperEngine",
       "name": "WallpaperEngine",
-      "img": "/GameHub/game-covers/WallpaperEngine.webp"
+      "img": "game-covers/WallpaperEngine.webp"
     },
     {
       "slug": "Witcher3",
       "name": "Witcher3",
-      "img": "/GameHub/game-covers/Witcher3.webp"
+      "img": "game-covers/Witcher3.webp"
     },
     {
       "slug": "EldenRing",
       "name": "EldenRing",
-      "img": "/GameHub/game-covers/EldenRing.webp"
+      "img": "game-covers/EldenRing.webp"
     },
     {
       "slug": "Cyberpunk2077",
       "name": "Cyberpunk2077",
-      "img": "/GameHub/game-covers/Cyberpunk2077.webp"
+      "img": "game-covers/Cyberpunk2077.webp"
     },
     {
       "slug": "TotalWar3K",
       "name": "TotalWar3K",
-      "img": "/GameHub/game-covers/TotalWar3K.webp"
+      "img": "game-covers/TotalWar3K.webp"
     },
     {
       "slug": "GodOfWar",
       "name": "GodOfWar",
-      "img": "/GameHub/game-covers/GodOfWar.webp"
+      "img": "game-covers/GodOfWar.webp"
     },
     {
       "slug": "Sekiro",
       "name": "Sekiro",
-      "img": "/GameHub/game-covers/Sekiro.webp"
+      "img": "game-covers/Sekiro.webp"
     },
     {
       "slug": "RDR2",
       "name": "RDR2",
-      "img": "/GameHub/game-covers/RDR2.webp"
+      "img": "game-covers/RDR2.webp"
     },
     {
       "slug": "BlackMythWukong",
       "name": "BlackMythWukong",
-      "img": "/GameHub/game-covers/BlackMythWukong.webp"
+      "img": "game-covers/BlackMythWukong.webp"
     },
     {
       "slug": "HogwartsLegacy",
       "name": "HogwartsLegacy",
-      "img": "/GameHub/game-covers/HogwartsLegacy.webp"
+      "img": "game-covers/HogwartsLegacy.webp"
     },
     {
       "slug": "ItTakesTwo",
       "name": "ItTakesTwo",
-      "img": "/GameHub/game-covers/ItTakesTwo.webp"
+      "img": "game-covers/ItTakesTwo.webp"
     },
     {
       "slug": "Raft",
       "name": "Raft",
-      "img": "/GameHub/game-covers/Raft.webp"
+      "img": "game-covers/Raft.webp"
     },
     {
       "slug": "DontStarveTogether",
       "name": "DontStarveTogether",
-      "img": "/GameHub/game-covers/DontStarveTogether.webp"
+      "img": "game-covers/DontStarveTogether.webp"
     },
     {
       "slug": "Rust",
       "name": "Rust",
-      "img": "/GameHub/game-covers/Rust.webp"
+      "img": "game-covers/Rust.webp"
     },
     {
       "slug": "MonsterHunterWorld",
       "name": "MonsterHunterWorld",
-      "img": "/GameHub/game-covers/MonsterHunterWorld.webp"
+      "img": "game-covers/MonsterHunterWorld.webp"
     },
     {
       "slug": "Factorio",
       "name": "Factorio",
-      "img": "/GameHub/game-covers/Factorio.webp"
+      "img": "game-covers/Factorio.webp"
     },
     {
       "slug": "HifiRush",
       "name": "HifiRush",
-      "img": "/GameHub/game-covers/HifiRush.webp"
+      "img": "game-covers/HifiRush.webp"
     },
     {
       "slug": "Palworld",
       "name": "Palworld",
-      "img": "/GameHub/game-covers/Palworld.webp"
+      "img": "game-covers/Palworld.webp"
     }
   ],
   "rows": 18
