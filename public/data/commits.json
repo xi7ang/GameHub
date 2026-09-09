@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b45e26f",
+    "date": "2026-09-09T13:51:58+08:00",
+    "message": "feat: add Steam covers for 21 gamehub resources",
+    "url": "https://github.com/xi7ang/GameHub/commit/b45e26f37e2086f0c4bb716401b2dee6cac4a808"
+  },
+  {
     "hash": "7bb65c3",
     "date": "2026-09-09T13:02:31+08:00",
     "message": "sync: 新增资源《咖啡店经营经理中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-07T10:50:15+08:00",
     "message": "chore：公告更新",
     "url": "https://github.com/xi7ang/GameHub/commit/9fc9988051455c509c32c4d4f276b28aaa3a482d"
-  },
-  {
-    "hash": "b764a64",
-    "date": "2026-09-07T10:42:49+08:00",
-    "message": "feat: 公告栏更新为网感使用说明（欢迎语+三步上手+小提示）",
-    "url": "https://github.com/xi7ang/GameHub/commit/b764a643aa5ea14f672b93e11a9ad95a985c270f"
   }
 ]
