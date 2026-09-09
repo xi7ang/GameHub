@@ -681,13 +681,14 @@
     "pwd": null,
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3734200.webp",
     "desc": "版本 Build.21841352",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 3734200
   },
   {
     "id": "pc-202604-0010",
@@ -1162,13 +1163,14 @@
     "pwd": null,
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1714900.webp",
     "desc": "版本 Build.21515844 · 单机 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 1714900
   },
   {
     "id": "pc-202604-0020",
@@ -3961,13 +3963,14 @@
     "pwd": null,
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1180320.webp",
     "desc": "单机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 1180320
   },
   {
     "id": "mobile-202604-0054",

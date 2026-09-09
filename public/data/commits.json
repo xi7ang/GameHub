@@ -1,5 +1,35 @@
 [
   {
+    "hash": "c3946d2",
+    "date": "2026-09-09T19:38:01+08:00",
+    "message": "sync: 新增资源《黎明行者之血/ The Blood of Dawnwalker v1.0.1 B》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c3946d2d1fedfc989735652a29aad29ff261b7bb"
+  },
+  {
+    "hash": "e9c98b1",
+    "date": "2026-09-09T19:18:45+08:00",
+    "message": "sync: 新增资源《车库翻新大师中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e9c98b176eae1cba93918751643c1d2905334f1d"
+  },
+  {
+    "hash": "5bf90c9",
+    "date": "2026-09-09T19:07:53+08:00",
+    "message": "fix: add RDR1 (2668510) Steam cover for 荒野大镖客：救赎PC纯净版",
+    "url": "https://github.com/xi7ang/GameHub/commit/5bf90c9fabac000c6478fd9b8a6ffaecbe1bdb29"
+  },
+  {
+    "hash": "bc254ec",
+    "date": "2026-09-09T17:09:11+08:00",
+    "message": "sync: 新增资源《荒野大镖客：救赎PC纯净版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/bc254ecce9919a85551788865fead666e2600760"
+  },
+  {
+    "hash": "111fd9f",
+    "date": "2026-09-09T17:00:24+08:00",
+    "message": "feat: add steamAppID field to resources (backfill 157 rows) + admin/validate support",
+    "url": "https://github.com/xi7ang/GameHub/commit/111fd9ffe42710000f1e3d390fab8d2a802a850e"
+  },
+  {
     "hash": "efce60e",
     "date": "2026-09-09T16:32:15+08:00",
     "message": "feat: add Steam covers for 51 gamehub resources (batch mobile 170-282)",
@@ -148,35 +178,5 @@
     "date": "2026-09-07T19:33:09+08:00",
     "message": "chore：更换brand",
     "url": "https://github.com/xi7ang/GameHub/commit/7b14a4e18a2d29be48e47e0f239de99533ff5e60"
-  },
-  {
-    "hash": "fe00096",
-    "date": "2026-09-07T13:41:31+08:00",
-    "message": "chore: 重生成 commits.json（rebase 后 log 变化）",
-    "url": "https://github.com/xi7ang/GameHub/commit/fe000962aca6db636a8af7f373c025d172c645f9"
-  },
-  {
-    "hash": "986d674",
-    "date": "2026-09-07T13:39:59+08:00",
-    "message": "feat: 后台支持一键更换品牌名（brand 配置驱动顶部/底部/页脚/页签标题全站替换）",
-    "url": "https://github.com/xi7ang/GameHub/commit/986d674b7f9104e42fde0d26101ae8dd616ea0d5"
-  },
-  {
-    "hash": "c2d5b07",
-    "date": "2026-09-07T10:59:34+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c2d5b0758dc1c7e3486eae28a8aeb069b1f27849"
-  },
-  {
-    "hash": "b33da71",
-    "date": "2026-09-07T10:59:32+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/b33da71284cb770fe1d8c7e70c78f52294648529"
-  },
-  {
-    "hash": "32889af",
-    "date": "2026-09-07T10:59:31+08:00",
-    "message": "feat: 一键刷新精选推荐（自动优选信息完整+真实封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/32889af4074da0360c6bfeecb524c1058aa28cec"
   }
 ]
