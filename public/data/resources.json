@@ -1944,13 +1944,14 @@
     "pwd": null,
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2567870.webp",
     "desc": "版本 v1.8 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 2567870
   },
   {
     "id": "mod-202604-0023",
