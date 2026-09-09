@@ -2625,13 +2625,14 @@
     "pwd": null,
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2668510.webp",
     "desc": "版本 v1.0.42.46611",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 2668510
   },
   {
     "id": "mod-202604-0031",
