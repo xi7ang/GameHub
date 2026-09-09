@@ -22173,5 +22173,25 @@
     "addedAt": "2026-09-09T13:02:31+08:00",
     "updatedAt": "2026-09-09T13:02:31+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0030",
+    "title": "荒野大镖客：救赎PC纯净版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/3ea7ffd7e745?pwd=Ocsv",
+    "pwd": "Ocsv",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "steamAppID": null,
+    "desc": "沉浸式的西部世界，细腻的剧情与角色塑造，广阔的开放世界探索，经典的枪战与马术体验，带来原汁原味的荒野冒险。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-09T17:09:09+08:00",
+    "updatedAt": "2026-09-09T17:09:09+08:00",
+    "month": "202609"
   }
 ]
