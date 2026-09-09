@@ -1,5 +1,11 @@
 [
   {
+    "hash": "690085f",
+    "date": "2026-09-09T20:31:51+08:00",
+    "message": "feat: add Steam covers for 92 gamehub resources (final batch, 776 scanned)",
+    "url": "https://github.com/xi7ang/GameHub/commit/690085f6a01c7662b7a180d944bddbff5561e506"
+  },
+  {
     "hash": "39e4f98",
     "date": "2026-09-09T20:04:15+08:00",
     "message": "feat: add Chained Together (2567870) cover for 链在一起",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T12:50:31+08:00",
     "message": "sync: 新增资源《德拉加传说v2.1.1 Legends of Dragaea: Idle Dun》",
     "url": "https://github.com/xi7ang/GameHub/commit/dbf89fab5e6d0651c74ff80f6a7bed700cbc72ec"
-  },
-  {
-    "hash": "97c0470",
-    "date": "2026-09-07T22:22:58+08:00",
-    "message": "sync: 新增资源《大侠立志传v1.2.128_内置控制台+解锁完整版全DLC.apk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/97c04708f532f99625d541a285679de237bd6aca"
   }
 ]

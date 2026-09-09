@@ -100,6 +100,20 @@
               <div v-if="featuredPickTip" class="text-low" style="font-size: 12px; margin-top: 10px; line-height: 1.7">本次入选：{{ featuredPickTip }}</div>
             </div>
 
+            <!-- 背景墙随机刷新 -->
+            <div class="glass dash-panel mb-md">
+              <div class="flex-between wrap gap-sm">
+                <div>
+                  <h3 style="margin: 0 0 4px">🎲 背景墙随机刷新</h3>
+                  <p class="text-low" style="font-size: 12px; margin: 0">
+                    从 30 张 Steam 胶囊图中随机洗牌 18 行背景墙。点击随机刷新，新洗牌立即生效（纯前端、不提交 commit）。
+                  </p>
+                  <p v-if="bgwallRefreshed" class="text-low" style="font-size: 12px; margin: 6px 0 0; color: var(--accent-sage)">✅ 已随机刷新！背景墙图片顺序已更新。</p>
+                </div>
+                <button class="btn btn-sm btn-primary" @click="refreshBgWall">🎲 随机刷新背景墙</button>
+              </div>
+            </div>
+
             <!-- SEO：Sitemap & Robots 一键更新 -->
             <div class="glass dash-panel mb-md">
               <div class="flex-between wrap gap-sm">
@@ -901,6 +915,19 @@ const inactiveCount = computed(() => resources.value.filter((r) => r.status === 
 // ── 精选推荐一键刷新 ──
 const FEATURED_LIMIT = 8
 const featuredPickTip = ref('')
+
+// ── 背景墙随机刷新 ──
+const bgwallRefreshed = ref(false)
+function refreshBgWall() {
+  // 通过 BgWall.vue 暴露的全局方法重洗 18 行背景墙（纯前端，不提交 commit）
+  if (typeof window !== 'undefined' && typeof window.__bgwallRefresh === 'function') {
+    window.__bgwallRefresh()
+    bgwallRefreshed.value = true
+    setTimeout(() => { bgwallRefreshed.value = false }, 3000)
+  } else {
+    alert('背景墙组件未就绪，请返回首页后重试')
+  }
+}
 
 // ── SEO：Sitemap & Robots 一键更新 ──
 // sitemap.xml / robots.txt 在每次构建时由 scripts/gen-sitemap.js 自动生成（postbuild），

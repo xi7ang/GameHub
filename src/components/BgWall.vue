@@ -1,5 +1,5 @@
 <template>
-  <!-- 全页背景：游戏封面墙（搬运自 xi7ang.github.io HomepageHero 成熟实现） -->
+  <!-- 全页背景：游戏胶囊图墙（Steam 胶囊图，默认 30 张，Admin 可一键随机刷新） -->
   <div class="bg-wall" aria-hidden="true">
     <div class="game-wall">
       <div class="game-wall__track">
@@ -37,24 +37,80 @@
 </template>
 
 <script setup>
-// ── 游戏封面墙数据（搬运自旧站 HomepageHero.vue）──
-const BASE = import.meta.env.BASE_URL // '/'
+import { ref, computed, onMounted } from 'vue'
 
-const gameCovers = [
-  { name: '反恐精英2', short: 'CS2', img: `${BASE}game-covers/cs2.jpg` },
-  { name: 'DOTA2', short: 'DOTA2', img: `${BASE}game-covers/dota2.jpg` },
-  { name: 'GTA5', short: 'GTA5', img: `${BASE}game-covers/gta5.jpg` },
-  { name: 'Apex英雄', short: 'Apex', img: `${BASE}game-covers/apex.jpg` },
-  { name: '星露谷物语', short: '星露谷', img: `${BASE}game-covers/stardew.jpg` },
-  { name: '盖瑞模组', short: '盖瑞模组', img: `${BASE}game-covers/garrysmod.jpg` },
-  { name: '无人深空', short: '无人深空', img: `${BASE}game-covers/nomansky.jpg` },
-  { name: '求生之路2', short: '求生之路', img: `${BASE}game-covers/l4d2.jpg` },
-  { name: '欧洲卡车模拟2', short: '欧卡2', img: `${BASE}game-covers/eurotruck.jpg` },
-  { name: '骑马与砍杀2', short: '骑砍2', img: `${BASE}game-covers/mountblade.jpg` },
-  { name: '僵尸毁灭工程', short: '僵毁', img: `${BASE}game-covers/projectzomboid.jpg` },
-  { name: '环世界', short: '环世界', img: `${BASE}game-covers/rimworld.jpg` },
-  { name: '壁纸引擎', short: '壁纸引擎', img: `${BASE}game-covers/wallpaperengine.jpg` },
+const BASE = import.meta.env.BASE_URL
+
+// 默认 30 张 Steam 胶囊图（兜底，加载 bgwall.json 时覆盖）
+const DEFAULT_COVERS = [
+  { slug: 'CS2', name: '反恐精英2', short: 'CS2', img: `${BASE}game-covers/CS2.jpg` },
+  { slug: 'Dota2', name: 'DOTA2', short: 'DOTA2', img: `${BASE}game-covers/Dota2.jpg` },
+  { slug: 'GTA5', name: 'GTA5', short: 'GTA5', img: `${BASE}game-covers/GTA5.jpg` },
+  { slug: 'Apex', name: 'Apex英雄', short: 'Apex', img: `${BASE}game-covers/Apex.jpg` },
+  { slug: 'Stardew', name: '星露谷物语', short: '星露谷', img: `${BASE}game-covers/Stardew.jpg` },
+  { slug: 'GMod', name: '盖瑞模组', short: 'GMod', img: `${BASE}game-covers/GMod.jpg` },
+  { slug: 'NoMansSky', name: '无人深空', short: '无人深空', img: `${BASE}game-covers/NoMansSky.jpg` },
+  { slug: 'L4D2', name: '求生之路2', short: 'L4D2', img: `${BASE}game-covers/L4D2.jpg` },
+  { slug: 'Witcher3', name: '巫师3', short: '巫师3', img: `${BASE}game-covers/Witcher3.jpg` },
+  { slug: 'EldenRing', name: '艾尔登法环', short: '法环', img: `${BASE}game-covers/EldenRing.jpg` },
+  { slug: 'Cyberpunk2077', name: '赛博朋克2077', short: '2077', img: `${BASE}game-covers/Cyberpunk2077.jpg` },
+  { slug: 'Sekiro', name: '只狼', short: '只狼', img: `${BASE}game-covers/Sekiro.jpg` },
+  { slug: 'RDR2', name: '荒野大镖客2', short: 'RDR2', img: `${BASE}game-covers/RDR2.jpg` },
+  { slug: 'BlackMythWukong', name: '黑神话悟空', short: '黑神话', img: `${BASE}game-covers/BlackMythWukong.jpg` },
+  { slug: 'HogwartsLegacy', name: '霍格沃茨之遗', short: '霍格沃茨', img: `${BASE}game-covers/HogwartsLegacy.jpg` },
+  { slug: 'ItTakesTwo', name: '双人成行', short: '双人成行', img: `${BASE}game-covers/ItTakesTwo.jpg` },
+  { slug: 'Raft', name: '木筏求生', short: 'Raft', img: `${BASE}game-covers/Raft.jpg` },
+  { slug: 'DontStarveTogether', name: '饥荒联机版', short: '饥荒联机', img: `${BASE}game-covers/DontStarveTogether.jpg` },
+  { slug: 'Rust', name: 'Rust腐蚀', short: 'Rust', img: `${BASE}game-covers/Rust.jpg` },
+  { slug: 'MonsterHunterWorld', name: '怪物猎人世界', short: '怪猎世界', img: `${BASE}game-covers/MonsterHunterWorld.jpg` },
+  { slug: 'Factorio', name: '异星工厂', short: 'Factorio', img: `${BASE}game-covers/Factorio.jpg` },
+  { slug: 'HifiRush', name: 'Hi-Fi RUSH', short: 'Hi-Fi', img: `${BASE}game-covers/HifiRush.jpg` },
+  { slug: 'Palworld', name: '幻兽帕鲁', short: '帕鲁', img: `${BASE}game-covers/Palworld.jpg` },
+  { slug: 'EuroTruck', name: '欧洲卡车模拟2', short: '欧卡2', img: `${BASE}game-covers/EuroTruck.jpg` },
+  { slug: 'MountBlade', name: '骑马与砍杀2', short: '骑砍2', img: `${BASE}game-covers/MountBlade.jpg` },
+  { slug: 'ProjectZomboid', name: '僵尸毁灭工程', short: '僵毁', img: `${BASE}game-covers/ProjectZomboid.jpg` },
+  { slug: 'RimWorld', name: '环世界', short: '环世界', img: `${BASE}game-covers/RimWorld.jpg` },
+  { slug: 'WallpaperEngine', name: '壁纸引擎', short: '壁纸引擎', img: `${BASE}game-covers/WallpaperEngine.jpg` },
+  { slug: 'TotalWar3K', name: '全面战争三国', short: '全战三国', img: `${BASE}game-covers/TotalWar3K.jpg` },
+  { slug: 'GodOfWar', name: '战神', short: '战神', img: `${BASE}game-covers/GodOfWar.jpg` },
 ]
+
+const gameCovers = ref([...DEFAULT_COVERS])
+
+// 从 bgwall.json 加载配置（有则覆盖默认）
+onMounted(async () => {
+  try {
+    const res = await fetch(`${BASE}data/bgwall.json`)
+    if (!res.ok) return
+    const data = await res.json()
+    if (data.images && data.images.length) {
+      // 用 bgwall.json 中的图片列表覆盖默认
+      gameCovers.value = data.images.map(g => ({
+        ...g,
+        short: g.short || g.slug || g.name,
+        img: g.img.startsWith('http') ? g.img : `${BASE}${g.img.replace(/^\/+/, '')}`,
+      }))
+    }
+  } catch { /* 加载失败用默认列表 */ }
+})
+
+// 暴露刷新方法给父组件/全局调用
+function shuffleCovers() {
+  const arr = [...gameCovers.value]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  gameCovers.value = arr
+}
+
+// 使刷新方法全局可访问（Admin 后台通过 window.__bgwallRefresh() 调用）
+if (typeof window !== 'undefined') {
+  window.__bgwallRefresh = shuffleCovers
+}
+
+// 暴露给模板（通过 defineExpose 在 script setup 里也可用）
+defineExpose({ refresh: shuffleCovers })
 
 function shuffle(arr) {
   const a = [...arr]
@@ -66,7 +122,13 @@ function shuffle(arr) {
 }
 
 // 18 行封面墙，每行独立洗牌；双份渲染实现无缝滚动
-const gameRows = Array.from({ length: 18 }, () => shuffle(gameCovers))
+const gameRows = computed(() => {
+  const rows = []
+  for (let i = 0; i < 18; i++) {
+    rows.push(shuffle(gameCovers.value))
+  }
+  return rows
+})
 const rowSpeed = 190
 
 function rowMargin(ri) {
@@ -85,7 +147,6 @@ function rowMargin(ri) {
   background: var(--wall-bg);
 }
 
-/* ── 封面墙（旧站原版结构）── */
 .game-wall {
   position: absolute;
   inset: -10% -5%;
@@ -165,7 +226,6 @@ function rowMargin(ri) {
   white-space: nowrap;
 }
 
-/* ── 遮罩（跟随主题，避免旧站硬编码深色穿帮）── */
 .bg-wall__fade {
   content: '';
   position: fixed;
