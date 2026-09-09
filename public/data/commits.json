@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3101955",
+    "date": "2026-09-09T21:36:12+08:00",
+    "message": "refactor: 主页游戏推荐改为随机选取(有封面资源) + 移除Admin精选刷新面板",
+    "url": "https://github.com/xi7ang/GameHub/commit/31019559adcfa82904283b5431e7d62d535bbbb0"
+  },
+  {
     "hash": "bd689f3",
     "date": "2026-09-09T21:10:28+08:00",
     "message": "perf: 背景墙胶囊图 jpg→webp，体积降 36%",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T12:57:27+08:00",
     "message": "sync: 新增资源《女神异闻录3-解压即玩版/ Reload Build.22672075 全DLC》",
     "url": "https://github.com/xi7ang/GameHub/commit/81fd92a0a7429159e4e49d9d259612865d9aaa52"
-  },
-  {
-    "hash": "61c38be",
-    "date": "2026-09-08T12:56:21+08:00",
-    "message": "sync: 新增资源《海狸浮生记/ Timberborn v1.1.2.4》",
-    "url": "https://github.com/xi7ang/GameHub/commit/61c38be8b4e02055c8aae1b63614d4c9d8c69dc5"
   }
 ]

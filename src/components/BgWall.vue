@@ -88,7 +88,7 @@ onMounted(async () => {
       gameCovers.value = data.images.map(g => ({
         ...g,
         short: g.short || g.slug || g.name,
-        img: g.img.startsWith('http') ? g.img : `${BASE}${g.img.replace(/^\/+/, '')}`,
+        img: g.img.startsWith('http') ? g.img : (g.img.startsWith(BASE) ? g.img : `${BASE}${g.img.replace(/^\/+/, '')}`),
       }))
     }
   } catch { /* 加载失败用默认列表 */ }
