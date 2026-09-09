@@ -1,5 +1,23 @@
 [
   {
+    "hash": "39e4f98",
+    "date": "2026-09-09T20:04:15+08:00",
+    "message": "feat: add Chained Together (2567870) cover for 链在一起",
+    "url": "https://github.com/xi7ang/GameHub/commit/39e4f985b152911e31d8ca0567fe41c1b687255e"
+  },
+  {
+    "hash": "eac9e03",
+    "date": "2026-09-09T19:56:09+08:00",
+    "message": "fix: add RDR1 cover for duplicate 荒野大镖客 救赎 entry",
+    "url": "https://github.com/xi7ang/GameHub/commit/eac9e0355fc9655eed4e448957d3d8a5d9c2ef63"
+  },
+  {
+    "hash": "060f6d5",
+    "date": "2026-09-09T19:46:15+08:00",
+    "message": "feat: add Steam covers for 3 gamehub resources (batch 5, mobile 0002-0096)",
+    "url": "https://github.com/xi7ang/GameHub/commit/060f6d5648c4e620648547659f4164b31e9830dd"
+  },
+  {
     "hash": "c3946d2",
     "date": "2026-09-09T19:38:01+08:00",
     "message": "sync: 新增资源《黎明行者之血/ The Blood of Dawnwalker v1.0.1 B》",
@@ -160,23 +178,5 @@
     "date": "2026-09-07T22:22:58+08:00",
     "message": "sync: 新增资源《大侠立志传v1.2.128_内置控制台+解锁完整版全DLC.apk》",
     "url": "https://github.com/xi7ang/GameHub/commit/97c04708f532f99625d541a285679de237bd6aca"
-  },
-  {
-    "hash": "92737d8",
-    "date": "2026-09-07T19:33:11+08:00",
-    "message": "chore：更换brand",
-    "url": "https://github.com/xi7ang/GameHub/commit/92737d83678b14b5a56092e81ba49436e18569d9"
-  },
-  {
-    "hash": "2c0571e",
-    "date": "2026-09-07T19:33:10+08:00",
-    "message": "chore：更换brand",
-    "url": "https://github.com/xi7ang/GameHub/commit/2c0571e09ee0d4e444a2e98a11e584c79fbc45ac"
-  },
-  {
-    "hash": "7b14a4e",
-    "date": "2026-09-07T19:33:09+08:00",
-    "message": "chore：更换brand",
-    "url": "https://github.com/xi7ang/GameHub/commit/7b14a4e18a2d29be48e47e0f239de99533ff5e60"
   }
 ]

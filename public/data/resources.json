@@ -14171,13 +14171,14 @@
     "pwd": "manY",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/585420.webp",
     "desc": "版本 v222.506.849.0 · DLC · 中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 585420
   },
   {
     "id": "pc-202604-0064",
@@ -14274,13 +14275,14 @@
     "pwd": "BUTm",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3668370.webp",
     "desc": "版本 v1.3.0",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 3668370
   },
   {
     "id": "mobile-202604-0568",
@@ -14451,13 +14453,14 @@
     "pwd": "FyoQ",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3198850.webp",
     "desc": "中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 3198850
   },
   {
     "id": "pc-202604-0072",
@@ -14489,13 +14492,14 @@
     "pwd": "pKZe",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2434600.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202604"
+    "month": "202604",
+    "steamAppID": 2434600
   },
   {
     "id": "emu-202604-0006",
@@ -14630,13 +14634,14 @@
     "pwd": "Haxj",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3412900.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 3412900
   },
   {
     "id": "pc-202605-0004",
@@ -14668,13 +14673,14 @@
     "pwd": "gltv",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3378960.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 3378960
   },
   {
     "id": "pc-202605-0006",
@@ -14727,13 +14733,14 @@
     "pwd": "zfil",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3404470.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 3404470
   },
   {
     "id": "pc-202605-0009",
@@ -14807,13 +14814,14 @@
     "pwd": "27MS",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4148240.webp",
     "desc": "版本 Build.22921822",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 4148240
   },
   {
     "id": "online-202605-0001",
@@ -14911,13 +14919,14 @@
     "pwd": "Cw9J",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2423760.webp",
     "desc": "版本 v1.0.3",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 2423760
   },
   {
     "id": "pc-202605-0014",
@@ -15335,13 +15344,14 @@
     "pwd": "wVnt",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4078200.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 4078200
   },
   {
     "id": "pc-202605-0027",
@@ -15356,13 +15366,14 @@
     "pwd": "3xdf",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1969810.webp",
     "desc": "版本 v0.137.13 · 中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 1969810
   },
   {
     "id": "pc-202605-0028",
@@ -15377,13 +15388,14 @@
     "pwd": "QBPt",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3988570.webp",
     "desc": "版本 Build.23358759 · 中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 3988570
   },
   {
     "id": "pc-202605-0029",
@@ -15398,13 +15410,14 @@
     "pwd": "sUHE",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2479320.webp",
     "desc": "版本 Build.23165420 · 中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 2479320
   },
   {
     "id": "pc-202605-0030",
@@ -15438,13 +15451,14 @@
     "pwd": "clkQ",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4077960.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-05-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202605"
+    "month": "202605",
+    "steamAppID": 4077960
   },
   {
     "id": "pc-202606-0001",
@@ -15637,13 +15651,14 @@
     "pwd": "FGUW",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3833760.webp",
     "desc": "版本 v1.0 · 中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 3833760
   },
   {
     "id": "pc-202606-0008",
@@ -15849,13 +15864,14 @@
     "pwd": "NNwA",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3684500.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 3684500
   },
   {
     "id": "pc-202606-0018",
@@ -15906,13 +15922,14 @@
     "pwd": "Hec8",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2443770.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 2443770
   },
   {
     "id": "online-202606-0002",
@@ -15986,13 +16003,14 @@
     "pwd": "BCXI",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1519490.webp",
     "desc": "版本 Build.23710480",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 1519490
   },
   {
     "id": "pc-202606-0024",
@@ -16045,13 +16063,14 @@
     "pwd": "LXVH",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4710590.webp",
     "desc": "版本 Build.23672882",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 4710590
   },
   {
     "id": "pc-202606-0026",
@@ -16064,13 +16083,14 @@
     "pwd": "JFut",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3768760.webp",
     "desc": "版本 v1.0.0 Build.23388781",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 3768760
   },
   {
     "id": "mobile-202606-0001",
@@ -16104,13 +16124,14 @@
     "pwd": "Yigj",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1426210.webp",
     "desc": "双人",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 1426210
   },
   {
     "id": "pc-202606-0028",
@@ -16163,13 +16184,14 @@
     "pwd": "BSjz",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3828610.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 3828610
   },
   {
     "id": "pc-202606-0031",
@@ -16242,13 +16264,14 @@
     "pwd": "t7vN",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/588650.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 588650
   },
   {
     "id": "mobile-202606-0002",
@@ -16499,13 +16522,14 @@
     "pwd": "0C5w",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3688790.webp",
     "desc": "版本 v0.3.9 · 模拟器",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 3688790
   },
   {
     "id": "pc-202606-0038",
@@ -16541,13 +16565,14 @@
     "pwd": "lmb0",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/588650.webp",
     "desc": "DLC",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 588650
   },
   {
     "id": "emu-202606-0005",
@@ -16640,13 +16665,14 @@
     "pwd": "n6PM",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3915220.webp",
     "desc": "版本 V1.0",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 3915220
   },
   {
     "id": "emu-202606-0006",
@@ -16699,13 +16725,14 @@
     "pwd": "R4Wy",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4056810.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-06-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202606"
+    "month": "202606",
+    "steamAppID": 4056810
   },
   {
     "id": "mod-202606-0005",
@@ -17017,13 +17044,14 @@
     "pwd": "6W6m",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3413000.webp",
     "desc": "版本 build.23905884",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 3413000
   },
   {
     "id": "pc-202607-0002",
@@ -17036,13 +17064,14 @@
     "pwd": "CQVA",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2118810.webp",
     "desc": "版本 v1.136.0.0",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 2118810
   },
   {
     "id": "pc-202607-0003",
@@ -17114,13 +17143,14 @@
     "pwd": "Ukrm",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3884970.webp",
     "desc": "版本 build.23930574",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 3884970
   },
   {
     "id": "pc-202607-0006",
@@ -17152,13 +17182,14 @@
     "pwd": "maQz",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4135750.webp",
     "desc": "版本 Build.23848561",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 4135750
   },
   {
     "id": "pc-202607-0008",
@@ -17268,13 +17299,14 @@
     "pwd": "q18G",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1029690.webp",
     "desc": "版本 v1.0.13.2 · 存档",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 1029690
   },
   {
     "id": "pc-202607-0014",
@@ -17331,13 +17363,14 @@
     "pwd": "abld",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3124540.webp",
     "desc": "版本 v0.1.1.18 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 3124540
   },
   {
     "id": "pc-202607-0016",
@@ -17554,13 +17587,14 @@
     "pwd": "VSvI",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2175540.webp",
     "desc": "汉化",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 2175540
   },
   {
     "id": "pc-202607-0024",
@@ -17596,13 +17630,14 @@
     "pwd": "2PEJ",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4225980.webp",
     "desc": "版本 v1.06.4 · DLC",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 4225980
   },
   {
     "id": "pc-202607-0025",
@@ -17696,13 +17731,14 @@
     "pwd": "R6us",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/787740.webp",
     "desc": "版本 v0.9",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 787740
   },
   {
     "id": "pc-202607-0027",
@@ -17779,13 +17815,14 @@
     "pwd": "lewR",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2235200.webp",
     "desc": "联机补丁 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 2235200
   },
   {
     "id": "online-202607-0004",
@@ -17839,13 +17876,14 @@
     "pwd": "ZZAL",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2368930.webp",
     "desc": "版本 Build.20970575",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 2368930
   },
   {
     "id": "pc-202607-0031",
@@ -17961,13 +17999,14 @@
     "pwd": "HX4h",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1370120.webp",
     "desc": "版本 Build.20678956",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 1370120
   },
   {
     "id": "pc-202607-0034",
@@ -18090,13 +18129,14 @@
     "pwd": "DPck",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1286990.webp",
     "desc": "版本 v2.0.0.0 · DLC",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 1286990
   },
   {
     "id": "emu-202607-0006",
@@ -18131,13 +18171,14 @@
     "pwd": "Fkqu",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3321460.webp",
     "desc": "版本 v1.12.00 1.7",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 3321460
   },
   {
     "id": "pc-202607-0037",
@@ -18210,13 +18251,14 @@
     "pwd": "l5u0",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4570720.webp",
     "desc": "版本 v1.0.3",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 4570720
   },
   {
     "id": "pc-202607-0039",
@@ -18272,13 +18314,14 @@
     "pwd": "IhFy",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1623730.webp",
     "desc": "版本 v1.0.0.100427 · 联机 · 单机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 1623730
   },
   {
     "id": "pc-202607-0041",
@@ -18372,13 +18415,14 @@
     "pwd": "avOR",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4898630.webp",
     "desc": "版本 v20260724",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 4898630
   },
   {
     "id": "pc-202607-0044",
@@ -18433,13 +18477,14 @@
     "pwd": "hb4J",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2530980.webp",
     "desc": "版本 v1.0.2 · DLC",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 2530980
   },
   {
     "id": "emu-202607-0008",
@@ -18576,13 +18621,14 @@
     "pwd": "lvIa",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2539350.webp",
     "desc": "版本 Build.17207711",
     "status": "active",
     "featured": false,
     "addedAt": "2026-07-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202607"
+    "month": "202607",
+    "steamAppID": 2539350
   },
   {
     "id": "pc-202608-0001",
@@ -18595,13 +18641,14 @@
     "pwd": "wQTF",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4530240.webp",
     "desc": "版本 Build.24450155",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4530240
   },
   {
     "id": "pc-202608-0002",
@@ -18614,13 +18661,14 @@
     "pwd": "3nqR",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2416450.webp",
     "desc": "版本 v1.2.2.8822",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2416450
   },
   {
     "id": "pc-202608-0003",
@@ -18633,13 +18681,14 @@
     "pwd": "kRYb",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2808570.webp",
     "desc": "版本 Build.15213845",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2808570
   },
   {
     "id": "pc-202608-0004",
@@ -18692,13 +18741,14 @@
     "pwd": "TG7R",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/370060.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 370060
   },
   {
     "id": "pc-202608-0006",
@@ -18770,13 +18820,14 @@
     "pwd": "cBYw",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1368140.webp",
     "desc": "版本 Build.24338472",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 1368140
   },
   {
     "id": "mod-202608-0001",
@@ -18810,13 +18861,14 @@
     "pwd": "rCSb",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1714510.webp",
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 1714510
   },
   {
     "id": "pc-202608-0011",
@@ -18848,13 +18900,14 @@
     "pwd": "oFL7",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2377930.webp",
     "desc": "版本 v0.13.25",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2377930
   },
   {
     "id": "online-202608-0001",
@@ -18912,13 +18965,14 @@
     "pwd": "Tf6q",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2305840.webp",
     "desc": "中文",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2305840
   },
   {
     "id": "mod-202608-0002",
@@ -19037,13 +19091,14 @@
     "pwd": "Ei6F",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3453910.webp",
     "desc": "版本 Build.24379760",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3453910
   },
   {
     "id": "emu-202608-0003",
@@ -19117,13 +19172,14 @@
     "pwd": "mXQg",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2442460.webp",
     "desc": "版本 Build.24313348",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2442460
   },
   {
     "id": "online-202608-0003",
@@ -19138,13 +19194,14 @@
     "pwd": "ijZZ",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/768200.webp",
     "desc": "版本 Build.26082025 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 768200
   },
   {
     "id": "pc-202608-0020",
@@ -19386,13 +19443,14 @@
     "pwd": "u4sd",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3561220.webp",
     "desc": "版本 v1.0.479 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3561220
   },
   {
     "id": "pc-202608-0026",
@@ -19424,13 +19482,14 @@
     "pwd": "guEt",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3962040.webp",
     "desc": "版本 Build.24580588",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3962040
   },
   {
     "id": "pc-202608-0028",
@@ -19443,13 +19502,14 @@
     "pwd": "ABGS",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2660230.webp",
     "desc": "版本 Build.24566977",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2660230
   },
   {
     "id": "pc-202608-0029",
@@ -19462,13 +19522,14 @@
     "pwd": "3bU4",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4078160.webp",
     "desc": "版本 Build.24309199",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4078160
   },
   {
     "id": "pc-202608-0030",
@@ -19542,13 +19603,14 @@
     "pwd": "gTJ0",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/491540.webp",
     "desc": "版本 Build.23682867",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 491540
   },
   {
     "id": "pc-202608-0032",
@@ -19601,13 +19663,14 @@
     "pwd": "wkm4",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3907790.webp",
     "desc": "版本 Build.24520708",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3907790
   },
   {
     "id": "emu-202608-0005",
@@ -19682,13 +19745,14 @@
     "pwd": "z0Bd",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3041230.webp",
     "desc": "版本 v0.10.0.8.10 · 单机 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3041230
   },
   {
     "id": "online-202608-0008",
@@ -19917,13 +19981,14 @@
     "pwd": "bR3D",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4915120.webp",
     "desc": "版本 Build.24683836",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4915120
   },
   {
     "id": "pc-202608-0043",
@@ -19936,13 +20001,14 @@
     "pwd": "IPt6",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3004390.webp",
     "desc": "版本 Build.24642954",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3004390
   },
   {
     "id": "pc-202608-0044",
@@ -19995,13 +20061,14 @@
     "pwd": "jUus",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4277290.webp",
     "desc": "版本 Build.24388724",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4277290
   },
   {
     "id": "pc-202608-0047",
@@ -20073,13 +20140,14 @@
     "pwd": "UXNk",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1921490.webp",
     "desc": "版本 v20260814",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 1921490
   },
   {
     "id": "pc-202608-0050",
@@ -20092,13 +20160,14 @@
     "pwd": "96i4",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2244210.webp",
     "desc": "版本 v1.0.5 Build.24543994",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2244210
   },
   {
     "id": "pc-202608-0051",
@@ -20278,13 +20347,14 @@
     "pwd": "20R0",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3777060.webp",
     "desc": "版本 v1.0.3",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3777060
   },
   {
     "id": "online-202608-0010",
@@ -20301,13 +20371,14 @@
     "pwd": "yi1a",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1357210.webp",
     "desc": "版本 v20260814 · DLC · 单机 · 联机",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 1357210
   },
   {
     "id": "pc-202608-0057",
@@ -20598,13 +20669,14 @@
     "pwd": "nHCU",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4292950.webp",
     "desc": "版本 Build.24814062",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4292950
   },
   {
     "id": "pc-202608-0069",
@@ -20617,13 +20689,14 @@
     "pwd": "ZVUn",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3432110.webp",
     "desc": "版本 Build.24464861",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3432110
   },
   {
     "id": "pc-202608-0070",
@@ -20636,13 +20709,14 @@
     "pwd": "Y2Dv",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4117730.webp",
     "desc": "版本 v20260820",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4117730
   },
   {
     "id": "mobile-202608-0008",
@@ -20752,13 +20826,14 @@
     "pwd": "DyyC",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3816000.webp",
     "desc": "沉浸式解谜体验，探索神秘鲜花世界，与古老众神展开智慧碰撞。精美手绘画风，细腻场景设计，每一处细节都充满艺术感。独特剧情分支，多重结局等你解锁，每一次选择都将改变故事走向。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-25T23:11:56+08:00",
     "updatedAt": "2026-08-25T23:11:56+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3816000
   },
   {
     "id": "online-202608-0012",
@@ -20809,13 +20884,14 @@
     "pwd": "Xzw9",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4125770.webp",
     "desc": "24887599版本狂想升级，经典武侠与新潮玩法碰撞，打造极致爽感体验。快意恩仇与策略博弈并存，每一次出招都是对江湖的全新诠释。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-25T23:40:21+08:00",
     "updatedAt": "2026-08-25T23:40:21+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4125770
   },
   {
     "id": "pc-202608-0075",
@@ -20944,13 +21020,14 @@
     "pwd": "6om2",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3654560.webp",
     "desc": "经典策略游戏焕新登场，保留原作核心玩法的同时优化画面与操作，新增植物与关卡带来全新挑战，存档功能让玩家轻松延续冒险，随时随地体验抵御僵尸的乐趣。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-27T12:32:08+08:00",
     "updatedAt": "2026-08-27T12:32:08+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 3654560
   },
   {
     "id": "pc-202608-0079",
@@ -20963,13 +21040,14 @@
     "pwd": "JeJV",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4154510.webp",
     "desc": "跨越代际的教育对话，从亚洲家长的上学记忆到当代教育挑战，展现不同文化背景下的教育观念碰撞与传承，探讨家庭与学校的共同责任。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-28T12:33:05+08:00",
     "updatedAt": "2026-08-28T12:33:05+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4154510
   },
   {
     "id": "pc-202608-0080",
@@ -21058,13 +21136,14 @@
     "pwd": "dq5A",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4405880.webp",
     "desc": "沉浸式体验月之冕的奇幻世界，细腻光影交织成诗，每一帧都如梦似幻。探索神秘场景，感受宁静与治愈，在月光的指引下开启心灵之旅。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-29T10:17:15+08:00",
     "updatedAt": "2026-08-29T10:17:15+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4405880
   },
   {
     "id": "pc-202608-0085",
@@ -21248,13 +21327,14 @@
     "pwd": "4usg",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4625760.webp",
     "desc": "全新版本带来更灵动的猴儿体验，新增趣味挑战关卡，优化操作手感，画面细节更生动。解锁神秘皮肤，体验多样玩法，轻松上手，乐趣无穷，让你爱不释手。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-31T12:47:32+08:00",
     "updatedAt": "2026-08-31T12:47:32+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 4625760
   },
   {
     "id": "mobile-202608-0015",
@@ -21328,13 +21408,14 @@
     "pwd": "lNou",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2951630.webp",
     "desc": "一款深度还原青铜时代地中海文明的策略大作，包含全新王朝模式与海量DLC，画面精美、兵种丰富，支持中文界面与战役，带给玩家史诗级的征服体验。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-08-31T18:27:32+08:00",
     "updatedAt": "2026-08-31T18:27:32+08:00",
-    "month": "202608"
+    "month": "202608",
+    "steamAppID": 2951630
   },
   {
     "id": "mobile-202608-0016",
@@ -21465,13 +21546,14 @@
     "pwd": "pjD2",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/875210.webp",
     "desc": "千军万马沙场征战，经典三国策略玩法升级，武将技能华丽释放，多势力争霸史诗剧情，自由掌控战场节奏，体验乱世英雄崛起之路。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-02T11:40:41+08:00",
     "updatedAt": "2026-09-02T11:40:41+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 875210
   },
   {
     "id": "pc-202609-0004",
@@ -21503,13 +21585,14 @@
     "pwd": "PN7h",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/4087980.webp",
     "desc": "随机卡牌组合带来无限可能，奇葩技能搭配笑料十足，轻松休闲玩法上手简单，策略深度又充满惊喜，每一次出牌都是全新冒险，欢乐不断！",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-02T13:21:27+08:00",
     "updatedAt": "2026-09-02T13:21:27+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 4087980
   },
   {
     "id": "pc-202609-0006",
@@ -21636,13 +21719,14 @@
     "pwd": "H6Du",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/3116700.webp",
     "desc": "地府KPI爆表！黑白无常加班赶工，奈何桥上业务繁忙，孟婆汤配方亟待优化。玩家化身实习判官，手握生死簿，在搞笑与紧张间平衡亡者需求，体验别样职场人生。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-04T15:25:11+08:00",
     "updatedAt": "2026-09-04T15:25:11+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 3116700
   },
   {
     "id": "pc-202609-0011",
@@ -21697,13 +21781,14 @@
     "pwd": "qTSs",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1361210.webp",
     "desc": "体验战锤40K暗潮的中文联机乐趣，与好友并肩作战，在黑暗未来中探索未知，挑战强大敌人，感受独特的合作战斗氛围。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-05T08:25:33+08:00",
     "updatedAt": "2026-09-05T08:25:33+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 1361210
   },
   {
     "id": "pc-202609-0013",
@@ -21782,13 +21867,14 @@
     "pwd": "Uz3z",
     "size": "63.6GB",
     "sizeBytes": 68289980006,
-    "cover": "",
+    "cover": "/covers/1343070.webp",
     "desc": "在这款沉浸式的第三人称与第一人称游戏中率领一支二战坦克排。参与真实而富有战术性的战斗，驰骋于历史战场。你可以体验完整的战役模式，或在遭遇战模式中挑战自我，扮演德军或美军作战。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-06T11:08:25+08:00",
     "updatedAt": "2026-09-07T09:59:13+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 1343070
   },
   {
     "id": "pc-202609-0016",
@@ -21805,13 +21891,14 @@
     "pwd": "pDpj",
     "size": "14.8GB",
     "sizeBytes": 15891378995,
-    "cover": "",
+    "cover": "/covers/4012810.webp",
     "desc": "《STEINS;GATE》以现代标准全面重启！角色、画面焕然一新，并追加全新剧情！ 角色设计、图像、UI全部更新，将以更加清晰、更加深刻的姿态呈现熟悉秋叶原。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-06T11:09:27+08:00",
     "updatedAt": "2026-09-07T09:59:13+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 4012810
   },
   {
     "id": "pc-202609-0017",
@@ -21855,13 +21942,14 @@
     "pwd": "Zeet",
     "size": "11.9GB",
     "sizeBytes": 12777527705,
-    "cover": "",
+    "cover": "/covers/4149700.webp",
     "desc": "步行模拟游戏。探索温馨的边界空间，它们令人不安却又熟悉，仿佛曾在梦中到访过，激发你的想象力。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-06T11:22:55+08:00",
     "updatedAt": "2026-09-07T09:59:13+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 4149700
   },
   {
     "id": "pc-202609-0019",
@@ -21880,13 +21968,14 @@
     "pwd": "j8eb",
     "size": "22.4GB",
     "sizeBytes": 24051816857,
-    "cover": "",
+    "cover": "/covers/2697000.webp",
     "desc": "在《The Legend of Khiimori》中化身勇敢的驿站骑师！与你的马儿建立羁绊，驰骋并驯服13世纪蒙古的旷野。培育并训练具备专长的马匹，探索这片富饶迷人大地的每个角落。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-07T09:56:57+08:00",
     "updatedAt": "2026-09-07T09:59:13+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 2697000
   },
   {
     "id": "pc-202609-0020",
@@ -21904,13 +21993,14 @@
     "pwd": "04zg",
     "size": "1.5GB",
     "sizeBytes": 1610612736,
-    "cover": "",
+    "cover": "/covers/3690490.webp",
     "desc": "成为最后的机车司机，统治这片冰封世界中仅存的列车社会。 收集、扩展并强化列车，结合强力遗物，构筑只属于你的独特协同。 你与乘客们的命运，如今掌握在你的手中。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-07T10:00:46+08:00",
     "updatedAt": "2026-09-07T10:00:46+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 3690490
   },
   {
     "id": "pc-202609-0021",
@@ -22053,13 +22143,14 @@
     "pwd": "oVtO",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/1062090.webp",
     "desc": "化身海狸领袖，规划水坝与城市，在干旱与洪水中生存。管理资源，发展科技，打造坚不可摧的河畔文明。体验独特的水陆双栖生存，见证海狸帝国的崛起与繁荣。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-08T12:56:21+08:00",
     "updatedAt": "2026-09-08T12:56:21+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 1062090
   },
   {
     "id": "pc-202609-0026",
@@ -22152,13 +22243,14 @@
     "pwd": "NxO1",
     "size": "",
     "sizeBytes": null,
-    "cover": "",
+    "cover": "/covers/2820700.webp",
     "desc": "无需安装即开即玩，轻松解压！经典礼帽元素碰撞，操作简单爽快，碎片时间也能享受欢乐乱斗，释放压力，乐趣无穷！",
     "status": "active",
     "featured": false,
     "addedAt": "2026-09-09T13:01:13+08:00",
     "updatedAt": "2026-09-09T13:01:13+08:00",
-    "month": "202609"
+    "month": "202609",
+    "steamAppID": 2820700
   },
   {
     "id": "pc-202609-0029",
