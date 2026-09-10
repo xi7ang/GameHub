@@ -342,7 +342,7 @@
                 <input v-model="siteForm.footer" class="form-input" />
               </div>
               <div class="form-group" style="grid-column: 1/-1">
-                <label class="form-label">热门关键词（逗号分隔）</label>
+                <label class="form-label">首页热门搜索关键词（逗号分隔，写入 hotKeywords.json）</label>
                 <input v-model="hotKeywordsStr" class="form-input" />
               </div>
               <!-- 平台配置（可编辑，新增网盘不用改代码） -->
@@ -1190,9 +1190,11 @@ async function loadOpLogs() {
   }
 }
 
+// 首页热门搜索关键词：独立数据文件 public/data/hotKeywords.json（首页每次从中随机选 6-7 个展示）
+const hotKeywords = ref([])
 const hotKeywordsStr = computed({
-  get: () => (siteForm.hotKeywords || []).join(', '),
-  set: (v) => (siteForm.hotKeywords = v.split(/[,，]/).map((s) => s.trim()).filter(Boolean)),
+  get: () => hotKeywords.value.join(', '),
+  set: (v) => (hotKeywords.value = v.split(/[,，]/).map((s) => s.trim()).filter(Boolean)),
 })
 
 // ── 平台配置（site.json platforms 可编辑） ──
@@ -1230,6 +1232,10 @@ async function refreshAll() {
   resources.value = await readFile('public/data/resources.json')
   cats.value = await readFile('public/data/categories.json')
   const site = await readFile('public/data/site.json')
+  try {
+    const hk = await readFile('public/data/hotKeywords.json')
+    hotKeywords.value = Array.isArray(hk?.keywords) ? hk.keywords : []
+  } catch { hotKeywords.value = [] }
   site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '', items: [] }
   if (!Array.isArray(site.announcementModal.items)) site.announcementModal.items = []
   // 兼容旧版 site.json：无 brand 时按 siteName 首词推断品牌名，默认无高亮后缀
@@ -1662,6 +1668,7 @@ async function saveAll() {
     await writeFile('public/data/resources.json', resources.value, msg)
     await writeFile('public/data/categories.json', cats.value, msg)
     await writeFile('public/data/site.json', { ...siteForm }, msg)
+    await writeFile('public/data/hotKeywords.json', { keywords: hotKeywords.value }, msg)
     // 同步前台
     state.resources = [...resources.value]
     state.categories = [...cats.value]

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "85985c2",
+    "date": "2026-09-10T09:36:57+08:00",
+    "message": "perf: P1 背景墙图片降级(lazy/去fetchpriority) + preload home.json",
+    "url": "https://github.com/xi7ang/GameHub/commit/85985c2e8f02406838e5c0415cf6d8fac7ab3775"
+  },
+  {
     "hash": "9f37502",
     "date": "2026-09-10T09:30:52+08:00",
     "message": "perf: P0 首页数据瘦身 — 新增 home.json(82KB) 替代全量 resources.json(568KB)",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T13:01:13+08:00",
     "message": "sync: 新增资源《礼帽大乱斗中文版解压即玩》",
     "url": "https://github.com/xi7ang/GameHub/commit/6c423fc331ff1bb0bd76974654104a01dc02cb9c"
-  },
-  {
-    "hash": "6677f19",
-    "date": "2026-09-09T12:59:53+08:00",
-    "message": "sync: 新增资源《波斯传奇 高清汉化版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6677f1981ac6a745c4a052f7696b54f803d03e95"
   }
 ]
