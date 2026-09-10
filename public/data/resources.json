@@ -22330,5 +22330,25 @@
     "addedAt": "2026-09-09T19:38:00+08:00",
     "updatedAt": "2026-09-09T19:38:00+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0033",
+    "title": "豪猪镇之秋v1.3.3中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/c24df4d78a1d?pwd=FFbB",
+    "pwd": "FFbB",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/1710540.webp",
+    "steamAppID": 1710540,
+    "desc": "带来沉浸式秋日体验，细腻描绘秋日小镇风情，新增丰富剧情与互动玩法，优化游戏体验，让玩家在温馨与冒险中感受独特的秋日魅力。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-10T10:34:38+08:00",
+    "updatedAt": "2026-09-10T10:34:38+08:00",
+    "month": "202609"
   }
 ]
