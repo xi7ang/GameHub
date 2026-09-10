@@ -10,8 +10,9 @@
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
     "gen-commits": "node scripts/gen-commits.js",
+    "gen-home": "node scripts/gen-home.js",
     "gen-sitemap": "node scripts/gen-sitemap.js",
-    "prebuild": "node scripts/validate.js && node scripts/gen-commits.js"
+    "prebuild": "node scripts/validate.js && node scripts/gen-commits.js && node scripts/gen-home.js"
   },
   "dependencies": {
     "qrcode": "^1.5.4",

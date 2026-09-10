@@ -1,6 +1,7 @@
 // src/composables/useData.js
 // 数据加载：fetch public/data/*.json，全局单例缓存
 import { reactive } from 'vue'
+import { buildHomeShape } from '../lib/homeShape.js'
 
 const BASE = import.meta.env.BASE_URL // '/'
 
@@ -9,11 +10,13 @@ const state = reactive({
   categories: [],
   site: null,
   commits: [],
+  home: null, // 首页精简数据（home.json），仅首页使用
   loading: true,
   error: null,
 })
 
 let loaded = false
+let homeLoaded = false
 
 function detectPlatform(url) {
   if (!url) return 'unknown'
@@ -107,6 +110,47 @@ async function load() {
   return state
 }
 
+// 首页专用轻量加载器：只拉 home.json（~60KB）+ site.json + categories.json，
+// 不再加载 568KB 全量 resources.json。home.json 缺失/损坏时兜底回退全量。
+async function loadHome() {
+  if (homeLoaded) return state
+  try {
+    const [home, cats, site] = await Promise.all([
+      fetch(`${BASE}data/home.json`).then((r) => r.json()),
+      fetch(`${BASE}data/categories.json`).then((r) => r.json()),
+      fetch(`${BASE}data/site.json`).then((r) => r.json()),
+    ])
+    if (!home || !Array.isArray(home.coverPool)) throw new Error('home.json 结构异常')
+    state.home = home
+    state.categories = cats.sort((a, b) => a.order - b.order)
+    state.site = site
+    applyBrandToDoc(site)
+    homeLoaded = true
+  } catch (e) {
+    // 兜底：home.json 不可用时回退加载全量 resources.json
+    try {
+      const [res, cats, site] = await Promise.all([
+        fetch(`${BASE}data/resources.json`).then((r) => r.json()),
+        fetch(`${BASE}data/categories.json`).then((r) => r.json()),
+        fetch(`${BASE}data/site.json`).then((r) => r.json()),
+      ])
+      const sorted = res.sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''))
+      state.resources = sorted
+      state.home = buildHomeShape(sorted)
+      state.categories = cats.sort((a, b) => a.order - b.order)
+      state.site = site
+      applyBrandToDoc(site)
+      loaded = true
+      homeLoaded = true
+    } catch (e2) {
+      state.error = String(e2)
+    }
+  } finally {
+    state.loading = false
+  }
+  return state
+}
+
 export function useData() {
-  return { state, load, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
+  return { state, load, loadHome, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
 }

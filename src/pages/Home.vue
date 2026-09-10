@@ -80,7 +80,7 @@
     <!-- 数据统计条（页脚上方） -->
     <section class="container stats fade-up">
       <div class="stat">
-        <div class="stat__num">{{ state.resources.length }}</div>
+        <div class="stat__num">{{ state.home?.total || 0 }}</div>
         <div class="stat__label text-low">资源总数</div>
       </div>
       <div class="stat">
@@ -160,7 +160,7 @@ import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
 
-const { state, load } = useData()
+const { state, loadHome } = useData()
 const site = computed(() => state.site)
 const announcementVisible = ref(false)
 const announcement = computed(() => state.site?.announcementModal || {})
@@ -200,10 +200,10 @@ async function pickRandomHotKeywords() {
   } catch { /* 加载失败不展示 */ }
 }
 
-// 游戏推荐：每次打开页面从有封面的资源中随机选 8 个
+// 游戏推荐：每次打开页面从「有封面的资源池」中随机选 8 个（池来自 home.json）
 const featured = ref([])
 function pickRandomFeatured() {
-  const pool = state.resources.filter((r) => r.cover && !/^data:/.test(r.cover))
+  const pool = state.home?.coverPool || []
   const arr = [...pool]
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
@@ -211,15 +211,15 @@ function pickRandomFeatured() {
   }
   featured.value = arr.slice(0, 8)
 }
-const latest = computed(() => state.resources.slice(0, 12))
+const latest = computed(() => state.home?.latest || [])
 const lastMonthCount = computed(() => {
   const now = new Date()
   const m = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}`
-  return state.resources.filter((r) => r.month === m).length
+  return state.home?.monthCounts?.[m] || 0
 })
 
 function countBy(key) {
-  return state.resources.filter((r) => r.category === key).length
+  return state.home?.categoryCounts?.[key] || 0
 }
 function iconStyle(c) {
   return {
@@ -273,7 +273,7 @@ function closeAnnouncementForToday() {
 }
 
 onMounted(async () => {
-  await load()
+  await loadHome()
   pickRandomFeatured()
   pickRandomHotKeywords()
   showAnnouncement()

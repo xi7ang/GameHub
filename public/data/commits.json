@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d68301f",
+    "date": "2026-09-10T09:22:06+08:00",
+    "message": "perf: 移除 busuanzi 第三方统计(脚本+页脚span)，首屏少一个外链请求",
+    "url": "https://github.com/xi7ang/GameHub/commit/d68301ff606856d1b37d1b578377fe5432f3e99e"
+  },
+  {
     "hash": "1ff29de",
     "date": "2026-09-10T09:03:26+08:00",
     "message": "fix: 替换搜不到内容的关键词为资源库中真实存在的纯游戏名",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T12:58:23+08:00",
     "message": "sync: 新增资源《史莱姆大骚动v01.07.000.apk|》",
     "url": "https://github.com/xi7ang/GameHub/commit/8dc4f62f952a70f90089344a0a8b5e9d0ef54e74"
-  },
-  {
-    "hash": "00bd4a2",
-    "date": "2026-09-09T12:57:09+08:00",
-    "message": "sync: 新增资源《校长我来当2_1.0.0_kill.apk|》",
-    "url": "https://github.com/xi7ang/GameHub/commit/00bd4a24f5dd4b73a26be747689e9c214d3a8015"
   }
 ]
