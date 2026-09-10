@@ -1,5 +1,11 @@
 [
   {
+    "hash": "1ff29de",
+    "date": "2026-09-10T09:03:26+08:00",
+    "message": "fix: 替换搜不到内容的关键词为资源库中真实存在的纯游戏名",
+    "url": "https://github.com/xi7ang/GameHub/commit/1ff29de138ce8afabba9e31b67b9bb2aabf62cc3"
+  },
+  {
     "hash": "2168764",
     "date": "2026-09-10T08:29:04+08:00",
     "message": "fix: 热门搜索关键词改人工精选纯游戏名(去安卓原版等杂质)",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T12:57:09+08:00",
     "message": "sync: 新增资源《校长我来当2_1.0.0_kill.apk|》",
     "url": "https://github.com/xi7ang/GameHub/commit/00bd4a24f5dd4b73a26be747689e9c214d3a8015"
-  },
-  {
-    "hash": "3573142",
-    "date": "2026-09-08T20:08:11+08:00",
-    "message": "chore: 今日公告详情链接域名改为 pan.devmini.space（站点主域）",
-    "url": "https://github.com/xi7ang/GameHub/commit/3573142815ca9213d06498eb4bec4789d85045d3"
   }
 ]

@@ -19,7 +19,7 @@
       </div>
       <div class="site-footer__bottom text-low">
         <p>{{ site?.footer }}</p>
-        <p>Copyright © {{ year }} {{ brandName(site) }} · <span id="busuanzi_container_site_uv">访客 <span id="busuanzi_value_site_uv"></span></span> · <span id="busuanzi_container_site_pv">访问 <span id="busuanzi_value_site_pv"></span></span></p>
+        <p>Copyright © {{ year }} {{ brandName(site) }}</p>
       </div>
     </div>
   </footer>
