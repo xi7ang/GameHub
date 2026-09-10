@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a2c5fb3",
+    "date": "2026-09-10T07:26:02+08:00",
+    "message": "feat: 热门搜索关键词改为每次打开随机选6-7个(从120词池)",
+    "url": "https://github.com/xi7ang/GameHub/commit/a2c5fb37b424c9809441df129d2cacf061bcb0fa"
+  },
+  {
     "hash": "c59ca4f",
     "date": "2026-09-09T23:50:32+08:00",
     "message": "chore: 每日公告：发布【2026-09-09】游戏资源更新通知（8 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-09-08T20:01:27+08:00",
     "message": "chore: 每日公告：发布【2026-09-08】游戏资源更新通知（4 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/9955461ca649d22445fac551012ed8a7f0682802"
-  },
-  {
-    "hash": "2824e5d",
-    "date": "2026-09-08T19:59:24+08:00",
-    "message": "feat: 公告正文自动识别 http(s) 链接并可点击（target=_blank），时间线与纯文本模式均生效",
-    "url": "https://github.com/xi7ang/GameHub/commit/2824e5de2e0dc654513afcfcffe8755f06b43e28"
   }
 ]
