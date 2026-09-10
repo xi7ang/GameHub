@@ -1,5 +1,11 @@
 [
   {
+    "hash": "9f37502",
+    "date": "2026-09-10T09:30:52+08:00",
+    "message": "perf: P0 首页数据瘦身 — 新增 home.json(82KB) 替代全量 resources.json(568KB)",
+    "url": "https://github.com/xi7ang/GameHub/commit/9f37502cc3e614a736f2a1117a1ab7ffdaa52bc8"
+  },
+  {
     "hash": "d68301f",
     "date": "2026-09-10T09:22:06+08:00",
     "message": "perf: 移除 busuanzi 第三方统计(脚本+页脚span)，首屏少一个外链请求",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T12:59:53+08:00",
     "message": "sync: 新增资源《波斯传奇 高清汉化版》",
     "url": "https://github.com/xi7ang/GameHub/commit/6677f1981ac6a745c4a052f7696b54f803d03e95"
-  },
-  {
-    "hash": "8dc4f62",
-    "date": "2026-09-09T12:58:23+08:00",
-    "message": "sync: 新增资源《史莱姆大骚动v01.07.000.apk|》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8dc4f62f952a70f90089344a0a8b5e9d0ef54e74"
   }
 ]

@@ -20,9 +20,8 @@
                 :src="game.img"
                 :alt="game.name"
                 class="game-tile__img"
-                loading="eager"
+                loading="lazy"
                 decoding="async"
-                fetchpriority="high"
                 draggable="false"
               />
               <span v-else class="game-tile__name">{{ game.short }}</span>
