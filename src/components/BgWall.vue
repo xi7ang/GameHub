@@ -7,7 +7,7 @@
           <div
             class="game-wall__row"
             :class="ri % 2 === 0 ? 'scroll-left' : 'scroll-right'"
-            :style="{ animationDuration: rowSpeed + 's', marginLeft: rowMargin(ri) }"
+            :style="{ '--row-speed': rowSpeed + 's', marginLeft: rowMargin(ri) }"
           >
             <div
               v-for="(game, gi) in [...row, ...row]"
@@ -172,12 +172,13 @@ function rowMargin(ri) {
   will-change: transform;
 }
 
+/* 滚动时长单一来源：行内 --row-speed（由 rowSpeed 常量驱动），此处 var 兜底 */
 .game-wall__row.scroll-left {
-  animation: scroll-left 90s linear infinite;
+  animation: scroll-left var(--row-speed, 500s) linear infinite;
 }
 
 .game-wall__row.scroll-right {
-  animation: scroll-right 90s linear infinite;
+  animation: scroll-right var(--row-speed, 500s) linear infinite;
 }
 
 @keyframes scroll-left {

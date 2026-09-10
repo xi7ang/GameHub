@@ -58,6 +58,8 @@
     </section>
 
     <!-- 最新动态（已隐藏）
+         注意：P0 后首页走 useData.loadHome()，不再加载 commits.json（state.commits 恒为 []）。
+         若要恢复本板块，需在 loadHome() 里补 fetch `${BASE}data/commits.json`。
     <section v-if="state.commits.length" class="container section">
       <h2 class="section-title">📡 最新动态</h2>
       <div class="commit-list glass">

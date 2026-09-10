@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d08473e",
+    "date": "2026-09-10T09:57:22+08:00",
+    "message": "fix: Admin 热词编辑框接回 hotKeywords.json + 清洗关键词杂质(158→144)",
+    "url": "https://github.com/xi7ang/GameHub/commit/d08473ee00d9e84f8e9a00900733de76c0997771"
+  },
+  {
     "hash": "85985c2",
     "date": "2026-09-10T09:36:57+08:00",
     "message": "perf: P1 背景墙图片降级(lazy/去fetchpriority) + preload home.json",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T13:02:31+08:00",
     "message": "sync: 新增资源《咖啡店经营经理中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/7bb65c3ad0800dccc45eea6dbe731b81bca25ce0"
-  },
-  {
-    "hash": "6c423fc",
-    "date": "2026-09-09T13:01:13+08:00",
-    "message": "sync: 新增资源《礼帽大乱斗中文版解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6c423fc331ff1bb0bd76974654104a01dc02cb9c"
   }
 ]
