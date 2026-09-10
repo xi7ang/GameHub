@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b88232d",
+    "date": "2026-09-10T10:03:05+08:00",
+    "message": "fix: 背景墙滚动时长统一为 --row-speed 单一来源 + 隐藏板块补说明",
+    "url": "https://github.com/xi7ang/GameHub/commit/b88232de0efb190ec31a4b20655ee76cd20449c2"
+  },
+  {
     "hash": "d08473e",
     "date": "2026-09-10T09:57:22+08:00",
     "message": "fix: Admin 热词编辑框接回 hotKeywords.json + 清洗关键词杂质(158→144)",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T13:51:58+08:00",
     "message": "feat: add Steam covers for 21 gamehub resources",
     "url": "https://github.com/xi7ang/GameHub/commit/b45e26f37e2086f0c4bb716401b2dee6cac4a808"
-  },
-  {
-    "hash": "7bb65c3",
-    "date": "2026-09-09T13:02:31+08:00",
-    "message": "sync: 新增资源《咖啡店经营经理中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7bb65c3ad0800dccc45eea6dbe731b81bca25ce0"
   }
 ]

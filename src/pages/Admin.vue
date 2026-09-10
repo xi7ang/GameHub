@@ -1192,9 +1192,14 @@ async function loadOpLogs() {
 
 // 首页热门搜索关键词：独立数据文件 public/data/hotKeywords.json（首页每次从中随机选 6-7 个展示）
 const hotKeywords = ref([])
+// 注意：hotKeywords 是独立 ref，不在 siteForm 的 deep watch 覆盖范围内，
+// 必须在 setter 里手动标脏，否则保存条不出现、saveAll 会直接 return。
 const hotKeywordsStr = computed({
   get: () => hotKeywords.value.join(', '),
-  set: (v) => (hotKeywords.value = v.split(/[,，]/).map((s) => s.trim()).filter(Boolean)),
+  set: (v) => {
+    hotKeywords.value = v.split(/[,，]/).map((s) => s.trim()).filter(Boolean)
+    dirty.value = true
+  },
 })
 
 // ── 平台配置（site.json platforms 可编辑） ──
