@@ -90,6 +90,9 @@ onMounted(async () => {
         img: g.img.startsWith('http') ? g.img : (g.img.startsWith(BASE) ? g.img : `${BASE}${g.img.replace(/^\/+/, '')}`),
       }))
     }
+    if (Number.isFinite(data.rows) && data.rows > 0) {
+      rowCount.value = Math.min(40, Math.floor(data.rows))
+    }
   } catch { /* 加载失败用默认列表 */ }
 })
 
@@ -120,10 +123,12 @@ function shuffle(arr) {
   return a
 }
 
-// 18 行封面墙，每行独立洗牌；双份渲染实现无缝滚动
+// 行数封面墙，每行独立洗牌；双份渲染实现无缝滚动
+// 行数默认 18，可由 bgwall.json 的 rows 覆盖（clamp 1~40）
+const rowCount = ref(18)
 const gameRows = computed(() => {
   const rows = []
-  for (let i = 0; i < 18; i++) {
+  for (let i = 0; i < rowCount.value; i++) {
     rows.push(shuffle(gameCovers.value))
   }
   return rows

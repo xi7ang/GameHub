@@ -1,5 +1,17 @@
 [
   {
+    "hash": "cf42570",
+    "date": "2026-09-10T10:34:39+08:00",
+    "message": "sync: 新增资源《豪猪镇之秋v1.3.3中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cf42570b32107e6569884ad8f7856cc95ee19e29"
+  },
+  {
+    "hash": "6b08926",
+    "date": "2026-09-10T10:04:49+08:00",
+    "message": "fix: Admin 热词编辑补标 dirty（独立 ref 不在 siteForm watch 内，否则存不下来）",
+    "url": "https://github.com/xi7ang/GameHub/commit/6b089263c597c3b57fe8a2af60a688fc4b884228"
+  },
+  {
     "hash": "b88232d",
     "date": "2026-09-10T10:03:05+08:00",
     "message": "fix: 背景墙滚动时长统一为 --row-speed 单一来源 + 隐藏板块补说明",
@@ -166,17 +178,5 @@
     "date": "2026-09-09T15:29:35+08:00",
     "message": "feat: add Steam covers for 49 gamehub resources (batch 100)",
     "url": "https://github.com/xi7ang/GameHub/commit/5024e5c2a9efebfda6e557d74e07dfa84c917f5d"
-  },
-  {
-    "hash": "e627eb5",
-    "date": "2026-09-09T15:08:38+08:00",
-    "message": "feat: add Steam covers for 8 rescued gamehub resources",
-    "url": "https://github.com/xi7ang/GameHub/commit/e627eb55958e16e5b8ff0bc02adeb1623970898d"
-  },
-  {
-    "hash": "b45e26f",
-    "date": "2026-09-09T13:51:58+08:00",
-    "message": "feat: add Steam covers for 21 gamehub resources",
-    "url": "https://github.com/xi7ang/GameHub/commit/b45e26f37e2086f0c4bb716401b2dee6cac4a808"
   }
 ]
