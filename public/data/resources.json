@@ -22430,5 +22430,25 @@
     "addedAt": "2026-09-11T11:29:05+08:00",
     "updatedAt": "2026-09-11T11:29:05+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0038",
+    "title": "水浒英雄传：八幕战役 v1.8",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/3bdda8715187?pwd=UQYg",
+    "pwd": "UQYg",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/5088120.webp",
+    "steamAppID": 5088120,
+    "desc": "经典水浒战役全新演绎，八大史诗级战役还原梁山好汉热血传奇，策略与战斗完美融合，沉浸式体验群雄逐鹿的豪情壮志。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-11T11:31:11+08:00",
+    "updatedAt": "2026-09-11T11:31:11+08:00",
+    "month": "202609"
   }
 ]
