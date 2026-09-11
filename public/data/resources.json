@@ -22450,5 +22450,25 @@
     "addedAt": "2026-09-11T11:31:11+08:00",
     "updatedAt": "2026-09-11T11:31:11+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0039",
+    "title": "大跳跃：同乐Build.25046464Big Hops Together",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/4685d33e2199?pwd=zyFb",
+    "pwd": "zyFb",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/1501780.webp",
+    "steamAppID": 1501780,
+    "desc": "携手伙伴共同挑战极限，每一次跳跃都充满默契与惊喜。在Build.25046464中，体验前所未有的协作乐趣，创造属于你们的跳跃传奇。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-11T11:33:33+08:00",
+    "updatedAt": "2026-09-11T11:33:33+08:00",
+    "month": "202609"
   }
 ]
