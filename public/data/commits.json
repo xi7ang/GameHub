@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3c0d040",
+    "date": "2026-09-12T22:39:29+08:00",
+    "message": "style(app): 落地页与弹窗按钮统一为品牌琥珀金 #c99a5b，落地页图标换成手柄",
+    "url": "https://github.com/xi7ang/GameHub/commit/3c0d0404d856d31f73621c945b98f7955fe732c8"
+  },
+  {
     "hash": "6fcfcaf",
     "date": "2026-09-12T22:09:12+08:00",
     "message": "feat(app): 落地页改双地址，主地址走本站 nginx 镜像",
@@ -172,11 +178,5 @@
     "date": "2026-09-10T08:29:04+08:00",
     "message": "fix: 热门搜索关键词改人工精选纯游戏名(去安卓原版等杂质)",
     "url": "https://github.com/xi7ang/GameHub/commit/2168764459b4f5d79af0e229e12a85efa95684f1"
-  },
-  {
-    "hash": "a2c5fb3",
-    "date": "2026-09-10T07:26:02+08:00",
-    "message": "feat: 热门搜索关键词改为每次打开随机选6-7个(从120词池)",
-    "url": "https://github.com/xi7ang/GameHub/commit/a2c5fb37b424c9809441df129d2cacf061bcb0fa"
   }
 ]

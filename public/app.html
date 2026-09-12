@@ -45,14 +45,14 @@
     backdrop-filter: blur(12px);
   }
   .icon {
+    display: block;
     width: 76px; height: 76px; margin: 0 auto 16px;
     border-radius: 20px;
+    object-fit: cover;
     background: #1b2838;
     border: 1px solid rgba(201, 154, 91, 0.28);
-    display: flex; align-items: center; justify-content: center;
     box-shadow: 0 10px 30px rgba(201, 154, 91, 0.26);
   }
-  .icon svg { width: 48px; height: 48px; }
   h1 { font-size: 21px; margin: 0 0 6px; font-weight: 700; }
   .sub { color: var(--low); font-size: 13px; margin: 0 0 22px; line-height: 1.6; }
   .btn {
@@ -105,14 +105,7 @@
   </div>
 
   <section class="card">
-    <div class="icon" aria-hidden="true">
-      <svg viewBox="0 0 108 108">
-        <path fill="#c99a5b" d="M47,39h14a15,15 0 0,1 0,30h-14a15,15 0 0,1 0,-30z"/>
-        <path fill="#1b2838" d="M37.5,51.5h5v-5h5v5h5v5h-5v5h-5v-5h-5z"/>
-        <circle cx="63" cy="50" r="3.2" fill="#1b2838"/>
-        <circle cx="69.5" cy="58" r="3.2" fill="#1b2838"/>
-      </svg>
-    </div>
+    <img class="icon" src="/app-icon.webp" width="76" height="76" alt="游戏源神 App 图标" />
     <h1>游戏源神 App</h1>
     <p class="sub">Android 客户端 · 打开即是完整站点<br/>站点更新即时同步，无需频繁更新 App</p>
 

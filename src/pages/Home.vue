@@ -112,13 +112,13 @@
             <span class="announcement-social__icon">🐧</span>
             <span>QQ群</span>
           </a>
+          <a v-if="site?.androidApp" :href="site.androidApp" class="announcement-social announcement-social--apk">
+            <svg class="announcement-social__icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48A10.98 10.98 0 0 0 1 18h22a10.98 10.98 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
+            <span>安卓APP</span>
+          </a>
           <a v-if="site?.telegram" :href="site.telegram" target="_blank" rel="noreferrer" class="announcement-social announcement-social--tg">
             <svg class="announcement-social__icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg>
             <span>TG频道</span>
-          </a>
-          <a v-if="site?.androidApp" :href="site.androidApp" class="announcement-social announcement-social--apk">
-            <svg class="announcement-social__icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48A10.98 10.98 0 0 0 1 18h22a10.98 10.98 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
-            <span>App</span>
           </a>
         </div>
         <div v-if="timelineItems.length" class="announcement-timeline">
@@ -329,8 +329,8 @@ onMounted(async () => {
 .announcement-social--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); }
 .announcement-social--tg { background: #1da1f2; border: 1px solid #1a91da; }
 .announcement-social--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
-.announcement-social--apk { background: #c99a5b; border: 1px solid #a87b3f; color: #1b1a17; }
-.announcement-social--apk:hover { background: #a87b3f; box-shadow: 0 0 12px rgba(201, 154, 91, 0.45); }
+.announcement-social--apk { background: #3ddc84; border: 1px solid #34c17a; color: #073042; }
+.announcement-social--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
 @keyframes announcement-qq-glow {
   0%, 100% { box-shadow: 0 0 4px rgba(7, 193, 96, 0.25); }
   50% { box-shadow: 0 0 16px rgba(7, 193, 96, 0.65), 0 0 4px rgba(7, 193, 96, 0.4); }
