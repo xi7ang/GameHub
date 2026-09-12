@@ -100,52 +100,20 @@ const parts = computed(() => brandParts(site.value))
 }
 .cta-icon { display: inline-flex; font-size: 13px; line-height: 1; }
 .cta-text { line-height: 1; }
-.nav-cta--qq { background: #366ef4; border-color: #2a5ce0; position: relative; overflow: hidden; animation: qq-glow 2.4s ease-in-out infinite; }
-/* 扫光：一道白色光带周期划过按钮 */
-.nav-cta--qq::after {
-  content: '';
-  position: absolute;
-  top: -20%;
-  bottom: -20%;
-  left: -70%;
-  width: 45%;
-  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-  transform: skewX(-20deg);
-  animation: qq-shine 3s ease-in-out infinite;
-  pointer-events: none;
-}
-/* 企鹅左右摇摆，强化“这是入口”的提示 */
-.nav-cta--qq .cta-icon {
-  display: block;
-  height: 16px;
-  width: auto;
-  transform-origin: 50% 90%;
-  animation: qq-waddle 1.6s ease-in-out infinite;
-}
-.nav-cta--qq:hover { background: #2a5ce0; box-shadow: 0 0 12px rgba(54, 110, 244, 0.45); animation-play-state: paused; }
-.nav-cta--qq:hover::after,
-.nav-cta--qq:hover .cta-icon { animation-play-state: paused; }
+.nav-cta--qq { background: #366ef4; border-color: #2a5ce0; }
+.nav-cta--qq .cta-icon { display: block; height: 16px; width: auto; }
+.nav-cta--qq:hover { background: #2a5ce0; box-shadow: 0 0 12px rgba(54, 110, 244, 0.45); }
 
-/* QQ 按钮动效关键帧 */
-@keyframes qq-glow {
-  0%, 100% { box-shadow: 0 0 4px rgba(54, 110, 244, 0.25); }
-  50% { box-shadow: 0 0 16px rgba(54, 110, 244, 0.65), 0 0 4px rgba(54, 110, 244, 0.4); }
-}
-@keyframes qq-shine {
-  0%, 55% { left: -70%; }
-  85%, 100% { left: 130%; }
-}
-@keyframes qq-waddle {
-  0%, 100% { transform: rotate(0deg) translateY(0); }
-  25% { transform: rotate(-12deg) translateY(-1px); }
-  75% { transform: rotate(12deg) translateY(1px); }
+.nav-cta--apk { background: #3ddc84; border-color: #34c17a; color: #073042; animation: apk-glow 2.4s ease-in-out infinite; }
+.nav-cta--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
+@keyframes apk-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(61, 220, 132, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(61, 220, 132, 0.65), 0 0 4px rgba(61, 220, 132, 0.4); }
 }
 /* 尊重系统的“减少动态”偏好 */
 @media (prefers-reduced-motion: reduce) {
-  .nav-cta--qq, .nav-cta--qq::after, .nav-cta--qq .cta-icon { animation: none; }
+  .nav-cta--apk { animation: none; }
 }
-.nav-cta--apk { background: #3ddc84; border-color: #34c17a; color: #073042; }
-.nav-cta--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
 .theme-toggle {
   width: 38px;
   height: 38px;

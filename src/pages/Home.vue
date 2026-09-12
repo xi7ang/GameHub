@@ -325,40 +325,17 @@ onMounted(async () => {
   transition: all 0.2s;
 }
 .announcement-social__icon { display: inline-flex; font-size: 13px; line-height: 1; }
-.announcement-social--qq { background: #366ef4; border: 1px solid #2a5ce0; position: relative; overflow: hidden; animation: announcement-qq-glow 2.4s ease-in-out infinite; }
+.announcement-social--qq { background: #366ef4; border: 1px solid #2a5ce0; }
 .announcement-social--qq:hover { background: #2a5ce0; box-shadow: 0 0 12px rgba(54, 110, 244, 0.45); }
 .announcement-social--tg { background: #1da1f2; border: 1px solid #1a91da; }
 .announcement-social--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
-.announcement-social--apk { background: #3ddc84; border: 1px solid #34c17a; color: #073042; }
+.announcement-social--apk { background: #3ddc84; border: 1px solid #34c17a; color: #073042; animation: announcement-apk-glow 2.4s ease-in-out infinite; }
 .announcement-social--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
-@keyframes announcement-qq-glow {
-  0%, 100% { box-shadow: 0 0 4px rgba(54, 110, 244, 0.25); }
-  50% { box-shadow: 0 0 16px rgba(54, 110, 244, 0.65), 0 0 4px rgba(54, 110, 244, 0.4); }
+@keyframes announcement-apk-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(61, 220, 132, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(61, 220, 132, 0.65), 0 0 4px rgba(61, 220, 132, 0.4); }
 }
-.announcement-social--qq .announcement-social__icon { display: block; height: 15px; width: auto; animation: announcement-qq-waddle 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
-@keyframes announcement-qq-waddle {
-  0%, 100% { transform: rotate(0deg) translateY(0); }
-  25% { transform: rotate(-12deg) translateY(-1px); }
-  75% { transform: rotate(12deg) translateY(1px); }
-}
-.announcement-social--qq:hover, .announcement-social--qq:hover .announcement-social__icon { animation-play-state: paused; }
-.announcement-social--qq::after {
-  content: '';
-  position: absolute;
-  top: -20%;
-  bottom: -20%;
-  left: -70%;
-  width: 45%;
-  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-  transform: skewX(-20deg);
-  animation: announcement-qq-shine 3s ease-in-out infinite;
-  pointer-events: none;
-}
-@keyframes announcement-qq-shine {
-  0%, 55% { left: -70%; }
-  85%, 100% { left: 130%; }
-}
-.announcement-social--qq:hover::after { animation-play-state: paused; }
+.announcement-social--qq .announcement-social__icon { display: block; height: 15px; width: auto; }
 .announcement-modal__close {
   position: absolute;
   top: 13px;
@@ -465,7 +442,7 @@ onMounted(async () => {
 @keyframes announcement-fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes announcement-rise { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
 @media (prefers-reduced-motion: reduce) {
-  .announcement-social--qq, .announcement-social--qq::after, .announcement-social--qq .announcement-social__icon { animation: none; }
+  .announcement-social--apk { animation: none; }
 }
 
 /* Hero */

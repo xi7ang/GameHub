@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d9619c2",
+    "date": "2026-09-12T23:20:02+08:00",
+    "message": "feat(qq): QQ群按钮改蓝 #366ef4，图标换成企鹅图片",
+    "url": "https://github.com/xi7ang/GameHub/commit/d9619c20defc351a0ab45dd0dc3df44521c66a4a"
+  },
+  {
     "hash": "5fa011f",
     "date": "2026-09-12T23:11:01+08:00",
     "message": "feat(app): 微信/QQ 内置浏览器打开落地页时整页遮罩 + 右上角箭头引导去浏览器",
@@ -172,11 +178,5 @@
     "date": "2026-09-10T09:57:22+08:00",
     "message": "fix: Admin 热词编辑框接回 hotKeywords.json + 清洗关键词杂质(158→144)",
     "url": "https://github.com/xi7ang/GameHub/commit/d08473ee00d9e84f8e9a00900733de76c0997771"
-  },
-  {
-    "hash": "85985c2",
-    "date": "2026-09-10T09:36:57+08:00",
-    "message": "perf: P1 背景墙图片降级(lazy/去fetchpriority) + preload home.json",
-    "url": "https://github.com/xi7ang/GameHub/commit/85985c2e8f02406838e5c0415cf6d8fac7ab3775"
   }
 ]
