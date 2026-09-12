@@ -7,8 +7,8 @@
 <meta name="description" content="游戏源神 Android 客户端下载，扫码或点击即可安装。" />
 <style>
   :root {
-    --accent: #3ddc84;
-    --accent-dark: #34c17a;
+    --accent: #c99a5b;
+    --accent-dark: #a87b3f;
     --bg: #0b0f14;
     --card: rgba(255, 255, 255, 0.045);
     --line: rgba(255, 255, 255, 0.1);
@@ -21,8 +21,8 @@
     min-height: 100vh;
     background: var(--bg);
     background-image:
-      radial-gradient(900px 420px at 50% -10%, rgba(61, 220, 132, 0.14), transparent 70%),
-      radial-gradient(700px 380px at 100% 100%, rgba(29, 161, 242, 0.1), transparent 70%);
+      radial-gradient(900px 420px at 50% -10%, rgba(201, 154, 91, 0.16), transparent 70%),
+      radial-gradient(700px 380px at 100% 100%, rgba(125, 156, 179, 0.1), transparent 70%);
     color: var(--text);
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
     display: flex;
@@ -47,11 +47,12 @@
   .icon {
     width: 76px; height: 76px; margin: 0 auto 16px;
     border-radius: 20px;
-    background: linear-gradient(145deg, var(--accent), #1f9e63);
+    background: #1b2838;
+    border: 1px solid rgba(201, 154, 91, 0.28);
     display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 10px 30px rgba(61, 220, 132, 0.3);
+    box-shadow: 0 10px 30px rgba(201, 154, 91, 0.26);
   }
-  .icon svg { width: 44px; height: 44px; fill: #062a1a; }
+  .icon svg { width: 48px; height: 48px; }
   h1 { font-size: 21px; margin: 0 0 6px; font-weight: 700; }
   .sub { color: var(--low); font-size: 13px; margin: 0 0 22px; line-height: 1.6; }
   .btn {
@@ -60,7 +61,7 @@
     padding: 15px 20px;
     border-radius: 12px;
     background: var(--accent);
-    color: #062a1a;
+    color: #14171c;
     font-size: 16px; font-weight: 700;
     text-decoration: none;
     transition: all 0.2s;
@@ -105,7 +106,12 @@
 
   <section class="card">
     <div class="icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48A10.98 10.98 0 0 0 1 18h22a10.98 10.98 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
+      <svg viewBox="0 0 108 108">
+        <path fill="#c99a5b" d="M47,39h14a15,15 0 0,1 0,30h-14a15,15 0 0,1 0,-30z"/>
+        <path fill="#1b2838" d="M37.5,51.5h5v-5h5v5h5v5h-5v5h-5v-5h-5z"/>
+        <circle cx="63" cy="50" r="3.2" fill="#1b2838"/>
+        <circle cx="69.5" cy="58" r="3.2" fill="#1b2838"/>
+      </svg>
     </div>
     <h1>游戏源神 App</h1>
     <p class="sub">Android 客户端 · 打开即是完整站点<br/>站点更新即时同步，无需频繁更新 App</p>

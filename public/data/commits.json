@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6fcfcaf",
+    "date": "2026-09-12T22:09:12+08:00",
+    "message": "feat(app): 落地页改双地址，主地址走本站 nginx 镜像",
+    "url": "https://github.com/xi7ang/GameHub/commit/6fcfcaf96a621a1456514ddd6b335f2389a3573f"
+  },
+  {
     "hash": "3d89daa",
     "date": "2026-09-12T22:02:59+08:00",
     "message": "feat(app): 公告弹窗新增 App 下载入口 + /app.html 落地页 + 二维码",
@@ -172,11 +178,5 @@
     "date": "2026-09-10T07:26:02+08:00",
     "message": "feat: 热门搜索关键词改为每次打开随机选6-7个(从120词池)",
     "url": "https://github.com/xi7ang/GameHub/commit/a2c5fb37b424c9809441df129d2cacf061bcb0fa"
-  },
-  {
-    "hash": "c59ca4f",
-    "date": "2026-09-09T23:50:32+08:00",
-    "message": "chore: 每日公告：发布【2026-09-09】游戏资源更新通知（8 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c59ca4f3083b6859c8e6bf8201551f1dbe6c3d29"
   }
 ]
