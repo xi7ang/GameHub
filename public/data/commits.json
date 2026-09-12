@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3d89daa",
+    "date": "2026-09-12T22:02:59+08:00",
+    "message": "feat(app): 公告弹窗新增 App 下载入口 + /app.html 落地页 + 二维码",
+    "url": "https://github.com/xi7ang/GameHub/commit/3d89daa4a656acc5fdd234c92c2bc062c1e41a48"
+  },
+  {
     "hash": "7ceae0a",
     "date": "2026-09-12T20:31:56+08:00",
     "message": "chore: 每日公告：发布【2026-09-12】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-09-09T23:50:32+08:00",
     "message": "chore: 每日公告：发布【2026-09-09】游戏资源更新通知（8 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/c59ca4f3083b6859c8e6bf8201551f1dbe6c3d29"
-  },
-  {
-    "hash": "854533e",
-    "date": "2026-09-09T22:41:01+08:00",
-    "message": "style: 背景墙 rowSpeed 190→500，实际降低滚动速度",
-    "url": "https://github.com/xi7ang/GameHub/commit/854533ee7893932b093da6c56f8fb208e1030da4"
   }
 ]
