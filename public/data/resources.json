@@ -22634,5 +22634,25 @@
     "addedAt": "2026-09-13T00:51:22+08:00",
     "updatedAt": "2026-09-13T00:51:22+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0047",
+    "title": "终结之日 v1.4.15内置菜单",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/232890839a69?pwd=kO5g",
+    "pwd": "kO5g",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/2342950.webp",
+    "steamAppID": 2342950,
+    "desc": "内置菜单功能丰富，支持无限生命、子弹时间等实用选项，轻松掌控游戏节奏，助你轻松通关，体验极致战斗快感，让每一次冒险都充满掌控感与成就感。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-13T00:51:58+08:00",
+    "updatedAt": "2026-09-13T00:51:58+08:00",
+    "month": "202609"
   }
 ]
