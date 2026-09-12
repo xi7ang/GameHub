@@ -22610,5 +22610,29 @@
     "addedAt": "2026-09-12T13:03:46+08:00",
     "updatedAt": "2026-09-12T13:03:46+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0046",
+    "title": "终落之城：海上末日生存建造",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "海上生存建造",
+      "末日废墟探索",
+      "沙盒策略"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/7f8bc21b5b68?pwd=GlBn",
+    "pwd": "GlBn",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "steamAppID": null,
+    "desc": "在沉没的城市废墟中，从漂浮木板到钢铁堡垒，玩家需对抗巨浪与未知深海生物。采集、建造、探索与生存机制紧密结合，每场风暴都是新的挑战。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-13T00:51:22+08:00",
+    "updatedAt": "2026-09-13T00:51:22+08:00",
+    "month": "202609"
   }
 ]
