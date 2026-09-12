@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7ca14c2",
+    "date": "2026-09-12T23:31:01+08:00",
+    "message": "style(btn): QQ群按钮去掉晃动与发光；安卓APP按钮改为呼吸发光",
+    "url": "https://github.com/xi7ang/GameHub/commit/7ca14c22831e07a61c94826e5b562d2e6519b692"
+  },
+  {
     "hash": "d9619c2",
     "date": "2026-09-12T23:20:02+08:00",
     "message": "feat(qq): QQ群按钮改蓝 #366ef4，图标换成企鹅图片",
@@ -172,11 +178,5 @@
     "date": "2026-09-10T10:03:05+08:00",
     "message": "fix: 背景墙滚动时长统一为 --row-speed 单一来源 + 隐藏板块补说明",
     "url": "https://github.com/xi7ang/GameHub/commit/b88232de0efb190ec31a4b20655ee76cd20449c2"
-  },
-  {
-    "hash": "d08473e",
-    "date": "2026-09-10T09:57:22+08:00",
-    "message": "fix: Admin 热词编辑框接回 hotKeywords.json + 清洗关键词杂质(158→144)",
-    "url": "https://github.com/xi7ang/GameHub/commit/d08473ee00d9e84f8e9a00900733de76c0997771"
   }
 ]
