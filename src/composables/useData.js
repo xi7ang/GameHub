@@ -87,14 +87,30 @@ function applyBrandToDoc(site) {
   })
 }
 
+// ── 强缓存清除标记 ──────────────────────────────────────────
+// GitHub Pages 对 *.json 默认返回 cache-control: max-age=600，Cloudflare 再缓存一层，
+// 导致 Edge 等浏览器本地缓存「资源不存在」的旧数据。每次部署后给 fetch URL 加
+// ?v= 时间戳，强制跳过浏览器本地缓存，始终回源拿最新 JSON。
+let _cacheBust = async () => {
+  try {
+    const r = await fetch(`${BASE}data/site.json`).then((r) => r.json())
+    // 用 site.json 的 version 字段或 announcementModal.version 作 bust key
+    const v = r?.announcementModal?.version || r?.version || Date.now()
+    return `v=${encodeURIComponent(String(v))}`
+  } catch {
+    return `_=${Date.now()}`
+  }
+}
+
 async function load() {
   if (loaded) return state
+  const cb = await _cacheBust()
   try {
     const [res, cats, site, commits] = await Promise.all([
-      fetch(`${BASE}data/resources.json`).then((r) => r.json()),
-      fetch(`${BASE}data/categories.json`).then((r) => r.json()),
+      fetch(`${BASE}data/resources.json?${cb}`).then((r) => r.json()),
+      fetch(`${BASE}data/categories.json?${cb}`).then((r) => r.json()),
       fetch(`${BASE}data/site.json`).then((r) => r.json()),
-      fetch(`${BASE}data/commits.json`).then((r) => r.json()),
+      fetch(`${BASE}data/commits.json?${cb}`).then((r) => r.json()),
     ])
     state.resources = res.sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''))
     state.categories = cats.sort((a, b) => a.order - b.order)
@@ -115,9 +131,10 @@ async function load() {
 async function loadHome() {
   if (homeLoaded) return state
   try {
+    const cb = await _cacheBust()
     const [home, cats, site] = await Promise.all([
-      fetch(`${BASE}data/home.json`).then((r) => r.json()),
-      fetch(`${BASE}data/categories.json`).then((r) => r.json()),
+      fetch(`${BASE}data/home.json?${cb}`).then((r) => r.json()),
+      fetch(`${BASE}data/categories.json?${cb}`).then((r) => r.json()),
       fetch(`${BASE}data/site.json`).then((r) => r.json()),
     ])
     if (!home || !Array.isArray(home.coverPool)) throw new Error('home.json 结构异常')
@@ -130,8 +147,8 @@ async function loadHome() {
     // 兜底：home.json 不可用时回退加载全量 resources.json
     try {
       const [res, cats, site] = await Promise.all([
-        fetch(`${BASE}data/resources.json`).then((r) => r.json()),
-        fetch(`${BASE}data/categories.json`).then((r) => r.json()),
+        fetch(`${BASE}data/resources.json?${cb}`).then((r) => r.json()),
+        fetch(`${BASE}data/categories.json?${cb}`).then((r) => r.json()),
         fetch(`${BASE}data/site.json`).then((r) => r.json()),
       ])
       const sorted = res.sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''))
