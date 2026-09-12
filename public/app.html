@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>游戏源神 App 下载 · Android 客户端</title>
+<meta name="description" content="游戏源神 Android 客户端下载，扫码或点击即可安装。" />
+<style>
+  :root {
+    --accent: #3ddc84;
+    --accent-dark: #34c17a;
+    --bg: #0b0f14;
+    --card: rgba(255, 255, 255, 0.045);
+    --line: rgba(255, 255, 255, 0.1);
+    --text: #e8edf2;
+    --low: #8b98a5;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    background-image:
+      radial-gradient(900px 420px at 50% -10%, rgba(61, 220, 132, 0.14), transparent 70%),
+      radial-gradient(700px 380px at 100% 100%, rgba(29, 161, 242, 0.1), transparent 70%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 16px 48px;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { width: 100%; max-width: 560px; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 26px; }
+  .back { color: var(--low); text-decoration: none; font-size: 14px; }
+  .back:hover { color: var(--text); }
+  .badge { font-size: 11px; letter-spacing: 1.2px; color: var(--low); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 28px 22px 24px;
+    text-align: center;
+    backdrop-filter: blur(12px);
+  }
+  .icon {
+    width: 76px; height: 76px; margin: 0 auto 16px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, var(--accent), #1f9e63);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 10px 30px rgba(61, 220, 132, 0.3);
+  }
+  .icon svg { width: 44px; height: 44px; fill: #062a1a; }
+  h1 { font-size: 21px; margin: 0 0 6px; font-weight: 700; }
+  .sub { color: var(--low); font-size: 13px; margin: 0 0 22px; line-height: 1.6; }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: #062a1a;
+    font-size: 16px; font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn:hover { background: var(--accent-dark); }
+  .btn svg { width: 19px; height: 19px; fill: currentColor; }
+  .meta { color: var(--low); font-size: 12px; margin: 12px 0 0; }
+  .mirror { margin: 10px 0 0; font-size: 12px; }
+  .mirror a { color: var(--low); }
+  .qrbox {
+    margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line);
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+  }
+  .qrbox img {
+    width: 168px; height: 168px;
+    background: #fff; padding: 10px; border-radius: 12px;
+    display: block;
+  }
+  .qrbox .qcap { color: var(--low); font-size: 12px; line-height: 1.6; }
+  .note { margin-top: 22px; display: flex; flex-direction: column; gap: 12px; }
+  .step {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 13px 15px; font-size: 13px; color: var(--low); line-height: 1.7;
+  }
+  .step b { color: var(--text); font-weight: 600; }
+  .warn {
+    display: none;
+    margin-top: 18px; padding: 13px 15px; border-radius: 12px;
+    background: rgba(255, 176, 32, 0.12); border: 1px solid rgba(255, 176, 32, 0.32);
+    color: #ffcf70; font-size: 13px; line-height: 1.75;
+  }
+  .warn b { color: #ffe1a3; }
+  .foot { margin-top: 26px; color: #5d6b78; font-size: 11px; text-align: center; line-height: 1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="back" href="/">← 返回首页</a>
+    <span class="badge">GAMEHUB APP</span>
+  </div>
+
+  <section class="card">
+    <div class="icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48A10.98 10.98 0 0 0 1 18h22a10.98 10.98 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
+    </div>
+    <h1>游戏源神 App</h1>
+    <p class="sub">Android 客户端 · 打开即是完整站点<br/>站点更新即时同步，无需频繁更新 App</p>
+
+    <a class="btn" id="dl" href="https://github.com/xi7ang/gamehub-android/releases/latest/download/app-release.apk">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.3a1 1 0 1 1 1.4 1.42l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.42l2.3 2.3V4a1 1 0 0 1 1-1zM4 17a1 1 0 0 1 1 1v1h14v-1a1 1 0 1 1 2 0v1.5A1.5 1.5 0 0 1 19.5 21h-15A1.5 1.5 0 0 1 3 19.5V18a1 1 0 0 1 1-1z"/></svg>
+      <span>下载 APK</span>
+    </a>
+    <p class="meta">Android 8.0 及以上 · 约 2–3 MB · 侧载安装，无需应用商店</p>
+
+    <div class="qrbox">
+      <img src="/app-qr.svg" alt="扫码打开本下载页" width="168" height="168" loading="lazy" />
+      <p class="qcap">电脑上就扫这个码，手机打开后点上面按钮<br/>（请用相机/浏览器扫码，别用微信扫一扫）</p>
+    </div>
+
+    <div class="warn" id="wxwarn">
+      <b>检测到你在微信里打开</b> —— 微信会拦截 APK 下载。<br/>
+      请点右上角 <b>···</b> → <b>在浏览器中打开</b>，再点下载。
+    </div>
+  </section>
+
+  <div class="note">
+    <div class="step"><b>① 下载</b>：点上面的「下载 APK」，等下载完成（在通知栏能看到进度）。</div>
+    <div class="step"><b>② 允许安装</b>：首次安装会提示「未知来源 / 外部来源应用」。点提示里的设置，允许你的浏览器（或文件管理器）安装应用即可。</div>
+    <div class="step"><b>③ 安装完成</b>：打开「游戏源神」，内容和网站完全一致，收藏、搜索、下载链接都在。</div>
+    <div class="step"><b>升级</b>：App 内容跟着网站走，平时不用更新；万一壳本身更新了，回来这个页面重下一次覆盖安装即可 —— <b>签名一致，不用卸载</b>。</div>
+  </div>
+
+  <p class="foot">
+    遇到问题请到 QQ 群 / TG 频道反馈<br/>
+    本站资源仅供学习交流，请支持正版
+  </p>
+</div>
+
+<script>
+  // 微信内置浏览器会拦截 apk 直链，提前给出提示，省掉一堆"点了没反应"的追问
+  (function () {
+    var ua = navigator.userAgent || '';
+    if (/MicroMessenger/i.test(ua) || /QQ\//i.test(ua)) {
+      var el = document.getElementById('wxwarn');
+      if (el) el.style.display = 'block';
+    }
+  })();
+</script>
+</body>
+</html>

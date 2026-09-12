@@ -334,6 +334,10 @@
                 <input v-model="siteForm.telegram" class="form-input" />
               </div>
               <div class="form-group">
+                <label class="form-label">App 下载入口（弹窗按钮指向的地址，如 /app.html；留空则隐藏按钮）</label>
+                <input v-model="siteForm.androidApp" class="form-input" placeholder="/app.html" />
+              </div>
+              <div class="form-group">
                 <label class="form-label">联系邮箱</label>
                 <input v-model="siteForm.email" class="form-input" />
               </div>
@@ -1242,6 +1246,7 @@ async function refreshAll() {
     hotKeywords.value = Array.isArray(hk?.keywords) ? hk.keywords : []
   } catch { hotKeywords.value = [] }
   site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '', items: [] }
+  site.androidApp = site.androidApp || ''
   if (!Array.isArray(site.announcementModal.items)) site.announcementModal.items = []
   // 兼容旧版 site.json：无 brand 时按 siteName 首词推断品牌名，默认无高亮后缀
   if (!site.brand) {

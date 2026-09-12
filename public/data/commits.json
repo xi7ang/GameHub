@@ -1,5 +1,113 @@
 [
   {
+    "hash": "7ceae0a",
+    "date": "2026-09-12T20:31:56+08:00",
+    "message": "chore: 每日公告：发布【2026-09-12】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/7ceae0af79ee10161fbd4229b586e3f11de8973f"
+  },
+  {
+    "hash": "c8ec97a",
+    "date": "2026-09-12T13:24:48+08:00",
+    "message": "fix: 给 JSON fetch 加 cache-bust 版本号后缀，解决 Edge 普通模式读取旧 JSON 导致'资源不存在'",
+    "url": "https://github.com/xi7ang/GameHub/commit/c8ec97abc6dd94dca56119c2ef34c6adc1f22e54"
+  },
+  {
+    "hash": "37b453b",
+    "date": "2026-09-12T13:03:47+08:00",
+    "message": "sync: 新增资源《彼之国中文版：时空动作盛宴》",
+    "url": "https://github.com/xi7ang/GameHub/commit/37b453b92afea8e9860572b77b21fda0426f72b9"
+  },
+  {
+    "hash": "c6006f4",
+    "date": "2026-09-12T13:03:37+08:00",
+    "message": "sync: 新增资源《万物皆可蟹：动物进化v1.0.1解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c6006f4e645b98a9089d4b6c525d5d763e3010eb"
+  },
+  {
+    "hash": "fc1abe5",
+    "date": "2026-09-12T13:02:06+08:00",
+    "message": "sync: 新增资源《食魂徒：蓝色圣殇中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fc1abe5df2f4a86570059b00e76c2aae47f5f9b0"
+  },
+  {
+    "hash": "aa345ee",
+    "date": "2026-09-12T13:02:03+08:00",
+    "message": "sync: 新增资源《勒芒终极赛豪华中文版全DLC》",
+    "url": "https://github.com/xi7ang/GameHub/commit/aa345ee9b2f4187de58865ff5b489a4611936127"
+  },
+  {
+    "hash": "3adcbbf",
+    "date": "2026-09-12T13:01:41+08:00",
+    "message": "sync: 新增资源《幻想大陆战记：卢纳基亚传说v1.02》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3adcbbf6db01fdd071a1ee6f5f3ae93ff0b1eb93"
+  },
+  {
+    "hash": "6682ecd",
+    "date": "2026-09-11T20:31:52+08:00",
+    "message": "chore: 每日公告：发布【2026-09-11】游戏资源更新通知（5条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/6682ecdd03021c8988d867207efe6a0c5a8b2c91"
+  },
+  {
+    "hash": "625c491",
+    "date": "2026-09-11T11:37:54+08:00",
+    "message": "sync: 新增资源《监狱建造师直装即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/625c491461de0683b9822b3cab10fa574ae9126d"
+  },
+  {
+    "hash": "0fedfb0",
+    "date": "2026-09-11T11:35:29+08:00",
+    "message": "sync: 新增资源《古玩人生v1.999.45_kill_sign_sign.apk|》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0fedfb03ed47eb974982f391c4e0fc9bf20fa222"
+  },
+  {
+    "hash": "06900b0",
+    "date": "2026-09-11T11:33:34+08:00",
+    "message": "sync: 新增资源《大跳跃：同乐Build.25046464Big Hops Together》",
+    "url": "https://github.com/xi7ang/GameHub/commit/06900b08672060a01da72b04aac4755870b6fe55"
+  },
+  {
+    "hash": "5e03056",
+    "date": "2026-09-11T11:31:12+08:00",
+    "message": "sync: 新增资源《水浒英雄传：八幕战役 v1.8》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5e030563df940b8df0c925b91e76ecb4f66f0060"
+  },
+  {
+    "hash": "6f319dc",
+    "date": "2026-09-11T11:29:06+08:00",
+    "message": "sync: 新增资源《纸嫁衣2：奘铃村 v1.0.4（Paper Bride 2 Zangling V》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6f319dc9542d6ece51cb93a95661c09cceec0927"
+  },
+  {
+    "hash": "7de1d18",
+    "date": "2026-09-10T23:50:24+08:00",
+    "message": "chore: 每日公告：发布【2026-09-10】游戏资源更新通知（4 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/7de1d188fe66f97b6b1f35b03847223722dca21f"
+  },
+  {
+    "hash": "77db5a0",
+    "date": "2026-09-10T11:59:34+08:00",
+    "message": "sync: 新增资源《忍者神龟 斯普林特的命运 V2.0.3+4DLC》",
+    "url": "https://github.com/xi7ang/GameHub/commit/77db5a01d00ab92fd4f30c727edabc3aa0462208"
+  },
+  {
+    "hash": "fcb6e9c",
+    "date": "2026-09-10T11:45:41+08:00",
+    "message": "sync: 新增资源《妖精的尾巴：地下迷城 v1.2.12 中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fcb6e9cdd36417d8cbaf386d87c8f905c0142a1d"
+  },
+  {
+    "hash": "d988596",
+    "date": "2026-09-10T11:13:48+08:00",
+    "message": "sync: 新增资源《孤岛惊魂5 v1.016 解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d988596cb4b83891cbe2af7068103c950d11b344"
+  },
+  {
+    "hash": "40362cc",
+    "date": "2026-09-10T10:44:44+08:00",
+    "message": "fix: A) BgWall 读取 bgwall.json 的 rows(死字段修复) B) 删除 site.json 僵尸字段 hotKeywords",
+    "url": "https://github.com/xi7ang/GameHub/commit/40362cc2737ef8b657333dd78c2e161abfab8dcf"
+  },
+  {
     "hash": "cf42570",
     "date": "2026-09-10T10:34:39+08:00",
     "message": "sync: 新增资源《豪猪镇之秋v1.3.3中文版》",
@@ -70,113 +178,5 @@
     "date": "2026-09-09T22:41:01+08:00",
     "message": "style: 背景墙 rowSpeed 190→500，实际降低滚动速度",
     "url": "https://github.com/xi7ang/GameHub/commit/854533ee7893932b093da6c56f8fb208e1030da4"
-  },
-  {
-    "hash": "27c8a5d",
-    "date": "2026-09-09T22:33:23+08:00",
-    "message": "style: 背景墙滚动速度 32s→90s",
-    "url": "https://github.com/xi7ang/GameHub/commit/27c8a5da98900552f4c752be070d93f43dc034ba"
-  },
-  {
-    "hash": "15fdb64",
-    "date": "2026-09-09T22:02:46+08:00",
-    "message": "fix: bgwall.json 去掉 /GameHub/ 路径前缀，避免 BASE 双重拼接",
-    "url": "https://github.com/xi7ang/GameHub/commit/15fdb643019df7e494186cab4965174c92b828f7"
-  },
-  {
-    "hash": "e2e861d",
-    "date": "2026-09-09T21:49:42+08:00",
-    "message": "fix: BgWall bgwall.json 路径拼接双重前缀修复",
-    "url": "https://github.com/xi7ang/GameHub/commit/e2e861d87e87cf321eda4731b543aa4707bbdf7c"
-  },
-  {
-    "hash": "3101955",
-    "date": "2026-09-09T21:36:12+08:00",
-    "message": "refactor: 主页游戏推荐改为随机选取(有封面资源) + 移除Admin精选刷新面板",
-    "url": "https://github.com/xi7ang/GameHub/commit/31019559adcfa82904283b5431e7d62d535bbbb0"
-  },
-  {
-    "hash": "bd689f3",
-    "date": "2026-09-09T21:10:28+08:00",
-    "message": "perf: 背景墙胶囊图 jpg→webp，体积降 36%",
-    "url": "https://github.com/xi7ang/GameHub/commit/bd689f33624222d51d8f55841c99dffc2b0718c4"
-  },
-  {
-    "hash": "3e7991b",
-    "date": "2026-09-09T20:57:54+08:00",
-    "message": "feat: Steam胶囊图背景墙(30张) + Admin一键随机刷新",
-    "url": "https://github.com/xi7ang/GameHub/commit/3e7991b135b14258acf33179fe67bd1c24ebbdd2"
-  },
-  {
-    "hash": "690085f",
-    "date": "2026-09-09T20:31:51+08:00",
-    "message": "feat: add Steam covers for 92 gamehub resources (final batch, 776 scanned)",
-    "url": "https://github.com/xi7ang/GameHub/commit/690085f6a01c7662b7a180d944bddbff5561e506"
-  },
-  {
-    "hash": "39e4f98",
-    "date": "2026-09-09T20:04:15+08:00",
-    "message": "feat: add Chained Together (2567870) cover for 链在一起",
-    "url": "https://github.com/xi7ang/GameHub/commit/39e4f985b152911e31d8ca0567fe41c1b687255e"
-  },
-  {
-    "hash": "eac9e03",
-    "date": "2026-09-09T19:56:09+08:00",
-    "message": "fix: add RDR1 cover for duplicate 荒野大镖客 救赎 entry",
-    "url": "https://github.com/xi7ang/GameHub/commit/eac9e0355fc9655eed4e448957d3d8a5d9c2ef63"
-  },
-  {
-    "hash": "060f6d5",
-    "date": "2026-09-09T19:46:15+08:00",
-    "message": "feat: add Steam covers for 3 gamehub resources (batch 5, mobile 0002-0096)",
-    "url": "https://github.com/xi7ang/GameHub/commit/060f6d5648c4e620648547659f4164b31e9830dd"
-  },
-  {
-    "hash": "c3946d2",
-    "date": "2026-09-09T19:38:01+08:00",
-    "message": "sync: 新增资源《黎明行者之血/ The Blood of Dawnwalker v1.0.1 B》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c3946d2d1fedfc989735652a29aad29ff261b7bb"
-  },
-  {
-    "hash": "e9c98b1",
-    "date": "2026-09-09T19:18:45+08:00",
-    "message": "sync: 新增资源《车库翻新大师中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e9c98b176eae1cba93918751643c1d2905334f1d"
-  },
-  {
-    "hash": "5bf90c9",
-    "date": "2026-09-09T19:07:53+08:00",
-    "message": "fix: add RDR1 (2668510) Steam cover for 荒野大镖客：救赎PC纯净版",
-    "url": "https://github.com/xi7ang/GameHub/commit/5bf90c9fabac000c6478fd9b8a6ffaecbe1bdb29"
-  },
-  {
-    "hash": "bc254ec",
-    "date": "2026-09-09T17:09:11+08:00",
-    "message": "sync: 新增资源《荒野大镖客：救赎PC纯净版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/bc254ecce9919a85551788865fead666e2600760"
-  },
-  {
-    "hash": "111fd9f",
-    "date": "2026-09-09T17:00:24+08:00",
-    "message": "feat: add steamAppID field to resources (backfill 157 rows) + admin/validate support",
-    "url": "https://github.com/xi7ang/GameHub/commit/111fd9ffe42710000f1e3d390fab8d2a802a850e"
-  },
-  {
-    "hash": "efce60e",
-    "date": "2026-09-09T16:32:15+08:00",
-    "message": "feat: add Steam covers for 51 gamehub resources (batch mobile 170-282)",
-    "url": "https://github.com/xi7ang/GameHub/commit/efce60e3b76f15d25a4b319b534c7d5d75ff2db6"
-  },
-  {
-    "hash": "6a85c91",
-    "date": "2026-09-09T16:08:22+08:00",
-    "message": "feat: add Steam covers for 28 gamehub resources (batch mobile 57-169)",
-    "url": "https://github.com/xi7ang/GameHub/commit/6a85c9146b74dc6b050b54df84e4b90d50716c28"
-  },
-  {
-    "hash": "5024e5c",
-    "date": "2026-09-09T15:29:35+08:00",
-    "message": "feat: add Steam covers for 49 gamehub resources (batch 100)",
-    "url": "https://github.com/xi7ang/GameHub/commit/5024e5c2a9efebfda6e557d74e07dfa84c917f5d"
   }
 ]
