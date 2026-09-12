@@ -109,7 +109,7 @@
         <h2 id="announcement-title">{{ announcement.title || '站点公告' }}</h2>
         <div class="announcement-socials">
           <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="announcement-social announcement-social--qq">
-            <span class="announcement-social__icon">🐧</span>
+            <img class="announcement-social__icon" src="/qq-penguin.png" alt="" width="13" height="15" />
             <span>QQ群</span>
           </a>
           <a v-if="site?.androidApp" :href="site.androidApp" class="announcement-social announcement-social--apk">
@@ -325,17 +325,17 @@ onMounted(async () => {
   transition: all 0.2s;
 }
 .announcement-social__icon { display: inline-flex; font-size: 13px; line-height: 1; }
-.announcement-social--qq { background: #0052d9; border: 1px solid #0046b8; position: relative; overflow: hidden; animation: announcement-qq-glow 2.4s ease-in-out infinite; }
-.announcement-social--qq:hover { background: #0046b8; box-shadow: 0 0 12px rgba(0, 82, 217, 0.45); }
+.announcement-social--qq { background: #366ef4; border: 1px solid #2a5ce0; position: relative; overflow: hidden; animation: announcement-qq-glow 2.4s ease-in-out infinite; }
+.announcement-social--qq:hover { background: #2a5ce0; box-shadow: 0 0 12px rgba(54, 110, 244, 0.45); }
 .announcement-social--tg { background: #1da1f2; border: 1px solid #1a91da; }
 .announcement-social--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
 .announcement-social--apk { background: #3ddc84; border: 1px solid #34c17a; color: #073042; }
 .announcement-social--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
 @keyframes announcement-qq-glow {
-  0%, 100% { box-shadow: 0 0 4px rgba(0, 82, 217, 0.25); }
-  50% { box-shadow: 0 0 16px rgba(0, 82, 217, 0.65), 0 0 4px rgba(0, 82, 217, 0.4); }
+  0%, 100% { box-shadow: 0 0 4px rgba(54, 110, 244, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(54, 110, 244, 0.65), 0 0 4px rgba(54, 110, 244, 0.4); }
 }
-.announcement-social--qq .announcement-social__icon { animation: announcement-qq-waddle 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
+.announcement-social--qq .announcement-social__icon { display: block; height: 15px; width: auto; animation: announcement-qq-waddle 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
 @keyframes announcement-qq-waddle {
   0%, 100% { transform: rotate(0deg) translateY(0); }
   25% { transform: rotate(-12deg) translateY(-1px); }

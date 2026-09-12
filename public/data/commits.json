@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5fa011f",
+    "date": "2026-09-12T23:11:01+08:00",
+    "message": "feat(app): 微信/QQ 内置浏览器打开落地页时整页遮罩 + 右上角箭头引导去浏览器",
+    "url": "https://github.com/xi7ang/GameHub/commit/5fa011f9f8d1ce2669116bb6bb5162e6718472ab"
+  },
+  {
     "hash": "eb8b60b",
     "date": "2026-09-12T23:08:22+08:00",
     "message": "feat(nav): 顶部导航加「安卓APP」入口、移除 Telegram；QQ群按钮改腾讯蓝 #0052d9",
@@ -172,11 +178,5 @@
     "date": "2026-09-10T09:36:57+08:00",
     "message": "perf: P1 背景墙图片降级(lazy/去fetchpriority) + preload home.json",
     "url": "https://github.com/xi7ang/GameHub/commit/85985c2e8f02406838e5c0415cf6d8fac7ab3775"
-  },
-  {
-    "hash": "9f37502",
-    "date": "2026-09-10T09:30:52+08:00",
-    "message": "perf: P0 首页数据瘦身 — 新增 home.json(82KB) 替代全量 resources.json(568KB)",
-    "url": "https://github.com/xi7ang/GameHub/commit/9f37502cc3e614a736f2a1117a1ab7ffdaa52bc8"
   }
 ]
