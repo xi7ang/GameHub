@@ -1,5 +1,17 @@
 [
   {
+    "hash": "829ce45",
+    "date": "2026-09-12T22:58:05+08:00",
+    "message": "chore: 删掉未被引用的 app-icon.jpg（只留 webp）",
+    "url": "https://github.com/xi7ang/GameHub/commit/829ce454d9b9ee7bcf1cc50e823ac48a8b93f18e"
+  },
+  {
+    "hash": "8f27e8e",
+    "date": "2026-09-12T22:57:17+08:00",
+    "message": "feat(app): 弹窗按钮改安卓绿/移到 TG 前/文案「安卓APP」；落地页图标换成新 App 图标",
+    "url": "https://github.com/xi7ang/GameHub/commit/8f27e8eb9ce8a90d440a0222e344037e53d8aafd"
+  },
+  {
     "hash": "3c0d040",
     "date": "2026-09-12T22:39:29+08:00",
     "message": "style(app): 落地页与弹窗按钮统一为品牌琥珀金 #c99a5b，落地页图标换成手柄",
@@ -166,17 +178,5 @@
     "date": "2026-09-10T09:22:06+08:00",
     "message": "perf: 移除 busuanzi 第三方统计(脚本+页脚span)，首屏少一个外链请求",
     "url": "https://github.com/xi7ang/GameHub/commit/d68301ff606856d1b37d1b578377fe5432f3e99e"
-  },
-  {
-    "hash": "1ff29de",
-    "date": "2026-09-10T09:03:26+08:00",
-    "message": "fix: 替换搜不到内容的关键词为资源库中真实存在的纯游戏名",
-    "url": "https://github.com/xi7ang/GameHub/commit/1ff29de138ce8afabba9e31b67b9bb2aabf62cc3"
-  },
-  {
-    "hash": "2168764",
-    "date": "2026-09-10T08:29:04+08:00",
-    "message": "fix: 热门搜索关键词改人工精选纯游戏名(去安卓原版等杂质)",
-    "url": "https://github.com/xi7ang/GameHub/commit/2168764459b4f5d79af0e229e12a85efa95684f1"
   }
 ]

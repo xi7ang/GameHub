@@ -22,7 +22,7 @@
         <!-- 更新日志入口已按要求隐藏（PC 端顶部导航） -->
         <!-- <a href="/changelog.html" class="nav-link">更新日志</a> -->
         <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="nav-cta nav-cta--qq"><span class="cta-icon">🐧</span><span class="cta-text">QQ群</span></a>
-        <a v-if="site?.telegram" :href="site.telegram" target="_blank" rel="noreferrer" class="nav-cta nav-cta--tg"><svg class="cta-icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M21.9 3.6c.3-1.2-.9-2.2-2-1.7L2.7 9.8c-1.2.5-1.1 2.2.1 2.6l4.8 1.6 1.8 5.7c.4 1.1 1.8 1.4 2.6.6l2.5-2.5 4.7 3.5c1 .7 2.4.2 2.7-1l2.9-16.7zM9 14.2l8.5-6.9c.3-.2.6.2.4.5l-6.6 7.2c-.3.3-.8.4-1.2.3l-2.3-.8 1.2-.3z"/></svg><span class="cta-text">Telegram</span></a>
+        <a v-if="site?.androidApp" :href="site.androidApp" class="nav-cta nav-cta--apk"><svg class="cta-icon" viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24a11.46 11.46 0 0 0-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48A10.98 10.98 0 0 0 1 18h22a10.98 10.98 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span class="cta-text">安卓APP</span></a>
         <button class="theme-toggle" @click="toggleTheme" :title="theme === 'dark' ? '切换日间' : '切换夜间'">
           <span v-if="theme === 'dark'">☀️</span>
           <span v-else>🌙</span>
@@ -100,7 +100,7 @@ const parts = computed(() => brandParts(site.value))
 }
 .cta-icon { display: inline-flex; font-size: 13px; line-height: 1; }
 .cta-text { line-height: 1; }
-.nav-cta--qq { background: #07c160; border-color: #06ad56; position: relative; overflow: hidden; animation: qq-glow 2.4s ease-in-out infinite; }
+.nav-cta--qq { background: #0052d9; border-color: #0046b8; position: relative; overflow: hidden; animation: qq-glow 2.4s ease-in-out infinite; }
 /* 扫光：一道白色光带周期划过按钮 */
 .nav-cta--qq::after {
   content: '';
@@ -120,14 +120,14 @@ const parts = computed(() => brandParts(site.value))
   transform-origin: 50% 90%;
   animation: qq-waddle 1.6s ease-in-out infinite;
 }
-.nav-cta--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); animation-play-state: paused; }
+.nav-cta--qq:hover { background: #0046b8; box-shadow: 0 0 12px rgba(0, 82, 217, 0.45); animation-play-state: paused; }
 .nav-cta--qq:hover::after,
 .nav-cta--qq:hover .cta-icon { animation-play-state: paused; }
 
 /* QQ 按钮动效关键帧 */
 @keyframes qq-glow {
-  0%, 100% { box-shadow: 0 0 4px rgba(7, 193, 96, 0.25); }
-  50% { box-shadow: 0 0 16px rgba(7, 193, 96, 0.65), 0 0 4px rgba(7, 193, 96, 0.4); }
+  0%, 100% { box-shadow: 0 0 4px rgba(0, 82, 217, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(0, 82, 217, 0.65), 0 0 4px rgba(0, 82, 217, 0.4); }
 }
 @keyframes qq-shine {
   0%, 55% { left: -70%; }
@@ -142,8 +142,8 @@ const parts = computed(() => brandParts(site.value))
 @media (prefers-reduced-motion: reduce) {
   .nav-cta--qq, .nav-cta--qq::after, .nav-cta--qq .cta-icon { animation: none; }
 }
-.nav-cta--tg { background: #1da1f2; border-color: #1a91da; }
-.nav-cta--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
+.nav-cta--apk { background: #3ddc84; border-color: #34c17a; color: #073042; }
+.nav-cta--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
 .theme-toggle {
   width: 38px;
   height: 38px;

@@ -325,15 +325,15 @@ onMounted(async () => {
   transition: all 0.2s;
 }
 .announcement-social__icon { display: inline-flex; font-size: 13px; line-height: 1; }
-.announcement-social--qq { background: #07c160; border: 1px solid #06ad56; position: relative; overflow: hidden; animation: announcement-qq-glow 2.4s ease-in-out infinite; }
-.announcement-social--qq:hover { background: #06ad56; box-shadow: 0 0 12px rgba(7, 193, 96, 0.45); }
+.announcement-social--qq { background: #0052d9; border: 1px solid #0046b8; position: relative; overflow: hidden; animation: announcement-qq-glow 2.4s ease-in-out infinite; }
+.announcement-social--qq:hover { background: #0046b8; box-shadow: 0 0 12px rgba(0, 82, 217, 0.45); }
 .announcement-social--tg { background: #1da1f2; border: 1px solid #1a91da; }
 .announcement-social--tg:hover { background: #1a91da; box-shadow: 0 0 12px rgba(29, 161, 242, 0.45); }
 .announcement-social--apk { background: #3ddc84; border: 1px solid #34c17a; color: #073042; }
 .announcement-social--apk:hover { background: #34c17a; box-shadow: 0 0 12px rgba(61, 220, 132, 0.45); }
 @keyframes announcement-qq-glow {
-  0%, 100% { box-shadow: 0 0 4px rgba(7, 193, 96, 0.25); }
-  50% { box-shadow: 0 0 16px rgba(7, 193, 96, 0.65), 0 0 4px rgba(7, 193, 96, 0.4); }
+  0%, 100% { box-shadow: 0 0 4px rgba(0, 82, 217, 0.25); }
+  50% { box-shadow: 0 0 16px rgba(0, 82, 217, 0.65), 0 0 4px rgba(0, 82, 217, 0.4); }
 }
 .announcement-social--qq .announcement-social__icon { animation: announcement-qq-waddle 1.6s ease-in-out infinite; transform-origin: 50% 90%; }
 @keyframes announcement-qq-waddle {
