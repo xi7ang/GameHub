@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>游戏源神 App 下载 · Android 客户端</title>
 <meta name="description" content="游戏源神 Android 客户端下载，扫码或点击即可安装。" />
+<script>
+  // 微信/QQ 内置浏览器会拦截 APK 直链下载。在 head 里、body 渲染前打标记，
+  // 这样遮罩跟着首屏一起出来，不会先闪一下页面再盖上去。
+  (function () {
+    if (/MicroMessenger|QQ\//i.test(navigator.userAgent || '')) {
+      document.documentElement.className += ' is-wx';
+    }
+  })();
+</script>
 <style>
   :root {
     --accent: #c99a5b;
@@ -87,13 +96,39 @@
     padding: 13px 15px; font-size: 13px; color: var(--low); line-height: 1.7;
   }
   .step b { color: var(--text); font-weight: 600; }
-  .warn {
+  /* 微信/QQ 内置浏览器会拦截 APK 下载：整页遮罩 + 右上角箭头指路 */
+  .wxmask {
     display: none;
-    margin-top: 18px; padding: 13px 15px; border-radius: 12px;
-    background: rgba(255, 176, 32, 0.12); border: 1px solid rgba(255, 176, 32, 0.32);
-    color: #ffcf70; font-size: 13px; line-height: 1.75;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(6, 9, 14, 0.94);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: calc(8px + env(safe-area-inset-top)) 20px 24px;
   }
-  .warn b { color: #ffe1a3; }
+  html.is-wx .wxmask { display: flex; }
+  html.is-wx, html.is-wx body { overflow: hidden; }
+  .wxmask__arrow { width: 66px; height: 66px; margin: 0 4px 6px 0; }
+  .wxmask__arrow svg { width: 100%; height: 100%; display: block; animation: wx-arrow 1.5s ease-in-out infinite; }
+  @keyframes wx-arrow {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(3px, -4px); }
+  }
+  .wxmask__title { margin: 0 0 8px; font-size: 18px; font-weight: 700; color: #fff; }
+  .wxmask__title b { color: var(--accent); }
+  .wxmask__sub { margin: 0; font-size: 14px; line-height: 1.8; color: #9fb0c0; }
+  .wxmask__dismiss {
+    margin-top: 24px; padding: 8px 0; border: 0; background: none;
+    color: #63727f; font-size: 12.5px; font-family: inherit;
+    text-decoration: underline; cursor: pointer;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .wxmask__arrow svg { animation: none; }
+  }
   .foot { margin-top: 26px; color: #5d6b78; font-size: 11px; text-align: center; line-height: 1.7; }
 </style>
 </head>
@@ -121,10 +156,6 @@
       <p class="qcap">电脑上就扫这个码，手机打开后点上面按钮<br/>（请用相机/浏览器扫码，别用微信扫一扫）</p>
     </div>
 
-    <div class="warn" id="wxwarn">
-      <b>检测到你在微信里打开</b> —— 微信会拦截 APK 下载。<br/>
-      请点右上角 <b>···</b> → <b>在浏览器中打开</b>，再点下载。
-    </div>
   </section>
 
   <div class="note">
@@ -140,13 +171,27 @@
   </p>
 </div>
 
+<div class="wxmask" id="wxmask" role="alertdialog" aria-label="请用浏览器打开">
+  <div class="wxmask__arrow" aria-hidden="true">
+    <svg viewBox="0 0 48 48">
+      <path d="M8 41 Q20 22 39 9" fill="none" stroke="#c99a5b" stroke-width="3.2" stroke-linecap="round"/>
+      <path d="M40 8 L37.2 20.2 L28.2 12.2 Z" fill="#c99a5b"/>
+    </svg>
+  </div>
+  <p class="wxmask__title">点右上角 <b>···</b></p>
+  <p class="wxmask__sub">选择「在浏览器打开」<br/>再回来点下载 APK</p>
+  <button class="wxmask__dismiss" id="wxDismiss" type="button">继续在微信里浏览</button>
+</div>
+
 <script>
-  // 微信内置浏览器会拦截 apk 直链，提前给出提示，省掉一堆"点了没反应"的追问
+  // 遮罩由 UA 判定（head 里已打 is-wx 标记），这里只负责允许用户手动关掉，
+  // 防的是误判把正常用户困住——我们检测得准，但"准"不是"永远准"。
   (function () {
-    var ua = navigator.userAgent || '';
-    if (/MicroMessenger/i.test(ua) || /QQ\//i.test(ua)) {
-      var el = document.getElementById('wxwarn');
-      if (el) el.style.display = 'block';
+    var btn = document.getElementById('wxDismiss');
+    if (btn) {
+      btn.addEventListener('click', function () {
+        document.documentElement.classList.remove('is-wx');
+      });
     }
   })();
 </script>

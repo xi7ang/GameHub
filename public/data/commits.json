@@ -1,5 +1,11 @@
 [
   {
+    "hash": "eb8b60b",
+    "date": "2026-09-12T23:08:22+08:00",
+    "message": "feat(nav): 顶部导航加「安卓APP」入口、移除 Telegram；QQ群按钮改腾讯蓝 #0052d9",
+    "url": "https://github.com/xi7ang/GameHub/commit/eb8b60b95c269499b6647492785f1f35a003d078"
+  },
+  {
     "hash": "829ce45",
     "date": "2026-09-12T22:58:05+08:00",
     "message": "chore: 删掉未被引用的 app-icon.jpg（只留 webp）",
@@ -172,11 +178,5 @@
     "date": "2026-09-10T09:30:52+08:00",
     "message": "perf: P0 首页数据瘦身 — 新增 home.json(82KB) 替代全量 resources.json(568KB)",
     "url": "https://github.com/xi7ang/GameHub/commit/9f37502cc3e614a736f2a1117a1ab7ffdaa52bc8"
-  },
-  {
-    "hash": "d68301f",
-    "date": "2026-09-10T09:22:06+08:00",
-    "message": "perf: 移除 busuanzi 第三方统计(脚本+页脚span)，首屏少一个外链请求",
-    "url": "https://github.com/xi7ang/GameHub/commit/d68301ff606856d1b37d1b578377fe5432f3e99e"
   }
 ]
