@@ -1,5 +1,71 @@
 [
   {
+    "hash": "6c1d005",
+    "date": "2026-09-18T10:57:58+08:00",
+    "message": "sync: 新增资源《植物大战僵尸杂交版(重制版) 0.10.5性能版.zip》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6c1d005b99574e7e23f501128b2f40cb170aff91"
+  },
+  {
+    "hash": "5afacf2",
+    "date": "2026-09-18T10:47:21+08:00",
+    "message": "sync: 新增资源《常乐镇诡事》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5afacf29e996c28330e4edab63b9fd689e8822eb"
+  },
+  {
+    "hash": "4ab2e9d",
+    "date": "2026-09-18T10:43:55+08:00",
+    "message": "sync: 新增资源《【塔防】植物娘大战僵尸v0.8.7_内置作弊菜单.apk》",
+    "url": "https://github.com/xi7ang/GameHub/commit/4ab2e9df377aac4025ce7995ed974297e9061d96"
+  },
+  {
+    "hash": "7b3af85",
+    "date": "2026-09-17T20:31:49+08:00",
+    "message": "chore: 每日公告：发布【2026-09-17】游戏资源更新通知（6条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/7b3af855845324ce7cba91b68e5115824f3e7d65"
+  },
+  {
+    "hash": "a4396cb",
+    "date": "2026-09-17T13:22:10+08:00",
+    "message": "sync: 新增资源《鲁尼克大冒险：不可思议迷宫 经典 HD重制版_解压即》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a4396cb6b2385251ff75eb9e116d663adafe85db"
+  },
+  {
+    "hash": "d48df93",
+    "date": "2026-09-17T08:31:12+08:00",
+    "message": "sync: 新增资源《天命与厄运：世界 中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d48df933efabd3eaefc209dc91d0e15cd933d53b"
+  },
+  {
+    "hash": "63253d3",
+    "date": "2026-09-17T08:27:54+08:00",
+    "message": "sync: 新增资源《女神异闻录4：黄金版/PERSONA4 The G》",
+    "url": "https://github.com/xi7ang/GameHub/commit/63253d31d4407a628bf7c9d283e90260d667791c"
+  },
+  {
+    "hash": "83826d7",
+    "date": "2026-09-17T08:23:48+08:00",
+    "message": "sync: 新增资源《虫族幸存者：无尽围攻》",
+    "url": "https://github.com/xi7ang/GameHub/commit/83826d711cd966b7cf024061b0c981895c8699e7"
+  },
+  {
+    "hash": "cc777a4",
+    "date": "2026-09-17T08:20:39+08:00",
+    "message": "sync: 新增资源《桌上谈兵v0.6.11中文解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cc777a4e1efe798423486cb4aa8db0777b5dc745"
+  },
+  {
+    "hash": "7e1a1ff",
+    "date": "2026-09-17T08:17:16+08:00",
+    "message": "sync: 新增资源《全国战争：三国 豪华中文版 全DLC》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7e1a1ff43154d253115b9f56cba4a0dcf6d63dff"
+  },
+  {
+    "hash": "d210399",
+    "date": "2026-09-17T07:26:27+08:00",
+    "message": "feat(head): 注入百度站点验证 meta（codeva-zXlmKTo2DN）到全站 dist/*.html",
+    "url": "https://github.com/xi7ang/GameHub/commit/d210399d44ac9d7acbf4a845a27764fef0acba03"
+  },
+  {
     "hash": "ae6645a",
     "date": "2026-09-16T21:47:20+08:00",
     "message": "feat(notify): 通知点击深链改为 /category.html（原 /changelog.html）",
@@ -112,71 +178,5 @@
     "date": "2026-09-15T19:15:40+08:00",
     "message": "style(home): 手气不错改浅灰底+深灰字，取消浮动与变色动画，去阴影",
     "url": "https://github.com/xi7ang/GameHub/commit/a13be5f0c05e605b004b89c2b3aab11ad3f2a05d"
-  },
-  {
-    "hash": "59c8486",
-    "date": "2026-09-15T19:06:55+08:00",
-    "message": "style(home): 手气不错改为圆角矩形实底按钮，浅灰白底无边框，适配日夜主题",
-    "url": "https://github.com/xi7ang/GameHub/commit/59c8486a7de96f8cf47b80709043f1d930d47a97"
-  },
-  {
-    "hash": "8ce51da",
-    "date": "2026-09-15T18:52:36+08:00",
-    "message": "style(home): 手气不错文字 18px、图标 20px",
-    "url": "https://github.com/xi7ang/GameHub/commit/8ce51da40bb2192b3e0b6e6eed6eacade46d3ce6"
-  },
-  {
-    "hash": "85605e6",
-    "date": "2026-09-15T18:43:45+08:00",
-    "message": "style(home): 手气不错放大字号/图标，呼吸光改为马卡龙呼吸变色",
-    "url": "https://github.com/xi7ang/GameHub/commit/85605e69d92eb8b4abb092b9755d5fac726df16e"
-  },
-  {
-    "hash": "062ebd1",
-    "date": "2026-09-15T18:35:59+08:00",
-    "message": "style(home): 手气不错去边框、文字常显，改上下缓慢浮动",
-    "url": "https://github.com/xi7ang/GameHub/commit/062ebd1cdaccd8160db3b51f4b49ff07fcbf0e8e"
-  },
-  {
-    "hash": "7da8f53",
-    "date": "2026-09-15T18:31:20+08:00",
-    "message": "style(home): 手气不错改用 SVG 骰子图标 + 慢呼吸光环，去掉 emoji",
-    "url": "https://github.com/xi7ang/GameHub/commit/7da8f538380ff826bf3433e2f65098cb6d45b518"
-  },
-  {
-    "hash": "0c07e82",
-    "date": "2026-09-15T18:23:47+08:00",
-    "message": "feat(home): 搜索框尾部加「手气不错」气泡按钮，随机搜索热门关键词",
-    "url": "https://github.com/xi7ang/GameHub/commit/0c07e82257efda4da4b47fc0881a2fd697433557"
-  },
-  {
-    "hash": "7222c65",
-    "date": "2026-09-15T07:25:26+08:00",
-    "message": "sync: 新增资源《动漫商店模拟器/Anime Shop Simulator》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7222c65ddeb0cbc5d66a5639303ae2943bc614a8"
-  },
-  {
-    "hash": "46f0d03",
-    "date": "2026-09-15T07:17:56+08:00",
-    "message": "sync: 新增资源《合租恋人 解锁完整版 去除谷歌》",
-    "url": "https://github.com/xi7ang/GameHub/commit/46f0d0379c9f69f680c769e10139584a95a0e748"
-  },
-  {
-    "hash": "415dc79",
-    "date": "2026-09-15T07:17:35+08:00",
-    "message": "sync: 新增资源《赛博骑士：闪点行动 V20260910》",
-    "url": "https://github.com/xi7ang/GameHub/commit/415dc7910f9fe48e68a3d8aeee92509e01d17cc4"
-  },
-  {
-    "hash": "90426f3",
-    "date": "2026-09-15T07:16:50+08:00",
-    "message": "sync: 新增资源《怪物商店模拟器 V20260910》",
-    "url": "https://github.com/xi7ang/GameHub/commit/90426f37f97e98a8e5d901331e957f90d909b28f"
-  },
-  {
-    "hash": "99af8d1",
-    "date": "2026-09-15T07:16:40+08:00",
-    "message": "sync: 新增资源《机器人世界冒险v1.36.2免费购》",
-    "url": "https://github.com/xi7ang/GameHub/commit/99af8d14e0e4352c12c7e07eb69bfc2ec2865a35"
   }
 ]

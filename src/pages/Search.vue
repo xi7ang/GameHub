@@ -49,18 +49,28 @@ import SearchBox from '../components/SearchBox.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
+import { ensureIndex, search, searchOnResources, ID } from '../lib/search.js'
 
 const { state, load, catMeta } = useData()
 const params = new URLSearchParams(location.search)
 const q = ref(params.get('q') || '')
+const indexReady = ref(false)
 
+// 匹配交给 src/lib/search.js 的级联规则（与首页下拉框共用一套）。
+// 这里仍要 load() 全量：搜索页要渲染 ResourceCard，卡片需要封面/体积等完整字段；
+// 索引只用来决定「哪些 id、什么顺序」。
 const results = computed(() => {
-  const query = q.value.trim().toLowerCase()
+  const query = q.value.trim()
   if (!query) return []
-  return state.resources.filter((r) => {
-    const hay = `${r.title} ${r.enTitle || ''} ${(r.tags || []).join(' ')} ${r.category} ${r.desc || ''}`.toLowerCase()
-    return hay.includes(query)
-  })
+  if (indexReady.value) {
+    const r = search(query)
+    if (r) {
+      const byId = new Map(state.resources.map((x) => [x.id, x]))
+      return r.hits.map((it) => byId.get(it[ID])).filter(Boolean)
+    }
+  }
+  if (state.resources.length) return searchOnResources(state.resources, query).hits
+  return []
 })
 
 const grouped = computed(() => {
@@ -77,7 +87,9 @@ let timer = null
 function syncQ() {
   // 由 SearchBox 内部跳转驱动，这里只读初始值
 }
-onMounted(() => {
+onMounted(async () => {
+  const recs = await ensureIndex()
+  indexReady.value = !!recs
   load()
   syncQ()
 })

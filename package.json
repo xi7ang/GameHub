@@ -10,10 +10,11 @@
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
     "gen-commits": "node scripts/gen-commits.js",
+    "gen-search-index": "node scripts/gen-search-index.js",
     "gen-home": "node scripts/gen-home.js",
     "gen-notify": "node scripts/gen-notify.js",
     "gen-sitemap": "node scripts/gen-sitemap.js",
-    "prebuild": "node scripts/validate.js && node scripts/gen-commits.js && node scripts/gen-home.js && node scripts/gen-notify.js"
+    "prebuild": "node scripts/gen-search-index.js && node scripts/validate.js && node scripts/gen-commits.js && node scripts/gen-home.js && node scripts/gen-notify.js"
   },
   "dependencies": {
     "qrcode": "^1.5.4",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "pinyin-pro": "^3.29.4",
     "vite": "^6.0.7"
   }
 }

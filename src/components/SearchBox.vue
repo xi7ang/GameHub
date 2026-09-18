@@ -48,13 +48,13 @@
     <Teleport to="body">
       <div v-if="focused && query" class="search-dropdown glass" :style="dropStyle">
         <div v-if="loadingData" class="search-dropdown__empty text-low">搜索中…</div>
-        <div v-else-if="results.length === 0" class="search-dropdown__empty text-low">
+        <div v-else-if="result.total === 0" class="search-dropdown__empty text-low">
           未找到「{{ query }}」相关资源，试试其他关键词
         </div>
         <template v-else>
-          <div class="search-dropdown__meta text-low">{{ results.length }} 条结果</div>
+          <div class="search-dropdown__meta text-low">{{ result.total }} 条结果</div>
           <a
-            v-for="r in results.slice(0, 8)"
+            v-for="r in result.items.slice(0, 8)"
             :key="r.id"
             :href="detailHref(r.id)"
             class="search-dropdown__item"
@@ -77,6 +77,7 @@
 import { ref, computed, watch, onMounted, onBeforeUnmount, nextTick } from 'vue'
 import { useData } from '../composables/useData.js'
 import { detailHref } from '../lib/short.js'
+import { ensureIndex, search, searchOnResources, toHit } from '../lib/search.js'
 
 const props = defineProps({
   placeholder: { type: String, default: '搜索游戏、资源名称...' },
@@ -107,8 +108,11 @@ const DIE_FACE_TRANSFORMS = [
 const { state, load, catLabel, catMeta } = useData()
 const query = ref('')
 const focused = ref(false)
-// 首页走 loadHome()，state.resources 为空；首次输入时才按需拉全量，避免首页白拉 568KB
+// 首页走 loadHome()，state.resources 为空；首次输入时才按需拉搜索索引（~171KB），
+// 不再为搜索拉 600KB 的 resources.json。
 const loadingData = ref(false)
+const indexReady = ref(false)
+const indexDown = ref(false)
 const inputRef = ref(null)
 const boxRef = ref(null)
 
@@ -122,14 +126,24 @@ const dropStyle = computed(() => ({
   maxHeight: `${dropPos.value.maxH}px`,
 }))
 
-function ensureResources() {
-  if (state.resources.length || loadingData.value) return
+// 搜索数据按需加载：优先索引；索引挂了才回退拉全量 resources.json（降落伞）
+function ensureSearchData() {
+  if (indexReady.value || loadingData.value) return
   loadingData.value = true
-  Promise.resolve(load()).finally(() => (loadingData.value = false))
+  ensureIndex()
+    .then((recs) => {
+      if (recs) {
+        indexReady.value = true
+        return null
+      }
+      indexDown.value = true
+      return state.resources.length ? null : load()
+    })
+    .finally(() => (loadingData.value = false))
 }
 
 watch(query, (v) => {
-  if (v.trim()) ensureResources()
+  if (v.trim()) ensureSearchData()
 })
 
 function updateDropPos() {
@@ -142,26 +156,44 @@ function updateDropPos() {
   dropPos.value = { top: r.bottom + gap, left: r.left, width: r.width, maxH }
 }
 
-const results = computed(() => {
-  const q = query.value.trim().toLowerCase()
-  if (!q) return []
-  return state.resources.filter((r) => {
-    const hay = `${r.title} ${r.enTitle || ''} ${(r.tags || []).join(' ')} ${r.category} ${r.desc || ''}`.toLowerCase()
-    return hay.includes(q)
-  })
+// 匹配逻辑不在这里：交给 src/lib/search.js（与 /search.html 共用同一套级联规则）
+const result = computed(() => {
+  const q = query.value.trim()
+  if (!q) return { total: 0, items: [] }
+  if (indexReady.value) {
+    const r = search(q)
+    if (r) return { total: r.total, items: r.hits.map(toHit) }
+  }
+  if (indexDown.value && state.resources.length) {
+    const r = searchOnResources(state.resources, q)
+    return { total: r.total, items: r.hits }
+  }
+  return { total: 0, items: [] }
 })
 
 function catColor(key) {
   const g = catMeta(key).gradient || ['#888', '#666']
   return g[0]
 }
+// 只在「查询串真的出现在标题里」时才高亮：
+// 拼音命中 / 子序列命中 / 错字容错命中时 query 并不在文本中，
+// 硬套正则会错高亮一段无关字符，所以这些情况整条不加标记。
 function highlight(text) {
   const q = query.value.trim()
-  if (!q) return text
-  const esc = text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const qesc = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-  const re = new RegExp(`(${qesc})`, 'gi')
-  return esc.replace(re, '<mark class="hl">$1</mark>')
+  if (!q) return escapeHtml(text)
+  const idx = text.toLowerCase().indexOf(q.toLowerCase())
+  if (idx >= 0) {
+    const before = text.slice(0, idx)
+    const hit = text.slice(idx, idx + q.length)
+    const after = text.slice(idx + q.length)
+    return `${escapeHtml(before)}<mark class="hl">${escapeHtml(hit)}</mark>${escapeHtml(after)}`
+  }
+  // 归一化后能对上（标题里带 _ - 空格等标点）：整条不高亮，避免错标
+  return escapeHtml(text)
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c])
 }
 function goSearch() {
   if (!query.value.trim()) return

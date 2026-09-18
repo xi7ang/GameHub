@@ -7,6 +7,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { prepareRecords, searchIndex } from '../src/lib/search-core.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, '../public/data')
@@ -107,6 +108,38 @@ function parseSize(s) {
   if (!m) return null
   const units = { B: 1, KB: 1024, MB: 1024 ** 2, GB: 1024 ** 3, TB: 1024 ** 4 }
   return parseFloat(m[1]) * (units[(m[2] || 'B').toUpperCase()] || 1)
+}
+
+// ── search-index.json：构建期生成的搜索索引，必须与 resources.json 同步 ──
+// 手工改资源却忘了重建索引 → 线上搜不到新资源，而且不会有任何报错。这里把它变成硬门禁。
+const idxPath = path.join(DATA_DIR, 'search-index.json')
+if (!fs.existsSync(idxPath)) {
+  errors.push('缺失数据文件: search-index.json（运行 npm run build 生成）')
+} else {
+  const idx = JSON.parse(fs.readFileSync(idxPath, 'utf8'))
+  const items = prepareRecords(idx.items)
+  check(
+    items.length === res.length,
+    `search-index.json 已过期: ${items.length} 条 vs resources.json ${res.length} 条（重新运行 npm run build）`
+  )
+  const idxIds = new Set(items.map((it) => it[0]))
+  const missing = res.filter((r) => r.id && !idxIds.has(r.id)).slice(0, 3).map((r) => r.id)
+  check(!missing.length, `search-index.json 缺资源: ${missing.join(', ')}`)
+
+  // 热门搜索词是手工维护、构建不重生成（2026-09 待办）：资源删改后热词可能静默搜不到。
+  // 用与运行时同一套级联规则校验，热词必须至少命中 1 条。
+  const hotPath = path.join(DATA_DIR, 'hotKeywords.json')
+  if (fs.existsSync(hotPath)) {
+    const hot = JSON.parse(fs.readFileSync(hotPath, 'utf8'))
+    const kws = Array.isArray(hot.keywords) ? hot.keywords : []
+    kws.forEach((kw) => {
+      const r = searchIndex(items, kw)
+      check(r.total > 0, `热门搜索词搜不到任何资源: 「${kw}」`)
+      if (r.total > 0 && r.tier > 3) {
+        warn.push(`热门搜索词「${kw}」只能命中第 ${r.tier + 1} 层（${r.name}），排序可能不理想`)
+      }
+    })
+  }
 }
 
 // ── 输出 ──
