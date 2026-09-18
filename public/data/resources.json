@@ -23206,5 +23206,29 @@
     "addedAt": "2026-09-18T10:47:20+08:00",
     "updatedAt": "2026-09-18T10:47:20+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0073",
+    "title": "植物大战僵尸杂交版(重制版) 0.10.5性能版.zip",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "性能优化",
+      "低配福音",
+      "策略塔防"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/3e7f4d2d9604?pwd=ROew",
+    "pwd": "ROew",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ufec6655c77dd.webp",
+    "steamAppID": null,
+    "desc": "本性能版大幅优化游戏运行效率，降低配置需求，让老旧设备也能流畅运行。新增动态画质调节功能，智能分配资源保障战斗帧率稳定。同时修复了多个已知卡顿问题，并对杂交植物特性进行平衡性调整，带来更顺滑的策略体验。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-18T10:57:57+08:00",
+    "updatedAt": "2026-09-18T10:57:57+08:00",
+    "month": "202609"
   }
 ]
