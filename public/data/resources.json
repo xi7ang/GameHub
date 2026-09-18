@@ -23182,5 +23182,29 @@
     "addedAt": "2026-09-18T10:43:55+08:00",
     "updatedAt": "2026-09-18T10:43:55+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0072",
+    "title": "常乐镇诡事",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "民国奇谈",
+      "民俗悬疑",
+      "诡事探案"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/af9116d8c7dd?pwd=oxWA",
+    "pwd": "oxWA",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/uf7d9b650daaa.webp",
+    "steamAppID": null,
+    "desc": "民国小镇暗藏诡谲奇案，失忆少年与神秘少女联手追凶。民俗怪谈与悬疑推理交织，在一次次生死冒险中，揭开被遗忘的真相与温情。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-18T10:47:20+08:00",
+    "updatedAt": "2026-09-18T10:47:20+08:00",
+    "month": "202609"
   }
 ]
