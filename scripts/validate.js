@@ -110,21 +110,29 @@ function parseSize(s) {
   return parseFloat(m[1]) * (units[(m[2] || 'B').toUpperCase()] || 1)
 }
 
-// ── search-index.json：构建期生成的搜索索引，必须与 resources.json 同步 ──
-// 手工改资源却忘了重建索引 → 线上搜不到新资源，而且不会有任何报错。这里把它变成硬门禁。
+// ── search-index.json：构建期生成的搜索索引 ──
+// 它是 prebuild 的 gen-search-index.js 从 resources.json 生成的派生产物，构建时必重跑，
+// 所以「仓库里这份陈旧」不影响线上正确性——产物始终由源数据重新生成。
+// 2026-09-19 降级为警告：它曾是硬门禁，但 CI 的 `Validate data` 跑在 `npm run build` 之前，
+// 任何不走 Node 的写入方（发布脚本 / 后台 Contents API）都会让它把整条部署卡死。
+// 现在只提示本地 dev 索引可能陈旧；构建期由 prebuild 兜底，热词门禁仍是硬 error。
 const idxPath = path.join(DATA_DIR, 'search-index.json')
 if (!fs.existsSync(idxPath)) {
-  errors.push('缺失数据文件: search-index.json（运行 npm run build 生成）')
+  warn.push('缺失数据文件: search-index.json（运行 npm run build 生成；构建链路会自行补齐）')
 } else {
   const idx = JSON.parse(fs.readFileSync(idxPath, 'utf8'))
   const items = prepareRecords(idx.items)
-  check(
-    items.length === res.length,
-    `search-index.json 已过期: ${items.length} 条 vs resources.json ${res.length} 条（重新运行 npm run build）`
-  )
+  if (items.length !== res.length) {
+    warn.push(
+      `search-index.json 已过期: ${items.length} 条 vs resources.json ${res.length} 条` +
+        '（本地 dev 搜索会陈旧；npm run build 会重新生成，不影响部署）'
+    )
+  }
   const idxIds = new Set(items.map((it) => it[0]))
   const missing = res.filter((r) => r.id && !idxIds.has(r.id)).slice(0, 3).map((r) => r.id)
-  check(!missing.length, `search-index.json 缺资源: ${missing.join(', ')}`)
+  if (missing.length) {
+    warn.push(`search-index.json 缺资源: ${missing.join(', ')}（同上：只影响本地 dev，构建会重建）`)
+  }
 
   // 热门搜索词是手工维护、构建不重生成（2026-09 待办）：资源删改后热词可能静默搜不到。
   // 用与运行时同一套级联规则校验，热词必须至少命中 1 条。
