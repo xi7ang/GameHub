@@ -23310,5 +23310,29 @@
     "addedAt": "2026-09-19T11:13:07+08:00",
     "updatedAt": "2026-09-19T11:13:07+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0078",
+    "title": "电器维修模拟工坊中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "模拟经营",
+      "硬核解谜",
+      "维修模拟"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6f8f053d0919?pwd=DVQn",
+    "pwd": "DVQn",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ubba1996c317d.webp",
+    "steamAppID": null,
+    "desc": "真实模拟电器维修全流程，从电路检测到零件更换，沉浸式体验修理乐趣。无广告干扰，中文界面友好，适合培养动手逻辑与故障排查思维，硬核又解压。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-19T11:26:34+08:00",
+    "updatedAt": "2026-09-19T11:26:34+08:00",
+    "month": "202609"
   }
 ]
