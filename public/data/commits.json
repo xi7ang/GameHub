@@ -1,5 +1,47 @@
 [
   {
+    "hash": "48ee270",
+    "date": "2026-09-19T11:26:34+08:00",
+    "message": "sync: 新增资源《电器维修模拟工坊中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/48ee270db5dc48b14425a48713b8c2ce425970b3"
+  },
+  {
+    "hash": "cade27f",
+    "date": "2026-09-19T11:13:07+08:00",
+    "message": "sync: 新增资源《单机狼人杀：硬核逻辑推理》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cade27fc5cf2f8f8d8219f111cd4c0f5fa48a8e5"
+  },
+  {
+    "hash": "9994b06",
+    "date": "2026-09-19T11:10:06+08:00",
+    "message": "sync: 新增资源《最终幻想战略版 伊瓦利斯编年史 v1.5.2 豪华版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9994b0646f2d205037e53c628490204304bf568b"
+  },
+  {
+    "hash": "ecc9738",
+    "date": "2026-09-19T11:06:47+08:00",
+    "message": "sync: 新增资源《马塞利亚：过去的回响中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ecc9738af51a55912f1a67f919f76d31e8bf9b8a"
+  },
+  {
+    "hash": "f3126ce",
+    "date": "2026-09-19T11:03:27+08:00",
+    "message": "sync: 新增资源《宝石少女2nd中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f3126ce343d2ef0d0fd0f7eeb988d99793a135de"
+  },
+  {
+    "hash": "114ab38",
+    "date": "2026-09-18T20:31:38+08:00",
+    "message": "chore: 每日公告：发布【2026-09-18】游戏资源更新通知（3条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/114ab3821b380ffbb5daec02b3061e8f1d77d74c"
+  },
+  {
+    "hash": "3aa418e",
+    "date": "2026-09-18T14:57:55+08:00",
+    "message": "feat(search): 搜索支持拼音/容错/排序，抽公共匹配层",
+    "url": "https://github.com/xi7ang/GameHub/commit/3aa418ebf42031d248365d1663f236b8e48ffc50"
+  },
+  {
     "hash": "6c1d005",
     "date": "2026-09-18T10:57:58+08:00",
     "message": "sync: 新增资源《植物大战僵尸杂交版(重制版) 0.10.5性能版.zip》",
@@ -136,47 +178,5 @@
     "date": "2026-09-16T14:49:10+08:00",
     "message": "sync: 新增资源《慢吞吞的恢复 Build.25211215（Plodding Recovery）》",
     "url": "https://github.com/xi7ang/GameHub/commit/dda4a56340e39d4982612ca55647870bfb6a9384"
-  },
-  {
-    "hash": "1cc0390",
-    "date": "2026-09-16T14:47:51+08:00",
-    "message": "sync: 新增资源《造化仙缘 v0.13.35 （Destiny of Immortal）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/1cc03901db7fcc94c7fe89b70ed6ac62987507c9"
-  },
-  {
-    "hash": "d71f29e",
-    "date": "2026-09-15T20:31:37+08:00",
-    "message": "chore: 每日公告：发布【2026-09-15】游戏资源更新通知（5条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/d71f29eaf0df97427854eae5736bb411504b740b"
-  },
-  {
-    "hash": "56cfc10",
-    "date": "2026-09-15T20:26:52+08:00",
-    "message": "style(home): 手气不错按钮文字字号 18px -> 16px",
-    "url": "https://github.com/xi7ang/GameHub/commit/56cfc10fffe65525f0d0fa4ddb82221577f88f21"
-  },
-  {
-    "hash": "b1a1111",
-    "date": "2026-09-15T20:20:46+08:00",
-    "message": "feat(home): 手气不错图标改为真 3D 骰子，绕竖轴水平自转",
-    "url": "https://github.com/xi7ang/GameHub/commit/b1a111128d9b648ea1e1ea44cb63307996e04fcc"
-  },
-  {
-    "hash": "084fe10",
-    "date": "2026-09-15T20:16:48+08:00",
-    "message": "style(home): 手气不错取消 title 提示，骰子图标改为水平自转",
-    "url": "https://github.com/xi7ang/GameHub/commit/084fe105ae4bf349bcb18a7209edfaf6e9a020fa"
-  },
-  {
-    "hash": "d83a18f",
-    "date": "2026-09-15T19:20:22+08:00",
-    "message": "feat(home): 手气不错改为随机跳转有封面的资源详情页",
-    "url": "https://github.com/xi7ang/GameHub/commit/d83a18f3c0c865f51d647e9cf3d9c844a2eb9f29"
-  },
-  {
-    "hash": "a13be5f",
-    "date": "2026-09-15T19:15:40+08:00",
-    "message": "style(home): 手气不错改浅灰底+深灰字，取消浮动与变色动画，去阴影",
-    "url": "https://github.com/xi7ang/GameHub/commit/a13be5f0c05e605b004b89c2b3aab11ad3f2a05d"
   }
 ]
