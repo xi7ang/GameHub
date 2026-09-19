@@ -23230,5 +23230,25 @@
     "addedAt": "2026-09-18T10:57:57+08:00",
     "updatedAt": "2026-09-18T10:57:57+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0074",
+    "title": "宝石少女2nd中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6dc8f426a49a?pwd=hEKK",
+    "pwd": "hEKK",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u232104b8fbc8.webp",
+    "steamAppID": null,
+    "desc": "经典宝石消除玩法升级，新增华丽特效与连击系统，支持双人同屏对战，收集上百种萌系少女角色，搭配专属技能组合，挑战极限高分，享受指尖与视觉的双重盛宴。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-19T11:03:26+08:00",
+    "updatedAt": "2026-09-19T11:03:26+08:00",
+    "month": "202609"
   }
 ]
