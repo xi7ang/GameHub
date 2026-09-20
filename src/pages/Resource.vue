@@ -65,7 +65,14 @@
                 <button class="btn btn-sm" @click="copyPwd">📋 复制</button>
               </div>
 
-              <a :href="r.url" target="_blank" rel="noreferrer" class="btn btn-primary detail__btn" @click="onGet">🔑 一键获取</a>
+              <a :href="r.url" target="_blank" rel="noreferrer" class="btn btn-primary detail__btn" @click="onGet">
+                <span class="btn-sparks" aria-hidden="true">
+                  <svg v-for="n in 6" :key="n" class="btn-spark" :style="{ '--i': n }" width="10" height="10" viewBox="0 0 10 10">
+                    <path d="M5 0 L6 4 L10 5 L6 6 L5 10 L4 6 L0 5 L4 4 Z" fill="currentColor" />
+                  </svg>
+                </span>
+                <span class="detail__btn-label">🔑 一键免费获取</span>
+              </a>
             </div>
 
             <!-- 描述 + 元信息（沉底） -->
@@ -419,6 +426,7 @@ watch(showQr, async (v) => {
 /* 「获取方式」：暖色渐变字 + 上升火星粒子 */
 .hot-label { position: relative; display: inline-block; }
 .hot-label__text {
+  font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.5px;
   background: linear-gradient(180deg, #ffedb0 0%, #ffb347 46%, #ff5a15 100%);
@@ -463,7 +471,29 @@ watch(showQr, async (v) => {
   letter-spacing: 0.1em;
   color: var(--neon-cyan);
 }
-.detail__btn { font-size: 16px; padding: 13px 28px; justify-content: center; width: 100%; }
+.detail__btn { position: relative; overflow: hidden; font-size: 16px; padding: 13px 28px; justify-content: center; width: 100%; }
+.detail__btn-label { position: relative; z-index: 1; }
+
+/* 「一键免费获取」：按钮内上升的 SVG 四角星粒子 */
+.btn-sparks { position: absolute; inset: 0; pointer-events: none; }
+.btn-spark {
+  position: absolute;
+  bottom: 3px;
+  left: calc(4% + (var(--i) - 1) * 18%);
+  color: #fff6cf;
+  opacity: 0;
+  animation: spark-rise 2.6s ease-out infinite;
+  animation-delay: calc(var(--i) * 0.42s);
+}
+@keyframes spark-rise {
+  0% { translate: 0 6px; scale: 0.4; opacity: 0; }
+  18% { opacity: 1; }
+  60% { opacity: 0.8; }
+  100% { translate: 0 -30px; scale: 0.15; opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn-sparks { display: none; }
+}
 .detail__desc { font-size: 15px; color: var(--text-mid); margin-bottom: 20px; }
 .detail__meta { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; margin-top: auto; border-top: 1px solid var(--glass-border); padding-top: 16px; }
 

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "889f9b4",
+    "date": "2026-09-20T16:11:28+08:00",
+    "message": "feat(resource): 详情页网盘图标改白底，「夸克网盘」文案改为「获取方式」（火焰粒子动效）",
+    "url": "https://github.com/xi7ang/GameHub/commit/889f9b4fea9387542ab9fddebb4226ba4b56119f"
+  },
+  {
     "hash": "ed43340",
     "date": "2026-09-20T12:48:01+08:00",
     "message": "sync: 新增资源《塞尔达传说：黄昏公主内置作弊》",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T20:53:58+08:00",
     "message": "fix(resource): 详情页 title 资源名与后缀之间加空格",
     "url": "https://github.com/xi7ang/GameHub/commit/c62d3bdaf5c91defc403bb4191123103b1ef7af4"
-  },
-  {
-    "hash": "8214ada",
-    "date": "2026-09-16T20:43:53+08:00",
-    "message": "feat(resource): 详情页 <title> 用资源名前 10 字做前缀",
-    "url": "https://github.com/xi7ang/GameHub/commit/8214ada8af7577ec17e12c15b5ce8b61967124cd"
   }
 ]
