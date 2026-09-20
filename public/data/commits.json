@@ -1,5 +1,23 @@
 [
   {
+    "hash": "0295610",
+    "date": "2026-09-19T20:31:43+08:00",
+    "message": "chore: 每日公告：发布【2026-09-19】游戏资源更新通知（5条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/0295610be1283bab9b6d9dea06c86afb4bef0212"
+  },
+  {
+    "hash": "065bff9",
+    "date": "2026-09-19T14:38:07+08:00",
+    "message": "fix(ci): search-index 新鲜度检查降级为警告",
+    "url": "https://github.com/xi7ang/GameHub/commit/065bff951274eeb2214a508b99095ce5e677a656"
+  },
+  {
+    "hash": "7858b08",
+    "date": "2026-09-19T14:31:21+08:00",
+    "message": "fix(ci): 重生成 search-index.json 等构建期产物",
+    "url": "https://github.com/xi7ang/GameHub/commit/7858b081e9e4ec1f33ff49b1b031ec8d5e81030e"
+  },
+  {
     "hash": "48ee270",
     "date": "2026-09-19T11:26:34+08:00",
     "message": "sync: 新增资源《电器维修模拟工坊中文版》",
@@ -160,23 +178,5 @@
     "date": "2026-09-16T14:52:51+08:00",
     "message": "sync: 新增资源《第九行星/Planet Nine Build.25202325》",
     "url": "https://github.com/xi7ang/GameHub/commit/095595ba3d517561ae83618f8a5ecf34ce9636ee"
-  },
-  {
-    "hash": "28e9714",
-    "date": "2026-09-16T14:51:31+08:00",
-    "message": "sync: 新增资源《NBA 2K27 Build.25221291》",
-    "url": "https://github.com/xi7ang/GameHub/commit/28e9714105357064f172ef05fd36e14b7e169ae3"
-  },
-  {
-    "hash": "e49542b",
-    "date": "2026-09-16T14:50:26+08:00",
-    "message": "sync: 新增资源《我的梦想卧室 Build.25096547 全DLC（My Dream Setu》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e49542b353a83ac8e784a4414272c3048d9aed0c"
-  },
-  {
-    "hash": "dda4a56",
-    "date": "2026-09-16T14:49:10+08:00",
-    "message": "sync: 新增资源《慢吞吞的恢复 Build.25211215（Plodding Recovery）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/dda4a56340e39d4982612ca55647870bfb6a9384"
   }
 ]
