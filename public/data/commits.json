@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3b07e0a",
+    "date": "2026-09-20T16:28:09+08:00",
+    "message": "feat(resource): 获取模块改版——图标卡改可点引导区+真实决策理由、引导线/下箭头指向 CTA、CTA 换火焰橙并加一次性入场扫光、移动端点后兜底文案",
+    "url": "https://github.com/xi7ang/GameHub/commit/3b07e0a14cbcd46ba6845bb44138ce919c6571a5"
+  },
+  {
     "hash": "6033d0f",
     "date": "2026-09-20T16:16:32+08:00",
     "message": "feat(resource): 「一键获取」改「一键免费获取」加 SVG 星火粒子，「获取方式」字号调至 18px",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T21:47:20+08:00",
     "message": "feat(notify): 通知点击深链改为 /category.html（原 /changelog.html）",
     "url": "https://github.com/xi7ang/GameHub/commit/ae6645aa5c31d2cfbc21a62ad3e21837ef8ae201"
-  },
-  {
-    "hash": "8151f37",
-    "date": "2026-09-16T20:58:11+08:00",
-    "message": "fix(resource): title 前缀 trim，避免第 10 字符是空格时拼出双空格",
-    "url": "https://github.com/xi7ang/GameHub/commit/8151f37e194f6b8e5e37d9020e10a6da282d6235"
   }
 ]

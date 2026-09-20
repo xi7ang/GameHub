@@ -58,9 +58,6 @@
                     <span v-for="h in getHints" :key="h" class="get-hint">{{ h }}</span>
                   </div>
                 </div>
-                <svg class="platform-card__go" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
-                  <path d="M9 3.6v9.4M4.7 8.9 9 13.2l4.3-4.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
               </a>
 
               <!-- 提取码行：当前隐藏（pwd-row），需要时改回 v-if="r.pwd" -->
@@ -442,24 +439,6 @@ watch(showQr, async (v) => {
 }
 .platform-card:hover { background: rgba(var(--accent-rgb), 0.07); }
 .platform-card:active { background: rgba(var(--accent-rgb), 0.12); }
-/* 能量引导线：从图标底部往下流进按钮，把视线物理地送到 CTA */
-.platform-card::after {
-  content: '';
-  position: absolute;
-  left: 25px;
-  top: 48px;
-  width: 2px;
-  height: 30px;
-  border-radius: 2px;
-  background: linear-gradient(180deg, rgba(255, 138, 26, 0), rgba(255, 170, 60, 0.85) 55%, rgba(255, 214, 110, 0.95));
-  background-size: 100% 200%;
-  animation: flow-down 2.4s linear infinite;
-  pointer-events: none;
-}
-@keyframes flow-down {
-  0% { background-position: 0 100%; }
-  100% { background-position: 0 -100%; }
-}
 .platform-card__icon {
   display: flex;
   align-items: center;
@@ -477,16 +456,6 @@ watch(showQr, async (v) => {
 .platform-card__body { flex: 1; min-width: 0; }
 .platform-card__name { font-weight: 700; font-size: 15px; }
 .platform-card__desc { font-size: 13px; margin-top: 2px; }
-/* 指向按钮的下箭头：动效方向必须指向 CTA，不指向自己 */
-.platform-card__go {
-  flex: 0 0 auto;
-  color: #ff9a3c;
-  animation: go-bob 1.8s ease-in-out infinite;
-}
-@keyframes go-bob {
-  0%, 100% { translate: 0 0; }
-  50% { translate: 0 3px; }
-}
 /* 决策理由：真实字段拼的，不编社会证明 */
 .get-hints { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 4px; }
 .get-hint { font-size: 12px; color: var(--text-low); white-space: nowrap; }
@@ -602,8 +571,6 @@ watch(showQr, async (v) => {
 @media (prefers-reduced-motion: reduce) {
   .hot-label__embers,
   .btn-sparks { display: none; }
-  .platform-card::after,
-  .platform-card__go,
   .detail__btn,
   .detail__btn::after { animation: none; }
 }
