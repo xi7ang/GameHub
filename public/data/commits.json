@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ed43340",
+    "date": "2026-09-20T12:48:01+08:00",
+    "message": "sync: 新增资源《塞尔达传说：黄昏公主内置作弊》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ed4334065787ceaab4f95f2e33df4ee06f5f5065"
+  },
+  {
     "hash": "55161ab",
     "date": "2026-09-20T12:44:35+08:00",
     "message": "sync: 新增资源《异度之刃决定版+2+黄金国合集》",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T20:43:53+08:00",
     "message": "feat(resource): 详情页 <title> 用资源名前 10 字做前缀",
     "url": "https://github.com/xi7ang/GameHub/commit/8214ada8af7577ec17e12c15b5ce8b61967124cd"
-  },
-  {
-    "hash": "2c05529",
-    "date": "2026-09-16T20:32:22+08:00",
-    "message": "chore: 每日公告：发布【2026-09-16】游戏资源更新通知（5条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/2c055294b3518baf8afd877d0b672c93b6cdee26"
   }
 ]

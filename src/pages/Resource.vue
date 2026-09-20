@@ -46,7 +46,14 @@
                   <span v-else>{{ platform?.icon }}</span>
                 </div>
                 <div class="platform-card__body">
-                  <div class="platform-card__name">{{ platform?.label }}</div>
+                  <div class="platform-card__name">
+                    <span class="hot-label">
+                      <span class="hot-label__text">获取方式</span>
+                      <span class="hot-label__embers" aria-hidden="true">
+                        <i v-for="n in 6" :key="n" :style="{ '--i': n }"></i>
+                      </span>
+                    </span>
+                  </div>
                   <div v-if="platform?.desc" class="platform-card__desc text-low">{{ platform.desc }}</div>
                 </div>
               </div>
@@ -206,6 +213,8 @@ const catBadgeStyle = computed(() => {
   }
 })
 const platformIconStyle = computed(() => {
+  // 带位图 logo 的网盘（如夸克）用白底：源图是透明底浅色 logo，压在暗色卡上几乎看不见
+  if (platform.value?.iconImg) return { background: '#fff' }
   const c = platform.value?.color || '#888'
   return { background: c + '1a' }
 })
@@ -406,6 +415,41 @@ watch(showQr, async (v) => {
 }
 .platform-card__name { font-weight: 700; font-size: 15px; }
 .platform-card__desc { font-size: 13px; margin-top: 2px; }
+
+/* 「获取方式」：暖色渐变字 + 上升火星粒子 */
+.hot-label { position: relative; display: inline-block; }
+.hot-label__text {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  background: linear-gradient(180deg, #ffedb0 0%, #ffb347 46%, #ff5a15 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 6px rgba(255, 122, 26, 0.35));
+}
+.hot-label__embers { position: absolute; inset: 0; pointer-events: none; }
+.hot-label__embers i {
+  position: absolute;
+  bottom: 1px;
+  left: calc(4% + var(--i) * 15%);
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff6c2 0%, #ffab2e 45%, #ff4d00 78%, transparent 100%);
+  opacity: 0;
+  animation: ember-rise 2.4s ease-out infinite;
+  animation-delay: calc(var(--i) * 0.4s);
+}
+@keyframes ember-rise {
+  0% { translate: 0 0; scale: 0.5; opacity: 0; }
+  25% { opacity: 1; }
+  70% { opacity: 0.65; }
+  100% { translate: 0 -22px; scale: 0.2; opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hot-label__embers { display: none; }
+}
 
 .pwd-row { display: flex; align-items: center; gap: 10px; }
 .pwd-code {
