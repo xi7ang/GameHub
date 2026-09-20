@@ -1,5 +1,11 @@
 [
   {
+    "hash": "2ba56f3",
+    "date": "2026-09-20T12:37:49+08:00",
+    "message": "sync: 新增资源《封神演义之黄飞虎归周 /CREATION OF THE GODS Rebelli》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2ba56f3a2ab2a0e8135b90a170a8ed1fa4387920"
+  },
+  {
     "hash": "11d3938",
     "date": "2026-09-20T12:34:34+08:00",
     "message": "sync: 新增资源《TCG卡牌商店模拟器 集换卡店模拟器 TCG卡牌店模拟器/ TCG Card S》",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T20:01:44+08:00",
     "message": "docs: README 增加系统架构图（Archify 生成，PNG + 交互版 HTML + 源 JSON）",
     "url": "https://github.com/xi7ang/GameHub/commit/a9862ea4e05720c1288a6b209a0effd327cdd3ad"
-  },
-  {
-    "hash": "9b6b952",
-    "date": "2026-09-16T19:01:05+08:00",
-    "message": "feat: 全站注入百度统计（构建期 postbuild，覆盖全部 html 入口）",
-    "url": "https://github.com/xi7ang/GameHub/commit/9b6b952e332ad27ade7e167d55360534c8dfb391"
   }
 ]
