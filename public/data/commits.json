@@ -1,5 +1,11 @@
 [
   {
+    "hash": "55161ab",
+    "date": "2026-09-20T12:44:35+08:00",
+    "message": "sync: 新增资源《异度之刃决定版+2+黄金国合集》",
+    "url": "https://github.com/xi7ang/GameHub/commit/55161ab09b068df4afa2bbabb6d4ad3daf0fe41b"
+  },
+  {
     "hash": "b5a6f50",
     "date": "2026-09-20T12:41:11+08:00",
     "message": "sync: 新增资源《超市大混乱 /Supermarket Chaos/单机+联机 v1.2.4》",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T20:32:22+08:00",
     "message": "chore: 每日公告：发布【2026-09-16】游戏资源更新通知（5条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/2c055294b3518baf8afd877d0b672c93b6cdee26"
-  },
-  {
-    "hash": "51f39ad",
-    "date": "2026-09-16T20:14:04+08:00",
-    "message": "ci(ecs): sitemap.xml/robots.txt 域名改写为 mibear.top 并加校验",
-    "url": "https://github.com/xi7ang/GameHub/commit/51f39ad584db940bcfff5bfef2a72eb3f8ae3c60"
   }
 ]
