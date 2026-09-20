@@ -1,5 +1,11 @@
 [
   {
+    "hash": "11d3938",
+    "date": "2026-09-20T12:34:34+08:00",
+    "message": "sync: 新增资源《TCG卡牌商店模拟器 集换卡店模拟器 TCG卡牌店模拟器/ TCG Card S》",
+    "url": "https://github.com/xi7ang/GameHub/commit/11d393859ce094a6f68479250d5ba1c68bc94265"
+  },
+  {
     "hash": "0295610",
     "date": "2026-09-19T20:31:43+08:00",
     "message": "chore: 每日公告：发布【2026-09-19】游戏资源更新通知（5条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T19:01:05+08:00",
     "message": "feat: 全站注入百度统计（构建期 postbuild，覆盖全部 html 入口）",
     "url": "https://github.com/xi7ang/GameHub/commit/9b6b952e332ad27ade7e167d55360534c8dfb391"
-  },
-  {
-    "hash": "095595b",
-    "date": "2026-09-16T14:52:51+08:00",
-    "message": "sync: 新增资源《第九行星/Planet Nine Build.25202325》",
-    "url": "https://github.com/xi7ang/GameHub/commit/095595ba3d517561ae83618f8a5ecf34ce9636ee"
   }
 ]
