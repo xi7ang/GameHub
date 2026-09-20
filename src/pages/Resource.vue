@@ -40,7 +40,7 @@
 
             <!-- 获取卡片：平台 + 提取码 + 一键获取 -->
             <div class="get-card">
-              <div class="platform-card">
+              <a :href="r.url" target="_blank" rel="noreferrer" class="platform-card" @click="onGet">
                 <div class="platform-card__icon" :style="platformIconStyle">
                   <img v-if="platform?.iconImg" class="platform-card__icon-img" :src="platform.iconImg" :alt="platform?.label || '网盘'" />
                   <span v-else>{{ platform?.icon }}</span>
@@ -54,9 +54,14 @@
                       </span>
                     </span>
                   </div>
-                  <div v-if="platform?.desc" class="platform-card__desc text-low">{{ platform.desc }}</div>
+                  <div v-if="getHints.length" class="get-hints">
+                    <span v-for="h in getHints" :key="h" class="get-hint">{{ h }}</span>
+                  </div>
                 </div>
-              </div>
+                <svg class="platform-card__go" width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+                  <path d="M9 3.6v9.4M4.7 8.9 9 13.2l4.3-4.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
 
               <!-- 提取码行：当前隐藏（pwd-row），需要时改回 v-if="r.pwd" -->
               <div v-if="false && r.pwd" class="pwd-row">
@@ -71,7 +76,7 @@
                     <path d="M5 0 L6 4 L10 5 L6 6 L5 10 L4 6 L0 5 L4 4 Z" fill="currentColor" />
                   </svg>
                 </span>
-                <span class="detail__btn-label">🔑 一键免费获取</span>
+                <span class="detail__btn-label">{{ gotIt ? '✅ 已跳转，没打开点这里' : '🔑 一键免费获取' }}</span>
               </a>
             </div>
 
@@ -226,6 +231,26 @@ const platformIconStyle = computed(() => {
   return { background: c + '1a' }
 })
 
+// 「获取方式」下面的决策理由：只用站上真实存在的字段，不编「已获取 1234 次」这种假社会证明
+const getHints = computed(() => {
+  const item = r.value
+  if (!item) return []
+  const out = []
+  if (item.status !== 'inactive') out.push('✅ 免费分享')
+  if (item.size) out.push(`📦 ${item.size}`)
+  const d = daysAgo(item.updatedAt)
+  if (d !== null) out.push(d <= 0 ? '🕒 今日更新' : `🕒 ${d} 天前更新`)
+  return out
+})
+function daysAgo(iso) {
+  if (!iso) return null
+  const t = Date.parse(iso)
+  if (Number.isNaN(t)) return null
+  return Math.max(0, Math.floor((Date.now() - t) / 86400000))
+}
+// 移动端点了之后按钮换兜底文案：目标页被拦截/加载慢时用户能再点一次，这是真实的流失点
+const gotIt = ref(false)
+
 function fmtFull(iso) {
   if (!iso) return ''
   const d = new Date(iso)
@@ -245,7 +270,10 @@ function onGet(e) {
   if (window.matchMedia('(min-width: 768px)').matches) {
     e.preventDefault()
     showQr.value = true
+    return
   }
+  // 移动端直接跳网盘；这里不动 preventDefault，让默认导航照常发生
+  gotIt.value = true
 }
 
 // 渐变游戏风二维码：深色模块替换为紫→蓝→青渐变
@@ -401,10 +429,36 @@ watch(showQr, async (v) => {
   background: linear-gradient(160deg, rgba(var(--accent-rgb), 0.09), rgba(var(--accent-rgb), 0.02) 55%, transparent);
 }
 
+/* 图标卡 = 可点引导区：整块跟按钮同 href，视线第一站就是可操作的 */
 .platform-card {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 12px;
+  padding: 4px;
+  margin: -4px;
+  border-radius: 12px;
+  transition: background 0.25s ease;
+}
+.platform-card:hover { background: rgba(var(--accent-rgb), 0.07); }
+.platform-card:active { background: rgba(var(--accent-rgb), 0.12); }
+/* 能量引导线：从图标底部往下流进按钮，把视线物理地送到 CTA */
+.platform-card::after {
+  content: '';
+  position: absolute;
+  left: 25px;
+  top: 48px;
+  width: 2px;
+  height: 30px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, rgba(255, 138, 26, 0), rgba(255, 170, 60, 0.85) 55%, rgba(255, 214, 110, 0.95));
+  background-size: 100% 200%;
+  animation: flow-down 2.4s linear infinite;
+  pointer-events: none;
+}
+@keyframes flow-down {
+  0% { background-position: 0 100%; }
+  100% { background-position: 0 -100%; }
 }
 .platform-card__icon {
   display: flex;
@@ -420,8 +474,22 @@ watch(showQr, async (v) => {
   height: 30px;
   object-fit: contain;
 }
+.platform-card__body { flex: 1; min-width: 0; }
 .platform-card__name { font-weight: 700; font-size: 15px; }
 .platform-card__desc { font-size: 13px; margin-top: 2px; }
+/* 指向按钮的下箭头：动效方向必须指向 CTA，不指向自己 */
+.platform-card__go {
+  flex: 0 0 auto;
+  color: #ff9a3c;
+  animation: go-bob 1.8s ease-in-out infinite;
+}
+@keyframes go-bob {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 3px; }
+}
+/* 决策理由：真实字段拼的，不编社会证明 */
+.get-hints { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 4px; }
+.get-hint { font-size: 12px; color: var(--text-low); white-space: nowrap; }
 
 /* 「获取方式」：暖色渐变字 + 上升火星粒子 */
 .hot-label { position: relative; display: inline-block; }
@@ -446,8 +514,9 @@ watch(showQr, async (v) => {
   border-radius: 50%;
   background: radial-gradient(circle, #fff6c2 0%, #ffab2e 45%, #ff4d00 78%, transparent 100%);
   opacity: 0;
-  animation: ember-rise 2.4s ease-out infinite;
-  animation-delay: calc(var(--i) * 0.4s);
+  /* 只跑一次：进页时的入场火星，不常驻循环（循环动画看三遍就是噪音） */
+  animation: ember-rise 2.4s ease-out 0.2s 1 both;
+  animation-delay: calc(0.2s + var(--i) * 0.4s);
 }
 @keyframes ember-rise {
   0% { translate: 0 0; scale: 0.5; opacity: 0; }
@@ -471,7 +540,45 @@ watch(showQr, async (v) => {
   letter-spacing: 0.1em;
   color: var(--neon-cyan);
 }
-.detail__btn { position: relative; overflow: hidden; font-size: 16px; padding: 13px 28px; justify-content: center; width: 100%; }
+.detail__btn {
+  position: relative;
+  overflow: hidden;
+  font-size: 17px;
+  font-weight: 800;
+  padding: 15px 28px;
+  border-radius: 16px;
+  justify-content: center;
+  width: 100%;
+  /* 全站唯一用橙色的地方：跟粒子同一语义（火 = 值得拿），从金色 CTA 里跳出来 */
+  color: #3b1e00;
+  background: linear-gradient(165deg, #ffd45c 0%, #ff9f22 52%, #ff6a00 100%);
+  box-shadow: 0 6px 26px rgba(255, 122, 26, 0.38);
+  animation: cta-in 0.55s cubic-bezier(0.2, 0.8, 0.3, 1) both;
+}
+.detail__btn:hover { box-shadow: 0 8px 34px rgba(255, 122, 26, 0.55); transform: translateY(-1px); }
+.detail__btn:active { transform: scale(0.97); }
+/* 进页一次的扫光：跑完停住，不循环；动 transform 的伪元素跟 :hover/:active 的 transform 不撞车 */
+.detail__btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 45%;
+  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+  transform: translateX(-160%);
+  animation: cta-sweep 1.2s ease-out 0.35s 1 both;
+  pointer-events: none;
+}
+/* 入场缩放动的是 scale 而不是 transform：transform 会永久盖住 :hover/:active 的位移与缩放 */
+@keyframes cta-in {
+  from { scale: 0.92; opacity: 0.5; }
+  to { scale: 1; opacity: 1; }
+}
+@keyframes cta-sweep {
+  from { transform: translateX(-160%); }
+  to { transform: translateX(320%); }
+}
 .detail__btn-label { position: relative; z-index: 1; }
 
 /* 「一键免费获取」：按钮内上升的 SVG 四角星粒子 */
@@ -480,7 +587,8 @@ watch(showQr, async (v) => {
   position: absolute;
   bottom: 3px;
   left: calc(4% + (var(--i) - 1) * 18%);
-  color: #fff6cf;
+  color: #ffffff;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
   opacity: 0;
   animation: spark-rise 2.6s ease-out infinite;
   animation-delay: calc(var(--i) * 0.42s);
@@ -492,7 +600,12 @@ watch(showQr, async (v) => {
   100% { translate: 0 -30px; scale: 0.15; opacity: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
+  .hot-label__embers,
   .btn-sparks { display: none; }
+  .platform-card::after,
+  .platform-card__go,
+  .detail__btn,
+  .detail__btn::after { animation: none; }
 }
 .detail__desc { font-size: 15px; color: var(--text-mid); margin-bottom: 20px; }
 .detail__meta { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; margin-top: auto; border-top: 1px solid var(--glass-border); padding-top: 16px; }

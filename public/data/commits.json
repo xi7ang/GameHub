@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6033d0f",
+    "date": "2026-09-20T16:16:32+08:00",
+    "message": "feat(resource): 「一键获取」改「一键免费获取」加 SVG 星火粒子，「获取方式」字号调至 18px",
+    "url": "https://github.com/xi7ang/GameHub/commit/6033d0f9c08a0cd2e3017366d777fad26cb8dab9"
+  },
+  {
     "hash": "889f9b4",
     "date": "2026-09-20T16:11:28+08:00",
     "message": "feat(resource): 详情页网盘图标改白底，「夸克网盘」文案改为「获取方式」（火焰粒子动效）",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T20:58:11+08:00",
     "message": "fix(resource): title 前缀 trim，避免第 10 字符是空格时拼出双空格",
     "url": "https://github.com/xi7ang/GameHub/commit/8151f37e194f6b8e5e37d9020e10a6da282d6235"
-  },
-  {
-    "hash": "c62d3bd",
-    "date": "2026-09-16T20:53:58+08:00",
-    "message": "fix(resource): 详情页 title 资源名与后缀之间加空格",
-    "url": "https://github.com/xi7ang/GameHub/commit/c62d3bdaf5c91defc403bb4191123103b1ef7af4"
   }
 ]
