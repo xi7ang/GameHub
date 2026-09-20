@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b5a6f50",
+    "date": "2026-09-20T12:41:11+08:00",
+    "message": "sync: 新增资源《超市大混乱 /Supermarket Chaos/单机+联机 v1.2.4》",
+    "url": "https://github.com/xi7ang/GameHub/commit/b5a6f508f14eddb129891aec82f95281a4bb1e33"
+  },
+  {
     "hash": "2ba56f3",
     "date": "2026-09-20T12:37:49+08:00",
     "message": "sync: 新增资源《封神演义之黄飞虎归周 /CREATION OF THE GODS Rebelli》",
@@ -172,11 +178,5 @@
     "date": "2026-09-16T20:14:04+08:00",
     "message": "ci(ecs): sitemap.xml/robots.txt 域名改写为 mibear.top 并加校验",
     "url": "https://github.com/xi7ang/GameHub/commit/51f39ad584db940bcfff5bfef2a72eb3f8ae3c60"
-  },
-  {
-    "hash": "a9862ea",
-    "date": "2026-09-16T20:01:44+08:00",
-    "message": "docs: README 增加系统架构图（Archify 生成，PNG + 交互版 HTML + 源 JSON）",
-    "url": "https://github.com/xi7ang/GameHub/commit/a9862ea4e05720c1288a6b209a0effd327cdd3ad"
   }
 ]
