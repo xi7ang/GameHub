@@ -561,7 +561,7 @@
               <div class="form-group"><label class="form-label">结束日期</label><input v-model="activityForm.endAt" class="form-input" placeholder="2026-10-06" /></div>
               <div class="form-group" style="grid-column: 1/-1"><label class="form-label">活动说明</label><textarea v-model="activityForm.intro" class="form-input" rows="3" /></div>
               <div class="form-group"><label class="form-label">参与规则（一行一条）</label><textarea v-model="activityRulesStr" class="form-input" rows="6" /></div>
-              <div class="form-group"><label class="form-label">红线 / 禁区（一行一条）</label><textarea v-model="activityBansStr" class="form-input" rows="6" /></div>
+              <div class="form-group"><label class="form-label">小经验 / 小提示（一行一条，前台以正向文案展示）</label><textarea v-model="activityBansStr" class="form-input" rows="6" /></div>
               <div class="form-group"><label class="form-label">提交入口 URL</label><input v-model="activityForm.submitUrl" class="form-input" /></div>
               <div class="form-group"><label class="form-label">提交说明</label><input v-model="activityForm.submitNote" class="form-input" /></div>
             </div>
@@ -606,7 +606,7 @@
                 <div class="form-group"><label class="form-label">链接政策</label><input v-model="p.linkPolicy" class="form-input" /></div>
                 <div class="form-group"><label class="form-label">作品形态</label><input v-model="p.form" class="form-input" /></div>
                 <div class="form-group" style="grid-column: 1/-1"><label class="form-label">硬性要求</label><input v-model="p.reqs" class="form-input" /></div>
-                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">内容禁区</label><input v-model="p.bans" class="form-input" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">小提示（前台以正向文案展示，别写“封号”“风险自负”这类话）</label><input v-model="p.bans" class="form-input" /></div>
                 <div class="form-group" style="grid-column: 1/-1"><label class="form-label">标题</label><input v-model="p.title" class="form-input" /></div>
                 <div class="form-group" style="grid-column: 1/-1"><label class="form-label">正文（可写口令占位符，前台复制时自动替换成用户口令）</label><textarea v-model="p.body" class="form-input" rows="6" /></div>
                 <div class="form-group" style="grid-column: 1/-1"><label class="form-label">话题 / 标签</label><input v-model="p.tags" class="form-input" /></div>

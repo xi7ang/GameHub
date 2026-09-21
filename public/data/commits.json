@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5aafc1b",
+    "date": "2026-09-21T12:24:09+08:00",
+    "message": "feat(activity): 新增推广活动页 activity.html + 素材/文案/榜单/提交台账数据 + Admin 活动配置与提交审核两个后台",
+    "url": "https://github.com/xi7ang/GameHub/commit/5aafc1b1c285ea362d0b5ee1ab773f712064de65"
+  },
+  {
     "hash": "ace2683",
     "date": "2026-09-21T10:55:18+08:00",
     "message": "sync: 新增资源《行会1重制版：欧洲1410v0.4.0中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-17T20:31:49+08:00",
     "message": "chore: 每日公告：发布【2026-09-17】游戏资源更新通知（6条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/7b3af855845324ce7cba91b68e5115824f3e7d65"
-  },
-  {
-    "hash": "a4396cb",
-    "date": "2026-09-17T13:22:10+08:00",
-    "message": "sync: 新增资源《鲁尼克大冒险：不可思议迷宫 经典 HD重制版_解压即》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a4396cb6b2385251ff75eb9e116d663adafe85db"
   }
 ]
