@@ -87,7 +87,7 @@
       <section class="container" id="code">
         <div class="ticket">
           <div class="ticket__left">
-            <span class="ticket__label">🎟 你的活动通行证</span>
+            <span class="ticket__label">🎟 你的通行证</span>
             <code class="ticket__code">{{ code || 'GH-~~~~' }}</code>
             <span class="ticket__hint">复制文案时会自动带上它，交作品时报这个号就行</span>
           </div>
@@ -356,8 +356,8 @@ onMounted(async () => {
 .act-materials { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; position: relative; z-index: 1; }
 .mat { display: flex; align-items: center; gap: 14px; padding: 14px; transition: transform 0.2s ease, border-color 0.2s ease; }
 .mat:hover { transform: translateY(-3px); border-color: var(--accent-gold); }
-.mat__thumb { width: 96px; height: 62px; object-fit: cover; border-radius: 10px; flex: 0 0 auto;
-  background: rgba(var(--bg-0-rgb), 0.6); border: 1px solid var(--glass-border); }
+.mat__thumb { width: 120px; height: 120px; object-fit: contain; border-radius: 10px; flex: 0 0 auto;
+  padding: 4px; background: rgba(var(--bg-0-rgb), 0.6); border: 1px solid var(--glass-border); }
 .mat__meta { display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 0; }
 .mat__name { font-size: 14px; font-weight: 600; }
 .mat__note { font-size: 12px; color: var(--text-low); }

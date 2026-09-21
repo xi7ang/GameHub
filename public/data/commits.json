@@ -1,5 +1,11 @@
 [
   {
+    "hash": "254c449",
+    "date": "2026-09-21T12:41:51+08:00",
+    "message": "style(activity): 活动页改网感报名页（三步走/奖励卡/通行证/平台卡/荣誉榜），去掉封号·风险自负·禁区类表述，同一条建议改正向说法",
+    "url": "https://github.com/xi7ang/GameHub/commit/254c4491acba646ff7c6620dcb212aafd40ba1b4"
+  },
+  {
     "hash": "5aafc1b",
     "date": "2026-09-21T12:24:09+08:00",
     "message": "feat(activity): 新增推广活动页 activity.html + 素材/文案/榜单/提交台账数据 + Admin 活动配置与提交审核两个后台",
@@ -172,11 +178,5 @@
     "date": "2026-09-18T10:43:55+08:00",
     "message": "sync: 新增资源《【塔防】植物娘大战僵尸v0.8.7_内置作弊菜单.apk》",
     "url": "https://github.com/xi7ang/GameHub/commit/4ab2e9df377aac4025ce7995ed974297e9061d96"
-  },
-  {
-    "hash": "7b3af85",
-    "date": "2026-09-17T20:31:49+08:00",
-    "message": "chore: 每日公告：发布【2026-09-17】游戏资源更新通知（6条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/7b3af855845324ce7cba91b68e5115824f3e7d65"
   }
 ]
