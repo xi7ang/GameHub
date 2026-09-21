@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b3fae2a",
+    "date": "2026-09-21T10:45:27+08:00",
+    "message": "sync: 新增资源《鬼屋重现重返凶宅v1.3.5 Rehaunted》",
+    "url": "https://github.com/xi7ang/GameHub/commit/b3fae2a7781d3dad55df396cd5a0e73a154899c4"
+  },
+  {
     "hash": "0513fe6",
     "date": "2026-09-21T10:41:43+08:00",
     "message": "sync: 新增资源《汉堡轮班：团队冲刺v1.0 Burger Shift: Team Rush》",
@@ -172,11 +178,5 @@
     "date": "2026-09-17T08:23:48+08:00",
     "message": "sync: 新增资源《虫族幸存者：无尽围攻》",
     "url": "https://github.com/xi7ang/GameHub/commit/83826d711cd966b7cf024061b0c981895c8699e7"
-  },
-  {
-    "hash": "cc777a4",
-    "date": "2026-09-17T08:20:39+08:00",
-    "message": "sync: 新增资源《桌上谈兵v0.6.11中文解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cc777a4e1efe798423486cb4aa8db0777b5dc745"
   }
 ]
