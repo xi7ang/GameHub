@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0513fe6",
+    "date": "2026-09-21T10:41:43+08:00",
+    "message": "sync: 新增资源《汉堡轮班：团队冲刺v1.0 Burger Shift: Team Rush》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0513fe6ff5947352103d348ba65e76565a89c9fe"
+  },
+  {
     "hash": "5913807",
     "date": "2026-09-20T20:31:25+08:00",
     "message": "chore: 每日公告：发布【2026-09-20】游戏资源更新通知（5条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-09-17T08:20:39+08:00",
     "message": "sync: 新增资源《桌上谈兵v0.6.11中文解压即玩》",
     "url": "https://github.com/xi7ang/GameHub/commit/cc777a4e1efe798423486cb4aa8db0777b5dc745"
-  },
-  {
-    "hash": "7e1a1ff",
-    "date": "2026-09-17T08:17:16+08:00",
-    "message": "sync: 新增资源《全国战争：三国 豪华中文版 全DLC》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7e1a1ff43154d253115b9f56cba4a0dcf6d63dff"
   }
 ]
