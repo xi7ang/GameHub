@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1800" viewBox="0 0 800 1800" role="img" aria-label="游戏源神 内容推广活动 长图">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d0f12"/>
+      <stop offset="0.5" stop-color="#151a21"/>
+      <stop offset="1" stop-color="#211810"/>
+    </linearGradient>
+    <linearGradient id="lgold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd45c"/>
+      <stop offset="0.5" stop-color="#ff9f22"/>
+      <stop offset="1" stop-color="#ff6a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1800" fill="url(#lbg)"/>
+  <text x="60" y="140" font-family="Chakra Petch, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#c99a5b" letter-spacing="6">游戏资源聚合 · 免费</text>
+  <text x="60" y="236" font-family="Chakra Petch, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="700" fill="url(#lgold)">游戏源神</text>
+  <text x="60" y="300" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#e9e7e2">内容推广活动 · 玩法</text>
+  <line x1="60" y1="336" x2="740" y2="336" stroke="#c99a5b" stroke-opacity="0.35"/>
+
+  <text x="60" y="410" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#e9e7e2">① 选一个平台发布游戏内容</text>
+  <text x="60" y="456" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#a3a29c">小红书 / B站 / 微博 / 知乎 任一，至少 3 张图或 30 秒视频</text>
+  <text x="60" y="530" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#e9e7e2">② 内容里自然提到「游戏源神」</text>
+  <text x="60" y="576" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#a3a29c">不要贴链接、二维码、微信号（会被判违规，封的是你的号）</text>
+  <text x="60" y="650" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#e9e7e2">③ 24 小时后提交作品链接 + 口令</text>
+  <text x="60" y="696" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#a3a29c">截图需包含账号昵称与发布时间</text>
+
+  <line x1="60" y1="760" x2="740" y2="760" stroke="#c99a5b" stroke-opacity="0.35"/>
+  <text x="60" y="834" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#e9e7e2">奖励阶梯</text>
+
+  <rect x="60" y="880" width="680" height="150" rx="20" fill="#c99a5b" fill-opacity="0.08" stroke="#c99a5b" stroke-opacity="0.25"/>
+  <text x="92" y="940" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#e6c07a">基础奖</text>
+  <text x="92" y="984" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#e9e7e2">1 篇有效作品 → 通用兑换码（即时发放）</text>
+
+  <rect x="60" y="1050" width="680" height="150" rx="20" fill="#c99a5b" fill-opacity="0.08" stroke="#c99a5b" stroke-opacity="0.25"/>
+  <text x="92" y="1110" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#e6c07a">进阶奖</text>
+  <text x="92" y="1154" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#e9e7e2">3 个不同平台各 1 篇 → 优先求资源 ×1</text>
+
+  <rect x="60" y="1220" width="680" height="150" rx="20" fill="#c99a5b" fill-opacity="0.08" stroke="#c99a5b" stroke-opacity="0.25"/>
+  <text x="92" y="1280" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#e6c07a">榜奖</text>
+  <text x="92" y="1324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#e9e7e2">综合最佳 / 带来访问最多 → 定制合集 + 推广官</text>
+
+  <line x1="60" y1="1416" x2="740" y2="1416" stroke="#c99a5b" stroke-opacity="0.35"/>
+  <text x="60" y="1490" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#fb7185">禁止发布「游戏资源下载 / 网盘 / 破解」类内容</text>
+  <text x="60" y="1532" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#fb7185">禁止盗图、禁止编造没有过的体验</text>
+
+  <rect x="60" y="1600" width="680" height="110" rx="20" fill="url(#lgold)"/>
+  <text x="400" y="1668" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#3b1e00">pan.devmini.space</text>
+</svg>

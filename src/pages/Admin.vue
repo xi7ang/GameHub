@@ -544,6 +544,152 @@
             <div v-else class="text-low">加载中...</div>
           </template>
 
+          <!-- ═══ 活动配置 ═══ -->
+          <template v-else-if="tab === 'activity'">
+            <div class="flex-between mb-md">
+              <h2>🎁 活动配置 <span class="text-low" style="font-size: 13px">public/data/activity.json</span></h2>
+              <label class="flex gap-sm" style="align-items: center; font-size: 13px">
+                <input type="checkbox" v-model="activityForm.enabled" /> 活动开关
+              </label>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group"><label class="form-label">活动标题</label><input v-model="activityForm.title" class="form-input" /></div>
+              <div class="form-group"><label class="form-label">口令前缀</label><input v-model="activityForm.codePrefix" class="form-input" /></div>
+              <div class="form-group" style="grid-column: 1/-1"><label class="form-label">副标题</label><input v-model="activityForm.subtitle" class="form-input" /></div>
+              <div class="form-group"><label class="form-label">开始日期</label><input v-model="activityForm.startAt" class="form-input" placeholder="2026-09-22" /></div>
+              <div class="form-group"><label class="form-label">结束日期</label><input v-model="activityForm.endAt" class="form-input" placeholder="2026-10-06" /></div>
+              <div class="form-group" style="grid-column: 1/-1"><label class="form-label">活动说明</label><textarea v-model="activityForm.intro" class="form-input" rows="3" /></div>
+              <div class="form-group"><label class="form-label">参与规则（一行一条）</label><textarea v-model="activityRulesStr" class="form-input" rows="6" /></div>
+              <div class="form-group"><label class="form-label">红线 / 禁区（一行一条）</label><textarea v-model="activityBansStr" class="form-input" rows="6" /></div>
+              <div class="form-group"><label class="form-label">提交入口 URL</label><input v-model="activityForm.submitUrl" class="form-input" /></div>
+              <div class="form-group"><label class="form-label">提交说明</label><input v-model="activityForm.submitNote" class="form-input" /></div>
+            </div>
+
+            <h3 class="mb-sm" style="margin-top: 22px">奖励阶梯</h3>
+            <div class="table-wrap">
+              <table class="admin-table">
+                <thead><tr><th>档位</th><th>条件</th><th>奖励</th><th></th></tr></thead>
+                <tbody>
+                  <tr v-for="(r, i) in activityForm.rewards" :key="i">
+                    <td><input v-model="r.tier" class="form-input" /></td>
+                    <td><input v-model="r.cond" class="form-input" /></td>
+                    <td><input v-model="r.gift" class="form-input" /></td>
+                    <td><button class="btn btn-sm btn-danger" @click="activityForm.rewards.splice(i, 1)">删除</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button class="btn btn-sm" style="margin-top: 8px" @click="activityForm.rewards.push({ tier: '', cond: '', gift: '' })">+ 添加档位</button>
+
+            <h3 class="mb-sm" style="margin-top: 22px">配图素材（path 写根相对路径，文件放 public/ 下）</h3>
+            <div class="table-wrap">
+              <table class="admin-table">
+                <thead><tr><th>名称</th><th>路径</th><th>说明</th><th></th></tr></thead>
+                <tbody>
+                  <tr v-for="(m, i) in activityForm.materials" :key="i">
+                    <td><input v-model="m.name" class="form-input" /></td>
+                    <td><input v-model="m.path" class="form-input" placeholder="/activity/kv.svg" /></td>
+                    <td><input v-model="m.note" class="form-input" /></td>
+                    <td><button class="btn btn-sm btn-danger" @click="activityForm.materials.splice(i, 1)">删除</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button class="btn btn-sm" style="margin-top: 8px" @click="activityForm.materials.push({ name: '', path: '', note: '' })">+ 添加素材</button>
+
+            <h3 class="mb-sm" style="margin-top: 22px">平台素材与文案（前台一键复制的内容）</h3>
+            <div v-for="(p, i) in activityForm.platforms" :key="i" class="glass" style="padding: 16px; margin-bottom: 14px">
+              <div class="form-grid">
+                <div class="form-group"><label class="form-label">平台名</label><input v-model="p.name" class="form-input" /></div>
+                <div class="form-group"><label class="form-label">图标 emoji</label><input v-model="p.emoji" class="form-input" /></div>
+                <div class="form-group"><label class="form-label">链接政策</label><input v-model="p.linkPolicy" class="form-input" /></div>
+                <div class="form-group"><label class="form-label">作品形态</label><input v-model="p.form" class="form-input" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">硬性要求</label><input v-model="p.reqs" class="form-input" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">内容禁区</label><input v-model="p.bans" class="form-input" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">标题</label><input v-model="p.title" class="form-input" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">正文（可写口令占位符，前台复制时自动替换成用户口令）</label><textarea v-model="p.body" class="form-input" rows="6" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">话题 / 标签</label><input v-model="p.tags" class="form-input" /></div>
+              </div>
+            </div>
+
+            <h3 class="mb-sm" style="margin-top: 22px">榜单</h3>
+            <div class="form-grid">
+              <div class="form-group"><label class="form-label">更新时间</label><input v-model="activityBoard.updatedAt" class="form-input" placeholder="2026-09-28" /></div>
+              <div class="form-group"><label class="form-label">说明</label><input v-model="activityBoard.note" class="form-input" /></div>
+            </div>
+            <div class="table-wrap">
+              <table class="admin-table">
+                <thead><tr><th>名次</th><th>昵称</th><th>平台</th><th>作品数</th><th>奖励</th><th></th></tr></thead>
+                <tbody>
+                  <tr v-for="(it, i) in activityBoard.items" :key="i">
+                    <td><input v-model.number="it.rank" type="number" class="form-input" style="width: 70px" /></td>
+                    <td><input v-model="it.nick" class="form-input" /></td>
+                    <td><input v-model="it.platforms" class="form-input" placeholder="小红书 / B站" /></td>
+                    <td><input v-model.number="it.works" type="number" class="form-input" style="width: 80px" /></td>
+                    <td><input v-model="it.reward" class="form-input" /></td>
+                    <td><button class="btn btn-sm btn-danger" @click="activityBoard.items.splice(i, 1)">删除</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button class="btn btn-sm" style="margin-top: 8px" @click="activityBoard.items.push({ rank: activityBoard.items.length + 1, nick: '', platforms: '', works: 0, reward: '' })">+ 添加榜单行</button>
+          </template>
+
+          <!-- ═══ 提交审核 ═══ -->
+          <template v-else-if="tab === 'review'">
+            <div class="flex-between mb-md">
+              <h2>🛡️ 提交审核 <span class="text-low" style="font-size: 13px">public/data/activity-submissions.json</span></h2>
+              <span class="badge">待审核 {{ pendingCount }} 条</span>
+            </div>
+            <p class="text-low mb-md" style="font-size: 12px">
+              用户在 QQ 群 / 表单提交后，在这里录一条并审核。站上没有后端，<strong>奖励码需要你自己发给用户</strong>——这里只是台账。
+              抽查要点：口令是否重复、作品链接是否真实存在、发布时间是否早于提交时间。
+            </p>
+
+            <div class="glass" style="padding: 16px; margin-bottom: 16px">
+              <div class="form-grid">
+                <div class="form-group"><label class="form-label">口令</label><input v-model="newSub.code" class="form-input" placeholder="GH-XXXX" /></div>
+                <div class="form-group"><label class="form-label">昵称</label><input v-model="newSub.nick" class="form-input" /></div>
+                <div class="form-group">
+                  <label class="form-label">平台</label>
+                  <select v-model="newSub.platform" class="form-input">
+                    <option v-for="p in activityForm.platforms" :key="p.key" :value="p.key">{{ p.name }}</option>
+                  </select>
+                </div>
+                <div class="form-group"><label class="form-label">作品链接</label><input v-model="newSub.url" class="form-input" /></div>
+                <div class="form-group" style="grid-column: 1/-1"><label class="form-label">备注</label><input v-model="newSub.note" class="form-input" /></div>
+              </div>
+              <button class="btn btn-primary btn-sm" @click="addSubmission">+ 录入一条提交</button>
+            </div>
+
+            <div v-if="submissions.items.length" class="table-wrap">
+              <table class="admin-table">
+                <thead><tr><th>口令</th><th>昵称</th><th>平台</th><th>作品</th><th>提交时间</th><th>状态</th><th>奖励</th><th>已发</th><th></th></tr></thead>
+                <tbody>
+                  <tr v-for="(s, i) in submissions.items" :key="s.id || i">
+                    <td><code class="text-low">{{ s.code || '-' }}</code></td>
+                    <td>{{ s.nick }}</td>
+                    <td>{{ platformName(s.platform) }}</td>
+                    <td><a :href="s.url" target="_blank" rel="noreferrer" style="color: var(--neon-cyan)">打开</a></td>
+                    <td class="text-low" style="font-size: 12px; white-space: nowrap">{{ s.submittedAt }}</td>
+                    <td>
+                      <select v-model="s.status" class="form-input">
+                        <option value="pending">待审核</option>
+                        <option value="approved">通过</option>
+                        <option value="rejected">拒绝</option>
+                      </select>
+                    </td>
+                    <td><input v-model="s.reward" class="form-input" style="width: 130px" /></td>
+                    <td><input type="checkbox" v-model="s.paid" /></td>
+                    <td><button class="btn btn-sm btn-danger" @click="delSubmission(i)">删除</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div v-else class="text-low">还没有提交记录。</div>
+          </template>
+
           <!-- 保存条 -->
           <div v-if="dirty" class="save-bar">
             <div class="flex gap-sm">
@@ -885,6 +1031,8 @@ const tabs = [
   { key: 'health', icon: '🩺', name: '数据体检' },
   { key: 'backup', icon: '💾', name: '备份回滚' },
   { key: 'logs', icon: '📋', name: '操作日志' },
+  { key: 'activity', icon: '🎁', name: '活动配置' },
+  { key: 'review', icon: '🛡️', name: '提交审核' },
 ]
 
 // ── Dashboard 统计 ──
@@ -1194,6 +1342,53 @@ async function loadOpLogs() {
   }
 }
 
+// ── 活动配置：activity.json / activity-leaderboard.json / activity-submissions.json ──
+// 三个都是独立数据文件，不在 siteForm 的 deep watch 覆盖范围内，所以自己挂 deep watch + 初始化守卫
+const activityForm = reactive({
+  enabled: false, version: '', title: '', subtitle: '', startAt: '', endAt: '',
+  intro: '', rules: [], bans: [], submitUrl: '', submitNote: '', codePrefix: 'GH-',
+  rewards: [], materials: [], platforms: [],
+})
+const activityBoard = reactive({ updatedAt: '', note: '', items: [] })
+const submissions = reactive({ updatedAt: '', note: '', items: [] })
+const activityInit = ref(false)
+const newSub = reactive({ code: '', nick: '', platform: 'xhs', url: '', note: '' })
+const activityRulesStr = computed({
+  get: () => (activityForm.rules || []).join('\n'),
+  set: (v) => { activityForm.rules = String(v).split('\n').map((s) => s.trim()).filter(Boolean) },
+})
+const activityBansStr = computed({
+  get: () => (activityForm.bans || []).join('\n'),
+  set: (v) => { activityForm.bans = String(v).split('\n').map((s) => s.trim()).filter(Boolean) },
+})
+const pendingCount = computed(() => (submissions.items || []).filter((s) => s.status === 'pending').length)
+function platformName(key) {
+  return (activityForm.platforms || []).find((p) => p.key === key)?.name || key || '-'
+}
+function addSubmission() {
+  const nick = String(newSub.nick || '').trim()
+  const url = String(newSub.url || '').trim()
+  if (!nick || !url) { alert('昵称和作品链接必填'); return }
+  const code = String(newSub.code || '').trim().toUpperCase()
+  const dup = code ? (submissions.items || []).filter((s) => String(s.code || '').toUpperCase() === code).length : 0
+  submissions.items.unshift({
+    id: Date.now().toString(36) + Math.random().toString(36).slice(2, 5),
+    code, nick, platform: newSub.platform, url,
+    submittedAt: new Date().toISOString().slice(0, 16).replace('T', ' '),
+    status: 'pending', tier: '', reward: '', paid: false, note: String(newSub.note || '').trim(),
+  })
+  if (dup) alert(`提示：口令 ${code} 已有 ${dup} 条记录，注意重复提交`)
+  Object.assign(newSub, { code: '', nick: '', url: '', note: '' })
+  dirty.value = true
+}
+function delSubmission(i) {
+  if (!confirm('删除这条提交记录？')) return
+  submissions.items.splice(i, 1)
+  dirty.value = true
+}
+// 活动三个文件任何改动都标脏（独立数据必须手动标脏，否则保存条不出现）
+watch([activityForm, activityBoard, submissions], () => { if (activityInit.value) dirty.value = true }, { deep: true })
+
 // 首页热门搜索关键词：独立数据文件 public/data/hotKeywords.json（首页每次从中随机选 6-7 个展示）
 const hotKeywords = ref([])
 // 注意：hotKeywords 是独立 ref，不在 siteForm 的 deep watch 覆盖范围内，
@@ -1245,6 +1440,15 @@ async function refreshAll() {
     const hk = await readFile('public/data/hotKeywords.json')
     hotKeywords.value = Array.isArray(hk?.keywords) ? hk.keywords : []
   } catch { hotKeywords.value = [] }
+  try {
+    Object.assign(activityForm, await readFile('public/data/activity.json'))
+  } catch { /* 保留默认骨架 */ }
+  try {
+    Object.assign(activityBoard, await readFile('public/data/activity-leaderboard.json'))
+  } catch { /* 保留默认骨架 */ }
+  try {
+    Object.assign(submissions, await readFile('public/data/activity-submissions.json'))
+  } catch { /* 保留默认骨架 */ }
   site.announcementModal = site.announcementModal || { enabled: false, title: '站点公告', content: '', version: '', items: [] }
   site.androidApp = site.androidApp || ''
   if (!Array.isArray(site.announcementModal.items)) site.announcementModal.items = []
@@ -1257,6 +1461,7 @@ async function refreshAll() {
   site.brand.accent = site.brand.accent != null ? site.brand.accent : ''
   Object.assign(siteForm, JSON.parse(JSON.stringify(site)))
   siteInit.value = true // 之后用户任何修改都会触发 dirty
+  activityInit.value = true // 活动三个文件同理：load 完才开脏检测
   // 同步前台展示数据
   state.resources = [...resources.value]
   state.categories = [...cats.value]
@@ -1679,6 +1884,9 @@ async function saveAll() {
     await writeFile('public/data/categories.json', cats.value, msg)
     await writeFile('public/data/site.json', { ...siteForm }, msg)
     await writeFile('public/data/hotKeywords.json', { keywords: hotKeywords.value }, msg)
+    await writeFile('public/data/activity.json', JSON.parse(JSON.stringify(activityForm)), msg)
+    await writeFile('public/data/activity-leaderboard.json', JSON.parse(JSON.stringify(activityBoard)), msg)
+    await writeFile('public/data/activity-submissions.json', JSON.parse(JSON.stringify(submissions)), msg)
     // 同步前台
     state.resources = [...resources.value]
     state.categories = [...cats.value]

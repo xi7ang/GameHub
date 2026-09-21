@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ace2683",
+    "date": "2026-09-21T10:55:18+08:00",
+    "message": "sync: 新增资源《行会1重制版：欧洲1410v0.4.0中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ace2683ec0a84efd8848b32136504a92ae923c64"
+  },
+  {
     "hash": "c0bd63f",
     "date": "2026-09-21T10:52:12+08:00",
     "message": "sync: 新增资源《csgo 开箱模拟器 2无条件开箱 MOD》",
@@ -172,11 +178,5 @@
     "date": "2026-09-17T13:22:10+08:00",
     "message": "sync: 新增资源《鲁尼克大冒险：不可思议迷宫 经典 HD重制版_解压即》",
     "url": "https://github.com/xi7ang/GameHub/commit/a4396cb6b2385251ff75eb9e116d663adafe85db"
-  },
-  {
-    "hash": "d48df93",
-    "date": "2026-09-17T08:31:12+08:00",
-    "message": "sync: 新增资源《天命与厄运：世界 中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d48df933efabd3eaefc209dc91d0e15cd933d53b"
   }
 ]
