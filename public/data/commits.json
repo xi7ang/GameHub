@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c0bd63f",
+    "date": "2026-09-21T10:52:12+08:00",
+    "message": "sync: 新增资源《csgo 开箱模拟器 2无条件开箱 MOD》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c0bd63ff1c0519115708018684d6cd6fb91d3ac3"
+  },
+  {
     "hash": "2361945",
     "date": "2026-09-21T10:48:53+08:00",
     "message": "sync: 新增资源《调酒师模拟器/Mixed Spirits Bartender Build.253》",
@@ -172,11 +178,5 @@
     "date": "2026-09-17T08:31:12+08:00",
     "message": "sync: 新增资源《天命与厄运：世界 中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/d48df933efabd3eaefc209dc91d0e15cd933d53b"
-  },
-  {
-    "hash": "63253d3",
-    "date": "2026-09-17T08:27:54+08:00",
-    "message": "sync: 新增资源《女神异闻录4：黄金版/PERSONA4 The G》",
-    "url": "https://github.com/xi7ang/GameHub/commit/63253d31d4407a628bf7c9d283e90260d667791c"
   }
 ]
