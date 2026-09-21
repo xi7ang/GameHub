@@ -1,5 +1,11 @@
 [
   {
+    "hash": "2361945",
+    "date": "2026-09-21T10:48:53+08:00",
+    "message": "sync: 新增资源《调酒师模拟器/Mixed Spirits Bartender Build.253》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2361945f86d81dae6fd051804a5b787442027bbd"
+  },
+  {
     "hash": "b3fae2a",
     "date": "2026-09-21T10:45:27+08:00",
     "message": "sync: 新增资源《鬼屋重现重返凶宅v1.3.5 Rehaunted》",
@@ -172,11 +178,5 @@
     "date": "2026-09-17T08:27:54+08:00",
     "message": "sync: 新增资源《女神异闻录4：黄金版/PERSONA4 The G》",
     "url": "https://github.com/xi7ang/GameHub/commit/63253d31d4407a628bf7c9d283e90260d667791c"
-  },
-  {
-    "hash": "83826d7",
-    "date": "2026-09-17T08:23:48+08:00",
-    "message": "sync: 新增资源《虫族幸存者：无尽围攻》",
-    "url": "https://github.com/xi7ang/GameHub/commit/83826d711cd966b7cf024061b0c981895c8699e7"
   }
 ]
