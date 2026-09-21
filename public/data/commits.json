@@ -1,5 +1,17 @@
 [
   {
+    "hash": "5913807",
+    "date": "2026-09-20T20:31:25+08:00",
+    "message": "chore: 每日公告：发布【2026-09-20】游戏资源更新通知（5条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/591380751daccd004139be93a50e628e4250bb86"
+  },
+  {
+    "hash": "47fe976",
+    "date": "2026-09-20T16:33:34+08:00",
+    "message": "polish(resource): 砍掉读起来像残留的引导线和角落箭头（截图复核结论），保留可点卡片/决策理由/CTA 对比",
+    "url": "https://github.com/xi7ang/GameHub/commit/47fe976490b27e2fda1be8f71641b6f6b9af82ca"
+  },
+  {
     "hash": "3b07e0a",
     "date": "2026-09-20T16:28:09+08:00",
     "message": "feat(resource): 获取模块改版——图标卡改可点引导区+真实决策理由、引导线/下箭头指向 CTA、CTA 换火焰橙并加一次性入场扫光、移动端点后兜底文案",
@@ -166,17 +178,5 @@
     "date": "2026-09-17T08:17:16+08:00",
     "message": "sync: 新增资源《全国战争：三国 豪华中文版 全DLC》",
     "url": "https://github.com/xi7ang/GameHub/commit/7e1a1ff43154d253115b9f56cba4a0dcf6d63dff"
-  },
-  {
-    "hash": "d210399",
-    "date": "2026-09-17T07:26:27+08:00",
-    "message": "feat(head): 注入百度站点验证 meta（codeva-zXlmKTo2DN）到全站 dist/*.html",
-    "url": "https://github.com/xi7ang/GameHub/commit/d210399d44ac9d7acbf4a845a27764fef0acba03"
-  },
-  {
-    "hash": "ae6645a",
-    "date": "2026-09-16T21:47:20+08:00",
-    "message": "feat(notify): 通知点击深链改为 /category.html（原 /changelog.html）",
-    "url": "https://github.com/xi7ang/GameHub/commit/ae6645aa5c31d2cfbc21a62ad3e21837ef8ae201"
   }
 ]

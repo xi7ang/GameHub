@@ -23434,5 +23434,25 @@
     "addedAt": "2026-09-20T12:48:00+08:00",
     "updatedAt": "2026-09-20T12:48:00+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0082",
+    "title": "汉堡轮班：团队冲刺v1.0 Burger Shift: Team Rush",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/9246cdf11522?pwd=A6KO",
+    "pwd": "A6KO",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u40c4c093c3df.webp",
+    "steamAppID": null,
+    "desc": "紧张刺激的汉堡店模拟，团队协作应对高峰时段，分工明确效率翻倍，解锁特色配方挑战极限，在快节奏中体验团队凝聚力与成就感。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-21T10:41:42+08:00",
+    "updatedAt": "2026-09-21T10:41:42+08:00",
+    "month": "202609"
   }
 ]
