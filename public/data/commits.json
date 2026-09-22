@@ -1,5 +1,17 @@
 [
   {
+    "hash": "080bd8b",
+    "date": "2026-09-21T20:31:52+08:00",
+    "message": "chore: 每日公告：发布【2026-09-21】游戏资源更新通知（5条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/080bd8bfff2382f752e8061331edb0ec5db21832"
+  },
+  {
+    "hash": "5c24c61",
+    "date": "2026-09-21T12:46:57+08:00",
+    "message": "fix(activity): 素材缩略图改 120x120 contain（原来 96x62 cover 把深色 SVG 裁成黑块）+ 统一「通行证」叫法",
+    "url": "https://github.com/xi7ang/GameHub/commit/5c24c61264d560a1e7e5c9f1232c27620163e99a"
+  },
+  {
     "hash": "254c449",
     "date": "2026-09-21T12:41:51+08:00",
     "message": "style(activity): 活动页改网感报名页（三步走/奖励卡/通行证/平台卡/荣誉榜），去掉封号·风险自负·禁区类表述，同一条建议改正向说法",
@@ -166,17 +178,5 @@
     "date": "2026-09-18T10:57:58+08:00",
     "message": "sync: 新增资源《植物大战僵尸杂交版(重制版) 0.10.5性能版.zip》",
     "url": "https://github.com/xi7ang/GameHub/commit/6c1d005b99574e7e23f501128b2f40cb170aff91"
-  },
-  {
-    "hash": "5afacf2",
-    "date": "2026-09-18T10:47:21+08:00",
-    "message": "sync: 新增资源《常乐镇诡事》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5afacf29e996c28330e4edab63b9fd689e8822eb"
-  },
-  {
-    "hash": "4ab2e9d",
-    "date": "2026-09-18T10:43:55+08:00",
-    "message": "sync: 新增资源《【塔防】植物娘大战僵尸v0.8.7_内置作弊菜单.apk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/4ab2e9df377aac4025ce7995ed974297e9061d96"
   }
 ]
