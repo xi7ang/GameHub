@@ -1,5 +1,11 @@
 [
   {
+    "hash": "012269c",
+    "date": "2026-09-22T13:09:42+08:00",
+    "message": "sync: 新增资源《英雄萨姆：破碎宇宙 v1.0.2 联机中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/012269cf704640e9bbd7700bc64177f0ab108f06"
+  },
+  {
     "hash": "7493632",
     "date": "2026-09-22T13:05:23+08:00",
     "message": "sync: 新增资源《像素世界杯足球赛v1b630复古竞技》",
@@ -172,11 +178,5 @@
     "date": "2026-09-18T20:31:38+08:00",
     "message": "chore: 每日公告：发布【2026-09-18】游戏资源更新通知（3条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/114ab3821b380ffbb5daec02b3061e8f1d77d74c"
-  },
-  {
-    "hash": "3aa418e",
-    "date": "2026-09-18T14:57:55+08:00",
-    "message": "feat(search): 搜索支持拼音/容错/排序，抽公共匹配层",
-    "url": "https://github.com/xi7ang/GameHub/commit/3aa418ebf42031d248365d1663f236b8e48ffc50"
   }
 ]
