@@ -1,5 +1,11 @@
 [
   {
+    "hash": "698176e",
+    "date": "2026-09-22T13:13:28+08:00",
+    "message": "sync: 新增资源《生肖纪 鸡哥和他的朋友们/Rooster Build.25256124》",
+    "url": "https://github.com/xi7ang/GameHub/commit/698176e0a36870d94c8c29ed1cf03454d4cfcbc5"
+  },
+  {
     "hash": "012269c",
     "date": "2026-09-22T13:09:42+08:00",
     "message": "sync: 新增资源《英雄萨姆：破碎宇宙 v1.0.2 联机中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-19T11:03:27+08:00",
     "message": "sync: 新增资源《宝石少女2nd中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/f3126ce343d2ef0d0fd0f7eeb988d99793a135de"
-  },
-  {
-    "hash": "114ab38",
-    "date": "2026-09-18T20:31:38+08:00",
-    "message": "chore: 每日公告：发布【2026-09-18】游戏资源更新通知（3条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/114ab3821b380ffbb5daec02b3061e8f1d77d74c"
   }
 ]
