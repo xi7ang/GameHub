@@ -23714,5 +23714,25 @@
     "addedAt": "2026-09-24T23:00:37+08:00",
     "updatedAt": "2026-09-24T23:00:37+08:00",
     "month": "202609"
+  },
+  {
+    "id": "online-202609-0006",
+    "title": "沉没之地 单机+联机 Build.25385032 （Sunkenland）",
+    "enTitle": "",
+    "category": "online",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/d2d7c20aee9d?pwd=AGKl",
+    "pwd": "AGKl",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u8bc46e06af0f.webp",
+    "steamAppID": null,
+    "desc": "探索沉没废墟，搜集资源打造海上堡垒，抵御变异生物与玩家侵袭。动态天气与昼夜循环考验生存智慧，多人协作或单机冒险，在末世海洋中书写你的求生传奇。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-24T23:28:56+08:00",
+    "updatedAt": "2026-09-24T23:28:56+08:00",
+    "month": "202609"
   }
 ]

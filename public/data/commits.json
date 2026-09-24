@@ -1,5 +1,11 @@
 [
   {
+    "hash": "db7026d",
+    "date": "2026-09-24T23:00:39+08:00",
+    "message": "sync: 新增资源《索拉丽斯炼成计划 Build.25420471（Project Solaris）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/db7026d5f63275a097c697c2112a57b27bfc086e"
+  },
+  {
     "hash": "486d96a",
     "date": "2026-09-24T22:56:30+08:00",
     "message": "sync: 新增资源《1666：阿姆斯特丹 Build.25240120（1666 Amsterdam》",
@@ -172,11 +178,5 @@
     "date": "2026-09-19T20:31:43+08:00",
     "message": "chore: 每日公告：发布【2026-09-19】游戏资源更新通知（5条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/0295610be1283bab9b6d9dea06c86afb4bef0212"
-  },
-  {
-    "hash": "065bff9",
-    "date": "2026-09-19T14:38:07+08:00",
-    "message": "fix(ci): search-index 新鲜度检查降级为警告",
-    "url": "https://github.com/xi7ang/GameHub/commit/065bff951274eeb2214a508b99095ce5e677a656"
   }
 ]
