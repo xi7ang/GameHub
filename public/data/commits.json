@@ -1,5 +1,11 @@
 [
   {
+    "hash": "55c1a07",
+    "date": "2026-09-24T22:52:44+08:00",
+    "message": "sync: 新增资源《血色兄弟：黑色一号 黑色一号：血盟兄弟 Build.25295517（Black》",
+    "url": "https://github.com/xi7ang/GameHub/commit/55c1a0757848350123447066230db38c9a14cb50"
+  },
+  {
     "hash": "22cb99c",
     "date": "2026-09-24T22:49:55+08:00",
     "message": "sync: 新增资源《罗马与征服 Build.11003358（Grand War Rome）》",
@@ -172,11 +178,5 @@
     "date": "2026-09-19T14:31:21+08:00",
     "message": "fix(ci): 重生成 search-index.json 等构建期产物",
     "url": "https://github.com/xi7ang/GameHub/commit/7858b081e9e4ec1f33ff49b1b031ec8d5e81030e"
-  },
-  {
-    "hash": "48ee270",
-    "date": "2026-09-19T11:26:34+08:00",
-    "message": "sync: 新增资源《电器维修模拟工坊中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/48ee270db5dc48b14425a48713b8c2ce425970b3"
   }
 ]

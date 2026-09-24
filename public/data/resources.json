@@ -23674,5 +23674,25 @@
     "addedAt": "2026-09-24T22:52:43+08:00",
     "updatedAt": "2026-09-24T22:52:43+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0092",
+    "title": "1666：阿姆斯特丹 Build.25240120（1666 Amsterdam）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/a708b20bff74?pwd=K8kQ",
+    "pwd": "K8kQ",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u3e75b2cea236.webp",
+    "steamAppID": null,
+    "desc": "沉浸式体验17世纪阿姆斯特丹的繁华与危机，探索历史谜题，感受文艺复兴时期的艺术与政治风暴，每一处细节都还原真实历史场景，带来身临其境的冒险与思考。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-24T22:56:28+08:00",
+    "updatedAt": "2026-09-24T22:56:28+08:00",
+    "month": "202609"
   }
 ]
