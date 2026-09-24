@@ -23694,5 +23694,25 @@
     "addedAt": "2026-09-24T22:56:28+08:00",
     "updatedAt": "2026-09-24T22:56:28+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0093",
+    "title": "索拉丽斯炼成计划 Build.25420471（Project Solaris）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/0f6055c77916?pwd=5WqT",
+    "pwd": "5WqT",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u5a21a8e091c0.webp",
+    "steamAppID": null,
+    "desc": "在索拉丽斯的炼成之路上，每一道代码都是星光的碎片，每一次迭代都是宇宙的呼吸。这里，科技与幻想交织，现实与边界模糊，最终炼成的不仅是Project Solaris，更是未来无限可能的模样。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-24T23:00:37+08:00",
+    "updatedAt": "2026-09-24T23:00:37+08:00",
+    "month": "202609"
   }
 ]

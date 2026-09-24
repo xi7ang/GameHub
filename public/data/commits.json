@@ -1,5 +1,11 @@
 [
   {
+    "hash": "486d96a",
+    "date": "2026-09-24T22:56:30+08:00",
+    "message": "sync: 新增资源《1666：阿姆斯特丹 Build.25240120（1666 Amsterdam》",
+    "url": "https://github.com/xi7ang/GameHub/commit/486d96a50bf9d0af0883b9488d0536b9745406c5"
+  },
+  {
     "hash": "55c1a07",
     "date": "2026-09-24T22:52:44+08:00",
     "message": "sync: 新增资源《血色兄弟：黑色一号 黑色一号：血盟兄弟 Build.25295517（Black》",
@@ -172,11 +178,5 @@
     "date": "2026-09-19T14:38:07+08:00",
     "message": "fix(ci): search-index 新鲜度检查降级为警告",
     "url": "https://github.com/xi7ang/GameHub/commit/065bff951274eeb2214a508b99095ce5e677a656"
-  },
-  {
-    "hash": "7858b08",
-    "date": "2026-09-19T14:31:21+08:00",
-    "message": "fix(ci): 重生成 search-index.json 等构建期产物",
-    "url": "https://github.com/xi7ang/GameHub/commit/7858b081e9e4ec1f33ff49b1b031ec8d5e81030e"
   }
 ]
