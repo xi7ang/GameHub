@@ -1,5 +1,17 @@
 [
   {
+    "hash": "c9ae9c9",
+    "date": "2026-09-22T20:31:57+08:00",
+    "message": "chore: 每日公告：发布【2026-09-22】游戏资源更新通知（5条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c9ae9c9d321ec3390cfc5d2742879f8b21435b6f"
+  },
+  {
+    "hash": "7cebd64",
+    "date": "2026-09-22T13:22:01+08:00",
+    "message": "sync: 新增资源《沙丘：觉醒 /Dune: Awakening v1.5.3.0》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7cebd64d1b49e60b39e482c4db97b25fe47b010a"
+  },
+  {
     "hash": "be83702",
     "date": "2026-09-22T13:17:02+08:00",
     "message": "sync: 新增资源《警察局长模拟器/Police Chief Simulator Build.253》",
@@ -166,17 +178,5 @@
     "date": "2026-09-19T11:13:07+08:00",
     "message": "sync: 新增资源《单机狼人杀：硬核逻辑推理》",
     "url": "https://github.com/xi7ang/GameHub/commit/cade27fc5cf2f8f8d8219f111cd4c0f5fa48a8e5"
-  },
-  {
-    "hash": "9994b06",
-    "date": "2026-09-19T11:10:06+08:00",
-    "message": "sync: 新增资源《最终幻想战略版 伊瓦利斯编年史 v1.5.2 豪华版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9994b0646f2d205037e53c628490204304bf568b"
-  },
-  {
-    "hash": "ecc9738",
-    "date": "2026-09-19T11:06:47+08:00",
-    "message": "sync: 新增资源《马塞利亚：过去的回响中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ecc9738af51a55912f1a67f919f76d31e8bf9b8a"
   }
 ]
