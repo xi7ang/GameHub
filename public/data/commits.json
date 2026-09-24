@@ -1,5 +1,11 @@
 [
   {
+    "hash": "22cb99c",
+    "date": "2026-09-24T22:49:55+08:00",
+    "message": "sync: 新增资源《罗马与征服 Build.11003358（Grand War Rome）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/22cb99c1009f782009720f5a1988bb6f7cc009ef"
+  },
+  {
     "hash": "c9ae9c9",
     "date": "2026-09-22T20:31:57+08:00",
     "message": "chore: 每日公告：发布【2026-09-22】游戏资源更新通知（5条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-09-19T11:26:34+08:00",
     "message": "sync: 新增资源《电器维修模拟工坊中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/48ee270db5dc48b14425a48713b8c2ce425970b3"
-  },
-  {
-    "hash": "cade27f",
-    "date": "2026-09-19T11:13:07+08:00",
-    "message": "sync: 新增资源《单机狼人杀：硬核逻辑推理》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cade27fc5cf2f8f8d8219f111cd4c0f5fa48a8e5"
   }
 ]
