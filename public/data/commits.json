@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ce166d4",
+    "date": "2026-09-27T08:22:25+08:00",
+    "message": "sync: 新增资源《粒子之心v2025中文版解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ce166d44424cb85cb810a5dedd7e5e78a8eb5733"
+  },
+  {
     "hash": "d9b97ec",
     "date": "2026-09-27T08:19:19+08:00",
     "message": "sync: 新增资源《口袋汽车v1.0中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-20T12:44:35+08:00",
     "message": "sync: 新增资源《异度之刃决定版+2+黄金国合集》",
     "url": "https://github.com/xi7ang/GameHub/commit/55161ab09b068df4afa2bbabb6d4ad3daf0fe41b"
-  },
-  {
-    "hash": "b5a6f50",
-    "date": "2026-09-20T12:41:11+08:00",
-    "message": "sync: 新增资源《超市大混乱 /Supermarket Chaos/单机+联机 v1.2.4》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b5a6f508f14eddb129891aec82f95281a4bb1e33"
   }
 ]
