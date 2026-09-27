@@ -23754,5 +23754,29 @@
     "addedAt": "2026-09-27T08:16:03+08:00",
     "updatedAt": "2026-09-27T08:16:03+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0095",
+    "title": "口袋汽车v1.0中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "赛车竞速",
+      "停车挑战",
+      "像素风收集"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/d1dd77b6ae37?pwd=r6tH",
+    "pwd": "r6tH",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u35b6650071e4.webp",
+    "steamAppID": null,
+    "desc": "这款游戏巧妙将赛车竞速与停车挑战融为一体，玩家可收集并改装数十款经典车辆，在极简像素风城市中体验漂移、急停与精准入库的爽快手感。操作简单却充满策略性，适合碎片时间放松。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-27T08:19:18+08:00",
+    "updatedAt": "2026-09-27T08:19:18+08:00",
+    "month": "202609"
   }
 ]
