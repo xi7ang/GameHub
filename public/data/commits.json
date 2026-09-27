@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d9b97ec",
+    "date": "2026-09-27T08:19:19+08:00",
+    "message": "sync: 新增资源《口袋汽车v1.0中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d9b97eca6ee998ab1beb18540ce030059cd1e1d8"
+  },
+  {
     "hash": "a8005ac",
     "date": "2026-09-27T08:16:04+08:00",
     "message": "sync: 新增资源《终末机兵正式版解压即玩》",
@@ -172,11 +178,5 @@
     "date": "2026-09-20T12:41:11+08:00",
     "message": "sync: 新增资源《超市大混乱 /Supermarket Chaos/单机+联机 v1.2.4》",
     "url": "https://github.com/xi7ang/GameHub/commit/b5a6f508f14eddb129891aec82f95281a4bb1e33"
-  },
-  {
-    "hash": "2ba56f3",
-    "date": "2026-09-20T12:37:49+08:00",
-    "message": "sync: 新增资源《封神演义之黄飞虎归周 /CREATION OF THE GODS Rebelli》",
-    "url": "https://github.com/xi7ang/GameHub/commit/2ba56f3a2ab2a0e8135b90a170a8ed1fa4387920"
   }
 ]
