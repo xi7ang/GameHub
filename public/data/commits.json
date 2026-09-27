@@ -1,5 +1,11 @@
 [
   {
+    "hash": "10a3e52",
+    "date": "2026-09-27T08:25:24+08:00",
+    "message": "sync: 新增资源《怪物猎人物语2：毁灭之翼v1.6.1全 DLC》",
+    "url": "https://github.com/xi7ang/GameHub/commit/10a3e52d298917bed10e446ac4bf7f677e862553"
+  },
+  {
     "hash": "ce166d4",
     "date": "2026-09-27T08:22:25+08:00",
     "message": "sync: 新增资源《粒子之心v2025中文版解压即玩》",
@@ -172,11 +178,5 @@
     "date": "2026-09-20T12:48:01+08:00",
     "message": "sync: 新增资源《塞尔达传说：黄昏公主内置作弊》",
     "url": "https://github.com/xi7ang/GameHub/commit/ed4334065787ceaab4f95f2e33df4ee06f5f5065"
-  },
-  {
-    "hash": "55161ab",
-    "date": "2026-09-20T12:44:35+08:00",
-    "message": "sync: 新增资源《异度之刃决定版+2+黄金国合集》",
-    "url": "https://github.com/xi7ang/GameHub/commit/55161ab09b068df4afa2bbabb6d4ad3daf0fe41b"
   }
 ]
