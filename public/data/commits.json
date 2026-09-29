@@ -1,5 +1,11 @@
 [
   {
+    "hash": "417e7d7",
+    "date": "2026-09-30T00:28:41+08:00",
+    "message": "sync: 新增资源《丁丁历险记：独角兽号高清中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/417e7d7b8e289119f294cf44ad8c6ec4cd00d92e"
+  },
+  {
     "hash": "a645909",
     "date": "2026-09-30T00:25:12+08:00",
     "message": "sync: 新增资源《向彩虹致敬v1.08中文版解压即玩》",
@@ -172,11 +178,5 @@
     "date": "2026-09-20T16:33:34+08:00",
     "message": "polish(resource): 砍掉读起来像残留的引导线和角落箭头（截图复核结论），保留可点卡片/决策理由/CTA 对比",
     "url": "https://github.com/xi7ang/GameHub/commit/47fe976490b27e2fda1be8f71641b6f6b9af82ca"
-  },
-  {
-    "hash": "3b07e0a",
-    "date": "2026-09-20T16:28:09+08:00",
-    "message": "feat(resource): 获取模块改版——图标卡改可点引导区+真实决策理由、引导线/下箭头指向 CTA、CTA 换火焰橙并加一次性入场扫光、移动端点后兜底文案",
-    "url": "https://github.com/xi7ang/GameHub/commit/3b07e0a14cbcd46ba6845bb44138ce919c6571a5"
   }
 ]
