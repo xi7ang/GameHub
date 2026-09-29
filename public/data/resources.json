@@ -23858,5 +23858,25 @@
     "addedAt": "2026-09-30T00:25:11+08:00",
     "updatedAt": "2026-09-30T00:25:11+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0098",
+    "title": "丁丁历险记：独角兽号高清中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/33ab514a2bd5?pwd=HYeE",
+    "pwd": "HYeE",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u6cfd483eb7bf.webp",
+    "steamAppID": null,
+    "desc": "高清画质重现经典冒险，中文配音原汁原味，跟随丁丁与白雪开启寻宝之旅，破解独角兽号之谜，体验惊险刺激的环球探险，每一帧都充满童趣与冒险精神。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-30T00:28:39+08:00",
+    "updatedAt": "2026-09-30T00:28:39+08:00",
+    "month": "202609"
   }
 ]
