@@ -23898,5 +23898,25 @@
     "addedAt": "2026-09-30T00:33:42+08:00",
     "updatedAt": "2026-09-30T00:33:42+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0100",
+    "title": "新港救援队v1.0.3中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/8795b5509397?pwd=lfjF",
+    "pwd": "lfjF",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ua66feb9e4817.webp",
+    "steamAppID": null,
+    "desc": "中文版优化操作体验，新增任务地图指引，提升救援效率。团队协作更流畅，装备系统升级，应对突发灾害更专业。新手引导完善，轻松上手，守护新港安全。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-30T00:37:20+08:00",
+    "updatedAt": "2026-09-30T00:37:20+08:00",
+    "month": "202609"
   }
 ]

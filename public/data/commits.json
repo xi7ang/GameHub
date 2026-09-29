@@ -1,5 +1,11 @@
 [
   {
+    "hash": "438bc46",
+    "date": "2026-09-30T00:33:43+08:00",
+    "message": "sync: 新增资源《暴怒人群：街机肉鸽射击爽游》",
+    "url": "https://github.com/xi7ang/GameHub/commit/438bc46221c5b786df2312efcc86b07f5f5602b9"
+  },
+  {
     "hash": "417e7d7",
     "date": "2026-09-30T00:28:41+08:00",
     "message": "sync: 新增资源《丁丁历险记：独角兽号高清中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-20T20:31:25+08:00",
     "message": "chore: 每日公告：发布【2026-09-20】游戏资源更新通知（5条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/591380751daccd004139be93a50e628e4250bb86"
-  },
-  {
-    "hash": "47fe976",
-    "date": "2026-09-20T16:33:34+08:00",
-    "message": "polish(resource): 砍掉读起来像残留的引导线和角落箭头（截图复核结论），保留可点卡片/决策理由/CTA 对比",
-    "url": "https://github.com/xi7ang/GameHub/commit/47fe976490b27e2fda1be8f71641b6f6b9af82ca"
   }
 ]
