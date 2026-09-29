@@ -23838,5 +23838,25 @@
     "addedAt": "2026-09-27T08:28:51+08:00",
     "updatedAt": "2026-09-27T08:28:51+08:00",
     "month": "202609"
+  },
+  {
+    "id": "online-202609-0007",
+    "title": "向彩虹致敬v1.08中文版解压即玩",
+    "enTitle": "",
+    "category": "online",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/78114cb56104?pwd=Mx5S",
+    "pwd": "Mx5S",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u126514c15fe8.webp",
+    "steamAppID": null,
+    "desc": "中文免安装版，开箱即玩。经典彩虹六号玩法，沉浸式战术射击，策略与操作并重。多人联机对抗，体验紧张刺激的攻防战，重温经典乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-30T00:25:11+08:00",
+    "updatedAt": "2026-09-30T00:25:11+08:00",
+    "month": "202609"
   }
 ]

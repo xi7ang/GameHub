@@ -1,5 +1,17 @@
 [
   {
+    "hash": "0b953e7",
+    "date": "2026-09-27T20:31:48+08:00",
+    "message": "chore: 每日公告：发布【2026-09-27】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/0b953e724baa54a60f1822797c585494e141df98"
+  },
+  {
+    "hash": "314a030",
+    "date": "2026-09-27T08:28:52+08:00",
+    "message": "sync: 新增资源《FIFA 20中文版免安装》",
+    "url": "https://github.com/xi7ang/GameHub/commit/314a03022ad13007c29af111e4d8a5fac9e1d8f2"
+  },
+  {
     "hash": "10a3e52",
     "date": "2026-09-27T08:25:24+08:00",
     "message": "sync: 新增资源《怪物猎人物语2：毁灭之翼v1.6.1全 DLC》",
@@ -166,17 +178,5 @@
     "date": "2026-09-20T16:16:32+08:00",
     "message": "feat(resource): 「一键获取」改「一键免费获取」加 SVG 星火粒子，「获取方式」字号调至 18px",
     "url": "https://github.com/xi7ang/GameHub/commit/6033d0f9c08a0cd2e3017366d777fad26cb8dab9"
-  },
-  {
-    "hash": "889f9b4",
-    "date": "2026-09-20T16:11:28+08:00",
-    "message": "feat(resource): 详情页网盘图标改白底，「夸克网盘」文案改为「获取方式」（火焰粒子动效）",
-    "url": "https://github.com/xi7ang/GameHub/commit/889f9b4fea9387542ab9fddebb4226ba4b56119f"
-  },
-  {
-    "hash": "ed43340",
-    "date": "2026-09-20T12:48:01+08:00",
-    "message": "sync: 新增资源《塞尔达传说：黄昏公主内置作弊》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ed4334065787ceaab4f95f2e33df4ee06f5f5065"
   }
 ]
