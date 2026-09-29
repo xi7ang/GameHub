@@ -1,5 +1,11 @@
 [
   {
+    "hash": "2fc83d9",
+    "date": "2026-09-30T00:37:21+08:00",
+    "message": "sync: 新增资源《新港救援队v1.0.3中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2fc83d96e92069d315b03536dfad9aabbf6ae472"
+  },
+  {
     "hash": "438bc46",
     "date": "2026-09-30T00:33:43+08:00",
     "message": "sync: 新增资源《暴怒人群：街机肉鸽射击爽游》",
@@ -172,11 +178,5 @@
     "date": "2026-09-21T10:41:43+08:00",
     "message": "sync: 新增资源《汉堡轮班：团队冲刺v1.0 Burger Shift: Team Rush》",
     "url": "https://github.com/xi7ang/GameHub/commit/0513fe6ff5947352103d348ba65e76565a89c9fe"
-  },
-  {
-    "hash": "5913807",
-    "date": "2026-09-20T20:31:25+08:00",
-    "message": "chore: 每日公告：发布【2026-09-20】游戏资源更新通知（5条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/591380751daccd004139be93a50e628e4250bb86"
   }
 ]

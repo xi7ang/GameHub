@@ -23918,5 +23918,25 @@
     "addedAt": "2026-09-30T00:37:20+08:00",
     "updatedAt": "2026-09-30T00:37:20+08:00",
     "month": "202609"
+  },
+  {
+    "id": "pc-202609-0101",
+    "title": "异种航员2：冷战科幻策略",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/2f2bb2b6a720?pwd=5Pt5",
+    "pwd": "5Pt5",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u1fd63697e4be.webp",
+    "steamAppID": null,
+    "desc": "在冷战阴影中指挥异种航员，运用策略与科技对抗神秘威胁，探索未知宇宙，体验紧张刺激的星际博弈，每一决策都将影响人类命运。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-09-30T00:57:18+08:00",
+    "updatedAt": "2026-09-30T00:57:18+08:00",
+    "month": "202609"
   }
 ]
