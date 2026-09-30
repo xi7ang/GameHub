@@ -690,6 +690,92 @@
             <div v-else class="text-low">还没有提交记录。</div>
           </template>
 
+          <template v-else-if="tab === 'analytics'">
+            <div class="flex-between wrap gap-sm mb-md">
+              <h2 style="margin: 0">📊 访问统计 <span class="text-low" style="font-size: 13px">自建 Umami · stats.mibear.top</span></h2>
+              <div class="flex gap-sm">
+                <input
+                  v-model="statsToken"
+                  class="form-input"
+                  style="width: 260px"
+                  type="password"
+                  placeholder="统计接口 Token"
+                  @change="saveStatsToken"
+                />
+                <button class="btn btn-sm btn-primary" :disabled="statsLoading" @click="loadStats">
+                  {{ statsLoading ? '加载中...' : '🔄 刷新' }}
+                </button>
+              </div>
+            </div>
+            <p class="text-low mb-md" style="font-size: 12px">
+              Token 只存在本机 localStorage，不会提交到仓库。数据源是 ECS 上的只读聚合接口（每次请求缓存 60s）。
+            </p>
+            <p v-if="statsError" class="mb-md" style="color: #ff6b6b; font-size: 13px">{{ statsError }}</p>
+
+            <template v-if="statsData">
+              <div class="stat-grid mb-md">
+                <div class="stat-card">
+                  <div class="stat-card__num">{{ statsData.overall.pageviews }}</div>
+                  <div class="stat-card__label">页面浏览 PV</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-card__num">{{ statsData.overall.visitors }}</div>
+                  <div class="stat-card__label">访客 UV</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-card__num">{{ statsData.overall.events }}</div>
+                  <div class="stat-card__label">自定义事件</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-card__num">{{ statsData.windowDays }}d</div>
+                  <div class="stat-card__label">统计窗口</div>
+                </div>
+              </div>
+
+              <h3 class="mb-sm">按域名</h3>
+              <div class="table-wrap mb-md">
+                <table class="admin-table">
+                  <thead><tr><th>hostname</th><th>PV</th><th>UV</th></tr></thead>
+                  <tbody>
+                    <tr v-for="h in statsData.hosts" :key="h.hostname">
+                      <td>{{ h.hostname }}</td>
+                      <td>{{ h.pageviews }}</td>
+                      <td>{{ h.visitors }}</td>
+                    </tr>
+                    <tr v-if="!statsData.hosts.length"><td colspan="3" class="text-low">窗口内还没有访问</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 class="mb-sm">资源获取点击（CTR = 点击 / 详情页浏览）</h3>
+              <div class="table-wrap">
+                <table class="admin-table">
+                  <thead>
+                    <tr>
+                      <th style="cursor: pointer" @click="setStatSort('title')">资源</th>
+                      <th style="cursor: pointer" @click="setStatSort('views')">详情页 PV</th>
+                      <th style="cursor: pointer" @click="setStatSort('clicks')">点击</th>
+                      <th style="cursor: pointer" @click="setStatSort('ctr')">CTR</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="row in statsRows" :key="row.id">
+                      <td>{{ row.title }}</td>
+                      <td>{{ row.views }}</td>
+                      <td>{{ row.clicks }}</td>
+                      <td>{{ row.ctr === null ? '—' : (row.ctr * 100).toFixed(1) + '%' }}</td>
+                    </tr>
+                    <tr v-if="!statsRows.length"><td colspan="4" class="text-low">窗口内还没有点击事件</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="text-low mt-sm" style="font-size: 12px">
+                生成于 {{ statsData.generatedAt }}；点击列排序：资源，PV，点击，CTR。最多展示 300 条。
+              </p>
+            </template>
+            <div v-else-if="!statsError" class="text-low">填上 Token 点「刷新」即可加载。</div>
+          </template>
+
           <!-- 保存条 -->
           <div v-if="dirty" class="save-bar">
             <div class="flex gap-sm">
@@ -1021,6 +1107,71 @@ watch(
   },
   { deep: true, flush: 'sync' }
 )
+// ── 访问统计（自建 Umami 聚合接口）──
+// 数据源：ECS 上的聚合接口 https://stats.mibear.top/gh/stats（只读，Bearer token）。
+// 为什么要这层：Umami UI 给不出「每资源 点击/详情页PV = CTR」的表。
+const STATS_API = 'https://stats.mibear.top/gh/stats'
+const STATS_TOKEN_KEY = 'gamehub_stats_token'
+const statsToken = ref(localStorage.getItem(STATS_TOKEN_KEY) || '')
+const statsData = ref(null)
+const statsLoading = ref(false)
+const statsError = ref('')
+const statsSort = ref('clicks')
+
+function saveStatsToken() {
+  localStorage.setItem(STATS_TOKEN_KEY, statsToken.value.trim())
+  statsToken.value = statsToken.value.trim()
+  loadStats()
+}
+
+async function loadStats() {
+  if (!statsToken.value) {
+    statsError.value = '请先填统计接口 Token（可向管理员索取）'
+    return
+  }
+  statsLoading.value = true
+  statsError.value = ''
+  try {
+    const res = await fetch(STATS_API, { headers: { Authorization: 'Bearer ' + statsToken.value } })
+    if (res.status === 401) throw new Error('Token 无效（401）')
+    if (!res.ok) throw new Error('接口返回 ' + res.status)
+    statsData.value = await res.json()
+  } catch (e) {
+    statsError.value = '加载失败：' + (e.message || e)
+  } finally {
+    statsLoading.value = false
+  }
+}
+
+function setStatSort(k) {
+  statsSort.value = k
+}
+
+// id → 资源标题：用站内已有的 resources 映射，未知 id 直接显 id（比如探针/已删资源）
+const statsRows = computed(() => {
+  const d = statsData.value
+  if (!d) return []
+  const byId = new Map(resources.value.map((r) => [r.id, r.title]))
+  const rows = d.resources.map((r) => ({
+    id: r.id,
+    title: byId.get(r.id) || r.id,
+    views: r.views,
+    clicks: r.clicks,
+    ctr: r.ctr,
+  }))
+  const k = statsSort.value
+  rows.sort((a, b) => {
+    if (k === 'title') return String(a.title).localeCompare(String(b.title), 'zh')
+    return (b[k] ?? -1) - (a[k] ?? -1)
+  })
+  return rows.slice(0, 300)
+})
+
+// 切到该 tab 且没数据时自动拉一次
+watch(tab, (t) => {
+  if (t === 'analytics' && !statsData.value && statsToken.value) loadStats()
+})
+
 const tab = ref('dashboard')
 const tabs = [
   { key: 'dashboard', icon: '📈', name: '总览' },
@@ -1033,6 +1184,7 @@ const tabs = [
   { key: 'logs', icon: '📋', name: '操作日志' },
   { key: 'activity', icon: '🎁', name: '活动配置' },
   { key: 'review', icon: '🛡️', name: '提交审核' },
+  { key: 'analytics', icon: '📊', name: '访问统计' },
 ]
 
 // ── Dashboard 统计 ──
