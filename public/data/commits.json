@@ -1,5 +1,11 @@
 [
   {
+    "hash": "1f86335",
+    "date": "2026-10-01T07:40:43+08:00",
+    "message": "feat(analytics): 接入自建 Umami 统计（stats.mibear.top）",
+    "url": "https://github.com/xi7ang/GameHub/commit/1f86335ecebc0bb0010fb95c32802df847a78d02"
+  },
+  {
     "hash": "b19f073",
     "date": "2026-10-01T07:37:22+08:00",
     "message": "sync: 新增资源《蝙蝠侠阿卡姆骑士V1.999解压即玩》",
@@ -172,11 +178,5 @@
     "date": "2026-09-21T10:55:18+08:00",
     "message": "sync: 新增资源《行会1重制版：欧洲1410v0.4.0中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/ace2683ec0a84efd8848b32136504a92ae923c64"
-  },
-  {
-    "hash": "c0bd63f",
-    "date": "2026-09-21T10:52:12+08:00",
-    "message": "sync: 新增资源《csgo 开箱模拟器 2无条件开箱 MOD》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c0bd63ff1c0519115708018684d6cd6fb91d3ac3"
   }
 ]

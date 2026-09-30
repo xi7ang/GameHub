@@ -23958,5 +23958,25 @@
     "addedAt": "2026-10-01T07:37:20+08:00",
     "updatedAt": "2026-10-01T07:37:20+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0002",
+    "title": "架空地图模拟器v2024中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/a39cc1eea361?pwd=qfyq",
+    "pwd": "qfyq",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/uc05ee49519a5.webp",
+    "steamAppID": null,
+    "desc": "2024中文版带来全新地形编辑功能，支持自定义山脉河流，一键生成多样地貌，实时预览效果，助你轻松打造专属奇幻世界，灵感无限。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-01T07:40:45+08:00",
+    "updatedAt": "2026-10-01T07:40:45+08:00",
+    "month": "202610"
   }
 ]
