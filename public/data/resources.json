@@ -23978,5 +23978,25 @@
     "addedAt": "2026-10-01T07:40:45+08:00",
     "updatedAt": "2026-10-01T07:40:45+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0003",
+    "title": "巫火v0.9.0中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/fe1eaf999e58?pwd=7BeW",
+    "pwd": "7BeW",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u8d7b3777de16.webp",
+    "steamAppID": null,
+    "desc": "沉浸式黑暗奇幻世界，独特符文系统点燃策略深度，动态天气与环境交互增强探索感，多重结局与隐藏剧情带来高重玩价值。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-01T07:45:08+08:00",
+    "updatedAt": "2026-10-01T07:45:08+08:00",
+    "month": "202610"
   }
 ]

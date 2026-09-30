@@ -1,5 +1,11 @@
 [
   {
+    "hash": "765f3f5",
+    "date": "2026-10-01T07:40:46+08:00",
+    "message": "sync: 新增资源《架空地图模拟器v2024中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/765f3f501f7ecf7901c5d17490544f94ecbb813c"
+  },
+  {
     "hash": "1f86335",
     "date": "2026-10-01T07:40:43+08:00",
     "message": "feat(analytics): 接入自建 Umami 统计（stats.mibear.top）",
@@ -172,11 +178,5 @@
     "date": "2026-09-21T12:24:09+08:00",
     "message": "feat(activity): 新增推广活动页 activity.html + 素材/文案/榜单/提交台账数据 + Admin 活动配置与提交审核两个后台",
     "url": "https://github.com/xi7ang/GameHub/commit/5aafc1b1c285ea362d0b5ee1ab773f712064de65"
-  },
-  {
-    "hash": "ace2683",
-    "date": "2026-09-21T10:55:18+08:00",
-    "message": "sync: 新增资源《行会1重制版：欧洲1410v0.4.0中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ace2683ec0a84efd8848b32136504a92ae923c64"
   }
 ]
