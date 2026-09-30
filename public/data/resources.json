@@ -23998,5 +23998,25 @@
     "addedAt": "2026-10-01T07:45:08+08:00",
     "updatedAt": "2026-10-01T07:45:08+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0004",
+    "title": "温馨田园 Build.25235784（Cozy Country）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/bc11762d05fd?pwd=sVi3",
+    "pwd": "sVi3",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ue78c5cb4e693.webp",
+    "steamAppID": null,
+    "desc": "在宁静的田园中，亲手搭建温馨小屋，种植蔬果，养殖萌宠，感受四季更迭的细腻变化，享受慢生活的惬意与治愈。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-01T07:57:36+08:00",
+    "updatedAt": "2026-10-01T07:57:36+08:00",
+    "month": "202610"
   }
 ]
