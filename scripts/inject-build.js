@@ -56,6 +56,13 @@ var _hmt = _hmt || [];
 const verifyMarker = 'baidu-site-verification'
 const verifyMeta = '<meta name="baidu-site-verification" content="codeva-zXlmKTo2DN" />'
 
+// 7) Umami 自建统计（ECS stats.mibear.top，PG 存储）。
+// data-website-id 是构建期常量：换站点只改这里；页面里别另贴一份 script（会双报）。
+// 自定义事件在 src/pages/Resource.vue：详情页 view:<资源id>、「一键获取」get:<资源id>，
+// 两者都用资源 id 当事件名，聚合侧 join 出来就是每资源的 点击率 = get / view。
+const umamiMarker = 'stats.mibear.top/script.js'
+const umami = '<script defer src="https://stats.mibear.top/script.js" data-website-id="fca1c103-0e59-4e95-970b-d0b44f38cf79"></script>'
+
 let n = 0
 for (const f of readdirSync(DIST).filter((f) => f.endsWith('.html'))) {
   const p = resolve(DIST, f)
@@ -74,6 +81,10 @@ for (const f of readdirSync(DIST).filter((f) => f.endsWith('.html'))) {
   }
   if (!html.includes(verifyMarker)) {
     html = html.replace(/<head>/, `<head>\n  ${verifyMeta}`)
+    changed = true
+  }
+  if (!html.includes(umamiMarker)) {
+    html = html.replace(/<head>/, `<head>\n  ${umami}`)
     changed = true
   }
   if (changed) {

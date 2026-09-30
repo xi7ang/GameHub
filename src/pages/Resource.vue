@@ -157,6 +157,17 @@ const legacyCat = params.get('c')
 const showQr = ref(false)
 const qrRef = ref(null)
 
+// Umami 自建统计（script 由 postbuild 的 inject-build.js 注入全站，见那里第 7 条）。
+// 事件名带资源 id：view:<id> / get:<id>，聚合侧 join 出「每资源点击率 = get / view」。
+// 脚本被拦截或未加载时不能影响页面，所以判存在 + try 包住。
+function track(name) {
+  try {
+    if (window.umami && typeof window.umami.track === 'function') window.umami.track(name)
+  } catch (e) {
+    /* 统计失败不能影响页面 */
+  }
+}
+
 // 详情查找：支持短码（6 位 base36）与旧语义 id；短码用 FNV-1a hash 动态匹配（资源量小，直接遍历）
 const r = computed(() => {
   if (!rawId) return null
@@ -184,6 +195,7 @@ async function resolveLegacy() {
 onMounted(async () => {
   await load()
   applyDocTitle() // 必须在 load() 之后：那时 applyBrandToDoc 已把静态标题里的品牌名换好
+  if (r.value?.id) track('view:' + r.value.id)
   await resolveLegacy()
 })
 
@@ -264,6 +276,8 @@ async function copyPwd() {
 }
 // 「一键获取」设备分流：PC 弹二维码，移动端直接跳转网盘
 function onGet(e) {
+  // 先埋点再分流：两条路径（弹码 / 直接跳）都算一次「获取」
+  if (r.value?.id) track('get:' + r.value.id)
   if (window.matchMedia('(min-width: 768px)').matches) {
     e.preventDefault()
     showQr.value = true

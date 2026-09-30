@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b19f073",
+    "date": "2026-10-01T07:37:22+08:00",
+    "message": "sync: 新增资源《蝙蝠侠阿卡姆骑士V1.999解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/b19f073f822c8a20b21f4b77efd58e817d42e62a"
+  },
+  {
     "hash": "d322bcb",
     "date": "2026-09-30T20:31:52+08:00",
     "message": "chore: 每日公告：发布【2026-09-30】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-09-21T10:52:12+08:00",
     "message": "sync: 新增资源《csgo 开箱模拟器 2无条件开箱 MOD》",
     "url": "https://github.com/xi7ang/GameHub/commit/c0bd63ff1c0519115708018684d6cd6fb91d3ac3"
-  },
-  {
-    "hash": "2361945",
-    "date": "2026-09-21T10:48:53+08:00",
-    "message": "sync: 新增资源《调酒师模拟器/Mixed Spirits Bartender Build.253》",
-    "url": "https://github.com/xi7ang/GameHub/commit/2361945f86d81dae6fd051804a5b787442027bbd"
   }
 ]
