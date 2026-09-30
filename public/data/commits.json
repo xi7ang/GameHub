@@ -1,5 +1,17 @@
 [
   {
+    "hash": "d322bcb",
+    "date": "2026-09-30T20:31:52+08:00",
+    "message": "chore: 每日公告：发布【2026-09-30】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/d322bcb710e1702f5995535f4d2fe52d94d9d3e6"
+  },
+  {
+    "hash": "75c38ac",
+    "date": "2026-09-30T00:57:19+08:00",
+    "message": "sync: 新增资源《异种航员2：冷战科幻策略》",
+    "url": "https://github.com/xi7ang/GameHub/commit/75c38ac2bd2254a422614bcda12c709488c22235"
+  },
+  {
     "hash": "2fc83d9",
     "date": "2026-09-30T00:37:21+08:00",
     "message": "sync: 新增资源《新港救援队v1.0.3中文版》",
@@ -166,17 +178,5 @@
     "date": "2026-09-21T10:48:53+08:00",
     "message": "sync: 新增资源《调酒师模拟器/Mixed Spirits Bartender Build.253》",
     "url": "https://github.com/xi7ang/GameHub/commit/2361945f86d81dae6fd051804a5b787442027bbd"
-  },
-  {
-    "hash": "b3fae2a",
-    "date": "2026-09-21T10:45:27+08:00",
-    "message": "sync: 新增资源《鬼屋重现重返凶宅v1.3.5 Rehaunted》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b3fae2a7781d3dad55df396cd5a0e73a154899c4"
-  },
-  {
-    "hash": "0513fe6",
-    "date": "2026-09-21T10:41:43+08:00",
-    "message": "sync: 新增资源《汉堡轮班：团队冲刺v1.0 Burger Shift: Team Rush》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0513fe6ff5947352103d348ba65e76565a89c9fe"
   }
 ]
