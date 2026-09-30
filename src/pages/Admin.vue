@@ -1167,11 +1167,6 @@ const statsRows = computed(() => {
   return rows.slice(0, 300)
 })
 
-// 切到该 tab 且没数据时自动拉一次
-watch(tab, (t) => {
-  if (t === 'analytics' && !statsData.value && statsToken.value) loadStats()
-})
-
 const tab = ref('dashboard')
 const tabs = [
   { key: 'dashboard', icon: '📈', name: '总览' },
@@ -1186,6 +1181,12 @@ const tabs = [
   { key: 'review', icon: '🛡️', name: '提交审核' },
   { key: 'analytics', icon: '📊', name: '访问统计' },
 ]
+
+// 切到该 tab 且没数据时自动拉一次。
+// ⚠️ 必须放在 const tab 声明之后：setup 期这行会立即执行，放前面会踩 TDZ 把整个页面炸白。
+watch(tab, (t) => {
+  if (t === 'analytics' && !statsData.value && statsToken.value) loadStats()
+})
 
 // ── Dashboard 统计 ──
 const todayAdded = computed(() => {
