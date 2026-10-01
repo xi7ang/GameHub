@@ -710,32 +710,82 @@
             <p class="text-low mb-md" style="font-size: 12px">
               Token 只存在本机 localStorage，不会提交到仓库。数据源是 ECS 上的只读聚合接口（每次请求缓存 60s）。
             </p>
+
+            <!-- 字段说明：这一块存在的唯一理由，是让「点击 / PV / UV」不再靠猜 -->
+            <details class="glass mb-md" style="padding: 12px 16px" open>
+              <summary style="cursor: pointer; font-weight: 700; font-size: 14px">📖 字段说明（点标题折叠）</summary>
+              <ul style="margin: 10px 0 0; padding-left: 20px; font-size: 12.5px; line-height: 1.85">
+                <li>
+                  <b>页面浏览（PV）</b>：每打开一个页面记 1 次。同一个人刷新、来回切分类、前进后退都
+                  <b>重复累加</b>，所以它衡量的是「页面被打开多少次」，<b>不是「多少人」</b>。
+                </li>
+                <li>
+                  <b>独立访客（UV）</b>：按浏览器会话去重的人数。同一人在本窗口内多次访问只算 1 个；
+                  清 cookie / 换浏览器 / 换设备会被当成新访客，所以 UV 通常<b>略高于真实人数</b>。
+                </li>
+                <li>
+                  <b>获取点击</b>：在<b>资源详情页</b>点了「🔑 一键免费获取」按钮或上方那块平台卡片
+                  （两者指向同一个网盘链接）的次数。PC 端弹二维码、手机端直接跳网盘，<b>两条路径都计入</b>。
+                  这是目前唯一能代表「用户真的想把资源拿走」的动作，也是算点击率用的分子。
+                </li>
+                <li>
+                  <b>详情页浏览</b>：该资源详情页被打开的次数（事件名 <code>view:&lt;资源id&gt;</code>）。
+                </li>
+                <li>
+                  <b>点击率（CTR）</b>：<b>获取点击 ÷ 详情页浏览</b>。含义是「进了这个资源页的人里，
+                  有多大比例真的点了获取」。详情页浏览为 0 时显示「—」（不做除法，避免假 100%）。
+                </li>
+                <li>
+                  <b>采集事件数</b>：站上主动埋点的两类计数之和，即 <code>view:*</code>（详情页浏览）
+                  + <code>get:*</code>（获取点击）。<b>页面 PV 不算在这个数里</b>，它是浏览器自动上报的、不是自定义事件。
+                </li>
+                <li>
+                  <b>按域名</b>：同一个站部署在多个域名（mibear.top / pan.devmini.space），
+                  这张表把它们拆开看——<b>哪个入口带来的量更大</b>。
+                </li>
+                <li>
+                  <b>统计窗口</b>：页面上所有数字都是<b>最近 N 天的累计</b>，不是当天、也不是实时。
+                </li>
+              </ul>
+              <p style="margin: 8px 0 0; font-size: 12px; opacity: 0.75">
+                已知误差：广告拦截器 / 隐私插件会拦掉一部分上报，所以数字是<b>估数</b>；
+                资源被删后它的事件仍留在库里（标题会退化成 id）；同一个人换网络 IP 可能被算两次 UV。
+              </p>
+            </details>
             <p v-if="statsError" class="mb-md" style="color: #ff6b6b; font-size: 13px">{{ statsError }}</p>
 
             <template v-if="statsData">
               <div class="stat-grid mb-md">
-                <div class="stat-card">
+                <div class="stat-card" title="每打开一个页面记 1 次；刷新/重复访问会累加。衡量页面被打开多少次，不是多少人。">
                   <div class="stat-card__num">{{ statsData.overall.pageviews }}</div>
-                  <div class="stat-card__label">页面浏览 PV</div>
+                  <div class="stat-card__label">页面浏览（PV）</div>
+                  <div style="font-size: 11px; opacity: 0.6; margin-top: 4px; line-height: 1.4">每次页面加载记 1 次，刷新也算</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card" title="按浏览器会话去重的人数；清 cookie / 换设备会被算成新访客。">
                   <div class="stat-card__num">{{ statsData.overall.visitors }}</div>
-                  <div class="stat-card__label">访客 UV</div>
+                  <div class="stat-card__label">独立访客（UV）</div>
+                  <div style="font-size: 11px; opacity: 0.6; margin-top: 4px; line-height: 1.4">按会话去重，同人多次只算 1</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card" title="= 详情页浏览（view:*）+ 获取点击（get:*）。页面 PV 不计入。">
                   <div class="stat-card__num">{{ statsData.overall.events }}</div>
-                  <div class="stat-card__label">自定义事件</div>
+                  <div class="stat-card__label">采集事件数</div>
+                  <div style="font-size: 11px; opacity: 0.6; margin-top: 4px; line-height: 1.4">详情页浏览 + 获取点击</div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card" title="下面所有数字都是最近 N 天的累计。">
                   <div class="stat-card__num">{{ statsData.windowDays }}d</div>
                   <div class="stat-card__label">统计窗口</div>
+                  <div style="font-size: 11px; opacity: 0.6; margin-top: 4px; line-height: 1.4">以下数据为最近 {{ statsData.windowDays }} 天累计</div>
                 </div>
               </div>
 
-              <h3 class="mb-sm">按域名</h3>
+              <h3 class="mb-sm">按域名拆分 <span class="text-low" style="font-size: 12px">（同一站在多域名上各来了多少量）</span></h3>
               <div class="table-wrap mb-md">
                 <table class="admin-table">
-                  <thead><tr><th>hostname</th><th>PV</th><th>UV</th></tr></thead>
+                  <thead><tr>
+                    <th>访问域名</th>
+                    <th title="该域名下的页面浏览数（每次加载 +1）">页面浏览 PV</th>
+                    <th title="该域名下的独立访客数（按会话去重）">独立访客 UV</th>
+                  </tr></thead>
                   <tbody>
                     <tr v-for="h in statsData.hosts" :key="h.hostname">
                       <td>{{ h.hostname }}</td>
@@ -747,15 +797,15 @@
                 </table>
               </div>
 
-              <h3 class="mb-sm">资源获取点击（CTR = 点击 / 详情页浏览）</h3>
+              <h3 class="mb-sm">资源明细 <span class="text-low" style="font-size: 12px">（点列头排序；默认按获取点击降序）</span></h3>
               <div class="table-wrap">
                 <table class="admin-table">
                   <thead>
                     <tr>
                       <th style="cursor: pointer" @click="setStatSort('title')">资源</th>
-                      <th style="cursor: pointer" @click="setStatSort('views')">详情页 PV</th>
-                      <th style="cursor: pointer" @click="setStatSort('clicks')">点击</th>
-                      <th style="cursor: pointer" @click="setStatSort('ctr')">CTR</th>
+                      <th style="cursor: pointer" title="该资源详情页被打开的次数（view:*）" @click="setStatSort('views')">详情页浏览</th>
+                      <th style="cursor: pointer" title="在详情页点『一键免费获取』/平台卡片的次数（get:*），PC 弹码与手机直跳都算" @click="setStatSort('clicks')">获取点击</th>
+                      <th style="cursor: pointer" title="获取点击 ÷ 详情页浏览。进页的人里有多少比例真的点了获取" @click="setStatSort('ctr')">点击率 CTR</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -765,12 +815,12 @@
                       <td>{{ row.clicks }}</td>
                       <td>{{ row.ctr === null ? '—' : (row.ctr * 100).toFixed(1) + '%' }}</td>
                     </tr>
-                    <tr v-if="!statsRows.length"><td colspan="4" class="text-low">窗口内还没有点击事件</td></tr>
+                    <tr v-if="!statsRows.length"><td colspan="4" class="text-low">窗口内还没有『获取点击』事件</td></tr>
                   </tbody>
                 </table>
               </div>
               <p class="text-low mt-sm" style="font-size: 12px">
-                生成于 {{ statsData.generatedAt }}；点击列排序：资源，PV，点击，CTR。最多展示 300 条。
+                生成于 {{ statsData.generatedAt }}；最多展示 300 条。列头可点击排序：资源，详情页浏览，获取点击，点击率。
               </p>
             </template>
             <div v-else-if="!statsError" class="text-low">填上 Token 点「刷新」即可加载。</div>
