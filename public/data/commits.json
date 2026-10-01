@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e652480",
+    "date": "2026-10-01T07:57:38+08:00",
+    "message": "sync: 新增资源《温馨田园 Build.25235784（Cozy Country）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e652480576f671ddb09333d57cfdd9980af28447"
+  },
+  {
     "hash": "eea3ef5",
     "date": "2026-10-01T07:54:31+08:00",
     "message": "fix(admin): 修 TDZ 崩溃 —— watch(tab) 放在 const tab 之前导致整个 Admin 白屏",
@@ -172,11 +178,5 @@
     "date": "2026-09-22T13:05:23+08:00",
     "message": "sync: 新增资源《像素世界杯足球赛v1b630复古竞技》",
     "url": "https://github.com/xi7ang/GameHub/commit/749363296e4ff8db8d50affe0ba318ac79aefc7b"
-  },
-  {
-    "hash": "080bd8b",
-    "date": "2026-09-21T20:31:52+08:00",
-    "message": "chore: 每日公告：发布【2026-09-21】游戏资源更新通知（5条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/080bd8bfff2382f752e8061331edb0ec5db21832"
   }
 ]

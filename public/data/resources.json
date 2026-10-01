@@ -24018,5 +24018,25 @@
     "addedAt": "2026-10-01T07:57:36+08:00",
     "updatedAt": "2026-10-01T07:57:36+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0005",
+    "title": "塔防之王5：离线无广告策略",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/4400efec88ef?pwd=i8o3",
+    "pwd": "i8o3",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u4c1baf61f13a.webp",
+    "steamAppID": null,
+    "desc": "经典塔防玩法升级，策略搭配自由度高，离线畅玩无广告干扰，随时随地沉浸式体验防守快感，多种关卡挑战无限可能，打造你的专属防御帝国。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-01T08:00:15+08:00",
+    "updatedAt": "2026-10-01T08:00:15+08:00",
+    "month": "202610"
   }
 ]
