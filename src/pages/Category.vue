@@ -9,6 +9,14 @@
         <div class="cat-hero__icon" :style="iconStyle">{{ cat?.emoji }}</div>
         <h1 class="cat-hero__title">{{ cat?.name || '资源库' }}</h1>
         <p class="cat-hero__sub text-low">{{ filtered.length }} 个资源</p>
+        <button
+          v-if="curCat"
+          type="button"
+          class="cat-follow"
+          :class="{ 'cat-follow--on': following }"
+          :aria-pressed="following"
+          @click="onFollow"
+        >{{ following ? '★ 已追更' : '☆ 追更这个分类' }}</button>
       </div>
     </section>
 
@@ -86,13 +94,21 @@ import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
+import { useFavorites } from '../composables/useFavorites.js'
 
 const { state, load, catMeta } = useData()
+
 const site = computed(() => state.site)
 
 const params = new URLSearchParams(location.search)
 const curCat = params.get('cat')
 const curMonth = params.get('month')
+
+const { isFollowing, toggleFollowCat, markFollowSeen } = useFavorites()
+const following = computed(() => (curCat ? isFollowing(curCat) : false))
+function onFollow() {
+  if (curCat) toggleFollowCat(curCat)
+}
 
 const platformFilter = ref('')
 const sortBy = ref('newest')
@@ -133,7 +149,11 @@ function fmtMonth(m) {
   return `${m.slice(0, 4)}年${m.slice(4)}月`
 }
 
-onMounted(load)
+onMounted(async () => {
+  await load()
+  // 进分类页 = 看过了：把追更的「新货」计数归零
+  if (curCat) markFollowSeen(curCat)
+})
 </script>
 
 <style scoped>
@@ -154,6 +174,28 @@ onMounted(load)
   font-weight: 700;
   margin-bottom: 6px;
 }
+.cat-follow {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  border-radius: 100px;
+  border: 1px solid var(--glass-border);
+  background: rgba(var(--accent-rgb), 0.06);
+  color: var(--text-mid);
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.cat-follow:hover { color: var(--text-hi); border-color: var(--accent-gold); box-shadow: var(--shadow-glow); }
+.cat-follow--on {
+  color: #3b1e00;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
+  box-shadow: 0 4px 18px rgba(var(--accent-rgb), 0.35);
+}
+.cat-follow--on:hover { color: #3b1e00; }
 
 .cat-tabs, .month-tabs { display: flex; gap: 10px; margin-bottom: 14px; position: relative; z-index: 1; }
 .cat-tab, .month-tab {

@@ -39,6 +39,58 @@
       </div>
     </section>
 
+    <!-- 更新日历 + 本周上新榜（均取自 home.json 轻量聚合，首页不拉全量） -->
+    <section class="container section">
+      <div class="retain-grid">
+        <div class="glass retain-card">
+          <h2 class="section-title">📅 更新日历 <span class="retain-sub text-low">近 14 天</span></h2>
+          <div class="cal">
+            <div v-for="d in calendar" :key="d.date" class="cal__col" :title="`${d.date} · ${d.count} 条`">
+              <span class="cal__count">{{ d.count || '' }}</span>
+              <span class="cal__track"><span class="cal__bar" :style="{ height: barHeight(d.count) }"></span></span>
+              <span class="cal__date text-low">{{ d.label }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass retain-card">
+          <h2 class="section-title">🔥 本周上新榜</h2>
+          <div v-if="weeklyTop.length" class="rank">
+            <a v-for="(r, i) in weeklyTop" :key="r.id" :href="detailHref(r.id)" class="rank__row">
+              <span class="rank__no" :class="`rank__no--${i + 1}`">{{ i + 1 }}</span>
+              <span class="rank__thumb"><img v-if="r.cover" :src="r.cover" alt="" loading="lazy" /></span>
+              <span class="rank__body">
+                <span class="rank__title">{{ r.title }}</span>
+                <span class="rank__meta text-low">{{ catLabel(r.category) }} · {{ fmtMD(r.addedAt) }}</span>
+              </span>
+            </a>
+          </div>
+          <p v-else class="retain-empty text-low">本周还没有新货，先看看上方的最新更新吧。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 我的追更：本地无收藏/追分类时整块隐藏 -->
+    <section v-if="showFollow" class="container section">
+      <h2 class="section-title">⭐ 我的追更</h2>
+      <div class="glass follow-panel">
+        <div v-if="followItems.length" class="follow-chips">
+          <a
+            v-for="f in followItems"
+            :key="f.key"
+            :href="`/category.html?cat=${f.key}`"
+            class="follow-chip"
+            @click="markFollowSeen(f.key)"
+          >
+            <span class="follow-chip__emoji">{{ f.emoji }}</span>
+            <span>你追的「{{ f.name }}」{{ f.count ? `有 ${f.count} 条新货` : '暂无新货' }}</span>
+          </a>
+        </div>
+        <p v-else class="text-low">还没追更任何分类——去分类页点「☆ 追更这个分类」，有新货首页会提醒你。</p>
+        <a href="/favorites.html" class="follow-panel__mine">查看我的收藏（{{ favCount() }}）→</a>
+      </div>
+    </section>
+
     <!-- 分类宫格 -->
     <section class="container section">
       <h2 class="section-title">🗂️ 资源分类</h2>
@@ -166,10 +218,13 @@ import SearchBox from '../components/SearchBox.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
+import { useFavorites } from '../composables/useFavorites.js'
+import { detailHref } from '../lib/short.js'
 import { BUILD_ID } from '../lib/version.js'
 import { IS_APP_WEBVIEW } from '../lib/appEnv.js'
 
-const { state, loadHome } = useData()
+const { state, loadHome, catLabel } = useData()
+const { favCount, followedCats, newCountFor, markFollowSeen } = useFavorites()
 const site = computed(() => state.site)
 const announcementVisible = ref(false)
 const announcement = computed(() => state.site?.announcementModal || {})
@@ -223,6 +278,59 @@ function pickRandomFeatured() {
   featured.value = arr.slice(0, 8)
 }
 const latest = computed(() => state.home?.latest || [])
+
+// ── 留存模块（数据全部来自 home.json 的轻量聚合，不触发全量加载）──
+function dayKeyOf(d) {
+  const p = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`
+}
+// 更新日历：近 14 天（含今天）每天新增数，天数取浏览器本地日期
+const calendar = computed(() => {
+  const dc = state.home?.dailyCounts || {}
+  const out = []
+  const now = new Date()
+  for (let i = 13; i >= 0; i--) {
+    const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i)
+    const key = dayKeyOf(d)
+    out.push({ date: key, label: `${d.getMonth() + 1}/${d.getDate()}`, count: dc[key] || 0 })
+  }
+  return out
+})
+const calMax = computed(() => Math.max(1, ...calendar.value.map((d) => d.count)))
+function barHeight(n) {
+  if (!n) return '3px'
+  return `${Math.max(4, Math.round((n / calMax.value) * 110))}px`
+}
+// 本周上新榜：最近 7 天 addedAt 倒序 top 10（池 = home.recentCards 前 60 条）
+const weeklyTop = computed(() => {
+  const cards = state.home?.recentCards || []
+  const keys = new Set()
+  const now = new Date()
+  for (let i = 0; i < 7; i++) {
+    keys.add(dayKeyOf(new Date(now.getFullYear(), now.getMonth(), now.getDate() - i)))
+  }
+  return cards.filter((c) => keys.has(String(c.addedAt || '').slice(0, 10))).slice(0, 10)
+})
+// 追更：把 home.catRecent 摊平成 [{category, addedAt}] 供 newCountFor 计数
+const followPool = computed(() => {
+  const cr = state.home?.catRecent || {}
+  const out = []
+  for (const k of Object.keys(cr)) for (const t of cr[k]) out.push({ category: k, addedAt: t })
+  return out
+})
+const followItems = computed(() =>
+  followedCats().map((k) => {
+    const c = state.categories.find((x) => x.key === k) || { key: k, name: k, emoji: '📦' }
+    return { key: k, name: c.name, emoji: c.emoji, count: newCountFor(k, followPool.value) }
+  })
+)
+const showFollow = computed(() => followItems.value.length > 0 || favCount() > 0)
+function fmtMD(iso) {
+  const d = new Date(iso)
+  if (Number.isNaN(d.getTime())) return ''
+  return `${d.getMonth() + 1}/${d.getDate()}`
+}
+
 const lastMonthCount = computed(() => {
   const now = new Date()
   const m = `${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}`
@@ -641,5 +749,136 @@ onMounted(async () => {
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
   .announcement-modal { padding: 30px 22px 22px; }
   .announcement-modal h2 { font-size: 23px; }
+}
+
+/* ── 留存模块：更新日历 / 本周上新榜 / 我的追更 ── */
+.retain-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 18px;
+  position: relative;
+  z-index: 1;
+}
+.retain-card { padding: 22px 22px 18px; }
+.retain-card:hover { transform: none; }
+.retain-sub {
+  font-family: var(--font-body, inherit);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.retain-empty { font-size: 14px; padding: 12px 0; }
+
+/* 更新日历 */
+.cal { display: flex; align-items: flex-end; gap: 4px; padding-top: 6px; }
+.cal__col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.cal__count { font-size: 10.5px; font-weight: 700; color: var(--text-mid); height: 14px; }
+.cal__track { height: 110px; width: 100%; display: flex; align-items: flex-end; justify-content: center; }
+.cal__bar {
+  width: 62%;
+  max-width: 26px;
+  border-radius: 4px 4px 2px 2px;
+  background: linear-gradient(180deg, var(--accent-gold), var(--accent-gold-deep));
+  box-shadow: 0 0 10px rgba(var(--accent-rgb), 0.35);
+  transition: height 0.3s ease;
+}
+.cal__col:hover .cal__bar { box-shadow: 0 0 16px rgba(var(--accent-rgb), 0.6); }
+.cal__date { font-size: 10px; white-space: nowrap; }
+
+/* 本周上新榜 */
+.rank { display: flex; flex-direction: column; }
+.rank__row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(var(--accent-rgb), 0.08);
+  transition: padding 0.2s;
+}
+.rank__row:last-child { border-bottom: none; }
+.rank__row:hover { padding-left: 9px; }
+.rank__no {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-low);
+  background: rgba(var(--accent-rgb), 0.08);
+}
+.rank__no--1 { color: #3b1e00; background: linear-gradient(135deg, #ffd45c, #ff9f22); }
+.rank__no--2 { color: var(--text-hi); background: rgba(255, 255, 255, 0.16); }
+.rank__no--3 { color: #3b1e00; background: linear-gradient(135deg, #e8c48a, #c99a5b); }
+.rank__thumb {
+  flex: none;
+  width: 44px;
+  height: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(var(--accent-rgb), 0.1);
+}
+.rank__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.rank__body { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.rank__title {
+  font-size: 13.5px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rank__meta { font-size: 11.5px; }
+
+/* 我的追更 */
+.follow-panel { padding: 18px 20px; position: relative; z-index: 1; }
+.follow-panel:hover { transform: none; }
+.follow-chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.follow-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px;
+  border-radius: 100px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-hi);
+  border: 1px solid rgba(var(--accent-rgb), 0.45);
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.2), rgba(var(--accent2-rgb), 0.08));
+  transition: all 0.2s;
+}
+.follow-chip:hover {
+  color: #fff;
+  border-color: var(--accent-gold);
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
+  box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.5);
+  transform: translateY(-2px);
+}
+.follow-chip__emoji { font-size: 16px; }
+.follow-panel__mine {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-gold);
+}
+.follow-panel__mine:hover { color: var(--accent-terracotta); }
+
+@media (max-width: 900px) {
+  .retain-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .cal__date { font-size: 9px; }
+  .cal { gap: 2px; }
+  .retain-card { padding: 18px 14px 14px; }
 }
 </style>

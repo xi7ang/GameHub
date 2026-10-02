@@ -1,5 +1,11 @@
 [
   {
+    "hash": "446ecc5",
+    "date": "2026-10-02T11:56:52+08:00",
+    "message": "sync: 新增资源《冰雪幸存者基地 最新汉化完整版内置菜单免内购》",
+    "url": "https://github.com/xi7ang/GameHub/commit/446ecc5033e1c45163fbfc1abe2e8ddc0b3ac7c4"
+  },
+  {
     "hash": "23836bd",
     "date": "2026-10-02T11:03:45+08:00",
     "message": "sync: 新增资源《死亡迪斯科：霓虹节奏格斗》",
@@ -172,11 +178,5 @@
     "date": "2026-09-24T22:56:30+08:00",
     "message": "sync: 新增资源《1666：阿姆斯特丹 Build.25240120（1666 Amsterdam》",
     "url": "https://github.com/xi7ang/GameHub/commit/486d96a50bf9d0af0883b9488d0536b9745406c5"
-  },
-  {
-    "hash": "55c1a07",
-    "date": "2026-09-24T22:52:44+08:00",
-    "message": "sync: 新增资源《血色兄弟：黑色一号 黑色一号：血盟兄弟 Build.25295517（Black》",
-    "url": "https://github.com/xi7ang/GameHub/commit/55c1a0757848350123447066230db38c9a14cb50"
   }
 ]

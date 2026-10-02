@@ -65,6 +65,7 @@ for (const r of resources) {
   add(`/resource.html?id=${shortId(r.id)}`, { last: lastmod(r.updatedAt), freq: 'monthly', pri: '0.6' })
 }
 // 静态页
+add('/favorites.html', { freq: 'weekly', pri: '0.3' })
 add('/changelog.html', { freq: 'weekly', pri: '0.3' })
 add('/disclaimer.html', { freq: 'yearly', pri: '0.2' })
 

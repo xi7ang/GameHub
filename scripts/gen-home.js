@@ -21,5 +21,5 @@ fs.writeFileSync(OUT, JSON.stringify(home))
 const kb = (fs.statSync(OUT).size / 1024).toFixed(1)
 const srcKb = (fs.statSync(SRC).size / 1024).toFixed(1)
 console.log(
-  `✅ home.json 已生成：${home.total} 条资源 · 封面池 ${home.coverPool.length} · 最新 ${home.latest.length} · ${kb} KB（源 ${srcKb} KB）`
+  `✅ home.json 已生成：${home.total} 条资源 · 封面池 ${home.coverPool.length} · 最新 ${home.latest.length} · 日历天数 ${Object.keys(home.dailyCounts).length} · 追更池 ${Object.keys(home.catRecent).length} 类 · ${kb} KB（源 ${srcKb} KB）`
 )

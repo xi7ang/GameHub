@@ -38,6 +38,20 @@
             <h1 class="detail__title">{{ r.title }}</h1>
             <p v-if="r.enTitle" class="detail__entitle text-low">{{ r.enTitle }}</p>
 
+            <!-- 收藏 / 已收藏（纯本地 localStorage，无后端） -->
+            <div class="detail__actions">
+              <button
+                type="button"
+                class="fav-btn"
+                :class="{ 'fav-btn--on': favored }"
+                :aria-pressed="favored"
+                @click="onToggleFav"
+              >
+                <span class="fav-btn__star" aria-hidden="true">{{ favored ? '★' : '☆' }}</span>
+                <span>{{ favored ? '已收藏' : '收藏' }}</span>
+              </button>
+            </div>
+
             <!-- 获取卡片：平台 + 提取码 + 一键获取 -->
             <div class="get-card">
               <a :href="r.url" target="_blank" rel="noreferrer" class="platform-card" @click="onGet">
@@ -132,6 +146,7 @@ import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { useData } from '../composables/useData.js'
+import { useFavorites } from '../composables/useFavorites.js'
 import { shortId } from '../lib/short.js'
 import { BUILD_ID } from '../lib/version.js'
 
@@ -200,6 +215,14 @@ onMounted(async () => {
 })
 
 const cat = computed(() => (r.value ? catMeta(r.value.category) : null))
+
+// 收藏 / 已收藏（纯本地 localStorage）
+const { isFav, toggleFav } = useFavorites()
+const favored = computed(() => isFav(r.value?.id))
+function onToggleFav() {
+  if (!r.value?.id) return
+  toggleFav(r.value)
+}
 const platform = computed(() => {
   if (!r.value) return null
   const p = state.site?.platforms?.[r.value.platform]
@@ -427,6 +450,31 @@ watch(showQr, async (v) => {
 .detail__info { padding: 28px 30px; display: flex; flex-direction: column; }
 .detail__title { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
 .detail__entitle { font-size: 15px; margin-bottom: 12px; }
+
+/* 收藏按钮（本地功能，视觉语言与全站 CTA 区分：已收藏用暖金实底） */
+.detail__actions { display: flex; gap: 10px; margin-bottom: 4px; }
+.fav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1px solid var(--glass-border);
+  background: rgba(var(--accent-rgb), 0.06);
+  color: var(--text-mid);
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.fav-btn:hover { color: var(--text-hi); border-color: var(--accent-gold); box-shadow: var(--shadow-glow); }
+.fav-btn__star { font-size: 16px; line-height: 1; }
+.fav-btn--on {
+  color: #3b1e00;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
+  box-shadow: 0 4px 18px rgba(var(--accent-rgb), 0.35);
+}
+.fav-btn--on:hover { color: #3b1e00; }
 
 /* 获取卡片：平台 + 提取码 + 一键获取 整合高亮 */
 .get-card {
