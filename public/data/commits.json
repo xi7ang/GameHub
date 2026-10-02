@@ -1,5 +1,11 @@
 [
   {
+    "hash": "84c7d15",
+    "date": "2026-10-02T10:56:29+08:00",
+    "message": "sync: 新增资源《铜铲铲之战v1.32.1免广版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/84c7d15b9e92e83eeb2b0f4927e95b60a1ceff34"
+  },
+  {
     "hash": "41d5b24",
     "date": "2026-10-02T10:53:30+08:00",
     "message": "sync: 新增资源《XP英雄：金币无限畅玩》",
@@ -172,11 +178,5 @@
     "date": "2026-09-22T20:31:57+08:00",
     "message": "chore: 每日公告：发布【2026-09-22】游戏资源更新通知（5条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/c9ae9c9d321ec3390cfc5d2742879f8b21435b6f"
-  },
-  {
-    "hash": "7cebd64",
-    "date": "2026-09-22T13:22:01+08:00",
-    "message": "sync: 新增资源《沙丘：觉醒 /Dune: Awakening v1.5.3.0》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7cebd64d1b49e60b39e482c4db97b25fe47b010a"
   }
 ]

@@ -24078,5 +24078,25 @@
     "addedAt": "2026-10-02T10:56:28+08:00",
     "updatedAt": "2026-10-02T10:56:28+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0008",
+    "title": "剑客物语 v4.225.648内置菜单",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/e59ff5a1f55c?pwd=BAYA",
+    "pwd": "BAYA",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u3026ece586bb.webp",
+    "steamAppID": null,
+    "desc": "内置菜单功能丰富，一键解锁无限资源与专属特权，操作便捷流畅，无需繁琐步骤，让玩家轻松掌控游戏节奏，体验极致畅快的剑客冒险之旅。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-02T11:00:39+08:00",
+    "updatedAt": "2026-10-02T11:00:39+08:00",
+    "month": "202610"
   }
 ]
