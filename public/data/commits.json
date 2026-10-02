@@ -1,5 +1,11 @@
 [
   {
+    "hash": "dfc2c44",
+    "date": "2026-10-02T11:00:40+08:00",
+    "message": "sync: 新增资源《剑客物语 v4.225.648内置菜单》",
+    "url": "https://github.com/xi7ang/GameHub/commit/dfc2c448374e66c552da63c310153c067b82d355"
+  },
+  {
     "hash": "84c7d15",
     "date": "2026-10-02T10:56:29+08:00",
     "message": "sync: 新增资源《铜铲铲之战v1.32.1免广版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-24T22:49:55+08:00",
     "message": "sync: 新增资源《罗马与征服 Build.11003358（Grand War Rome）》",
     "url": "https://github.com/xi7ang/GameHub/commit/22cb99c1009f782009720f5a1988bb6f7cc009ef"
-  },
-  {
-    "hash": "c9ae9c9",
-    "date": "2026-09-22T20:31:57+08:00",
-    "message": "chore: 每日公告：发布【2026-09-22】游戏资源更新通知（5条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c9ae9c9d321ec3390cfc5d2742879f8b21435b6f"
   }
 ]

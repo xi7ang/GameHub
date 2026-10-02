@@ -24098,5 +24098,25 @@
     "addedAt": "2026-10-02T11:00:39+08:00",
     "updatedAt": "2026-10-02T11:00:39+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0009",
+    "title": "死亡迪斯科：霓虹节奏格斗",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/40ecfe62002b?pwd=V82T",
+    "pwd": "V82T",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u6601c9f36a3d.webp",
+    "steamAppID": null,
+    "desc": "在霓虹闪烁的迪斯科舞池中，用节拍操控格斗，每一次出招都伴随心跳鼓点。复古音浪与炫酷招式碰撞，让舞蹈成为战斗，让节奏主宰胜负，在迷幻光影中掀起最狂热的格斗风暴。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-02T11:03:44+08:00",
+    "updatedAt": "2026-10-02T11:03:44+08:00",
+    "month": "202610"
   }
 ]
