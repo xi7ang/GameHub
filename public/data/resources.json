@@ -24198,5 +24198,25 @@
     "addedAt": "2026-10-05T07:51:30+08:00",
     "updatedAt": "2026-10-05T07:51:30+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0014",
+    "title": "露营车：回家 v2026.3.20 中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6c32e3afee85?pwd=ulC5",
+    "pwd": "ulC5",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u55052b1e5684.webp",
+    "steamAppID": null,
+    "desc": "2026年最新中文版，带来更真实的露营车驾驶体验，优化回家路线规划，新增温馨家庭互动场景，让每一次归途都充满温暖与探索的乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-05T07:57:34+08:00",
+    "updatedAt": "2026-10-05T07:57:34+08:00",
+    "month": "202610"
   }
 ]

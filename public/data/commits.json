@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a2a8414",
+    "date": "2026-10-05T07:51:31+08:00",
+    "message": "sync: 新增资源《最远的边陲：硬核中世纪城建》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a2a8414005bb27ebe0ea27ebadcd9f27e20d17a0"
+  },
+  {
     "hash": "c997dbc",
     "date": "2026-10-05T07:48:20+08:00",
     "message": "sync: 新增资源《清理落叶：解压清扫全DLC中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-09-27T08:25:24+08:00",
     "message": "sync: 新增资源《怪物猎人物语2：毁灭之翼v1.6.1全 DLC》",
     "url": "https://github.com/xi7ang/GameHub/commit/10a3e52d298917bed10e446ac4bf7f677e862553"
-  },
-  {
-    "hash": "ce166d4",
-    "date": "2026-09-27T08:22:25+08:00",
-    "message": "sync: 新增资源《粒子之心v2025中文版解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ce166d44424cb85cb810a5dedd7e5e78a8eb5733"
   }
 ]
