@@ -24158,5 +24158,25 @@
     "addedAt": "2026-10-05T07:44:55+08:00",
     "updatedAt": "2026-10-05T07:44:55+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0012",
+    "title": "清理落叶：解压清扫全DLC中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/0d8f1cb16e8a?pwd=Uha8",
+    "pwd": "Uha8",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ube2898828ca6.webp",
+    "steamAppID": null,
+    "desc": "沉浸式清扫体验，多场景落叶挑战，搭配舒缓音效与物理引擎，清扫过程如解压小游戏，DLC新增创意清扫工具与隐藏关卡，让日常劳动变成治愈冒险。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-05T07:48:19+08:00",
+    "updatedAt": "2026-10-05T07:48:19+08:00",
+    "month": "202610"
   }
 ]

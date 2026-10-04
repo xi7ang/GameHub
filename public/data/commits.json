@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3be8d8f",
+    "date": "2026-10-05T07:44:56+08:00",
+    "message": "sync: 新增资源《颂钟长鸣：中世纪领地建造生存》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3be8d8f41eb06001ebfa242d85fa2ab99740e8e2"
+  },
+  {
     "hash": "1bb82df",
     "date": "2026-10-04T08:01:09+08:00",
     "message": "chore: 公告：新功能上线（收藏/追更/更新日历/本周上新榜）",
@@ -172,11 +178,5 @@
     "date": "2026-09-27T08:19:19+08:00",
     "message": "sync: 新增资源《口袋汽车v1.0中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/d9b97eca6ee998ab1beb18540ce030059cd1e1d8"
-  },
-  {
-    "hash": "a8005ac",
-    "date": "2026-09-27T08:16:04+08:00",
-    "message": "sync: 新增资源《终末机兵正式版解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a8005ac91b64d02e1cf59d0888bc2e89446edfdd"
   }
 ]
