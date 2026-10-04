@@ -1,5 +1,23 @@
 [
   {
+    "hash": "1bb82df",
+    "date": "2026-10-04T08:01:09+08:00",
+    "message": "chore: 公告：新功能上线（收藏/追更/更新日历/本周上新榜）",
+    "url": "https://github.com/xi7ang/GameHub/commit/1bb82df9239d627502543a7a2215943c397ed693"
+  },
+  {
+    "hash": "2af0aae",
+    "date": "2026-10-02T20:31:56+08:00",
+    "message": "chore: 每日公告：发布【2026-10-02】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/2af0aae2546309708b08d4890de91cfa1bd488b6"
+  },
+  {
+    "hash": "4b36e00",
+    "date": "2026-10-02T14:54:05+08:00",
+    "message": "feat(留存): 收藏/追更 + 更新日历 + 本周上新榜",
+    "url": "https://github.com/xi7ang/GameHub/commit/4b36e009958d625350cfbad78c838ab378d42f76"
+  },
+  {
     "hash": "446ecc5",
     "date": "2026-10-02T11:56:52+08:00",
     "message": "sync: 新增资源《冰雪幸存者基地 最新汉化完整版内置菜单免内购》",
@@ -160,23 +178,5 @@
     "date": "2026-09-27T08:16:04+08:00",
     "message": "sync: 新增资源《终末机兵正式版解压即玩》",
     "url": "https://github.com/xi7ang/GameHub/commit/a8005ac91b64d02e1cf59d0888bc2e89446edfdd"
-  },
-  {
-    "hash": "887c43c",
-    "date": "2026-09-24T23:28:57+08:00",
-    "message": "sync: 新增资源《沉没之地 单机+联机 Build.25385032 （Sunkenland）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/887c43ce71aeb12ed43e79ab80eefbf1b02c3257"
-  },
-  {
-    "hash": "db7026d",
-    "date": "2026-09-24T23:00:39+08:00",
-    "message": "sync: 新增资源《索拉丽斯炼成计划 Build.25420471（Project Solaris）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/db7026d5f63275a097c697c2112a57b27bfc086e"
-  },
-  {
-    "hash": "486d96a",
-    "date": "2026-09-24T22:56:30+08:00",
-    "message": "sync: 新增资源《1666：阿姆斯特丹 Build.25240120（1666 Amsterdam》",
-    "url": "https://github.com/xi7ang/GameHub/commit/486d96a50bf9d0af0883b9488d0536b9745406c5"
   }
 ]
