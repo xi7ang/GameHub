@@ -759,6 +759,9 @@ onMounted(async () => {
   position: relative;
   z-index: 1;
 }
+/* 网格子项默认 min-width:auto：会被内容的 min-content 顶开 → 窄屏整页横向溢出。
+   横向溢出又会让 position:fixed 的公告弹窗在多端上偏位（参照系被撑大）。显式归零。 */
+.retain-grid > * { min-width: 0; }
 .retain-card { padding: 22px 22px 18px; }
 .retain-card:hover { transform: none; }
 .retain-sub {
@@ -770,7 +773,7 @@ onMounted(async () => {
 .retain-empty { font-size: 14px; padding: 12px 0; }
 
 /* 更新日历 */
-.cal { display: flex; align-items: flex-end; gap: 4px; padding-top: 6px; }
+.cal { display: flex; align-items: flex-end; gap: 4px; padding-top: 6px; min-width: 0; }
 .cal__col {
   flex: 1;
   min-width: 0;
@@ -793,7 +796,7 @@ onMounted(async () => {
 .cal__date { font-size: 10px; white-space: nowrap; }
 
 /* 本周上新榜 */
-.rank { display: flex; flex-direction: column; }
+.rank { display: flex; flex-direction: column; min-width: 0; }
 .rank__row {
   display: flex;
   align-items: center;
@@ -874,7 +877,9 @@ onMounted(async () => {
 .follow-panel__mine:hover { color: var(--accent-terracotta); }
 
 @media (max-width: 900px) {
-  .retain-grid { grid-template-columns: 1fr; }
+  /* 这里必须是 minmax(0,1fr)：裸 1fr 的自动最小值 = 内容 min-content，会被日历的
+     14 个不换行日期顶开，把整个文档撑宽到 564px（实测）。这正是弹窗偏位 + 整站变宽的根因。 */
+  .retain-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 560px) {
   .cal__date { font-size: 9px; }
