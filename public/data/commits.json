@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e9c2c41",
+    "date": "2026-10-05T07:57:36+08:00",
+    "message": "sync: 新增资源《露营车：回家 v2026.3.20 中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e9c2c4199eab6563876b9642df4924c8e4a63859"
+  },
+  {
     "hash": "a2a8414",
     "date": "2026-10-05T07:51:31+08:00",
     "message": "sync: 新增资源《最远的边陲：硬核中世纪城建》",
@@ -172,11 +178,5 @@
     "date": "2026-09-27T08:28:52+08:00",
     "message": "sync: 新增资源《FIFA 20中文版免安装》",
     "url": "https://github.com/xi7ang/GameHub/commit/314a03022ad13007c29af111e4d8a5fac9e1d8f2"
-  },
-  {
-    "hash": "10a3e52",
-    "date": "2026-09-27T08:25:24+08:00",
-    "message": "sync: 新增资源《怪物猎人物语2：毁灭之翼v1.6.1全 DLC》",
-    "url": "https://github.com/xi7ang/GameHub/commit/10a3e52d298917bed10e446ac4bf7f677e862553"
   }
 ]

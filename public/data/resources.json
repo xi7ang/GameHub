@@ -24218,5 +24218,25 @@
     "addedAt": "2026-10-05T07:57:34+08:00",
     "updatedAt": "2026-10-05T07:57:34+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0015",
+    "title": "猫猫特工队：代号伍 Build.25672866（SpyCat Codename Wu）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/88bbb43f9de6?pwd=jjuk",
+    "pwd": "jjuk",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u1807ebe608c3.webp",
+    "steamAppID": null,
+    "desc": "代号伍携Build.25672866版本登场，化身神秘特工，潜入危机四伏的任务世界。敏捷身手配合智能装备，破解谜题，对抗反派，每一次行动都充满未知与惊喜。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-05T08:00:55+08:00",
+    "updatedAt": "2026-10-05T08:00:55+08:00",
+    "month": "202610"
   }
 ]
