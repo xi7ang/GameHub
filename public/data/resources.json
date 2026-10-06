@@ -24318,5 +24318,25 @@
     "addedAt": "2026-10-06T19:42:23+08:00",
     "updatedAt": "2026-10-06T19:42:23+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0020",
+    "title": "肉鸽领地：守卫方格",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/fa94db8d2117?pwd=qdYq",
+    "pwd": "qdYq",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ue4033f9fda54.webp",
+    "steamAppID": null,
+    "desc": "策略性方格防御与肉roguelite元素完美融合，每一次随机生成地图都带来全新挑战。搭配独特技能组合与多样敌人设计，在紧张刺激的战斗中体验策略与运气的双重博弈，打造不可预测的冒险之旅。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-06T19:46:30+08:00",
+    "updatedAt": "2026-10-06T19:46:30+08:00",
+    "month": "202610"
   }
 ]

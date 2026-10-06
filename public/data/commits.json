@@ -1,5 +1,11 @@
 [
   {
+    "hash": "cc2b8c7",
+    "date": "2026-10-06T19:42:24+08:00",
+    "message": "sync: 新增资源《2D工厂Build.25656265官方中文2DFactory》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cc2b8c7f28e8cb414729e09bc9e3c1c811f7ad0d"
+  },
+  {
     "hash": "0e766b3",
     "date": "2026-10-06T19:35:18+08:00",
     "message": "sync: 新增资源《桌面宠物/DesktopPetProjectBuild.12629150》",
@@ -172,11 +178,5 @@
     "date": "2026-09-30T20:31:52+08:00",
     "message": "chore: 每日公告：发布【2026-09-30】游戏资源更新通知（5 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/d322bcb710e1702f5995535f4d2fe52d94d9d3e6"
-  },
-  {
-    "hash": "75c38ac",
-    "date": "2026-09-30T00:57:19+08:00",
-    "message": "sync: 新增资源《异种航员2：冷战科幻策略》",
-    "url": "https://github.com/xi7ang/GameHub/commit/75c38ac2bd2254a422614bcda12c709488c22235"
   }
 ]
