@@ -24258,5 +24258,25 @@
     "addedAt": "2026-10-06T19:23:42+08:00",
     "updatedAt": "2026-10-06T19:23:42+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0017",
+    "title": "牛来了！/TheLongGrazeBuild.25618441",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/4f71fe6345bb?pwd=AwUp",
+    "pwd": "AwUp",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u0bcf60bf6e8c.webp",
+    "steamAppID": null,
+    "desc": "沉浸式体验农场生活，从放牧到收获，感受四季更迭与自然韵律。细腻的牧场管理，温暖的动物互动，打造真实治愈的田园牧歌。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-06T19:30:30+08:00",
+    "updatedAt": "2026-10-06T19:30:30+08:00",
+    "month": "202610"
   }
 ]
