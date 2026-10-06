@@ -1,5 +1,23 @@
 [
   {
+    "hash": "5300554",
+    "date": "2026-10-05T20:33:32+08:00",
+    "message": "chore: 每日公告：发布【2026-10-05】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/53005540a2580342b6cf39c27822b2896e8d0b48"
+  },
+  {
+    "hash": "239e54a",
+    "date": "2026-10-05T16:41:34+08:00",
+    "message": "fix(home): 修窄屏横向溢出（弹窗偏位 + 整站变宽的根因）",
+    "url": "https://github.com/xi7ang/GameHub/commit/239e54ad6ed61916b3f076c679dd8b671f4fc0b9"
+  },
+  {
+    "hash": "9099d18",
+    "date": "2026-10-05T08:00:56+08:00",
+    "message": "sync: 新增资源《猫猫特工队：代号伍 Build.25672866（SpyCat Codename》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9099d180f28752debb6c2db52e517609ce8b7c7d"
+  },
+  {
     "hash": "e9c2c41",
     "date": "2026-10-05T07:57:36+08:00",
     "message": "sync: 新增资源《露营车：回家 v2026.3.20 中文版》",
@@ -160,23 +178,5 @@
     "date": "2026-09-30T00:28:41+08:00",
     "message": "sync: 新增资源《丁丁历险记：独角兽号高清中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/417e7d7b8e289119f294cf44ad8c6ec4cd00d92e"
-  },
-  {
-    "hash": "a645909",
-    "date": "2026-09-30T00:25:12+08:00",
-    "message": "sync: 新增资源《向彩虹致敬v1.08中文版解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a645909ac881710140e45120b5461d4d2f1df9a2"
-  },
-  {
-    "hash": "0b953e7",
-    "date": "2026-09-27T20:31:48+08:00",
-    "message": "chore: 每日公告：发布【2026-09-27】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/0b953e724baa54a60f1822797c585494e141df98"
-  },
-  {
-    "hash": "314a030",
-    "date": "2026-09-27T08:28:52+08:00",
-    "message": "sync: 新增资源《FIFA 20中文版免安装》",
-    "url": "https://github.com/xi7ang/GameHub/commit/314a03022ad13007c29af111e4d8a5fac9e1d8f2"
   }
 ]
