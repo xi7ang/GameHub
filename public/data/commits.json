@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8e78b8a",
+    "date": "2026-10-06T19:30:31+08:00",
+    "message": "sync: 新增资源《牛来了！/TheLongGrazeBuild.25618441》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8e78b8a972fa6666fc0e961618512c8b67b3081e"
+  },
+  {
     "hash": "aadcfe7",
     "date": "2026-10-06T19:23:43+08:00",
     "message": "sync: 新增资源《农夫王朝2/Farmer'sDynasty2Build.24986028》",
@@ -172,11 +178,5 @@
     "date": "2026-09-30T00:37:21+08:00",
     "message": "sync: 新增资源《新港救援队v1.0.3中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/2fc83d96e92069d315b03536dfad9aabbf6ae472"
-  },
-  {
-    "hash": "438bc46",
-    "date": "2026-09-30T00:33:43+08:00",
-    "message": "sync: 新增资源《暴怒人群：街机肉鸽射击爽游》",
-    "url": "https://github.com/xi7ang/GameHub/commit/438bc46221c5b786df2312efcc86b07f5f5602b9"
   }
 ]

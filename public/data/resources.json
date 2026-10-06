@@ -24278,5 +24278,25 @@
     "addedAt": "2026-10-06T19:30:30+08:00",
     "updatedAt": "2026-10-06T19:30:30+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0018",
+    "title": "桌面宠物/DesktopPetProjectBuild.12629150",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/a0bcdbc68d34?pwd=ZKUR",
+    "pwd": "ZKUR",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u1bbfbde2a886.webp",
+    "steamAppID": null,
+    "desc": "桌面萌宠陪伴日常，互动趣味十足，可自定义外观与动作，轻松解压又治愈。小巧不占空间，智能响应操作，为你的屏幕增添活力与温馨，工作学习之余带来无限欢乐。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-06T19:35:17+08:00",
+    "updatedAt": "2026-10-06T19:35:17+08:00",
+    "month": "202610"
   }
 ]
