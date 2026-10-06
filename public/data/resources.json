@@ -24298,5 +24298,25 @@
     "addedAt": "2026-10-06T19:35:17+08:00",
     "updatedAt": "2026-10-06T19:35:17+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0019",
+    "title": "2D工厂Build.25656265官方中文2DFactory",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/e9f40975af97?pwd=1rWg",
+    "pwd": "1rWg",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u9205518af92d.webp",
+    "steamAppID": null,
+    "desc": "像素风2D工厂模拟，自由规划生产线，资源管理策略丰富，挑战效率极限。中文汉化无障碍，轻松上手，打造专属工业帝国。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-06T19:42:23+08:00",
+    "updatedAt": "2026-10-06T19:42:23+08:00",
+    "month": "202610"
   }
 ]
