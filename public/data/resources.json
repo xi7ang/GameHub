@@ -24338,5 +24338,25 @@
     "addedAt": "2026-10-06T19:46:30+08:00",
     "updatedAt": "2026-10-06T19:46:30+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0021",
+    "title": "云梦奇谭 Build.25704294（Legends of Immortality）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/0c20bf4dd893?pwd=GenD",
+    "pwd": "GenD",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u779764524fc0.webp",
+    "steamAppID": null,
+    "desc": "在云梦奇谭的奇幻世界中，玩家将探索神秘仙境，邂逅仙灵神兽，体验修仙问道之路。指尖轻触即可施展华丽法术，解锁上古秘宝，书写属于自己的不朽传奇。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-09T09:47:41+08:00",
+    "updatedAt": "2026-10-09T09:47:41+08:00",
+    "month": "202610"
   }
 ]

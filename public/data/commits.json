@@ -1,5 +1,17 @@
 [
   {
+    "hash": "28bd82f",
+    "date": "2026-10-06T20:33:58+08:00",
+    "message": "chore: 每日公告：发布【2026-10-06】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/28bd82fe19148763cefdb672e1853e4dda80db27"
+  },
+  {
+    "hash": "d061ab4",
+    "date": "2026-10-06T19:46:32+08:00",
+    "message": "sync: 新增资源《肉鸽领地：守卫方格》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d061ab4ce870b1695d89571489acdb9624e3cbd6"
+  },
+  {
     "hash": "cc2b8c7",
     "date": "2026-10-06T19:42:24+08:00",
     "message": "sync: 新增资源《2D工厂Build.25656265官方中文2DFactory》",
@@ -166,17 +178,5 @@
     "date": "2026-10-01T07:40:43+08:00",
     "message": "feat(analytics): 接入自建 Umami 统计（stats.mibear.top）",
     "url": "https://github.com/xi7ang/GameHub/commit/1f86335ecebc0bb0010fb95c32802df847a78d02"
-  },
-  {
-    "hash": "b19f073",
-    "date": "2026-10-01T07:37:22+08:00",
-    "message": "sync: 新增资源《蝙蝠侠阿卡姆骑士V1.999解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b19f073f822c8a20b21f4b77efd58e817d42e62a"
-  },
-  {
-    "hash": "d322bcb",
-    "date": "2026-09-30T20:31:52+08:00",
-    "message": "chore: 每日公告：发布【2026-09-30】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/d322bcb710e1702f5995535f4d2fe52d94d9d3e6"
   }
 ]
