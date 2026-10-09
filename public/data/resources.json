@@ -24378,5 +24378,29 @@
     "addedAt": "2026-10-09T09:59:11+08:00",
     "updatedAt": "2026-10-09T09:59:11+08:00",
     "month": "202610"
+  },
+  {
+    "id": "online-202610-0001",
+    "title": "火鹰FPV：无人机战争模拟器 Build.24056343（Firehawk FPV Drone Warfare Simulator）",
+    "enTitle": "",
+    "category": "online",
+    "tags": [
+      "FPV无人机",
+      "战争模拟器",
+      "物理破坏"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6c73c7f55d60?pwd=wiYI",
+    "pwd": "wiYI",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "steamAppID": null,
+    "desc": "以第一人称FPV视角沉浸式驾驶无人机，于逼真战场执行侦查、打击等任务。物理破坏与动态环境带来真实战术反馈，从单机训练到联机对战，满足模拟与竞技双重乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-09T10:02:57+08:00",
+    "updatedAt": "2026-10-09T10:02:57+08:00",
+    "month": "202610"
   }
 ]

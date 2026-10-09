@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a5da8cb",
+    "date": "2026-10-09T09:59:13+08:00",
+    "message": "sync: 新增资源《龙与地下城：无冬之夜2增强版 v1.130（Dungeons and Drago》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a5da8cb0cd16d071ac7604b7c37086e6196dff1c"
+  },
+  {
     "hash": "77b068d",
     "date": "2026-10-09T09:47:42+08:00",
     "message": "sync: 新增资源《云梦奇谭 Build.25704294（Legends of Immortali》",
@@ -172,11 +178,5 @@
     "date": "2026-10-01T07:45:10+08:00",
     "message": "sync: 新增资源《巫火v0.9.0中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/28443dc41488508163064252a89887fb9248a7f7"
-  },
-  {
-    "hash": "765f3f5",
-    "date": "2026-10-01T07:40:46+08:00",
-    "message": "sync: 新增资源《架空地图模拟器v2024中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/765f3f501f7ecf7901c5d17490544f94ecbb813c"
   }
 ]
