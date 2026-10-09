@@ -1,5 +1,11 @@
 [
   {
+    "hash": "883b9f3",
+    "date": "2026-10-09T10:02:58+08:00",
+    "message": "sync: 新增资源《火鹰FPV：无人机战争模拟器 Build.24056343（Firehawk F》",
+    "url": "https://github.com/xi7ang/GameHub/commit/883b9f35003124b8ef3823bdeb7ff4d7b59faeab"
+  },
+  {
     "hash": "a5da8cb",
     "date": "2026-10-09T09:59:13+08:00",
     "message": "sync: 新增资源《龙与地下城：无冬之夜2增强版 v1.130（Dungeons and Drago》",
@@ -172,11 +178,5 @@
     "date": "2026-10-01T07:47:43+08:00",
     "message": "feat(admin): 新增「访问统计」tab（自建 Umami 聚合接口）",
     "url": "https://github.com/xi7ang/GameHub/commit/f260cbcd6d7eff755b2904c9a491f357ad0742fa"
-  },
-  {
-    "hash": "28443dc",
-    "date": "2026-10-01T07:45:10+08:00",
-    "message": "sync: 新增资源《巫火v0.9.0中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/28443dc41488508163064252a89887fb9248a7f7"
   }
 ]
