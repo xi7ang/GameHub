@@ -1,5 +1,11 @@
 [
   {
+    "hash": "77b068d",
+    "date": "2026-10-09T09:47:42+08:00",
+    "message": "sync: 新增资源《云梦奇谭 Build.25704294（Legends of Immortali》",
+    "url": "https://github.com/xi7ang/GameHub/commit/77b068da3cf85ee5a66b69b34187ce3d35bf89ff"
+  },
+  {
     "hash": "28bd82f",
     "date": "2026-10-06T20:33:58+08:00",
     "message": "chore: 每日公告：发布【2026-10-06】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-01T07:40:46+08:00",
     "message": "sync: 新增资源《架空地图模拟器v2024中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/765f3f501f7ecf7901c5d17490544f94ecbb813c"
-  },
-  {
-    "hash": "1f86335",
-    "date": "2026-10-01T07:40:43+08:00",
-    "message": "feat(analytics): 接入自建 Umami 统计（stats.mibear.top）",
-    "url": "https://github.com/xi7ang/GameHub/commit/1f86335ecebc0bb0010fb95c32802df847a78d02"
   }
 ]
