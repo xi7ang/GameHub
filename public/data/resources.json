@@ -24422,5 +24422,30 @@
     "addedAt": "2026-10-09T10:09:26+08:00",
     "updatedAt": "2026-10-09T10:09:26+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0024",
+    "title": "万象群侠传",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [
+      "武侠",
+      "万象群侠传",
+      "角色扮演",
+      "PC端"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/ec20f0cda997?pwd=liNG",
+    "pwd": "liNG",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/3039500.webp",
+    "steamAppID": 3039500,
+    "desc": "江湖恩怨情仇交织，万象群侠各显神通，独特剧情与丰富角色塑造沉浸式武侠体验",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-09T10:13:10+08:00",
+    "updatedAt": "2026-10-09T10:13:10+08:00",
+    "month": "202610"
   }
 ]

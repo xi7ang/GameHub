@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7b83514",
+    "date": "2026-10-09T10:09:28+08:00",
+    "message": "sync: 新增资源《王国保卫战6：新启程 v1.01.008（Kingdom Rush 6 Gene》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7b8351439f54a07efeef0d36659d312b81912435"
+  },
+  {
     "hash": "883b9f3",
     "date": "2026-10-09T10:02:58+08:00",
     "message": "sync: 新增资源《火鹰FPV：无人机战争模拟器 Build.24056343（Firehawk F》",
@@ -172,11 +178,5 @@
     "date": "2026-10-01T07:54:31+08:00",
     "message": "fix(admin): 修 TDZ 崩溃 —— watch(tab) 放在 const tab 之前导致整个 Admin 白屏",
     "url": "https://github.com/xi7ang/GameHub/commit/eea3ef5b73da08522786e0c839d4d21217bb32e1"
-  },
-  {
-    "hash": "f260cbc",
-    "date": "2026-10-01T07:47:43+08:00",
-    "message": "feat(admin): 新增「访问统计」tab（自建 Umami 聚合接口）",
-    "url": "https://github.com/xi7ang/GameHub/commit/f260cbcd6d7eff755b2904c9a491f357ad0742fa"
   }
 ]
