@@ -160,6 +160,10 @@
         <p class="announcement-modal__eyebrow">GAMEHUB NOTICE</p>
         <h2 id="announcement-title">{{ announcement.title || '站点公告' }}</h2>
         <div class="announcement-socials">
+          <a href="https://v.devmini.space" target="_blank" rel="noreferrer" class="announcement-social announcement-social--film">
+            <span class="announcement-social__icon announcement-social__flame" aria-hidden="true">🔥</span>
+            <span>同名影视资源站</span>
+          </a>
           <a v-if="site?.qqGroup" :href="site.qqGroup" target="_blank" rel="noreferrer" class="announcement-social announcement-social--qq">
             <img class="announcement-social__icon" src="/qq-penguin.png" alt="" width="13" height="15" />
             <span>QQ群</span>
@@ -438,6 +442,31 @@ onMounted(async () => {
   transition: all 0.2s;
 }
 .announcement-social__icon { display: inline-flex; font-size: 13px; line-height: 1; }
+/* 同名影视资源站：暖金火焰渐变 + 动态火焰图标，最醒目，排在最前 */
+.announcement-social--film {
+  background: linear-gradient(135deg, #ff7a2f, #ef4a26 55%, #c9302c);
+  border: 1px solid #ff9a5a;
+  font-weight: 700;
+  box-shadow: 0 0 14px rgba(255, 96, 40, 0.55), inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+}
+.announcement-social--film:hover {
+  background: linear-gradient(135deg, #ff8b45, #f2552e 55%, #d63a30);
+  box-shadow: 0 0 22px rgba(255, 96, 40, 0.85);
+  transform: translateY(-1px);
+}
+.announcement-social__flame {
+  display: inline-block;
+  font-size: 14px;
+  transform-origin: 50% 85%;
+  animation: film-flame 1.1s ease-in-out infinite;
+  filter: drop-shadow(0 0 4px rgba(255, 150, 50, 0.9));
+}
+@keyframes film-flame {
+  0%, 100% { transform: scale(1) rotate(-4deg) translateY(0); opacity: 1; }
+  25% { transform: scale(1.2) rotate(3deg) translateY(-1px); opacity: 0.9; }
+  50% { transform: scale(1.05) rotate(-2deg) translateY(0); opacity: 1; }
+  75% { transform: scale(1.25) rotate(4deg) translateY(-2px); opacity: 0.88; }
+}
 .announcement-social--qq { background: #366ef4; border: 1px solid #2a5ce0; }
 .announcement-social--qq:hover { background: #2a5ce0; box-shadow: 0 0 12px rgba(54, 110, 244, 0.45); }
 .announcement-social--tg { background: #1da1f2; border: 1px solid #1a91da; }
@@ -595,6 +624,7 @@ onMounted(async () => {
 @keyframes announcement-rise { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
 @media (prefers-reduced-motion: reduce) {
   .announcement-social--apk::after,
+  .announcement-social__flame,
   .tl-shine::after { animation: none; }
 }
 
