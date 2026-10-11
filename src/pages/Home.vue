@@ -378,6 +378,7 @@ function showAnnouncement() {
     const today = localDateKey()
     if (dismissed?.version === announcementVersion() && dismissed?.date === today) return
   } catch { /* 浏览器禁用存储时仍允许公告正常显示 */ }
+  expandedIdx.value = 0   // 最新一条公告（时间线索引 0）默认展开
   announcementVisible.value = true
 }
 
