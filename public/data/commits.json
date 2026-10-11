@@ -1,5 +1,11 @@
 [
   {
+    "hash": "11a5de3",
+    "date": "2026-10-11T17:43:24+08:00",
+    "message": "sync: 新增资源《机多财广 Build.25804728（More Slots More Mone》",
+    "url": "https://github.com/xi7ang/GameHub/commit/11a5de3926e6f02307794be0cf4405e9ae45151a"
+  },
+  {
     "hash": "5f7f00e",
     "date": "2026-10-11T17:35:02+08:00",
     "message": "sync: 新增资源《龙餐厅 Build.25730891（Dragon Dinner）》",
@@ -172,11 +178,5 @@
     "date": "2026-10-02T11:03:45+08:00",
     "message": "sync: 新增资源《死亡迪斯科：霓虹节奏格斗》",
     "url": "https://github.com/xi7ang/GameHub/commit/23836bd22a077508175829e8b12ca30f816bb616"
-  },
-  {
-    "hash": "dfc2c44",
-    "date": "2026-10-02T11:00:40+08:00",
-    "message": "sync: 新增资源《剑客物语 v4.225.648内置菜单》",
-    "url": "https://github.com/xi7ang/GameHub/commit/dfc2c448374e66c552da63c310153c067b82d355"
   }
 ]
