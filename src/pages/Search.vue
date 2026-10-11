@@ -39,6 +39,7 @@
 
     <SiteFooter />
   </div>
+  <AnnouncementModal />
 </template>
 
 <script setup>
@@ -48,6 +49,7 @@ import BgWall from '../components/BgWall.vue'
 import SearchBox from '../components/SearchBox.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
+import AnnouncementModal from '../components/AnnouncementModal.vue'
 import { useData } from '../composables/useData.js'
 import { ensureIndex, search, searchOnResources, ID } from '../lib/search.js'
 
