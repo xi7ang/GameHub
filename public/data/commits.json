@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5f7f00e",
+    "date": "2026-10-11T17:35:02+08:00",
+    "message": "sync: 新增资源《龙餐厅 Build.25730891（Dragon Dinner）》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5f7f00ecc80bcec4a9f14af135ee8e06d281f7c1"
+  },
+  {
     "hash": "1e95f5c",
     "date": "2026-10-11T17:30:17+08:00",
     "message": "sync: 新增资源《零食入侵者/Snack Invaders》",
@@ -172,11 +178,5 @@
     "date": "2026-10-02T11:00:40+08:00",
     "message": "sync: 新增资源《剑客物语 v4.225.648内置菜单》",
     "url": "https://github.com/xi7ang/GameHub/commit/dfc2c448374e66c552da63c310153c067b82d355"
-  },
-  {
-    "hash": "84c7d15",
-    "date": "2026-10-02T10:56:29+08:00",
-    "message": "sync: 新增资源《铜铲铲之战v1.32.1免广版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/84c7d15b9e92e83eeb2b0f4927e95b60a1ceff34"
   }
 ]
