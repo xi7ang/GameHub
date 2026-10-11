@@ -24467,5 +24467,25 @@
     "addedAt": "2026-10-11T17:21:01+08:00",
     "updatedAt": "2026-10-11T17:21:01+08:00",
     "month": "202610"
+  },
+  {
+    "id": "online-202610-0002",
+    "title": "PEAK联机版 v2.6.A解压即玩",
+    "enTitle": "",
+    "category": "online",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/bdb7769b2771?pwd=A7W9",
+    "pwd": "A7W9",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u150ca13a8ecf.webp",
+    "steamAppID": null,
+    "desc": "解压即玩，告别繁琐安装，轻松开启冒险。全新版本优化联机体验，流畅操作与好友组队探索，经典玩法升级，带来更刺激的挑战与乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-11T17:26:32+08:00",
+    "updatedAt": "2026-10-11T17:26:32+08:00",
+    "month": "202610"
   }
 ]

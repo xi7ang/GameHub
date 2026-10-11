@@ -1,5 +1,17 @@
 [
   {
+    "hash": "71fd428",
+    "date": "2026-10-11T17:21:29+08:00",
+    "message": "feat(announcement): 公告弹窗新增「同名影视资源站」按钮（动态🔥，置顶于QQ群/TG前，跳转 v.devmini.space）",
+    "url": "https://github.com/xi7ang/GameHub/commit/71fd428854f10a31744f912b1d163d9603771c22"
+  },
+  {
+    "hash": "ccfa6eb",
+    "date": "2026-10-11T17:21:02+08:00",
+    "message": "sync: 新增资源《恶土小队 v2026.4.21 中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ccfa6eb5b24c8e41bc23e04b2eed47797803299c"
+  },
+  {
     "hash": "f543b0c",
     "date": "2026-10-09T21:58:44+08:00",
     "message": "chore: 每日公告:发布【2026-10-09】游戏资源更新通知(5 条新资源)",
@@ -166,17 +178,5 @@
     "date": "2026-10-01T20:31:35+08:00",
     "message": "chore: 每日公告：发布【2026-10-01】游戏资源更新通知（5 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/4d7dff4eb2fae1ead19f36271e8aa3c02e40ca70"
-  },
-  {
-    "hash": "e1ddd86",
-    "date": "2026-10-01T08:09:48+08:00",
-    "message": "docs(admin): 访问统计各字段加中文释义（点哪里的点击、PV/UV、自定义事件指什么）",
-    "url": "https://github.com/xi7ang/GameHub/commit/e1ddd8638fda9f890ac4e808be5bb4668be0126d"
-  },
-  {
-    "hash": "e5c1124",
-    "date": "2026-10-01T08:00:16+08:00",
-    "message": "sync: 新增资源《塔防之王5：离线无广告策略》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e5c1124c2f913d4baaae245191ad55afde6371d5"
   }
 ]
