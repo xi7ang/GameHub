@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d62e223",
+    "date": "2026-10-11T17:26:33+08:00",
+    "message": "sync: 新增资源《PEAK联机版 v2.6.A解压即玩》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d62e2234aaf0fc88d5e1b03e3f101870c6ca85c6"
+  },
+  {
     "hash": "71fd428",
     "date": "2026-10-11T17:21:29+08:00",
     "message": "feat(announcement): 公告弹窗新增「同名影视资源站」按钮（动态🔥，置顶于QQ群/TG前，跳转 v.devmini.space）",
@@ -172,11 +178,5 @@
     "date": "2026-10-02T10:53:30+08:00",
     "message": "sync: 新增资源《XP英雄：金币无限畅玩》",
     "url": "https://github.com/xi7ang/GameHub/commit/41d5b24ed3c9e64cc622a04444c8c7b002a88aaa"
-  },
-  {
-    "hash": "4d7dff4",
-    "date": "2026-10-01T20:31:35+08:00",
-    "message": "chore: 每日公告：发布【2026-10-01】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/4d7dff4eb2fae1ead19f36271e8aa3c02e40ca70"
   }
 ]

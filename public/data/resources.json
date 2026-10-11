@@ -24487,5 +24487,25 @@
     "addedAt": "2026-10-11T17:26:32+08:00",
     "updatedAt": "2026-10-11T17:26:32+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0026",
+    "title": "零食入侵者/Snack Invaders",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/c2447955e558?pwd=S7sg",
+    "pwd": "S7sg",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u09f683af16c4.webp",
+    "steamAppID": null,
+    "desc": "经典街机玩法升级，零食军团来袭！趣味射击+收集养成，解锁隐藏关卡。操作简单易上手，挑战高分，享受指尖乐趣，重温童年快乐时光！",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-11T17:30:16+08:00",
+    "updatedAt": "2026-10-11T17:30:16+08:00",
+    "month": "202610"
   }
 ]
