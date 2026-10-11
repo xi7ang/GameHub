@@ -1,5 +1,11 @@
 [
   {
+    "hash": "1e95f5c",
+    "date": "2026-10-11T17:30:17+08:00",
+    "message": "sync: 新增资源《零食入侵者/Snack Invaders》",
+    "url": "https://github.com/xi7ang/GameHub/commit/1e95f5c7b6ff427adfcba08eee8763dd043dd3ce"
+  },
+  {
     "hash": "d62e223",
     "date": "2026-10-11T17:26:33+08:00",
     "message": "sync: 新增资源《PEAK联机版 v2.6.A解压即玩》",
@@ -172,11 +178,5 @@
     "date": "2026-10-02T10:56:29+08:00",
     "message": "sync: 新增资源《铜铲铲之战v1.32.1免广版》",
     "url": "https://github.com/xi7ang/GameHub/commit/84c7d15b9e92e83eeb2b0f4927e95b60a1ceff34"
-  },
-  {
-    "hash": "41d5b24",
-    "date": "2026-10-02T10:53:30+08:00",
-    "message": "sync: 新增资源《XP英雄：金币无限畅玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/41d5b24ed3c9e64cc622a04444c8c7b002a88aaa"
   }
 ]

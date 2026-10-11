@@ -24507,5 +24507,25 @@
     "addedAt": "2026-10-11T17:30:16+08:00",
     "updatedAt": "2026-10-11T17:30:16+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0027",
+    "title": "龙餐厅 Build.25730891（Dragon Dinner）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/0b4dfda6c19e?pwd=tfsK",
+    "pwd": "tfsK",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u7223194c80fc.webp",
+    "steamAppID": null,
+    "desc": "在奇幻龙族世界中经营独特餐厅，烹饪美味佳肴，打造温馨用餐氛围，满足挑剔龙客，解锁神秘食材，体验经营与冒险的完美融合。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-11T17:35:01+08:00",
+    "updatedAt": "2026-10-11T17:35:01+08:00",
+    "month": "202610"
   }
 ]
