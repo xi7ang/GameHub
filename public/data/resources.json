@@ -24447,5 +24447,25 @@
     "addedAt": "2026-10-09T10:13:10+08:00",
     "updatedAt": "2026-10-09T10:13:10+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0025",
+    "title": "恶土小队 v2026.4.21 中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/edb0f033a4c2?pwd=OJhl",
+    "pwd": "OJhl",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u86ca232a9eb2.webp",
+    "steamAppID": null,
+    "desc": "中文版优化语言体验，小队协作在荒芜恶土中求生，策略搭配与资源管理至关重要，动态事件考验应变能力，沉浸式末世氛围带来真实生存挑战。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-11T17:21:01+08:00",
+    "updatedAt": "2026-10-11T17:21:01+08:00",
+    "month": "202610"
   }
 ]

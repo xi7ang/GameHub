@@ -1,5 +1,17 @@
 [
   {
+    "hash": "f543b0c",
+    "date": "2026-10-09T21:58:44+08:00",
+    "message": "chore: 每日公告:发布【2026-10-09】游戏资源更新通知(5 条新资源)",
+    "url": "https://github.com/xi7ang/GameHub/commit/f543b0c5436f230bb4ff27a8500496395cc2ec53"
+  },
+  {
+    "hash": "22e0376",
+    "date": "2026-10-09T10:13:11+08:00",
+    "message": "sync: 新增资源《万象群侠传》",
+    "url": "https://github.com/xi7ang/GameHub/commit/22e03769ca02daa447ddde2aa9c414b014231b1a"
+  },
+  {
     "hash": "7b83514",
     "date": "2026-10-09T10:09:28+08:00",
     "message": "sync: 新增资源《王国保卫战6：新启程 v1.01.008（Kingdom Rush 6 Gene》",
@@ -166,17 +178,5 @@
     "date": "2026-10-01T08:00:16+08:00",
     "message": "sync: 新增资源《塔防之王5：离线无广告策略》",
     "url": "https://github.com/xi7ang/GameHub/commit/e5c1124c2f913d4baaae245191ad55afde6371d5"
-  },
-  {
-    "hash": "e652480",
-    "date": "2026-10-01T07:57:38+08:00",
-    "message": "sync: 新增资源《温馨田园 Build.25235784（Cozy Country）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e652480576f671ddb09333d57cfdd9980af28447"
-  },
-  {
-    "hash": "eea3ef5",
-    "date": "2026-10-01T07:54:31+08:00",
-    "message": "fix(admin): 修 TDZ 崩溃 —— watch(tab) 放在 const tab 之前导致整个 Admin 白屏",
-    "url": "https://github.com/xi7ang/GameHub/commit/eea3ef5b73da08522786e0c839d4d21217bb32e1"
   }
 ]
