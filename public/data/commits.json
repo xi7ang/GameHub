@@ -1,5 +1,29 @@
 [
   {
+    "hash": "d86fce5",
+    "date": "2026-10-11T22:57:50+08:00",
+    "message": "refactor(announcement): 公告弹窗抽为 AnnouncementModal 组件并全站启用",
+    "url": "https://github.com/xi7ang/GameHub/commit/d86fce594caf38579ba2bd0974fd54d7f1958aa8"
+  },
+  {
+    "hash": "98017bd",
+    "date": "2026-10-11T20:31:58+08:00",
+    "message": "chore: 每日公告：发布【2026-10-11】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/98017bdb8e4a5bff0e32bf1e31739c66c6edc66d"
+  },
+  {
+    "hash": "4cc8978",
+    "date": "2026-10-11T19:47:00+08:00",
+    "message": "feat(announcement): 公告弹窗最新一条默认展开（showAnnouncement 时置 expandedIdx=0）",
+    "url": "https://github.com/xi7ang/GameHub/commit/4cc8978b447672a3f15d4c27e9bd3d9bc1451ffc"
+  },
+  {
+    "hash": "d097234",
+    "date": "2026-10-11T19:08:12+08:00",
+    "message": "feat(nav): 移动端放开导航 tab（首页/资源库）+ CTA/收藏收成纯图标 + 补 aria-label",
+    "url": "https://github.com/xi7ang/GameHub/commit/d097234ec6aa708957f5f230ca29039f7a910362"
+  },
+  {
     "hash": "11a5de3",
     "date": "2026-10-11T17:43:24+08:00",
     "message": "sync: 新增资源《机多财广 Build.25804728（More Slots More Mone》",
@@ -154,29 +178,5 @@
     "date": "2026-10-04T08:01:09+08:00",
     "message": "chore: 公告：新功能上线（收藏/追更/更新日历/本周上新榜）",
     "url": "https://github.com/xi7ang/GameHub/commit/1bb82df9239d627502543a7a2215943c397ed693"
-  },
-  {
-    "hash": "2af0aae",
-    "date": "2026-10-02T20:31:56+08:00",
-    "message": "chore: 每日公告：发布【2026-10-02】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/2af0aae2546309708b08d4890de91cfa1bd488b6"
-  },
-  {
-    "hash": "4b36e00",
-    "date": "2026-10-02T14:54:05+08:00",
-    "message": "feat(留存): 收藏/追更 + 更新日历 + 本周上新榜",
-    "url": "https://github.com/xi7ang/GameHub/commit/4b36e009958d625350cfbad78c838ab378d42f76"
-  },
-  {
-    "hash": "446ecc5",
-    "date": "2026-10-02T11:56:52+08:00",
-    "message": "sync: 新增资源《冰雪幸存者基地 最新汉化完整版内置菜单免内购》",
-    "url": "https://github.com/xi7ang/GameHub/commit/446ecc5033e1c45163fbfc1abe2e8ddc0b3ac7c4"
-  },
-  {
-    "hash": "23836bd",
-    "date": "2026-10-02T11:03:45+08:00",
-    "message": "sync: 新增资源《死亡迪斯科：霓虹节奏格斗》",
-    "url": "https://github.com/xi7ang/GameHub/commit/23836bd22a077508175829e8b12ca30f816bb616"
   }
 ]
