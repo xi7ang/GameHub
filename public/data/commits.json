@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6a1e1d4",
+    "date": "2026-10-12T20:38:32+08:00",
+    "message": "sync: 新增资源《枯瑟信仰：放逐者Build.18001626Bleak Faith: Forsa》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6a1e1d4dd74467c75e78407deca0257db7adcb30"
+  },
+  {
     "hash": "49e9b2b",
     "date": "2026-10-12T20:34:47+08:00",
     "message": "sync: 新增资源《凯特尼斯环游世界Build.25716934 Catniss around th》",
@@ -172,11 +178,5 @@
     "date": "2026-10-05T08:00:56+08:00",
     "message": "sync: 新增资源《猫猫特工队：代号伍 Build.25672866（SpyCat Codename》",
     "url": "https://github.com/xi7ang/GameHub/commit/9099d180f28752debb6c2db52e517609ce8b7c7d"
-  },
-  {
-    "hash": "e9c2c41",
-    "date": "2026-10-05T07:57:36+08:00",
-    "message": "sync: 新增资源《露营车：回家 v2026.3.20 中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e9c2c4199eab6563876b9642df4924c8e4a63859"
   }
 ]

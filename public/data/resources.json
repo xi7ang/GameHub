@@ -24627,5 +24627,25 @@
     "addedAt": "2026-10-12T20:38:31+08:00",
     "updatedAt": "2026-10-12T20:38:31+08:00",
     "month": "202610"
+  },
+  {
+    "id": "online-202610-0004",
+    "title": "巫塔战记豪华中文联机版",
+    "enTitle": "",
+    "category": "online",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/9c3ced943ee7?pwd=fqc5",
+    "pwd": "fqc5",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u3803686b3d14.webp",
+    "steamAppID": null,
+    "desc": "沉浸式奇幻世界，华丽技能特效震撼视觉，多人联机实时协作共闯神秘巫塔，策略配合挑战强大Boss，丰富剧情解锁隐藏秘密，打造专属冒险传奇。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-12T20:42:40+08:00",
+    "updatedAt": "2026-10-12T20:42:40+08:00",
+    "month": "202610"
   }
 ]
