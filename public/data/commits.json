@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0f4a151",
+    "date": "2026-10-13T00:06:48+08:00",
+    "message": "style(mobile): 卡片网格移动端两侧再补 8px（容器 16 → 24px），首页/分类/搜索/收藏/详情一致",
+    "url": "https://github.com/xi7ang/GameHub/commit/0f4a151a974fcac0213c7cb112a6c4ebd4f47558"
+  },
+  {
     "hash": "364750f",
     "date": "2026-10-12T20:42:42+08:00",
     "message": "sync: 新增资源《巫塔战记豪华中文联机版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-05T20:33:32+08:00",
     "message": "chore: 每日公告：发布【2026-10-05】游戏资源更新通知（5 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/53005540a2580342b6cf39c27822b2896e8d0b48"
-  },
-  {
-    "hash": "239e54a",
-    "date": "2026-10-05T16:41:34+08:00",
-    "message": "fix(home): 修窄屏横向溢出（弹窗偏位 + 整站变宽的根因）",
-    "url": "https://github.com/xi7ang/GameHub/commit/239e54ad6ed61916b3f076c679dd8b671f4fc0b9"
   }
 ]

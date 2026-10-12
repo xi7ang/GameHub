@@ -39,20 +39,9 @@
       </div>
     </section>
 
-    <!-- 更新日历 + 本周上新榜（均取自 home.json 轻量聚合，首页不拉全量） -->
+    <!-- 本周上新榜（取自 home.json 轻量聚合，首页不拉全量） -->
     <section class="container section">
       <div class="retain-grid">
-        <div class="glass retain-card">
-          <h2 class="section-title">📅 更新日历 <span class="retain-sub text-low">近 14 天</span></h2>
-          <div class="cal">
-            <div v-for="d in calendar" :key="d.date" class="cal__col" :title="`${d.date} · ${d.count} 条`">
-              <span class="cal__count">{{ d.count || '' }}</span>
-              <span class="cal__track"><span class="cal__bar" :style="{ height: barHeight(d.count) }"></span></span>
-              <span class="cal__date text-low">{{ d.label }}</span>
-            </div>
-          </div>
-        </div>
-
         <div class="glass retain-card">
           <h2 class="section-title">🔥 本周上新榜</h2>
           <div v-if="weeklyTop.length" class="rank">
@@ -214,23 +203,6 @@ const latest = computed(() => state.home?.latest || [])
 function dayKeyOf(d) {
   const p = (n) => String(n).padStart(2, '0')
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`
-}
-// 更新日历：近 14 天（含今天）每天新增数，天数取浏览器本地日期
-const calendar = computed(() => {
-  const dc = state.home?.dailyCounts || {}
-  const out = []
-  const now = new Date()
-  for (let i = 13; i >= 0; i--) {
-    const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i)
-    const key = dayKeyOf(d)
-    out.push({ date: key, label: `${d.getMonth() + 1}/${d.getDate()}`, count: dc[key] || 0 })
-  }
-  return out
-})
-const calMax = computed(() => Math.max(1, ...calendar.value.map((d) => d.count)))
-function barHeight(n) {
-  if (!n) return '3px'
-  return `${Math.max(4, Math.round((n / calMax.value) * 110))}px`
 }
 // 本周上新榜：最近 7 天 addedAt 倒序 top 10（池 = home.recentCards 前 60 条）
 const weeklyTop = computed(() => {
@@ -448,10 +420,10 @@ onMounted(async () => {
   .cat-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* ── 留存模块：更新日历 / 本周上新榜 / 我的追更 ── */
+/* ── 留存模块：本周上新榜 / 我的追更 ── */
 .retain-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
   position: relative;
   z-index: 1;
@@ -461,36 +433,7 @@ onMounted(async () => {
 .retain-grid > * { min-width: 0; }
 .retain-card { padding: 22px 22px 18px; }
 .retain-card:hover { transform: none; }
-.retain-sub {
-  font-family: var(--font-body, inherit);
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0;
-}
 .retain-empty { font-size: 14px; padding: 12px 0; }
-
-/* 更新日历 */
-.cal { display: flex; align-items: flex-end; gap: 4px; padding-top: 6px; min-width: 0; }
-.cal__col {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-.cal__count { font-size: 10.5px; font-weight: 700; color: var(--text-mid); height: 14px; }
-.cal__track { height: 110px; width: 100%; display: flex; align-items: flex-end; justify-content: center; }
-.cal__bar {
-  width: 62%;
-  max-width: 26px;
-  border-radius: 4px 4px 2px 2px;
-  background: linear-gradient(180deg, var(--accent-gold), var(--accent-gold-deep));
-  box-shadow: 0 0 10px rgba(var(--accent-rgb), 0.35);
-  transition: height 0.3s ease;
-}
-.cal__col:hover .cal__bar { box-shadow: 0 0 16px rgba(var(--accent-rgb), 0.6); }
-.cal__date { font-size: 10px; white-space: nowrap; }
 
 /* 本周上新榜 */
 .rank { display: flex; flex-direction: column; min-width: 0; }
@@ -574,13 +517,11 @@ onMounted(async () => {
 .follow-panel__mine:hover { color: var(--accent-terracotta); }
 
 @media (max-width: 900px) {
-  /* 这里必须是 minmax(0,1fr)：裸 1fr 的自动最小值 = 内容 min-content，会被日历的
-     14 个不换行日期顶开，把整个文档撑宽到 564px（实测）。这正是弹窗偏位 + 整站变宽的根因。 */
+  /* 必须 minmax(0,1fr)：裸 1fr 的自动最小值 = 内容 min-content，会被不换行的长内容顶开，
+     把整个文档撑宽（实测 564px），进而让 position:fixed 的弹窗偏位。 */
   .retain-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 560px) {
-  .cal__date { font-size: 9px; }
-  .cal { gap: 2px; }
   .retain-card { padding: 18px 14px 14px; }
 }
 </style>
