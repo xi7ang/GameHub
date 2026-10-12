@@ -1,5 +1,11 @@
 [
   {
+    "hash": "364750f",
+    "date": "2026-10-12T20:42:42+08:00",
+    "message": "sync: 新增资源《巫塔战记豪华中文联机版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/364750ff4bdb379a4eb95b05ea1f9b3b16d5aa73"
+  },
+  {
     "hash": "6a1e1d4",
     "date": "2026-10-12T20:38:32+08:00",
     "message": "sync: 新增资源《枯瑟信仰：放逐者Build.18001626Bleak Faith: Forsa》",
@@ -172,11 +178,5 @@
     "date": "2026-10-05T16:41:34+08:00",
     "message": "fix(home): 修窄屏横向溢出（弹窗偏位 + 整站变宽的根因）",
     "url": "https://github.com/xi7ang/GameHub/commit/239e54ad6ed61916b3f076c679dd8b671f4fc0b9"
-  },
-  {
-    "hash": "9099d18",
-    "date": "2026-10-05T08:00:56+08:00",
-    "message": "sync: 新增资源《猫猫特工队：代号伍 Build.25672866（SpyCat Codename》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9099d180f28752debb6c2db52e517609ce8b7c7d"
   }
 ]

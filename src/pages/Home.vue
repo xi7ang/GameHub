@@ -440,6 +440,8 @@ onMounted(async () => {
 @media (max-width: 768px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
   .cat-grid, .rc-grid { grid-template-columns: repeat(2, 1fr); }
+  /* 卡片区两侧再留 8px（容器 16 → 实际 24px），手机上一屏不显拥挤 */
+  .cat-grid, .rc-grid { padding: 0 8px; }
 }
 @media (max-width: 480px) {
   .rc-grid { grid-template-columns: repeat(2, 1fr); }

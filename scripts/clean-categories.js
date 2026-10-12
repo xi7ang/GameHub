@@ -61,8 +61,11 @@ function fix(r) {
     return 'mobile'
   }
 
-  // 5. 联机强特征 → online（排除"联机补丁"，那是补丁归 mod）
-  if (r.category !== 'online' && /(^|[\s\/(（【])联机([\s\/(（】,，]|$)|co-op|multiplayer|多人联机|合作模式|对战平台/.test(t) && !/联机补丁/.test(t)) {
+  // 5. 联机强特征 → online（仅明确网络游戏；单纯「支持联机」的 PC 游戏归 pc）
+  //    2026-10-12 修正：旧规则含 `联机|co-op|multiplayer|多人联机`，凡描述里出现
+  //    「联机」二字就判 online，把大步走（单机+联机）、巫塔战记（中文联机版）、
+  //    PEAK联机版、火鹰FPV（联机对战）这些 PC 游戏全带偏了。
+  if (r.category !== 'online' && /网游|页游|私服|网络游戏|在线游戏|mmo|moba|对战平台/.test(t) && !/联机补丁/.test(t)) {
     return 'online'
   }
 
@@ -105,7 +108,7 @@ function reasonOf(r) {
   if (/事业单位|公务员|联考|答案|讲义|课程|教材|真题/.test(t)) return '非游戏'
   if (/nsz|xci|掌机|switch版|switch游戏/.test(t)) return 'switch特征'
   if (/\.apk|安卓|android|手机|手游|ios|steam移植/.test(t)) return '手机特征'
-  if (/联机|co-op|multiplayer|多人|对战/.test(t)) return '联机特征'
+  if (/网游|页游|私服|网络游戏|在线游戏|mmo|moba|对战平台/.test(t)) return '网络游戏特征'
   if (/模拟器/.test(t)) return '模拟器软件'
   return 'tool重归'
 }

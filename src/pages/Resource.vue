@@ -757,7 +757,7 @@ watch(showQr, async (v) => {
   .detail__title { font-size: 22px; }
   .get-card { padding: 14px; }
   .detail__btn { width: 100%; }
-  .rc-grid { grid-template-columns: repeat(2, 1fr); }
+  .rc-grid { grid-template-columns: repeat(2, 1fr); padding: 0 8px; }
 }
 @media (max-width: 480px) { .rc-grid { grid-template-columns: repeat(2, 1fr); } }
 </style>
