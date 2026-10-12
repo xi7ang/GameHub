@@ -1,5 +1,11 @@
 [
   {
+    "hash": "49e9b2b",
+    "date": "2026-10-12T20:34:47+08:00",
+    "message": "sync: 新增资源《凯特尼斯环游世界Build.25716934 Catniss around th》",
+    "url": "https://github.com/xi7ang/GameHub/commit/49e9b2bb77093cf9960b05f0270e1ac02245d9e9"
+  },
+  {
     "hash": "0bac029",
     "date": "2026-10-12T20:32:48+08:00",
     "message": "chore: 每日公告：发布【2026-10-12】游戏资源更新通知（2 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-05T07:57:36+08:00",
     "message": "sync: 新增资源《露营车：回家 v2026.3.20 中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/e9c2c4199eab6563876b9642df4924c8e4a63859"
-  },
-  {
-    "hash": "a2a8414",
-    "date": "2026-10-05T07:51:31+08:00",
-    "message": "sync: 新增资源《最远的边陲：硬核中世纪城建》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a2a8414005bb27ebe0ea27ebadcd9f27e20d17a0"
   }
 ]
