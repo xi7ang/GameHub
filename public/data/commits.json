@@ -1,5 +1,11 @@
 [
   {
+    "hash": "bcaa96f",
+    "date": "2026-10-12T20:26:00+08:00",
+    "message": "sync: 新增资源《大步走 单机+联机 v1.6.0/Big Walk》",
+    "url": "https://github.com/xi7ang/GameHub/commit/bcaa96f72a55a88fa56b7cf198904f01b839de79"
+  },
+  {
     "hash": "d86fce5",
     "date": "2026-10-11T22:57:50+08:00",
     "message": "refactor(announcement): 公告弹窗抽为 AnnouncementModal 组件并全站启用",
@@ -172,11 +178,5 @@
     "date": "2026-10-05T07:44:56+08:00",
     "message": "sync: 新增资源《颂钟长鸣：中世纪领地建造生存》",
     "url": "https://github.com/xi7ang/GameHub/commit/3be8d8f41eb06001ebfa242d85fa2ab99740e8e2"
-  },
-  {
-    "hash": "1bb82df",
-    "date": "2026-10-04T08:01:09+08:00",
-    "message": "chore: 公告：新功能上线（收藏/追更/更新日历/本周上新榜）",
-    "url": "https://github.com/xi7ang/GameHub/commit/1bb82df9239d627502543a7a2215943c397ed693"
   }
 ]
