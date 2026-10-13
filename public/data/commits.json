@@ -1,5 +1,11 @@
 [
   {
+    "hash": "2e3d2a5",
+    "date": "2026-10-13T16:44:29+08:00",
+    "message": "sync: 新增资源《沉星之序/Order of the Sinking Star Build.258》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2e3d2a5f7f6dc97c3d0e52321dba01ad77c7d112"
+  },
+  {
     "hash": "5f1139f",
     "date": "2026-10-13T16:38:02+08:00",
     "message": "sync: 新增资源《时光之帽/A Hat in Time Build.25577316 全DLC》",
@@ -172,11 +178,5 @@
     "date": "2026-10-06T19:42:24+08:00",
     "message": "sync: 新增资源《2D工厂Build.25656265官方中文2DFactory》",
     "url": "https://github.com/xi7ang/GameHub/commit/cc2b8c7f28e8cb414729e09bc9e3c1c811f7ad0d"
-  },
-  {
-    "hash": "0e766b3",
-    "date": "2026-10-06T19:35:18+08:00",
-    "message": "sync: 新增资源《桌面宠物/DesktopPetProjectBuild.12629150》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0e766b39903e5c0ded0fef5f9032a19084142814"
   }
 ]
