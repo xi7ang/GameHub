@@ -1,5 +1,11 @@
 [
   {
+    "hash": "cccdd0b",
+    "date": "2026-10-13T00:14:07+08:00",
+    "message": "feat(home): 移除「更新日历」板块（含脚本状态与样式清理，retain-grid 改单栏）",
+    "url": "https://github.com/xi7ang/GameHub/commit/cccdd0b78eb0a2dfcaacb5892f4d731625ab3300"
+  },
+  {
     "hash": "0f4a151",
     "date": "2026-10-13T00:06:48+08:00",
     "message": "style(mobile): 卡片网格移动端两侧再补 8px（容器 16 → 24px），首页/分类/搜索/收藏/详情一致",
@@ -172,11 +178,5 @@
     "date": "2026-10-06T19:23:43+08:00",
     "message": "sync: 新增资源《农夫王朝2/Farmer'sDynasty2Build.24986028》",
     "url": "https://github.com/xi7ang/GameHub/commit/aadcfe71d58029b414739bbb410fe07ddeba3bb6"
-  },
-  {
-    "hash": "5300554",
-    "date": "2026-10-05T20:33:32+08:00",
-    "message": "chore: 每日公告：发布【2026-10-05】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/53005540a2580342b6cf39c27822b2896e8d0b48"
   }
 ]

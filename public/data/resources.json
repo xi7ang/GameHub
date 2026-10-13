@@ -24647,5 +24647,25 @@
     "addedAt": "2026-10-12T20:42:40+08:00",
     "updatedAt": "2026-10-12T20:42:40+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0032",
+    "title": "秦殇/Prince of Qin v1.30",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/2d98aeefbfd9?pwd=OS8w",
+    "pwd": "OS8w",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u928a0205f7d7.webp",
+    "steamAppID": null,
+    "desc": "经典国风ARPG，沉浸式战国末年冒险，策略战斗与角色养成并重，多重剧情分支，自由探索秦末乱世，体验历史与奇幻交织的传奇之旅。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-13T16:33:16+08:00",
+    "updatedAt": "2026-10-13T16:33:16+08:00",
+    "month": "202610"
   }
 ]
