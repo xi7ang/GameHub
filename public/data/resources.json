@@ -24727,5 +24727,25 @@
     "addedAt": "2026-10-13T16:49:56+08:00",
     "updatedAt": "2026-10-13T16:49:56+08:00",
     "month": "202610"
+  },
+  {
+    "id": "mobile-202610-0001",
+    "title": "可口的披萨 美味的披萨 v5.59.0 全DLC PC/手机双端（Good Pizza, Great Pizza）",
+    "enTitle": "",
+    "category": "mobile",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/a7f1b783f19d?pwd=8LvY",
+    "pwd": "8LvY",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u3a4de3dfd849.webp",
+    "steamAppID": null,
+    "desc": "亲手打造披萨王国，揉面、配料、烘焙全流程真实还原，上百种创意组合无限可能。手机端轻松经营，PC端精细操作，双端畅享制作与经营乐趣，DLC解锁更多独家配方与挑战，让美味披萨成为你的招牌。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-14T09:45:19+08:00",
+    "updatedAt": "2026-10-14T09:45:19+08:00",
+    "month": "202610"
   }
 ]

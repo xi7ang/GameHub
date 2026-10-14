@@ -1,5 +1,17 @@
 [
   {
+    "hash": "3dc72bc",
+    "date": "2026-10-13T20:31:41+08:00",
+    "message": "chore: 每日公告：发布【2026-10-13】游戏资源更新通知（4 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/3dc72bc90284fc43f4b9d59816da2ce7e6f594ca"
+  },
+  {
+    "hash": "203c9c8",
+    "date": "2026-10-13T16:49:57+08:00",
+    "message": "sync: 新增资源《再浇亿点/Keep Watering Build.25805879》",
+    "url": "https://github.com/xi7ang/GameHub/commit/203c9c8876f4438d109c1f9337bb5436cd2c2531"
+  },
+  {
     "hash": "2e3d2a5",
     "date": "2026-10-13T16:44:29+08:00",
     "message": "sync: 新增资源《沉星之序/Order of the Sinking Star Build.258》",
@@ -166,17 +178,5 @@
     "date": "2026-10-06T20:33:58+08:00",
     "message": "chore: 每日公告：发布【2026-10-06】游戏资源更新通知（5 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/28bd82fe19148763cefdb672e1853e4dda80db27"
-  },
-  {
-    "hash": "d061ab4",
-    "date": "2026-10-06T19:46:32+08:00",
-    "message": "sync: 新增资源《肉鸽领地：守卫方格》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d061ab4ce870b1695d89571489acdb9624e3cbd6"
-  },
-  {
-    "hash": "cc2b8c7",
-    "date": "2026-10-06T19:42:24+08:00",
-    "message": "sync: 新增资源《2D工厂Build.25656265官方中文2DFactory》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cc2b8c7f28e8cb414729e09bc9e3c1c811f7ad0d"
   }
 ]
