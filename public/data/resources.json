@@ -24767,5 +24767,25 @@
     "addedAt": "2026-10-14T09:48:45+08:00",
     "updatedAt": "2026-10-14T09:48:45+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0037",
+    "title": "停车场大亨/Car Park Capital",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/c4108e5265b9?pwd=e2Mk",
+    "pwd": "e2Mk",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/uf489d98ce248.webp",
+    "steamAppID": null,
+    "desc": "打造专属停车场帝国，从规划车位到升级设施，每一步都关乎收益。合理定价、优化车位周转，吸引车主驻足，在车流中挖掘财富，成为城市停车界的商业传奇。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-14T09:52:01+08:00",
+    "updatedAt": "2026-10-14T09:52:01+08:00",
+    "month": "202610"
   }
 ]

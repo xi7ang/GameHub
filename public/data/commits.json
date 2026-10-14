@@ -1,5 +1,11 @@
 [
   {
+    "hash": "857a728",
+    "date": "2026-10-14T09:48:46+08:00",
+    "message": "sync: 新增资源《雪地度假村模拟器 Build.25828863（Snow Resort Simu》",
+    "url": "https://github.com/xi7ang/GameHub/commit/857a728b0b99328e017cd2f26936bbd17676b305"
+  },
+  {
     "hash": "4d31d7f",
     "date": "2026-10-14T09:45:21+08:00",
     "message": "sync: 新增资源《可口的披萨 美味的披萨 v5.59.0 全DLC PC/手机双端（Good Pi》",
@@ -172,11 +178,5 @@
     "date": "2026-10-09T09:59:13+08:00",
     "message": "sync: 新增资源《龙与地下城：无冬之夜2增强版 v1.130（Dungeons and Drago》",
     "url": "https://github.com/xi7ang/GameHub/commit/a5da8cb0cd16d071ac7604b7c37086e6196dff1c"
-  },
-  {
-    "hash": "77b068d",
-    "date": "2026-10-09T09:47:42+08:00",
-    "message": "sync: 新增资源《云梦奇谭 Build.25704294（Legends of Immortali》",
-    "url": "https://github.com/xi7ang/GameHub/commit/77b068da3cf85ee5a66b69b34187ce3d35bf89ff"
   }
 ]
