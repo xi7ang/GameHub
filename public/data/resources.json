@@ -24787,5 +24787,25 @@
     "addedAt": "2026-10-14T09:52:01+08:00",
     "updatedAt": "2026-10-14T09:52:01+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0038",
+    "title": "市集大乱/Game Market Mayhem",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/69c8cfa8a667?pwd=gUKg",
+    "pwd": "gUKg",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u93b43d12094a.webp",
+    "steamAppID": null,
+    "desc": "在混乱市集中争夺稀缺资源，策略与运气交织，每一步都是未知挑战。快速决策、灵活应变，在激烈的资源争夺中脱颖而出，体验瞬息万变的交易乐趣！",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-14T09:55:25+08:00",
+    "updatedAt": "2026-10-14T09:55:25+08:00",
+    "month": "202610"
   }
 ]
