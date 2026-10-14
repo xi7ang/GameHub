@@ -1,5 +1,11 @@
 [
   {
+    "hash": "4d31d7f",
+    "date": "2026-10-14T09:45:21+08:00",
+    "message": "sync: 新增资源《可口的披萨 美味的披萨 v5.59.0 全DLC PC/手机双端（Good Pi》",
+    "url": "https://github.com/xi7ang/GameHub/commit/4d31d7f21043a12f67b2775b8500c5a100e72ea6"
+  },
+  {
     "hash": "3dc72bc",
     "date": "2026-10-13T20:31:41+08:00",
     "message": "chore: 每日公告：发布【2026-10-13】游戏资源更新通知（4 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-09T09:47:42+08:00",
     "message": "sync: 新增资源《云梦奇谭 Build.25704294（Legends of Immortali》",
     "url": "https://github.com/xi7ang/GameHub/commit/77b068da3cf85ee5a66b69b34187ce3d35bf89ff"
-  },
-  {
-    "hash": "28bd82f",
-    "date": "2026-10-06T20:33:58+08:00",
-    "message": "chore: 每日公告：发布【2026-10-06】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/28bd82fe19148763cefdb672e1853e4dda80db27"
   }
 ]

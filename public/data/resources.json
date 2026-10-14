@@ -24747,5 +24747,25 @@
     "addedAt": "2026-10-14T09:45:19+08:00",
     "updatedAt": "2026-10-14T09:45:19+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0036",
+    "title": "雪地度假村模拟器 Build.25828863（Snow Resort Simulator）",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/a1727f0a406d?pwd=dv6q",
+    "pwd": "dv6q",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u606a0de1f011.webp",
+    "steamAppID": null,
+    "desc": "体验真实雪场运营，从滑雪教学到设施维护，打造专属度假胜地。动态天气系统带来多变雪况，玩家可规划雪道、管理缆车，满足冬季运动爱好者的所有想象，享受经营与休闲的双重乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-14T09:48:45+08:00",
+    "updatedAt": "2026-10-14T09:48:45+08:00",
+    "month": "202610"
   }
 ]
