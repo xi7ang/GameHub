@@ -24827,5 +24827,25 @@
     "addedAt": "2026-10-14T09:58:38+08:00",
     "updatedAt": "2026-10-14T09:58:38+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0040",
+    "title": "风启之旅联机版v0.10新版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/53b68a2e1083?pwd=gyZR",
+    "pwd": "gyZR",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/uc966e502e5df.webp",
+    "steamAppID": null,
+    "desc": "全新联机冒险开启，多人协作探索神秘世界，丰富副本挑战与策略战斗，实时互动增强社交乐趣，优化画面与操作体验，带来更沉浸的奇幻冒险之旅。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-15T15:30:23+08:00",
+    "updatedAt": "2026-10-15T15:30:23+08:00",
+    "month": "202610"
   }
 ]

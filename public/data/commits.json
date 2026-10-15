@@ -1,5 +1,17 @@
 [
   {
+    "hash": "410bde0",
+    "date": "2026-10-14T20:31:52+08:00",
+    "message": "chore: 每日公告：发布【2026-10-14】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/410bde076a4c2b6a287b98d699a622f953b4949c"
+  },
+  {
+    "hash": "c80d86f",
+    "date": "2026-10-14T09:58:39+08:00",
+    "message": "sync: 新增资源《元婴推箱子：古修士遗迹/Sokoban: Ancient Ruins》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c80d86fa7d07b5f5f90e692c67e08dcde5adb7c3"
+  },
+  {
     "hash": "389eb2e",
     "date": "2026-10-14T09:55:26+08:00",
     "message": "sync: 新增资源《市集大乱/Game Market Mayhem》",
@@ -166,17 +178,5 @@
     "date": "2026-10-09T21:58:44+08:00",
     "message": "chore: 每日公告:发布【2026-10-09】游戏资源更新通知(5 条新资源)",
     "url": "https://github.com/xi7ang/GameHub/commit/f543b0c5436f230bb4ff27a8500496395cc2ec53"
-  },
-  {
-    "hash": "22e0376",
-    "date": "2026-10-09T10:13:11+08:00",
-    "message": "sync: 新增资源《万象群侠传》",
-    "url": "https://github.com/xi7ang/GameHub/commit/22e03769ca02daa447ddde2aa9c414b014231b1a"
-  },
-  {
-    "hash": "7b83514",
-    "date": "2026-10-09T10:09:28+08:00",
-    "message": "sync: 新增资源《王国保卫战6：新启程 v1.01.008（Kingdom Rush 6 Gene》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7b8351439f54a07efeef0d36659d312b81912435"
   }
 ]
