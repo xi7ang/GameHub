@@ -1,5 +1,11 @@
 [
   {
+    "hash": "4be0726",
+    "date": "2026-10-15T15:34:42+08:00",
+    "message": "sync: 新增资源《三消方块（羊了个羊玩法）ver.8.4.0.0》",
+    "url": "https://github.com/xi7ang/GameHub/commit/4be0726b1065f658c5a9c97d2d4075bd32a9f1b7"
+  },
+  {
     "hash": "3b819b1",
     "date": "2026-10-15T15:30:24+08:00",
     "message": "sync: 新增资源《风启之旅联机版v0.10新版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T17:21:29+08:00",
     "message": "feat(announcement): 公告弹窗新增「同名影视资源站」按钮（动态🔥，置顶于QQ群/TG前，跳转 v.devmini.space）",
     "url": "https://github.com/xi7ang/GameHub/commit/71fd428854f10a31744f912b1d163d9603771c22"
-  },
-  {
-    "hash": "ccfa6eb",
-    "date": "2026-10-11T17:21:02+08:00",
-    "message": "sync: 新增资源《恶土小队 v2026.4.21 中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ccfa6eb5b24c8e41bc23e04b2eed47797803299c"
   }
 ]

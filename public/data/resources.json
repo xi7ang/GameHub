@@ -24867,5 +24867,25 @@
     "addedAt": "2026-10-15T15:34:41+08:00",
     "updatedAt": "2026-10-15T15:34:41+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0042",
+    "title": "镜头人生模特写真馆v1.0中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/dbe76a2f61e3?pwd=3HFe",
+    "pwd": "3HFe",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u420f5a38e0f1.webp",
+    "steamAppID": null,
+    "desc": "专业镜头捕捉模特多面魅力，精致妆容与光影艺术融合，呈现独特视觉盛宴，助力打造个人写真精品，满足多样化拍摄需求，让每一帧都成为永恒记忆。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-15T15:43:50+08:00",
+    "updatedAt": "2026-10-15T15:43:50+08:00",
+    "month": "202610"
   }
 ]
