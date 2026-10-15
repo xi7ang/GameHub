@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5dae2c2",
+    "date": "2026-10-15T15:50:15+08:00",
+    "message": "sync: 新增资源《风屿奇航 v0.4.999》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5dae2c2466f33b151154e1f95e8e128086dfdd93"
+  },
+  {
     "hash": "74c58a2",
     "date": "2026-10-15T15:43:51+08:00",
     "message": "sync: 新增资源《镜头人生模特写真馆v1.0中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T17:30:17+08:00",
     "message": "sync: 新增资源《零食入侵者/Snack Invaders》",
     "url": "https://github.com/xi7ang/GameHub/commit/1e95f5c7b6ff427adfcba08eee8763dd043dd3ce"
-  },
-  {
-    "hash": "d62e223",
-    "date": "2026-10-11T17:26:33+08:00",
-    "message": "sync: 新增资源《PEAK联机版 v2.6.A解压即玩》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d62e2234aaf0fc88d5e1b03e3f101870c6ca85c6"
   }
 ]
