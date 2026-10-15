@@ -24887,5 +24887,25 @@
     "addedAt": "2026-10-15T15:43:50+08:00",
     "updatedAt": "2026-10-15T15:43:50+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0043",
+    "title": "风屿奇航 v0.4.999",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/61fb1deecdd0?pwd=vyft",
+    "pwd": "vyft",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u5d2d328f3742.webp",
+    "steamAppID": null,
+    "desc": "在风屿奇航中，你将驾驶飞艇穿越云海与未知岛屿，收集古老符文解锁新航线，与神秘生物互动，在动态天气中挑战极限，每一次航行都是独一无二的冒险。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-15T15:50:14+08:00",
+    "updatedAt": "2026-10-15T15:50:14+08:00",
+    "month": "202610"
   }
 ]

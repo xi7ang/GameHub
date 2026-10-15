@@ -1,5 +1,11 @@
 [
   {
+    "hash": "74c58a2",
+    "date": "2026-10-15T15:43:51+08:00",
+    "message": "sync: 新增资源《镜头人生模特写真馆v1.0中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/74c58a22c6c7cf0fad8c20dbd93c223eff397de6"
+  },
+  {
     "hash": "4be0726",
     "date": "2026-10-15T15:34:42+08:00",
     "message": "sync: 新增资源《三消方块（羊了个羊玩法）ver.8.4.0.0》",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T17:26:33+08:00",
     "message": "sync: 新增资源《PEAK联机版 v2.6.A解压即玩》",
     "url": "https://github.com/xi7ang/GameHub/commit/d62e2234aaf0fc88d5e1b03e3f101870c6ca85c6"
-  },
-  {
-    "hash": "71fd428",
-    "date": "2026-10-11T17:21:29+08:00",
-    "message": "feat(announcement): 公告弹窗新增「同名影视资源站」按钮（动态🔥，置顶于QQ群/TG前，跳转 v.devmini.space）",
-    "url": "https://github.com/xi7ang/GameHub/commit/71fd428854f10a31744f912b1d163d9603771c22"
   }
 ]
