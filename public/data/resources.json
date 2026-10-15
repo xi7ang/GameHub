@@ -24847,5 +24847,25 @@
     "addedAt": "2026-10-15T15:30:23+08:00",
     "updatedAt": "2026-10-15T15:30:23+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0041",
+    "title": "三消方块（羊了个羊玩法）ver.8.4.0.0",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/1d5e9f1023eb?pwd=7GXj",
+    "pwd": "7GXj",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u2f208283a4eb.webp",
+    "steamAppID": null,
+    "desc": "创新三消玩法，层层递进的关卡设计，搭配可爱羊羊主题，每一步消除都充满惊喜。精心设计的道具系统，助你轻松突破难关，带来前所未有的解谜乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-15T15:34:41+08:00",
+    "updatedAt": "2026-10-15T15:34:41+08:00",
+    "month": "202610"
   }
 ]

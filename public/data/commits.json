@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3b819b1",
+    "date": "2026-10-15T15:30:24+08:00",
+    "message": "sync: 新增资源《风启之旅联机版v0.10新版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3b819b12f5cdc3dd54fc20bb6ddcd57a97d5da6a"
+  },
+  {
     "hash": "410bde0",
     "date": "2026-10-14T20:31:52+08:00",
     "message": "chore: 每日公告：发布【2026-10-14】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T17:21:02+08:00",
     "message": "sync: 新增资源《恶土小队 v2026.4.21 中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/ccfa6eb5b24c8e41bc23e04b2eed47797803299c"
-  },
-  {
-    "hash": "f543b0c",
-    "date": "2026-10-09T21:58:44+08:00",
-    "message": "chore: 每日公告:发布【2026-10-09】游戏资源更新通知(5 条新资源)",
-    "url": "https://github.com/xi7ang/GameHub/commit/f543b0c5436f230bb4ff27a8500496395cc2ec53"
   }
 ]
