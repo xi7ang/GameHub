@@ -1,5 +1,11 @@
 [
   {
+    "hash": "948b4a4",
+    "date": "2026-10-17T08:37:50+08:00",
+    "message": "sync: 新增资源《原谅我父亲2》",
+    "url": "https://github.com/xi7ang/GameHub/commit/948b4a4e7d5ad7ee655e84a36a56db8762908f57"
+  },
+  {
     "hash": "be48da5",
     "date": "2026-10-17T08:34:52+08:00",
     "message": "sync: 新增资源《光陨之地》",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T22:57:50+08:00",
     "message": "refactor(announcement): 公告弹窗抽为 AnnouncementModal 组件并全站启用",
     "url": "https://github.com/xi7ang/GameHub/commit/d86fce594caf38579ba2bd0974fd54d7f1958aa8"
-  },
-  {
-    "hash": "98017bd",
-    "date": "2026-10-11T20:31:58+08:00",
-    "message": "chore: 每日公告：发布【2026-10-11】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/98017bdb8e4a5bff0e32bf1e31739c66c6edc66d"
   }
 ]

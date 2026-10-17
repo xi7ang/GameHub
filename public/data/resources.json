@@ -25028,5 +25028,30 @@
     "addedAt": "2026-10-17T08:37:49+08:00",
     "updatedAt": "2026-10-17T08:37:49+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0049",
+    "title": "暗黑纪元：未知之地",
+    "enTitle": "Tenebris: Terra Incognita",
+    "category": "pc",
+    "tags": [
+      "策略",
+      "冒险",
+      "独立",
+      "角色扮演"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/f6000ce8dbd6?pwd=OYEu",
+    "pwd": "OYEu",
+    "size": "2.4GB",
+    "sizeBytes": 2576980377,
+    "cover": "/covers/u454222d039e5.webp",
+    "steamAppID": null,
+    "desc": "这是一款回合制战术 RPG 游戏，您将探索一个充满可怕怪物的严酷星球。尝试为 23 名英雄打造天赋。将能力与装备和其他角色相结合。组建一支小队，了解 Tenebris 星球的秘密！",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-17T08:40:53+08:00",
+    "updatedAt": "2026-10-17T08:40:53+08:00",
+    "month": "202610"
   }
 ]
