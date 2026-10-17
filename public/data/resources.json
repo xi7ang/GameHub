@@ -24978,5 +24978,31 @@
     "addedAt": "2026-10-17T08:31:26+08:00",
     "updatedAt": "2026-10-17T08:31:26+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0047",
+    "title": "光陨之地",
+    "enTitle": "Land of Glarefall",
+    "category": "pc",
+    "tags": [
+      "动作",
+      "独立",
+      "动作冒险",
+      "角色扮演",
+      "策略"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/9968219c70b4?pwd=BSah",
+    "pwd": "BSah",
+    "size": "10GB",
+    "sizeBytes": 10737418240,
+    "cover": "/covers/u77465de01dcf.webp",
+    "steamAppID": null,
+    "desc": "《光陨之地》是一款角色动作冒险和策略生存为核心玩法的游戏，且融合了地图自由探索与资源管理机制。玩家将扮演王国调查团的一员，随着剧情深入，逐步揭开“黑金”与魔物的真相。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-17T08:34:50+08:00",
+    "updatedAt": "2026-10-17T08:34:50+08:00",
+    "month": "202610"
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "14fa757",
+    "date": "2026-10-17T08:31:28+08:00",
+    "message": "sync: 新增资源《朵拉法师》",
+    "url": "https://github.com/xi7ang/GameHub/commit/14fa757af0a65f3dc32e730a23144a81e45fbb61"
+  },
+  {
     "hash": "36a1606",
     "date": "2026-10-17T08:28:05+08:00",
     "message": "sync: 新增资源《琉璃烟火》",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T19:47:00+08:00",
     "message": "feat(announcement): 公告弹窗最新一条默认展开（showAnnouncement 时置 expandedIdx=0）",
     "url": "https://github.com/xi7ang/GameHub/commit/4cc8978b447672a3f15d4c27e9bd3d9bc1451ffc"
-  },
-  {
-    "hash": "d097234",
-    "date": "2026-10-11T19:08:12+08:00",
-    "message": "feat(nav): 移动端放开导航 tab（首页/资源库）+ CTA/收藏收成纯图标 + 补 aria-label",
-    "url": "https://github.com/xi7ang/GameHub/commit/d097234ec6aa708957f5f230ca29039f7a910362"
   }
 ]
