@@ -1,5 +1,11 @@
 [
   {
+    "hash": "36a1606",
+    "date": "2026-10-17T08:28:05+08:00",
+    "message": "sync: 新增资源《琉璃烟火》",
+    "url": "https://github.com/xi7ang/GameHub/commit/36a1606d62dc44e734c195aa332ea877c342e8b7"
+  },
+  {
     "hash": "5e14c56",
     "date": "2026-10-15T20:31:51+08:00",
     "message": "chore: 每日公告：发布【2026-10-15】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-11T19:08:12+08:00",
     "message": "feat(nav): 移动端放开导航 tab（首页/资源库）+ CTA/收藏收成纯图标 + 补 aria-label",
     "url": "https://github.com/xi7ang/GameHub/commit/d097234ec6aa708957f5f230ca29039f7a910362"
-  },
-  {
-    "hash": "11a5de3",
-    "date": "2026-10-11T17:43:24+08:00",
-    "message": "sync: 新增资源《机多财广 Build.25804728（More Slots More Mone》",
-    "url": "https://github.com/xi7ang/GameHub/commit/11a5de3926e6f02307794be0cf4405e9ae45151a"
   }
 ]

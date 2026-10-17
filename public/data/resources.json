@@ -24952,5 +24952,31 @@
     "addedAt": "2026-10-17T08:28:04+08:00",
     "updatedAt": "2026-10-17T08:28:04+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0046",
+    "title": "朵拉法师",
+    "enTitle": "Duola Mage",
+    "category": "pc",
+    "tags": [
+      "动作冒险",
+      "独立",
+      "动作",
+      "冒险",
+      "角色扮演"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/bae57e15b941?pwd=EWyS",
+    "pwd": "EWyS",
+    "size": "4.3GB",
+    "sizeBytes": 4617089843,
+    "cover": "/covers/ua88d6bc37411.webp",
+    "steamAppID": null,
+    "desc": "可爱外表下是一台割草机器。《朵拉法师》是一款快节奏肉鸽动作游戏：多位角色 × 数百把独技能武器 × 随机Build搭配 = 每一局都不同的割草体验。肉鸽天梯是核心，层层递进越打越爽，再配上60等级+属性搭配+装备锻造等局外成长！角色养成+割草爽感！",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-17T08:31:26+08:00",
+    "updatedAt": "2026-10-17T08:31:26+08:00",
+    "month": "202610"
   }
 ]
