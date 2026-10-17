@@ -1,5 +1,17 @@
 [
   {
+    "hash": "5e14c56",
+    "date": "2026-10-15T20:31:51+08:00",
+    "message": "chore: 每日公告：发布【2026-10-15】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/5e14c56943d85ecb52ff4b6e1111476b64706d57"
+  },
+  {
+    "hash": "f4dab4a",
+    "date": "2026-10-15T15:52:48+08:00",
+    "message": "sync: 新增资源《火力掩护：离线单机MOD版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f4dab4ab7c46e6e4737afd99bf0634897972d724"
+  },
+  {
     "hash": "5dae2c2",
     "date": "2026-10-15T15:50:15+08:00",
     "message": "sync: 新增资源《风屿奇航 v0.4.999》",
@@ -166,17 +178,5 @@
     "date": "2026-10-11T17:43:24+08:00",
     "message": "sync: 新增资源《机多财广 Build.25804728（More Slots More Mone》",
     "url": "https://github.com/xi7ang/GameHub/commit/11a5de3926e6f02307794be0cf4405e9ae45151a"
-  },
-  {
-    "hash": "5f7f00e",
-    "date": "2026-10-11T17:35:02+08:00",
-    "message": "sync: 新增资源《龙餐厅 Build.25730891（Dragon Dinner）》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5f7f00ecc80bcec4a9f14af135ee8e06d281f7c1"
-  },
-  {
-    "hash": "1e95f5c",
-    "date": "2026-10-11T17:30:17+08:00",
-    "message": "sync: 新增资源《零食入侵者/Snack Invaders》",
-    "url": "https://github.com/xi7ang/GameHub/commit/1e95f5c7b6ff427adfcba08eee8763dd043dd3ce"
   }
 ]

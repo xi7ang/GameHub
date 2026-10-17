@@ -24927,5 +24927,30 @@
     "addedAt": "2026-10-15T15:52:47+08:00",
     "updatedAt": "2026-10-15T15:52:47+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0045",
+    "title": "琉璃烟火",
+    "enTitle": "Flame in Glass",
+    "category": "pc",
+    "tags": [
+      "冒险",
+      "独立",
+      "策略模拟",
+      "热门大作"
+    ],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/d0c6fc92b1ae?pwd=ZsXd",
+    "pwd": "ZsXd",
+    "size": "16.8GB",
+    "sizeBytes": 18038862643,
+    "cover": "/covers/ud9842933d31b.webp",
+    "steamAppID": null,
+    "desc": "他期待着事业的成果，她期待着追逐的爱情，她期待能给身边的人们带来笑容，他期待能成为故事的主角，他们生活的这座城市期待着海啸后的痊愈……可是，一场突如其来的爆炸扰乱了这一切。烟火暗淡，琉璃蒙尘，他们所期待的，能够实现吗？",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-17T08:28:04+08:00",
+    "updatedAt": "2026-10-17T08:28:04+08:00",
+    "month": "202610"
   }
 ]
