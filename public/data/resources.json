@@ -25133,5 +25133,25 @@
     "addedAt": "2026-10-18T20:32:53+08:00",
     "updatedAt": "2026-10-18T20:32:53+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0054",
+    "title": "快递商店模拟器",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/276a9687b7fc?pwd=RyVi",
+    "pwd": "RyVi",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ufcea7bd5f1e7.webp",
+    "steamAppID": null,
+    "desc": "亲手经营快递商店，从分拣包裹到优化物流路线，体验真实的快递行业运转。面对每日不同的包裹量和客户需求，合理规划人力与资源，提升服务效率，打造高效便捷的快递枢纽。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-18T20:36:36+08:00",
+    "updatedAt": "2026-10-18T20:36:36+08:00",
+    "month": "202610"
   }
 ]
