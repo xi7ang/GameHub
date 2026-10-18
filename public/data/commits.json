@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8f924fe",
+    "date": "2026-10-18T20:25:29+08:00",
+    "message": "sync: 新增资源《烈火射手：僵尸》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8f924fe8f375b0b161bc7973a1323bba27d517f4"
+  },
+  {
     "hash": "3c1d5e0",
     "date": "2026-10-18T20:21:51+08:00",
     "message": "sync: 新增资源《耶！小兔子2无限金币版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-12T20:34:47+08:00",
     "message": "sync: 新增资源《凯特尼斯环游世界Build.25716934 Catniss around th》",
     "url": "https://github.com/xi7ang/GameHub/commit/49e9b2bb77093cf9960b05f0270e1ac02245d9e9"
-  },
-  {
-    "hash": "0bac029",
-    "date": "2026-10-12T20:32:48+08:00",
-    "message": "chore: 每日公告：发布【2026-10-12】游戏资源更新通知（2 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/0bac0295607452dbd8d2005bf13e7d99b1e8526d"
   }
 ]
