@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3c1d5e0",
+    "date": "2026-10-18T20:21:51+08:00",
+    "message": "sync: 新增资源《耶！小兔子2无限金币版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3c1d5e0fe58292e508138eabff11a7af2192e2a6"
+  },
+  {
     "hash": "c29b44b",
     "date": "2026-10-17T20:32:01+08:00",
     "message": "chore: 每日公告：发布【2026-10-17】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-12T20:32:48+08:00",
     "message": "chore: 每日公告：发布【2026-10-12】游戏资源更新通知（2 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/0bac0295607452dbd8d2005bf13e7d99b1e8526d"
-  },
-  {
-    "hash": "9a3dec0",
-    "date": "2026-10-12T20:30:01+08:00",
-    "message": "sync: 新增资源《像素修仙录/Pixel Cultivation Chronicles Build》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9a3dec0061e3e1c8e7579530d4bbb088bd740dfd"
   }
 ]
