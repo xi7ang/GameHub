@@ -1,5 +1,17 @@
 [
   {
+    "hash": "14698e7",
+    "date": "2026-10-18T20:31:31+08:00",
+    "message": "chore: 每日公告：发布【2026-10-18】游戏资源更新通知（3 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/14698e7bfb71172b796a0c648155982eb8c5380d"
+  },
+  {
+    "hash": "d8c1d25",
+    "date": "2026-10-18T20:29:46+08:00",
+    "message": "sync: 新增资源《铁路先驱：硬核铁路建设模拟》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d8c1d25443904ad536e2ee30eb87b6b78be8a023"
+  },
+  {
     "hash": "8f924fe",
     "date": "2026-10-18T20:25:29+08:00",
     "message": "sync: 新增资源《烈火射手：僵尸》",
@@ -166,17 +178,5 @@
     "date": "2026-10-12T20:42:42+08:00",
     "message": "sync: 新增资源《巫塔战记豪华中文联机版》",
     "url": "https://github.com/xi7ang/GameHub/commit/364750ff4bdb379a4eb95b05ea1f9b3b16d5aa73"
-  },
-  {
-    "hash": "6a1e1d4",
-    "date": "2026-10-12T20:38:32+08:00",
-    "message": "sync: 新增资源《枯瑟信仰：放逐者Build.18001626Bleak Faith: Forsa》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6a1e1d4dd74467c75e78407deca0257db7adcb30"
-  },
-  {
-    "hash": "49e9b2b",
-    "date": "2026-10-12T20:34:47+08:00",
-    "message": "sync: 新增资源《凯特尼斯环游世界Build.25716934 Catniss around th》",
-    "url": "https://github.com/xi7ang/GameHub/commit/49e9b2bb77093cf9960b05f0270e1ac02245d9e9"
   }
 ]

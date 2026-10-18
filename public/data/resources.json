@@ -25113,5 +25113,25 @@
     "addedAt": "2026-10-18T20:29:45+08:00",
     "updatedAt": "2026-10-18T20:29:45+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0053",
+    "title": "魔女之泉4内置菜单版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/5114c59495f4?pwd=5W5I",
+    "pwd": "5W5I",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/ucf9d2e4053da.webp",
+    "steamAppID": null,
+    "desc": "内置菜单功能让游戏体验更便捷，无需切换应用即可快速查看攻略、调整设置，轻松掌握魔女冒险的每一个细节，让探索魔女之泉的旅程更加流畅自在。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-18T20:32:53+08:00",
+    "updatedAt": "2026-10-18T20:32:53+08:00",
+    "month": "202610"
   }
 ]
