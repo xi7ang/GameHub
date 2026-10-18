@@ -1,5 +1,17 @@
 [
   {
+    "hash": "c29b44b",
+    "date": "2026-10-17T20:32:01+08:00",
+    "message": "chore: 每日公告：发布【2026-10-17】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c29b44bb18938db9adccfa07db7d8c9cef0eab8e"
+  },
+  {
+    "hash": "830dc9f",
+    "date": "2026-10-17T08:40:54+08:00",
+    "message": "sync: 新增资源《暗黑纪元：未知之地》",
+    "url": "https://github.com/xi7ang/GameHub/commit/830dc9f44699e515ec6cc6f9afdc976461874fe7"
+  },
+  {
     "hash": "948b4a4",
     "date": "2026-10-17T08:37:50+08:00",
     "message": "sync: 新增资源《原谅我父亲2》",
@@ -166,17 +178,5 @@
     "date": "2026-10-12T20:30:01+08:00",
     "message": "sync: 新增资源《像素修仙录/Pixel Cultivation Chronicles Build》",
     "url": "https://github.com/xi7ang/GameHub/commit/9a3dec0061e3e1c8e7579530d4bbb088bd740dfd"
-  },
-  {
-    "hash": "bcaa96f",
-    "date": "2026-10-12T20:26:00+08:00",
-    "message": "sync: 新增资源《大步走 单机+联机 v1.6.0/Big Walk》",
-    "url": "https://github.com/xi7ang/GameHub/commit/bcaa96f72a55a88fa56b7cf198904f01b839de79"
-  },
-  {
-    "hash": "d86fce5",
-    "date": "2026-10-11T22:57:50+08:00",
-    "message": "refactor(announcement): 公告弹窗抽为 AnnouncementModal 组件并全站启用",
-    "url": "https://github.com/xi7ang/GameHub/commit/d86fce594caf38579ba2bd0974fd54d7f1958aa8"
   }
 ]
