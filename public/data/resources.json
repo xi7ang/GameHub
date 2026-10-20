@@ -25213,5 +25213,25 @@
     "addedAt": "2026-10-20T12:57:39+08:00",
     "updatedAt": "2026-10-20T12:57:39+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0057",
+    "title": "超市保安模拟器",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/090bb76a1c35?pwd=ttgt",
+    "pwd": "ttgt",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u7e8ef4fe9fcc.webp",
+    "steamAppID": null,
+    "desc": "化身超市守护者，巡逻防盗、处理纠纷，体验真实安保工作。监控死角、应对突发状况，用智慧与责任感维护超市秩序，在平凡岗位中成就不凡守护。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-20T13:02:44+08:00",
+    "updatedAt": "2026-10-20T13:02:44+08:00",
+    "month": "202610"
   }
 ]

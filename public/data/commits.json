@@ -1,5 +1,11 @@
 [
   {
+    "hash": "603e539",
+    "date": "2026-10-20T12:57:41+08:00",
+    "message": "sync: 新增资源《魔兽争霸3冰封王座v3.0.2手机版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/603e539888797a75cfb004bf6bf1fac7d78efbd9"
+  },
+  {
     "hash": "90156f2",
     "date": "2026-10-20T12:54:39+08:00",
     "message": "sync: 新增资源《使命召唤23：现代战争4v13.1.29465156 Call of Duty:》",
@@ -172,11 +178,5 @@
     "date": "2026-10-13T16:44:29+08:00",
     "message": "sync: 新增资源《沉星之序/Order of the Sinking Star Build.258》",
     "url": "https://github.com/xi7ang/GameHub/commit/2e3d2a5f7f6dc97c3d0e52321dba01ad77c7d112"
-  },
-  {
-    "hash": "5f1139f",
-    "date": "2026-10-13T16:38:02+08:00",
-    "message": "sync: 新增资源《时光之帽/A Hat in Time Build.25577316 全DLC》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5f1139fac41fd2de6057293ecb9c7144685b017e"
   }
 ]
