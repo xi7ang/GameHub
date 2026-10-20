@@ -25193,5 +25193,25 @@
     "addedAt": "2026-10-20T12:54:37+08:00",
     "updatedAt": "2026-10-20T12:54:37+08:00",
     "month": "202610"
+  },
+  {
+    "id": "mobile-202610-0002",
+    "title": "魔兽争霸3冰封王座v3.0.2手机版",
+    "enTitle": "",
+    "category": "mobile",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/44ac737889cc?pwd=nIQu",
+    "pwd": "nIQu",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4204190.webp",
+    "steamAppID": 4204190,
+    "desc": "经典即时策略手游化，重温魔兽争霸史诗战役，多人实时对战热血沸腾，自定义地图创意无限，随时随地享受策略博弈乐趣。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-20T12:57:39+08:00",
+    "updatedAt": "2026-10-20T12:57:39+08:00",
+    "month": "202610"
   }
 ]
