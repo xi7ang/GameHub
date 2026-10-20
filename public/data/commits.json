@@ -1,5 +1,11 @@
 [
   {
+    "hash": "71bd2fc",
+    "date": "2026-10-18T20:36:37+08:00",
+    "message": "sync: 新增资源《快递商店模拟器》",
+    "url": "https://github.com/xi7ang/GameHub/commit/71bd2fcde71f7794456fa9facd151af4af5d8b20"
+  },
+  {
     "hash": "80424ee",
     "date": "2026-10-18T20:32:54+08:00",
     "message": "sync: 新增资源《魔女之泉4内置菜单版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-13T00:14:07+08:00",
     "message": "feat(home): 移除「更新日历」板块（含脚本状态与样式清理，retain-grid 改单栏）",
     "url": "https://github.com/xi7ang/GameHub/commit/cccdd0b78eb0a2dfcaacb5892f4d731625ab3300"
-  },
-  {
-    "hash": "0f4a151",
-    "date": "2026-10-13T00:06:48+08:00",
-    "message": "style(mobile): 卡片网格移动端两侧再补 8px（容器 16 → 24px），首页/分类/搜索/收藏/详情一致",
-    "url": "https://github.com/xi7ang/GameHub/commit/0f4a151a974fcac0213c7cb112a6c4ebd4f47558"
   }
 ]
