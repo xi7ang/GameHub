@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6c4c91d",
+    "date": "2026-10-21T14:43:38+08:00",
+    "message": "sync: 新增资源《逃离鸭科夫 全DLC完整版内置菜单》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6c4c91d6006937e354700116c462c35c1bfca73e"
+  },
+  {
     "hash": "960e436",
     "date": "2026-10-21T14:40:14+08:00",
     "message": "sync: 新增资源《钓鱼胡克2/FishingHook2无限金币版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-14T09:52:02+08:00",
     "message": "sync: 新增资源《停车场大亨/Car Park Capital》",
     "url": "https://github.com/xi7ang/GameHub/commit/17092c1410608f41dc68b62bbaf53ab20f92c37d"
-  },
-  {
-    "hash": "857a728",
-    "date": "2026-10-14T09:48:46+08:00",
-    "message": "sync: 新增资源《雪地度假村模拟器 Build.25828863（Snow Resort Simu》",
-    "url": "https://github.com/xi7ang/GameHub/commit/857a728b0b99328e017cd2f26936bbd17676b305"
   }
 ]

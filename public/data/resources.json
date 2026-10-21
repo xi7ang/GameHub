@@ -25273,5 +25273,25 @@
     "addedAt": "2026-10-21T14:43:34+08:00",
     "updatedAt": "2026-10-21T14:43:34+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0060",
+    "title": "书雁传奇 v1.0",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6332297bc0fb?pwd=OPr7",
+    "pwd": "OPr7",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/594680.webp",
+    "steamAppID": 594680,
+    "desc": "雁影掠过千年书卷，墨香交织江湖传奇。一纸书简藏风月，半卷丹心映山河。指尖轻触，唤醒沉睡的侠骨柔情；字里行间，书写属于你的江湖传说。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-21T14:46:55+08:00",
+    "updatedAt": "2026-10-21T14:46:55+08:00",
+    "month": "202610"
   }
 ]
