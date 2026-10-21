@@ -1,5 +1,11 @@
 [
   {
+    "hash": "960e436",
+    "date": "2026-10-21T14:40:14+08:00",
+    "message": "sync: 新增资源《钓鱼胡克2/FishingHook2无限金币版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/960e436145e69c50d2236e33c8f87eb04d554f29"
+  },
+  {
     "hash": "dc67888",
     "date": "2026-10-20T20:31:43+08:00",
     "message": "chore: 每日公告：发布【2026-10-20】游戏资源更新通知（4 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-14T09:48:46+08:00",
     "message": "sync: 新增资源《雪地度假村模拟器 Build.25828863（Snow Resort Simu》",
     "url": "https://github.com/xi7ang/GameHub/commit/857a728b0b99328e017cd2f26936bbd17676b305"
-  },
-  {
-    "hash": "4d31d7f",
-    "date": "2026-10-14T09:45:21+08:00",
-    "message": "sync: 新增资源《可口的披萨 美味的披萨 v5.59.0 全DLC PC/手机双端（Good Pi》",
-    "url": "https://github.com/xi7ang/GameHub/commit/4d31d7f21043a12f67b2775b8500c5a100e72ea6"
   }
 ]
