@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a7537dd",
+    "date": "2026-10-21T14:46:57+08:00",
+    "message": "sync: 新增资源《书雁传奇 v1.0》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a7537dde4a52fe893a665f430d077fa0d6d5df42"
+  },
+  {
     "hash": "6c4c91d",
     "date": "2026-10-21T14:43:38+08:00",
     "message": "sync: 新增资源《逃离鸭科夫 全DLC完整版内置菜单》",
@@ -172,11 +178,5 @@
     "date": "2026-10-14T09:55:26+08:00",
     "message": "sync: 新增资源《市集大乱/Game Market Mayhem》",
     "url": "https://github.com/xi7ang/GameHub/commit/389eb2e249995c557b3fccc0b75ba143f65c7cc9"
-  },
-  {
-    "hash": "17092c1",
-    "date": "2026-10-14T09:52:02+08:00",
-    "message": "sync: 新增资源《停车场大亨/Car Park Capital》",
-    "url": "https://github.com/xi7ang/GameHub/commit/17092c1410608f41dc68b62bbaf53ab20f92c37d"
   }
 ]
