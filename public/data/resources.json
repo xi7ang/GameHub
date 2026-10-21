@@ -25313,5 +25313,25 @@
     "addedAt": "2026-10-21T14:51:09+08:00",
     "updatedAt": "2026-10-21T14:51:09+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0062",
+    "title": "猫咪邮政",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/f57639f89858?pwd=Oiuq",
+    "pwd": "Oiuq",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4380490.webp",
+    "steamAppID": 4380490,
+    "desc": "化身猫咪邮递员，穿梭奇幻小镇，运送包裹与欢笑。萌趣互动，解锁神秘任务，用尾巴传递温暖，每一步都是毛茸茸的惊喜冒险。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-21T14:55:05+08:00",
+    "updatedAt": "2026-10-21T14:55:05+08:00",
+    "month": "202610"
   }
 ]

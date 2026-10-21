@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a73dd18",
+    "date": "2026-10-21T14:51:11+08:00",
+    "message": "sync: 新增资源《边境检察官：沉浸式边境抉择剧情神作》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a73dd18426e8579cbef802b6e6f25538259f1287"
+  },
+  {
     "hash": "a7537dd",
     "date": "2026-10-21T14:46:57+08:00",
     "message": "sync: 新增资源《书雁传奇 v1.0》",
@@ -172,11 +178,5 @@
     "date": "2026-10-14T09:58:39+08:00",
     "message": "sync: 新增资源《元婴推箱子：古修士遗迹/Sokoban: Ancient Ruins》",
     "url": "https://github.com/xi7ang/GameHub/commit/c80d86fa7d07b5f5f90e692c67e08dcde5adb7c3"
-  },
-  {
-    "hash": "389eb2e",
-    "date": "2026-10-14T09:55:26+08:00",
-    "message": "sync: 新增资源《市集大乱/Game Market Mayhem》",
-    "url": "https://github.com/xi7ang/GameHub/commit/389eb2e249995c557b3fccc0b75ba143f65c7cc9"
   }
 ]
