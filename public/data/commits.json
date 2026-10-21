@@ -1,5 +1,23 @@
 [
   {
+    "hash": "dc67888",
+    "date": "2026-10-20T20:31:43+08:00",
+    "message": "chore: 每日公告：发布【2026-10-20】游戏资源更新通知（4 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/dc678884523d01cf7e20c3c794a175fe0f0292c2"
+  },
+  {
+    "hash": "1f7bf43",
+    "date": "2026-10-20T13:04:41+08:00",
+    "message": "fix(gamehub): 魔兽争霸3 手机版封面误匹配 Steam appid 4204190（太平天国），改回抓取图",
+    "url": "https://github.com/xi7ang/GameHub/commit/1f7bf43c295098440edd6ec98c557e4523d7b0e4"
+  },
+  {
+    "hash": "47e4fb3",
+    "date": "2026-10-20T13:02:46+08:00",
+    "message": "sync: 新增资源《超市保安模拟器》",
+    "url": "https://github.com/xi7ang/GameHub/commit/47e4fb34ed2579a0b6ae067253b09d6827902121"
+  },
+  {
     "hash": "603e539",
     "date": "2026-10-20T12:57:41+08:00",
     "message": "sync: 新增资源《魔兽争霸3冰封王座v3.0.2手机版》",
@@ -160,23 +178,5 @@
     "date": "2026-10-14T09:45:21+08:00",
     "message": "sync: 新增资源《可口的披萨 美味的披萨 v5.59.0 全DLC PC/手机双端（Good Pi》",
     "url": "https://github.com/xi7ang/GameHub/commit/4d31d7f21043a12f67b2775b8500c5a100e72ea6"
-  },
-  {
-    "hash": "3dc72bc",
-    "date": "2026-10-13T20:31:41+08:00",
-    "message": "chore: 每日公告：发布【2026-10-13】游戏资源更新通知（4 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/3dc72bc90284fc43f4b9d59816da2ce7e6f594ca"
-  },
-  {
-    "hash": "203c9c8",
-    "date": "2026-10-13T16:49:57+08:00",
-    "message": "sync: 新增资源《再浇亿点/Keep Watering Build.25805879》",
-    "url": "https://github.com/xi7ang/GameHub/commit/203c9c8876f4438d109c1f9337bb5436cd2c2531"
-  },
-  {
-    "hash": "2e3d2a5",
-    "date": "2026-10-13T16:44:29+08:00",
-    "message": "sync: 新增资源《沉星之序/Order of the Sinking Star Build.258》",
-    "url": "https://github.com/xi7ang/GameHub/commit/2e3d2a5f7f6dc97c3d0e52321dba01ad77c7d112"
   }
 ]
