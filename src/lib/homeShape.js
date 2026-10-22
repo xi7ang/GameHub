@@ -10,7 +10,8 @@
 //   catRecent   : { catKey: [addedAt…] }近 90 天各分类新增时间戳（前端算「你追的分类有 N 条新货」）
 
 // 卡片渲染实际用到的字段（见 src/components/ResourceCard.vue）
-const SLIM_FIELDS = ['id', 'title', 'cover', 'category', 'size', 'status', 'featured', 'addedAt']
+// 2026-10 卡片改版后新增：enTitle（标题拼英文名）、tags（标签行）、updatedAt（更新角标/底部日期）
+const SLIM_FIELDS = ['id', 'title', 'enTitle', 'cover', 'category', 'tags', 'size', 'status', 'featured', 'addedAt', 'updatedAt']
 
 const RECENT_CARDS = 60 // 本周上新榜的取数池（按 addedAt 倒序的前 60 条）
 const CAT_RECENT_DAYS = 90 // 追分类「新货」统计窗口（天）
@@ -18,6 +19,20 @@ const CAT_RECENT_DAYS = 90 // 追分类「新货」统计窗口（天）
 export function slimCard(r) {
   const o = {}
   for (const k of SLIM_FIELDS) o[k] = r[k] == null ? '' : r[k]
+  // Steam 只带卡片角标要用的摘要（评价等级 + 发行日期），不带介绍/截图等大字段，
+  // 否则 coverPool 几百张卡会把 home.json 撑爆
+  if (r.steam) {
+    o.steam = {
+      rating: r.steam.rating
+        ? {
+            scoreDesc: r.steam.rating.scoreDesc || '',
+            totalReviews: r.steam.rating.totalReviews || 0,
+            positiveRate: r.steam.rating.positiveRate ?? null,
+          }
+        : null,
+      releaseDate: r.steam.releaseDate || '',
+    }
+  }
   return o
 }
 
