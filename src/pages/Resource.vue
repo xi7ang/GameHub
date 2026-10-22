@@ -101,6 +101,88 @@
           </div>
         </div>
 
+        <!-- Steam 资料（可选区块：只有跑过 scripts/steam-import.mjs 的资源才有 r.steam，
+             其余资源整段不渲染，页面与改造前一致。介绍/截图/配置放不进头部
+             360px+信息列的双栏里，所以独立成全宽 section 放在获取卡片下面。） -->
+        <template v-if="steam">
+          <!-- 游戏资料：厂商/发行/评价/价格等事实信息 -->
+          <section class="section steam-sec">
+            <h2 class="section-title">🎮 游戏资料</h2>
+            <div class="glass steam-card">
+              <dl class="steam-facts">
+                <div v-if="steam.developer"><dt>开发商</dt><dd>{{ steam.developer }}</dd></div>
+                <div v-if="steam.publisher"><dt>发行商</dt><dd>{{ steam.publisher }}</dd></div>
+                <div v-if="steam.releaseDate"><dt>发行日期</dt><dd>{{ steam.releaseDate }}</dd></div>
+                <div v-if="steam.genres?.length"><dt>类型</dt><dd>{{ steam.genres.join(' · ') }}</dd></div>
+                <div v-if="steam.rating">
+                  <dt>Steam 评价</dt>
+                  <dd>
+                    <span class="steam-rate">{{ steam.rating.positiveRate }}% 好评</span>
+                    <span class="text-low">（{{ fmtNum(steam.rating.totalReviews) }} 条评价）</span>
+                  </dd>
+                </div>
+                <div v-if="steam.price">
+                  <dt>Steam 价格</dt>
+                  <dd>
+                    <template v-if="steam.price.free">免费游玩</template>
+                    <template v-else>
+                      ¥{{ steam.price.final }}
+                      <span v-if="steam.price.discountPercent" class="steam-off">-{{ steam.price.discountPercent }}%</span>
+                    </template>
+                  </dd>
+                </div>
+                <div v-if="steam.languages" class="steam-facts__wide"><dt>支持语言</dt><dd>{{ steam.languages }}</dd></div>
+              </dl>
+              <div class="steam-source text-low">
+                <span>资料来源：Steam 商店</span>
+                <a v-if="steam.storeUrl" :href="steam.storeUrl" target="_blank" rel="noreferrer">在 Steam 查看 →</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- 游戏介绍：默认只展示前两段，长的点开看全文，避免详情页被长文撑爆 -->
+          <section v-if="descParas.length" class="section steam-sec">
+            <h2 class="section-title">📖 游戏介绍</h2>
+            <div class="glass steam-card steam-desc">
+              <p v-for="(p, i) in visibleDescParas" :key="i">{{ p }}</p>
+              <button v-if="descNeedsExpand" type="button" class="steam-more" @click="descExpanded = !descExpanded">
+                {{ descExpanded ? '收起 ↑' : '展开全部介绍 ↓' }}
+              </button>
+            </div>
+          </section>
+
+          <!-- 游戏截图：横向网格缩略图，点击看大图（灯箱可前后翻） -->
+          <section v-if="steam.screenshots?.length" class="section steam-sec">
+            <h2 class="section-title">🖼️ 游戏截图</h2>
+            <div class="steam-shots">
+              <button
+                v-for="(u, i) in steam.screenshots"
+                :key="u"
+                type="button"
+                class="steam-shot"
+                @click="openShot(i)"
+              >
+                <img :src="u" :alt="`${r.title} 截图 ${i + 1}`" loading="lazy" />
+              </button>
+            </div>
+          </section>
+
+          <!-- 系统需求：最低 / 推荐 两列，移动端自动堆叠 -->
+          <section v-if="steam.requirements?.minimum?.length || steam.requirements?.recommended?.length" class="section steam-sec">
+            <h2 class="section-title">💻 系统需求</h2>
+            <div class="glass steam-card steam-req">
+              <div v-if="steam.requirements.minimum?.length">
+                <h3>最低配置</h3>
+                <ul><li v-for="(x, i) in steam.requirements.minimum" :key="i">{{ x }}</li></ul>
+              </div>
+              <div v-if="steam.requirements.recommended?.length">
+                <h3>推荐配置</h3>
+                <ul><li v-for="(x, i) in steam.requirements.recommended" :key="i">{{ x }}</li></ul>
+              </div>
+            </div>
+          </section>
+        </template>
+
         <!-- 同分类推荐 -->
         <section v-if="related.length" class="section">
           <h2 class="section-title">🎯 同类推荐</h2>
@@ -114,6 +196,17 @@
         <div style="font-size: 40px; margin-bottom: 10px">🕹️</div>
         <p>资源不存在或已被移除</p>
         <a href="/" class="btn btn-primary mt-md">返回首页</a>
+      </div>
+    </div>
+
+    <!-- 截图灯箱：点击截图打开，可前后翻页 -->
+    <div v-if="shotIndex !== null && steam?.screenshots?.length" class="modal-mask" @click.self="shotIndex = null">
+      <div class="shot-box">
+        <button class="shot-box__close" @click="shotIndex = null" title="关闭">✕</button>
+        <button class="shot-box__nav shot-box__nav--prev" @click="stepShot(-1)" title="上一张">‹</button>
+        <img class="shot-box__img" :src="steam.screenshots[shotIndex]" :alt="`${r?.title} 截图`" />
+        <button class="shot-box__nav shot-box__nav--next" @click="stepShot(1)" title="下一张">›</button>
+        <div class="shot-box__count">{{ shotIndex + 1 }} / {{ steam.screenshots.length }}</div>
       </div>
     </div>
 
@@ -217,6 +310,45 @@ onMounted(async () => {
 })
 
 const cat = computed(() => (r.value ? catMeta(r.value.category) : null))
+
+// ── Steam 资料（可选）：steam-import.mjs 写入的嵌套字段，没有就整段不渲染 ──
+const steam = computed(() => r.value?.steam || null)
+
+function fmtNum(n) {
+  return typeof n === 'number' ? n.toLocaleString('en-US') : n
+}
+
+// 游戏介绍默认折叠：段落多或总长超阈值时只露前两段
+const descExpanded = ref(false)
+const descParas = computed(() =>
+  steam.value?.description ? steam.value.description.split('\n').map((s) => s.trim()).filter(Boolean) : []
+)
+const descNeedsExpand = computed(
+  () => descParas.value.length > 2 || (steam.value?.description || '').length > 420
+)
+const visibleDescParas = computed(() =>
+  descNeedsExpand.value && !descExpanded.value ? descParas.value.slice(0, 2) : descParas.value
+)
+
+// 截图灯箱
+const shotIndex = ref(null)
+function openShot(i) {
+  shotIndex.value = i
+}
+function stepShot(dir) {
+  const list = steam.value?.screenshots || []
+  if (!list.length || shotIndex.value === null) return
+  shotIndex.value = (shotIndex.value + dir + list.length) % list.length
+}
+
+// 换资源时重置介绍折叠与灯箱，避免把上一条的状态带过来
+watch(
+  () => r.value?.id,
+  () => {
+    descExpanded.value = false
+    shotIndex.value = null
+  }
+)
 
 // 收藏 / 已收藏（纯本地 localStorage）
 const { isFav, toggleFav } = useFavorites()
@@ -738,6 +870,141 @@ watch(showQr, async (v) => {
 @keyframes tipPulse {
   0%, 100% { opacity: 0.85; }
   50% { opacity: 1; text-shadow: 0 0 14px rgba(34, 211, 238, 0.6); }
+}
+
+/* ── Steam 资料区块（全宽 section，承接放不进头部双栏的长内容） ── */
+.steam-sec { padding-bottom: 0; }
+.steam-card { padding: 22px 24px; position: relative; z-index: 1; }
+/* 长内容卡片不需要 glass 的 hover 上浮，读长文时晃动是干扰 */
+.steam-card:hover { transform: none; }
+.steam-facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 28px;
+  margin: 0;
+}
+.steam-facts > div { display: flex; gap: 10px; font-size: 14px; min-width: 0; }
+.steam-facts dt { flex: 0 0 72px; color: var(--text-low); }
+.steam-facts dd { margin: 0; color: var(--text-mid); overflow-wrap: anywhere; }
+.steam-facts__wide { grid-column: 1 / -1; }
+.steam-rate { color: var(--neon-cyan); font-weight: 700; }
+.steam-off {
+  color: #4ade80;
+  font-weight: 700;
+  margin-left: 6px;
+}
+.steam-source {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin-top: 16px;
+  border-top: 1px solid var(--glass-border);
+  padding-top: 12px;
+}
+.steam-source a { color: var(--neon-cyan); }
+
+.steam-desc p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: var(--text-mid);
+  margin: 0 0 12px;
+}
+.steam-desc p:last-of-type { margin-bottom: 0; }
+.steam-more {
+  margin-top: 12px;
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1px solid var(--glass-border);
+  background: rgba(var(--accent-rgb), 0.06);
+  color: var(--text-mid);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.steam-more:hover { color: var(--text-hi); border-color: var(--neon-cyan); }
+
+.steam-shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.steam-shot {
+  padding: 0;
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: none;
+  cursor: zoom-in;
+  aspect-ratio: 16 / 9;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.steam-shot:hover { border-color: var(--neon-cyan); transform: translateY(-2px); }
+.steam-shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.steam-req { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 32px; }
+.steam-req h3 { font-size: 15px; margin: 0 0 10px; }
+.steam-req ul { margin: 0; padding-left: 18px; font-size: 13.5px; line-height: 1.9; color: var(--text-mid); }
+
+/* 截图灯箱 */
+.shot-box { position: relative; max-width: 1000px; width: 94%; }
+.shot-box__img {
+  width: 100%;
+  max-height: 82vh;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #000;
+  display: block;
+}
+.shot-box__close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(10, 10, 24, 0.9);
+  color: #fff;
+  cursor: pointer;
+}
+.shot-box__nav {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  z-index: 2;
+  width: 42px;
+  height: 56px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(10, 10, 24, 0.65);
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.shot-box__nav--prev { left: 10px; }
+.shot-box__nav--next { right: 10px; }
+.shot-box__count {
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(0, 0, 0, 0.55);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+  .steam-facts { grid-template-columns: 1fr; }
+  .steam-req { grid-template-columns: 1fr; }
+  .steam-shots { grid-template-columns: repeat(2, 1fr); }
+  .steam-card { padding: 18px; }
 }
 
 @media (max-width: 768px) {
