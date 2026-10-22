@@ -247,7 +247,7 @@ import { BUILD_ID } from '../lib/version.js'
 
 const BASE = import.meta.env.BASE_URL
 
-const { state, load, catMeta } = useData()
+const { state, loadDetail, catMeta } = useData()
 const params = new URLSearchParams(location.search)
 
 // <title>：资源名前 10 字 + 页面静态标题（后半句的品牌名由 useData.applyBrandToDoc 统一换成运行中品牌）。
@@ -278,15 +278,9 @@ function track(name) {
   }
 }
 
-// 详情查找：支持短码（6 位 base36）与旧语义 id；短码用 FNV-1a hash 动态匹配（资源量小，直接遍历）
-const r = computed(() => {
-  if (!rawId) return null
-  let hit = state.resources.find((x) => x.id === rawId)
-  if (!hit && /^[0-9a-z]{6}$/i.test(rawId)) {
-    hit = state.resources.find((x) => shortId(x.id) === rawId.toLowerCase()) || null
-  }
-  return hit
-})
+// 详情数据由 loadDetail 提供：优先单条详情文件（几 KB），失败时它内部回退全量加载，
+// 两种路径都把当前资源写入 state.detail；短码/旧 id 的解析也在 loadDetail 里处理
+const r = computed(() => state.detail || null)
 
 // 旧站链接兼容：/resource?c=games&id=1329 → 查 legacy-map → 302 到新短链
 async function resolveLegacy() {
@@ -303,8 +297,8 @@ async function resolveLegacy() {
 }
 
 onMounted(async () => {
-  await load()
-  applyDocTitle() // 必须在 load() 之后：那时 applyBrandToDoc 已把静态标题里的品牌名换好
+  await loadDetail(rawId)
+  applyDocTitle() // 必须在 loadDetail() 之后：那时 applyBrandToDoc 已把静态标题里的品牌名换好
   if (r.value?.id) track('view:' + r.value.id)
   await resolveLegacy()
 })
@@ -362,9 +356,12 @@ const platform = computed(() => {
   const p = state.site?.platforms?.[r.value.platform]
   return p || { label: '网盘链接', icon: '🔗' }
 })
-const related = computed(() =>
-  r.value ? state.resources.filter((x) => x.category === r.value.category && x.id !== r.value.id).slice(0, 4) : []
-)
+const related = computed(() => {
+  if (!r.value) return []
+  // 相关推荐只需要卡片字段：优先用瘦索引（detailIndex），兜底全量时用 resources
+  const pool = state.detailIndex || state.resources
+  return pool.filter((x) => x.category === r.value.category && x.id !== r.value.id).slice(0, 4)
+})
 
 function hashStr(s) {
   let h = 0

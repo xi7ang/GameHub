@@ -6,3 +6,7 @@ dist/
 .env.*
 !.env.example
 .secrets/
+
+# 详情页派生数据（构建期由 scripts/gen-detail.js 生成，不进 git）
+public/data/detail/
+public/data/resource-index.json

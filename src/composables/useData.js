@@ -12,12 +12,15 @@ const state = reactive({
   site: null,
   commits: [],
   home: null, // 首页精简数据（home.json），仅首页使用
+  detail: null, // 详情页当前资源（detail/<id>.json 全量单条）
+  detailIndex: null, // 详情页瘦索引（resource-index.json 的 items，卡片字段级）
   loading: true,
   error: null,
 })
 
 let loaded = false
 let homeLoaded = false
+let detailLoadedFor = null
 
 function detectPlatform(url) {
   if (!url) return 'unknown'
@@ -162,6 +165,56 @@ async function loadHome() {
   return state
 }
 
+// 详情页专用轻量加载器：只拉「当前资源详情 + 瘦索引 + 分类/站点配置」，
+// 不再拉全量 resources.json（3.4MB）。索引/详情由 scripts/gen-detail.js 在构建期生成。
+// 任一步失败（旧部署没有生成物、文件缺失等）都回退全量 load()，保证详情页永远能开。
+async function loadDetail(rawId) {
+  if (detailLoadedFor === rawId && state.detail) return state
+  const cb = CB
+  try {
+    const [index, cats, site] = await Promise.all([
+      fetch(`${BASE}data/resource-index.json?${cb}`).then((r) => (r.ok ? r.json() : Promise.reject(new Error('index ' + r.status)))),
+      fetch(`${BASE}data/categories.json?${cb}`).then((r) => r.json()),
+      fetch(`${BASE}data/site.json?${cb}`).then((r) => r.json()),
+    ])
+    const items = index?.items
+    if (!Array.isArray(items)) throw new Error('resource-index 结构异常')
+    state.detailIndex = items
+    state.categories = cats.sort((a, b) => a.order - b.order)
+    state.site = site
+    applyBrandToDoc(site)
+    // 先按完整 id 找；找不到且像 6 位短码时再按短码匹配（短码算法与 lib/short.js 一致，动态 import 避免循环依赖）
+    let entry = items.find((x) => x.id === rawId)
+    if (!entry && rawId && /^[0-9a-z]{6}$/i.test(rawId)) {
+      const { shortId } = await import('../lib/short.js')
+      entry = items.find((x) => shortId(x.id) === rawId.toLowerCase())
+    }
+    if (!entry) throw new Error('索引里没有这条资源')
+    const detail = await fetch(`${BASE}data/detail/${entry.id}.json?${cb}`).then((r) =>
+      r.ok ? r.json() : Promise.reject(new Error('detail ' + r.status))
+    )
+    state.detail = detail
+    detailLoadedFor = rawId
+  } catch (e) {
+    // 兜底：回退全量加载，state.detail 从全量里取（找不到就是 null，页面走「不存在」分支）
+    try {
+      await load()
+      let hit = state.resources.find((x) => x.id === rawId) || null
+      if (!hit && rawId && /^[0-9a-z]{6}$/i.test(rawId)) {
+        const { shortId } = await import('../lib/short.js')
+        hit = state.resources.find((x) => shortId(x.id) === rawId.toLowerCase()) || null
+      }
+      state.detail = hit
+      detailLoadedFor = rawId
+    } catch (e2) {
+      state.error = String(e2)
+    }
+  } finally {
+    state.loading = false
+  }
+  return state
+}
+
 export function useData() {
-  return { state, load, loadHome, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
+  return { state, load, loadHome, loadDetail, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
 }
