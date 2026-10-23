@@ -62,7 +62,14 @@ res.forEach((r, i) => {
   check(r.id && !ids.has(r.id), `${loc} id 重复: ${r.id}`)
   if (r.id) ids.add(r.id)
   check(r.title && typeof r.title === 'string', `${loc} 缺 title`)
-  check(catKeys.has(r.category), `${loc} category 不存在: ${r.category}`)
+  const LEGACY_PLATFORM = new Set(['pc', 'mobile', 'switch', 'online', 'mod', 'emu', 'tool'])
+  check(
+    catKeys.has(r.category),
+    `${loc} category 不存在: ${r.category}` +
+      (LEGACY_PLATFORM.has(r.category)
+        ? '（这是旧平台分类；写入侧 gamehub_sync.py 必须按 genre 口径写）'
+        : ''),
+  )
   check(PLATFORMS.includes(r.platform), `${loc} platform 非法: ${r.platform}`)
   check(r.url && /^https?:\/\//.test(r.url), `${loc} url 非法`)
   if (r.url) {

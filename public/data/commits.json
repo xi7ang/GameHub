@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3545d3d",
+    "date": "2026-10-23T22:53:44+08:00",
+    "message": "sync: 新增资源《骑战：烈火之剑 v73.85 中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3545d3d9b343aa140afd8c1a6310b3711b5ec932"
+  },
+  {
     "hash": "3c32d94",
     "date": "2026-10-23T22:50:03+08:00",
     "message": "sync: 新增资源《火星求生：重启版 Surviving Mars Relaunched v1.1.》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T21:23:12+08:00",
     "message": "data: 补齐剩余资源的 Steam 资料（限流冷却后重试）",
     "url": "https://github.com/xi7ang/GameHub/commit/d545e686264ad042e5101f459788d841d1a347e1"
-  },
-  {
-    "hash": "a9589c3",
-    "date": "2026-10-22T17:56:26+08:00",
-    "message": "fix: 重新上传午夜轮班封面 3722330.webp（二进制修正）",
-    "url": "https://github.com/xi7ang/GameHub/commit/a9589c36ce50d212493f0091f807b64dc445144c"
   }
 ]
