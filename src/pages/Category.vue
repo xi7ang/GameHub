@@ -283,7 +283,6 @@ function featureOk(r, key) {
     )
   if (key === 'online')
     return (
-      r.category === 'online' ||
       (r.tags || []).includes('联机') ||
       (r.steam?.genres || []).includes('大型多人在线')
     )

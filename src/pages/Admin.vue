@@ -1748,7 +1748,7 @@ function blankEdit() {
     id: '',
     title: '',
     enTitle: '',
-    category: cats.value[0]?.key || 'pc',
+    category: cats.value[0]?.key || 'other',
     tagsStr: '',
     platform: 'quark',
     url: '',
@@ -1971,7 +1971,7 @@ async function grabCover() {
 
 // ── 批量导入 ──
 const importText = ref('')
-const importCat = ref('pc')
+const importCat = ref('other')
 const importParsed = ref([])
 const importDup = ref([])
 function previewImport() {

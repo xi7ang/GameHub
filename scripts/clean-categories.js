@@ -29,6 +29,14 @@ const WRITE = process.argv.includes('--write')
 
 const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'))
 
+// 分类口径已切换为游戏类型（genre）。本脚本的平台重映射规则不再适用，
+// 误跑会把 category 改回 pc/mobile/online，属于静默数据损坏，直接拦掉。
+const CATS = JSON.parse(fs.readFileSync(path.join(__dirname, '../public/data/categories.json'), 'utf8'))
+if (!CATS.some((c) => c.key === 'pc')) {
+  console.error('分类已改为 genre 口径，clean-categories.js 已停用（防止覆盖数据）。')
+  process.exit(1)
+}
+
 // 原分类权重（可信度）：mobile/pc 基于原始标题判断，基本可信
 const KEEP_CATS = new Set(['pc', 'mobile', 'mod', 'online', 'emu', 'switch'])
 

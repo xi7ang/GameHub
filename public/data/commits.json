@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3142f11",
+    "date": "2026-10-23T16:33:01+08:00",
+    "message": "feat(titles): 补齐剩余可匹配资源，改用 lzlgo 原始标题（274 条）",
+    "url": "https://github.com/xi7ang/GameHub/commit/3142f11727dd77c3eaa3f5a35dccbbc861775f87"
+  },
+  {
     "hash": "87c9703",
     "date": "2026-10-23T16:24:46+08:00",
     "message": "fix(titles): 改用 lzlgo 原始完整标题（保留版本号/送修改器/免安装等后缀）",
@@ -172,11 +178,5 @@
     "date": "2026-10-21T14:43:38+08:00",
     "message": "sync: 新增资源《逃离鸭科夫 全DLC完整版内置菜单》",
     "url": "https://github.com/xi7ang/GameHub/commit/6c4c91d6006937e354700116c462c35c1bfca73e"
-  },
-  {
-    "hash": "960e436",
-    "date": "2026-10-21T14:40:14+08:00",
-    "message": "sync: 新增资源《钓鱼胡克2/FishingHook2无限金币版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/960e436145e69c50d2236e33c8f87eb04d554f29"
   }
 ]

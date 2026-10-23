@@ -1,19 +1,19 @@
 [
   {
-    "key": "pc",
-    "name": "单机游戏",
-    "emoji": "🖥️",
+    "key": "rpg",
+    "name": "角色扮演",
+    "emoji": "🧙",
     "gradient": [
-      "#c99a5b",
-      "#a87b3f"
+      "#b07ac9",
+      "#7a5a9a"
     ],
     "order": 1,
     "show": true
   },
   {
-    "key": "mobile",
-    "name": "手游",
-    "emoji": "📱",
+    "key": "action",
+    "name": "动作",
+    "emoji": "🎯",
     "gradient": [
       "#c46a4a",
       "#8a4a3a"
@@ -22,20 +22,20 @@
     "show": true
   },
   {
-    "key": "switch",
-    "name": "Switch",
-    "emoji": "🎮",
+    "key": "simulation",
+    "name": "模拟",
+    "emoji": "🏗️",
     "gradient": [
-      "#b05e42",
-      "#8a4434"
+      "#c99a5b",
+      "#a87b3f"
     ],
     "order": 3,
     "show": true
   },
   {
-    "key": "online",
-    "name": "联机游戏",
-    "emoji": "🌐",
+    "key": "strategy",
+    "name": "策略",
+    "emoji": "♟️",
     "gradient": [
       "#7da37d",
       "#5f7f5f"
@@ -44,36 +44,157 @@
     "show": true
   },
   {
-    "key": "mod",
-    "name": "MOD/补丁",
-    "emoji": "🔧",
+    "key": "adventure",
+    "name": "冒险",
+    "emoji": "🧭",
     "gradient": [
-      "#9a8ab0",
-      "#7a6a8f"
+      "#7d9cb3",
+      "#5d7c93"
     ],
     "order": 5,
     "show": true
   },
   {
-    "key": "emu",
-    "name": "模拟器",
-    "emoji": "🕹️",
+    "key": "casual",
+    "name": "休闲",
+    "emoji": "🎲",
     "gradient": [
-      "#7d9cb3",
-      "#5d7c93"
+      "#d4a373",
+      "#a67c52"
     ],
     "order": 6,
     "show": true
   },
   {
-    "key": "tool",
-    "name": "游戏工具",
-    "emoji": "🧰",
+    "key": "sandbox",
+    "name": "沙盒建造/生存",
+    "emoji": "⛏️",
     "gradient": [
-      "#b08a5f",
-      "#8a6844"
+      "#9a8ab0",
+      "#7a6a8f"
     ],
     "order": 7,
+    "show": true
+  },
+  {
+    "key": "shooter",
+    "name": "射击",
+    "emoji": "🔫",
+    "gradient": [
+      "#b05e42",
+      "#8a4434"
+    ],
+    "order": 8,
+    "show": true
+  },
+  {
+    "key": "horror",
+    "name": "恐怖",
+    "emoji": "👻",
+    "gradient": [
+      "#6b5b7b",
+      "#4a3d58"
+    ],
+    "order": 9,
+    "show": true
+  },
+  {
+    "key": "tower-defense",
+    "name": "塔防",
+    "emoji": "🛡️",
+    "gradient": [
+      "#5c8d89",
+      "#3f6663"
+    ],
+    "order": 10,
+    "show": true
+  },
+  {
+    "key": "sports",
+    "name": "体育",
+    "emoji": "⚽",
+    "gradient": [
+      "#5f8f5f",
+      "#436943"
+    ],
+    "order": 11,
+    "show": true
+  },
+  {
+    "key": "card",
+    "name": "卡牌",
+    "emoji": "🃏",
+    "gradient": [
+      "#a86b8a",
+      "#7f4f68"
+    ],
+    "order": 12,
+    "show": true
+  },
+  {
+    "key": "puzzle",
+    "name": "解谜",
+    "emoji": "🧩",
+    "gradient": [
+      "#6f9ab0",
+      "#4f7386"
+    ],
+    "order": 13,
+    "show": true
+  },
+  {
+    "key": "racing",
+    "name": "竞速",
+    "emoji": "🏎️",
+    "gradient": [
+      "#b3562f",
+      "#8a3f22"
+    ],
+    "order": 14,
+    "show": true
+  },
+  {
+    "key": "fighting",
+    "name": "格斗",
+    "emoji": "🥊",
+    "gradient": [
+      "#a63d40",
+      "#7a2b2d"
+    ],
+    "order": 15,
+    "show": true
+  },
+  {
+    "key": "platformer",
+    "name": "平台跳跃",
+    "emoji": "🦘",
+    "gradient": [
+      "#8aa05b",
+      "#64763f"
+    ],
+    "order": 16,
+    "show": true
+  },
+  {
+    "key": "rhythm",
+    "name": "音乐",
+    "emoji": "🎵",
+    "gradient": [
+      "#9b6bb0",
+      "#714a80"
+    ],
+    "order": 17,
+    "show": true
+  },
+  {
+    "key": "visual-novel",
+    "name": "视觉小说/影游",
+    "emoji": "📖",
+    "gradient": [
+      "#b08a9a",
+      "#85636f"
+    ],
+    "order": 18,
     "show": true
   },
   {
@@ -81,10 +202,10 @@
     "name": "其他",
     "emoji": "📦",
     "gradient": [
-      "#8a8a80",
-      "#6a6a62"
+      "#8c8c8c",
+      "#5f5f5f"
     ],
-    "order": 8,
+    "order": 19,
     "show": true
   }
 ]
