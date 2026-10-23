@@ -57,17 +57,23 @@
     <!-- 游戏推荐：每次打开随机从有封面的资源中选 8 个 -->
     <section v-if="featured.length" class="container section">
       <h2 class="section-title">🎲 游戏推荐</h2>
-      <div class="rc-grid">
+      <div class="rc-grid" :class="{ 'rc-grid--more': showAllFeatured }">
         <ResourceCard v-for="r in featured" :key="r.id" :r="r" />
       </div>
+      <button type="button" class="col-more" @click="showAllFeatured = !showAllFeatured">
+        {{ showAllFeatured ? '收起' : '获取更多' }}
+      </button>
     </section>
 
     <!-- 最新资源 -->
     <section class="container section">
       <h2 class="section-title">🆕 最新更新</h2>
-      <div class="rc-grid">
+      <div class="rc-grid" :class="{ 'rc-grid--more': showAllLatest }">
         <ResourceCard v-for="r in latest" :key="r.id" :r="r" />
       </div>
+      <button type="button" class="col-more" @click="showAllLatest = !showAllLatest">
+        {{ showAllLatest ? '收起' : '获取更多' }}
+      </button>
     </section>
 
     <!-- 本周上新榜（取自 home.json 轻量聚合，首页不拉全量） -->
@@ -114,7 +120,7 @@
     <!-- 分类宫格 -->
     <section class="container section">
       <h2 class="section-title">🗂️ 资源分类</h2>
-      <div class="cat-grid">
+      <div class="cat-grid" :class="{ 'cat-grid--more': showAllCats }">
         <a
           v-for="(c, i) in state.categories"
           :key="c.key"
@@ -127,6 +133,9 @@
           <div class="cat-card__count text-low">{{ countBy(c.key) }} 个资源</div>
         </a>
       </div>
+      <button type="button" class="col-more" @click="showAllCats = !showAllCats">
+        {{ showAllCats ? '收起' : '获取更多' }}
+      </button>
     </section>
 
     <!-- 最新动态（已隐藏）
@@ -196,6 +205,9 @@ const { state, loadHome, catLabel } = useData()
 // 必玩合集入口带：数据来自 collections.json（构建期生成），拉不到就整块隐藏
 const collections = ref([])
 const showAllCols = ref(false) // 移动端双列默认只展示 4 个合集，「获取更多」展开全部
+const showAllFeatured = ref(false) // 游戏推荐：移动端默认 4 个
+const showAllLatest = ref(false) // 最新更新：移动端默认 4 个
+const showAllCats = ref(false) // 资源分类：移动端默认 4 个
 async function loadCollections() {
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}data/collections.json?v=${BUILD_ID || Date.now()}`)
@@ -366,6 +378,9 @@ onMounted(async () => {
     background: var(--surface, rgba(127, 127, 127, 0.06)); color: inherit;
     font-size: 13.5px; cursor: pointer;
   }
+  /* 游戏推荐 / 最新更新 / 资源分类：移动端默认只展示前 4 个，与「必玩合集」一致 */
+  .rc-grid:not(.rc-grid--more) > *:nth-child(n + 5),
+  .cat-grid:not(.cat-grid--more) > *:nth-child(n + 5) { display: none; }
 }
 
 

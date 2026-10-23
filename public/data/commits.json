@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fa0cdcb",
+    "date": "2026-10-23T17:11:43+08:00",
+    "message": "feat(category): 分类口径改为游戏类型，放弃平台维度",
+    "url": "https://github.com/xi7ang/GameHub/commit/fa0cdcb972a38339185199d4ffef732f9d039582"
+  },
+  {
     "hash": "3142f11",
     "date": "2026-10-23T16:33:01+08:00",
     "message": "feat(titles): 补齐剩余可匹配资源，改用 lzlgo 原始标题（274 条）",
@@ -172,11 +178,5 @@
     "date": "2026-10-21T14:46:57+08:00",
     "message": "sync: 新增资源《书雁传奇 v1.0》",
     "url": "https://github.com/xi7ang/GameHub/commit/a7537dde4a52fe893a665f430d077fa0d6d5df42"
-  },
-  {
-    "hash": "6c4c91d",
-    "date": "2026-10-21T14:43:38+08:00",
-    "message": "sync: 新增资源《逃离鸭科夫 全DLC完整版内置菜单》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6c4c91d6006937e354700116c462c35c1bfca73e"
   }
 ]
