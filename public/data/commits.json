@@ -1,5 +1,11 @@
 [
   {
+    "hash": "87c9703",
+    "date": "2026-10-23T16:24:46+08:00",
+    "message": "fix(titles): 改用 lzlgo 原始完整标题（保留版本号/送修改器/免安装等后缀）",
+    "url": "https://github.com/xi7ang/GameHub/commit/87c9703a9c3b7d248af0f41cf5bb609fd3c95c10"
+  },
+  {
     "hash": "e654d4b",
     "date": "2026-10-23T15:15:38+08:00",
     "message": "feat(titles): 按审核清单替换 556 条游戏标题为 lzlgo 口径",
@@ -172,11 +178,5 @@
     "date": "2026-10-21T14:40:14+08:00",
     "message": "sync: 新增资源《钓鱼胡克2/FishingHook2无限金币版》",
     "url": "https://github.com/xi7ang/GameHub/commit/960e436145e69c50d2236e33c8f87eb04d554f29"
-  },
-  {
-    "hash": "dc67888",
-    "date": "2026-10-20T20:31:43+08:00",
-    "message": "chore: 每日公告：发布【2026-10-20】游戏资源更新通知（4 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/dc678884523d01cf7e20c3c794a175fe0f0292c2"
   }
 ]
