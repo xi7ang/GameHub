@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3c32d94",
+    "date": "2026-10-23T22:50:03+08:00",
+    "message": "sync: 新增资源《火星求生：重启版 Surviving Mars Relaunched v1.1.》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3c32d9461ff2d6c7a94b430339334a47b67d4db0"
+  },
+  {
     "hash": "49d82cf",
     "date": "2026-10-23T22:45:16+08:00",
     "message": "sync: 新增资源《最终幻想15 Win版v1.1.605.2》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T17:56:26+08:00",
     "message": "fix: 重新上传午夜轮班封面 3722330.webp（二进制修正）",
     "url": "https://github.com/xi7ang/GameHub/commit/a9589c36ce50d212493f0091f807b64dc445144c"
-  },
-  {
-    "hash": "1a66f24",
-    "date": "2026-10-22T17:53:32+08:00",
-    "message": "fix: 全量纠正资源分类（模拟器类模拟游戏转单机、MOD类完整游戏归位等 99 条）+ 午夜轮班定为 Shift At Midnight(3722330)",
-    "url": "https://github.com/xi7ang/GameHub/commit/1a66f241b3eb6811114147d881d5e233a4fc29a2"
   }
 ]

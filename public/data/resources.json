@@ -66607,5 +66607,25 @@
     "addedAt": "2026-10-23T22:50:00+08:00",
     "updatedAt": "2026-10-23T22:50:00+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0072",
+    "title": "骑战：烈火之剑 v73.85 中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/fcf18928478d?pwd=We7w",
+    "pwd": "We7w",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/3057410.webp",
+    "steamAppID": 3057410,
+    "desc": "烈火之剑挥舞战场，骑战冲锋热血沸腾。全新中文版带来沉浸式体验，策略与战斗完美融合，每一次挥剑都点燃激情，征服属于你的荣耀疆域。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-23T22:53:42+08:00",
+    "updatedAt": "2026-10-23T22:53:42+08:00",
+    "month": "202610"
   }
 ]
