@@ -66427,5 +66427,25 @@
       "storeUrl": "https://store.steampowered.com/app/4380490/",
       "fetchedAt": "2026-10-22T04:26:25.237Z"
     }
+  },
+  {
+    "id": "pc-202610-0063",
+    "title": "囚禁 Build.17981020 联机版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/dfb1e3aceaa8?pwd=WDeP",
+    "pwd": "WDeP",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/1683950.webp",
+    "steamAppID": 1683950,
+    "desc": "多人联机协作逃生，高自由度探索与解谜，动态环境变化增加挑战，沉浸式剧情体验，支持自定义房间与创意玩法，带来紧张刺激的囚禁逃脱之旅。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-23T22:30:43+08:00",
+    "updatedAt": "2026-10-23T22:30:43+08:00",
+    "month": "202610"
   }
 ]
