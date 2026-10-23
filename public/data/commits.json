@@ -1,5 +1,11 @@
 [
   {
+    "hash": "49d82cf",
+    "date": "2026-10-23T22:45:16+08:00",
+    "message": "sync: 新增资源《最终幻想15 Win版v1.1.605.2》",
+    "url": "https://github.com/xi7ang/GameHub/commit/49d82cf080bcba0c5815418a49215f5187667b2e"
+  },
+  {
     "hash": "3479532",
     "date": "2026-10-23T22:40:56+08:00",
     "message": "sync: 新增资源《疯狂嘉年华中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T17:53:32+08:00",
     "message": "fix: 全量纠正资源分类（模拟器类模拟游戏转单机、MOD类完整游戏归位等 99 条）+ 午夜轮班定为 Shift At Midnight(3722330)",
     "url": "https://github.com/xi7ang/GameHub/commit/1a66f241b3eb6811114147d881d5e233a4fc29a2"
-  },
-  {
-    "hash": "0f84394",
-    "date": "2026-10-22T17:53:07+08:00",
-    "message": "fix: 删除错配封面 1282140.webp（原午夜轮班误用）",
-    "url": "https://github.com/xi7ang/GameHub/commit/0f8439443070c9ea0291ed5c9ba4abbda924257e"
   }
 ]
