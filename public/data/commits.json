@@ -1,5 +1,11 @@
 [
   {
+    "hash": "81b7169",
+    "date": "2026-10-23T22:30:55+08:00",
+    "message": "sync: 新增资源《魔法弹球》",
+    "url": "https://github.com/xi7ang/GameHub/commit/81b716978f9a5290a5301bc33f611bfda3d66672"
+  },
+  {
     "hash": "e2937cc",
     "date": "2026-10-23T22:30:46+08:00",
     "message": "sync: 新增资源《囚禁 Build.17981020 联机版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T14:08:05+08:00",
     "message": "data: 回填 308 条资源 steamAppID，补齐其中 193 条 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/1c211e9cb68a5b9fb61c520b2e55265b296534bd"
-  },
-  {
-    "hash": "e4a560c",
-    "date": "2026-10-22T14:07:40+08:00",
-    "message": "feat: 新增 steam-match 脚本，按标题保守匹配 steamAppID（护栏+报告）",
-    "url": "https://github.com/xi7ang/GameHub/commit/e4a560ce8a1484add7803aecb89fef203e67228f"
   }
 ]
