@@ -17,6 +17,16 @@ if (!fs.existsSync(OLD_DIR)) {
   process.exit(1)
 }
 
+// 分类口径已切换为游戏类型（genre）。本脚本的 guessCategory() 仍是平台口径，
+// 误跑会把 category 写回 pc/mobile/online，属于静默数据损坏，直接拦掉。
+const CATS = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '../public/data/categories.json'), 'utf8'),
+)
+if (!CATS.some((c) => c.key === 'pc')) {
+  console.error('分类已改为 genre 口径，migrate-from-md.js 已停用（防止覆盖数据）。')
+  process.exit(1)
+}
+
 function detectPlatform(url) {
   if (!url) return 'unknown'
   if (url.includes('pan.quark.cn') || url.includes('quark.cn')) return 'quark'
