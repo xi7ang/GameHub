@@ -66447,5 +66447,25 @@
     "addedAt": "2026-10-23T22:30:43+08:00",
     "updatedAt": "2026-10-23T22:30:43+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0064",
+    "title": "魔法弹球",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/4a0f8674e8fb?pwd=pj3B",
+    "pwd": "pj3B",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "steamAppID": null,
+    "desc": "经典弹球玩法融合魔法元素，华丽特效与流畅操作带来全新体验，多种魔法技能策略组合，挑战不同关卡，解锁隐藏彩蛋，复古与创新碰撞，乐趣无穷。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-23T22:30:52+08:00",
+    "updatedAt": "2026-10-23T22:30:52+08:00",
+    "month": "202610"
   }
 ]

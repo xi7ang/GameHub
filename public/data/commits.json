@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e2937cc",
+    "date": "2026-10-23T22:30:46+08:00",
+    "message": "sync: 新增资源《囚禁 Build.17981020 联机版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e2937ccc19f9fd1401882d7a4051f1ef4656ffbd"
+  },
+  {
     "hash": "779f943",
     "date": "2026-10-23T22:26:47+08:00",
     "message": "fix(collection): 必玩合集页加载分类表，主标签不再显示英文 key",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T14:07:40+08:00",
     "message": "feat: 新增 steam-match 脚本，按标题保守匹配 steamAppID（护栏+报告）",
     "url": "https://github.com/xi7ang/GameHub/commit/e4a560ce8a1484add7803aecb89fef203e67228f"
-  },
-  {
-    "hash": "eeae88f",
-    "date": "2026-10-22T12:49:35+08:00",
-    "message": "data: 批量补齐 267 条资源的 Steam 资料（介绍/截图/配置/评价）",
-    "url": "https://github.com/xi7ang/GameHub/commit/eeae88f9a1ce72ab80a563578c11bbc5ca6ba972"
   }
 ]
