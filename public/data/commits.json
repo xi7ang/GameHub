@@ -1,5 +1,11 @@
 [
   {
+    "hash": "faa813c",
+    "date": "2026-10-23T17:18:19+08:00",
+    "message": "feat(home): 移动端「游戏推荐/最新更新/资源分类」加「获取更多」",
+    "url": "https://github.com/xi7ang/GameHub/commit/faa813c6412593f8bc38d9579a1a2968bf9c7cf1"
+  },
+  {
     "hash": "fa0cdcb",
     "date": "2026-10-23T17:11:43+08:00",
     "message": "feat(category): 分类口径改为游戏类型，放弃平台维度",
@@ -172,11 +178,5 @@
     "date": "2026-10-21T14:51:11+08:00",
     "message": "sync: 新增资源《边境检察官：沉浸式边境抉择剧情神作》",
     "url": "https://github.com/xi7ang/GameHub/commit/a73dd18426e8579cbef802b6e6f25538259f1287"
-  },
-  {
-    "hash": "a7537dd",
-    "date": "2026-10-21T14:46:57+08:00",
-    "message": "sync: 新增资源《书雁传奇 v1.0》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a7537dde4a52fe893a665f430d077fa0d6d5df42"
   }
 ]

@@ -11,92 +11,88 @@
       <template v-else-if="r">
         <a href="javascript:history.back()" class="back-link text-low">← 返回</a>
 
-        <div class="detail glass fade-up">
-          <!-- 封面：小尺寸配图（移动端 ≤50vw，PC 端 ≤1/2 宽） -->
-          <div class="detail__cover" :style="coverStyle">
-            <template v-if="r.cover">
-              <!-- 氛围底图（模糊放大） + 完整封面（contain 不裁切） -->
-              <img class="detail__cover-bg" :src="r.cover" alt="" aria-hidden="true" />
-              <img class="detail__cover-img" :src="r.cover" :alt="r.title" />
-            </template>
-            <template v-else>
-              <span class="detail__cover-halo" :style="haloStyle"></span>
-              <span class="detail__cover-emoji">{{ cat?.emoji }}</span>
-              <span class="detail__cover-title">{{ r.title }}</span>
-            </template>
-            <span v-if="r.status === 'inactive'" class="detail__inactive">⚠️ 链接已失效</span>
-          </div>
+        <div class="mv glass fade-up">
+          <!-- 氛围底图 + 遮罩：v站详情页的沉浸式头部 -->
+          <img v-if="r.cover" class="mv__backdrop" :src="r.cover" alt="" aria-hidden="true" />
+          <div class="mv__veil" aria-hidden="true" />
 
-          <!-- 信息区：获取优先 -->
-          <div class="detail__info">
-            <div class="flex gap-sm wrap mb-md">
-              <span class="badge" :style="catBadgeStyle">{{ cat?.emoji }} {{ cat?.name }}</span>
-              <span v-for="t in r.tags" :key="t" class="badge">#{{ t }}</span>
-              <span v-if="r.featured" class="badge" style="color: var(--neon-gold); border-color: rgba(251,191,36,0.4)">🔥 推荐</span>
-            </div>
-
-            <h1 class="detail__title">{{ r.title }}</h1>
-            <p v-if="r.enTitle" class="detail__entitle text-low">{{ r.enTitle }}</p>
-
-            <!-- 收藏 / 已收藏（纯本地 localStorage，无后端） -->
-            <div class="detail__actions">
+          <div class="mv__body">
+            <!-- 海报：3:4 版式；宽幅 Steam 封面用 contain + 自身模糊底，避免裁掉两侧 -->
+            <div class="mv__poster" :style="coverStyle">
+              <template v-if="r.cover">
+                <img class="mv__poster-bg" :src="r.cover" alt="" aria-hidden="true" />
+                <img class="mv__poster-img" :src="r.cover" :alt="r.title" />
+              </template>
+              <template v-else>
+                <span class="detail__cover-halo" :style="haloStyle"></span>
+                <span class="detail__cover-emoji">{{ cat?.emoji }}</span>
+                <span class="detail__cover-title">{{ r.title }}</span>
+              </template>
+              <span v-if="r.status === 'inactive'" class="detail__inactive">⚠️ 链接已失效</span>
               <button
                 type="button"
-                class="fav-btn"
-                :class="{ 'fav-btn--on': favored }"
+                class="mv__fav mv__fav--overlay"
+                :class="{ 'is-on': favored }"
                 :aria-pressed="favored"
+                :aria-label="favored ? '取消收藏' : '收藏这个资源'"
                 @click="onToggleFav"
-              >
-                <span class="fav-btn__star" aria-hidden="true">{{ favored ? '★' : '☆' }}</span>
-                <span>{{ favored ? '已收藏' : '收藏' }}</span>
-              </button>
+              >{{ favored ? '★' : '☆' }}</button>
             </div>
 
-            <!-- 获取卡片：平台 + 提取码 + 一键获取 -->
-            <div class="get-card">
-              <a :href="r.url" target="_blank" rel="noreferrer" class="platform-card" @click="onGet">
-                <div class="platform-card__icon" :style="platformIconStyle">
-                  <img v-if="platform?.iconImg" class="platform-card__icon-img" :src="platform.iconImg" :alt="platform?.label || '网盘'" />
-                  <span v-else>{{ platform?.icon }}</span>
+            <div class="mv__col">
+              <div class="mv__info">
+                <div class="mv__badges flex gap-sm wrap">
+                  <span class="badge" :style="catBadgeStyle">{{ cat?.emoji }} {{ cat?.name }}</span>
+                  <span v-for="t in r.tags" :key="t" class="badge">#{{ t }}</span>
+                  <span v-if="r.featured" class="badge" style="color: var(--neon-gold); border-color: rgba(251,191,36,0.4)">🔥 推荐</span>
                 </div>
-                <div class="platform-card__body">
-                  <div class="platform-card__name">
-                    <span class="hot-label">
-                      <span class="hot-label__text">获取方式</span>
-                      <span class="hot-label__embers" aria-hidden="true">
-                        <i v-for="n in 6" :key="n" :style="{ '--i': n }"></i>
-                      </span>
-                    </span>
-                  </div>
-                  <div v-if="getHints.length" class="get-hints">
-                    <span v-for="h in getHints" :key="h" class="get-hint">{{ h }}</span>
-                  </div>
-                </div>
-              </a>
 
-              <!-- 提取码行：当前隐藏（pwd-row），需要时改回 v-if="r.pwd" -->
-              <div v-if="false && r.pwd" class="pwd-row">
-                <span class="text-low">提取码：</span>
-                <code class="pwd-code">{{ r.pwd }}</code>
-                <button class="btn btn-sm" @click="copyPwd">📋 复制</button>
+                <div class="mv__titlerow">
+                  <h1 class="mv__title">{{ r.title }}</h1>
+                  <button
+                    type="button"
+                    class="mv__fav mv__fav--pc"
+                    :class="{ 'is-on': favored }"
+                    :aria-pressed="favored"
+                    @click="onToggleFav"
+                  >
+                    <span class="mv__fav-ico" aria-hidden="true">{{ favored ? '★' : '☆' }}</span>
+                    <span class="mv__fav-txt">{{ favored ? '已收藏' : '收藏' }}</span>
+                  </button>
+                </div>
+
+                <p v-if="r.enTitle" class="mv__en text-low">{{ r.enTitle }}</p>
+
+                <div class="mv__meta text-low">
+                  <span v-if="r.size">大小：{{ r.size }}</span>
+                  <span>添加：{{ fmtFull(r.addedAt) }}</span>
+                  <span>更新：{{ fmtFull(r.updatedAt) }}</span>
+                </div>
               </div>
 
-              <a :href="r.url" target="_blank" rel="noreferrer" class="btn btn-primary detail__btn" @click="onGet">
-                <span class="btn-sparks" aria-hidden="true">
-                  <svg v-for="n in 6" :key="n" class="btn-spark" :style="{ '--i': n }" width="10" height="10" viewBox="0 0 10 10">
-                    <path d="M5 0 L6 4 L10 5 L6 6 L5 10 L4 6 L0 5 L4 4 Z" fill="currentColor" />
-                  </svg>
-                </span>
-                <span class="detail__btn-label">{{ gotIt ? '✅ 已跳转，没打开点这里' : '🔑 一键免费获取' }}</span>
-              </a>
-            </div>
+              <div class="mv__main">
+                <div class="mv__get">
+                  <div class="mv__get-head">
+                    <span class="mv__get-title">获取资源</span>
+                    <span class="mv__get-sub">{{ r.pwd ? '已自动带上提取码，点开即转存' : '无需提取码 · 直接打开' }}</span>
+                  </div>
+                  <div class="mv__cards">
+                    <a :href="r.url" target="_blank" rel="noreferrer" class="mv-card" @click="onGet">
+                      <div class="mv-card__ico" :style="platformIconStyle">
+                        <img v-if="platform?.iconImg" class="mv-card__logo" :src="platform.iconImg" :alt="platform?.label || '网盘'" />
+                        <span v-else>{{ platform?.icon }}</span>
+                      </div>
+                      <div class="mv-card__mid">
+                        <div class="mv-card__name">{{ platform?.label || '网盘链接' }}</div>
+                        <div v-if="getHints.length" class="mv-card__line">{{ getHints.join(' · ') }}</div>
+                      </div>
+                      <span class="mv-card__go">一键转存 →</span>
+                    </a>
+                  </div>
+                </div>
 
-            <!-- 描述 + 元信息（沉底） -->
-            <p v-if="r.desc" class="detail__desc">{{ r.desc }}</p>
-            <div class="detail__meta text-low">
-              <span v-if="r.size">大小：{{ r.size }}</span>
-              <span>添加：{{ fmtFull(r.addedAt) }}</span>
-              <span>更新：{{ fmtFull(r.updatedAt) }}</span>
+                <p v-if="r.desc" class="mv__desc">{{ r.desc }}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -503,6 +499,166 @@ watch(showQr, async (v) => {
 .resource-page { min-height: 100vh; }
 .back-link { display: inline-block; margin: 26px 0 14px; font-size: 14px; transition: color 0.2s; position: relative; z-index: 1; }
 .back-link:hover { color: var(--neon-cyan); }
+
+
+/* ── 详情页卡片（版式参照 v 站）：虚化氛围底 + 3:4 海报 + 信息列 + 网盘卡 ── */
+.mv {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-lg);
+  z-index: 1;
+}
+.mv__backdrop {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; filter: blur(30px) saturate(1.2);
+  transform: scale(1.25); opacity: 0.35; pointer-events: none;
+}
+.mv__veil {
+  position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, rgba(var(--bg-0-rgb), 0.72), rgba(var(--bg-0-rgb), 0.96));
+}
+.mv__body {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 28px;
+  padding: 26px 28px;
+}
+.mv__poster {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  background: var(--bg-2);
+  display: flex; align-items: center; justify-content: center;
+}
+.mv__poster-bg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; filter: blur(18px) brightness(0.55) saturate(1.2);
+  transform: scale(1.15); pointer-events: none;
+}
+.mv__poster-img {
+  position: relative; z-index: 1;
+  width: 100%; height: 100%;
+  object-fit: contain; box-sizing: border-box; padding: 8px;
+}
+.mv__col { min-width: 0; }
+.mv__info { min-width: 0; }
+.mv__badges { margin-bottom: 16px; }
+.mv__titlerow { margin-bottom: 10px; }
+.mv__title {
+  display: inline;
+  font-family: var(--font-display);
+  font-size: 30px; font-weight: 700; line-height: 1.25;
+  margin: 0;
+}
+.mv__en { font-size: 15px; margin: 6px 0 0; }
+.mv__meta {
+  display: flex; gap: 16px; flex-wrap: wrap;
+  font-size: 12.5px; margin-top: 14px;
+  border-top: 1px solid var(--glass-border); padding-top: 12px;
+}
+.mv__fav {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 15px; border-radius: 100px;
+  border: 1px solid var(--glass-border);
+  background: rgba(var(--accent-rgb), 0.06);
+  color: var(--text-mid);
+  font-size: 13px; font-weight: 700;
+  cursor: pointer; white-space: nowrap;
+  transition: all 0.2s;
+}
+.mv__fav:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+.mv__fav.is-on {
+  border-color: var(--accent-gold); color: var(--accent-gold);
+  background: rgba(var(--accent-rgb), 0.16);
+}
+.mv__fav--pc { margin-left: 12px; vertical-align: middle; }
+.mv__fav--overlay {
+  position: absolute; top: 8px; right: 8px; z-index: 3;
+  display: none; padding: 6px 9px; font-size: 16px; line-height: 1;
+  background: rgba(0, 0, 0, 0.42);
+  border-color: rgba(255, 255, 255, 0.22);
+  color: #fff;
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+}
+.mv__main { margin-top: 18px; }
+.mv__get {
+  background: rgba(127, 127, 127, 0.06);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+.mv__get-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.mv__get-title { font-family: var(--font-display); font-size: 16px; font-weight: 700; }
+.mv__get-sub { font-size: 12.5px; color: var(--text-low); }
+.mv__cards { display: grid; gap: 10px; }
+.mv-card {
+  display: flex; align-items: center; gap: 14px;
+  background: rgba(127, 127, 127, 0.05);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px; padding: 12px 14px;
+  text-decoration: none; color: inherit;
+  transition: all 0.2s;
+}
+.mv-card:hover { border-color: var(--accent-gold); box-shadow: var(--shadow-glow); transform: translateY(-1px); }
+.mv-card__ico {
+  display: grid; place-items: center;
+  width: 44px; height: 44px; border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  font-size: 19px; flex: 0 0 auto; overflow: hidden;
+}
+.mv-card__logo { width: 100%; height: 100%; object-fit: cover; display: block; }
+.mv-card__mid { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.mv-card__name { font-size: 15px; font-weight: 700; }
+.mv-card__line { font-size: 12px; color: var(--text-mid); }
+.mv-card__go {
+  flex: 0 0 auto;
+  background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
+  color: #fff; font-weight: 700; font-size: 13.5px;
+  padding: 9px 16px; border-radius: 100px; white-space: nowrap;
+}
+.mv__desc {
+  color: var(--text-mid); font-size: 14.5px; line-height: 1.85;
+  margin-top: 16px; white-space: pre-wrap;
+}
+@media (max-width: 768px) {
+  .mv__body { grid-template-columns: 220px 1fr; gap: 18px; padding: 18px; }
+  .mv__title { font-size: 24px; }
+}
+@media (max-width: 640px) {
+  .mv { margin-bottom: var(--space-md); }
+  .mv__body { grid-template-columns: 118px minmax(0, 1fr); gap: 12px; padding: 12px 14px; }
+  .mv__poster { grid-column: 1; grid-row: 1; }
+  .mv__col { display: contents; }
+  .mv__info { grid-column: 2; grid-row: 1; min-width: 0; }
+  .mv__main { grid-column: 1 / -1; grid-row: 2; margin-top: 12px; }
+  .mv__badges { margin-bottom: 9px; }
+  .mv__badges .badge { font-size: 10.5px; padding: 2px 7px; }
+  .mv__titlerow { margin-bottom: 6px; }
+  .mv__fav--pc { display: none; }
+  .mv__fav--overlay { display: inline-flex; }
+  .mv__title { font-size: 16px; line-height: 1.28; margin-bottom: 6px; }
+  .mv__en { font-size: 12px; margin-top: 4px; }
+  .mv__meta { font-size: 11px; margin-top: 8px; gap: 10px; padding-top: 8px; }
+  .mv__desc {
+    font-size: 11.5px; line-height: 1.5; margin-top: 9px;
+    display: -webkit-box; -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .mv__get { padding: 10px 11px; }
+  .mv__get-head { gap: 6px; margin-bottom: 8px; }
+  .mv__get-title { font-size: 13px; }
+  .mv__get-sub { font-size: 10.5px; }
+  .mv__cards { gap: 8px; }
+  .mv-card { gap: 9px; padding: 8px 10px; border-radius: 10px; }
+  .mv-card__ico { width: 30px; height: 30px; font-size: 14px; border-radius: 9px; }
+  .mv-card__name { font-size: 12.5px; }
+  .mv-card__line { font-size: 10.5px; }
+  .mv-card__go { font-size: 11px; padding: 6px 11px; }
+}
 
 .detail {
   display: grid;
