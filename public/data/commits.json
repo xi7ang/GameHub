@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a88dd3f",
+    "date": "2026-10-23T22:31:26+08:00",
+    "message": "sync: 新增资源《堕入魔界的拉兹瑞尔》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a88dd3f549c026d520cdfa82126c629a9be9d816"
+  },
+  {
     "hash": "47bee14",
     "date": "2026-10-23T22:31:17+08:00",
     "message": "sync: 新增资源《莎玛尼娅中文版异星生存》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T17:21:39+08:00",
     "message": "perf: 详情页数据拆分（gen-detail 生成单条详情+瘦索引，详情页不再拉全量）",
     "url": "https://github.com/xi7ang/GameHub/commit/71f7aecdcddf3bc6af61b3cd9967b2374393105f"
-  },
-  {
-    "hash": "25cacfd",
-    "date": "2026-10-22T17:14:56+08:00",
-    "message": "fix: 首页精简数据补齐卡片字段（enTitle/tags/updatedAt + Steam 角标摘要）",
-    "url": "https://github.com/xi7ang/GameHub/commit/25cacfd4a894be91fb76b9d7aa4c74e2077808d9"
   }
 ]
