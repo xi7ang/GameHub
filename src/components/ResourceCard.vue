@@ -120,10 +120,12 @@ const isUpdated = computed(() => {
   return u - a > 86400000 && Date.now() - u < 45 * 86400000
 })
 
-// 标签行：第一枚高亮，且必须是分类标签；其后才是其他标签，最多 3 枚
+// 标签行：第一枚高亮，且必须是分类标签；只展示纯中文标签，英文/中英混合（DLC、MOD、MOD菜单等）不展示
 const chips = computed(() => {
   const cat = catLabel(props.r.category)
-  const tags = (props.r.tags || []).filter(Boolean)
+  const tags = (props.r.tags || []).filter(
+    (t) => t && /[\u4e00-\u9fff]/.test(t) && !/[A-Za-z]/.test(t),
+  )
   return [...new Set([cat, ...tags])].slice(0, 3)
 })
 

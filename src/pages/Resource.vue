@@ -43,7 +43,7 @@
               <div class="mv__info">
                 <div class="mv__badges flex gap-sm wrap">
                   <span class="badge" :style="catBadgeStyle">{{ cat?.emoji }} {{ cat?.name }}</span>
-                  <span v-for="t in r.tags" :key="t" class="badge">#{{ t }}</span>
+                  <span v-for="t in visibleTags" :key="t" class="badge">#{{ t }}</span>
                   <span v-if="r.featured" class="badge" style="color: var(--neon-gold); border-color: rgba(251,191,36,0.4)">🔥 推荐</span>
                 </div>
 
@@ -300,6 +300,11 @@ onMounted(async () => {
 })
 
 const cat = computed(() => (r.value ? catMeta(r.value.category) : null))
+
+// 标签只展示纯中文：DLC / MOD / MOD菜单 等含英文字母的不显示（与资源卡片同口径）
+const visibleTags = computed(() =>
+  (r.value?.tags || []).filter((t) => t && /[\u4e00-\u9fff]/.test(t) && !/[A-Za-z]/.test(t)),
+)
 
 // ── Steam 资料（可选）：steam-import.mjs 写入的嵌套字段，没有就整段不渲染 ──
 const steam = computed(() => r.value?.steam || null)

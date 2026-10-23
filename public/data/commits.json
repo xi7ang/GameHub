@@ -1,5 +1,11 @@
 [
   {
+    "hash": "45dbc20",
+    "date": "2026-10-23T22:15:16+08:00",
+    "message": "fix(card): 资源卡片高亮标签固定为分类标签",
+    "url": "https://github.com/xi7ang/GameHub/commit/45dbc20c2c37c7da05b521bcc7fec41d88e1802e"
+  },
+  {
     "hash": "ba014da",
     "date": "2026-10-23T17:24:16+08:00",
     "message": "feat(detail): 详情页卡片改版，版式参照 v 站",
@@ -172,11 +178,5 @@
     "date": "2026-10-21T20:32:02+08:00",
     "message": "chore: 每日公告：发布【2026-10-21】游戏资源更新通知（5 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/fe952372134d4500cee5b277c2bb72c4842c2303"
-  },
-  {
-    "hash": "efbe3eb",
-    "date": "2026-10-21T14:55:07+08:00",
-    "message": "sync: 新增资源《猫咪邮政》",
-    "url": "https://github.com/xi7ang/GameHub/commit/efbe3ebb3fd0ebd1aa73f3d655f73c6d6d0493aa"
   }
 ]
