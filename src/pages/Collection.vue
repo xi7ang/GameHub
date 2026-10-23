@@ -9,7 +9,7 @@
         <div class="col-hero__icon">{{ cur?.emoji || '🏆' }}</div>
         <h1 class="col-hero__title">{{ cur?.name || '必玩合集' }}</h1>
         <p class="col-hero__sub text-low">{{ cur?.desc || '' }}</p>
-        <p class="col-hero__count text-low">共 {{ cur?.items?.length || 0 }} 款 · 每款游戏只进一个榜单，不重复出现</p>
+        <p class="col-hero__count text-low">共 {{ cur?.items?.length || 0 }} 款 · 每款只占一个榜单，翻完不重样</p>
       </div>
     </section>
 
@@ -44,7 +44,7 @@
       </div>
 
       <p class="col-note text-low">
-        入选规则：全站必玩守好评率 ≥95% 且评测数 ≥3 万的口碑线，品类榜为 ≥90% 且评测数 ≥5000；一款游戏只进一个榜单（全站优先，品类榜不重复收录）；同游戏多版本只取其一；上过 Steam 官方「最多游玩」榜的优先靠前，其余按评测数排序。数据随站点每日更新自动重算。
+        怎么选的？看 Steam 玩家的真实评价：全站榜只收好评率 95% 以上、评测超过 3 万条的游戏，品类榜门槛是好评率 90% 以上、评测 5000 条以上；正被全世界玩家热玩的会排得更靠前。同一款游戏只进一个榜单，名单每天自动更新。
       </p>
     </section>
 

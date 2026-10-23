@@ -1,1 +1,84 @@
-{"block":[],"collections":[{"bar":{"rate":95,"reviews":30000},"desc":"全站口碑天花板：Steam 好评率 95% 以上、评测数 3 万以上的游戏，只取最靠前的 20 款","display":0,"emoji":"🏆","genre":null,"id":"all","limit":20,"name":"全站必玩"},{"bar":{"rate":90,"reviews":5000},"desc":"「动作」品类精选：好评率 90% 以上、评测数 5000 以上，且不与任何其他榜单重复","display":1,"emoji":"⚔️","genre":"动作","id":"action","limit":12,"name":"动作必玩"},{"bar":{"rate":90,"reviews":5000},"desc":"「冒险」品类精选：好评率 90% 以上、评测数 5000 以上，且不与任何其他榜单重复","display":2,"emoji":"🗺️","genre":"冒险","id":"adventure","limit":12,"name":"冒险必玩"},{"bar":{"rate":90,"reviews":5000},"desc":"「角色扮演」品类精选：好评率 90% 以上、评测数 5000 以上，且不与任何其他榜单重复","display":3,"emoji":"🐉","genre":"角色扮演","id":"rpg","limit":12,"name":"角色扮演必玩"},{"bar":{"rate":90,"reviews":5000},"desc":"「策略」品类精选：好评率 90% 以上、评测数 5000 以上，且不与任何其他榜单重复","display":4,"emoji":"♟️","genre":"策略","id":"strategy","limit":12,"name":"策略必玩"},{"bar":{"rate":90,"reviews":5000},"desc":"「模拟」品类精选：好评率 90% 以上、评测数 5000 以上，且不与任何其他榜单重复","display":5,"emoji":"🏭","genre":"模拟","id":"simulation","limit":12,"name":"模拟必玩"}],"pin":{}}
+{
+ "block": [],
+ "collections": [
+  {
+   "bar": {
+    "rate": 95,
+    "reviews": 30000
+   },
+   "desc": "从全站一千多款游戏里层层筛出的口碑天花板，每一款都是 Steam 玩家用好评投出来的，闭眼下，不踩雷",
+   "display": 0,
+   "emoji": "🏆",
+   "genre": null,
+   "id": "all",
+   "limit": 20,
+   "name": "全站必玩"
+  },
+  {
+   "bar": {
+    "rate": 90,
+    "reviews": 5000
+   },
+   "desc": "手感和爽快感拉满的动作游戏精选——Steam 上九成以上玩家给了好评，款款过瘾",
+   "display": 1,
+   "emoji": "⚔️",
+   "genre": "动作",
+   "id": "action",
+   "limit": 12,
+   "name": "动作必玩"
+  },
+  {
+   "bar": {
+    "rate": 90,
+    "reviews": 5000
+   },
+   "desc": "值得一头扎进去的世界：剧情、探索、氛围样样顶尖的冒险游戏精选",
+   "display": 2,
+   "emoji": "🗺️",
+   "genre": "冒险",
+   "id": "adventure",
+   "limit": 12,
+   "name": "冒险必玩"
+  },
+  {
+   "bar": {
+    "rate": 90,
+    "reviews": 5000
+   },
+   "desc": "能让你扮演另一个人生几十上百小时的 RPG 精选，每一款都是 Steam 口碑硬货",
+   "display": 3,
+   "emoji": "🐉",
+   "genre": "角色扮演",
+   "id": "rpg",
+   "limit": 12,
+   "name": "角色扮演必玩"
+  },
+  {
+   "bar": {
+    "rate": 90,
+    "reviews": 5000
+   },
+   "desc": "烧脑又上头的策略游戏精选：排兵布阵、经营布局，九成以上玩家好评的才进得来",
+   "display": 4,
+   "emoji": "♟️",
+   "genre": "策略",
+   "id": "strategy",
+   "limit": 12,
+   "name": "策略必玩"
+  },
+  {
+   "bar": {
+    "rate": 90,
+    "reviews": 5000
+   },
+   "desc": "从种田开车到建工厂，最耐玩的模拟游戏精选，玩着玩着天就亮了",
+   "display": 5,
+   "emoji": "🏭",
+   "genre": "模拟",
+   "id": "simulation",
+   "limit": 12,
+   "name": "模拟必玩"
+  }
+ ],
+ "pin": {}
+}
