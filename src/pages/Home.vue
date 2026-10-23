@@ -26,7 +26,7 @@
     <!-- 必玩合集：搜索区下方入口带，数据来自 collections.json（构建期按口碑线生成） -->
     <section v-if="collections.length" class="container section collections-strip">
       <h2 class="section-title">🏆 必玩合集</h2>
-      <div class="col-row">
+      <div class="col-row" :class="{ 'col-row--more': showAllCols }">
         <a
           v-for="c in collections"
           :key="c.id"
@@ -35,7 +35,7 @@
         >
           <div class="col-card__covers">
             <img
-              v-for="(it, i) in c.items.slice(0, 4)"
+              v-for="(it, i) in collageOf(c)"
               :key="i"
               :src="it.cover"
               alt=""
@@ -49,6 +49,9 @@
           <div class="col-card__top text-low">No.1 《{{ cleanTitle(c.items[0]) }}》</div>
         </a>
       </div>
+      <button type="button" class="col-more" @click="showAllCols = !showAllCols">
+        {{ showAllCols ? '收起' : '获取更多' }}
+      </button>
     </section>
 
     <!-- 游戏推荐：每次打开随机从有封面的资源中选 8 个 -->
@@ -192,6 +195,7 @@ const { state, loadHome, catLabel } = useData()
 
 // 必玩合集入口带：数据来自 collections.json（构建期生成），拉不到就整块隐藏
 const collections = ref([])
+const showAllCols = ref(false) // 移动端双列默认只展示 4 个合集，「获取更多」展开全部
 async function loadCollections() {
   try {
     const res = await fetch(`${import.meta.env.BASE_URL}data/collections.json?v=${BUILD_ID || Date.now()}`)
@@ -199,6 +203,10 @@ async function loadCollections() {
     const j = await res.json()
     collections.value = (j.collections || []).filter((c) => c.items?.length)
   } catch { /* 静默隐藏 */ }
+}
+// 合集卡拼图：优先用有封面的入选游戏（个别资源无封面，避免拼图里出现破图）
+function collageOf(c) {
+  return (c?.items || []).filter((it) => it.cover).slice(0, 4)
 }
 // 合集卡 No.1 行的标题清洗（与 ResourceCard 展示标题同规则的核心部分）
 function cleanTitle(r) {
@@ -340,6 +348,25 @@ onMounted(async () => {
 }
 .col-card__count { font-size: 12px; font-weight: 600; opacity: 0.65; }
 .col-card__top { padding: 0 12px 12px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.col-more { display: none; }
+@media (max-width: 640px) {
+  /* 移动端改双列网格：每行两个合集卡，默认只展示前 4 个，点「获取更多」展开全部 */
+  .col-row {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    overflow: visible; scroll-snap-type: none; padding-bottom: 0;
+  }
+  .col-row:not(.col-row--more) .col-card:nth-child(n + 5) { display: none; }
+  .col-card { flex: none; width: auto; border-radius: 13px; }
+  .col-card__meta { padding: 8px 10px 2px; font-size: 13.5px; }
+  .col-card__count { font-size: 11px; }
+  .col-card__top { padding: 0 10px 10px; font-size: 11px; }
+  .col-more {
+    display: block; margin: 12px auto 0; padding: 8px 28px;
+    border-radius: 999px; border: 1px solid var(--border, rgba(127, 127, 127, 0.35));
+    background: var(--surface, rgba(127, 127, 127, 0.06)); color: inherit;
+    font-size: 13.5px; cursor: pointer;
+  }
+}
 
 
 /* Hero */

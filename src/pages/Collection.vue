@@ -96,6 +96,9 @@ onMounted(async () => {
 }
 .col-tab.active { background: var(--accent, #2563eb); color: #fff; border-color: transparent; }
 .rc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+/* 名次行与卡片同列弹性布局：卡片只占名次行之外的高度，与首页卡片等高（.rc 自带 height:100%，需靠 flex 压回） */
+.rank-wrap { min-width: 0; display: flex; flex-direction: column; }
+.rank-wrap .rc { flex: 1; min-height: 0; }
 .rank-line { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; min-height: 24px; }
 .rank-badge {
   padding: 2px 10px; border-radius: 8px;
@@ -109,5 +112,16 @@ onMounted(async () => {
 .col-note { margin: 26px 0 40px; font-size: 13px; line-height: 1.7; }
 .empty { padding: 48px 0; text-align: center; border-radius: 16px; margin-bottom: 40px; }
 @media (max-width: 1024px) { .rc-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 768px) { .rc-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) {
+  .rc-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .col-hero { padding: 30px 0 4px; }
+  .col-hero__icon { font-size: 34px; }
+  .col-hero__title { font-size: 24px; }
+  .col-hero__sub { font-size: 13px; }
+  .col-tabs { gap: 6px; margin: 16px 0 14px; }
+  .col-tab { padding: 5px 11px; font-size: 13px; }
+  .rank-line { gap: 6px; margin-bottom: 6px; min-height: 22px; flex-wrap: nowrap; }
+  .rank-badge { font-size: 12px; padding: 2px 8px; white-space: nowrap; }
+  .mp-badge { font-size: 10px; padding: 2px 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}
 </style>
