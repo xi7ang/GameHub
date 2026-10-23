@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3479532",
+    "date": "2026-10-23T22:40:56+08:00",
+    "message": "sync: 新增资源《疯狂嘉年华中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/34795326bc1bcd3c91b6ee90ed419fbb5ab480b2"
+  },
+  {
     "hash": "5ab7a82",
     "date": "2026-10-23T22:37:21+08:00",
     "message": "sync: 新增资源《圣剑传说3重制版Q萌冒险》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T17:53:07+08:00",
     "message": "fix: 删除错配封面 1282140.webp（原午夜轮班误用）",
     "url": "https://github.com/xi7ang/GameHub/commit/0f8439443070c9ea0291ed5c9ba4abbda924257e"
-  },
-  {
-    "hash": "35ca91b",
-    "date": "2026-10-22T17:51:21+08:00",
-    "message": "fix: 新增午夜轮班（Shift At Midnight）封面 3722330.webp",
-    "url": "https://github.com/xi7ang/GameHub/commit/35ca91bd637879e44cd00c138376145f1ecb78e1"
   }
 ]
