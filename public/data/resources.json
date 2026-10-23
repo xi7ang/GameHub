@@ -1,7 +1,7 @@
 [
   {
     "id": "mobile-202604-0001",
-    "title": "死亡细胞",
+    "title": "死亡细胞|重生细胞",
     "enTitle": "Dead Cells",
     "category": "mobile",
     "tags": [
@@ -322,7 +322,7 @@
   },
   {
     "id": "mobile-202604-0008",
-    "title": "海之号角：柯罗诺斯地下城",
+    "title": "海之号角:柯罗诺斯地下城 (Oceanhorn Chronos Dungeon)",
     "enTitle": "Oceanhorn: Chronos Dungeon",
     "category": "mobile",
     "tags": [],
@@ -598,7 +598,7 @@
   },
   {
     "id": "mobile-202604-0010",
-    "title": "格雷克大冒险：阿祖尔的回忆",
+    "title": "格雷克大冒险 阿祖尔的回忆 V764427(Greak: Memories of Azur)",
     "enTitle": "Greak: Memories of Azur",
     "category": "mobile",
     "tags": [],
@@ -683,7 +683,7 @@
   },
   {
     "id": "mobile-202604-0011",
-    "title": "三国志姜维传",
+    "title": "三国志之姜维传",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -702,7 +702,7 @@
   },
   {
     "id": "mobile-202604-0012",
-    "title": "异域镇魂曲",
+    "title": "异域镇魂曲:加强版",
     "enTitle": "Planescape: Torment: Enhanced Edition",
     "category": "mobile",
     "tags": [
@@ -851,7 +851,7 @@
   },
   {
     "id": "pc-202604-0002",
-    "title": "超级忍 反攻的斩击",
+    "title": "超级忍 反攻的斩击-虚拟机版",
     "enTitle": "SHINOBI: Art of Vengeance",
     "category": "pc",
     "tags": [],
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "pc-202604-0004",
-    "title": "生化危机3重制版",
+    "title": "生化危机3",
     "enTitle": "Resident Evil",
     "category": "pc",
     "tags": [
@@ -1257,7 +1257,7 @@
   },
   {
     "id": "mod-202604-0003",
-    "title": "机械制造者 赛道大师",
+    "title": "机械制造者 (Trailmakers)",
     "enTitle": "Trailmakers",
     "category": "pc",
     "tags": [
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "pc-202604-0007",
-    "title": "古墓丽影三部曲 重制版",
+    "title": "古墓丽影三部曲: |古墓丽影1-3",
     "enTitle": "Tomb Raider I-III Remastered Starring Lara Croft",
     "category": "pc",
     "tags": [],
@@ -1600,7 +1600,7 @@
   },
   {
     "id": "mod-202604-0004",
-    "title": "三国志8重制版",
+    "title": "三国志8",
     "enTitle": "ROMANCE OF THE THREE KINGDOMS 8 REMAKE",
     "category": "pc",
     "tags": [
@@ -1888,7 +1888,7 @@
   },
   {
     "id": "pc-202604-0008",
-    "title": "艾迪芬奇的记忆——官方",
+    "title": "艾迪芬奇的记忆",
     "enTitle": "What Remains of Edith Finch",
     "category": "pc",
     "tags": [
@@ -2313,7 +2313,7 @@
   },
   {
     "id": "emu-202604-0001",
-    "title": "乱剪一通",
+    "title": "乱剪一通:总监模拟器",
     "enTitle": "Choppy Cuts",
     "category": "pc",
     "tags": [
@@ -2388,7 +2388,7 @@
   },
   {
     "id": "mod-202604-0007",
-    "title": "通古斯 禁区实录 终极剪辑版",
+    "title": "通古斯:禁区实录 – 终极剪辑版",
     "enTitle": "Tunguska: The Visitation - Final Cut",
     "category": "pc",
     "tags": [
@@ -2898,7 +2898,7 @@
   },
   {
     "id": "emu-202604-0002",
-    "title": "S 沙龙模拟器 Build.21688097",
+    "title": "沙龙模拟器",
     "enTitle": "Hair Removal Salon Simulator",
     "category": "pc",
     "tags": [
@@ -3193,7 +3193,7 @@
   },
   {
     "id": "mobile-202604-0015",
-    "title": "手游-文明6 免谷歌免加速.apk",
+    "title": "文明6",
     "enTitle": "Sid Meier’s Civilization® VI",
     "category": "mobile",
     "tags": [],
@@ -3316,7 +3316,7 @@
   },
   {
     "id": "online-202604-0007",
-    "title": "银河文明4",
+    "title": "银河文明4:超新星",
     "enTitle": "Galactic Civilizations IV",
     "category": "online",
     "tags": [
@@ -3526,7 +3526,7 @@
   },
   {
     "id": "pc-202604-0021",
-    "title": "生化危机2重制版 游戏",
+    "title": "生化危机2",
     "enTitle": "Resident Evil",
     "category": "pc",
     "tags": [
@@ -3604,7 +3604,7 @@
   },
   {
     "id": "pc-202604-0022",
-    "title": "幽灵诡计 幻影侦探",
+    "title": "幽灵诡计 幻影侦探(Ghost Trick Phantom Detective)",
     "enTitle": "Ghost Trick Phantom Detective",
     "category": "pc",
     "tags": [
@@ -3689,7 +3689,7 @@
   },
   {
     "id": "mobile-202604-0016",
-    "title": "米塔MiSide",
+    "title": "米塔",
     "enTitle": "MiSide",
     "category": "mobile",
     "tags": [
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "mod-202604-0015",
-    "title": "帝国时代4 周年纪念版",
+    "title": "帝国时代4:周年纪念版|帝国时代4",
     "enTitle": "Age of Empires IV: Anniversary Edition",
     "category": "pc",
     "tags": [
@@ -4305,7 +4305,7 @@
   },
   {
     "id": "mod-202604-0016",
-    "title": "神界原罪2",
+    "title": "神界原罪2 +局域网 (Divinity: Original Sin 2)",
     "enTitle": "Divinity: Original Sin 2 - Definitive Edition",
     "category": "pc",
     "tags": [
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "online-202604-0011",
-    "title": "L 绿色地狱 单机+联机 v20251125 xg器",
+    "title": "绿色地狱|丛林地狱",
     "enTitle": "Green Hell",
     "category": "online",
     "tags": [
@@ -4500,7 +4500,7 @@
   },
   {
     "id": "mod-202604-0017",
-    "title": "动物园之星 单独未加密补丁",
+    "title": "动物园之星",
     "enTitle": "Planet Zoo",
     "category": "mod",
     "tags": [
@@ -4601,7 +4601,7 @@
   },
   {
     "id": "mobile-202604-0017",
-    "title": "邪恶冥刻 (1).1",
+    "title": "邪恶冥刻",
     "enTitle": "Inscryption",
     "category": "mobile",
     "tags": [],
@@ -4944,7 +4944,7 @@
   },
   {
     "id": "online-202604-0013",
-    "title": "腐蚀Rust 附单独升级补丁",
+    "title": "腐蚀",
     "enTitle": "Rust",
     "category": "online",
     "tags": [
@@ -5058,7 +5058,7 @@
   },
   {
     "id": "online-202604-0014",
-    "title": "恐gz",
+    "title": "恐鬼症 (Phasmophobia)",
     "enTitle": "Phasmophobia",
     "category": "online",
     "tags": [
@@ -5345,7 +5345,7 @@
   },
   {
     "id": "online-202604-0016",
-    "title": "雨中冒险2 附XG器",
+    "title": "雨中冒险2",
     "enTitle": "Risk of Rain 2",
     "category": "online",
     "tags": [
@@ -5513,7 +5513,7 @@
   },
   {
     "id": "mod-202604-0019",
-    "title": "浅红2 轻松挂彩2",
+    "title": "浅红2|易红2|轻松挂彩2",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -5611,7 +5611,7 @@
   },
   {
     "id": "mod-202604-0020",
-    "title": "真・三国无双 起源 神器",
+    "title": "真・三国无双 起源",
     "enTitle": "DYNASTY WARRIORS: ORIGINS",
     "category": "pc",
     "tags": [
@@ -5979,7 +5979,7 @@
   },
   {
     "id": "mod-202604-0022",
-    "title": "赛博朋克2077 语音包 XG器 赠原声BGM 赠原画集",
+    "title": "赛博朋克2077",
     "enTitle": "Cyberpunk 2077",
     "category": "mod",
     "tags": [
@@ -6324,7 +6324,7 @@
   },
   {
     "id": "mod-202604-0023",
-    "title": "忍者龙剑传4 附XG器 修复版 Video游戏运行必备组件 单板补丁 修复闪退",
+    "title": "忍者龙剑传4",
     "enTitle": "VP9",
     "category": "mod",
     "tags": [
@@ -6546,7 +6546,7 @@
   },
   {
     "id": "mobile-202604-0019",
-    "title": "泰拉瑞亚安卓原版",
+    "title": "泰拉瑞亚",
     "enTitle": "Terraria",
     "category": "mobile",
     "tags": [
@@ -6720,7 +6720,7 @@
   },
   {
     "id": "online-202604-0021",
-    "title": "无人SK 赠音乐原声 赠满金币.水荫.纳米星团初始存档",
+    "title": "无人 v20250106(There Exists Nobody)",
     "enTitle": "There Exists Nobody",
     "category": "online",
     "tags": [
@@ -6804,7 +6804,7 @@
   },
   {
     "id": "online-202604-0022",
-    "title": "逃离密室 逃离后室",
+    "title": "逃离后室|逃离密室",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -6864,7 +6864,7 @@
   },
   {
     "id": "online-202604-0023",
-    "title": "十字军之王3 东方王朝 王国风云3",
+    "title": "王国风云3|十字军之王3:东方王朝",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -6887,7 +6887,7 @@
   },
   {
     "id": "mod-202604-0024",
-    "title": "博德之门3 神器 单独升级补丁",
+    "title": "博德之门3",
     "enTitle": "Baldur's Gate 3",
     "category": "mod",
     "tags": [
@@ -6983,7 +6983,7 @@
   },
   {
     "id": "pc-202604-0033",
-    "title": "真人快打11Mortal 更新 .34终极版",
+    "title": "真人快打1",
     "enTitle": "Kombat",
     "category": "pc",
     "tags": [],
@@ -7235,7 +7235,7 @@
   },
   {
     "id": "online-202604-0025",
-    "title": "帝国时代2 决定版",
+    "title": "帝国时代2",
     "enTitle": "Age of Empires II: Definitive Edition",
     "category": "online",
     "tags": [
@@ -7322,7 +7322,7 @@
   },
   {
     "id": "mod-202604-0026",
-    "title": "铁锤守卫英雄传",
+    "title": "铁锤守卫英雄传1 (Heroes of Hammerwatch)",
     "enTitle": "Heroes of Hammerwatch",
     "category": "pc",
     "tags": [
@@ -7396,7 +7396,7 @@
   },
   {
     "id": "mobile-202604-0022",
-    "title": "王国两位君主：奥林匹斯的召唤 (1).4",
+    "title": "王国:两位君主",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -7573,7 +7573,7 @@
   },
   {
     "id": "mod-202604-0028",
-    "title": "数码宝贝物语 时空异客 豪华",
+    "title": "数码宝贝物语 时空异客",
     "enTitle": "Digimon Story Time Stranger",
     "category": "pc",
     "tags": [
@@ -7843,7 +7843,7 @@
   },
   {
     "id": "pc-202604-0036",
-    "title": "哈迪斯2",
+    "title": "哈迪斯2 |黑帝斯2",
     "enTitle": "Hades II",
     "category": "pc",
     "tags": [],
@@ -7915,7 +7915,7 @@
   },
   {
     "id": "mod-202604-0029",
-    "title": "巫师3 狂猎 打包XG器",
+    "title": "巫师3:狂猎 —",
     "enTitle": "The Witcher 3: Wild Hunt — Remastered",
     "category": "mod",
     "tags": [
@@ -8169,7 +8169,7 @@
   },
   {
     "id": "mod-202604-0030",
-    "title": "泰坦陨落2",
+    "title": "泰坦陨落2 + +大师难度通关存档+修改器(Titanfall 2)",
     "enTitle": "Titanfall® 2",
     "category": "pc",
     "tags": [
@@ -8248,7 +8248,7 @@
   },
   {
     "id": "pc-202604-0037",
-    "title": "八方旅人2",
+    "title": "歧路旅人2|八方旅人2",
     "enTitle": "OCTOPATH TRAVELER II",
     "category": "pc",
     "tags": [],
@@ -8464,7 +8464,7 @@
   },
   {
     "id": "pc-202604-0038",
-    "title": "0017-寂静岭2",
+    "title": "寂静岭2",
     "enTitle": "SILENT HILL 2",
     "category": "pc",
     "tags": [],
@@ -8632,7 +8632,7 @@
   },
   {
     "id": "mod-202604-0031",
-    "title": "双点医院 -国语配音",
+    "title": "双点医院 v20250216 (Two Point Hospital)",
     "enTitle": "Two Point Hospital",
     "category": "pc",
     "tags": [
@@ -8720,7 +8720,7 @@
   },
   {
     "id": "pc-202604-0040",
-    "title": ".仁王2",
+    "title": "仁王2 (Nioh 2 – The Complete Edition)",
     "enTitle": "Nioh 2 – The Complete Edition",
     "category": "pc",
     "tags": [],
@@ -8803,7 +8803,7 @@
   },
   {
     "id": "pc-202604-0041",
-    "title": "古墓丽影11 暗影",
+    "title": "古墓丽影11 暗影 (Shadow of the Tomb Raider)",
     "enTitle": "Shadow of the Tomb Raider: Definitive Edition",
     "category": "pc",
     "tags": [],
@@ -8882,7 +8882,7 @@
   },
   {
     "id": "mod-202604-0032",
-    "title": "浪人崛起 预购特典 依贺套件 单独升级补丁 神器",
+    "title": "浪人崛起",
     "enTitle": "Rise of the Ronin",
     "category": "mod",
     "tags": [
@@ -8975,7 +8975,7 @@
   },
   {
     "id": "mod-202604-0033",
-    "title": "深海迷航 水下之旅 深海迷航 美丽水世界v82304中文全DLC",
+    "title": "深海迷航",
     "enTitle": "Subnautica",
     "category": "pc",
     "tags": [
@@ -9060,7 +9060,7 @@
   },
   {
     "id": "pc-202604-0042",
-    "title": "深海迷航 解锁",
+    "title": "深海迷航",
     "enTitle": "Subnautica",
     "category": "pc",
     "tags": [
@@ -9342,7 +9342,7 @@
   },
   {
     "id": "mod-202604-0034",
-    "title": "方舟 生存进化 终极重制版",
+    "title": "方舟:生存进化 终极生存者版",
     "enTitle": "ARK: Survival Evolved",
     "category": "pc",
     "tags": [
@@ -9433,7 +9433,7 @@
   },
   {
     "id": "online-202604-0029",
-    "title": "禁闭求生2 神器",
+    "title": "禁闭求生2",
     "enTitle": "Grounded 2",
     "category": "online",
     "tags": [
@@ -9528,7 +9528,7 @@
   },
   {
     "id": "online-202604-0030",
-    "title": "消逝的光芒2人与仁之战 重装上阵",
+    "title": "消逝的光芒2:人与仁之战 重装上阵版",
     "enTitle": "Dying Light 2 Stay Human: Reloaded Edition",
     "category": "online",
     "tags": [
@@ -9698,7 +9698,7 @@
   },
   {
     "id": "pc-202604-0045",
-    "title": "看门狗2／Watch Dogs 2",
+    "title": "看门狗2",
     "enTitle": "elamigos GB",
     "category": "pc",
     "tags": [
@@ -9841,7 +9841,7 @@
   },
   {
     "id": "mod-202604-0036",
-    "title": "无主之地3",
+    "title": "无主之地3 (Borderlands 3)",
     "enTitle": "Borderlands 3",
     "category": "pc",
     "tags": [
@@ -10257,7 +10257,7 @@
   },
   {
     "id": "pc-202604-0050",
-    "title": "刺客信条系列",
+    "title": "《刺客信条系列1-15部》作品合集 |解压即撸|",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -10297,7 +10297,7 @@
   },
   {
     "id": "pc-202604-0052",
-    "title": "真・三国无双 起源 带XG器",
+    "title": "真・三国无双 起源",
     "enTitle": "DYNASTY WARRIORS: ORIGINS",
     "category": "pc",
     "tags": [
@@ -10382,7 +10382,7 @@
   },
   {
     "id": "mod-202604-0039",
-    "title": "赛博朋克2077 终极 附单独升级补丁 单独国语配音包 打包XG器",
+    "title": "赛博朋克2077",
     "enTitle": "Cyberpunk 2077",
     "category": "mod",
     "tags": [
@@ -10479,7 +10479,7 @@
   },
   {
     "id": "online-202604-0031",
-    "title": "英灵神殿 XG器",
+    "title": "英灵神殿",
     "enTitle": "Valheim",
     "category": "online",
     "tags": [
@@ -10662,7 +10662,7 @@
   },
   {
     "id": "pc-202604-0053",
-    "title": "全民高尔夫 环球之旅 新游",
+    "title": "全民高尔夫 环球之旅",
     "enTitle": "EVERYBODY'S GOLF HOT SHOTS",
     "category": "pc",
     "tags": [
@@ -10740,7 +10740,7 @@
   },
   {
     "id": "mod-202604-0041",
-    "title": "塞尔达传说 旷野之息 解锁极限帧率",
+    "title": "塞尔达传说 旷野之息",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -11089,7 +11089,7 @@
   },
   {
     "id": "mobile-202604-0029",
-    "title": "海之号角：柯罗诺斯地下城(2)",
+    "title": "海之号角:柯罗诺斯地下城 (Oceanhorn Chronos Dungeon)",
     "enTitle": "Oceanhorn: Chronos Dungeon",
     "category": "mobile",
     "tags": [],
@@ -11240,7 +11240,7 @@
   },
   {
     "id": "mobile-202604-0034",
-    "title": "命运重生游戏 (FATE Reawakened)",
+    "title": "黑暗史诗:苏醒|命运:重生",
     "enTitle": "FATE: Reawakened",
     "category": "mobile",
     "tags": [
@@ -11315,7 +11315,7 @@
   },
   {
     "id": "mobile-202604-0035",
-    "title": "命运重生游戏 (FATE Reawakened)(2)",
+    "title": "黑暗史诗:苏醒|命运:重生",
     "enTitle": "FATE: Reawakened",
     "category": "mobile",
     "tags": [
@@ -11456,7 +11456,7 @@
   },
   {
     "id": "mobile-202604-0039",
-    "title": "命运重生游戏 (FATE Reawakened)(3)",
+    "title": "黑暗史诗:苏醒|命运:重生",
     "enTitle": "FATE: Reawakened",
     "category": "mobile",
     "tags": [
@@ -11531,7 +11531,7 @@
   },
   {
     "id": "mobile-202604-0040",
-    "title": "命运重生游戏 (FATE Reawakened)(4)",
+    "title": "黑暗史诗:苏醒|命运:重生",
     "enTitle": "FATE: Reawakened",
     "category": "mobile",
     "tags": [
@@ -11606,7 +11606,7 @@
   },
   {
     "id": "mobile-202604-0041",
-    "title": "命运重生游戏 (FATE Reawakened)(5)",
+    "title": "黑暗史诗:苏醒|命运:重生",
     "enTitle": "FATE: Reawakened",
     "category": "mobile",
     "tags": [
@@ -11704,7 +11704,7 @@
   },
   {
     "id": "mobile-202604-0042",
-    "title": "手游-波斯王子失落的王冠 a菜单版.apk",
+    "title": "波斯王子 失落的王冠",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -11723,7 +11723,7 @@
   },
   {
     "id": "mobile-202604-0043",
-    "title": "海之号角：柯罗诺斯地下城(3)",
+    "title": "海之号角:柯罗诺斯地下城 (Oceanhorn Chronos Dungeon)",
     "enTitle": "Oceanhorn: Chronos Dungeon",
     "category": "mobile",
     "tags": [],
@@ -11817,7 +11817,7 @@
   },
   {
     "id": "mobile-202604-0045",
-    "title": "当铺人生2(2)",
+    "title": "当铺人生2",
     "enTitle": "Dealer's Life 2",
     "category": "mobile",
     "tags": [
@@ -12000,7 +12000,7 @@
   },
   {
     "id": "mobile-202604-0048",
-    "title": "侠盗猎车手罪恶都市",
+    "title": "侠盗猎车手:罪恶都市 Theft Auto: Vice City)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -12041,7 +12041,7 @@
   },
   {
     "id": "mobile-202604-0050",
-    "title": "生化危机4 国语配音版",
+    "title": "生化危机4",
     "enTitle": "Resident Evil 4",
     "category": "mobile",
     "tags": [],
@@ -12313,7 +12313,7 @@
   },
   {
     "id": "mobile-202604-0054",
-    "title": "永不孤单",
+    "title": "永不孤单 (Never Alone)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -12651,7 +12651,7 @@
   },
   {
     "id": "mobile-202604-0063",
-    "title": "最终幻想5",
+    "title": "最终幻想15",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -12689,7 +12689,7 @@
   },
   {
     "id": "mobile-202604-0065",
-    "title": "战巡大作战经济版Battlecruisers",
+    "title": "战巡大作战",
     "enTitle": "Battlecruisers",
     "category": "mobile",
     "tags": [],
@@ -12752,7 +12752,7 @@
   },
   {
     "id": "mobile-202604-0066",
-    "title": "子午线157第一章Meridian 157Chapter 1",
+    "title": "子午线157 第1章",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -12828,7 +12828,7 @@
   },
   {
     "id": "mobile-202604-0070",
-    "title": "足球经理2024",
+    "title": "足球经理2024-虚拟机版",
     "enTitle": "Football Manager 2024",
     "category": "mobile",
     "tags": [],
@@ -12894,7 +12894,7 @@
   },
   {
     "id": "mobile-202604-0071",
-    "title": "战魂铭人Otherworld Legends",
+    "title": "战魂铭人",
     "enTitle": "Otherworld Legends",
     "category": "mobile",
     "tags": [],
@@ -12974,7 +12974,7 @@
   },
   {
     "id": "mobile-202604-0072",
-    "title": "足球经理2024(2)",
+    "title": "足球经理2024-虚拟机版",
     "enTitle": "Football Manager 2024",
     "category": "mobile",
     "tags": [],
@@ -13040,7 +13040,7 @@
   },
   {
     "id": "mobile-202604-0073",
-    "title": "遵命，陛下 _b912",
+    "title": "遵命,陛下",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -13335,7 +13335,7 @@
   },
   {
     "id": "mobile-202604-0079",
-    "title": "葬花·暗黑桃花源(2)",
+    "title": "葬花·暗黑桃花源",
     "enTitle": "Lay a Beauty to Rest: The Darkness Peach Blossom Spring",
     "category": "mobile",
     "tags": [],
@@ -13415,7 +13415,7 @@
   },
   {
     "id": "mobile-202604-0080",
-    "title": "重返猴岛",
+    "title": "重返猴岛 v570741(Return to Monkey Island)",
     "enTitle": "Return to Monkey Island",
     "category": "mobile",
     "tags": [],
@@ -13564,7 +13564,7 @@
   },
   {
     "id": "mobile-202604-0082",
-    "title": "勇者斗恶龙创世小玩家",
+    "title": "勇者斗恶龙 创世小玩家 阿雷夫加尔德复兴记 (DRAGON QUEST BUILDERS)",
     "enTitle": "DRAGON QUEST BUILDERS",
     "category": "mobile",
     "tags": [],
@@ -13716,7 +13716,7 @@
   },
   {
     "id": "mobile-202604-0084",
-    "title": "悠闲小镇物语",
+    "title": "小生活-悠闲小镇物语",
     "enTitle": "Little Life: Island Tales",
     "category": "mobile",
     "tags": [],
@@ -13792,7 +13792,7 @@
   },
   {
     "id": "mobile-202604-0085",
-    "title": "炸弹鸡BombChickenV36",
+    "title": "炸弹鸡 v2958985(Bomb Chicken)",
     "enTitle": "Bomb Chicken",
     "category": "mobile",
     "tags": [],
@@ -13881,7 +13881,7 @@
   },
   {
     "id": "mobile-202604-0087",
-    "title": "英雄围攻袖珍版Hero Siege",
+    "title": "英雄围城|攻城英雄",
     "enTitle": "Hero Siege",
     "category": "mobile",
     "tags": [],
@@ -13961,7 +13961,7 @@
   },
   {
     "id": "mobile-202604-0088",
-    "title": "英雄围城袖珍版",
+    "title": "英雄围城|攻城英雄",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -13980,7 +13980,7 @@
   },
   {
     "id": "mobile-202604-0089",
-    "title": "用心组装",
+    "title": "用心组装 (Assemble with Care)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -14056,7 +14056,7 @@
   },
   {
     "id": "mobile-202604-0093",
-    "title": "英雄围攻袖珍版Hero Siege(2)",
+    "title": "英雄围城|攻城英雄",
     "enTitle": "Hero Siege",
     "category": "mobile",
     "tags": [],
@@ -14136,7 +14136,7 @@
   },
   {
     "id": "mobile-202604-0094",
-    "title": "远星物语",
+    "title": "远星物语|交叉准则",
     "enTitle": "CrossCode",
     "category": "mobile",
     "tags": [
@@ -14294,7 +14294,7 @@
   },
   {
     "id": "mobile-202604-0096",
-    "title": "游戏开发巨头Game Dev Tycoon",
+    "title": "游戏开发巨头|游戏发展国",
     "enTitle": "Game Dev Tycoon",
     "category": "mobile",
     "tags": [],
@@ -14368,7 +14368,7 @@
   },
   {
     "id": "mobile-202604-0097",
-    "title": "游戏开发巨头Game Dev Tycoon(2)",
+    "title": "游戏开发巨头|游戏发展国",
     "enTitle": "Game Dev Tycoon",
     "category": "mobile",
     "tags": [],
@@ -14442,7 +14442,7 @@
   },
   {
     "id": "mobile-202604-0098",
-    "title": "异形工厂",
+    "title": "异形工厂2",
     "enTitle": "shapez - Puzzle DLC",
     "category": "mobile",
     "tags": [],
@@ -14505,7 +14505,7 @@
   },
   {
     "id": "mobile-202604-0099",
-    "title": "游戏开发大亨",
+    "title": "游戏开发大亨 (Game Builder Tycoon)",
     "enTitle": "Game Dev Masters",
     "category": "mobile",
     "tags": [],
@@ -14588,7 +14588,7 @@
   },
   {
     "id": "mobile-202604-0100",
-    "title": "异星迷航 Ω",
+    "title": "就在那里:欧米茄版",
     "enTitle": "Out There: Ω Edition",
     "category": "mobile",
     "tags": [],
@@ -14669,7 +14669,7 @@
   },
   {
     "id": "mobile-202604-0101",
-    "title": "在我们之间",
+    "title": "在我们之中",
     "enTitle": "Among Us",
     "category": "mobile",
     "tags": [],
@@ -14919,7 +14919,7 @@
   },
   {
     "id": "mobile-202604-0106",
-    "title": "子午线157第一章Meridian 157Chapter 1(2)",
+    "title": "子午线157 第1章",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -14938,7 +14938,7 @@
   },
   {
     "id": "mobile-202604-0107",
-    "title": "遵命，陛下 _b204",
+    "title": "遵命,陛下",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -14957,7 +14957,7 @@
   },
   {
     "id": "mobile-202604-0108",
-    "title": "遵命，陛下 _b207",
+    "title": "遵命,陛下",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -14976,7 +14976,7 @@
   },
   {
     "id": "mobile-202604-0109",
-    "title": "殖民火星",
+    "title": "殖民火星|改造火星 (Terraforming Mars)",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -15016,7 +15016,7 @@
   },
   {
     "id": "mobile-202604-0111",
-    "title": "纸间谜迹PaperTrail v3430",
+    "title": "纸间谜迹",
     "enTitle": "Paper Trail",
     "category": "mobile",
     "tags": [],
@@ -15127,7 +15127,7 @@
   },
   {
     "id": "mobile-202604-0114",
-    "title": "这就是警察",
+    "title": "这是警察 (This Is the Police)",
     "enTitle": "This Is the Police",
     "category": "mobile",
     "tags": [],
@@ -15402,7 +15402,7 @@
   },
   {
     "id": "mobile-202604-0118",
-    "title": "勇敢的哈克 黑白弈梦",
+    "title": "勇敢的哈克",
     "enTitle": "HAAK",
     "category": "mobile",
     "tags": [
@@ -15591,7 +15591,7 @@
   },
   {
     "id": "mobile-202604-0121",
-    "title": "雅皮士精神 b33",
+    "title": "雅皮士精神",
     "enTitle": "Yuppie Psycho: Executive Edition",
     "category": "mobile",
     "tags": [],
@@ -15703,7 +15703,7 @@
   },
   {
     "id": "mobile-202604-0124",
-    "title": "幽林怪谈",
+    "title": "幽林怪谈 (Bladed Fury)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -15722,7 +15722,7 @@
   },
   {
     "id": "mobile-202604-0125",
-    "title": "雅皮士精神 b34",
+    "title": "雅皮士精神",
     "enTitle": "Yuppie Psycho: Executive Edition",
     "category": "mobile",
     "tags": [],
@@ -15817,7 +15817,7 @@
   },
   {
     "id": "mobile-202604-0127",
-    "title": "远古众神Ancient Gods",
+    "title": "远古众神 上古诸神",
     "enTitle": "Ancient Gods",
     "category": "mobile",
     "tags": [],
@@ -15903,7 +15903,7 @@
   },
   {
     "id": "mobile-202604-0129",
-    "title": "银河历险记2",
+    "title": "银河历险记2 (Samorost 2)",
     "enTitle": "Samorost 2",
     "category": "mobile",
     "tags": [],
@@ -15972,7 +15972,7 @@
   },
   {
     "id": "mobile-202604-0130",
-    "title": "亚拉菲尔Ara Fell",
+    "title": "亚拉菲尔",
     "enTitle": "Ara Fell: Enhanced Edition",
     "category": "mobile",
     "tags": [
@@ -16063,7 +16063,7 @@
   },
   {
     "id": "mobile-202604-0132",
-    "title": "油管主播的生活",
+    "title": "主播模拟器1",
     "enTitle": "Youtubers Life",
     "category": "mobile",
     "tags": [],
@@ -16144,7 +16144,7 @@
   },
   {
     "id": "mobile-202604-0133",
-    "title": "远古众神",
+    "title": "远古众神 上古诸神",
     "enTitle": "Ancient Gods",
     "category": "mobile",
     "tags": [],
@@ -16249,7 +16249,7 @@
   },
   {
     "id": "mobile-202604-0136",
-    "title": "远古众神(2)",
+    "title": "远古众神 上古诸神",
     "enTitle": "Ancient Gods",
     "category": "mobile",
     "tags": [],
@@ -16335,7 +16335,7 @@
   },
   {
     "id": "mobile-202604-0138",
-    "title": "小小梦魇v108",
+    "title": "小小梦魇1",
     "enTitle": "Little Nightmares",
     "category": "mobile",
     "tags": [],
@@ -16419,7 +16419,7 @@
   },
   {
     "id": "mobile-202604-0139",
-    "title": "小小梦魇v113",
+    "title": "小小梦魇1",
     "enTitle": "Little Nightmares",
     "category": "mobile",
     "tags": [],
@@ -16503,7 +16503,7 @@
   },
   {
     "id": "mobile-202604-0140",
-    "title": "幸运房东",
+    "title": "幸运房东 (Luck be a Landlord)",
     "enTitle": "Luck be a Landlord",
     "category": "mobile",
     "tags": [],
@@ -16568,7 +16568,7 @@
   },
   {
     "id": "mobile-202604-0141",
-    "title": "吸血鬼幸存者(2)",
+    "title": "吸血鬼幸存者",
     "enTitle": "Vampire Survivors",
     "category": "mobile",
     "tags": [
@@ -16643,7 +16643,7 @@
   },
   {
     "id": "mobile-202604-0142",
-    "title": "吸血鬼幸存者(3)",
+    "title": "吸血鬼幸存者",
     "enTitle": "Vampire Survivors",
     "category": "mobile",
     "tags": [
@@ -16756,7 +16756,7 @@
   },
   {
     "id": "mobile-202604-0145",
-    "title": "像素哥3McPixel 3",
+    "title": "像素哥3",
     "enTitle": "McPixel 3",
     "category": "mobile",
     "tags": [],
@@ -16832,7 +16832,7 @@
   },
   {
     "id": "mobile-202604-0146",
-    "title": "疑案追声(Unheard)",
+    "title": "疑案追声",
     "enTitle": "Unheard - Voices of Crime",
     "category": "mobile",
     "tags": [
@@ -16986,7 +16986,7 @@
   },
   {
     "id": "mobile-202604-0148",
-    "title": "陷阵之志(2)",
+    "title": "陷阵之志",
     "enTitle": "Into the Breach",
     "category": "mobile",
     "tags": [],
@@ -17057,7 +17057,7 @@
   },
   {
     "id": "mobile-202604-0149",
-    "title": "幸运市长",
+    "title": "幸运市长 (Lucky Mayor)",
     "enTitle": "Lucky Mayor",
     "category": "mobile",
     "tags": [],
@@ -17206,7 +17206,7 @@
   },
   {
     "id": "mobile-202604-0151",
-    "title": "杏林物语",
+    "title": "杏林物语 (Potion Permit)",
     "enTitle": "Potion Permit",
     "category": "mobile",
     "tags": [],
@@ -17414,7 +17414,7 @@
   },
   {
     "id": "mobile-202604-0155",
-    "title": "异形工厂Shapez(2)",
+    "title": "异形工厂 (Shapez)",
     "enTitle": "shapez",
     "category": "mobile",
     "tags": [],
@@ -17820,7 +17820,7 @@
   },
   {
     "id": "mobile-202604-0164",
-    "title": "小丑牌BalAtro K",
+    "title": "小丑牌",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -17858,7 +17858,7 @@
   },
   {
     "id": "mobile-202604-0166",
-    "title": "往事When Past Was Around",
+    "title": "往事 (When the Past Was Around)",
     "enTitle": "When The Past Was Around",
     "category": "mobile",
     "tags": [],
@@ -18020,7 +18020,7 @@
   },
   {
     "id": "mobile-202604-0168",
-    "title": "武士 零Katana ZERO",
+    "title": "武士 零",
     "enTitle": "Katana ZERO",
     "category": "mobile",
     "tags": [],
@@ -18104,7 +18104,7 @@
   },
   {
     "id": "mobile-202604-0169",
-    "title": "武士零Katana ZERO",
+    "title": "武士 零",
     "enTitle": "Katana ZERO",
     "category": "mobile",
     "tags": [],
@@ -18188,7 +18188,7 @@
   },
   {
     "id": "mobile-202604-0170",
-    "title": "武士零Katana ZERO(2)",
+    "title": "武士 零",
     "enTitle": "Katana ZERO",
     "category": "mobile",
     "tags": [],
@@ -18310,7 +18310,7 @@
   },
   {
     "id": "mobile-202604-0173",
-    "title": "亡灵巫师",
+    "title": "亡灵巫师1|亡灵法师1 (Necrosmith)",
     "enTitle": "Necrosmith",
     "category": "mobile",
     "tags": [],
@@ -18407,7 +18407,7 @@
   },
   {
     "id": "mobile-202604-0175",
-    "title": "玩具熊的五夜后宫：姐妹地点Sister Location",
+    "title": "玩具熊的五夜后宫:姐妹地点",
     "enTitle": "Five Nights at Freddy's: Sister Location",
     "category": "mobile",
     "tags": [],
@@ -18480,7 +18480,7 @@
   },
   {
     "id": "mobile-202604-0176",
-    "title": "王国：两位君主Kingdom Two Crowns",
+    "title": "王国:两位君主",
     "enTitle": "Kingdom Two Crowns",
     "category": "mobile",
     "tags": [
@@ -18563,7 +18563,7 @@
   },
   {
     "id": "mobile-202604-0177",
-    "title": "维京传奇英灵神殿",
+    "title": "英灵神殿",
     "enTitle": "Valheim",
     "category": "mobile",
     "tags": [],
@@ -18658,7 +18658,7 @@
   },
   {
     "id": "mobile-202604-0178",
-    "title": "杏林物语(2)",
+    "title": "杏林物语 (Potion Permit)",
     "enTitle": "Potion Permit",
     "category": "mobile",
     "tags": [],
@@ -18847,7 +18847,7 @@
   },
   {
     "id": "mobile-202604-0181",
-    "title": "星际幸存者",
+    "title": "星际幸存者 (Star Survivor)",
     "enTitle": "Star Survivor",
     "category": "mobile",
     "tags": [],
@@ -18920,7 +18920,7 @@
   },
   {
     "id": "mobile-202604-0182",
-    "title": "循环勇者Loop Hero",
+    "title": "循环勇士",
     "enTitle": "Loop Hero",
     "category": "mobile",
     "tags": [],
@@ -19148,7 +19148,7 @@
   },
   {
     "id": "mobile-202604-0185",
-    "title": "虚空之境Undergrave",
+    "title": "墓穴之下",
     "enTitle": "Undergrave",
     "category": "mobile",
     "tags": [],
@@ -19229,7 +19229,7 @@
   },
   {
     "id": "mobile-202604-0186",
-    "title": "小丑牌BalAtro n",
+    "title": "小丑牌",
     "enTitle": "Balatro",
     "category": "mobile",
     "tags": [
@@ -19308,7 +19308,7 @@
   },
   {
     "id": "mobile-202604-0187",
-    "title": "循环勇者Loop Hero(2)",
+    "title": "循环勇士",
     "enTitle": "Loop Hero",
     "category": "mobile",
     "tags": [],
@@ -19386,7 +19386,7 @@
   },
   {
     "id": "mobile-202604-0188",
-    "title": "雪居之地Wildfrost(2)",
+    "title": "雪居之地 (Wildfrost)",
     "enTitle": "Wildfrost",
     "category": "mobile",
     "tags": [],
@@ -19460,7 +19460,7 @@
   },
   {
     "id": "mobile-202604-0189",
-    "title": "雪居之地Wildfrost(3)",
+    "title": "雪居之地 (Wildfrost)",
     "enTitle": "Wildfrost",
     "category": "mobile",
     "tags": [],
@@ -19534,7 +19534,7 @@
   },
   {
     "id": "mobile-202604-0190",
-    "title": "侠盗猎车手3重制版",
+    "title": "侠盗猎车手3 Theft Auto III)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -19572,7 +19572,7 @@
   },
   {
     "id": "mobile-202604-0192",
-    "title": "小丑牌多模组",
+    "title": "小丑牌",
     "enTitle": "Balatro",
     "category": "mobile",
     "tags": [],
@@ -19649,7 +19649,7 @@
   },
   {
     "id": "mobile-202604-0193",
-    "title": "小丑牌BalAtro l",
+    "title": "小丑牌",
     "enTitle": "Balatro",
     "category": "mobile",
     "tags": [],
@@ -19790,7 +19790,7 @@
   },
   {
     "id": "mobile-202604-0195",
-    "title": "巡警Beat Cop(2)",
+    "title": "巡警 (Beat Cop)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -19952,7 +19952,7 @@
   },
   {
     "id": "mobile-202604-0198",
-    "title": "王国保卫战起源",
+    "title": "王国保卫战",
     "enTitle": "Kingdom Rush Origins - Tower Defense",
     "category": "mobile",
     "tags": [],
@@ -20122,7 +20122,7 @@
   },
   {
     "id": "mobile-202604-0201",
-    "title": "逃税的萝卜男孩",
+    "title": "大头菜小子偷税记 .3f1(Turnip Boy Commits Tax Evasion)",
     "enTitle": "Turnip Boy Commits Tax Evasion",
     "category": "mobile",
     "tags": [],
@@ -20380,7 +20380,7 @@
   },
   {
     "id": "mobile-202604-0206",
-    "title": "逃脱者The Escapists",
+    "title": "逃脱者",
     "enTitle": "The Escapists",
     "category": "mobile",
     "tags": [
@@ -20460,7 +20460,7 @@
   },
   {
     "id": "mobile-202604-0207",
-    "title": "逃脱者2The Escapists 2",
+    "title": "脱逃者2 整合 (The Escapists 2)",
     "enTitle": "The Escapists 2",
     "category": "mobile",
     "tags": [],
@@ -20792,7 +20792,7 @@
   },
   {
     "id": "mobile-202604-0214",
-    "title": "贪婪地牢(2)",
+    "title": "贪婪地牢",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -21248,7 +21248,7 @@
   },
   {
     "id": "mobile-202604-0224",
-    "title": "王国保卫战复仇(2)",
+    "title": "王国保卫战:复仇",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -21340,7 +21340,7 @@
   },
   {
     "id": "mobile-202604-0226",
-    "title": "王国保卫战2前线",
+    "title": "王国保卫战",
     "enTitle": "Kingdom Rush Frontiers - Tower Defense",
     "category": "mobile",
     "tags": [],
@@ -21569,7 +21569,7 @@
   },
   {
     "id": "mobile-202604-0229",
-    "title": "王国80年代Kingdom Eighties",
+    "title": "王国 80年代",
     "enTitle": "Kingdom Eighties",
     "category": "mobile",
     "tags": [],
@@ -21651,7 +21651,7 @@
   },
   {
     "id": "mobile-202604-0230",
-    "title": "我的世界",
+    "title": "我的世界:地下城2",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -21708,7 +21708,7 @@
   },
   {
     "id": "mobile-202604-0233",
-    "title": "烧肉模拟器",
+    "title": "烧肉模拟器 (Yakiniku simulator)",
     "enTitle": "Yakiniku simulator",
     "category": "mobile",
     "tags": [
@@ -22206,7 +22206,7 @@
   },
   {
     "id": "mobile-202604-0240",
-    "title": "石器时代",
+    "title": "多石器时代",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -22356,7 +22356,7 @@
   },
   {
     "id": "mobile-202604-0244",
-    "title": "死亡细胞(2)",
+    "title": "死亡细胞|重生细胞",
     "enTitle": "Dead Cells",
     "category": "mobile",
     "tags": [
@@ -22538,7 +22538,7 @@
   },
   {
     "id": "mobile-202604-0247",
-    "title": "史诗战斗幻想4Epic Battle Fantasy4",
+    "title": "史诗战斗幻想4",
     "enTitle": "Epic Battle Fantasy 4 Soundtrack",
     "category": "mobile",
     "tags": [],
@@ -22723,7 +22723,7 @@
   },
   {
     "id": "mobile-202604-0250",
-    "title": "杀戮尖塔Slay the Spire",
+    "title": "杀戮尖塔",
     "enTitle": "Slay the Spire",
     "category": "mobile",
     "tags": [],
@@ -22790,7 +22790,7 @@
   },
   {
     "id": "mobile-202604-0251",
-    "title": "杀戮尖塔(3)",
+    "title": "杀戮尖塔",
     "enTitle": "Slay the Spire",
     "category": "mobile",
     "tags": [],
@@ -22934,7 +22934,7 @@
   },
   {
     "id": "mobile-202604-0253",
-    "title": "兽嚎瘟疫Howl",
+    "title": "狼嚎(Howl)",
     "enTitle": "Howl",
     "category": "mobile",
     "tags": [],
@@ -23038,7 +23038,7 @@
   },
   {
     "id": "mobile-202604-0255",
-    "title": "时空之轮Chrono Trigger",
+    "title": "超时空之轮 v20230829(CHRONO TRIGGER)",
     "enTitle": "CHRONO TRIGGER®",
     "category": "mobile",
     "tags": [],
@@ -23234,7 +23234,7 @@
   },
   {
     "id": "mobile-202604-0260",
-    "title": "特工A伪装游戏",
+    "title": "特工A:伪装游戏 (Agent A: A puzzle in disguise)",
     "enTitle": "Agent A: A puzzle in disguise",
     "category": "mobile",
     "tags": [],
@@ -23383,7 +23383,7 @@
   },
   {
     "id": "mobile-202604-0262",
-    "title": "石油大亨Turmoil",
+    "title": "石油大亨 +安卓+苹果三端(Turmoil)",
     "enTitle": "Turmoil",
     "category": "mobile",
     "tags": [],
@@ -23464,7 +23464,7 @@
   },
   {
     "id": "mobile-202604-0263",
-    "title": "鼠之城邦",
+    "title": "鼠之城邦|鼠城|鼠国流浪记 (Ratropolis)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -23560,7 +23560,7 @@
   },
   {
     "id": "mobile-202604-0265",
-    "title": "死亡之门",
+    "title": "死亡之门(Deaths Door)",
     "enTitle": "Death's Door",
     "category": "mobile",
     "tags": [],
@@ -23641,7 +23641,7 @@
   },
   {
     "id": "mobile-202604-0266",
-    "title": "死亡之门Death&#39;s Door",
+    "title": "死亡之门(Deaths Door)",
     "enTitle": "Death's Door",
     "category": "mobile",
     "tags": [],
@@ -23722,7 +23722,7 @@
   },
   {
     "id": "mobile-202604-0267",
-    "title": "死亡战车2Earn to Die 2(2)",
+    "title": "死亡战车2 (Earn to Die 2)",
     "enTitle": "Earn to Die 2",
     "category": "mobile",
     "tags": [],
@@ -23799,7 +23799,7 @@
   },
   {
     "id": "mobile-202604-0268",
-    "title": "死亡之门Death&#39;s Door(2)",
+    "title": "死亡之门(Deaths Door)",
     "enTitle": "Death's Door",
     "category": "mobile",
     "tags": [],
@@ -23880,7 +23880,7 @@
   },
   {
     "id": "mobile-202604-0269",
-    "title": "死亡战车2",
+    "title": "死亡战车2 (Earn to Die 2)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -23899,7 +23899,7 @@
   },
   {
     "id": "mobile-202604-0270",
-    "title": "天鹅绒流星队长 JUMP+异世界的小冒险",
+    "title": "天鹅绒流星队长 JUMP+异世界的小冒险(Captain Velvet Meteor: The Jump+ Dimensions)",
     "enTitle": "Sky Jump",
     "category": "mobile",
     "tags": [],
@@ -24231,7 +24231,7 @@
   },
   {
     "id": "mobile-202604-0275",
-    "title": "神州志西游(2)",
+    "title": "神州志西游",
     "enTitle": "Journey to the West",
     "category": "mobile",
     "tags": [],
@@ -24393,7 +24393,7 @@
   },
   {
     "id": "mobile-202604-0278",
-    "title": "沙丘帝国(2)",
+    "title": "沙丘 帝国 (Dune: Imperium)",
     "enTitle": "Dune: Imperium",
     "category": "mobile",
     "tags": [],
@@ -24471,7 +24471,7 @@
   },
   {
     "id": "mobile-202604-0279",
-    "title": "神奇小子龙之陷阱(2)",
+    "title": "神奇小子爱莎在怪物世界+龙之陷阱 (Wonder Boy: The Dragon\\’s Trap)",
     "enTitle": "Wonder Boy: The Dragon's Trap",
     "category": "mobile",
     "tags": [
@@ -24559,7 +24559,7 @@
   },
   {
     "id": "mobile-202604-0280",
-    "title": "烧肉模拟器(2)",
+    "title": "烧肉模拟器 (Yakiniku simulator)",
     "enTitle": "Yakiniku simulator",
     "category": "mobile",
     "tags": [
@@ -24798,7 +24798,7 @@
   },
   {
     "id": "mobile-202604-0283",
-    "title": "杀戮尖塔(4)",
+    "title": "杀戮尖塔",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -24857,7 +24857,7 @@
   },
   {
     "id": "mobile-202604-0286",
-    "title": "沙丘帝国DuneImperium(2)",
+    "title": "沙丘 帝国 (Dune: Imperium)",
     "enTitle": "Dune: Imperium",
     "category": "mobile",
     "tags": [],
@@ -24954,7 +24954,7 @@
   },
   {
     "id": "mobile-202604-0288",
-    "title": "史诗战斗幻想4Epic Battle Fantasy4(2)",
+    "title": "史诗战斗幻想4",
     "enTitle": "Epic Battle Fantasy 4 Soundtrack",
     "category": "mobile",
     "tags": [],
@@ -25005,7 +25005,7 @@
   },
   {
     "id": "mobile-202604-0289",
-    "title": "史诗战斗幻想5(2)",
+    "title": "史诗战斗幻想5",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -25083,7 +25083,7 @@
   },
   {
     "id": "mobile-202604-0293",
-    "title": "杀戮尖塔(5)",
+    "title": "杀戮尖塔",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -25121,7 +25121,7 @@
   },
   {
     "id": "mobile-202604-0295",
-    "title": "杀戮尖塔(6)",
+    "title": "杀戮尖塔",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -25140,7 +25140,7 @@
   },
   {
     "id": "mobile-202604-0296",
-    "title": "时空之轮Chrono Trigger(2)",
+    "title": "超时空之轮 v20230829(CHRONO TRIGGER)",
     "enTitle": "CHRONO TRIGGER®",
     "category": "mobile",
     "tags": [],
@@ -25210,7 +25210,7 @@
   },
   {
     "id": "mobile-202604-0297",
-    "title": "兽嚎瘟疫Howl(2)",
+    "title": "狼嚎(Howl)",
     "enTitle": "Howl",
     "category": "mobile",
     "tags": [],
@@ -25364,7 +25364,7 @@
   },
   {
     "id": "mobile-202604-0299",
-    "title": "杀戮尖塔Slay the Spire(2)",
+    "title": "杀戮尖塔",
     "enTitle": "Slay the Spire",
     "category": "mobile",
     "tags": [],
@@ -25431,7 +25431,7 @@
   },
   {
     "id": "mobile-202604-0300",
-    "title": "十个约会Ten Dates(2)",
+    "title": "十个约会 (Ten Dates)",
     "enTitle": "Ten Dates",
     "category": "mobile",
     "tags": [],
@@ -25527,7 +25527,7 @@
   },
   {
     "id": "mobile-202604-0302",
-    "title": "死亡细胞(3)",
+    "title": "死亡细胞|重生细胞",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -25611,7 +25611,7 @@
   },
   {
     "id": "mobile-202604-0304",
-    "title": "神州志西游(3)",
+    "title": "神州志西游",
     "enTitle": "Journey to the West",
     "category": "mobile",
     "tags": [],
@@ -25692,7 +25692,7 @@
   },
   {
     "id": "mobile-202604-0305",
-    "title": "鼠之城邦(2)",
+    "title": "鼠之城邦|鼠城|鼠国流浪记 (Ratropolis)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -25711,7 +25711,7 @@
   },
   {
     "id": "mobile-202604-0306",
-    "title": "死亡战车2Earn to Die 2(3)",
+    "title": "死亡战车2 (Earn to Die 2)",
     "enTitle": "Earn to Die 2",
     "category": "mobile",
     "tags": [],
@@ -25782,7 +25782,7 @@
   },
   {
     "id": "mobile-202604-0307",
-    "title": "石油大亨Turmoil(2)",
+    "title": "石油大亨 +安卓+苹果三端(Turmoil)",
     "enTitle": "Turmoil",
     "category": "mobile",
     "tags": [],
@@ -25863,7 +25863,7 @@
   },
   {
     "id": "mobile-202604-0308",
-    "title": "死亡之门(2)",
+    "title": "死亡之门(Deaths Door)",
     "enTitle": "Death's Door",
     "category": "mobile",
     "tags": [],
@@ -25944,7 +25944,7 @@
   },
   {
     "id": "mobile-202604-0309",
-    "title": "死亡之门Death&#39;s Door(3)",
+    "title": "死亡之门(Deaths Door)",
     "enTitle": "Death's Door",
     "category": "mobile",
     "tags": [],
@@ -26038,7 +26038,7 @@
   },
   {
     "id": "mobile-202604-0311",
-    "title": "死亡之门Death&#39;s Door(4)",
+    "title": "死亡之门(Deaths Door)",
     "enTitle": "Death's Door",
     "category": "mobile",
     "tags": [],
@@ -26113,7 +26113,7 @@
   },
   {
     "id": "mobile-202604-0312",
-    "title": "死亡战车2Earn to Die 2(4)",
+    "title": "死亡战车2 (Earn to Die 2)",
     "enTitle": "Earn to Die 2",
     "category": "mobile",
     "tags": [],
@@ -26292,7 +26292,7 @@
   },
   {
     "id": "mobile-202604-0315",
-    "title": "气球塔防6",
+    "title": "气球塔防6|猴子塔防6",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -26330,7 +26330,7 @@
   },
   {
     "id": "mobile-202604-0317",
-    "title": "请出示文件Papers, Please",
+    "title": "请出示证件 (Papers, Please)",
     "enTitle": "Papers, Please",
     "category": "mobile",
     "tags": [],
@@ -26583,7 +26583,7 @@
   },
   {
     "id": "mobile-202604-0321",
-    "title": "内在昔日The Past Within",
+    "title": "内心的过去(The Past Within)",
     "enTitle": "The Past Within",
     "category": "mobile",
     "tags": [],
@@ -26793,7 +26793,7 @@
   },
   {
     "id": "mobile-202604-0324",
-    "title": "请出示文件Papers, Please(2)",
+    "title": "请出示证件 (Papers, Please)",
     "enTitle": "Papers, Please",
     "category": "mobile",
     "tags": [],
@@ -26867,7 +26867,7 @@
   },
   {
     "id": "mobile-202604-0325",
-    "title": "帕斯卡契约Pascal&#39;s Wager",
+    "title": "帕斯卡契约",
     "enTitle": "Pascal's Wager: Definitive Edition",
     "category": "mobile",
     "tags": [
@@ -26947,7 +26947,7 @@
   },
   {
     "id": "mobile-202604-0326",
-    "title": "破碎的像素地牢",
+    "title": "破碎的像素地牢|粉碎的像素地牢",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -27088,7 +27088,7 @@
   },
   {
     "id": "mobile-202604-0330",
-    "title": "奇异园艺",
+    "title": "奇异园艺 (Strange Horticulture)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -27126,7 +27126,7 @@
   },
   {
     "id": "mobile-202604-0332",
-    "title": "热血硬派国夫君外传 热血少女",
+    "title": "热血硬派国夫君外传 热血少女2 (River City Girls 2)",
     "enTitle": "River City Girls 2",
     "category": "mobile",
     "tags": [],
@@ -27295,7 +27295,7 @@
   },
   {
     "id": "mobile-202604-0335",
-    "title": "忍者神龟施莱德的复仇",
+    "title": "忍者神龟 施莱德的复仇 (Teenage Mutant Ninja Turtles: Shredder\\’s Revenge)",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -27524,7 +27524,7 @@
   },
   {
     "id": "mobile-202604-0341",
-    "title": "弃船逃生Abandon Ship(2)",
+    "title": "弃船逃生 (Abandon Ship)",
     "enTitle": "Abandon Ship",
     "category": "mobile",
     "tags": [
@@ -27613,7 +27613,7 @@
   },
   {
     "id": "mobile-202604-0342",
-    "title": "气球塔防6(2)",
+    "title": "气球塔防6|猴子塔防6",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -27632,7 +27632,7 @@
   },
   {
     "id": "mobile-202604-0343",
-    "title": "倾听画语最美好的景色",
+    "title": "倾听画语:最美好的景色 (Behind the Frame: The Finest Scenery)",
     "enTitle": "Behind the Frame: The Finest Scenery",
     "category": "mobile",
     "tags": [],
@@ -27874,7 +27874,7 @@
   },
   {
     "id": "mobile-202604-0347",
-    "title": "气球塔防6(3)",
+    "title": "气球塔防6|猴子塔防6",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -28129,7 +28129,7 @@
   },
   {
     "id": "mobile-202604-0354",
-    "title": "猛鬼大厦",
+    "title": "猛鬼大厦2(HauntedHouse2)",
     "enTitle": "The Haunted Building",
     "category": "mobile",
     "tags": [],
@@ -28211,7 +28211,7 @@
   },
   {
     "id": "mobile-202604-0355",
-    "title": "猛鬼大厦(2)",
+    "title": "猛鬼大厦2(HauntedHouse2)",
     "enTitle": "The Haunted Building",
     "category": "mobile",
     "tags": [],
@@ -28606,7 +28606,7 @@
   },
   {
     "id": "mobile-202604-0364",
-    "title": "黎明前20分钟",
+    "title": "黎明前20分钟 (20 Minutes Till Dawn)",
     "enTitle": "20 Minutes Till Dawn",
     "category": "mobile",
     "tags": [],
@@ -28684,7 +28684,7 @@
   },
   {
     "id": "mobile-202604-0365",
-    "title": "蜡烛人Candleman",
+    "title": "蜡烛人(Candleman: The Complete Journey)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -28850,7 +28850,7 @@
   },
   {
     "id": "mobile-202604-0368",
-    "title": "猫语翻译器while True learn()",
+    "title": "编程模拟器 (While True learn)",
     "enTitle": "while True: learn()",
     "category": "mobile",
     "tags": [],
@@ -28933,7 +28933,7 @@
   },
   {
     "id": "mobile-202604-0369",
-    "title": "模拟人生",
+    "title": "模拟人生4",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -28952,7 +28952,7 @@
   },
   {
     "id": "mobile-202604-0370",
-    "title": "漫长等待The Longing",
+    "title": "漫长等待",
     "enTitle": "THE LONGING",
     "category": "mobile",
     "tags": [],
@@ -29031,7 +29031,7 @@
   },
   {
     "id": "mobile-202604-0371",
-    "title": "模拟山羊3Goat Sim 3",
+    "title": "模拟山羊3",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -29069,7 +29069,7 @@
   },
   {
     "id": "mobile-202604-0373",
-    "title": "模拟山羊3Goat Sim 3(2)",
+    "title": "模拟山羊3",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -29347,7 +29347,7 @@
   },
   {
     "id": "mobile-202604-0379",
-    "title": "逆转裁判123",
+    "title": "逆转裁判123 成步堂精选集 收藏版",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -29387,7 +29387,7 @@
   },
   {
     "id": "mobile-202604-0381",
-    "title": "酿造物语Hundred DaysⅤ",
+    "title": "酿造物语|百日:酿酒模拟器 (Hundred Days – Winemaking Simulator)",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -29481,7 +29481,7 @@
   },
   {
     "id": "mobile-202604-0383",
-    "title": "喵斯快跑MuseDash",
+    "title": "喵斯快跑",
     "enTitle": "Muse Dash",
     "category": "mobile",
     "tags": [],
@@ -29551,7 +29551,7 @@
   },
   {
     "id": "mobile-202604-0384",
-    "title": "猫语翻译器while True learn()(2)",
+    "title": "编程模拟器 (While True learn)",
     "enTitle": "while True: learn()",
     "category": "mobile",
     "tags": [],
@@ -29691,7 +29691,7 @@
   },
   {
     "id": "mobile-202604-0388",
-    "title": "渴望力量Powerlust",
+    "title": "权力欲望|渴望力量|力量渴望",
     "enTitle": "Powerlust",
     "category": "mobile",
     "tags": [],
@@ -29893,7 +29893,7 @@
   },
   {
     "id": "mobile-202604-0392",
-    "title": "科洛蒙Coromon",
+    "title": "科洛蒙",
     "enTitle": "Coromon",
     "category": "mobile",
     "tags": [],
@@ -30001,7 +30001,7 @@
   },
   {
     "id": "mobile-202604-0394",
-    "title": "科洛蒙Coromonⅴ",
+    "title": "科洛蒙",
     "enTitle": "Coromon",
     "category": "mobile",
     "tags": [],
@@ -30090,7 +30090,7 @@
   },
   {
     "id": "mobile-202604-0395",
-    "title": "科洛蒙Coromon(2)",
+    "title": "科洛蒙",
     "enTitle": "Coromon",
     "category": "mobile",
     "tags": [],
@@ -30179,7 +30179,7 @@
   },
   {
     "id": "mobile-202604-0396",
-    "title": "卡牌生存热带岛屿 u",
+    "title": "卡牌生存:热带岛屿",
     "enTitle": "Card Survival: Tropical Island",
     "category": "mobile",
     "tags": [],
@@ -30321,7 +30321,7 @@
   },
   {
     "id": "mobile-202604-0398",
-    "title": "卡牌生存热带岛屿 u(2)",
+    "title": "卡牌生存:热带岛屿",
     "enTitle": "Card Survival: Tropical Island",
     "category": "mobile",
     "tags": [],
@@ -30486,7 +30486,7 @@
   },
   {
     "id": "mobile-202604-0401",
-    "title": "科罗蒙Coromon",
+    "title": "科洛蒙",
     "enTitle": "Coromon",
     "category": "mobile",
     "tags": [],
@@ -30575,7 +30575,7 @@
   },
   {
     "id": "mobile-202604-0402",
-    "title": "绝境北方Bad North",
+    "title": "绝境北方 严峻北境(Bad North)",
     "enTitle": "Bad North: Jotunn Edition",
     "category": "mobile",
     "tags": [],
@@ -30653,7 +30653,7 @@
   },
   {
     "id": "mobile-202604-0403",
-    "title": "僵尸之夜恐怖",
+    "title": "【手机游戏】僵尸之夜恐怖",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -31050,7 +31050,7 @@
   },
   {
     "id": "mobile-202604-0411",
-    "title": "精灵与橡木之歌Oaken c",
+    "title": "精灵与橡木之歌",
     "enTitle": "Oaken",
     "category": "mobile",
     "tags": [],
@@ -31163,7 +31163,7 @@
   },
   {
     "id": "mobile-202604-0414",
-    "title": "历历在目Before Your Eyes",
+    "title": "历历在目",
     "enTitle": "Before Your Eyes",
     "category": "mobile",
     "tags": [],
@@ -31241,7 +31241,7 @@
   },
   {
     "id": "mobile-202604-0415",
-    "title": "拉力赛艺术 _b190",
+    "title": "拉力赛艺术",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -31373,7 +31373,7 @@
   },
   {
     "id": "mobile-202604-0419",
-    "title": "灵魂旅者(Spiritfarer)",
+    "title": "灵魂旅人 数字 (Spiritfarer)",
     "enTitle": "Spiritfarer®: Farewell Edition",
     "category": "mobile",
     "tags": [],
@@ -31518,7 +31518,7 @@
   },
   {
     "id": "mobile-202604-0421",
-    "title": "毁灭战士",
+    "title": "毁灭战士|伊甸之门",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -31575,7 +31575,7 @@
   },
   {
     "id": "mobile-202604-0424",
-    "title": "盒子 丢失的碎片",
+    "title": "盒子:失落的碎片 |盒子:丢失的碎片",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -31670,7 +31670,7 @@
   },
   {
     "id": "mobile-202604-0426",
-    "title": "花园之间",
+    "title": "花园之间 v3033985(The Gardens Between)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -31727,7 +31727,7 @@
   },
   {
     "id": "mobile-202604-0429",
-    "title": "愤怒的小鸟2Angry Birds 2",
+    "title": "愤怒的小鸟(Angry Birds)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -31746,7 +31746,7 @@
   },
   {
     "id": "mobile-202604-0430",
-    "title": "恶魔轮盘中文无血版",
+    "title": "恶魔轮盘",
     "enTitle": "pC .apk",
     "category": "mobile",
     "tags": [
@@ -31824,7 +31824,7 @@
   },
   {
     "id": "mobile-202604-0434",
-    "title": "恶魔轮盘Buckshot Roulette",
+    "title": "手机+PC端-《恶魔轮盘》 (Buckshot Roulette)",
     "enTitle": "Buckshot Roulette",
     "category": "mobile",
     "tags": [],
@@ -31945,7 +31945,7 @@
   },
   {
     "id": "mobile-202604-0437",
-    "title": "浮岛物语Forager",
+    "title": "浮岛物语",
     "enTitle": "Forager",
     "category": "mobile",
     "tags": [],
@@ -32017,7 +32017,7 @@
   },
   {
     "id": "mobile-202604-0438",
-    "title": "归家异途Home Behind",
+    "title": "归家异途1(Home Behind)",
     "enTitle": "Home Behind",
     "category": "mobile",
     "tags": [
@@ -32090,7 +32090,7 @@
   },
   {
     "id": "mobile-202604-0439",
-    "title": "孤独的村庄Lonesome Village",
+    "title": "寂寞的村庄 v59798(Lonesome Village)",
     "enTitle": "Lonesome Village",
     "category": "mobile",
     "tags": [],
@@ -32344,7 +32344,7 @@
   },
   {
     "id": "mobile-202604-0445",
-    "title": "弗兰的悲惨之旅",
+    "title": "弗兰的悲惨之旅 (Fran Bow)",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -32365,7 +32365,7 @@
   },
   {
     "id": "mobile-202604-0446",
-    "title": "浮生千百事The Wreck",
+    "title": "浮生千百事",
     "enTitle": "The Wreck",
     "category": "mobile",
     "tags": [],
@@ -32447,7 +32447,7 @@
   },
   {
     "id": "mobile-202604-0447",
-    "title": "哥布林弹球(2)",
+    "title": "哥布林弹球",
     "enTitle": "Peglin - Supporter's Pack",
     "category": "mobile",
     "tags": [],
@@ -32499,7 +32499,7 @@
   },
   {
     "id": "mobile-202604-0448",
-    "title": "风之峰Wind Peaks",
+    "title": "风岭 (Wind Peaks)",
     "enTitle": "Wind Peaks",
     "category": "mobile",
     "tags": [],
@@ -32592,7 +32592,7 @@
   },
   {
     "id": "mobile-202604-0450",
-    "title": "风之峰Wind Peaks(2)",
+    "title": "风岭 (Wind Peaks)",
     "enTitle": "Wind Peaks",
     "category": "mobile",
     "tags": [],
@@ -32753,7 +32753,7 @@
   },
   {
     "id": "mobile-202604-0453",
-    "title": "地铁繁花",
+    "title": "锈湖:地铁繁花",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -32924,7 +32924,7 @@
   },
   {
     "id": "mobile-202604-0457",
-    "title": "打造世界",
+    "title": "打造世界|创造世界",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -32964,7 +32964,7 @@
   },
   {
     "id": "mobile-202604-0459",
-    "title": "单手掌声One Hand Clapping",
+    "title": "单手拍打 一只手鼓掌 (One Hand Clapping)",
     "enTitle": "One Hand Clapping",
     "category": "mobile",
     "tags": [],
@@ -33076,7 +33076,7 @@
   },
   {
     "id": "mobile-202604-0462",
-    "title": "传说法师",
+    "title": "传说法师2",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -33095,7 +33095,7 @@
   },
   {
     "id": "mobile-202604-0463",
-    "title": "传送门骑士Portal Knights",
+    "title": "传送门骑士",
     "enTitle": "Portal Knights",
     "category": "mobile",
     "tags": [],
@@ -33217,7 +33217,7 @@
   },
   {
     "id": "mobile-202604-0464",
-    "title": "朝圣者Pilgrims",
+    "title": "朝圣者",
     "enTitle": "Pilgrims",
     "category": "mobile",
     "tags": [],
@@ -33307,7 +33307,7 @@
   },
   {
     "id": "mobile-202604-0466",
-    "title": "堆叠大陆",
+    "title": "层叠世界",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -33427,7 +33427,7 @@
   },
   {
     "id": "mobile-202604-0469",
-    "title": "当铺人生当铺人生2",
+    "title": "当铺人生2",
     "enTitle": "Dealer's Life 2",
     "category": "mobile",
     "tags": [],
@@ -33569,7 +33569,7 @@
   },
   {
     "id": "mobile-202604-0474",
-    "title": "当铺人生2DealersLife2",
+    "title": "当铺人生2",
     "enTitle": "Dealer's Life 2",
     "category": "mobile",
     "tags": [],
@@ -33635,7 +33635,7 @@
   },
   {
     "id": "mobile-202604-0475",
-    "title": "第九黎明3汉化版",
+    "title": "第九黎明3",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -33734,7 +33734,7 @@
   },
   {
     "id": "mobile-202604-0480",
-    "title": "朝圣者Pilgrims(2)",
+    "title": "朝圣者",
     "enTitle": "Pilgrims",
     "category": "mobile",
     "tags": [],
@@ -33890,7 +33890,7 @@
   },
   {
     "id": "mobile-202604-0482",
-    "title": "部落幸存者",
+    "title": "部落幸存者 (Settlement Survival)",
     "enTitle": "Settlement Survival",
     "category": "mobile",
     "tags": [],
@@ -34048,7 +34048,7 @@
   },
   {
     "id": "mobile-202604-0487",
-    "title": "北境之地",
+    "title": "北境之地: |北加尔",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -34069,7 +34069,7 @@
   },
   {
     "id": "mobile-202604-0488",
-    "title": "北境之地(2)",
+    "title": "北境之地: |北加尔",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -34090,7 +34090,7 @@
   },
   {
     "id": "mobile-202604-0489",
-    "title": "北境之地(3)",
+    "title": "北境之地: |北加尔",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -34109,7 +34109,7 @@
   },
   {
     "id": "mobile-202604-0490",
-    "title": "不要喂猴子",
+    "title": "不要喂食猴子",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -34147,7 +34147,7 @@
   },
   {
     "id": "mobile-202604-0492",
-    "title": "崩溃大陆",
+    "title": "崩溃大陆2",
     "enTitle": "Crashlands",
     "category": "mobile",
     "tags": [],
@@ -34315,7 +34315,7 @@
   },
   {
     "id": "mobile-202604-0495",
-    "title": "搬家模拟器Unpacking",
+    "title": "开箱取物(Unpacking)",
     "enTitle": "Unpacking",
     "category": "mobile",
     "tags": [
@@ -34444,7 +34444,7 @@
   },
   {
     "id": "mobile-202604-0499",
-    "title": "缠结塔Tangle Tower",
+    "title": "缠结塔|缠绕之塔 v12269797(Tangle Tower)",
     "enTitle": "Tangle Tower",
     "category": "mobile",
     "tags": [],
@@ -34633,7 +34633,7 @@
   },
   {
     "id": "mobile-202604-0503",
-    "title": "茶杯Teacup",
+    "title": "茶杯",
     "enTitle": "Teacup",
     "category": "mobile",
     "tags": [],
@@ -35334,7 +35334,7 @@
   },
   {
     "id": "mobile-202604-0520",
-    "title": "埃比尼泽与无形世界",
+    "title": "埃比尼泽与无形世界(Ebenezer and the Invisible World)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -35353,7 +35353,7 @@
   },
   {
     "id": "mobile-202604-0521",
-    "title": "60秒生存太空版60 Parsecs!",
+    "title": "60秒差距!| 太空60秒",
     "enTitle": "60 Parsecs!",
     "category": "mobile",
     "tags": [],
@@ -35458,7 +35458,7 @@
   },
   {
     "id": "mobile-202604-0522",
-    "title": "暗黑破坏神2 端游",
+    "title": "暗黑破坏神2 |暗黑破坏神2:狱火重生|暗黑破坏神2: – 终极包",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -35578,7 +35578,7 @@
   },
   {
     "id": "mobile-202604-0527",
-    "title": "60秒重置版",
+    "title": "60秒重置版|60秒避难所生存",
     "enTitle": "6.0",
     "category": "mobile",
     "tags": [],
@@ -35807,7 +35807,7 @@
   },
   {
     "id": "pc-202604-0062",
-    "title": "口袋妖怪 无限大道",
+    "title": "宝可梦:无界解放|口袋妖怪解放",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -35826,7 +35826,7 @@
   },
   {
     "id": "mobile-202604-0532",
-    "title": "整蛊邻居地狱归来",
+    "title": "整蛊邻居:归来|邻居地狱归来",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -35845,7 +35845,7 @@
   },
   {
     "id": "mobile-202604-0533",
-    "title": "神州志西游(4)",
+    "title": "神州志西游",
     "enTitle": "Journey to the West",
     "category": "mobile",
     "tags": [],
@@ -35926,7 +35926,7 @@
   },
   {
     "id": "mobile-202604-0534",
-    "title": "中世纪2全面战争 RC10",
+    "title": "中世纪2:全面战争",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -35945,7 +35945,7 @@
   },
   {
     "id": "pc-202604-0063",
-    "title": "三国志8汉化",
+    "title": "三国志8",
     "enTitle": "ROMANCE OF THE THREE KINGDOMS 8 REMAKE",
     "category": "pc",
     "tags": [
@@ -36072,7 +36072,7 @@
   },
   {
     "id": "mobile-202604-0537",
-    "title": "宅男的人间冒险",
+    "title": "宅男的人间冒险 (Otaku\\’s Adventure)",
     "enTitle": "Drc",
     "category": "mobile",
     "tags": [],
@@ -36281,7 +36281,7 @@
   },
   {
     "id": "mobile-202604-0542",
-    "title": "泰坦之旅终极版",
+    "title": "泰坦之旅2",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -36496,7 +36496,7 @@
   },
   {
     "id": "mobile-202604-0550",
-    "title": "心渊梦境Afterimage",
+    "title": "心渊梦境",
     "enTitle": "Afterimage",
     "category": "mobile",
     "tags": [],
@@ -36605,7 +36605,7 @@
   },
   {
     "id": "mobile-202604-0552",
-    "title": "罗马全面战争 RC1",
+    "title": "罗马:全面战争",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -36763,7 +36763,7 @@
   },
   {
     "id": "mobile-202604-0560",
-    "title": "海绵宝宝宇宙摇摆",
+    "title": "海绵宝宝:宇宙摇摆 (SpongeBob SquarePants: The Cosmic Shake)",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -36843,7 +36843,7 @@
   },
   {
     "id": "mobile-202604-0564",
-    "title": "圣剑传说3 重置版 玛娜试炼",
+    "title": "圣剑传说3",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -36900,7 +36900,7 @@
   },
   {
     "id": "mod-202604-0043",
-    "title": "机械制造者",
+    "title": "机械制造者|赛道大师",
     "enTitle": "Trailmakers",
     "category": "pc",
     "tags": [
@@ -36988,7 +36988,7 @@
   },
   {
     "id": "pc-202604-0064",
-    "title": "战术战争",
+    "title": "战术战争 (Tactical Warfare)",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -37009,7 +37009,7 @@
   },
   {
     "id": "emu-202604-0004",
-    "title": "玩具店模拟器 v1.0.0b6 中文版",
+    "title": "玩具店模拟器",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -37031,7 +37031,7 @@
   },
   {
     "id": "emu-202604-0005",
-    "title": "玩具店模拟器 v1.0.0b6 中文版(2)",
+    "title": "玩具店模拟器",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -37404,7 +37404,7 @@
   },
   {
     "id": "pc-202604-0069",
-    "title": "超级棒球4-虚 英文",
+    "title": "超级棒球4-虚拟机版",
     "enTitle": "Super Mega Baseball",
     "category": "pc",
     "tags": [],
@@ -37558,7 +37558,7 @@
   },
   {
     "id": "pc-202604-0071",
-    "title": "女神驾到 夏日甜心 收藏版",
+    "title": "女神驾到:夏日甜心",
     "enTitle": "Happy together",
     "category": "pc",
     "tags": [
@@ -37781,7 +37781,7 @@
   },
   {
     "id": "emu-202604-0006",
-    "title": "洗衣店模拟器 LSS v7.1.4",
+    "title": "洗衣店模拟器",
     "enTitle": "LSS",
     "category": "pc",
     "tags": [
@@ -37852,7 +37852,7 @@
   },
   {
     "id": "emu-202604-0007",
-    "title": "射击场模拟器 Build.22930527",
+    "title": "射击场模拟器",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -37873,7 +37873,7 @@
   },
   {
     "id": "mobile-202604-0571",
-    "title": "海洋幻想 k5game.cn支持中文 手柄可映射虚拟按键",
+    "title": "海洋幻想",
     "enTitle": "SeaFantasy- .apk",
     "category": "mobile",
     "tags": [
@@ -37955,7 +37955,7 @@
   },
   {
     "id": "pc-202605-0001",
-    "title": "文明7",
+    "title": "文明7|席德·梅尔的文明VII-虚拟机版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -37995,7 +37995,7 @@
   },
   {
     "id": "pc-202605-0002",
-    "title": "拉吉 远古传奇 印度神话",
+    "title": "拉吉:远古传奇",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -38014,7 +38014,7 @@
   },
   {
     "id": "pc-202605-0003",
-    "title": "代号三国 龙起 影游",
+    "title": "代号三国:龙起",
     "enTitle": "The Three Kingdoms Rebirth",
     "category": "pc",
     "tags": [],
@@ -38198,7 +38198,7 @@
   },
   {
     "id": "pc-202605-0006",
-    "title": "无敌少侠中文豪华版",
+    "title": "无敌少侠VS",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -38367,7 +38367,7 @@
   },
   {
     "id": "pc-202605-0009",
-    "title": "刺客信条起源 终极版",
+    "title": "刺客信条:起源|刺客信条7 -虚拟机版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -38472,7 +38472,7 @@
   },
   {
     "id": "pc-202605-0011",
-    "title": "希克斯之歌中文免安装解压即玩",
+    "title": "希克斯之歌",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -38493,7 +38493,7 @@
   },
   {
     "id": "pc-202605-0012",
-    "title": "女王的游戏 盛世天下 美女篇",
+    "title": "女王的游戏:盛世天下 媚娘篇",
     "enTitle": "Road to Empress",
     "category": "pc",
     "tags": [],
@@ -38597,7 +38597,7 @@
   },
   {
     "id": "online-202605-0002",
-    "title": "木筏求生(2)",
+    "title": "木筏求生",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -38699,7 +38699,7 @@
   },
   {
     "id": "online-202605-0003",
-    "title": "雪地奔驰高级版 –",
+    "title": "雪地奔驰高级版",
     "enTitle": "SnowRunner Premium Edition",
     "category": "online",
     "tags": [
@@ -38789,7 +38789,7 @@
   },
   {
     "id": "pc-202605-0014",
-    "title": "异星突袭 入侵者歼灭战 中",
+    "title": "异星突袭:入侵者歼灭战",
     "enTitle": "Alien Strike: Blasting the Intruders",
     "category": "pc",
     "tags": [],
@@ -38867,7 +38867,7 @@
   },
   {
     "id": "mod-202605-0001",
-    "title": "毁灭战士 黑暗时代5月",
+    "title": "毁灭战士:黑暗时代",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -38993,7 +38993,7 @@
   },
   {
     "id": "online-202605-0006",
-    "title": "进城吧",
+    "title": "进城吧!|Go-Go 镇!",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -39376,7 +39376,7 @@
   },
   {
     "id": "emu-202605-0001",
-    "title": "药店模拟器 Pharmacy Store Simulator Build.23311617",
+    "title": "药店模拟器",
     "enTitle": "Pharmacy Store Simulator",
     "category": "pc",
     "tags": [
@@ -39495,7 +39495,7 @@
   },
   {
     "id": "mod-202605-0004",
-    "title": "英雄连3新加DLC敢战&敢毁",
+    "title": "英雄连3",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -39517,7 +39517,7 @@
   },
   {
     "id": "pc-202605-0023",
-    "title": "未来的战争策略 SOF与外星人入侵",
+    "title": "未来的战争策略:SOF与外星人入侵 (Future War Tactics SOF vs Alien Invasion – Turn",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -40080,7 +40080,7 @@
   },
   {
     "id": "pc-202606-0001",
-    "title": "黑洞钓鱼BlackHoleFishing",
+    "title": "黑洞钓鱼",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -40190,7 +40190,7 @@
   },
   {
     "id": "online-202606-0001",
-    "title": "巫毒钓鱼巫毒垂钓单机+联机Build.23423847",
+    "title": "巫毒钓鱼|巫毒垂钓",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -40332,7 +40332,7 @@
   },
   {
     "id": "pc-202606-0004",
-    "title": "危险节奏2 音乐与射击的完美融合",
+    "title": "危险节奏2",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -40351,7 +40351,7 @@
   },
   {
     "id": "pc-202606-0005",
-    "title": "歧路旅人0 HD-2D新章 亲手建城",
+    "title": "歧路旅人0|八方旅人0",
     "enTitle": "OCTOPATH TRAVELER™",
     "category": "pc",
     "tags": [],
@@ -40596,7 +40596,7 @@
   },
   {
     "id": "pc-202606-0008",
-    "title": "深夜拉面/MidnightRamen",
+    "title": "深夜拉面",
     "enTitle": "Midnight Ramen",
     "category": "pc",
     "tags": [],
@@ -40672,7 +40672,7 @@
   },
   {
     "id": "pc-202606-0009",
-    "title": "地精捣蛋团/Burglin'Gnomes",
+    "title": "地精捣蛋团",
     "enTitle": "Burglin' Gnomes",
     "category": "pc",
     "tags": [],
@@ -40755,7 +40755,7 @@
   },
   {
     "id": "pc-202606-0010",
-    "title": "威赫战线 边境星系战术指挥",
+    "title": "威赫战线",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -41108,7 +41108,7 @@
   },
   {
     "id": "online-202606-0002",
-    "title": "超级变色龙/MECCHA CHAMELEON/支持网络联机",
+    "title": "超级变色龙",
     "enTitle": "SCRIBBLE HUNT",
     "category": "online",
     "tags": [
@@ -41194,7 +41194,7 @@
   },
   {
     "id": "pc-202606-0021",
-    "title": "怪物猎人物语3 命运双龙",
+    "title": "怪物猎人物语3:命运双龙-虚拟机版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -41213,7 +41213,7 @@
   },
   {
     "id": "pc-202606-0022",
-    "title": "威尔 追随灯光v20260606",
+    "title": "威尔:追随灯光",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -41397,7 +41397,7 @@
   },
   {
     "id": "emu-202606-0002",
-    "title": "秋叶原盲盒店模拟器v0.6.3（GachaCapsuleShopSimulator-Akihabara）",
+    "title": "秋叶原盲盒店模拟器",
     "enTitle": "GachaCapsuleShopSimulator-Akihabara",
     "category": "pc",
     "tags": [
@@ -41661,7 +41661,7 @@
   },
   {
     "id": "pc-202606-0027",
-    "title": "双人成行v20241213",
+    "title": "双人成行",
     "enTitle": "It Takes Two",
     "category": "pc",
     "tags": [
@@ -41744,7 +41744,7 @@
   },
   {
     "id": "pc-202606-0028",
-    "title": "AK蝾螈突袭",
+    "title": "AK蝾螈",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -41864,7 +41864,7 @@
   },
   {
     "id": "pc-202606-0031",
-    "title": "死神vs火影绊全角色畅爽格斗",
+    "title": "死神vs火影",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -41902,7 +41902,7 @@
   },
   {
     "id": "mod-202606-0003",
-    "title": "怪物猎人物语3 命运双龙 XG器",
+    "title": "怪物猎人物语3:命运双龙-虚拟机版",
     "enTitle": "",
     "category": "mod",
     "tags": [
@@ -41924,7 +41924,7 @@
   },
   {
     "id": "pc-202606-0033",
-    "title": "死亡细胞_v20260616",
+    "title": "死亡细胞|重生细胞",
     "enTitle": "Dead Cells",
     "category": "pc",
     "tags": [],
@@ -42026,7 +42026,7 @@
   },
   {
     "id": "pc-202606-0034",
-    "title": "拉吉 远古传奇印度神话",
+    "title": "拉吉:远古传奇",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -42083,7 +42083,7 @@
   },
   {
     "id": "pc-202606-0035",
-    "title": "太吾绘卷 天幕心帷/The",
+    "title": "太吾绘卷:天幕心帷",
     "enTitle": "Scroll Of Taiwu",
     "category": "pc",
     "tags": [],
@@ -42165,7 +42165,7 @@
   },
   {
     "id": "pc-202606-0036",
-    "title": "命运之弦11 魔法幻梦/Strings",
+    "title": "命运之弦11:魔法幻梦",
     "enTitle": "of Fate XI Magic dream",
     "category": "pc",
     "tags": [],
@@ -42238,7 +42238,7 @@
   },
   {
     "id": "mobile-202606-0005",
-    "title": "修仙家族模拟器_v10.0.3_2.apk",
+    "title": "修仙家族模拟器",
     "enTitle": "Immortal Family",
     "category": "mobile",
     "tags": [
@@ -42440,7 +42440,7 @@
   },
   {
     "id": "mobile-202606-0008",
-    "title": "潜水员戴夫PC/手机双端",
+    "title": "潜水员戴夫",
     "enTitle": "DAVETHEDIVER",
     "category": "mobile",
     "tags": [
@@ -42525,7 +42525,7 @@
   },
   {
     "id": "emu-202606-0003",
-    "title": "修仙家族模拟器v1.5.0（ImmortalFamily）",
+    "title": "修仙家族模拟器",
     "enTitle": "ImmortalFamily",
     "category": "pc",
     "tags": [
@@ -42612,7 +42612,7 @@
   },
   {
     "id": "emu-202606-0004",
-    "title": "股票",
+    "title": "股票:主力模拟器",
     "enTitle": "StocksMainForceSimulator",
     "category": "pc",
     "tags": [
@@ -42714,7 +42714,7 @@
   },
   {
     "id": "mod-202606-0004",
-    "title": "死亡细胞v20260616全DLC非虚拟机",
+    "title": "死亡细胞|重生细胞",
     "enTitle": "Dead Cells",
     "category": "pc",
     "tags": [
@@ -42799,7 +42799,7 @@
   },
   {
     "id": "emu-202606-0005",
-    "title": "密室逃脱模拟器_v38841r",
+    "title": "密室逃脱模拟器",
     "enTitle": "Escape Simulator",
     "category": "pc",
     "tags": [
@@ -42881,7 +42881,7 @@
   },
   {
     "id": "pc-202606-0039",
-    "title": "粘粘世界2",
+    "title": "粘粘世界2(World of Goo 2)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -42900,7 +42900,7 @@
   },
   {
     "id": "pc-202606-0040",
-    "title": "超时空之轮 史上第一RPG",
+    "title": "超时空之轮",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -42919,7 +42919,7 @@
   },
   {
     "id": "online-202606-0003",
-    "title": "枪火重生/GunfireReborn/支持网络联机",
+    "title": "枪火重生",
     "enTitle": "Gunfire Reborn",
     "category": "online",
     "tags": [
@@ -43108,7 +43108,7 @@
   },
   {
     "id": "emu-202606-0006",
-    "title": "尼尔机械纪元",
+    "title": "尼尔机械纪元: (手机+PC端)送原声带+原画集+通关存档+修改器+白裙MOD(NieR:AutomataTM)",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -43148,7 +43148,7 @@
   },
   {
     "id": "pc-202606-0043",
-    "title": "东北往事 影游",
+    "title": "东北往事",
     "enTitle": "东北往事",
     "category": "pc",
     "tags": [],
@@ -43395,7 +43395,7 @@
   },
   {
     "id": "pc-202606-0046",
-    "title": "房产达人",
+    "title": "房产达人2",
     "enTitle": "House Flipper",
     "category": "pc",
     "tags": [],
@@ -43491,7 +43491,7 @@
   },
   {
     "id": "pc-202606-0047",
-    "title": "歧路旅人0经典HD-2D",
+    "title": "歧路旅人0|八方旅人0",
     "enTitle": "OCTOPATH TRAVELER™",
     "category": "pc",
     "tags": [
@@ -43578,7 +43578,7 @@
   },
   {
     "id": "pc-202606-0048",
-    "title": "龙珠斗士Z像素版",
+    "title": "龙珠战士Z|龙珠格斗Z|龙珠斗士Z",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -43635,7 +43635,7 @@
   },
   {
     "id": "online-202606-0004",
-    "title": "跃迁空间/Jump Space/支持网络联机",
+    "title": "跳跃空间|跃迁空间",
     "enTitle": "Jump Space",
     "category": "online",
     "tags": [
@@ -43819,7 +43819,7 @@
   },
   {
     "id": "pc-202606-0051",
-    "title": "塞尔达传说 旷野之息 王国之泪",
+    "title": "塞尔达传说 旷野之息",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -43841,7 +43841,7 @@
   },
   {
     "id": "pc-202606-0052",
-    "title": "挖掘者米娜 复古像素类银河城动作冒险",
+    "title": "挖掘者米娜",
     "enTitle": "Mina the Hollower",
     "category": "pc",
     "tags": [],
@@ -44119,7 +44119,7 @@
   },
   {
     "id": "pc-202607-0003",
-    "title": "遗忘之灵/Forgotlings",
+    "title": "遗忘之灵",
     "enTitle": "Forgotlings",
     "category": "pc",
     "tags": [],
@@ -44195,7 +44195,7 @@
   },
   {
     "id": "pc-202607-0004",
-    "title": "伊利斯之梦/Ellixir's",
+    "title": "伊利斯之梦",
     "enTitle": "Dream",
     "category": "pc",
     "tags": [],
@@ -44214,7 +44214,7 @@
   },
   {
     "id": "emu-202607-0001",
-    "title": "拉面模拟器/Ramen",
+    "title": "拉面模拟器",
     "enTitle": "Simulator",
     "category": "pc",
     "tags": [
@@ -44329,7 +44329,7 @@
   },
   {
     "id": "pc-202607-0006",
-    "title": "四目朝声 幽世府 雨夜传说",
+    "title": "四目朝生:幽世府·雨夜传说",
     "enTitle": "SHINONOME : Rainy Night Manor",
     "category": "pc",
     "tags": [],
@@ -44700,7 +44700,7 @@
   },
   {
     "id": "pc-202607-0013",
-    "title": "狙击精英V2重制版",
+    "title": "狙击精英V2",
     "enTitle": "Sniper Elite 5",
     "category": "pc",
     "tags": [
@@ -44785,7 +44785,7 @@
   },
   {
     "id": "pc-202607-0014",
-    "title": "死亡之屋2 重制版v20260203官方中文THE",
+    "title": "死亡之屋2",
     "enTitle": "HOUSE OF THE DEAD Remake",
     "category": "pc",
     "tags": [
@@ -44974,7 +44974,7 @@
   },
   {
     "id": "pc-202607-0016",
-    "title": "地球清洁工",
+    "title": "清理地球|地球清洁工",
     "enTitle": "Up Earth",
     "category": "pc",
     "tags": [
@@ -45065,7 +45065,7 @@
   },
   {
     "id": "mod-202607-0001",
-    "title": "涂鸦英雄工厂 全DLC官方中文ShapeHero",
+    "title": "涂鸦英雄工厂 (ShapeHero Factory)",
     "enTitle": "Factory",
     "category": "pc",
     "tags": [
@@ -45106,7 +45106,7 @@
   },
   {
     "id": "online-202607-0002",
-    "title": "超级变色龙/MECCHA CHAMELEON/支持网络联机(2)",
+    "title": "超级变色龙",
     "enTitle": "SCRIBBLE HUNT",
     "category": "online",
     "tags": [
@@ -45277,7 +45277,7 @@
   },
   {
     "id": "pc-202607-0020",
-    "title": "侠盗猎车手4 自由城之章",
+    "title": "侠盗猎车手4|GTA4 自由城之章",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -45296,7 +45296,7 @@
   },
   {
     "id": "mod-202607-0002",
-    "title": "索尼克 未知边境 全DLC官方中文Sonic",
+    "title": "索尼克 未知边境",
     "enTitle": "Frontiers",
     "category": "pc",
     "tags": [
@@ -45461,7 +45461,7 @@
   },
   {
     "id": "pc-202607-0022",
-    "title": "胡闹厨房2",
+    "title": "胡闹厨房",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -45567,7 +45567,7 @@
   },
   {
     "id": "pc-202607-0024",
-    "title": "极品飞车22不羁",
+    "title": "极品飞车22:不羁-虚拟机版",
     "enTitle": "Need for Speed™ Unbound",
     "category": "pc",
     "tags": [
@@ -45646,7 +45646,7 @@
   },
   {
     "id": "mod-202607-0003",
-    "title": "空之轨迹",
+    "title": "空之轨迹 the 2nd",
     "enTitle": "the 1st Sora no Kiseki the 1st",
     "category": "pc",
     "tags": [
@@ -45789,7 +45789,7 @@
   },
   {
     "id": "pc-202607-0026",
-    "title": "生化危机6",
+    "title": "生化危机6 (Resident Evil 6)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -45884,7 +45884,7 @@
   },
   {
     "id": "pc-202607-0027",
-    "title": "黑暗之魂重制版",
+    "title": "黑暗之魂3",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -45903,7 +45903,7 @@
   },
   {
     "id": "emu-202607-0003",
-    "title": "世界盒子",
+    "title": "世界盒子:上帝模拟器",
     "enTitle": "WorldBox God",
     "category": "pc",
     "tags": [
@@ -45988,7 +45988,7 @@
   },
   {
     "id": "pc-202607-0028",
-    "title": "前线任务3 重制版",
+    "title": "前线任务3",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -46009,7 +46009,7 @@
   },
   {
     "id": "online-202607-0003",
-    "title": "霓虹深渊2v20260717附联机补丁附XG器Neon",
+    "title": "霓虹深渊2",
     "enTitle": "Abyss",
     "category": "online",
     "tags": [
@@ -46096,7 +46096,7 @@
   },
   {
     "id": "online-202607-0004",
-    "title": "沉没之地 附联机补丁Sunkenland",
+    "title": "沉没之地",
     "enTitle": "Sunkenland",
     "category": "online",
     "tags": [
@@ -46438,7 +46438,7 @@
   },
   {
     "id": "pc-202607-0032",
-    "title": "看门狗2 黑客开放世界",
+    "title": "看门狗2",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -46457,7 +46457,7 @@
   },
   {
     "id": "online-202607-0005",
-    "title": "木筏求生全DLC豪华版+联机补丁",
+    "title": "木筏求生",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -46579,7 +46579,7 @@
   },
   {
     "id": "emu-202607-0005",
-    "title": "模拟建筑4",
+    "title": "建筑模拟器4|模拟建筑4",
     "enTitle": "Construction Simulator Pocket Edition",
     "category": "mobile",
     "tags": [],
@@ -46729,7 +46729,7 @@
   },
   {
     "id": "mod-202607-0007",
-    "title": "最后生还者2 重制版",
+    "title": "最后生还者2: |美国末日2",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -46752,7 +46752,7 @@
   },
   {
     "id": "pc-202607-0035",
-    "title": "午夜轮班/Shift",
+    "title": "午夜轮班",
     "enTitle": "Shift At Midnight",
     "category": "pc",
     "tags": [],
@@ -46922,7 +46922,7 @@
   },
   {
     "id": "emu-202607-0006",
-    "title": "奶茶店模拟器 v1.0 中文版",
+    "title": "奶茶店模拟器",
     "enTitle": "Boba Tea Shop Simulator",
     "category": "pc",
     "tags": [
@@ -47000,7 +47000,7 @@
   },
   {
     "id": "pc-202607-0036",
-    "title": "红色沙漠",
+    "title": "红色沙漠- 版",
     "enTitle": "VBS",
     "category": "pc",
     "tags": [],
@@ -47456,7 +47456,7 @@
   },
   {
     "id": "online-202607-0006",
-    "title": "幻兽帕鲁(2)",
+    "title": "幻兽帕鲁",
     "enTitle": "Palworld",
     "category": "online",
     "tags": [
@@ -47553,7 +47553,7 @@
   },
   {
     "id": "pc-202607-0041",
-    "title": "健身房经理",
+    "title": "健身房经理 (Gym Manager)",
     "enTitle": "Gym Manager",
     "category": "pc",
     "tags": [],
@@ -47699,7 +47699,7 @@
   },
   {
     "id": "emu-202607-0007",
-    "title": "超级市场模拟器中文版",
+    "title": "超级市场模拟器|大型超市模拟器",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -47946,7 +47946,7 @@
   },
   {
     "id": "mobile-202607-0003",
-    "title": "口袋妖怪西班牙火箭队 WIN/MAC 四端",
+    "title": "口袋妖怪西班牙火箭队",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -48051,7 +48051,7 @@
   },
   {
     "id": "emu-202607-0008",
-    "title": "水上乐园模拟器解压即玩",
+    "title": "水上乐园模拟器",
     "enTitle": "Waterpark Simulator",
     "category": "pc",
     "tags": [
@@ -48133,7 +48133,7 @@
   },
   {
     "id": "mod-202607-0012",
-    "title": "宝可梦 剑/盾",
+    "title": "口袋妖怪剑盾",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -48155,7 +48155,7 @@
   },
   {
     "id": "pc-202607-0045",
-    "title": "蓝精灵 群落派对",
+    "title": "蓝精灵:群落派对 (The Smurfs – Village Party)",
     "enTitle": "The Smurfs Village Party",
     "category": "pc",
     "tags": [],
@@ -48310,7 +48310,7 @@
   },
   {
     "id": "mod-202607-0013",
-    "title": "恐怖黎明 终极版 全DLC新增DLC阿斯特卡恩之牙赠存档Grim",
+    "title": "恐怖黎明",
     "enTitle": "Dawn Definitive Edition",
     "category": "pc",
     "tags": [
@@ -48413,7 +48413,7 @@
   },
   {
     "id": "pc-202607-0047",
-    "title": "文字规则怪谈",
+    "title": "文字规则怪谈 v4476(Myth of Rules)",
     "enTitle": "Myths of Rules",
     "category": "pc",
     "tags": [],
@@ -48743,7 +48743,7 @@
   },
   {
     "id": "pc-202608-0004",
-    "title": "死亡核心 重制版",
+    "title": "死亡核心",
     "enTitle": "DeadCore Redux",
     "category": "pc",
     "tags": [],
@@ -48824,7 +48824,7 @@
   },
   {
     "id": "emu-202608-0001",
-    "title": "购物中心模拟器Build.21722697Mall Simulator",
+    "title": "购物中心模拟器",
     "enTitle": "Mall Simulator",
     "category": "pc",
     "tags": [
@@ -48985,7 +48985,7 @@
   },
   {
     "id": "pc-202608-0006",
-    "title": "寻找莫西",
+    "title": "寻找莫西 (Finding Mosey)",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -49025,7 +49025,7 @@
   },
   {
     "id": "pc-202608-0008",
-    "title": "死亡空间站2 太空恐怖生存",
+    "title": "死亡空间",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -49204,7 +49204,7 @@
   },
   {
     "id": "pc-202608-0010",
-    "title": "九山 狼之城v20260730Kusan",
+    "title": "九山:狼之城",
     "enTitle": "City of Wolves",
     "category": "pc",
     "tags": [],
@@ -49696,7 +49696,7 @@
   },
   {
     "id": "mod-202608-0002",
-    "title": "背包英雄",
+    "title": "背包英雄 v20240908(Backpack Hero)",
     "enTitle": "",
     "category": "mobile",
     "tags": [
@@ -49758,7 +49758,7 @@
   },
   {
     "id": "emu-202608-0002",
-    "title": "书店模拟器 Build.24319622（Bookshop Simulator）",
+    "title": "书店模拟器",
     "enTitle": "Bookshop Simulator",
     "category": "pc",
     "tags": [
@@ -49874,7 +49874,7 @@
   },
   {
     "id": "pc-202608-0016",
-    "title": "开心小汉堡教派",
+    "title": "快乐汉堡小屋|开心小汉堡教派",
     "enTitle": "Happy's Humble Burger Cult",
     "category": "pc",
     "tags": [],
@@ -49962,7 +49962,7 @@
   },
   {
     "id": "emu-202608-0003",
-    "title": "合作无间",
+    "title": "料理模拟器2|烹饪模拟器2:合作无间",
     "enTitle": "Cooking Simulator Better Together",
     "category": "pc",
     "tags": [
@@ -50004,7 +50004,7 @@
   },
   {
     "id": "pc-202608-0018",
-    "title": "可怕的夜班 待售房屋",
+    "title": "可怕的夜班:代售房屋(Creepy Shift: House For Sale)",
     "enTitle": "Creepy Shift House For Sale",
     "category": "pc",
     "tags": [],
@@ -50077,7 +50077,7 @@
   },
   {
     "id": "pc-202608-0019",
-    "title": "深空梦里人2 逐星之旅",
+    "title": "公民觉醒2:星际航程|深空梦里人2:逐星之旅",
     "enTitle": "Citizen Sleeper Starward Vector",
     "category": "pc",
     "tags": [],
@@ -50520,7 +50520,7 @@
   },
   {
     "id": "pc-202608-0023",
-    "title": "时空勇士LIVE",
+    "title": "时空勇士(LIVE A LIVE)",
     "enTitle": "LIVE",
     "category": "pc",
     "tags": [
@@ -50584,7 +50584,7 @@
   },
   {
     "id": "online-202608-0004",
-    "title": "烤串大厨",
+    "title": "烤肉串模拟器|烤串大厨! 餐厅模拟器",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -51361,7 +51361,7 @@
   },
   {
     "id": "mod-202608-0005",
-    "title": "我在地府打麻将 新增DLC恼热狂欢全DLCDemonic",
+    "title": "我在地府打麻将",
     "enTitle": "Mahjong",
     "category": "pc",
     "tags": [
@@ -51478,7 +51478,7 @@
   },
   {
     "id": "emu-202608-0005",
-    "title": "泳池清洁模拟器Build.24507911Pool Cleaning Simulator",
+    "title": "泳池清洁模拟器",
     "enTitle": "Pool Cleaning Simulator",
     "category": "pc",
     "tags": [
@@ -51571,7 +51571,7 @@
   },
   {
     "id": "pc-202608-0034",
-    "title": "乐高蝙蝠侠黑暗骑士之遗免虚拟机",
+    "title": "乐高蝙蝠侠:黑暗骑士之遗-虚拟机版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -51790,7 +51790,7 @@
   },
   {
     "id": "mod-202608-0006",
-    "title": "紫色晶石支持者版全DLC存档解压即撸",
+    "title": "紫色晶石|石质碎片",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -51973,7 +51973,7 @@
   },
   {
     "id": "mobile-202608-0004",
-    "title": "植物娘大战僵尸 左下角花瓶可打开作弊菜单",
+    "title": "植物娘大战僵尸",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -52370,7 +52370,7 @@
   },
   {
     "id": "pc-202608-0044",
-    "title": "倒带女孩",
+    "title": "倒带女孩 (RewindGirl)",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -52391,7 +52391,7 @@
   },
   {
     "id": "pc-202608-0045",
-    "title": "石河伦吾的朋友们 石川凛吾的伙伴们 / Ishikawa/ 双端",
+    "title": "石河伦吾的朋友们",
     "enTitle": "The friends of Ringo",
     "category": "pc",
     "tags": [],
@@ -52453,7 +52453,7 @@
   },
   {
     "id": "pc-202608-0046",
-    "title": "再转一次/One",
+    "title": "再转一次",
     "enTitle": "More Spin",
     "category": "pc",
     "tags": [],
@@ -52537,7 +52537,7 @@
   },
   {
     "id": "mobile-202608-0007",
-    "title": "魔兽争霸3 冰封王座 手游版",
+    "title": "魔兽争霸3",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -52556,7 +52556,7 @@
   },
   {
     "id": "pc-202608-0048",
-    "title": "塞尔达传说 织梦岛 复刻版",
+    "title": "塞尔达传说:织梦岛",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -52919,7 +52919,7 @@
   },
   {
     "id": "emu-202608-0006",
-    "title": "动物园生活模拟器Build.22641787Zoo Life Simulator",
+    "title": "动物园生活模拟器",
     "enTitle": "Zoo Life Simulator",
     "category": "pc",
     "tags": [
@@ -53051,7 +53051,7 @@
   },
   {
     "id": "online-202608-0009",
-    "title": "我独自升级 起立",
+    "title": "我独自升级:起立 觉醒",
     "enTitle": "Solo Leveling: ARISE OVERDRIVE",
     "category": "online",
     "tags": [
@@ -53218,7 +53218,7 @@
   },
   {
     "id": "pc-202608-0056",
-    "title": "黄金矿工",
+    "title": "黄金矿工 经典版",
     "enTitle": "Gold Miner:Classic Edition",
     "category": "pc",
     "tags": [],
@@ -53398,7 +53398,7 @@
   },
   {
     "id": "pc-202608-0058",
-    "title": "最终幻想7核心危机重聚",
+    "title": "最终幻想7 核心危机",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -53417,7 +53417,7 @@
   },
   {
     "id": "pc-202608-0059",
-    "title": "英雄围城 口袋版 海量货币人物/翅膀/宠物解锁",
+    "title": "英雄围城|攻城英雄",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -53476,7 +53476,7 @@
   },
   {
     "id": "pc-202608-0062",
-    "title": "来自深渊 朝向黑暗的双星",
+    "title": "来自深渊 朝向黑暗的双星 (Made in Abyss Binary Star Falling into Darkness)",
     "enTitle": "Made in Abyss: Binary Star Falling into Darkness",
     "category": "pc",
     "tags": [],
@@ -53553,7 +53553,7 @@
   },
   {
     "id": "pc-202608-0063",
-    "title": "高空海洋 机翼待租",
+    "title": "高空海洋:机翼待租 (Sky Oceans: Wings for Hire)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -53593,7 +53593,7 @@
   },
   {
     "id": "mod-202608-0008",
-    "title": "阿斯特赖亚",
+    "title": "阿斯特赖亚:六面先知",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -53653,7 +53653,7 @@
   },
   {
     "id": "pc-202608-0067",
-    "title": "超级幻想王国 重建王国",
+    "title": "超级幻想王国",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -53672,7 +53672,7 @@
   },
   {
     "id": "online-202608-0011",
-    "title": "破晓之墟/Ruins",
+    "title": "破晓之墟",
     "enTitle": "Ruins of Dawn",
     "category": "online",
     "tags": [
@@ -53755,7 +53755,7 @@
   },
   {
     "id": "emu-202608-0007",
-    "title": "小小模拟世界/Little",
+    "title": "小小模拟世界",
     "enTitle": "Sim World",
     "category": "pc",
     "tags": [],
@@ -53998,7 +53998,7 @@
   },
   {
     "id": "pc-202608-0070",
-    "title": "爆斗陀螺",
+    "title": "爆斗陀螺|旋刃陀螺",
     "enTitle": "Slayblade",
     "category": "pc",
     "tags": [],
@@ -54151,7 +54151,7 @@
   },
   {
     "id": "pc-202608-0071",
-    "title": "房产达人重制版合集",
+    "title": "房产达人: 合集|房产达人 重制收藏版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -54170,7 +54170,7 @@
   },
   {
     "id": "pc-202608-0072",
-    "title": "鲜花与众神Build.24763380官方中文",
+    "title": "鲜花与众神",
     "enTitle": "Flowers and Deities",
     "category": "pc",
     "tags": [],
@@ -54251,7 +54251,7 @@
   },
   {
     "id": "online-202608-0012",
-    "title": "渔力全开/How to Fish/单机+联机 Build.24847095",
+    "title": "渔力全开",
     "enTitle": "How to Fish",
     "category": "online",
     "tags": [],
@@ -54325,7 +54325,7 @@
   },
   {
     "id": "pc-202608-0073",
-    "title": "奇异动物园 Build.24864714（Strange Zoo）",
+    "title": "奇异动物园",
     "enTitle": "Strange Zoo",
     "category": "pc",
     "tags": [],
@@ -54401,7 +54401,7 @@
   },
   {
     "id": "pc-202608-0074",
-    "title": "大侠狂想曲 Build.24887599",
+    "title": "大侠狂想曲",
     "enTitle": "大侠狂想曲",
     "category": "pc",
     "tags": [],
@@ -54607,7 +54607,7 @@
   },
   {
     "id": "pc-202608-0078",
-    "title": "植物大战僵尸：重植版v1.5.1469.0赠存档 Plants vs. Zombies: Replanted",
+    "title": "植物大战僵尸:重植版",
     "enTitle": "Plants vs. Zombies™: Replanted",
     "category": "pc",
     "tags": [],
@@ -54684,7 +54684,7 @@
   },
   {
     "id": "pc-202608-0079",
-    "title": "亚洲家长的上学之路/How Asian Parents went to School",
+    "title": "亚洲家长的上学之路",
     "enTitle": "How Asian Parents went to School",
     "category": "pc",
     "tags": [],
@@ -54863,7 +54863,7 @@
   },
   {
     "id": "pc-202608-0082",
-    "title": "热血西游记：天竺奇谭 完整豪华版全DLC内置金手指",
+    "title": "热血西游记 天竺奇谭",
     "enTitle": "River City Saga: Journey to the West",
     "category": "pc",
     "tags": [],
@@ -55046,7 +55046,7 @@
   },
   {
     "id": "pc-202608-0085",
-    "title": "世界光环 Build.24950581（Aura of Worlds）",
+    "title": "世界光环",
     "enTitle": "Aura of Worlds",
     "category": "pc",
     "tags": [],
@@ -55123,7 +55123,7 @@
   },
   {
     "id": "pc-202608-0086",
-    "title": "制作我的三明治 Build.24205861（Make my Sandwich）",
+    "title": "制作我的三明治",
     "enTitle": "Make my Sandwich",
     "category": "pc",
     "tags": [],
@@ -55200,7 +55200,7 @@
   },
   {
     "id": "pc-202608-0087",
-    "title": "驾驶拉力赛 Build.24837351（DRIVE Rally）",
+    "title": "驾驶拉力赛 (DRIVE Rally)",
     "enTitle": "#DRIVE Rally",
     "category": "pc",
     "tags": [],
@@ -55290,7 +55290,7 @@
   },
   {
     "id": "pc-202608-0088",
-    "title": "数独庄园 v1.1.1（Sudoku Mansion）",
+    "title": "数独庄园",
     "enTitle": "Sudoku Mansion",
     "category": "pc",
     "tags": [],
@@ -55446,7 +55446,7 @@
   },
   {
     "id": "pc-202608-0089",
-    "title": "度假岛模拟器/Resort Island Simulator",
+    "title": "度假岛模拟器",
     "enTitle": "Resort Island Simulator",
     "category": "pc",
     "tags": [],
@@ -55535,7 +55535,7 @@
   },
   {
     "id": "pc-202608-0090",
-    "title": "勇闯死人谷黑暗之日豪华版",
+    "title": "勇闯死人谷:暗黑之日",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -55573,7 +55573,7 @@
   },
   {
     "id": "pc-202608-0092",
-    "title": "山上那个猴儿 v1.0.42",
+    "title": "山上那个猴儿",
     "enTitle": "山上那个猴儿",
     "category": "pc",
     "tags": [],
@@ -55725,7 +55725,7 @@
   },
   {
     "id": "pc-202608-0093",
-    "title": "将军：古典时代Build.24786056Strategos",
+    "title": "将军:古典时代",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -55744,7 +55744,7 @@
   },
   {
     "id": "pc-202608-0094",
-    "title": "银河旅店银河酒店v0.6.9Hotel Galactic",
+    "title": "银河旅店|银河酒店",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -55763,7 +55763,7 @@
   },
   {
     "id": "pc-202608-0095",
-    "title": "全面战争：法老 王朝版 v2.1.6 中文版 打包X",
+    "title": "全面战争:法老 王朝版",
     "enTitle": "Total War: PHARAOH DYNASTIES",
     "category": "pc",
     "tags": [
@@ -55944,7 +55944,7 @@
   },
   {
     "id": "pc-202609-0002",
-    "title": "宝可梦传说ZA v1.01免安装版",
+    "title": "宝可梦传说ZA",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -55963,7 +55963,7 @@
   },
   {
     "id": "pc-202609-0003",
-    "title": "三国群英传8_Build.10012892_Kingdom Heroes 8",
+    "title": "三国群英传8",
     "enTitle": "Kingdom Heroes 8",
     "category": "pc",
     "tags": [],
@@ -56051,7 +56051,7 @@
   },
   {
     "id": "pc-202609-0004",
-    "title": "书呆子模拟器 Build.24589484（Nerd Simulator）",
+    "title": "书呆子模拟器",
     "enTitle": "Nerd Simulator",
     "category": "pc",
     "tags": [],
@@ -56142,7 +56142,7 @@
   },
   {
     "id": "pc-202609-0005",
-    "title": "不正经的卡牌传说 v1.6.4（Fickle Card Legend）",
+    "title": "不正经的卡牌传说",
     "enTitle": "Fickle Card Legend",
     "category": "pc",
     "tags": [],
@@ -56218,7 +56218,7 @@
   },
   {
     "id": "pc-202609-0006",
-    "title": "古墓丽影三部曲：重制版 古墓丽影1-3 重制版/Tomb Raider I-III Remastered Starring Lara Croft Build.24070874",
+    "title": "古墓丽影三部曲: v20241104(Tomb Raider I-III Remastered Starring Lara Croft)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -56336,7 +56336,7 @@
   },
   {
     "id": "pc-202609-0008",
-    "title": "包裹混乱 Build.24944281（Package chaos）",
+    "title": "包裹混乱",
     "enTitle": "Package chaos",
     "category": "pc",
     "tags": [],
@@ -56410,7 +56410,7 @@
   },
   {
     "id": "online-202609-0001",
-    "title": "汽车销售模拟器2023 二手车买卖模拟器 汽车买卖模拟器2023 Build.25037305 单机+联机（Car For Sale Simulator 2023）",
+    "title": "汽车销售模拟器2023|二手车买卖模拟器|汽车买卖模拟器2023",
     "enTitle": "Car For Sale Simulator 2023 Demo",
     "category": "online",
     "tags": [],
@@ -56454,7 +56454,7 @@
   },
   {
     "id": "pc-202609-0009",
-    "title": "火柴人战壕 /Stickman Trenches Build.24783128",
+    "title": "火柴人战壕",
     "enTitle": "Stickman Trenches",
     "category": "pc",
     "tags": [],
@@ -56524,7 +56524,7 @@
   },
   {
     "id": "pc-202609-0010",
-    "title": "地府有点忙 /Reap and Rush v1.0082804",
+    "title": "地府有点忙",
     "enTitle": "Reap and Rush",
     "category": "pc",
     "tags": [],
@@ -56607,7 +56607,7 @@
   },
   {
     "id": "pc-202609-0011",
-    "title": "密室逃脱模拟器2 v20029R 中文版 解压即玩",
+    "title": "密室逃脱模拟器2",
     "enTitle": "Escape Simulator 2",
     "category": "pc",
     "tags": [],
@@ -56689,7 +56689,7 @@
   },
   {
     "id": "pc-202609-0012",
-    "title": "刺客信条:幻景 豪华版+DLC 中文简体",
+    "title": "刺客信条:幻景",
     "enTitle": "Assassin's Creed Mirage",
     "category": "pc",
     "tags": [
@@ -56778,7 +56778,7 @@
   },
   {
     "id": "online-202609-0002",
-    "title": "战锤40K：暗潮 v1.10.5329.0 中文联机",
+    "title": "战锤40K 暗潮",
     "enTitle": "Warhammer 40,000: Darktide",
     "category": "online",
     "tags": [],
@@ -56862,7 +56862,7 @@
   },
   {
     "id": "pc-202609-0013",
-    "title": "加班：夜间巡逻/Overtime : Patrol",
+    "title": "加班:夜间巡逻",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -56881,7 +56881,7 @@
   },
   {
     "id": "pc-202609-0014",
-    "title": "极速跑者2：速度之王/SpeedRunners 2: King of Speed",
+    "title": "极速跑者2:速度之王",
     "enTitle": "SpeedRunners 2: King of Speed",
     "category": "pc",
     "tags": [],
@@ -57447,7 +57447,7 @@
   },
   {
     "id": "pc-202609-0020",
-    "title": "霜雪列车2",
+    "title": "霜雪列车2|霜轨:Frostrain 2",
     "enTitle": "Frostrain 2",
     "category": "pc",
     "tags": [
@@ -57529,7 +57529,7 @@
   },
   {
     "id": "pc-202609-0021",
-    "title": "铁尾传奇2：凛冬之战",
+    "title": "钢铁之尾2:冬之须|铁尾传奇2:凛冬之战",
     "enTitle": "Tails of Iron 2: Whiskers of Winter",
     "category": "pc",
     "tags": [
@@ -57891,7 +57891,7 @@
   },
   {
     "id": "pc-202609-0024",
-    "title": "德拉加传说v2.1.1 Legends of Dragaea: Idle Dungeons",
+    "title": "德拉加传说|德拉盖亚传说:放置地牢",
     "enTitle": "Legends of Dragaea: Idle Dungeons",
     "category": "pc",
     "tags": [],
@@ -57983,7 +57983,7 @@
   },
   {
     "id": "online-202609-0003",
-    "title": "我的英雄学院 无尽正义/MY HERO ACADEMIA All's Justice/单机+联机 v4.00 Build.24120091",
+    "title": "我的英雄学院 无尽正义",
     "enTitle": "",
     "category": "online",
     "tags": [],
@@ -58002,7 +58002,7 @@
   },
   {
     "id": "pc-202609-0025",
-    "title": "海狸浮生记/ Timberborn v1.1.2.4",
+    "title": "海狸浮生记",
     "enTitle": "Timberborn",
     "category": "pc",
     "tags": [],
@@ -58091,7 +58091,7 @@
   },
   {
     "id": "pc-202609-0026",
-    "title": "女神异闻录3-解压即玩版/ Reload Build.22672075 全DLC",
+    "title": "女神异闻录3- 版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -58171,7 +58171,7 @@
   },
   {
     "id": "pc-202609-0028",
-    "title": "礼帽大乱斗中文版解压即玩",
+    "title": "礼帽大乱斗",
     "enTitle": "A Gentlemen's Dispute",
     "category": "pc",
     "tags": [],
@@ -58263,7 +58263,7 @@
   },
   {
     "id": "pc-202609-0030",
-    "title": "荒野大镖客：救赎PC纯净版",
+    "title": "荒野大镖客:救赎",
     "enTitle": "Red Dead Redemption",
     "category": "pc",
     "tags": [],
@@ -58346,7 +58346,7 @@
   },
   {
     "id": "pc-202609-0031",
-    "title": "车库翻新大师中文版",
+    "title": "车库翻新大师 (Garage Flipper)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -58366,7 +58366,7 @@
   },
   {
     "id": "pc-202609-0032",
-    "title": "黎明行者之血/ The Blood of Dawnwalker v1.0.1 Build.25014996",
+    "title": "黎明行者之血",
     "enTitle": "The Blood of Dawnwalker",
     "category": "pc",
     "tags": [],
@@ -58452,7 +58452,7 @@
   },
   {
     "id": "pc-202609-0033",
-    "title": "豪猪镇之秋v1.3.3中文版",
+    "title": "豪猪镇之秋 (Fall of Porcupine)",
     "enTitle": "Fall of Porcupine",
     "category": "pc",
     "tags": [],
@@ -58540,7 +58540,7 @@
   },
   {
     "id": "pc-202609-0034",
-    "title": "孤岛惊魂5 v1.016 解压即玩",
+    "title": "孤岛惊魂5",
     "enTitle": "非凡仙途",
     "category": "pc",
     "tags": [],
@@ -58625,7 +58625,7 @@
   },
   {
     "id": "pc-202609-0035",
-    "title": "妖精的尾巴：地下迷城 v1.2.12 中文版",
+    "title": "妖精的尾巴:地下迷城",
     "enTitle": "FAIRY TAIL: DUNGEONS",
     "category": "pc",
     "tags": [],
@@ -58711,7 +58711,7 @@
   },
   {
     "id": "pc-202609-0036",
-    "title": "忍者神龟 斯普林特的命运 V2.0.3+4DLC",
+    "title": "忍者神龟 斯普林特的命运|忍者神龟:破碎命运",
     "enTitle": "TMNT: Splintered Fate - Slash",
     "category": "pc",
     "tags": [],
@@ -58778,7 +58778,7 @@
   },
   {
     "id": "pc-202609-0037",
-    "title": "纸嫁衣2：奘铃村 v1.0.4（Paper Bride 2 Zangling Village）",
+    "title": "纸嫁衣2奘铃村",
     "enTitle": "Paper Bride 2 Zangling Village",
     "category": "pc",
     "tags": [],
@@ -58861,7 +58861,7 @@
   },
   {
     "id": "pc-202609-0038",
-    "title": "水浒英雄传：八幕战役 v1.8",
+    "title": "水浒英雄传:八幕战役",
     "enTitle": "水浒英雄传：八幕战役",
     "category": "pc",
     "tags": [],
@@ -58929,7 +58929,7 @@
   },
   {
     "id": "pc-202609-0039",
-    "title": "大跳跃：同乐Build.25046464Big Hops Together",
+    "title": "超级规格拉力赛车 (SuperSpec Rallycross)",
     "enTitle": "SuperSpec Rallycross",
     "category": "pc",
     "tags": [],
@@ -59054,7 +59054,7 @@
   },
   {
     "id": "pc-202609-0041",
-    "title": "幻想大陆战记：卢纳基亚传说v1.02",
+    "title": "幻想大陆战记:露纳希亚战记|幻想大陆战记:卢纳基亚传说",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -59074,7 +59074,7 @@
   },
   {
     "id": "pc-202609-0042",
-    "title": "勒芒终极赛豪华中文版全DLC",
+    "title": "勒芒终极赛",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -59094,7 +59094,7 @@
   },
   {
     "id": "pc-202609-0043",
-    "title": "食魂徒：蓝色圣殇中文版",
+    "title": "食魂徒:蓝色圣殇",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -59114,7 +59114,7 @@
   },
   {
     "id": "pc-202609-0044",
-    "title": "万物皆可蟹：动物进化v1.0.1解压即玩",
+    "title": "万物皆可蟹:动物进化",
     "enTitle": "Everything is Crab: The Animal Evolution Roguelite",
     "category": "pc",
     "tags": [],
@@ -59218,7 +59218,7 @@
   },
   {
     "id": "pc-202609-0046",
-    "title": "终落之城：海上末日生存建造",
+    "title": "终落之城",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -59242,7 +59242,7 @@
   },
   {
     "id": "pc-202609-0047",
-    "title": "终结之日 v1.4.15内置菜单",
+    "title": "武器之神",
     "enTitle": "God Of Weapons",
     "category": "pc",
     "tags": [],
@@ -59320,7 +59320,7 @@
   },
   {
     "id": "pc-202609-0048",
-    "title": "奥日2：精灵与萤火意志中文版",
+    "title": "奥日2:精灵与萤火意志 and the Will of the Wisps)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -59380,7 +59380,7 @@
   },
   {
     "id": "mod-202609-0001",
-    "title": "月光光心慌慌恐怖万圣夜v1.0.1.69707附联机补丁 Halloween: The Game",
+    "title": "恐怖万圣夜|月光光心慌慌",
     "enTitle": "Halloween: The Game",
     "category": "mod",
     "tags": [],
@@ -59468,7 +59468,7 @@
   },
   {
     "id": "pc-202609-0051",
-    "title": "半场经理/HALFTIME Manager",
+    "title": "半场经理",
     "enTitle": "HALFTIME Manager",
     "category": "pc",
     "tags": [],
@@ -59561,7 +59561,7 @@
   },
   {
     "id": "pc-202609-0052",
-    "title": "电子仓库模拟器/Electronics Depot Simulator",
+    "title": "电子仓库模拟器",
     "enTitle": "Electronics Depot Simulator",
     "category": "pc",
     "tags": [],
@@ -59636,7 +59636,7 @@
   },
   {
     "id": "pc-202609-0053",
-    "title": "纸嫁衣1/Paper Bride 1",
+    "title": "纸嫁衣1",
     "enTitle": "Paper Bride",
     "category": "pc",
     "tags": [],
@@ -59715,7 +59715,7 @@
   },
   {
     "id": "pc-202609-0054",
-    "title": "纸嫁衣5：来生戏/Paper Bride 5 Two Lifetimes v1.0.3",
+    "title": "纸嫁衣5:来生戏",
     "enTitle": "Paper Bride 5 Two Lifetimes",
     "category": "pc",
     "tags": [],
@@ -59796,7 +59796,7 @@
   },
   {
     "id": "pc-202609-0055",
-    "title": "穿书志：倪帝蔷决定去死 ****/Novel**** Forger: Suicide Mr. Fury Build.25160145",
+    "title": "穿书志:倪帝蔷决定去死",
     "enTitle": "Novel Forger: Suicide Mr. Fury",
     "category": "pc",
     "tags": [],
@@ -59893,7 +59893,7 @@
   },
   {
     "id": "pc-202609-0057",
-    "title": "怪物商店模拟器 V20260910",
+    "title": "怪物商店模拟器",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -59913,7 +59913,7 @@
   },
   {
     "id": "pc-202609-0058",
-    "title": "赛博骑士：闪点行动 V20260910",
+    "title": "赛博骑士:闪点行动",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -59953,7 +59953,7 @@
   },
   {
     "id": "pc-202609-0060",
-    "title": "动漫商店模拟器/Anime Shop Simulator",
+    "title": "动漫商店模拟器",
     "enTitle": "Anime Shop Simulator ✨",
     "category": "pc",
     "tags": [],
@@ -60032,7 +60032,7 @@
   },
   {
     "id": "pc-202609-0061",
-    "title": "造化仙缘 v0.13.35 （Destiny of Immortal）",
+    "title": "造化仙缘",
     "enTitle": "Destiny of Immortal",
     "category": "pc",
     "tags": [],
@@ -60121,7 +60121,7 @@
   },
   {
     "id": "pc-202609-0062",
-    "title": "慢吞吞的恢复 Build.25211215（Plodding Recovery）",
+    "title": "慢吞吞的恢复",
     "enTitle": "Plodding Recovery",
     "category": "pc",
     "tags": [],
@@ -60192,7 +60192,7 @@
   },
   {
     "id": "pc-202609-0063",
-    "title": "我的梦想卧室 Build.25096547 全DLC（My Dream Setup）",
+    "title": "我的梦想卧室",
     "enTitle": "My Dream Setup",
     "category": "pc",
     "tags": [],
@@ -60271,7 +60271,7 @@
   },
   {
     "id": "pc-202609-0064",
-    "title": "NBA 2K27 Build.25221291",
+    "title": "NBA 2K27",
     "enTitle": "NBA 2K27",
     "category": "pc",
     "tags": [],
@@ -60352,7 +60352,7 @@
   },
   {
     "id": "pc-202609-0065",
-    "title": "第九行星/Planet Nine Build.25202325",
+    "title": "第九行星",
     "enTitle": "Planet Nine",
     "category": "pc",
     "tags": [],
@@ -60441,7 +60441,7 @@
   },
   {
     "id": "pc-202609-0067",
-    "title": "桌上谈兵v0.6.11中文解压即玩",
+    "title": "桌上谈兵",
     "enTitle": "Tabletop Tavern",
     "category": "pc",
     "tags": [],
@@ -60601,7 +60601,7 @@
   },
   {
     "id": "pc-202609-0069",
-    "title": "女神异闻录4：黄金版/PERSONA4 The G",
+    "title": "女神异闻录4:黄金版",
     "enTitle": "Persona 4 Golden",
     "category": "pc",
     "tags": [],
@@ -60702,7 +60702,7 @@
   },
   {
     "id": "pc-202609-0071",
-    "title": "鲁尼克大冒险：不可思议迷宫 经典 HD重制版_解压即",
+    "title": "鲁尼克大冒险:不可思议迷宫 经典 HD",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -60770,7 +60770,7 @@
   },
   {
     "id": "pc-202609-0073",
-    "title": "植物大战僵尸杂交版(重制版) 0.10.5性能版.zip",
+    "title": "植物大战僵尸杂交版",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -60794,7 +60794,7 @@
   },
   {
     "id": "pc-202609-0074",
-    "title": "宝石少女2nd中文版",
+    "title": "宝石少女 2nd.cut:For the Exquisite Attire",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -60834,7 +60834,7 @@
   },
   {
     "id": "pc-202609-0076",
-    "title": "最终幻想战略版 伊瓦利斯编年史 v1.5.2 豪华版",
+    "title": "最终幻想战略版 伊瓦利斯编年史|最终幻想战略版 伊瓦利斯战记-虚拟机版",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -60874,7 +60874,7 @@
   },
   {
     "id": "pc-202609-0078",
-    "title": "电器维修模拟工坊中文版",
+    "title": "电器维修模拟工坊",
     "enTitle": "ElectroFix Simulator",
     "category": "pc",
     "tags": [
@@ -61026,7 +61026,7 @@
   },
   {
     "id": "pc-202609-0079",
-    "title": "封神演义之黄飞虎归周 /CREATION OF THE GODS Rebellion at Five Passes v1.2.0",
+    "title": "封神演义之黄飞虎归周",
     "enTitle": "CREATION OF THE GODS: Rebellion at Five Passes",
     "category": "pc",
     "tags": [],
@@ -61105,7 +61105,7 @@
   },
   {
     "id": "online-202609-0004",
-    "title": "超市大混乱 /Supermarket Chaos/单机+联机 v1.2.4",
+    "title": "超市大混乱",
     "enTitle": "Supermarket Chaos",
     "category": "online",
     "tags": [],
@@ -61226,7 +61226,7 @@
   },
   {
     "id": "pc-202609-0082",
-    "title": "汉堡轮班：团队冲刺v1.0 Burger Shift: Team Rush",
+    "title": "汉堡轮班:团队冲刺",
     "enTitle": "Burger Shift: Team Rush",
     "category": "pc",
     "tags": [],
@@ -61306,7 +61306,7 @@
   },
   {
     "id": "pc-202609-0083",
-    "title": "鬼屋重现重返凶宅v1.3.5 Rehaunted",
+    "title": "鬼屋重现",
     "enTitle": "Rehaunted",
     "category": "pc",
     "tags": [],
@@ -61386,7 +61386,7 @@
   },
   {
     "id": "pc-202609-0084",
-    "title": "调酒师模拟器/Mixed Spirits Bartender Build.25313722",
+    "title": "调酒师模拟器",
     "enTitle": "Mixed Spirits: Bartender",
     "category": "pc",
     "tags": [],
@@ -61498,7 +61498,7 @@
   },
   {
     "id": "pc-202609-0085",
-    "title": "行会1重制版：欧洲1410v0.4.0中文版",
+    "title": "行会1 :欧洲1410",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -61518,7 +61518,7 @@
   },
   {
     "id": "pc-202609-0086",
-    "title": "像素世界杯足球赛v1b630复古竞技",
+    "title": "像素世界杯足球赛",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -61538,7 +61538,7 @@
   },
   {
     "id": "online-202609-0005",
-    "title": "英雄萨姆：破碎宇宙 v1.0.2 联机中文版",
+    "title": "英雄萨姆:破碎宇宙",
     "enTitle": "Serious Sam: Shatterverse",
     "category": "online",
     "tags": [],
@@ -61626,7 +61626,7 @@
   },
   {
     "id": "pc-202609-0087",
-    "title": "生肖纪 鸡哥和他的朋友们/Rooster Build.25256124",
+    "title": "生肖纪 鸡哥和他的朋友们",
     "enTitle": "Rooster",
     "category": "pc",
     "tags": [],
@@ -61694,7 +61694,7 @@
   },
   {
     "id": "pc-202609-0088",
-    "title": "警察局长模拟器/Police Chief Simulator Build.25370256",
+    "title": "警察局长模拟器",
     "enTitle": "Police Chief Simulator",
     "category": "pc",
     "tags": [],
@@ -61766,7 +61766,7 @@
   },
   {
     "id": "pc-202609-0089",
-    "title": "沙丘：觉醒 /Dune: Awakening v1.5.3.0",
+    "title": "沙丘:觉醒",
     "enTitle": "Dune: Awakening",
     "category": "pc",
     "tags": [],
@@ -61883,7 +61883,7 @@
   },
   {
     "id": "pc-202609-0090",
-    "title": "罗马与征服 Build.11003358（Grand War Rome）",
+    "title": "罗马与征服",
     "enTitle": "Grand War: Rome",
     "category": "pc",
     "tags": [],
@@ -61964,7 +61964,7 @@
   },
   {
     "id": "pc-202609-0091",
-    "title": "血色兄弟：黑色一号 黑色一号：血盟兄弟 Build.25295517（Black One Blood Brothers）",
+    "title": "血色兄弟:黑色一号 |黑色一号:血盟兄弟",
     "enTitle": "Black One Blood Brothers",
     "category": "pc",
     "tags": [],
@@ -62062,7 +62062,7 @@
   },
   {
     "id": "pc-202609-0092",
-    "title": "1666：阿姆斯特丹 Build.25240120（1666 Amsterdam）",
+    "title": "1666:阿姆斯特丹",
     "enTitle": "1666: Amsterdam",
     "category": "pc",
     "tags": [],
@@ -62158,7 +62158,7 @@
   },
   {
     "id": "pc-202609-0093",
-    "title": "索拉丽斯炼成计划 Build.25420471（Project Solaris）",
+    "title": "索拉丽斯炼成计划",
     "enTitle": "Project Solaris",
     "category": "pc",
     "tags": [],
@@ -62231,7 +62231,7 @@
   },
   {
     "id": "online-202609-0006",
-    "title": "沉没之地 单机+联机 Build.25385032 （Sunkenland）",
+    "title": "沉没之地",
     "enTitle": "Sunkenland",
     "category": "online",
     "tags": [],
@@ -62325,7 +62325,7 @@
   },
   {
     "id": "pc-202609-0094",
-    "title": "终末机兵正式版解压即玩",
+    "title": "终末机兵",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62345,7 +62345,7 @@
   },
   {
     "id": "pc-202609-0095",
-    "title": "口袋汽车v1.0中文版",
+    "title": "口袋汽车",
     "enTitle": "",
     "category": "pc",
     "tags": [
@@ -62389,7 +62389,7 @@
   },
   {
     "id": "mod-202609-0003",
-    "title": "怪物猎人物语2：毁灭之翼v1.6.1全 DLC",
+    "title": "怪物猎人物语2:毁灭之翼",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62409,7 +62409,7 @@
   },
   {
     "id": "pc-202609-0097",
-    "title": "FIFA 20中文版免安装",
+    "title": "国际足球大联盟20",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62429,7 +62429,7 @@
   },
   {
     "id": "online-202609-0007",
-    "title": "向彩虹致敬v1.08中文版解压即玩",
+    "title": "向彩虹致敬",
     "enTitle": "",
     "category": "online",
     "tags": [],
@@ -62509,7 +62509,7 @@
   },
   {
     "id": "pc-202609-0101",
-    "title": "异种航员2：冷战科幻策略",
+    "title": "异种航员2",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62549,7 +62549,7 @@
   },
   {
     "id": "pc-202610-0002",
-    "title": "架空地图模拟器v2024中文版",
+    "title": "架空地图模拟器 v20250320(Fantasy Map Simulator)",
     "enTitle": "Fantasy Map Simulator",
     "category": "pc",
     "tags": [],
@@ -62652,7 +62652,7 @@
   },
   {
     "id": "pc-202610-0004",
-    "title": "温馨田园 Build.25235784（Cozy Country）",
+    "title": "温馨田园",
     "enTitle": "Cozy Country",
     "category": "pc",
     "tags": [],
@@ -62858,7 +62858,7 @@
   },
   {
     "id": "pc-202610-0009",
-    "title": "死亡迪斯科：霓虹节奏格斗",
+    "title": "死亡迪斯科|亡命迪斯科",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62898,7 +62898,7 @@
   },
   {
     "id": "pc-202610-0011",
-    "title": "颂钟长鸣：中世纪领地建造生存",
+    "title": "颂钟长鸣",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62938,7 +62938,7 @@
   },
   {
     "id": "pc-202610-0013",
-    "title": "最远的边陲：硬核中世纪城建",
+    "title": "最远的边陲|遥远的边陲 (Farthest Frontier)",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -62978,7 +62978,7 @@
   },
   {
     "id": "pc-202610-0015",
-    "title": "猫猫特工队：代号伍 Build.25672866（SpyCat Codename Wu）",
+    "title": "猫猫特工队:代号伍",
     "enTitle": "SpyCat: Codename Wu",
     "category": "pc",
     "tags": [],
@@ -63073,7 +63073,7 @@
   },
   {
     "id": "pc-202610-0016",
-    "title": "农夫王朝2/Farmer'sDynasty2Build.24986028",
+    "title": "农夫王朝2",
     "enTitle": "Farmer's Dynasty 2",
     "category": "pc",
     "tags": [],
@@ -63161,7 +63161,7 @@
   },
   {
     "id": "pc-202610-0017",
-    "title": "牛来了！/TheLongGrazeBuild.25618441",
+    "title": "牛来了!",
     "enTitle": "The Long Graze",
     "category": "pc",
     "tags": [],
@@ -63231,7 +63231,7 @@
   },
   {
     "id": "pc-202610-0018",
-    "title": "桌面宠物/DesktopPetProjectBuild.12629150",
+    "title": "桌面宠物",
     "enTitle": "Little LUMI Model",
     "category": "pc",
     "tags": [],
@@ -63446,7 +63446,7 @@
   },
   {
     "id": "pc-202610-0021",
-    "title": "云梦奇谭 Build.25704294（Legends of Immortality）",
+    "title": "云梦奇谭",
     "enTitle": "Legends of Immortality",
     "category": "pc",
     "tags": [],
@@ -63530,7 +63530,7 @@
   },
   {
     "id": "pc-202610-0022",
-    "title": "龙与地下城：无冬之夜2增强版 v1.130（Dungeons and Dragons Neverwinter Nights 2 Enhanced Edition）",
+    "title": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
     "enTitle": "Dungeons & Dragons Neverwinter Nights 2: Enhanced Edition",
     "category": "pc",
     "tags": [],
@@ -63614,7 +63614,7 @@
   },
   {
     "id": "online-202610-0001",
-    "title": "火鹰FPV：无人机战争模拟器 Build.24056343（Firehawk FPV Drone Warfare Simulator）",
+    "title": "火鹰FPV:无人机战争模拟器",
     "enTitle": "",
     "category": "online",
     "tags": [
@@ -63638,7 +63638,7 @@
   },
   {
     "id": "pc-202610-0023",
-    "title": "王国保卫战6：新启程 v1.01.008（Kingdom Rush 6 Genesis TD）",
+    "title": "王国保卫战6:新启程",
     "enTitle": "Kingdom Rush 6: Genesis TD",
     "category": "pc",
     "tags": [],
@@ -63798,7 +63798,7 @@
   },
   {
     "id": "pc-202610-0025",
-    "title": "恶土小队 v2026.4.21 中文版",
+    "title": "恶土小队",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -63818,7 +63818,7 @@
   },
   {
     "id": "online-202610-0002",
-    "title": "PEAK联机版 v2.6.A解压即玩",
+    "title": "巅峰|登顶",
     "enTitle": "PEAK",
     "category": "online",
     "tags": [],
@@ -63904,7 +63904,7 @@
   },
   {
     "id": "pc-202610-0026",
-    "title": "零食入侵者/Snack Invaders",
+    "title": "零食入侵者",
     "enTitle": "Snack Invaders",
     "category": "pc",
     "tags": [],
@@ -63992,7 +63992,7 @@
   },
   {
     "id": "pc-202610-0027",
-    "title": "龙餐厅 Build.25730891（Dragon Dinner）",
+    "title": "龙餐厅",
     "enTitle": "Dragon Dinner",
     "category": "pc",
     "tags": [],
@@ -64072,7 +64072,7 @@
   },
   {
     "id": "pc-202610-0028",
-    "title": "机多财广 Build.25804728（More Slots More Money）",
+    "title": "机多财广",
     "enTitle": "More Slots More Money",
     "category": "pc",
     "tags": [],
@@ -64143,7 +64143,7 @@
   },
   {
     "id": "online-202610-0003",
-    "title": "大步走 单机+联机 v1.6.0/Big Walk",
+    "title": "大步走",
     "enTitle": "",
     "category": "online",
     "tags": [],
@@ -64163,7 +64163,7 @@
   },
   {
     "id": "pc-202610-0029",
-    "title": "像素修仙录/Pixel Cultivation Chronicles Build.25796766",
+    "title": "像素修仙录",
     "enTitle": "Pixel Cultivation Chronicles",
     "category": "pc",
     "tags": [],
@@ -64255,7 +64255,7 @@
   },
   {
     "id": "pc-202610-0030",
-    "title": "凯特尼斯环游世界Build.25716934 Catniss around the world",
+    "title": "凯特尼斯环游世界",
     "enTitle": "Catniss around the world",
     "category": "pc",
     "tags": [],
@@ -64335,7 +64335,7 @@
   },
   {
     "id": "pc-202610-0031",
-    "title": "枯瑟信仰：放逐者Build.18001626Bleak Faith: Forsaken",
+    "title": "枯瑟信仰:放逐者 v20250406(Bleak Faith: Forsaken)",
     "enTitle": "Bleak Faith: Forsaken",
     "category": "pc",
     "tags": [],
@@ -64407,7 +64407,7 @@
   },
   {
     "id": "online-202610-0004",
-    "title": "巫塔战记豪华中文联机版",
+    "title": "巫塔战记",
     "enTitle": "",
     "category": "online",
     "tags": [],
@@ -64427,7 +64427,7 @@
   },
   {
     "id": "pc-202610-0032",
-    "title": "秦殇/Prince of Qin v1.30",
+    "title": "秦殇",
     "enTitle": "秦殇 (Prince of Qin)",
     "category": "pc",
     "tags": [],
@@ -64499,7 +64499,7 @@
   },
   {
     "id": "pc-202610-0033",
-    "title": "时光之帽/A Hat in Time Build.25577316 全DLC",
+    "title": "时光之帽",
     "enTitle": "A Hat in Time",
     "category": "pc",
     "tags": [],
@@ -64588,7 +64588,7 @@
   },
   {
     "id": "pc-202610-0034",
-    "title": "沉星之序/Order of the Sinking Star Build.25805446",
+    "title": "沉星之序",
     "enTitle": "Order of the Sinking Star",
     "category": "pc",
     "tags": [],
@@ -64679,7 +64679,7 @@
   },
   {
     "id": "pc-202610-0035",
-    "title": "再浇亿点/Keep Watering Build.25805879",
+    "title": "再浇亿点",
     "enTitle": "Keep Watering",
     "category": "pc",
     "tags": [],
@@ -64751,7 +64751,7 @@
   },
   {
     "id": "mobile-202610-0001",
-    "title": "可口的披萨 美味的披萨 v5.59.0 全DLC PC/手机双端（Good Pizza, Great Pizza）",
+    "title": "可口的披萨 |美味的披萨",
     "enTitle": "Good Pizza, Great Pizza - Cooking Simulator Game",
     "category": "mobile",
     "tags": [],
@@ -64841,7 +64841,7 @@
   },
   {
     "id": "pc-202610-0036",
-    "title": "雪地度假村模拟器 Build.25828863（Snow Resort Simulator）",
+    "title": "雪地度假村模拟器",
     "enTitle": "Snow Resort Simulator",
     "category": "pc",
     "tags": [],
@@ -64927,7 +64927,7 @@
   },
   {
     "id": "pc-202610-0037",
-    "title": "停车场大亨/Car Park Capital",
+    "title": "停车场大亨",
     "enTitle": "Car Park Capital",
     "category": "pc",
     "tags": [],
@@ -65012,7 +65012,7 @@
   },
   {
     "id": "pc-202610-0038",
-    "title": "市集大乱/Game Market Mayhem",
+    "title": "游戏市集大乱",
     "enTitle": "Game Market Mayhem",
     "category": "pc",
     "tags": [],
@@ -65088,7 +65088,7 @@
   },
   {
     "id": "pc-202610-0039",
-    "title": "元婴推箱子：古修士遗迹/Sokoban: Ancient Ruins",
+    "title": "元婴推箱子:古修士遗迹",
     "enTitle": "Sokoban: Ancient Ruins",
     "category": "pc",
     "tags": [],
@@ -65172,7 +65172,7 @@
   },
   {
     "id": "pc-202610-0040",
-    "title": "风启之旅联机版v0.10新版",
+    "title": "风启之旅",
     "enTitle": "",
     "category": "online",
     "tags": [],
@@ -65212,7 +65212,7 @@
   },
   {
     "id": "pc-202610-0042",
-    "title": "镜头人生模特写真馆v1.0中文版",
+    "title": "镜头人生-模特写真馆",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -65232,7 +65232,7 @@
   },
   {
     "id": "pc-202610-0043",
-    "title": "风屿奇航 v0.4.999",
+    "title": "风屿奇航",
     "enTitle": "Everwind",
     "category": "pc",
     "tags": [],
@@ -65617,7 +65617,7 @@
   },
   {
     "id": "pc-202610-0048",
-    "title": "原谅我父亲2",
+    "title": "原谅我父亲1",
     "enTitle": "Forgive Me Father 2",
     "category": "pc",
     "tags": [
@@ -65930,7 +65930,7 @@
   },
   {
     "id": "pc-202610-0054",
-    "title": "快递商店模拟器",
+    "title": "快递商店模拟器2037",
     "enTitle": "",
     "category": "pc",
     "tags": [],
@@ -65950,7 +65950,7 @@
   },
   {
     "id": "pc-202610-0055",
-    "title": "小鸡大营救Build.25962020 Chicks In Trouble",
+    "title": "小鸡大营救",
     "enTitle": "Chicks In Trouble",
     "category": "pc",
     "tags": [],
@@ -66034,7 +66034,7 @@
   },
   {
     "id": "pc-202610-0056",
-    "title": "使命召唤23：现代战争4v13.1.29465156 Call of Duty: Modern Warfare 4",
+    "title": "使命召唤23:现代战争4",
     "enTitle": "Call of Duty®: Modern Warfare® 4",
     "category": "pc",
     "tags": [],
@@ -66112,7 +66112,7 @@
   },
   {
     "id": "mobile-202610-0002",
-    "title": "魔兽争霸3冰封王座v3.0.2手机版",
+    "title": "魔兽争霸3",
     "enTitle": "",
     "category": "mobile",
     "tags": [],
@@ -66172,7 +66172,7 @@
   },
   {
     "id": "pc-202610-0059",
-    "title": "逃离鸭科夫 全DLC完整版内置菜单",
+    "title": "逃离鸭科夫",
     "enTitle": "Escape From Duckov",
     "category": "pc",
     "tags": [],
@@ -66266,7 +66266,7 @@
   },
   {
     "id": "pc-202610-0060",
-    "title": "书雁传奇 v1.0",
+    "title": "书雁传奇",
     "enTitle": "Shuyan Saga™",
     "category": "pc",
     "tags": [],
@@ -66335,7 +66335,7 @@
   },
   {
     "id": "pc-202610-0061",
-    "title": "边境检察官：沉浸式边境抉择剧情神作",
+    "title": "边境检察官",
     "enTitle": "",
     "category": "pc",
     "tags": [],

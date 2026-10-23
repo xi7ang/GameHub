@@ -1,5 +1,149 @@
 [
   {
+    "hash": "1e81458",
+    "date": "2026-10-23T14:02:57+08:00",
+    "message": "data: 14 款游戏补齐官方封面路径",
+    "url": "https://github.com/xi7ang/GameHub/commit/1e81458813423f861069c83c2d304ec2cf2198b3"
+  },
+  {
+    "hash": "df39a26",
+    "date": "2026-10-23T14:02:10+08:00",
+    "message": "data: 必玩合集数据（含 14 款补封面后的重算）",
+    "url": "https://github.com/xi7ang/GameHub/commit/df39a2678501eb728b5ad8f91fe7bea63cb4a30c"
+  },
+  {
+    "hash": "e197221",
+    "date": "2026-10-23T14:00:59+08:00",
+    "message": "assets: 补齐必玩合集 14 款缺失封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/e1972217e748e5e998d51726696e83bff3eb9afa"
+  },
+  {
+    "hash": "231e555",
+    "date": "2026-10-23T12:13:13+08:00",
+    "message": "feat: 资源库多维筛选（题材/主题/评价/年份/特色）",
+    "url": "https://github.com/xi7ang/GameHub/commit/231e5551c6e01c15fc85b725d92069719335f016"
+  },
+  {
+    "hash": "df67df2",
+    "date": "2026-10-23T11:43:23+08:00",
+    "message": "copy: 必玩合集介绍文案改玩家向",
+    "url": "https://github.com/xi7ang/GameHub/commit/df67df2c5dcbb35e15f4d39c754d6b1d875cac6c"
+  },
+  {
+    "hash": "85e9d60",
+    "date": "2026-10-23T11:38:13+08:00",
+    "message": "feat: 必玩合集移动端适配（首页双列+获取更多、合集页卡片等高）",
+    "url": "https://github.com/xi7ang/GameHub/commit/85e9d60dd031a9110088d2b8326886c0ee7f8a8c"
+  },
+  {
+    "hash": "526615d",
+    "date": "2026-10-23T11:16:43+08:00",
+    "message": "feat: 首页必玩合集（全站+五大品类，榜单不重复）",
+    "url": "https://github.com/xi7ang/GameHub/commit/526615d6a7e15a198432bbd15c9bf5021d10fbc0"
+  },
+  {
+    "hash": "5b10b53",
+    "date": "2026-10-23T09:55:06+08:00",
+    "message": "data: 评审确认 109 条 Steam 匹配写回并补齐资料（130 条人工评审）",
+    "url": "https://github.com/xi7ang/GameHub/commit/5b10b5353f88e33e8a41d7237397e4a2736b2b35"
+  },
+  {
+    "hash": "6bb8765",
+    "date": "2026-10-23T09:29:57+08:00",
+    "message": "assets: 评审写回新增 9 张游戏封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/6bb8765c03057709deaeeb44dcfd36aaa02bcfa5"
+  },
+  {
+    "hash": "42072ce",
+    "date": "2026-10-22T21:26:54+08:00",
+    "message": "data: 补齐剩余资源的 Steam 资料（限流冷却后重试）",
+    "url": "https://github.com/xi7ang/GameHub/commit/42072ceaeceb918f98749cea7032498e79954ba4"
+  },
+  {
+    "hash": "d545e68",
+    "date": "2026-10-22T21:23:12+08:00",
+    "message": "data: 补齐剩余资源的 Steam 资料（限流冷却后重试）",
+    "url": "https://github.com/xi7ang/GameHub/commit/d545e686264ad042e5101f459788d841d1a347e1"
+  },
+  {
+    "hash": "a9589c3",
+    "date": "2026-10-22T17:56:26+08:00",
+    "message": "fix: 重新上传午夜轮班封面 3722330.webp（二进制修正）",
+    "url": "https://github.com/xi7ang/GameHub/commit/a9589c36ce50d212493f0091f807b64dc445144c"
+  },
+  {
+    "hash": "1a66f24",
+    "date": "2026-10-22T17:53:32+08:00",
+    "message": "fix: 全量纠正资源分类（模拟器类模拟游戏转单机、MOD类完整游戏归位等 99 条）+ 午夜轮班定为 Shift At Midnight(3722330)",
+    "url": "https://github.com/xi7ang/GameHub/commit/1a66f241b3eb6811114147d881d5e233a4fc29a2"
+  },
+  {
+    "hash": "0f84394",
+    "date": "2026-10-22T17:53:07+08:00",
+    "message": "fix: 删除错配封面 1282140.webp（原午夜轮班误用）",
+    "url": "https://github.com/xi7ang/GameHub/commit/0f8439443070c9ea0291ed5c9ba4abbda924257e"
+  },
+  {
+    "hash": "35ca91b",
+    "date": "2026-10-22T17:51:21+08:00",
+    "message": "fix: 新增午夜轮班（Shift At Midnight）封面 3722330.webp",
+    "url": "https://github.com/xi7ang/GameHub/commit/35ca91bd637879e44cd00c138376145f1ecb78e1"
+  },
+  {
+    "hash": "71f7aec",
+    "date": "2026-10-22T17:21:39+08:00",
+    "message": "perf: 详情页数据拆分（gen-detail 生成单条详情+瘦索引，详情页不再拉全量）",
+    "url": "https://github.com/xi7ang/GameHub/commit/71f7aecdcddf3bc6af61b3cd9967b2374393105f"
+  },
+  {
+    "hash": "25cacfd",
+    "date": "2026-10-22T17:14:56+08:00",
+    "message": "fix: 首页精简数据补齐卡片字段（enTitle/tags/updatedAt + Steam 角标摘要）",
+    "url": "https://github.com/xi7ang/GameHub/commit/25cacfd4a894be91fb76b9d7aa4c74e2077808d9"
+  },
+  {
+    "hash": "68e154b",
+    "date": "2026-10-22T17:08:18+08:00",
+    "message": "feat: 资源卡片优化（封面评价/体积/年份角标、更新标记、标签行、日期与浏览量位）",
+    "url": "https://github.com/xi7ang/GameHub/commit/68e154b43a7a6853ff9901925650ab2b9873fcf4"
+  },
+  {
+    "hash": "1c211e9",
+    "date": "2026-10-22T14:08:05+08:00",
+    "message": "data: 回填 308 条资源 steamAppID，补齐其中 193 条 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/1c211e9cb68a5b9fb61c520b2e55265b296534bd"
+  },
+  {
+    "hash": "e4a560c",
+    "date": "2026-10-22T14:07:40+08:00",
+    "message": "feat: 新增 steam-match 脚本，按标题保守匹配 steamAppID（护栏+报告）",
+    "url": "https://github.com/xi7ang/GameHub/commit/e4a560ce8a1484add7803aecb89fef203e67228f"
+  },
+  {
+    "hash": "eeae88f",
+    "date": "2026-10-22T12:49:35+08:00",
+    "message": "data: 批量补齐 267 条资源的 Steam 资料（介绍/截图/配置/评价）",
+    "url": "https://github.com/xi7ang/GameHub/commit/eeae88f9a1ce72ab80a563578c11bbc5ca6ba972"
+  },
+  {
+    "hash": "9c9dece",
+    "date": "2026-10-22T12:48:57+08:00",
+    "message": "feat: 详情页新增 Steam 资料区块与导入脚本（steam-import 支持单个/批量）",
+    "url": "https://github.com/xi7ang/GameHub/commit/9c9decec86712f6da1cb2ccad79662782f2ec75f"
+  },
+  {
+    "hash": "fe95237",
+    "date": "2026-10-21T20:32:02+08:00",
+    "message": "chore: 每日公告：发布【2026-10-21】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/fe952372134d4500cee5b277c2bb72c4842c2303"
+  },
+  {
+    "hash": "efbe3eb",
+    "date": "2026-10-21T14:55:07+08:00",
+    "message": "sync: 新增资源《猫咪邮政》",
+    "url": "https://github.com/xi7ang/GameHub/commit/efbe3ebb3fd0ebd1aa73f3d655f73c6d6d0493aa"
+  },
+  {
     "hash": "a73dd18",
     "date": "2026-10-21T14:51:11+08:00",
     "message": "sync: 新增资源《边境检察官：沉浸式边境抉择剧情神作》",
@@ -34,149 +178,5 @@
     "date": "2026-10-20T13:04:41+08:00",
     "message": "fix(gamehub): 魔兽争霸3 手机版封面误匹配 Steam appid 4204190（太平天国），改回抓取图",
     "url": "https://github.com/xi7ang/GameHub/commit/1f7bf43c295098440edd6ec98c557e4523d7b0e4"
-  },
-  {
-    "hash": "47e4fb3",
-    "date": "2026-10-20T13:02:46+08:00",
-    "message": "sync: 新增资源《超市保安模拟器》",
-    "url": "https://github.com/xi7ang/GameHub/commit/47e4fb34ed2579a0b6ae067253b09d6827902121"
-  },
-  {
-    "hash": "603e539",
-    "date": "2026-10-20T12:57:41+08:00",
-    "message": "sync: 新增资源《魔兽争霸3冰封王座v3.0.2手机版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/603e539888797a75cfb004bf6bf1fac7d78efbd9"
-  },
-  {
-    "hash": "90156f2",
-    "date": "2026-10-20T12:54:39+08:00",
-    "message": "sync: 新增资源《使命召唤23：现代战争4v13.1.29465156 Call of Duty:》",
-    "url": "https://github.com/xi7ang/GameHub/commit/90156f221f0b4024e65e5a9e54f8b6250436eb48"
-  },
-  {
-    "hash": "05b60f2",
-    "date": "2026-10-20T12:51:08+08:00",
-    "message": "sync: 新增资源《小鸡大营救Build.25962020 Chicks In Trouble》",
-    "url": "https://github.com/xi7ang/GameHub/commit/05b60f21d335ba88853b092e0637baa21889123c"
-  },
-  {
-    "hash": "71bd2fc",
-    "date": "2026-10-18T20:36:37+08:00",
-    "message": "sync: 新增资源《快递商店模拟器》",
-    "url": "https://github.com/xi7ang/GameHub/commit/71bd2fcde71f7794456fa9facd151af4af5d8b20"
-  },
-  {
-    "hash": "80424ee",
-    "date": "2026-10-18T20:32:54+08:00",
-    "message": "sync: 新增资源《魔女之泉4内置菜单版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/80424eeef0751725ae15482a430b5d6cff8a0532"
-  },
-  {
-    "hash": "14698e7",
-    "date": "2026-10-18T20:31:31+08:00",
-    "message": "chore: 每日公告：发布【2026-10-18】游戏资源更新通知（3 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/14698e7bfb71172b796a0c648155982eb8c5380d"
-  },
-  {
-    "hash": "d8c1d25",
-    "date": "2026-10-18T20:29:46+08:00",
-    "message": "sync: 新增资源《铁路先驱：硬核铁路建设模拟》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d8c1d25443904ad536e2ee30eb87b6b78be8a023"
-  },
-  {
-    "hash": "8f924fe",
-    "date": "2026-10-18T20:25:29+08:00",
-    "message": "sync: 新增资源《烈火射手：僵尸》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8f924fe8f375b0b161bc7973a1323bba27d517f4"
-  },
-  {
-    "hash": "3c1d5e0",
-    "date": "2026-10-18T20:21:51+08:00",
-    "message": "sync: 新增资源《耶！小兔子2无限金币版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3c1d5e0fe58292e508138eabff11a7af2192e2a6"
-  },
-  {
-    "hash": "c29b44b",
-    "date": "2026-10-17T20:32:01+08:00",
-    "message": "chore: 每日公告：发布【2026-10-17】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c29b44bb18938db9adccfa07db7d8c9cef0eab8e"
-  },
-  {
-    "hash": "830dc9f",
-    "date": "2026-10-17T08:40:54+08:00",
-    "message": "sync: 新增资源《暗黑纪元：未知之地》",
-    "url": "https://github.com/xi7ang/GameHub/commit/830dc9f44699e515ec6cc6f9afdc976461874fe7"
-  },
-  {
-    "hash": "948b4a4",
-    "date": "2026-10-17T08:37:50+08:00",
-    "message": "sync: 新增资源《原谅我父亲2》",
-    "url": "https://github.com/xi7ang/GameHub/commit/948b4a4e7d5ad7ee655e84a36a56db8762908f57"
-  },
-  {
-    "hash": "be48da5",
-    "date": "2026-10-17T08:34:52+08:00",
-    "message": "sync: 新增资源《光陨之地》",
-    "url": "https://github.com/xi7ang/GameHub/commit/be48da5ddc3a8693b3d138be62a119daf096e59e"
-  },
-  {
-    "hash": "14fa757",
-    "date": "2026-10-17T08:31:28+08:00",
-    "message": "sync: 新增资源《朵拉法师》",
-    "url": "https://github.com/xi7ang/GameHub/commit/14fa757af0a65f3dc32e730a23144a81e45fbb61"
-  },
-  {
-    "hash": "36a1606",
-    "date": "2026-10-17T08:28:05+08:00",
-    "message": "sync: 新增资源《琉璃烟火》",
-    "url": "https://github.com/xi7ang/GameHub/commit/36a1606d62dc44e734c195aa332ea877c342e8b7"
-  },
-  {
-    "hash": "5e14c56",
-    "date": "2026-10-15T20:31:51+08:00",
-    "message": "chore: 每日公告：发布【2026-10-15】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/5e14c56943d85ecb52ff4b6e1111476b64706d57"
-  },
-  {
-    "hash": "f4dab4a",
-    "date": "2026-10-15T15:52:48+08:00",
-    "message": "sync: 新增资源《火力掩护：离线单机MOD版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f4dab4ab7c46e6e4737afd99bf0634897972d724"
-  },
-  {
-    "hash": "5dae2c2",
-    "date": "2026-10-15T15:50:15+08:00",
-    "message": "sync: 新增资源《风屿奇航 v0.4.999》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5dae2c2466f33b151154e1f95e8e128086dfdd93"
-  },
-  {
-    "hash": "74c58a2",
-    "date": "2026-10-15T15:43:51+08:00",
-    "message": "sync: 新增资源《镜头人生模特写真馆v1.0中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/74c58a22c6c7cf0fad8c20dbd93c223eff397de6"
-  },
-  {
-    "hash": "4be0726",
-    "date": "2026-10-15T15:34:42+08:00",
-    "message": "sync: 新增资源《三消方块（羊了个羊玩法）ver.8.4.0.0》",
-    "url": "https://github.com/xi7ang/GameHub/commit/4be0726b1065f658c5a9c97d2d4075bd32a9f1b7"
-  },
-  {
-    "hash": "3b819b1",
-    "date": "2026-10-15T15:30:24+08:00",
-    "message": "sync: 新增资源《风启之旅联机版v0.10新版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3b819b12f5cdc3dd54fc20bb6ddcd57a97d5da6a"
-  },
-  {
-    "hash": "410bde0",
-    "date": "2026-10-14T20:31:52+08:00",
-    "message": "chore: 每日公告：发布【2026-10-14】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/410bde076a4c2b6a287b98d699a622f953b4949c"
-  },
-  {
-    "hash": "c80d86f",
-    "date": "2026-10-14T09:58:39+08:00",
-    "message": "sync: 新增资源《元婴推箱子：古修士遗迹/Sokoban: Ancient Ruins》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c80d86fa7d07b5f5f90e692c67e08dcde5adb7c3"
   }
 ]
