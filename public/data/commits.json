@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5ab7a82",
+    "date": "2026-10-23T22:37:21+08:00",
+    "message": "sync: 新增资源《圣剑传说3重制版Q萌冒险》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5ab7a82d9ace0a35a618e86832a7ae6ff6452da7"
+  },
+  {
     "hash": "a88dd3f",
     "date": "2026-10-23T22:31:26+08:00",
     "message": "sync: 新增资源《堕入魔界的拉兹瑞尔》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T17:51:21+08:00",
     "message": "fix: 新增午夜轮班（Shift At Midnight）封面 3722330.webp",
     "url": "https://github.com/xi7ang/GameHub/commit/35ca91bd637879e44cd00c138376145f1ecb78e1"
-  },
-  {
-    "hash": "71f7aec",
-    "date": "2026-10-22T17:21:39+08:00",
-    "message": "perf: 详情页数据拆分（gen-detail 生成单条详情+瘦索引，详情页不再拉全量）",
-    "url": "https://github.com/xi7ang/GameHub/commit/71f7aecdcddf3bc6af61b3cd9967b2374393105f"
   }
 ]

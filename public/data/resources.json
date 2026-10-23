@@ -66547,5 +66547,25 @@
     "addedAt": "2026-10-23T22:37:18+08:00",
     "updatedAt": "2026-10-23T22:37:18+08:00",
     "month": "202610"
+  },
+  {
+    "id": "pc-202610-0069",
+    "title": "疯狂嘉年华中文版",
+    "enTitle": "",
+    "category": "pc",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/0560c99c5251?pwd=uPYK",
+    "pwd": "uPYK",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u6627cf0a59a8.webp",
+    "steamAppID": null,
+    "desc": "沉浸式体验经典街机魅力，中文配音原汁原味，丰富关卡挑战无限乐趣，复古音效唤醒童年记忆，轻松操作上手即享，多人同屏互动热闹非凡，解锁隐藏成就惊喜不断。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-23T22:40:54+08:00",
+    "updatedAt": "2026-10-23T22:40:54+08:00",
+    "month": "202610"
   }
 ]
