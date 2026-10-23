@@ -120,14 +120,11 @@ const isUpdated = computed(() => {
   return u - a > 86400000 && Date.now() - u < 45 * 86400000
 })
 
-// 标签行：第一枚高亮（首个标签，没有就用分类），其后是 #分类 与其余标签，最多 3 枚
+// 标签行：第一枚高亮，且必须是分类标签；其后才是其他标签，最多 3 枚
 const chips = computed(() => {
+  const cat = catLabel(props.r.category)
   const tags = (props.r.tags || []).filter(Boolean)
-  const list = []
-  list.push(tags[0] || catLabel(props.r.category))
-  list.push(catLabel(props.r.category))
-  for (const t of tags.slice(1)) list.push(t)
-  return [...new Set(list)].slice(0, 3)
+  return [...new Set([cat, ...tags])].slice(0, 3)
 })
 
 // 底部：日期（M月D日，跨年带年份）+ 浏览量（数据里有 views 字段才显示）

@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ba014da",
+    "date": "2026-10-23T17:24:16+08:00",
+    "message": "feat(detail): 详情页卡片改版，版式参照 v 站",
+    "url": "https://github.com/xi7ang/GameHub/commit/ba014da61eef085fe2be17a39a52e57ca44c3c71"
+  },
+  {
     "hash": "faa813c",
     "date": "2026-10-23T17:18:19+08:00",
     "message": "feat(home): 移动端「游戏推荐/最新更新/资源分类」加「获取更多」",
@@ -172,11 +178,5 @@
     "date": "2026-10-21T14:55:07+08:00",
     "message": "sync: 新增资源《猫咪邮政》",
     "url": "https://github.com/xi7ang/GameHub/commit/efbe3ebb3fd0ebd1aa73f3d655f73c6d6d0493aa"
-  },
-  {
-    "hash": "a73dd18",
-    "date": "2026-10-21T14:51:11+08:00",
-    "message": "sync: 新增资源《边境检察官：沉浸式边境抉择剧情神作》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a73dd18426e8579cbef802b6e6f25538259f1287"
   }
 ]
