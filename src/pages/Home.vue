@@ -23,6 +23,34 @@
       </div>
     </section>
 
+    <!-- 必玩合集：搜索区下方入口带，数据来自 collections.json（构建期按口碑线生成） -->
+    <section v-if="collections.length" class="container section collections-strip">
+      <h2 class="section-title">🏆 必玩合集</h2>
+      <div class="col-row">
+        <a
+          v-for="c in collections"
+          :key="c.id"
+          class="col-card"
+          :href="`/collection.html?id=${c.id}`"
+        >
+          <div class="col-card__covers">
+            <img
+              v-for="(it, i) in c.items.slice(0, 4)"
+              :key="i"
+              :src="it.cover"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+          <div class="col-card__meta">
+            <span class="col-card__name">{{ c.emoji }} {{ c.name }}</span>
+            <span class="col-card__count">{{ c.items.length }} 款</span>
+          </div>
+          <div class="col-card__top text-low">No.1 《{{ cleanTitle(c.items[0]) }}》</div>
+        </a>
+      </div>
+    </section>
+
     <!-- 游戏推荐：每次打开随机从有封面的资源中选 8 个 -->
     <section v-if="featured.length" class="container section">
       <h2 class="section-title">🎲 游戏推荐</h2>
@@ -161,6 +189,30 @@ import { detailHref } from '../lib/short.js'
 import { BUILD_ID } from '../lib/version.js'
 
 const { state, loadHome, catLabel } = useData()
+
+// 必玩合集入口带：数据来自 collections.json（构建期生成），拉不到就整块隐藏
+const collections = ref([])
+async function loadCollections() {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/collections.json?v=${BUILD_ID || Date.now()}`)
+    if (!res.ok) return
+    const j = await res.json()
+    collections.value = (j.collections || []).filter((c) => c.items?.length)
+  } catch { /* 静默隐藏 */ }
+}
+// 合集卡 No.1 行的标题清洗（与 ResourceCard 展示标题同规则的核心部分）
+function cleanTitle(r) {
+  return String(r?.title || '')
+    .replace(/build\.?\s*\d+/gi, ' ')
+    .replace(/ver\.?\s*[\d.]+/gi, ' ')
+    .replace(/v\d+(\.\d+)+[a-z]?/gi, ' ')
+    .replace(/\s*v\d+[a-z]?\s*$/i, '')
+    .replace(/(中文版|解压即玩|免安装版|免安装|硬盘版)\s*$/g, '')
+    .replace(/\s*附[^/]*$/, '')
+    .replace(/\s*XG器.*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
 const { favCount, followedCats, newCountFor, markFollowSeen } = useFavorites()
 const site = computed(() => state.site)
 
@@ -260,11 +312,34 @@ onMounted(async () => {
   await loadHome()
   pickRandomFeatured()
   pickRandomHotKeywords()
+  loadCollections()
 })
 </script>
 
 <style scoped>
 .home { min-height: 100vh; }
+
+/* 必玩合集入口带：横向滚动的合集卡（封面四宫格拼图） */
+.collections-strip { padding-top: 8px; }
+.col-row {
+  display: flex; gap: 14px; overflow-x: auto; padding-bottom: 10px;
+  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+}
+.col-card {
+  flex: 0 0 218px; scroll-snap-align: start; text-decoration: none; color: inherit;
+  border: 1px solid var(--border, rgba(127, 127, 127, 0.25)); border-radius: 16px;
+  overflow: hidden; background: var(--surface, rgba(127, 127, 127, 0.06));
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.col-card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18); }
+.col-card__covers { display: grid; grid-template-columns: 1fr 1fr; aspect-ratio: 2.4; }
+.col-card__covers img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.col-card__meta {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 12px 2px; font-weight: 700; font-size: 15px;
+}
+.col-card__count { font-size: 12px; font-weight: 600; opacity: 0.65; }
+.col-card__top { padding: 0 12px 12px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 
 /* Hero */

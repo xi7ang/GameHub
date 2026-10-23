@@ -12,9 +12,10 @@
     "gen-commits": "node scripts/gen-commits.js",
     "gen-search-index": "node scripts/gen-search-index.js",
     "gen-home": "node scripts/gen-home.js",
+    "gen-collections": "node scripts/gen-collections.mjs",
     "gen-notify": "node scripts/gen-notify.js",
     "gen-sitemap": "node scripts/gen-sitemap.js",
-    "prebuild": "node scripts/gen-search-index.js && node scripts/validate.js && node scripts/gen-commits.js && node scripts/gen-home.js && node scripts/gen-notify.js && node scripts/gen-detail.js",
+    "prebuild": "node scripts/gen-search-index.js && node scripts/validate.js && node scripts/gen-commits.js && node scripts/gen-home.js && node scripts/gen-collections.mjs && node scripts/gen-notify.js && node scripts/gen-detail.js",
     "gen-detail": "node scripts/gen-detail.js"
   },
   "dependencies": {
