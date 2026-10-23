@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8ff80a4",
+    "date": "2026-10-23T22:31:05+08:00",
+    "message": "sync: 新增资源《战场女武神4豪华版含全DLC金手指》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8ff80a4fb78ec1bdc555be5f9104933a59a121e6"
+  },
+  {
     "hash": "81b7169",
     "date": "2026-10-23T22:30:55+08:00",
     "message": "sync: 新增资源《魔法弹球》",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T17:08:18+08:00",
     "message": "feat: 资源卡片优化（封面评价/体积/年份角标、更新标记、标签行、日期与浏览量位）",
     "url": "https://github.com/xi7ang/GameHub/commit/68e154b43a7a6853ff9901925650ab2b9873fcf4"
-  },
-  {
-    "hash": "1c211e9",
-    "date": "2026-10-22T14:08:05+08:00",
-    "message": "data: 回填 308 条资源 steamAppID，补齐其中 193 条 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/1c211e9cb68a5b9fb61c520b2e55265b296534bd"
   }
 ]
