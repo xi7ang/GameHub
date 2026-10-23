@@ -123,6 +123,21 @@ async function load() {
   return state
 }
 
+// 合集页专用：只需要分类表，把 category key 解析成中文名/emoji/gradient。
+// 少了这一步，catLabel() 会回退成原始 key，卡片主标签会显示成 rpg / simulation 这种英文。
+let catsLoaded = false
+async function loadCategories() {
+  if (catsLoaded) return state
+  try {
+    const cats = await fetch(`${BASE}data/categories.json?${CB}`).then((r) => r.json())
+    state.categories = cats.sort((a, b) => a.order - b.order)
+    catsLoaded = true
+  } catch (e) {
+    state.error = String(e)
+  }
+  return state
+}
+
 // 首页专用轻量加载器：只拉 home.json（~60KB）+ site.json + categories.json，
 // 不再加载 568KB 全量 resources.json。home.json 缺失/损坏时兜底回退全量。
 async function loadHome() {
@@ -216,5 +231,5 @@ async function loadDetail(rawId) {
 }
 
 export function useData() {
-  return { state, load, loadHome, loadDetail, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
+  return { state, load, loadHome, loadCategories, loadDetail, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
 }

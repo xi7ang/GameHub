@@ -59,7 +59,9 @@ import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import { BUILD_ID } from '../lib/version.js'
+import { useData } from '../composables/useData.js'
 
+const { loadCategories } = useData()
 const collections = ref([])
 const loading = ref(true)
 const curId = new URLSearchParams(location.search).get('id') || 'all'
@@ -68,6 +70,7 @@ const cur = computed(
 )
 
 onMounted(async () => {
+  loadCategories()
   try {
     const res = await fetch(
       `${import.meta.env.BASE_URL}data/collections.json?v=${BUILD_ID || Date.now()}`

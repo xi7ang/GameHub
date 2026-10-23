@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f6f4af9",
+    "date": "2026-10-23T22:23:04+08:00",
+    "message": "fix(tags): 资源卡片与详情页不再显示含英文的标签",
+    "url": "https://github.com/xi7ang/GameHub/commit/f6f4af974babbae4af7c280fae9cbbd9085ed847"
+  },
+  {
     "hash": "45dbc20",
     "date": "2026-10-23T22:15:16+08:00",
     "message": "fix(card): 资源卡片高亮标签固定为分类标签",
@@ -172,11 +178,5 @@
     "date": "2026-10-22T12:48:57+08:00",
     "message": "feat: 详情页新增 Steam 资料区块与导入脚本（steam-import 支持单个/批量）",
     "url": "https://github.com/xi7ang/GameHub/commit/9c9decec86712f6da1cb2ccad79662782f2ec75f"
-  },
-  {
-    "hash": "fe95237",
-    "date": "2026-10-21T20:32:02+08:00",
-    "message": "chore: 每日公告：发布【2026-10-21】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/fe952372134d4500cee5b277c2bb72c4842c2303"
   }
 ]
