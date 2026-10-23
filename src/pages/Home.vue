@@ -339,14 +339,14 @@ onMounted(async () => {
 <style scoped>
 .home { min-height: 100vh; }
 
-/* 必玩合集入口带：横向滚动的合集卡（封面四宫格拼图） */
+/* 必玩合集入口带：PC 端两行三列网格（6 个合集正好排满，不再横向滚动） */
 .collections-strip { padding-top: 8px; }
 .col-row {
-  display: flex; gap: 14px; overflow-x: auto; padding-bottom: 10px;
-  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 14px;
 }
 .col-card {
-  flex: 0 0 218px; scroll-snap-align: start; text-decoration: none; color: inherit;
+  text-decoration: none; color: inherit;
   border: 1px solid var(--border, rgba(127, 127, 127, 0.25)); border-radius: 16px;
   overflow: hidden; background: var(--surface, rgba(127, 127, 127, 0.06));
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -368,7 +368,7 @@ onMounted(async () => {
     overflow: visible; scroll-snap-type: none; padding-bottom: 0;
   }
   .col-row:not(.col-row--more) .col-card:nth-child(n + 5) { display: none; }
-  .col-card { flex: none; width: auto; border-radius: 13px; }
+  .col-card { border-radius: 13px; }
   .col-card__meta { padding: 8px 10px 2px; font-size: 13.5px; }
   .col-card__count { font-size: 11px; }
   .col-card__top { padding: 0 10px 10px; font-size: 11px; }
