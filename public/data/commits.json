@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e654d4b",
+    "date": "2026-10-23T15:15:38+08:00",
+    "message": "feat(titles): 按审核清单替换 556 条游戏标题为 lzlgo 口径",
+    "url": "https://github.com/xi7ang/GameHub/commit/e654d4b5a25759031b364a3081b3ee0c7bfb073b"
+  },
+  {
     "hash": "1e81458",
     "date": "2026-10-23T14:02:57+08:00",
     "message": "data: 14 款游戏补齐官方封面路径",
@@ -172,11 +178,5 @@
     "date": "2026-10-20T20:31:43+08:00",
     "message": "chore: 每日公告：发布【2026-10-20】游戏资源更新通知（4 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/dc678884523d01cf7e20c3c794a175fe0f0292c2"
-  },
-  {
-    "hash": "1f7bf43",
-    "date": "2026-10-20T13:04:41+08:00",
-    "message": "fix(gamehub): 魔兽争霸3 手机版封面误匹配 Steam appid 4204190（太平天国），改回抓取图",
-    "url": "https://github.com/xi7ang/GameHub/commit/1f7bf43c295098440edd6ec98c557e4523d7b0e4"
   }
 ]
