@@ -17709,7 +17709,7 @@
   {
     "id": "mobile-202604-0161",
     "title": "瘟疫公司",
-    "enTitle": "",
+    "enTitle": "Plague Inc: Evolved",
     "category": "other",
     "tags": [],
     "platform": "quark",
@@ -17724,7 +17724,74 @@
     "addedAt": "2026-04-01T00:00:00+08:00",
     "updatedAt": "2026-08-25T10:45:29+08:00",
     "month": "202604",
-    "steamAppID": 246620
+    "steamAppID": 246620,
+    "steam": {
+      "appId": 246620,
+      "developer": "Ndemic Creations",
+      "publisher": "Ndemic Creations",
+      "releaseDate": "2016 年 2 月 18 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "languages": "英语, 法语, 德语, 俄语, 西班牙语 - 西班牙, 意大利语, 葡萄牙语 - 葡萄牙, 葡萄牙语 - 巴西, 简体中文, 繁体中文, 日语, 挪威语, 波兰语, 土耳其语, 韩语\n具有完全音频支持的语言",
+      "summary": "《瘟疫公司：物竞天择》是一款结合高度战略性和高度真实性的全新模拟游戏。在游戏中，您释放特定的病原体感染“零号病人”，并由此不断修正其传染性和抵抗力以便应对来自人类的反击措施，从而终结人类的历史毁灭全世界。",
+      "description": "Plague Inc: Evolved 是一款将高度策略性和恐怖的现实模拟相结合的游戏。你的病原体刚刚感染了“零号病人” — 现在你必须进化出一种全球性的致命瘟疫，给人类历史画上句号，同时与人类一切力求自保的行为对抗。\nPlague Inc. 非常真实，真实到连 CDC 都曾要求游戏开发者前去讲解游戏中的传染病模型！\n已经有超过 19000 万的游戏玩家被 Plague Inc. 所“感染”。现在，Plague Inc: Evolved 不但保留了广受好评的原有游戏性，同时还为 PC 平台增加了全新的重要功能，其中包括有多人游戏、支持用户生成内容、改善画面等众多方面。\n10 种不同的疾病类型 — 掌控每一种病原体；从细菌到生化武器，从思维控制到僵尸，进而不择手段地终结人类 — 不同的疾病需要截然不同的感染方法。\n20 个剧情 — 调整你的策略；新剧情将为你的流行病带来进一步的挑战 — 你会怎样掌控新菌株的猪流感？又将如何感染冰河时期的世界？\n高度现实化的世界 — 在真实世界的背景下制定策略；先进的 AI 及对于现实世界数据和事件的利用让 Plague Inc: Evolved 得以展现出具备极高模拟度的灭世病原体。甚至连 CDC 都很喜欢它！\n富有竞争性的多人游戏 — 被两种瘟疫感染，这个世界真是太不幸了。但从你的角度，你又该如何胜过对手，赢得这场争夺基因统治权的战争呢？玩家们将拥有所有的新进化项目、能力和基因，以便助其争得全球的控制权并消灭他们的对手！\n合作模式 —  两种疾病组队前来，想要感染并摧毁世界，不过人类也有新的反击手段！和你的搭档紧密合作，在他们消灭你们之前，利用全新的基因、病原体特性和策略来摧毁世界各地的治疗实验室。\n传染性内容制作器 — 建立实验室，并开发你自己的自定义剧情 — 创建新的瘟疫类型、世界和游戏内事件。精密的工具可支持用户生成内容，让玩家将自己最理想的点子变为现实，并将其分享到 Steam Workshop 上。现已放出的自定义剧情超过 10000 个，这里永远不缺可感染的新东西！\n令人炫目的画面 — 全 3D 疾病模型可让你前所未有地近距离接触你的瘟疫，城市镜头则可以街道级别的精细度显示人类挣扎的惨状，还有能够一个器官一个器官标注完整变异效果的人体扫描仪。\n致命数据 — 你可以苦心钻研数据与图表了；监控感染与致命级别，跟踪政府反应和治疗措施，然后用完整的游戏回放重温你瘟疫的成功（或失败）。\n以及更多精彩内容... — 包括急速模式、超级残酷难度以及基因改造...此外还有将来大量的新疾病类型和剧情（免费呦！）更新。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_9a5c4d45543113ad9de9d9b928f6fadf1fa17d25.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_7feb2722dd1e712cb5af17356fcec7fa393a2339.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_b0d8d993edec2bfb764d0748de6f27eeded7c7af.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_56ede6cad5f4e6732a4640416716bb1642e8fa21.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_9b2d47bdc35e3ba84288f33c3b6889c1929563de.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_936c4e4dee5b9ccb96a7817dc7dafc6d42261cfb.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_82ad45832152ec6711a2b7349c6500439cb0eaff.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_af0ade6a41421fcf738413bca043e2b3e201398a.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_d080a5d650a1f0bf51d9cde92daf34306b985032.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_c38767e72bd7bc9107589fdafbda3cd3d5cd6513.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_1040caddb47ab18798d5baebe860f36d486c94dd.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_f2b5a06c502442679e0cc131d8325403ca353884.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_6affce9dec4604ad53a0bbcf502a074393306554.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_0d43c3d9ae3888bbc6391b7e3bbb5803ecc069c0.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_6f958376e0d245280bd9b36b553a876e5c7eb9f9.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_2c04669c5c3607c7579607d30acb1c525d64664b.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_204aafc57176eba9799ae0b269600fd5b0dcdce4.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_5b2811c9ca476e1ca489c5ac4ae879024eb0a537.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_abaf7784591bb85246eee2244db5d6d4fa0db524.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ss_3e8ad5f285c79a136ca9ae0b5114d550456db9a5.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/ba6618f6bed66aecc8e561e1c2df4dc3324e4b05/ss_ba6618f6bed66aecc8e561e1c2df4dc3324e4b05.1920x1080.jpg?t=1792426460",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/246620/2e47493dd11656c35768864f4315bb04be8a52c5/ss_2e47493dd11656c35768864f4315bb04be8a52c5.1920x1080.jpg?t=1792426460"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: Windows 8 (64 Bit)",
+          "处理器: 2.0 GHz Dual Core Processor",
+          "内存: 1 GB RAM",
+          "显卡: Integrated Graphics (512MB)",
+          "存储空间: 需要 500 MB 可用空间",
+          "附注事项: Additional Notes: Requires a system running DirectX 11 as a minimum. Graphics cards over 10 years old may find some graphics display issues. Unsupported video chipsets: Intel HD Graphics 3000, Intel GMA X3100, Intel GMA 950."
+        ],
+        "recommended": [
+          "操作系统: Windows 10 (64 Bit)",
+          "处理器: 3.0GHz i5 Dual Core or equivalent",
+          "内存: 2 GB RAM",
+          "显卡: Nvidia GeForce GTX 650 Radeon HD 3600 (1GB)",
+          "存储空间: 需要 1 GB 可用空间",
+          "附注事项: Additional Notes: Requires a system running DirectX 11 as a minimum. Graphics cards over 10 years old may find some graphics display issues. Unsupported video chipsets: Intel HD Graphics 3000, Intel GMA X3100, Intel GMA 950."
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "USD",
+        "final": 14.99,
+        "initial": 14.99,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/246620/",
+      "fetchedAt": "2026-10-24T05:49:38.691Z"
+    }
   },
   {
     "id": "mobile-202604-0162",
@@ -66431,7 +66498,7 @@
   {
     "id": "pc-202610-0063",
     "title": "囚禁 Build.17981020 联机版",
-    "enTitle": "",
+    "enTitle": "The Witch's Sexual Prison",
     "category": "horror",
     "tags": [],
     "platform": "quark",
@@ -66446,7 +66513,57 @@
     "featured": false,
     "addedAt": "2026-10-23T22:30:43+08:00",
     "updatedAt": "2026-10-23T22:30:43+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 1683950,
+      "developer": "Giver、BananaKing",
+      "publisher": "Playmeow、ACG creator、Playmeow News",
+      "releaseDate": "2022 年 1 月 25 日",
+      "genres": [
+        "休闲",
+        "角色扮演"
+      ],
+      "languages": "繁体中文, 英语, 法语, 德语, 西班牙语 - 西班牙, 俄语, 日语, 泰语, 简体中文, 葡萄牙语 - 葡萄牙, 葡萄牙语 - 巴西, 西班牙语 - 拉丁美洲, 韩语, 土耳其语\n具有完全音频支持的语言",
+      "summary": "你和一名美丽的魔女生活在林间小屋中，每天都过着与世无争的性福生活，但是，如果你不听话，或许会遭受残酷的调教........",
+      "description": "──总感觉周围的一切都很陌生。\n“下流的公狗，说话可要诚实哦~”美丽的主人将我踩在地上，居高临下地看着我。◆特色系统\n◇在环境设定里能打开全CG模式,自由浏览HCG\n◇无压力操作设计-快速的文字跳转系统◆故事\n主人说我性欲旺盛\n想要纠正自己变态的行为必须要戴上贞操套\n“连贞操套都治不好你.....看来得好好调教了啊\"\n我一直是一个好色的人，整天都想着H的事，以至于被主人称为发情公狗.....\n但我现在突然想要纠正自己的变态行为\n我能够成功吗\n不过，随着调教的进行，我却感觉自己是在变得越发好色\n这真的正常吗？她真的…是我的主人吗？◆玩法\n游戏主要玩法是与美丽的“主人”一起生活，随着剧情的发展，“主人”会对你进行各种不同的SM调教方式。\n你的选择会将你带入不同的结局。\n游戏有大量颇具特色的H事件。\n随着游戏发展，可以解锁各种Ｈ体位。\n甚至有奇妙的魔药调教、魔法改造。\n但是，在充满桃色的甜蜜生活中，却隐隐透露着一种违和感。\n如果你坚持离开，将会面临不可挽回的肉体调教。\n你是选择就此沉沦，还是想方设法逃离这间小屋呢？◆游戏特色\n◇16张基本CG，包含差分200张以上。\n◇游戏文字5万字。\n◇调教抖M游戏。\n◇游戏结局：4种",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_d523c6afddeb89f01a793fbf8b68bd4e8460bd49.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_02325074c1640a3f8d68a50f7a8487fa13818dc1.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_2bdb1bb2d5012121767a0a67de10ad6abc0872a5.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_b4d1289615b2542b84a3c68e117277d75306d789.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_988e3bf51c26e0cd386a7b920c75d3dcc989bcea.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_0b408d369158dbf7c61975f5ce6ff83e33e89774.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_3b58ed66984005c11c213a84c033e018ca7d5ea5.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_ffe8e82dbacf81c63d5ddecaf0131b160eb62b88.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_a23d3e0fca45ae8295f18c907bf818e375e42f38.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_6a917511e70b8c2f3de04ed761b66f94e6a50095.1920x1080.jpg?t=1784088902",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683950/ss_a0c93141f8430ef8c1216be9b186ca3d7a16edc3.1920x1080.jpg?t=1784088902"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: WIN10/XP",
+          "处理器: 1.2 GHz",
+          "显卡: DirectX 9 compatible graphics card",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统 *: WIN10/XP",
+          "处理器: 1.2 GHz",
+          "显卡: DirectX 9 compatible graphics card",
+          "存储空间: 需要 2 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "USD",
+        "final": 6.99,
+        "initial": 6.99,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/1683950/",
+      "fetchedAt": "2026-10-24T05:49:41.984Z"
+    }
   },
   {
     "id": "pc-202610-0064",
