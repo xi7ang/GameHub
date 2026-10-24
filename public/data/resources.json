@@ -67186,5 +67186,25 @@
       "storeUrl": "https://store.steampowered.com/app/3057410/",
       "fetchedAt": "2026-10-23T19:04:19.514Z"
     }
+  },
+  {
+    "id": "rpg-202610-0001",
+    "title": "最终幻想：共鸣-虚拟机版/FINAL FANTASY RESONANCE HYPERVISOR    Build.24250053  免安装中文版",
+    "enTitle": "",
+    "category": "rpg",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/da7603cba6a5?pwd=FggX",
+    "pwd": "FggX",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "",
+    "steamAppID": null,
+    "desc": "",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-25T00:20:57+08:00",
+    "updatedAt": "2026-10-25T00:20:57+08:00",
+    "month": "202610"
   }
 ]

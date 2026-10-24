@@ -1,5 +1,59 @@
 [
   {
+    "hash": "287fbe1",
+    "date": "2026-10-24T20:32:07+08:00",
+    "message": "chore: 每日公告：发布【2026-10-24】游戏资源更新通知（10 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/287fbe171e9aa66608e3b18f5a15d41dede97133"
+  },
+  {
+    "hash": "116205d",
+    "date": "2026-10-24T13:53:27+08:00",
+    "message": "data: 美国区回退补齐瘟疫公司与囚禁的 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/116205daa756fa05b4467e182003ecb6f50f9a01"
+  },
+  {
+    "hash": "c12055f",
+    "date": "2026-10-24T10:28:55+08:00",
+    "message": "data: 人工确认补齐 2 条 Steam 匹配（莎玛尼娅 2868100、魔法弹球 3526900）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c12055fd62f9ac3ded1537890c0d4b62dc9acddf"
+  },
+  {
+    "hash": "cce4083",
+    "date": "2026-10-24T03:09:38+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/cce4083354c5f9972332561d067e2e5659c9f7b3"
+  },
+  {
+    "hash": "9b591f0",
+    "date": "2026-10-24T02:56:13+08:00",
+    "message": "style(home): PC 端「必玩合集」改两行三列网格",
+    "url": "https://github.com/xi7ang/GameHub/commit/9b591f0d7f3c30917bf71d1bfa3565f13a7fdaf3"
+  },
+  {
+    "hash": "6dee48d",
+    "date": "2026-10-23T23:41:09+08:00",
+    "message": "fix(gamehub): 补 0064/0065/0066 缺失封面；新增 steamAppID 姓名核对脚本",
+    "url": "https://github.com/xi7ang/GameHub/commit/6dee48dab6b4f03e08f9fcd427de1ffbca27ce16"
+  },
+  {
+    "hash": "c5e97d4",
+    "date": "2026-10-23T23:28:48+08:00",
+    "message": "chore(scripts): migrate-from-md.js 加分类口径守卫",
+    "url": "https://github.com/xi7ang/GameHub/commit/c5e97d40ea6a381ec47d6a04e9f38d7104df57b1"
+  },
+  {
+    "hash": "8a24bc0",
+    "date": "2026-10-23T23:06:09+08:00",
+    "message": "fix(gamehub): 火星求生封面纠正为 Steam 3215050（原误配 4204190=太平天国）",
+    "url": "https://github.com/xi7ang/GameHub/commit/8a24bc07fa73ee6fbce8d44600285e2883355199"
+  },
+  {
+    "hash": "a7c9748",
+    "date": "2026-10-23T22:56:17+08:00",
+    "message": "fix(ci): 修复同步资源写入旧平台分类导致 validate 失败",
+    "url": "https://github.com/xi7ang/GameHub/commit/a7c9748e5268b077af7f3074fc26721ecb67c10d"
+  },
+  {
     "hash": "3545d3d",
     "date": "2026-10-23T22:53:44+08:00",
     "message": "sync: 新增资源《骑战：烈火之剑 v73.85 中文版》",
@@ -124,59 +178,5 @@
     "date": "2026-10-23T14:02:10+08:00",
     "message": "data: 必玩合集数据（含 14 款补封面后的重算）",
     "url": "https://github.com/xi7ang/GameHub/commit/df39a2678501eb728b5ad8f91fe7bea63cb4a30c"
-  },
-  {
-    "hash": "e197221",
-    "date": "2026-10-23T14:00:59+08:00",
-    "message": "assets: 补齐必玩合集 14 款缺失封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/e1972217e748e5e998d51726696e83bff3eb9afa"
-  },
-  {
-    "hash": "231e555",
-    "date": "2026-10-23T12:13:13+08:00",
-    "message": "feat: 资源库多维筛选（题材/主题/评价/年份/特色）",
-    "url": "https://github.com/xi7ang/GameHub/commit/231e5551c6e01c15fc85b725d92069719335f016"
-  },
-  {
-    "hash": "df67df2",
-    "date": "2026-10-23T11:43:23+08:00",
-    "message": "copy: 必玩合集介绍文案改玩家向",
-    "url": "https://github.com/xi7ang/GameHub/commit/df67df2c5dcbb35e15f4d39c754d6b1d875cac6c"
-  },
-  {
-    "hash": "85e9d60",
-    "date": "2026-10-23T11:38:13+08:00",
-    "message": "feat: 必玩合集移动端适配（首页双列+获取更多、合集页卡片等高）",
-    "url": "https://github.com/xi7ang/GameHub/commit/85e9d60dd031a9110088d2b8326886c0ee7f8a8c"
-  },
-  {
-    "hash": "526615d",
-    "date": "2026-10-23T11:16:43+08:00",
-    "message": "feat: 首页必玩合集（全站+五大品类，榜单不重复）",
-    "url": "https://github.com/xi7ang/GameHub/commit/526615d6a7e15a198432bbd15c9bf5021d10fbc0"
-  },
-  {
-    "hash": "5b10b53",
-    "date": "2026-10-23T09:55:06+08:00",
-    "message": "data: 评审确认 109 条 Steam 匹配写回并补齐资料（130 条人工评审）",
-    "url": "https://github.com/xi7ang/GameHub/commit/5b10b5353f88e33e8a41d7237397e4a2736b2b35"
-  },
-  {
-    "hash": "6bb8765",
-    "date": "2026-10-23T09:29:57+08:00",
-    "message": "assets: 评审写回新增 9 张游戏封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/6bb8765c03057709deaeeb44dcfd36aaa02bcfa5"
-  },
-  {
-    "hash": "42072ce",
-    "date": "2026-10-22T21:26:54+08:00",
-    "message": "data: 补齐剩余资源的 Steam 资料（限流冷却后重试）",
-    "url": "https://github.com/xi7ang/GameHub/commit/42072ceaeceb918f98749cea7032498e79954ba4"
-  },
-  {
-    "hash": "d545e68",
-    "date": "2026-10-22T21:23:12+08:00",
-    "message": "data: 补齐剩余资源的 Steam 资料（限流冷却后重试）",
-    "url": "https://github.com/xi7ang/GameHub/commit/d545e686264ad042e5101f459788d841d1a347e1"
   }
 ]
