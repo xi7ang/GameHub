@@ -66451,7 +66451,7 @@
   {
     "id": "pc-202610-0064",
     "title": "魔法弹球",
-    "enTitle": "",
+    "enTitle": "magic ball",
     "category": "casual",
     "tags": [],
     "platform": "quark",
@@ -66460,13 +66460,58 @@
     "size": "",
     "sizeBytes": null,
     "cover": "/covers/uc5c39a304854.webp",
-    "steamAppID": null,
+    "steamAppID": 3526900,
     "desc": "经典弹球玩法融合魔法元素，华丽特效与流畅操作带来全新体验，多种魔法技能策略组合，挑战不同关卡，解锁隐藏彩蛋，复古与创新碰撞，乐趣无穷。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-23T22:30:52+08:00",
     "updatedAt": "2026-10-23T22:30:52+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 3526900,
+      "developer": "AA Mini Games Studio",
+      "publisher": "AA Mini Games Studio",
+      "releaseDate": "2025 年 2 月 27 日",
+      "genres": [
+        "休闲",
+        "体育",
+        "策略"
+      ],
+      "languages": "英语",
+      "summary": "“magic ball”是一款以小球为主角的休闲类游戏，你需要将小球打入洞中。",
+      "description": "玩法简介\n在规定时间内通过点击，确认好小球的发射角度以及力度，将小球打入洞中即可过关，游戏还会记录你的最高闯关记录。\n游戏特色\n游戏操作随便简单，但难度却不小。对小球的发射力度非常重要。\n一共20+张地图。\n5种不同样式的小球，每个小球都有自己独特的物理系统。如篮球就比皮球要重，所受到的重力也会越大。对其发射的力度也会有所不同。\n花费游戏金币可以解锁新背景以及新的小球。\n真实的物理系统。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_0803b535221621e876f9d847184c4818ad3346d0.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_b9b4e503c0c71d35e9e14c07d2cd3ed774a981c1.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_5bb8eeac94dadc42e22a126c850419d2fd9eeba7.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_84e3f5db1d00baca52a9a72fc8bffb2b138df27a.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_248e7a270b174dceda7713dcb0a389f529b80311.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_d6d73cc9e098c39150336249e7dcb66cf2f64916.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_26b02ba1efae4d831e8c36ab7d89adfcd13432f4.1920x1080.jpg?t=1740656171",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3526900/ss_a8cbc6c10b0ab4b795e7ed184a98480b6b8f043f.1920x1080.jpg?t=1740656171"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: window 7",
+          "处理器: Intel® Core™ i3-4590 Processor",
+          "内存: 1 GB RAM",
+          "显卡: GTX1060",
+          "DirectX 版本: 11",
+          "存储空间: 需要 130 MB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 6,
+        "initial": 6,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/3526900/",
+      "fetchedAt": "2026-10-24T02:26:06.209Z"
+    }
   },
   {
     "id": "pc-202610-0065",
@@ -66542,7 +66587,7 @@
   {
     "id": "pc-202610-0066",
     "title": "莎玛尼娅中文版异星生存",
-    "enTitle": "",
+    "enTitle": "Shamania",
     "category": "sandbox",
     "tags": [],
     "platform": "quark",
@@ -66551,13 +66596,79 @@
     "size": "",
     "sizeBytes": null,
     "cover": "/covers/u77574ae52a16.webp",
-    "steamAppID": null,
+    "steamAppID": 2868100,
     "desc": "在陌生的异星荒野中，你需要管理资源、建造基地并抵御未知生物的侵袭。硬核生存机制与开放世界探索完美结合，每一步抉择都关乎生死，考验你的策略与应变能力。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-23T22:31:15+08:00",
     "updatedAt": "2026-10-23T22:31:15+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 2868100,
+      "developer": "Totem Keepers Games",
+      "publisher": "Totem Keepers Games",
+      "releaseDate": "2026 年 5 月 29 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "languages": "英语, 西班牙语 - 西班牙, 俄语, 简体中文",
+      "summary": "莎玛尼娅》是一款开放世界生存游戏，在游戏中，您将与朋友们共同创作、战斗和探索一个生机勃勃的沙盒世界。扩大您的基地，使其成为生存的枢纽，收集资源，掌握专业技能，从而解锁新的工具和机会！",
+      "description": "与朋友一起生存更有趣！在身临其境的共享世界中一起探索、建造和战斗，分享冒险的每一步。\n您的基地是您生存的核心。收集资源来建造和升级你的家园，扩展它的功能，并根据你的需求和里程碑来定制它。\n通过掌握采矿、草药学和捕鱼等基本职业来发展你的角色。提升技能等级以解锁强大的配方和工具，从而制定生存策略并改善旅程。\n沙马尼亚的世界充满危险。面对敌人，克服挑战，获得宝贵的奖励，强化自己的角色。\n探索一个广泛的制作系统，该系统会随着你的进步而发展。解锁制作装备、工具和物品的配方，让您有能力面对更大的挑战，实现自己的目标。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_2d394af196597195a122768eb3bb7f167df6623b.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/b7412ff627d8e9a8aa47128eac277d7615a7d85b/ss_b7412ff627d8e9a8aa47128eac277d7615a7d85b.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_e6ae19d991aa1247f32ccab46c3106e149393b0c.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_0f2633874323cfde8bb02eab87d658852d2c3f35.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_646981005627c0cdcd1c8b3f518825b75c833516.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_b5dae7e3afef80d06fec66f6d7b320df25bea7d5.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_5ea60db7dab3423d6cff2975b9067ba03a29ad48.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_1d0f8935cc160368ccf71630fe7fa33441aadacf.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_05d360e7e722a271ec456d877af11cf1a58f27ed.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/228bb631fa1ce986c9923e9779c730ce4c46a99d/ss_228bb631fa1ce986c9923e9779c730ce4c46a99d.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_a7d18ead64a52f396623afe885f0cae5a1176085.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_f6747bc53cb9dd1a74d29c6bd93636c64a7d4dfd.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_7fc5f2af64fa7efbf235bb1cc733c1d207a8b340.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_2bac4a50ef7df23f3d5f83f72c8f4ef05bbd2e94.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_a36a21f96c5b68d708c5c88bb5f564f64e91e2b5.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_b6c1f20a1a439a7e9f941f895ac049f7fd71ef04.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/c19d79262ef8ca4170cae4cd1510bf7c15747d5e/ss_c19d79262ef8ca4170cae4cd1510bf7c15747d5e.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/b39008eb3a9cb424a755350d2f74a9e722627d64/ss_b39008eb3a9cb424a755350d2f74a9e722627d64.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_d3b62b9393a17a5e4819321c718aa3b63e0a3cdb.1920x1080.jpg?t=1780056234",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868100/ss_92feef59d9edca9f2ec38ab928b3db8b20bf8992.1920x1080.jpg?t=1780056234"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 or later (64-Bit)",
+          "处理器: Intel Core i5-3470 3.2 GHz (4 cores) or AMD FX-6300",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1050 Ti (4 GB) or AMD Radeon RX 560 (4 GB)",
+          "网络: 宽带互联网连接",
+          "附注事项: SSD recommended for faster load times. Internet connection is required to play."
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 or later (64-Bit)",
+          "处理器: Intel Core i7-9700K 3.6 GHz (8 cores) or AMD Ryzen 7 3700X",
+          "内存: 32 GB RAM",
+          "显卡: NVIDIA GeForce RTX 2060 or AMD Radeon RX 5700 XT",
+          "网络: 宽带互联网连接",
+          "附注事项: SSD is mandatory for smooth performance. Internet connection is required to play."
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 58,
+        "initial": 58,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/2868100/",
+      "fetchedAt": "2026-10-24T02:26:09.182Z"
+    }
   },
   {
     "id": "pc-202610-0067",
