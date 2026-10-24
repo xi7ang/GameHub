@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0be23b1",
+    "date": "2026-10-25T00:21:06+08:00",
+    "message": "sync: 新增资源《再再启程/One Way Tickets   Build.26156134   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0be23b18e77e3083ed16c46c9e3e493295b98586"
+  },
+  {
     "hash": "2b153bc",
     "date": "2026-10-25T00:20:59+08:00",
     "message": "sync: 新增资源《最终幻想：共鸣-虚拟机版/FINAL FANTASY RESONANCE HYP》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T15:15:38+08:00",
     "message": "feat(titles): 按审核清单替换 556 条游戏标题为 lzlgo 口径",
     "url": "https://github.com/xi7ang/GameHub/commit/e654d4b5a25759031b364a3081b3ee0c7bfb073b"
-  },
-  {
-    "hash": "1e81458",
-    "date": "2026-10-23T14:02:57+08:00",
-    "message": "data: 14 款游戏补齐官方封面路径",
-    "url": "https://github.com/xi7ang/GameHub/commit/1e81458813423f861069c83c2d304ec2cf2198b3"
   }
 ]
