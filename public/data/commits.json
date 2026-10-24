@@ -1,5 +1,11 @@
 [
   {
+    "hash": "73bcded",
+    "date": "2026-10-25T00:21:17+08:00",
+    "message": "sync: 新增资源《ONE PIECE 海洋盛宴 /ONE PIECE ONE PIECE Gran》",
+    "url": "https://github.com/xi7ang/GameHub/commit/73bcded40f0b8fde5e2b077ffdc35578b10f2ac1"
+  },
+  {
     "hash": "a0fe8ca",
     "date": "2026-10-25T00:21:12+08:00",
     "message": "sync: 新增资源《昔日亡者：开放世界生存/THE DEAD WE KNEW   Build.261》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T16:33:01+08:00",
     "message": "feat(titles): 补齐剩余可匹配资源，改用 lzlgo 原始标题（274 条）",
     "url": "https://github.com/xi7ang/GameHub/commit/3142f11727dd77c3eaa3f5a35dccbbc861775f87"
-  },
-  {
-    "hash": "87c9703",
-    "date": "2026-10-23T16:24:46+08:00",
-    "message": "fix(titles): 改用 lzlgo 原始完整标题（保留版本号/送修改器/免安装等后缀）",
-    "url": "https://github.com/xi7ang/GameHub/commit/87c9703a9c3b7d248af0f41cf5bb609fd3c95c10"
   }
 ]
