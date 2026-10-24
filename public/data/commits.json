@@ -1,5 +1,11 @@
 [
   {
+    "hash": "a0fe8ca",
+    "date": "2026-10-25T00:21:12+08:00",
+    "message": "sync: 新增资源《昔日亡者：开放世界生存/THE DEAD WE KNEW   Build.261》",
+    "url": "https://github.com/xi7ang/GameHub/commit/a0fe8ca97b66029964de90dd1a6c4913ce76f6eb"
+  },
+  {
     "hash": "0be23b1",
     "date": "2026-10-25T00:21:06+08:00",
     "message": "sync: 新增资源《再再启程/One Way Tickets   Build.26156134   》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T16:24:46+08:00",
     "message": "fix(titles): 改用 lzlgo 原始完整标题（保留版本号/送修改器/免安装等后缀）",
     "url": "https://github.com/xi7ang/GameHub/commit/87c9703a9c3b7d248af0f41cf5bb609fd3c95c10"
-  },
-  {
-    "hash": "e654d4b",
-    "date": "2026-10-23T15:15:38+08:00",
-    "message": "feat(titles): 按审核清单替换 556 条游戏标题为 lzlgo 口径",
-    "url": "https://github.com/xi7ang/GameHub/commit/e654d4b5a25759031b364a3081b3ee0c7bfb073b"
   }
 ]
