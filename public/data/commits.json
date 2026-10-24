@@ -1,5 +1,11 @@
 [
   {
+    "hash": "75b125a",
+    "date": "2026-10-25T00:22:34+08:00",
+    "message": "fix(data): 校正 lzlgo 五条资源的类型分类并补封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/75b125a0ad2f85b7b7ffe1e5ddf689022fe1281f"
+  },
+  {
     "hash": "90761ef",
     "date": "2026-10-25T00:21:23+08:00",
     "message": "sync: 新增资源《矿石之外/Out of Ore   Build.25808949   免安装中文》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T17:18:19+08:00",
     "message": "feat(home): 移动端「游戏推荐/最新更新/资源分类」加「获取更多」",
     "url": "https://github.com/xi7ang/GameHub/commit/faa813c6412593f8bc38d9579a1a2968bf9c7cf1"
-  },
-  {
-    "hash": "fa0cdcb",
-    "date": "2026-10-23T17:11:43+08:00",
-    "message": "feat(category): 分类口径改为游戏类型，放弃平台维度",
-    "url": "https://github.com/xi7ang/GameHub/commit/fa0cdcb972a38339185199d4ffef732f9d039582"
   }
 ]
