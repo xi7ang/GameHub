@@ -230,6 +230,42 @@ async function loadDetail(rawId) {
   return state
 }
 
+// 搜索页专用轻量加载器：只拉「瘦索引 + 分类/站点配置」，不再拉全量 resources.json（5.3MB）。
+// 瘦索引（resource-index.json）由 scripts/gen-detail.js 在构建期生成，卡片字段与
+// ResourceCard 实际读取的字段一一对应（id/title/enTitle/cover/category/tags/size/status/
+// featured/addedAt/updatedAt/steam 评分摘要+发行日期），渲染结果与全量一致。
+// 索引不可用时回退全量 load()，保证搜索页永远能开。
+let searchLoaded = false
+async function loadSearch() {
+  if (searchLoaded) return state
+  const cb = CB
+  try {
+    const [index, cats, site] = await Promise.all([
+      fetch(`${BASE}data/resource-index.json?${cb}`).then((r) => (r.ok ? r.json() : Promise.reject(new Error('index ' + r.status)))),
+      fetch(`${BASE}data/categories.json?${cb}`).then((r) => r.json()),
+      fetch(`${BASE}data/site.json?${cb}`).then((r) => r.json()),
+    ])
+    const items = index?.items
+    if (!Array.isArray(items)) throw new Error('resource-index 结构异常')
+    state.resources = items
+    state.categories = cats.sort((a, b) => a.order - b.order)
+    state.site = site
+    applyBrandToDoc(site)
+    searchLoaded = true
+  } catch (e) {
+    // 兜底：回退全量加载
+    try {
+      await load()
+      searchLoaded = true
+    } catch (e2) {
+      state.error = String(e2)
+    }
+  } finally {
+    state.loading = false
+  }
+  return state
+}
+
 export function useData() {
-  return { state, load, loadHome, loadCategories, loadDetail, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
+  return { state, load, loadHome, loadCategories, loadDetail, loadSearch, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
 }
