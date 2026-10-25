@@ -92,7 +92,7 @@
                 <div>
                   <h3 style="margin: 0 0 4px">🎲 背景墙随机刷新</h3>
                   <p class="text-low" style="font-size: 12px; margin: 0">
-                    从站内有封面的资源中随机抽 30 张，组成一面新的背景墙。点击后提交到仓库并自动部署，部署完成后访客打开前台即看到新墙。
+                    从 game-covers/ 文件夹里准备好的图片中随机抽 30 张，组成一面新的背景墙。点击后提交到仓库并自动部署，部署完成后访客打开前台即看到新墙。
                   </p>
                   <p v-if="bgwallRefreshed" class="text-low" style="font-size: 12px; margin: 6px 0 0; color: var(--accent-sage)">✅ 已随机刷新！新背景墙已提交，正在自动部署（3-5 分钟后生效）。</p>
                   <p v-if="bgwallError" class="text-low" style="font-size: 12px; margin: 6px 0 0; color: #fb7185">❌ {{ bgwallError }}</p>
@@ -1068,10 +1068,24 @@ async function ghPut(path, body) {
 }
 
 // 读文件（拿 sha + 内容）
+// 注意：GitHub contents API 对大文件（resources.json 已 5.5MB）不返回 content，
+// 此时 content 为空、encoding 为 none，必须改走 download_url，否则 JSON.parse('') 直接抛错，
+// 连带导致 refreshAll 失败、后台资源列表为空（登录流程先置 authed=true 才调 refreshAll，
+// 失败后只填 loginError，面板仍以空数据渲染）。
 const fileCache = reactive({})
 async function readFile(filePath) {
   const meta = await ghGet(`/contents/${filePath}`)
-  const content = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\n/g, '')))))
+  let text
+  if (meta.content) {
+    text = decodeURIComponent(escape(atob(meta.content.replace(/\n/g, ''))))
+  } else if (meta.download_url) {
+    const res = await fetch(meta.download_url)
+    if (!res.ok) throw new Error(`下载 ${filePath}: ${res.status}`)
+    text = await res.text()
+  } else {
+    throw new Error(`读取 ${filePath}: GitHub 未返回内容`)
+  }
+  const content = JSON.parse(text)
   fileCache[filePath] = { sha: meta.sha, content }
   return content
 }
@@ -1241,8 +1255,10 @@ watch(tab, (t) => {
 
 // ── 背景墙随机刷新 ──
 // 前台背景墙每次打开本来就会逐行洗牌，所以只改顺序访客看不出变化；
-// 真正生效的做法是换一批图：从站内有封面的资源中随机抽 30 张写回 bgwall.json，
-// 提交到 main 后 Actions 自动部署，访客下次打开即看到新墙。
+// 真正生效的做法是换一批图：图源就是 game-covers/ 文件夹里准备好的图片，
+// 每次从中随机抽 30 张写回 bgwall.json，提交到 main 后 Actions 自动部署，
+// 访客下次打开即看到新墙。刻意不依赖 resources 列表：resources.json 已 5.5MB，
+// 一旦资源加载出问题，图池会连带报 0 条。
 const bgwallBusy = ref(false)
 const bgwallRefreshed = ref(false)
 const bgwallError = ref('')
@@ -1252,23 +1268,27 @@ async function refreshBgWall() {
   bgwallError.value = ''
   try {
     const current = await readFile('public/data/bgwall.json')
-    const pool = []
-    const seen = new Set()
-    for (const r of resources.value) {
-      if (!r.cover || seen.has(r.cover)) continue
-      seen.add(r.cover)
-      pool.push(r)
+    const listing = await ghGet('/contents/public/game-covers')
+    if (!Array.isArray(listing)) throw new Error('读取 game-covers 文件夹失败')
+    // 按小写文件名去重（文件夹里有 Apex.webp / apex.webp 这类同图不同名），
+// 已在当前墙里的优先保留原文件，避免同款游戏一张图占两个坑。
+    const currentFiles = new Set((current.images || []).map((g) => String(g.img || '').split('/').pop()))
+    const byKey = new Map()
+    for (const f of listing) {
+      if (f.type !== 'file' || !/\.webp$/i.test(f.name || '')) continue
+      const key = f.name.toLowerCase()
+      if (!byKey.has(key) || currentFiles.has(f.name)) byKey.set(key, f.name)
     }
-    if (pool.length < 10) throw new Error(`站内有封面的资源不足（仅 ${pool.length} 条），无法组成背景墙`)
+    const pool = [...byKey.values()]
+    if (pool.length < 10) throw new Error(`game-covers/ 里可用图片不足（仅 ${pool.length} 张），无法组成背景墙`)
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
       ;[pool[i], pool[j]] = [pool[j], pool[i]]
     }
-    const images = pool.slice(0, 30).map((r) => ({
-      slug: r.id,
-      name: String(r.title || '').split('/')[0].trim() || r.id,
-      img: String(r.cover).replace(/^\/+/, ''),
-    }))
+    const images = pool.slice(0, 30).map((file) => {
+      const slug = file.replace(/\.webp$/i, '')
+      return { slug, name: slug, img: `game-covers/${file}` }
+    })
     await writeFile('public/data/bgwall.json', { images, rows: current.rows || 18 }, 'admin: 随机刷新背景墙图片池')
     bgwallRefreshed.value = true
   } catch (e) {
