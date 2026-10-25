@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c675f48",
+    "date": "2026-10-25T12:21:37+08:00",
+    "message": "sync: 新增资源《第31名学生/The 31st Student   Build.26152620》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c675f481a3f42983949037a008e330c7d2c94f6e"
+  },
+  {
     "hash": "eef7c0e",
     "date": "2026-10-25T12:21:31+08:00",
     "message": "sync: 新增资源《道之华隐/DaoNoKa hide   Build.26131439   免安装》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T22:40:56+08:00",
     "message": "sync: 新增资源《疯狂嘉年华中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/34795326bc1bcd3c91b6ee90ed419fbb5ab480b2"
-  },
-  {
-    "hash": "5ab7a82",
-    "date": "2026-10-23T22:37:21+08:00",
-    "message": "sync: 新增资源《圣剑传说3重制版Q萌冒险》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5ab7a82d9ace0a35a618e86832a7ae6ff6452da7"
   }
 ]
