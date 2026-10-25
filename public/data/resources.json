@@ -75689,5 +75689,25 @@
       "storeUrl": "https://store.steampowered.com/app/3841050/",
       "fetchedAt": "2026-10-25T04:31:11.911Z"
     }
+  },
+  {
+    "id": "casual-202610-0001",
+    "title": "弹钉贴纸/Pegs X Stickers Build.24743882 免安装中文版",
+    "enTitle": "Pegs X Stickers",
+    "category": "casual",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/d4a46396802d?pwd=a6IX",
+    "pwd": "a6IX",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4403010.webp",
+    "steamAppID": 4403010,
+    "desc": "《Pegs X Stickers》是一款弹珠台肉鸽（Roguelite）游戏，你可以通过消除钉子来获得分数和乘数。构建属于你的面板并购买贴纸，创造高分协同效应。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-25T13:30:34+08:00",
+    "updatedAt": "2026-10-25T13:30:34+08:00",
+    "month": "202610"
   }
 ]

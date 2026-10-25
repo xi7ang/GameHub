@@ -1,5 +1,29 @@
 [
   {
+    "hash": "e16a6d0",
+    "date": "2026-10-25T13:09:58+08:00",
+    "message": "data: 重新回填 10 条 lzlgo 资源描述（上次被并发写入覆盖）",
+    "url": "https://github.com/xi7ang/GameHub/commit/e16a6d00570c8f36664468e53ee61d02412a1d5a"
+  },
+  {
+    "hash": "c3cb58e",
+    "date": "2026-10-25T13:08:35+08:00",
+    "message": "data: 夜勤人1代与背包英雄正式版 appid 修正并补齐资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/c3cb58e8bbe772c1fb52f4860613986a87370863"
+  },
+  {
+    "hash": "db461bc",
+    "date": "2026-10-25T13:07:08+08:00",
+    "message": "data: 为 10 条 lzlgo 资源补资源描述（取自 lzlgo 游戏介绍）",
+    "url": "https://github.com/xi7ang/GameHub/commit/db461bc6078fb916c527fb820e425f640722d37e"
+  },
+  {
+    "hash": "fef2632",
+    "date": "2026-10-25T13:07:06+08:00",
+    "message": "covers: 夜勤人1代与背包英雄正式版官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/fef2632a18ef1ed84d434bbc883cea4d5738d486"
+  },
+  {
     "hash": "cd7aa2b",
     "date": "2026-10-25T12:32:37+08:00",
     "message": "data: 19 条数字封面核对，9 条确认补齐 appid 与资料",
@@ -154,29 +178,5 @@
     "date": "2026-10-23T23:41:09+08:00",
     "message": "fix(gamehub): 补 0064/0065/0066 缺失封面；新增 steamAppID 姓名核对脚本",
     "url": "https://github.com/xi7ang/GameHub/commit/6dee48dab6b4f03e08f9fcd427de1ffbca27ce16"
-  },
-  {
-    "hash": "c5e97d4",
-    "date": "2026-10-23T23:28:48+08:00",
-    "message": "chore(scripts): migrate-from-md.js 加分类口径守卫",
-    "url": "https://github.com/xi7ang/GameHub/commit/c5e97d40ea6a381ec47d6a04e9f38d7104df57b1"
-  },
-  {
-    "hash": "8a24bc0",
-    "date": "2026-10-23T23:06:09+08:00",
-    "message": "fix(gamehub): 火星求生封面纠正为 Steam 3215050（原误配 4204190=太平天国）",
-    "url": "https://github.com/xi7ang/GameHub/commit/8a24bc07fa73ee6fbce8d44600285e2883355199"
-  },
-  {
-    "hash": "a7c9748",
-    "date": "2026-10-23T22:56:17+08:00",
-    "message": "fix(ci): 修复同步资源写入旧平台分类导致 validate 失败",
-    "url": "https://github.com/xi7ang/GameHub/commit/a7c9748e5268b077af7f3074fc26721ecb67c10d"
-  },
-  {
-    "hash": "3545d3d",
-    "date": "2026-10-23T22:53:44+08:00",
-    "message": "sync: 新增资源《骑战：烈火之剑 v73.85 中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3545d3d9b343aa140afd8c1a6310b3711b5ec932"
   }
 ]
