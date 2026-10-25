@@ -1,5 +1,17 @@
 [
   {
+    "hash": "cd7aa2b",
+    "date": "2026-10-25T12:32:37+08:00",
+    "message": "data: 19 条数字封面核对，9 条确认补齐 appid 与资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/cd7aa2b88fa0204de57fb3c892173a2a292ea526"
+  },
+  {
+    "hash": "fe7f3c6",
+    "date": "2026-10-25T12:27:14+08:00",
+    "message": "fix(data): 第二批 lzlgo 资源分类校正 + 封面补齐",
+    "url": "https://github.com/xi7ang/GameHub/commit/fe7f3c6d05f575ca6847a27b46fb9ee351cbb6b6"
+  },
+  {
     "hash": "7868a98",
     "date": "2026-10-25T12:21:42+08:00",
     "message": "sync: 新增资源《巢床生活~一日三餐带点心的幸福人牲~/Sacrifice Sanctuary T》",
@@ -166,17 +178,5 @@
     "date": "2026-10-23T22:53:44+08:00",
     "message": "sync: 新增资源《骑战：烈火之剑 v73.85 中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/3545d3d9b343aa140afd8c1a6310b3711b5ec932"
-  },
-  {
-    "hash": "3c32d94",
-    "date": "2026-10-23T22:50:03+08:00",
-    "message": "sync: 新增资源《火星求生：重启版 Surviving Mars Relaunched v1.1.》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3c32d9461ff2d6c7a94b430339334a47b67d4db0"
-  },
-  {
-    "hash": "49d82cf",
-    "date": "2026-10-23T22:45:16+08:00",
-    "message": "sync: 新增资源《最终幻想15 Win版v1.1.605.2》",
-    "url": "https://github.com/xi7ang/GameHub/commit/49d82cf080bcba0c5815418a49215f5187667b2e"
   }
 ]
