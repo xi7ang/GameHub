@@ -19,6 +19,11 @@
       </div>
 
       <template v-else>
+        <div v-if="!dataReady" class="empty glass">
+          <div style="font-size: 40px; margin-bottom: 10px">⏳</div>
+          <p>正在加载资源数据…</p>
+        </div>
+        <template v-else>
         <div class="result-meta">
           <span>「<em class="neon-cyan">{{ q }}</em>」共找到 <strong>{{ results.length }}</strong> 个资源</span>
           <span v-if="!results.length" class="text-low">试试其他关键词，或检查是否包含空格</span>
@@ -34,6 +39,7 @@
             <ResourceCard v-for="r in group.items" :key="r.id" :r="r" />
           </div>
         </section>
+        </template>
       </template>
     </section>
 
@@ -53,14 +59,15 @@ import AnnouncementModal from '../components/AnnouncementModal.vue'
 import { useData } from '../composables/useData.js'
 import { ensureIndex, search, searchOnResources, ID } from '../lib/search.js'
 
-const { state, load, catMeta } = useData()
+const { state, loadSearch, catMeta } = useData()
 const params = new URLSearchParams(location.search)
 const q = ref(params.get('q') || '')
 const indexReady = ref(false)
+const dataReady = ref(false)
 
 // 匹配交给 src/lib/search.js 的级联规则（与首页下拉框共用一套）。
-// 这里仍要 load() 全量：搜索页要渲染 ResourceCard，卡片需要封面/体积等完整字段；
-// 索引只用来决定「哪些 id、什么顺序」。
+// 卡片渲染用瘦索引（loadSearch 拉 resource-index.json，约 476KB）：卡片要的字段
+// 瘦卡片全有，不再为搜索拉 5.3MB 全量 resources.json；索引只用来决定「哪些 id、什么顺序」。
 const results = computed(() => {
   const query = q.value.trim()
   if (!query) return []
@@ -90,9 +97,12 @@ function syncQ() {
   // 由 SearchBox 内部跳转驱动，这里只读初始值
 }
 onMounted(async () => {
-  const recs = await ensureIndex()
-  indexReady.value = !!recs
-  load()
+  // 索引与瘦数据并行拉取；数据就绪前模板显示加载态，不再出现
+  // 「索引已就绪、全量未到」时先闪 0 条结果的情况。
+  const p1 = ensureIndex()
+  const p2 = loadSearch().then(() => { dataReady.value = true })
+  indexReady.value = !!(await p1)
+  await p2
   syncQ()
 })
 </script>
