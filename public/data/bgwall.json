@@ -1,109 +1,24 @@
 {
   "images": [
     {
-      "slug": "RDR2",
-      "name": "RDR2",
-      "img": "game-covers/RDR2.webp"
-    },
-    {
-      "slug": "HogwartsLegacy",
-      "name": "HogwartsLegacy",
-      "img": "game-covers/HogwartsLegacy.webp"
-    },
-    {
-      "slug": "Cyberpunk2077",
-      "name": "Cyberpunk2077",
-      "img": "game-covers/Cyberpunk2077.webp"
-    },
-    {
-      "slug": "Raft",
-      "name": "Raft",
-      "img": "game-covers/Raft.webp"
-    },
-    {
-      "slug": "WallpaperEngine",
-      "name": "WallpaperEngine",
-      "img": "game-covers/WallpaperEngine.webp"
-    },
-    {
-      "slug": "ProjectZomboid",
-      "name": "ProjectZomboid",
-      "img": "game-covers/ProjectZomboid.webp"
-    },
-    {
-      "slug": "L4D2",
-      "name": "L4D2",
-      "img": "game-covers/L4D2.webp"
-    },
-    {
-      "slug": "GMod",
-      "name": "GMod",
-      "img": "game-covers/GMod.webp"
-    },
-    {
-      "slug": "BlackMythWukong",
-      "name": "BlackMythWukong",
-      "img": "game-covers/BlackMythWukong.webp"
-    },
-    {
-      "slug": "Palworld",
-      "name": "Palworld",
-      "img": "game-covers/Palworld.webp"
-    },
-    {
-      "slug": "MonsterHunterWorld",
-      "name": "MonsterHunterWorld",
-      "img": "game-covers/MonsterHunterWorld.webp"
-    },
-    {
-      "slug": "Apex",
-      "name": "Apex",
-      "img": "game-covers/Apex.webp"
-    },
-    {
-      "slug": "TotalWar3K",
-      "name": "TotalWar3K",
-      "img": "game-covers/TotalWar3K.webp"
-    },
-    {
-      "slug": "RimWorld",
-      "name": "RimWorld",
-      "img": "game-covers/RimWorld.webp"
-    },
-    {
-      "slug": "Sekiro",
-      "name": "Sekiro",
-      "img": "game-covers/Sekiro.webp"
-    },
-    {
       "slug": "CS2",
-      "name": "CS2",
+      "name": "反恐精英2",
       "img": "game-covers/CS2.webp"
     },
     {
-      "slug": "GodOfWar",
-      "name": "GodOfWar",
-      "img": "game-covers/GodOfWar.webp"
+      "slug": "Dota2",
+      "name": "Dota 2",
+      "img": "game-covers/Dota2.webp"
     },
     {
-      "slug": "garrysmod",
-      "name": "garrysmod",
-      "img": "game-covers/garrysmod.webp"
+      "slug": "PUBG",
+      "name": "绝地求生",
+      "img": "game-covers/PUBG.webp"
     },
     {
-      "slug": "EuroTruck",
-      "name": "EuroTruck",
-      "img": "game-covers/EuroTruck.webp"
-    },
-    {
-      "slug": "Factorio",
-      "name": "Factorio",
-      "img": "game-covers/Factorio.webp"
-    },
-    {
-      "slug": "DontStarveTogether",
-      "name": "DontStarveTogether",
-      "img": "game-covers/DontStarveTogether.webp"
+      "slug": "Apex",
+      "name": "Apex英雄",
+      "img": "game-covers/Apex.webp"
     },
     {
       "slug": "Rust",
@@ -116,39 +31,124 @@
       "img": "game-covers/GTA5.webp"
     },
     {
-      "slug": "ItTakesTwo",
-      "name": "ItTakesTwo",
-      "img": "game-covers/ItTakesTwo.webp"
+      "slug": "MarvelRivals",
+      "name": "漫威争锋",
+      "img": "game-covers/MarvelRivals.webp"
+    },
+    {
+      "slug": "PathOfExile2",
+      "name": "流放之路2",
+      "img": "game-covers/PathOfExile2.webp"
+    },
+    {
+      "slug": "Naraka",
+      "name": "永劫无间",
+      "img": "game-covers/Naraka.webp"
+    },
+    {
+      "slug": "DeltaForce",
+      "name": "三角洲行动",
+      "img": "game-covers/DeltaForce.webp"
     },
     {
       "slug": "Witcher3",
-      "name": "Witcher3",
+      "name": "巫师3",
       "img": "game-covers/Witcher3.webp"
     },
     {
-      "slug": "nomansky",
-      "name": "nomansky",
-      "img": "game-covers/nomansky.webp"
+      "slug": "Skyrim",
+      "name": "上古卷轴5",
+      "img": "game-covers/Skyrim.webp"
     },
     {
-      "slug": "Dota2",
-      "name": "Dota2",
-      "img": "game-covers/Dota2.webp"
+      "slug": "Portal2",
+      "name": "传送门2",
+      "img": "game-covers/Portal2.webp"
     },
     {
-      "slug": "HifiRush",
-      "name": "HifiRush",
-      "img": "game-covers/HifiRush.webp"
+      "slug": "Terraria",
+      "name": "泰拉瑞亚",
+      "img": "game-covers/Terraria.webp"
     },
     {
-      "slug": "MountBlade",
-      "name": "MountBlade",
-      "img": "game-covers/MountBlade.webp"
+      "slug": "Stardew",
+      "name": "星露谷物语",
+      "img": "game-covers/Stardew.webp"
     },
     {
-      "slug": "NoMansSky",
-      "name": "NoMansSky",
-      "img": "game-covers/NoMansSky.webp"
+      "slug": "HollowKnight",
+      "name": "空洞骑士",
+      "img": "game-covers/HollowKnight.webp"
+    },
+    {
+      "slug": "Hades",
+      "name": "哈迪斯",
+      "img": "game-covers/Hades.webp"
+    },
+    {
+      "slug": "Sekiro",
+      "name": "只狼",
+      "img": "game-covers/Sekiro.webp"
+    },
+    {
+      "slug": "EldenRing",
+      "name": "艾尔登法环",
+      "img": "game-covers/EldenRing.webp"
+    },
+    {
+      "slug": "RDR2",
+      "name": "荒野大镖客2",
+      "img": "game-covers/RDR2.webp"
+    },
+    {
+      "slug": "Silksong",
+      "name": "丝之歌",
+      "img": "game-covers/Silksong.webp"
+    },
+    {
+      "slug": "Expedition33",
+      "name": "光与影：33号远征队",
+      "img": "game-covers/Expedition33.webp"
+    },
+    {
+      "slug": "ARCRaiders",
+      "name": "ARC Raiders",
+      "img": "game-covers/ARCRaiders.webp"
+    },
+    {
+      "slug": "Nightreign",
+      "name": "艾尔登法环：黑夜君临",
+      "img": "game-covers/Nightreign.webp"
+    },
+    {
+      "slug": "KCD2",
+      "name": "天国：拯救2",
+      "img": "game-covers/KCD2.webp"
+    },
+    {
+      "slug": "DoomDarkAges",
+      "name": "毁灭战士：黑暗时代",
+      "img": "game-covers/DoomDarkAges.webp"
+    },
+    {
+      "slug": "Avowed",
+      "name": "宣誓",
+      "img": "game-covers/Avowed.webp"
+    },
+    {
+      "slug": "ACShadows",
+      "name": "刺客信条：影",
+      "img": "game-covers/ACShadows.webp"
+    },
+    {
+      "slug": "Borderlands4",
+      "name": "无主之地4",
+      "img": "game-covers/Borderlands4.webp"
+    },
+    {
+      "slug": "DuneAwakening",
+      "name": "沙丘：觉醒",
+      "img": "game-covers/DuneAwakening.webp"
     }
   ],
   "rows": 18
