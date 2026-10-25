@@ -67210,7 +67210,7 @@
   {
     "id": "other-202610-0001",
     "title": "再再启程/One Way Tickets   Build.26156134   免安装中文版",
-    "enTitle": "",
+    "enTitle": "One Way Tickets",
     "category": "action",
     "tags": [],
     "platform": "quark",
@@ -67225,7 +67225,55 @@
     "featured": false,
     "addedAt": "2026-10-25T00:21:04+08:00",
     "updatedAt": "2026-10-25T00:21:04+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 4817620,
+      "developer": "Future Tech.",
+      "publisher": "Future Tech.",
+      "releaseDate": "2026 年 10 月 22 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "竞速",
+        "抢先体验"
+      ],
+      "languages": "英语, 简体中文, 繁体中文",
+      "summary": "《再再启程》是一款融合了轻度肉鸽和增量的冒险游戏，你将在异世界开启一段奇异旅程。选择载具，装配设备，面对各类敌人带来的挑战。冲撞！倾泻子弹！大力挥砍！不断成长，向前迈进吧！",
+      "description": "在《再再启程》的世界里，你将作为一辆载具的驾驶员，和遇到的伙伴一起展开一段奇妙旅程。你的小车将疾驰在异世界的道路上，一边欣赏风景，一边面对半路出现的敌人们。通过操作面板操控装载的设备击退敌人，收获资源。忙不过来怎么办？叫上半路遇到的伙伴一起帮忙吧！\n通过和下方车控面板的互动，可以操作画面上方小车的行为。随着关卡推进，你可能会越来越手忙脚乱，但没关系，我们为你的旅程提供了各种各样的升级和帮手，能让你更轻松地驾驶车辆和操作设备。\n在旅程中，你可以驾驶车辆碾压冲撞敌人，也可以操作设备进行各种攻击。不过要时刻注意剩余的能量，以及敌人和天气带给你的各种考验。稍有不慎可能会功亏一篑，但是不要气馁，你能带回一部分素材升级自身能力，下次一定能跑更远！\n在冒险途中，玩家可以在安全区修整（游戏内和游戏外）。在这里会有各种商人出售物品，能让你的旅程变得更有趣。同时也会有一些意外事件……？总之一切都是旅途的一部分，根据你的喜好构筑自己的载具吧！\n旅程结束后，会带着素材回到大本营。在大本营升级各种能力和建筑，一步步变强吧！各种升级选项会影响你之后的旅程，所以谨慎选择吧！\n我们为EA版本准备了四个世界群系，每个群系包含三个氛围各异的子场景，每个世界拥有独特的怪物和天气系统。同时也有各种各样的收集系统，设备、角色、怪物、遗物、掉落物图鉴等着你去收集！\n*游戏将以EA形式发售，我们将在未来的更新中带来更多功能、世界、设备、构筑等，敬请期待！\n*发售时暂时只提供简体中文，繁体中文，英文三种语言。我们会密切留意愿望单的数据，优先翻译那些最受期待的语种。\n所以请记得把我们的游戏添加至愿望单！\n*BUG反馈及意见：",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/863a75da1feffec868915367ed726deb2f7bfc31/ss_863a75da1feffec868915367ed726deb2f7bfc31.1920x1080.jpg?t=1792731606",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/b4d78439260153d5db9fa1c6a2a00635c38463dc/ss_b4d78439260153d5db9fa1c6a2a00635c38463dc.1920x1080.jpg?t=1792731606",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/60480b8a3ffd6d1c1f305bf1eee710ce0095aa4e/ss_60480b8a3ffd6d1c1f305bf1eee710ce0095aa4e.1920x1080.jpg?t=1792731606",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/cdee56abb490ab77e2fc35c2789f47644c1004bd/ss_cdee56abb490ab77e2fc35c2789f47644c1004bd.1920x1080.jpg?t=1792731606",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/5883bec2ad15ef4828d4f5f2d7c584eebc41e3da/ss_5883bec2ad15ef4828d4f5f2d7c584eebc41e3da.1920x1080.jpg?t=1792731606",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4817620/cdbd0d01b15a5bf1c4c73de2e9eb2baddd8a4462/ss_cdbd0d01b15a5bf1c4c73de2e9eb2baddd8a4462.1920x1080.jpg?t=1792731606"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64 bit",
+          "处理器: Intel Core i3 Dual Core",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA Geforce GTS 450/ AMD Radeon HD 5570",
+          "存储空间: 需要 4 GB 可用空间",
+          "声卡: Windows Compatible Audio Device"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 54.4,
+        "initial": 68,
+        "discountPercent": 20
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/4817620/",
+      "fetchedAt": "2026-10-24T18:58:40.715Z"
+    }
   },
   {
     "id": "other-202610-0002",
@@ -67250,7 +67298,7 @@
   {
     "id": "other-202610-0003",
     "title": "ONE PIECE 海洋盛宴 /ONE PIECE ONE PIECE Grand Gourmet   Build.26153392   免安装中文版",
-    "enTitle": "",
+    "enTitle": "ONE PIECE: Grand Gourmet",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
@@ -67265,12 +67313,65 @@
     "featured": false,
     "addedAt": "2026-10-25T00:21:15+08:00",
     "updatedAt": "2026-10-25T00:21:15+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 3905010,
+      "developer": "Kairosoft Co.,Ltd",
+      "publisher": "Bandai Namco Entertainment Inc.",
+      "releaseDate": "2026 年 10 月 22 日",
+      "genres": [
+        "休闲",
+        "模拟"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 西班牙语 - 拉丁美洲, 泰语, 葡萄牙语 - 巴西, 简体中文, 繁体中文, 日语, 韩语",
+      "summary": "跟草帽一伙一起经营芭拉蒂2号店！ 从小船上揭幕的是专属于您的海上餐厅。 收集食材开发新菜单、用室内装饰随心所欲装潢店内…… 随着提升餐厅的水平，这间店会成长得越来越充满朝气与活力，就连“那个角色”也有机会变成这里的常客。 每当伙伴或常客增加，您的餐厅便会离大海上人人赞不绝口的店更迈进一步！ “ONE PIECE”角色们大排长龙的海上餐厅，今日开业！",
+      "description": "①ONE PIECE变成经营模拟游戏登场了！\n在“ONE PIECE”的世界里经营海上餐厅！\n您将化身为芭拉蒂2号店的新员工，与草帽一伙一起打造出“这片大海中的顶级餐厅”吧！\n②开发自己专属的套餐菜品！\n以角色给的点子为灵感来选择食材，和山智一起开发料理吧！\n将开发出来的料理任意搭配并摆上装饰，专属于您的原创套餐菜品就完成喽！\n不仅如此，外出冒险就有机会发现新食材，能够制作的料理种类也会跟着越来越多！\n像是“水水肉烧烤”、“海王类肉馅戈耳工尖管干酪面”之类的，\n还有原作中曾出现的“那道料理”，甚至是活用恶魔果实能力的特别料理也可能登场……！？\n创造出连ONE PIECE的角色们都“忍不住啧啧称好”的极致套餐菜品，提升营业额吧！\n③随心所欲自由装潢餐厅！\n依您的喜好自由布置200种以上的家具、建筑物、室内装饰，设计出心目中的理想餐厅！\n“蛋糕岛风”的甜美点心家具、“艾格赫德风”的近未来室内装饰等等，\n以原作中的岛屿为概念的家具也会一一登场。\n餐厅的内部装潢如果让邀请来的角色很喜欢，或许就会变成常客喔！\n快来打造世界上独一无二、最符合您喜好的海上餐厅吧！\n④总计有400人以上的角色会出现！\n草帽一伙当然是不用说，动画里那些熟悉的角色们也会一个接一个露面！\n用美味料理与有品味的室内装潢好好招待角色，让他们成为餐厅的粉丝吧！\n也千万别错过只有在这里才能看到的角色剧情，以及角色之间的交流！\n※画面为开发中版本。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/7237b54c67ce86c74027231c37dda1bf2840fe7a/ss_7237b54c67ce86c74027231c37dda1bf2840fe7a.1920x1080.jpg?t=1792768513",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/d412f7e55e00deb6a0844fbb0363b2d05e21cfc7/ss_d412f7e55e00deb6a0844fbb0363b2d05e21cfc7.1920x1080.jpg?t=1792768513",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/389e9fee13e51df6bd78647de63dd41a37042b81/ss_389e9fee13e51df6bd78647de63dd41a37042b81.1920x1080.jpg?t=1792768513",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/c44933a35079d3a49f319303363b62d3618bf360/ss_c44933a35079d3a49f319303363b62d3618bf360.1920x1080.jpg?t=1792768513",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/1cf2b42009a845e173774c9179c8cded9ff351b6/ss_1cf2b42009a845e173774c9179c8cded9ff351b6.1920x1080.jpg?t=1792768513",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3905010/9d409a1208879fc037cebc89b2bd5e01f40567f6/ss_9d409a1208879fc037cebc89b2bd5e01f40567f6.1920x1080.jpg?t=1792768513"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: Intel Core i3-8100 / AMD Ryzen 3 3100",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 750 Ti [2 GB] / AMD Radeon RX 560 [4 GB] / Intel Arc A310 [4 GB]",
+          "DirectX 版本: 12",
+          "存储空间: 需要 2 GB 可用空间",
+          "附注事项: Estimated performance: 1080p/30fps. Framerate might drop in graphics-intensive scenes."
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: Intel Core i7-8700 / AMD Ryzen 5 4500",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1070 Ti [8 GB] / AMD Radeon RX 5600 XT [6 GB] / Intel Arc A580 [8 GB]",
+          "DirectX 版本: 12",
+          "存储空间: 需要 2 GB 可用空间",
+          "附注事项: Estimated performance: 1080p/30fps.  Framerate might drop in graphics-intensive scenes.  Windows 10 (Version 1809 or later) and a 4GB VRAM GPU (graphics board or video card) are required for DirectX 12 API."
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 88,
+        "initial": 88,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/3905010/",
+      "fetchedAt": "2026-10-24T18:58:44.308Z"
+    }
   },
   {
     "id": "other-202610-0004",
     "title": "矿石之外/Out of Ore   Build.25808949   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Out of Ore",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
@@ -67285,6 +67386,63 @@
     "featured": false,
     "addedAt": "2026-10-25T00:21:20+08:00",
     "updatedAt": "2026-10-25T00:21:20+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 2009350,
+      "developer": "North Modding Company AB",
+      "publisher": "North Modding Company AB",
+      "releaseDate": "2022 年 10 月 31 日",
+      "genres": [
+        "冒险",
+        "休闲",
+        "模拟",
+        "策略"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙\n具有完全音频支持的语言",
+      "summary": "Build your own mining company from the ground up. Extract resources, operate heavy machinery, construct infrastructure, and grow from a laborer to the King of Klondike.",
+      "description": "You have been sent to one of the northernmost regions operated by Company Mining Corp, where a vast wilderness filled with resources, opportunities, and challenges awaits.\nStarting with limited equipment and experience, it is up to you to prospect for ore, establish mining operations, transport materials, and build a profitable company from the ground up. Every load of ore sold brings you one step closer to expanding your fleet, unlocking new equipment, and taking on larger projects.\nDig, blast, build roads, process materials, manufacture products, and develop your own industrial empire across multiple large maps.\nEstablish production facilities, create logistics networks, and shape the landscape around you as your operation continues to grow.\nThroughout your journey, you'll gain access to a wide range of vehicles and machinery, each of which can be customized with lights, GPS systems, paint jobs, tires, tracks, and other upgrades.\nFrom a lone laborer operating basic equipment to the owner of a massive industrial company, every decision and every project contributes to your progression. Work your way from Level 1 all the way to Level 70 and earn the prestigious title of King of Klondike.\nWhether you choose to focus on mining, construction, logistics, production, exploration, or ambitious community projects, the path is yours to create.\nOut of Ore supports multiplayer, controllers, joysticks, steering wheels, and head tracking through OpenTrack.\nThe game is a \"Work in progress\" and still being developed by a small 6 person crew",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/dedfdb9dfdf09813273846b9d74dc15197f4f332/ss_dedfdb9dfdf09813273846b9d74dc15197f4f332.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/db0727ec91a9850a252f60b3267ceaeb3204f910/ss_db0727ec91a9850a252f60b3267ceaeb3204f910.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/91213402e20ab1a588e1f05f1bbb27f437e5dc9e/ss_91213402e20ab1a588e1f05f1bbb27f437e5dc9e.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/3442e1670d6f6b60efb15cb38eae2d576cc157a5/ss_3442e1670d6f6b60efb15cb38eae2d576cc157a5.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/b7c8c1be9ff6aa05abb72bb6fd56c7fec5ad822f/ss_b7c8c1be9ff6aa05abb72bb6fd56c7fec5ad822f.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/d815fb1007b3880aa4ebb5637a716bdc38e6094f/ss_d815fb1007b3880aa4ebb5637a716bdc38e6094f.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/f7c8e1d2126de766d2737c3162cac1c6f0618474/ss_f7c8e1d2126de766d2737c3162cac1c6f0618474.1920x1080.jpg?t=1782294682",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2009350/fcd13732f659992a5b3e7222b560fd61ce6e9bd6/ss_fcd13732f659992a5b3e7222b560fd61ce6e9bd6.1920x1080.jpg?t=1782294682"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7 64-Bit or Windows 10 64-Bit",
+          "处理器: Intel Core i5-14400 or AMD Ryzen 7500F",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 970, GTX 1660 or Radeon R9 390, AMD RX 580",
+          "DirectX 版本: 12",
+          "存储空间: 需要 17 GB 可用空间",
+          "声卡: DirectX Compatible"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64 Bit",
+          "处理器: Intel Core i7-14700F or AMD Ryzen 7 7700",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GeForce RTX 3060 or AMD Radeon rx 6700 xt",
+          "DirectX 版本: 12",
+          "存储空间: 需要 20 GB 可用空间",
+          "声卡: DirectX Compatible"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 92,
+        "initial": 92,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/2009350/",
+      "fetchedAt": "2026-10-24T18:58:47.397Z"
+    }
   }
 ]
