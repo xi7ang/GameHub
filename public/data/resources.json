@@ -67190,7 +67190,7 @@
   {
     "id": "rpg-202610-0001",
     "title": "最终幻想：共鸣-虚拟机版/FINAL FANTASY RESONANCE HYPERVISOR    Build.24250053  免安装中文版",
-    "enTitle": "",
+    "enTitle": "FINAL FANTASY RESONANCE",
     "category": "rpg",
     "tags": [],
     "platform": "quark",
@@ -67199,13 +67199,70 @@
     "size": "",
     "sizeBytes": null,
     "cover": "/covers/u8344f2fb9e45.webp",
-    "steamAppID": null,
+    "steamAppID": 3259780,
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-25T00:20:57+08:00",
     "updatedAt": "2026-10-25T00:20:57+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 3259780,
+      "developer": "Square Enix、LANCARSE Ltd.",
+      "publisher": "Square Enix",
+      "releaseDate": "2026 年 10 月 22 日",
+      "genres": [
+        "角色扮演"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 简体中文, 繁体中文, 日语, 韩语\n具有完全音频支持的语言",
+      "summary": "如果“FINAL FANTASY”一直以像素风格持续进化…… 本作是以此为概念，并以崭新像素风格描绘的“FINAL FANTASY”系列最新作品。 除了围绕“水晶”展开的故事，以及回合制指令战斗与能力更换等系列经典要素外，亦收录了丰富多样的反复游玩内容。",
+      "description": "◆商品概要\n如果“FINAL FANTASY”一直以像素风格持续进化……\n本作以此为概念，并以崭新像素风格描绘，讲述一段围绕水晶展开的复仇与牵绊的故事。\n除了完成进化的职业系统，以及幻兽、飞空艇等系列经典要素外，亦收录了丰富多样的反复游玩内容。◆系列首款HD-2D作品\n剑与魔法、水晶，以及飞空艇。\n堪称“FINAL FANTASY”象征的世界观，将通过融合温润质感的像素图与3DCG立体感的新世代视觉呈现。\n此外，借由将3D模型像素化，在保有像素风格的同时，也打造出前所未有、充满动态与震撼力的过场画面。◆围绕水晶展开的全新故事\n曾经爆发的惨烈战争、\n能够操控拥有强大力量的神秘存在“幻兽”的谜之少女、\n以及破坏各地“水晶”的铠甲男。\n一切错综交织，揭开一段跨越数百年的复仇与牵绊的故事。◆完成进化的职业系统\n以回合制指令战斗为基础，融入持续攻击敌人即可使其无法行动的“破防”系统，以及强力必杀技“共鸣”，体验更具战略性的战斗。\n此外，克劳德、蒂娜、克莱夫等历代“FINAL FANTASY”的主角们也将在本作登场。\n装备由他们的意志结晶而成的“幻兵水晶”，通过不断战斗习得“能力”。灵活搭配多种“能力”，可以让战斗局势更加有利。◆丰富的反复游玩内容\n・与系列经典角色流浪剑豪“吉尔伽美什”展开的剧情\n・依阶级迎战各种强大怪物的“竞技场”\n・挑战封印于世界各地十二件武具中的头目的“十二武具之间”\n・讨伐拥有无与伦比力量的“究极武器”\n多样的强敌与隐藏内容正等你来挑战。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/c9e0d9f5cd2a7102098d5967046a90c4181de601/ss_c9e0d9f5cd2a7102098d5967046a90c4181de601.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/a5850396e3aaf971ce506069bb412e9deb805391/ss_a5850396e3aaf971ce506069bb412e9deb805391.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/d78d354f9e0be199c34794c2bffaf75df8a04526/ss_d78d354f9e0be199c34794c2bffaf75df8a04526.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/6ba90518341895b1edcad823aa8495ee22bc587a/ss_6ba90518341895b1edcad823aa8495ee22bc587a.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/4e26c83d50cdad5298471ee032a0e7e8699278c8/ss_4e26c83d50cdad5298471ee032a0e7e8699278c8.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/273e8a301cbf02bca2c57986c1a5a28270a43047/ss_273e8a301cbf02bca2c57986c1a5a28270a43047.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/01c697eb641c0298d925458067ac2dae2e9b9cd1/ss_01c697eb641c0298d925458067ac2dae2e9b9cd1.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/1b9a6fbbe3fad20b2a337b35ed7a29ec34adca3c/ss_1b9a6fbbe3fad20b2a337b35ed7a29ec34adca3c.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/a7e3afba6dca491e3ece849e8e6eaea79415c507/ss_a7e3afba6dca491e3ece849e8e6eaea79415c507.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/7fc8b12a5084782648bbb1d824f963fbb90032b4/ss_7fc8b12a5084782648bbb1d824f963fbb90032b4.1920x1080.jpg?t=1792758611",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3259780/b626a821eb99d374b8d9e1542fdd3ecab175f132/ss_b626a821eb99d374b8d9e1542fdd3ecab175f132.1920x1080.jpg?t=1792758611"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows® 11",
+          "处理器: AMD Ryzen™ 3 2300X / Intel® Core™ i3-8100",
+          "内存: 8 GB RAM",
+          "显卡: AMD Radeon™ RX 6400 / Intel® Arc™ A580 / NVIDIA® GeForce® GTX 1650",
+          "DirectX 版本: 12",
+          "存储空间: 需要 15 GB 可用空间",
+          "附注事项: Display Resolution / Framerate：1920 × 1080 @ 30 FPS, Graphics Preset \"Low\""
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows® 11",
+          "处理器: AMD Ryzen™ 5 2500X / Intel® Core™ i3-8100",
+          "内存: 8 GB RAM",
+          "显卡: AMD Radeon™ RX 5500 XT / Intel® Arc™ A580 / NVIDIA® GeForce® GTX 1650",
+          "DirectX 版本: 12",
+          "存储空间: 需要 15 GB 可用空间",
+          "附注事项: Display Resolution / Framerate：1920×1080 @ 60 FPS, Graphics Preset \"Highest\""
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 268,
+        "initial": 268,
+        "discountPercent": 0
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/3259780/",
+      "fetchedAt": "2026-10-25T02:48:52.922Z"
+    }
   },
   {
     "id": "other-202610-0001",
@@ -67278,7 +67335,7 @@
   {
     "id": "other-202610-0002",
     "title": "昔日亡者：开放世界生存/THE DEAD WE KNEW   Build.26138912   免安装中文版",
-    "enTitle": "",
+    "enTitle": "THE DEAD WE KNEW: Open World Survival",
     "category": "sandbox",
     "tags": [],
     "platform": "quark",
@@ -67287,13 +67344,73 @@
     "size": "",
     "sizeBytes": null,
     "cover": "/covers/ufa07db51ceaa.webp",
-    "steamAppID": null,
+    "steamAppID": 4890760,
     "desc": "",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-25T00:21:09+08:00",
     "updatedAt": "2026-10-25T00:21:09+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 4890760,
+      "developer": "MAY19 STUDIO",
+      "publisher": "MAY19 STUDIO",
+      "releaseDate": "2026 年 10 月 22 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演",
+        "模拟",
+        "抢先体验"
+      ],
+      "languages": "英语, 法语, 德语, 简体中文, 日语, 西班牙语 - 拉丁美洲, 俄语, 土耳其语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 葡萄牙语 - 葡萄牙, 意大利语, 韩语\n具有完全音频支持的语言",
+      "summary": "在这个充满危险的开放世界游戏中搜刮物资，建造你的避难所，生产食物并管理资源。独自一人或通过合作模式，对抗僵尸、敌对人类，以及随着迷雾而不断加剧的威胁，努力活下去。",
+      "description": "建造，变强，生存\n在这个崩坏的世界中，没有任何地方是真正安全的。因此，你必须亲手创造属于自己的生存空间。利用废弃建筑、森林深处以及周围环境中能找到的一切资源，建造一个能够让你活下去的避难所。\n从一间简陋的小屋开始，随着时间推移，将它逐渐扩建成更加坚固、更大、更适合居住的基地。整理你的避难所，制作所需的物品，打造一个可以休息的空间，并为夜晚带来的危险做好准备。\n但请记住：这个世界并不属于你。如果你想活下去，光靠躲藏远远不够。你收集的每一块材料、点燃的每一堆火、建造的每一面墙，都将决定你的生存机会。\n当迷雾降临时，并肩作战\n时间不断流逝，天气持续变化，每一个新的一天都会变成一场全新的生存挑战。在24小时昼夜循环中，收集资源，加固你的避难所，并为即将到来的威胁做好准备。\n风向可能发生变化，暴雨可能突然降临，浓雾也可能彻底遮蔽你的视线。但迷雾不仅仅是自然现象；它同时也是巨大危险来临前的警告。当能见度下降时，僵尸会变得更加危险，并可能从黑暗与迷雾中发动袭击。\n你可以独自求生，也可以与最多3名好友一起，通过最多4人合作模式共同对抗这个危险的世界。一起探索，一起防守，一起建造，并为活下去而战。\n依靠狩猎、种植与搜寻活下去\n饥饿和外面的危险一样残酷。想要生存，你需要的不只是武器和避难所，还需要食物。在废弃地点寻找补给，利用大自然提供的资源，并想办法填饱肚子。\n在森林中，你可以猎杀鹿等动物，处理它们的肉，在火上烹饪后食用。但你并不总能找到现成的食物。耕种土地，种植番茄等蔬菜，培育作物，并使用收集到的食材制作更有营养的食物。\n从简单的一口食物到一碗热汤，你制作的每一份食物都将直接影响你的生存之战。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/3004956b9af2faacf0f685dc3917c462a6387300/ss_3004956b9af2faacf0f685dc3917c462a6387300.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/0c6646e6dde39e33fb7f15b6c444ba54d6bf4802/ss_0c6646e6dde39e33fb7f15b6c444ba54d6bf4802.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/f844c5815e49d353e0124de721f1b6983fbcbcd3/ss_f844c5815e49d353e0124de721f1b6983fbcbcd3.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/fb04c07f3831a1360d65f8e364568274f7ef340e/ss_fb04c07f3831a1360d65f8e364568274f7ef340e.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/cfcca238c009067435b1b7b294b434ab8a989c8f/ss_cfcca238c009067435b1b7b294b434ab8a989c8f.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/f303f3285cbc3d699bbdd5b76db5c7087a5f80aa/ss_f303f3285cbc3d699bbdd5b76db5c7087a5f80aa.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/7242cc9c23d2ddef9c34c9a13f9a53682f56a2f7/ss_7242cc9c23d2ddef9c34c9a13f9a53682f56a2f7.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/1393b1bcf2d5b5ca615b1ee5e626bd6c15a186d7/ss_1393b1bcf2d5b5ca615b1ee5e626bd6c15a186d7.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/8c29a20b60da9256d02d8d6f8f52b5af2fa160c6/ss_8c29a20b60da9256d02d8d6f8f52b5af2fa160c6.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/62870b37a287ea5be98e107455abfa18a5d6639f/ss_62870b37a287ea5be98e107455abfa18a5d6639f.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/077bc1111134a3123e8365293f5a8aa00b7940cc/ss_077bc1111134a3123e8365293f5a8aa00b7940cc.1920x1080.jpg?t=1792688504",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4890760/949963a9259a49931e4ddae9f2ab3eb9df41c78c/ss_949963a9259a49931e4ddae9f2ab3eb9df41c78c.1920x1080.jpg?t=1792688504"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "内存: 12 GB RAM",
+          "显卡: NVIDIA GTX 1070 或同等性能的显卡",
+          "DirectX 版本: 11",
+          "存储空间: 需要 20 GB 可用空间",
+          "附注事项: 需要 64 位处理器和操作系统。"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "内存: 24 GB RAM",
+          "显卡: NVIDIA RTX 2080 或同等性能的显卡",
+          "DirectX 版本: 11",
+          "存储空间: 需要 20 GB 可用空间",
+          "附注事项: 需要 64 位处理器和操作系统。"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 66.58,
+        "initial": 78.34,
+        "discountPercent": 15
+      },
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/4890760/",
+      "fetchedAt": "2026-10-25T02:48:56.097Z"
+    }
   },
   {
     "id": "other-202610-0003",
