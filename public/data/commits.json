@@ -1,5 +1,11 @@
 [
   {
+    "hash": "eef7c0e",
+    "date": "2026-10-25T12:21:31+08:00",
+    "message": "sync: 新增资源《道之华隐/DaoNoKa hide   Build.26131439   免安装》",
+    "url": "https://github.com/xi7ang/GameHub/commit/eef7c0e88d9b5efb2431649160551b3712bdc18c"
+  },
+  {
     "hash": "fb097ab",
     "date": "2026-10-25T12:21:26+08:00",
     "message": "sync: 新增资源《轨道狂潮/Orbital Madness   Build.26154048   》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T22:37:21+08:00",
     "message": "sync: 新增资源《圣剑传说3重制版Q萌冒险》",
     "url": "https://github.com/xi7ang/GameHub/commit/5ab7a82d9ace0a35a618e86832a7ae6ff6452da7"
-  },
-  {
-    "hash": "a88dd3f",
-    "date": "2026-10-23T22:31:26+08:00",
-    "message": "sync: 新增资源《堕入魔界的拉兹瑞尔》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a88dd3f549c026d520cdfa82126c629a9be9d816"
   }
 ]
