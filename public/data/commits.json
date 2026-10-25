@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3c70e44",
+    "date": "2026-10-25T00:32:35+08:00",
+    "message": "fix(data): 用步骤3 百度图补齐 2 条缺失封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/3c70e44fa2d07ac160b2385ed88506ca6641c45b"
+  },
+  {
     "hash": "75b125a",
     "date": "2026-10-25T00:22:34+08:00",
     "message": "fix(data): 校正 lzlgo 五条资源的类型分类并补封面",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T17:24:16+08:00",
     "message": "feat(detail): 详情页卡片改版，版式参照 v 站",
     "url": "https://github.com/xi7ang/GameHub/commit/ba014da61eef085fe2be17a39a52e57ca44c3c71"
-  },
-  {
-    "hash": "faa813c",
-    "date": "2026-10-23T17:18:19+08:00",
-    "message": "feat(home): 移动端「游戏推荐/最新更新/资源分类」加「获取更多」",
-    "url": "https://github.com/xi7ang/GameHub/commit/faa813c6412593f8bc38d9579a1a2968bf9c7cf1"
   }
 ]
