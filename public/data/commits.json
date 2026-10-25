@@ -1,5 +1,41 @@
 [
   {
+    "hash": "c67aa55",
+    "date": "2026-10-25T12:19:37+08:00",
+    "message": "data: Steam 扫描 127 条自动匹配补齐 appid 与资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/c67aa55cfb4a1570488807d63e50809452ec4d73"
+  },
+  {
+    "hash": "85d5ea9",
+    "date": "2026-10-25T12:17:55+08:00",
+    "message": "merge: 解决 resources.json 冲突（按 id 三方合并：保留本地新条目 + 远端 Steam 资料修正）",
+    "url": "https://github.com/xi7ang/GameHub/commit/85d5ea9d1a93bd0396c8d63964876a196e9f2f2a"
+  },
+  {
+    "hash": "cfdecc6",
+    "date": "2026-10-25T12:17:03+08:00",
+    "message": "sync: 新增资源《喵斯快跑 PC+手机双端 v6.7.0 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cfdecc63a0f375b0cc65be1cb2502d4246b3e797"
+  },
+  {
+    "hash": "9d8c06b",
+    "date": "2026-10-25T12:10:21+08:00",
+    "message": "assets: 补 2 款 Steam 匹配资源的官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/9d8c06b168791a9b089aeb919cb86ccefe464e02"
+  },
+  {
+    "hash": "fbe62db",
+    "date": "2026-10-25T10:51:42+08:00",
+    "message": "data: 人工确认补齐 2 条 Steam 匹配（最终幻想：共鸣 3259780、昔日亡者 4890760）",
+    "url": "https://github.com/xi7ang/GameHub/commit/fbe62db2bae58d57005b14f9633dcb861f69aa68"
+  },
+  {
+    "hash": "f283ef5",
+    "date": "2026-10-25T10:36:16+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/f283ef52859f0aeb716fac44283f0a254b240a5f"
+  },
+  {
     "hash": "3c70e44",
     "date": "2026-10-25T00:32:35+08:00",
     "message": "fix(data): 用步骤3 百度图补齐 2 条缺失封面",
@@ -142,41 +178,5 @@
     "date": "2026-10-23T22:31:05+08:00",
     "message": "sync: 新增资源《战场女武神4豪华版含全DLC金手指》",
     "url": "https://github.com/xi7ang/GameHub/commit/8ff80a4fb78ec1bdc555be5f9104933a59a121e6"
-  },
-  {
-    "hash": "81b7169",
-    "date": "2026-10-23T22:30:55+08:00",
-    "message": "sync: 新增资源《魔法弹球》",
-    "url": "https://github.com/xi7ang/GameHub/commit/81b716978f9a5290a5301bc33f611bfda3d66672"
-  },
-  {
-    "hash": "e2937cc",
-    "date": "2026-10-23T22:30:46+08:00",
-    "message": "sync: 新增资源《囚禁 Build.17981020 联机版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e2937ccc19f9fd1401882d7a4051f1ef4656ffbd"
-  },
-  {
-    "hash": "779f943",
-    "date": "2026-10-23T22:26:47+08:00",
-    "message": "fix(collection): 必玩合集页加载分类表，主标签不再显示英文 key",
-    "url": "https://github.com/xi7ang/GameHub/commit/779f943513d39908082a10aac153c3bffa79b6ab"
-  },
-  {
-    "hash": "f6f4af9",
-    "date": "2026-10-23T22:23:04+08:00",
-    "message": "fix(tags): 资源卡片与详情页不再显示含英文的标签",
-    "url": "https://github.com/xi7ang/GameHub/commit/f6f4af974babbae4af7c280fae9cbbd9085ed847"
-  },
-  {
-    "hash": "45dbc20",
-    "date": "2026-10-23T22:15:16+08:00",
-    "message": "fix(card): 资源卡片高亮标签固定为分类标签",
-    "url": "https://github.com/xi7ang/GameHub/commit/45dbc20c2c37c7da05b521bcc7fec41d88e1802e"
-  },
-  {
-    "hash": "ba014da",
-    "date": "2026-10-23T17:24:16+08:00",
-    "message": "feat(detail): 详情页卡片改版，版式参照 v 站",
-    "url": "https://github.com/xi7ang/GameHub/commit/ba014da61eef085fe2be17a39a52e57ca44c3c71"
   }
 ]
