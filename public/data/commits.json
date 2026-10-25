@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fb097ab",
+    "date": "2026-10-25T12:21:26+08:00",
+    "message": "sync: 新增资源《轨道狂潮/Orbital Madness   Build.26154048   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fb097abdc81c739d3bff44ef8d3c7a8e45e554a7"
+  },
+  {
     "hash": "9b595b4",
     "date": "2026-10-25T12:21:20+08:00",
     "message": "sync: 新增资源《幻梦之岛/Isle of Reveries   Build.26020230  》",
@@ -172,11 +178,5 @@
     "date": "2026-10-23T22:31:26+08:00",
     "message": "sync: 新增资源《堕入魔界的拉兹瑞尔》",
     "url": "https://github.com/xi7ang/GameHub/commit/a88dd3f549c026d520cdfa82126c629a9be9d816"
-  },
-  {
-    "hash": "47bee14",
-    "date": "2026-10-23T22:31:17+08:00",
-    "message": "sync: 新增资源《莎玛尼娅中文版异星生存》",
-    "url": "https://github.com/xi7ang/GameHub/commit/47bee14e3cbe384f3d8b112485b9a11e830ca8f3"
   }
 ]
