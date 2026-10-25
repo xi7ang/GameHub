@@ -92,11 +92,12 @@
                 <div>
                   <h3 style="margin: 0 0 4px">🎲 背景墙随机刷新</h3>
                   <p class="text-low" style="font-size: 12px; margin: 0">
-                    从 30 张 Steam 胶囊图中随机洗牌 18 行背景墙。点击随机刷新，新洗牌立即生效（纯前端、不提交 commit）。
+                    从站内有封面的资源中随机抽 30 张，组成一面新的背景墙。点击后提交到仓库并自动部署，部署完成后访客打开前台即看到新墙。
                   </p>
-                  <p v-if="bgwallRefreshed" class="text-low" style="font-size: 12px; margin: 6px 0 0; color: var(--accent-sage)">✅ 已随机刷新！背景墙图片顺序已更新。</p>
+                  <p v-if="bgwallRefreshed" class="text-low" style="font-size: 12px; margin: 6px 0 0; color: var(--accent-sage)">✅ 已随机刷新！新背景墙已提交，正在自动部署（3-5 分钟后生效）。</p>
+                  <p v-if="bgwallError" class="text-low" style="font-size: 12px; margin: 6px 0 0; color: #fb7185">❌ {{ bgwallError }}</p>
                 </div>
-                <button class="btn btn-sm btn-primary" @click="refreshBgWall">🎲 随机刷新背景墙</button>
+                <button class="btn btn-sm btn-primary" :disabled="bgwallBusy" @click="refreshBgWall">{{ bgwallBusy ? '提交中...' : '🎲 随机刷新背景墙' }}</button>
               </div>
             </div>
 
@@ -1237,6 +1238,45 @@ const tabs = [
 watch(tab, (t) => {
   if (t === 'analytics' && !statsData.value && statsToken.value) loadStats()
 })
+
+// ── 背景墙随机刷新 ──
+// 前台背景墙每次打开本来就会逐行洗牌，所以只改顺序访客看不出变化；
+// 真正生效的做法是换一批图：从站内有封面的资源中随机抽 30 张写回 bgwall.json，
+// 提交到 main 后 Actions 自动部署，访客下次打开即看到新墙。
+const bgwallBusy = ref(false)
+const bgwallRefreshed = ref(false)
+const bgwallError = ref('')
+async function refreshBgWall() {
+  bgwallBusy.value = true
+  bgwallRefreshed.value = false
+  bgwallError.value = ''
+  try {
+    const current = await readFile('public/data/bgwall.json')
+    const pool = []
+    const seen = new Set()
+    for (const r of resources.value) {
+      if (!r.cover || seen.has(r.cover)) continue
+      seen.add(r.cover)
+      pool.push(r)
+    }
+    if (pool.length < 10) throw new Error(`站内有封面的资源不足（仅 ${pool.length} 条），无法组成背景墙`)
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[pool[i], pool[j]] = [pool[j], pool[i]]
+    }
+    const images = pool.slice(0, 30).map((r) => ({
+      slug: r.id,
+      name: String(r.title || '').split('/')[0].trim() || r.id,
+      img: String(r.cover).replace(/^\/+/, ''),
+    }))
+    await writeFile('public/data/bgwall.json', { images, rows: current.rows || 18 }, 'admin: 随机刷新背景墙图片池')
+    bgwallRefreshed.value = true
+  } catch (e) {
+    bgwallError.value = '刷新失败: ' + (e.message || e)
+  } finally {
+    bgwallBusy.value = false
+  }
+}
 
 // ── Dashboard 统计 ──
 const todayAdded = computed(() => {
