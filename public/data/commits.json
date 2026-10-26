@@ -1,5 +1,11 @@
 [
   {
+    "hash": "00727f0",
+    "date": "2026-10-26T19:01:33+08:00",
+    "message": "sync: 新增资源《再见，甜美的卡罗尔》",
+    "url": "https://github.com/xi7ang/GameHub/commit/00727f0b5a8ba920d3349701be2217028ab17e01"
+  },
+  {
     "hash": "27bfeae",
     "date": "2026-10-26T19:01:26+08:00",
     "message": "sync: 新增资源《再见，甜美的卡罗尔》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T14:19:00+08:00",
     "message": "assets: 更新背景墙图片为 Steam 热门/经典/最新游戏胶囊图",
     "url": "https://github.com/xi7ang/GameHub/commit/d450847b78421fb8ebea95bba56d906a52eb4c49"
-  },
-  {
-    "hash": "8d0ece4",
-    "date": "2026-10-25T13:51:37+08:00",
-    "message": "admin: 随机刷新背景墙图片池",
-    "url": "https://github.com/xi7ang/GameHub/commit/8d0ece434d34f848026de3116134ed3d2108a4f7"
   }
 ]
