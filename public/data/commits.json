@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6df165c",
+    "date": "2026-10-26T19:10:24+08:00",
+    "message": "fix(data): 10-26 五条资源标题回填为 lzlgo 原始标题",
+    "url": "https://github.com/xi7ang/GameHub/commit/6df165c79b6213113ff615af83be717c3252b8d2"
+  },
+  {
     "hash": "64461ba",
     "date": "2026-10-26T19:03:29+08:00",
     "message": "fix(data): 删除 10-26 并发写入造成的 2 条重复资源",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T14:23:48+08:00",
     "message": "data: 背景墙换成 Steam 热门/经典/最新 30 款游戏胶囊图",
     "url": "https://github.com/xi7ang/GameHub/commit/88563f240e8f3120b1c706d558860b1d6ec50fdc"
-  },
-  {
-    "hash": "6b0d194",
-    "date": "2026-10-25T14:21:02+08:00",
-    "message": "assets: 补传背景墙图片 PUBG",
-    "url": "https://github.com/xi7ang/GameHub/commit/6b0d194df771e7900b4731f8ab78dd0bebca069c"
   }
 ]
