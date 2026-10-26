@@ -91,7 +91,6 @@
                   </div>
                 </div>
 
-                <p v-if="r.desc" class="mv__desc">{{ r.desc }}</p>
               </div>
             </div>
           </div>
