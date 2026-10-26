@@ -1,5 +1,11 @@
 [
   {
+    "hash": "95f713b",
+    "date": "2026-10-26T19:00:14+08:00",
+    "message": "sync: 新增资源《夜间记录：一墙之隔》",
+    "url": "https://github.com/xi7ang/GameHub/commit/95f713b337cbfe6b1a99ae4af7e8dc9b8fef3d9b"
+  },
+  {
     "hash": "cb29f92",
     "date": "2026-10-26T18:59:34+08:00",
     "message": "sync: 新增资源《入侵幸存者》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T13:37:49+08:00",
     "message": "admin: 随机刷新背景墙图片池",
     "url": "https://github.com/xi7ang/GameHub/commit/c25b79864f15182937b537967614d71cbaff24de"
-  },
-  {
-    "hash": "7f2c592",
-    "date": "2026-10-25T13:32:09+08:00",
-    "message": "fix(admin): 背景墙图源改走 game-covers 文件夹，readFile 大文件走 download_url 兜底",
-    "url": "https://github.com/xi7ang/GameHub/commit/7f2c592352344803de7c3fdc696e29eb8fd32ec6"
   }
 ]
