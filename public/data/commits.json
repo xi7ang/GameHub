@@ -1,5 +1,11 @@
 [
   {
+    "hash": "64461ba",
+    "date": "2026-10-26T19:03:29+08:00",
+    "message": "fix(data): 删除 10-26 并发写入造成的 2 条重复资源",
+    "url": "https://github.com/xi7ang/GameHub/commit/64461ba798cc575f1c4a24bcd9ea00d5acd63b19"
+  },
+  {
     "hash": "00727f0",
     "date": "2026-10-26T19:01:33+08:00",
     "message": "sync: 新增资源《再见，甜美的卡罗尔》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T14:21:02+08:00",
     "message": "assets: 补传背景墙图片 PUBG",
     "url": "https://github.com/xi7ang/GameHub/commit/6b0d194df771e7900b4731f8ab78dd0bebca069c"
-  },
-  {
-    "hash": "d450847",
-    "date": "2026-10-25T14:19:00+08:00",
-    "message": "assets: 更新背景墙图片为 Steam 热门/经典/最新游戏胶囊图",
-    "url": "https://github.com/xi7ang/GameHub/commit/d450847b78421fb8ebea95bba56d906a52eb4c49"
   }
 ]
