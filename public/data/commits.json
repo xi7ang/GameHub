@@ -1,5 +1,11 @@
 [
   {
+    "hash": "27bfeae",
+    "date": "2026-10-26T19:01:26+08:00",
+    "message": "sync: 新增资源《再见，甜美的卡罗尔》",
+    "url": "https://github.com/xi7ang/GameHub/commit/27bfeae2ae78f9eb043468de08269af77d654766"
+  },
+  {
     "hash": "95f713b",
     "date": "2026-10-26T19:00:14+08:00",
     "message": "sync: 新增资源《夜间记录：一墙之隔》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T13:51:37+08:00",
     "message": "admin: 随机刷新背景墙图片池",
     "url": "https://github.com/xi7ang/GameHub/commit/8d0ece434d34f848026de3116134ed3d2108a4f7"
-  },
-  {
-    "hash": "c25b798",
-    "date": "2026-10-25T13:37:49+08:00",
-    "message": "admin: 随机刷新背景墙图片池",
-    "url": "https://github.com/xi7ang/GameHub/commit/c25b79864f15182937b537967614d71cbaff24de"
   }
 ]
