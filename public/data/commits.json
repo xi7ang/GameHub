@@ -1,5 +1,161 @@
 [
   {
+    "hash": "6b7579e",
+    "date": "2026-10-26T15:37:35+08:00",
+    "message": "data: 移除热门搜索词文明6",
+    "url": "https://github.com/xi7ang/GameHub/commit/6b7579e64f4ebfa862dd24f01e7e621756af7183"
+  },
+  {
+    "hash": "d435fb5",
+    "date": "2026-10-26T15:05:17+08:00",
+    "message": "data: 移除已下架游戏的热门搜索词艾尔登法环",
+    "url": "https://github.com/xi7ang/GameHub/commit/d435fb57bef052b43aacec578e51c9da4a8a9e93"
+  },
+  {
+    "hash": "4c62913",
+    "date": "2026-10-26T12:33:20+08:00",
+    "message": "data: 下架 12 条失效夸克链接资源",
+    "url": "https://github.com/xi7ang/GameHub/commit/4c62913976dface7eb802c76ffee75a4b859d924"
+  },
+  {
+    "hash": "2f2d091",
+    "date": "2026-10-26T11:00:29+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/2f2d0914a9ca6d1b1bb8459f4effa068078a8ea0"
+  },
+  {
+    "hash": "c9d6a24",
+    "date": "2026-10-26T00:48:20+08:00",
+    "message": "data: PvZ 系列封面补全（6 条）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c9d6a24d80ef05b3f02929a8496ed7cc69ec305d"
+  },
+  {
+    "hash": "65eac1a",
+    "date": "2026-10-26T00:42:14+08:00",
+    "message": "Delete public/data/resources-new.json",
+    "url": "https://github.com/xi7ang/GameHub/commit/65eac1adf85e414dcbdc5266fb773f37f82040c9"
+  },
+  {
+    "hash": "6db1f3a",
+    "date": "2026-10-26T00:37:38+08:00",
+    "message": "data: PvZ 系列封面补全（6 条）",
+    "url": "https://github.com/xi7ang/GameHub/commit/6db1f3a0d8033fca2d17b75d31682f12b65ed3d2"
+  },
+  {
+    "hash": "cc856c6",
+    "date": "2026-10-26T00:30:29+08:00",
+    "message": "Delete public/data/resources-temp.json",
+    "url": "https://github.com/xi7ang/GameHub/commit/cc856c65d789e3837e7d8a35323ae92b89e1397b"
+  },
+  {
+    "hash": "2ce28fa",
+    "date": "2026-10-26T00:29:28+08:00",
+    "message": "Rename resources-new.json to resources-temp.json",
+    "url": "https://github.com/xi7ang/GameHub/commit/2ce28fa65a92c115284b0e881e4ef3b04f04c8a9"
+  },
+  {
+    "hash": "24cd1c3",
+    "date": "2026-10-26T00:26:30+08:00",
+    "message": "data: PvZ 系列封面补全（6 条）",
+    "url": "https://github.com/xi7ang/GameHub/commit/24cd1c375746b47f7f94724fb97f2199e5b7af81"
+  },
+  {
+    "hash": "2070e20",
+    "date": "2026-10-26T00:22:36+08:00",
+    "message": "feat: 补 PvZ 系列封面（3590/1262240 官方头图）",
+    "url": "https://github.com/xi7ang/GameHub/commit/2070e20fc025e5539a71208ba7fcc03f0c293f7b"
+  },
+  {
+    "hash": "3933067",
+    "date": "2026-10-26T00:16:21+08:00",
+    "message": "data: 夸克分享大小全量补全（1268 条）",
+    "url": "https://github.com/xi7ang/GameHub/commit/39330676a92f4a07162f5a0e8988c1c45857a77b"
+  },
+  {
+    "hash": "d91ee4d",
+    "date": "2026-10-25T22:41:50+08:00",
+    "message": "feat: 默认主题改为黑暗模式",
+    "url": "https://github.com/xi7ang/GameHub/commit/d91ee4d257441be911a653d5211fa93b78c0e531"
+  },
+  {
+    "hash": "96de61e",
+    "date": "2026-10-25T22:14:02+08:00",
+    "message": "data: 73 条 Steam 匹配评审写回：55 条采纳并补齐 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/96de61e37139e2f529298c94367bf7091705895c"
+  },
+  {
+    "hash": "4ba68ad",
+    "date": "2026-10-25T22:05:03+08:00",
+    "message": "covers: 上传 3 张新 appid 官方头图（4968640/1672983/3444020）",
+    "url": "https://github.com/xi7ang/GameHub/commit/4ba68add62a4aaf4979b6d3fb7de585dbfc750d7"
+  },
+  {
+    "hash": "01ae853",
+    "date": "2026-10-25T21:48:54+08:00",
+    "message": "perf(search): 搜索结果页改用 loadSearch，加数据加载态",
+    "url": "https://github.com/xi7ang/GameHub/commit/01ae8530e5a0e9c30b0f2d5aa98e098961d757de"
+  },
+  {
+    "hash": "d037b55",
+    "date": "2026-10-25T21:46:48+08:00",
+    "message": "perf(search): 搜索页新增 loadSearch，改拉 resource-index.json 瘦索引",
+    "url": "https://github.com/xi7ang/GameHub/commit/d037b55e21f2b0daa242ff8b439a7ac7c9ccdd4c"
+  },
+  {
+    "hash": "8760da6",
+    "date": "2026-10-25T20:31:49+08:00",
+    "message": "chore: 每日公告：发布【2026-10-25】游戏资源更新通知（11 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/8760da6d0a0bf1476e4e598a678809b3f4050f31"
+  },
+  {
+    "hash": "88563f2",
+    "date": "2026-10-25T14:23:48+08:00",
+    "message": "data: 背景墙换成 Steam 热门/经典/最新 30 款游戏胶囊图",
+    "url": "https://github.com/xi7ang/GameHub/commit/88563f240e8f3120b1c706d558860b1d6ec50fdc"
+  },
+  {
+    "hash": "6b0d194",
+    "date": "2026-10-25T14:21:02+08:00",
+    "message": "assets: 补传背景墙图片 PUBG",
+    "url": "https://github.com/xi7ang/GameHub/commit/6b0d194df771e7900b4731f8ab78dd0bebca069c"
+  },
+  {
+    "hash": "d450847",
+    "date": "2026-10-25T14:19:00+08:00",
+    "message": "assets: 更新背景墙图片为 Steam 热门/经典/最新游戏胶囊图",
+    "url": "https://github.com/xi7ang/GameHub/commit/d450847b78421fb8ebea95bba56d906a52eb4c49"
+  },
+  {
+    "hash": "8d0ece4",
+    "date": "2026-10-25T13:51:37+08:00",
+    "message": "admin: 随机刷新背景墙图片池",
+    "url": "https://github.com/xi7ang/GameHub/commit/8d0ece434d34f848026de3116134ed3d2108a4f7"
+  },
+  {
+    "hash": "c25b798",
+    "date": "2026-10-25T13:37:49+08:00",
+    "message": "admin: 随机刷新背景墙图片池",
+    "url": "https://github.com/xi7ang/GameHub/commit/c25b79864f15182937b537967614d71cbaff24de"
+  },
+  {
+    "hash": "7f2c592",
+    "date": "2026-10-25T13:32:09+08:00",
+    "message": "fix(admin): 背景墙图源改走 game-covers 文件夹，readFile 大文件走 download_url 兜底",
+    "url": "https://github.com/xi7ang/GameHub/commit/7f2c592352344803de7c3fdc696e29eb8fd32ec6"
+  },
+  {
+    "hash": "7f9d902",
+    "date": "2026-10-25T13:30:38+08:00",
+    "message": "sync: 新增资源《弹钉贴纸/Pegs X Stickers Build.24743882 免安装中》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7f9d902128c9f0ae3d4d412ff1598cee806e3836"
+  },
+  {
+    "hash": "c8a4987",
+    "date": "2026-10-25T13:15:53+08:00",
+    "message": "fix(admin): 背景墙随机刷新真正生效，换图池并提交部署",
+    "url": "https://github.com/xi7ang/GameHub/commit/c8a4987b563ec53b3cf15d3a63e6c9bb87156313"
+  },
+  {
     "hash": "e16a6d0",
     "date": "2026-10-25T13:09:58+08:00",
     "message": "data: 重新回填 10 条 lzlgo 资源描述（上次被并发写入覆盖）",
@@ -22,161 +178,5 @@
     "date": "2026-10-25T13:07:06+08:00",
     "message": "covers: 夜勤人1代与背包英雄正式版官方封面",
     "url": "https://github.com/xi7ang/GameHub/commit/fef2632a18ef1ed84d434bbc883cea4d5738d486"
-  },
-  {
-    "hash": "cd7aa2b",
-    "date": "2026-10-25T12:32:37+08:00",
-    "message": "data: 19 条数字封面核对，9 条确认补齐 appid 与资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/cd7aa2b88fa0204de57fb3c892173a2a292ea526"
-  },
-  {
-    "hash": "fe7f3c6",
-    "date": "2026-10-25T12:27:14+08:00",
-    "message": "fix(data): 第二批 lzlgo 资源分类校正 + 封面补齐",
-    "url": "https://github.com/xi7ang/GameHub/commit/fe7f3c6d05f575ca6847a27b46fb9ee351cbb6b6"
-  },
-  {
-    "hash": "7868a98",
-    "date": "2026-10-25T12:21:42+08:00",
-    "message": "sync: 新增资源《巢床生活~一日三餐带点心的幸福人牲~/Sacrifice Sanctuary T》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7868a98dafca4affed3324871ab544295ec2715c"
-  },
-  {
-    "hash": "c675f48",
-    "date": "2026-10-25T12:21:37+08:00",
-    "message": "sync: 新增资源《第31名学生/The 31st Student   Build.26152620》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c675f481a3f42983949037a008e330c7d2c94f6e"
-  },
-  {
-    "hash": "eef7c0e",
-    "date": "2026-10-25T12:21:31+08:00",
-    "message": "sync: 新增资源《道之华隐/DaoNoKa hide   Build.26131439   免安装》",
-    "url": "https://github.com/xi7ang/GameHub/commit/eef7c0e88d9b5efb2431649160551b3712bdc18c"
-  },
-  {
-    "hash": "fb097ab",
-    "date": "2026-10-25T12:21:26+08:00",
-    "message": "sync: 新增资源《轨道狂潮/Orbital Madness   Build.26154048   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fb097abdc81c739d3bff44ef8d3c7a8e45e554a7"
-  },
-  {
-    "hash": "9b595b4",
-    "date": "2026-10-25T12:21:20+08:00",
-    "message": "sync: 新增资源《幻梦之岛/Isle of Reveries   Build.26020230  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9b595b4e3ad281c87bf798c9971fe5f38a685c22"
-  },
-  {
-    "hash": "c67aa55",
-    "date": "2026-10-25T12:19:37+08:00",
-    "message": "data: Steam 扫描 127 条自动匹配补齐 appid 与资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/c67aa55cfb4a1570488807d63e50809452ec4d73"
-  },
-  {
-    "hash": "85d5ea9",
-    "date": "2026-10-25T12:17:55+08:00",
-    "message": "merge: 解决 resources.json 冲突（按 id 三方合并：保留本地新条目 + 远端 Steam 资料修正）",
-    "url": "https://github.com/xi7ang/GameHub/commit/85d5ea9d1a93bd0396c8d63964876a196e9f2f2a"
-  },
-  {
-    "hash": "cfdecc6",
-    "date": "2026-10-25T12:17:03+08:00",
-    "message": "sync: 新增资源《喵斯快跑 PC+手机双端 v6.7.0 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cfdecc63a0f375b0cc65be1cb2502d4246b3e797"
-  },
-  {
-    "hash": "9d8c06b",
-    "date": "2026-10-25T12:10:21+08:00",
-    "message": "assets: 补 2 款 Steam 匹配资源的官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/9d8c06b168791a9b089aeb919cb86ccefe464e02"
-  },
-  {
-    "hash": "fbe62db",
-    "date": "2026-10-25T10:51:42+08:00",
-    "message": "data: 人工确认补齐 2 条 Steam 匹配（最终幻想：共鸣 3259780、昔日亡者 4890760）",
-    "url": "https://github.com/xi7ang/GameHub/commit/fbe62db2bae58d57005b14f9633dcb861f69aa68"
-  },
-  {
-    "hash": "f283ef5",
-    "date": "2026-10-25T10:36:16+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/f283ef52859f0aeb716fac44283f0a254b240a5f"
-  },
-  {
-    "hash": "3c70e44",
-    "date": "2026-10-25T00:32:35+08:00",
-    "message": "fix(data): 用步骤3 百度图补齐 2 条缺失封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/3c70e44fa2d07ac160b2385ed88506ca6641c45b"
-  },
-  {
-    "hash": "75b125a",
-    "date": "2026-10-25T00:22:34+08:00",
-    "message": "fix(data): 校正 lzlgo 五条资源的类型分类并补封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/75b125a0ad2f85b7b7ffe1e5ddf689022fe1281f"
-  },
-  {
-    "hash": "90761ef",
-    "date": "2026-10-25T00:21:23+08:00",
-    "message": "sync: 新增资源《矿石之外/Out of Ore   Build.25808949   免安装中文》",
-    "url": "https://github.com/xi7ang/GameHub/commit/90761ef638bf99e0f0b6a9cd075462a29696dbe2"
-  },
-  {
-    "hash": "73bcded",
-    "date": "2026-10-25T00:21:17+08:00",
-    "message": "sync: 新增资源《ONE PIECE 海洋盛宴 /ONE PIECE ONE PIECE Gran》",
-    "url": "https://github.com/xi7ang/GameHub/commit/73bcded40f0b8fde5e2b077ffdc35578b10f2ac1"
-  },
-  {
-    "hash": "a0fe8ca",
-    "date": "2026-10-25T00:21:12+08:00",
-    "message": "sync: 新增资源《昔日亡者：开放世界生存/THE DEAD WE KNEW   Build.261》",
-    "url": "https://github.com/xi7ang/GameHub/commit/a0fe8ca97b66029964de90dd1a6c4913ce76f6eb"
-  },
-  {
-    "hash": "0be23b1",
-    "date": "2026-10-25T00:21:06+08:00",
-    "message": "sync: 新增资源《再再启程/One Way Tickets   Build.26156134   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0be23b18e77e3083ed16c46c9e3e493295b98586"
-  },
-  {
-    "hash": "2b153bc",
-    "date": "2026-10-25T00:20:59+08:00",
-    "message": "sync: 新增资源《最终幻想：共鸣-虚拟机版/FINAL FANTASY RESONANCE HYP》",
-    "url": "https://github.com/xi7ang/GameHub/commit/2b153bc7cf26dbb2ea924e38a95c250ec82bc17d"
-  },
-  {
-    "hash": "287fbe1",
-    "date": "2026-10-24T20:32:07+08:00",
-    "message": "chore: 每日公告：发布【2026-10-24】游戏资源更新通知（10 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/287fbe171e9aa66608e3b18f5a15d41dede97133"
-  },
-  {
-    "hash": "116205d",
-    "date": "2026-10-24T13:53:27+08:00",
-    "message": "data: 美国区回退补齐瘟疫公司与囚禁的 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/116205daa756fa05b4467e182003ecb6f50f9a01"
-  },
-  {
-    "hash": "c12055f",
-    "date": "2026-10-24T10:28:55+08:00",
-    "message": "data: 人工确认补齐 2 条 Steam 匹配（莎玛尼娅 2868100、魔法弹球 3526900）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c12055fd62f9ac3ded1537890c0d4b62dc9acddf"
-  },
-  {
-    "hash": "cce4083",
-    "date": "2026-10-24T03:09:38+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/cce4083354c5f9972332561d067e2e5659c9f7b3"
-  },
-  {
-    "hash": "9b591f0",
-    "date": "2026-10-24T02:56:13+08:00",
-    "message": "style(home): PC 端「必玩合集」改两行三列网格",
-    "url": "https://github.com/xi7ang/GameHub/commit/9b591f0d7f3c30917bf71d1bfa3565f13a7fdaf3"
-  },
-  {
-    "hash": "6dee48d",
-    "date": "2026-10-23T23:41:09+08:00",
-    "message": "fix(gamehub): 补 0064/0065/0066 缺失封面；新增 steamAppID 姓名核对脚本",
-    "url": "https://github.com/xi7ang/GameHub/commit/6dee48dab6b4f03e08f9fcd427de1ffbca27ce16"
   }
 ]
