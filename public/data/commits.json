@@ -1,5 +1,11 @@
 [
   {
+    "hash": "cb29f92",
+    "date": "2026-10-26T18:59:34+08:00",
+    "message": "sync: 新增资源《入侵幸存者》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cb29f92d4f79128c72806b8c5d8144c52e23c9d0"
+  },
+  {
     "hash": "13b0f1f",
     "date": "2026-10-26T18:58:38+08:00",
     "message": "sync: 新增资源《入侵幸存者》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T13:32:09+08:00",
     "message": "fix(admin): 背景墙图源改走 game-covers 文件夹，readFile 大文件走 download_url 兜底",
     "url": "https://github.com/xi7ang/GameHub/commit/7f2c592352344803de7c3fdc696e29eb8fd32ec6"
-  },
-  {
-    "hash": "7f9d902",
-    "date": "2026-10-25T13:30:38+08:00",
-    "message": "sync: 新增资源《弹钉贴纸/Pegs X Stickers Build.24743882 免安装中》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7f9d902128c9f0ae3d4d412ff1598cee806e3836"
   }
 ]
