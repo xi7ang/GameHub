@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5c6a579",
+    "date": "2026-10-26T18:55:43+08:00",
+    "message": "sync: 新增资源《纷乱深渊》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5c6a5794a7bef386b131296e1f904cd42fd1fc7c"
+  },
+  {
     "hash": "6b7579e",
     "date": "2026-10-26T15:37:35+08:00",
     "message": "data: 移除热门搜索词文明6",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T13:07:08+08:00",
     "message": "data: 为 10 条 lzlgo 资源补资源描述（取自 lzlgo 游戏介绍）",
     "url": "https://github.com/xi7ang/GameHub/commit/db461bc6078fb916c527fb820e425f640722d37e"
-  },
-  {
-    "hash": "fef2632",
-    "date": "2026-10-25T13:07:06+08:00",
-    "message": "covers: 夜勤人1代与背包英雄正式版官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/fef2632a18ef1ed84d434bbc883cea4d5738d486"
   }
 ]
