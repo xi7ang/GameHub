@@ -1,5 +1,11 @@
 [
   {
+    "hash": "bc7991a",
+    "date": "2026-10-26T18:55:52+08:00",
+    "message": "sync: 新增资源《喵斯快跑 PC+手机双端 v6.7.0 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/bc7991a9c6a6a723d548a4d536778834470166b2"
+  },
+  {
     "hash": "5c6a579",
     "date": "2026-10-26T18:55:43+08:00",
     "message": "sync: 新增资源《纷乱深渊》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T13:08:35+08:00",
     "message": "data: 夜勤人1代与背包英雄正式版 appid 修正并补齐资料",
     "url": "https://github.com/xi7ang/GameHub/commit/c3cb58e8bbe772c1fb52f4860613986a87370863"
-  },
-  {
-    "hash": "db461bc",
-    "date": "2026-10-25T13:07:08+08:00",
-    "message": "data: 为 10 条 lzlgo 资源补资源描述（取自 lzlgo 游戏介绍）",
-    "url": "https://github.com/xi7ang/GameHub/commit/db461bc6078fb916c527fb820e425f640722d37e"
   }
 ]
