@@ -1,5 +1,11 @@
 [
   {
+    "hash": "bf87625",
+    "date": "2026-10-26T18:57:35+08:00",
+    "message": "sync: 新增资源《秘奥法师》",
+    "url": "https://github.com/xi7ang/GameHub/commit/bf876259134e7c315b788dcf5877cdeb6baabf88"
+  },
+  {
     "hash": "06de48f",
     "date": "2026-10-26T18:57:14+08:00",
     "message": "sync: 新增资源《秘奥法师》",
@@ -172,11 +178,5 @@
     "date": "2026-10-25T13:15:53+08:00",
     "message": "fix(admin): 背景墙随机刷新真正生效，换图池并提交部署",
     "url": "https://github.com/xi7ang/GameHub/commit/c8a4987b563ec53b3cf15d3a63e6c9bb87156313"
-  },
-  {
-    "hash": "e16a6d0",
-    "date": "2026-10-25T13:09:58+08:00",
-    "message": "data: 重新回填 10 条 lzlgo 资源描述（上次被并发写入覆盖）",
-    "url": "https://github.com/xi7ang/GameHub/commit/e16a6d00570c8f36664468e53ee61d02412a1d5a"
   }
 ]
