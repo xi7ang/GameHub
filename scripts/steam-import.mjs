@@ -94,22 +94,31 @@ async function fetchJson(url) {
   return res.json()
 }
 
-async function fetchText(url) {
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-      Accept: 'text/html,application/xhtml+xml',
-    },
-  })
+async function fetchText(url, ageCookie = false) {
+  const headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+    Accept: 'text/html,application/xhtml+xml',
+  }
+  if (ageCookie) headers.Cookie = 'birthtime=631152000; lastagecheckage=1-January-1990'
+  const res = await fetch(url, { headers })
   if (!res.ok) throw new Error(`请求失败 ${res.status}: ${url}`)
-  return res.text()
+  return { text: await res.text(), url: res.url }
 }
 
 // 评价备用口径：直接取商店页，按行匹配 All Reviews（不是 Recent Reviews），
 // 从该行的 tooltip 取百分比与总评测数，从等级 span 取等级文本。
 // 商店页不给正负评拆分，因此 positive/negative 留空，绝不按百分比反推。
+// 年龄验证：商店页跳到 agecheck 时，用成年年龄 cookie 再取一次（只跳确认页、
+// 不要求登录的能拿到正文）；跳到登录页的（需登录验证）无法绕过，返回 null。
 async function fetchRatingFromStorePage(appid) {
-  const html = await fetchText(`https://store.steampowered.com/app/${appid}/`)
+  const pageUrl = `https://store.steampowered.com/app/${appid}/`
+  let { text: html, url } = await fetchText(pageUrl)
+  if (url.includes('/login/')) return null
+  if (url.includes('/agecheck/')) {
+    const retry = await fetchText(pageUrl, true)
+    if (retry.url.includes('/login/')) return null
+    html = retry.text
+  }
   const rows = [...html.matchAll(/<a class="user_reviews_summary_row"([^>]*)>([\s\S]*?)<\/a>/g)]
   for (const [, attrs, body] of rows) {
     if (!body.includes('subtitle column all')) continue

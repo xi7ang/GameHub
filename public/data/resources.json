@@ -4037,7 +4037,13 @@
         "initial": 198,
         "discountPercent": 80
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 60423,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
       "storeUrl": "https://store.steampowered.com/app/883710/",
       "fetchedAt": "2026-10-23T01:25:48.559Z"
     }
@@ -4540,7 +4546,13 @@
         "initial": 148,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 40855,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 95
+      },
       "storeUrl": "https://store.steampowered.com/app/601150/",
       "fetchedAt": "2026-10-25T04:30:33.838Z"
     }
@@ -7677,7 +7689,13 @@
         "initial": 138,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 26060,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 86
+      },
       "storeUrl": "https://store.steampowered.com/app/976310/",
       "fetchedAt": "2026-10-23T01:25:54.204Z"
     }
@@ -12686,7 +12704,13 @@
         "initial": 279,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 3096,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 80
+      },
       "storeUrl": "https://store.steampowered.com/app/1546990/",
       "fetchedAt": "2026-10-25T14:00:19.978Z"
     }
@@ -13221,7 +13245,13 @@
         "final": 0,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 823417,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
       "storeUrl": "https://store.steampowered.com/app/359550/",
       "fetchedAt": "2026-10-23T01:26:15.437Z"
     }
@@ -13530,7 +13560,13 @@
         "initial": 230,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 18089,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 82
+      },
       "storeUrl": "https://store.steampowered.com/app/637650/",
       "fetchedAt": "2026-10-25T14:00:30.237Z"
     }
@@ -21349,7 +21385,13 @@
         "initial": 279,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Mixed",
+        "totalReviews": 2909,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 66
+      },
       "storeUrl": "https://store.steampowered.com/app/1546970/",
       "fetchedAt": "2026-10-25T14:00:33.531Z"
     }
@@ -36298,7 +36340,13 @@
         "initial": 48,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 8531,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
       "storeUrl": "https://store.steampowered.com/app/362680/",
       "fetchedAt": "2026-10-25T04:06:45.703Z"
     }
@@ -39449,7 +39497,13 @@
         "initial": 168,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 30891,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 85
+      },
       "storeUrl": "https://store.steampowered.com/app/242050/",
       "fetchedAt": "2026-10-25T14:01:09.485Z"
     }
@@ -39736,7 +39790,13 @@
         "final": 0,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 823417,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
       "storeUrl": "https://store.steampowered.com/app/359550/",
       "fetchedAt": "2026-10-23T01:26:15.437Z"
     }
@@ -39814,7 +39874,13 @@
         "final": 0,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 823417,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
       "storeUrl": "https://store.steampowered.com/app/359550/",
       "fetchedAt": "2026-10-23T01:26:15.437Z"
     }
@@ -41329,7 +41395,13 @@
         "initial": 139,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Mostly Negative",
+        "totalReviews": 1751,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 29
+      },
       "storeUrl": "https://store.steampowered.com/app/1454970/",
       "fetchedAt": "2026-10-23T01:28:16.012Z"
     }
@@ -44044,7 +44116,13 @@
         "initial": 168,
         "discountPercent": 40
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Mostly Positive",
+        "totalReviews": 2353,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 75
+      },
       "storeUrl": "https://store.steampowered.com/app/2353060/",
       "fetchedAt": "2026-10-25T04:07:47.966Z"
     }
@@ -44123,7 +44201,13 @@
         "initial": 149,
         "discountPercent": 50
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 79884,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
       "storeUrl": "https://store.steampowered.com/app/3240220/",
       "fetchedAt": "2026-10-23T01:28:27.230Z"
     }
@@ -44265,7 +44349,13 @@
         "initial": 248,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 37272,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 84
+      },
       "storeUrl": "https://store.steampowered.com/app/582160/",
       "fetchedAt": "2026-10-25T14:01:41.706Z"
     }
@@ -45103,7 +45193,13 @@
         "initial": 259,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 20275,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 86
+      },
       "storeUrl": "https://store.steampowered.com/app/3017860/",
       "fetchedAt": "2026-10-25T04:08:02.279Z"
     }
@@ -50350,7 +50446,13 @@
         "initial": 95,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 7052,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 87
+      },
       "storeUrl": "https://store.steampowered.com/app/613830/",
       "fetchedAt": "2026-10-25T04:08:39.865Z"
     }
@@ -53073,7 +53175,13 @@
         "initial": 99,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 75218,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
       "storeUrl": "https://store.steampowered.com/app/12210/",
       "fetchedAt": "2026-10-25T14:02:22.150Z"
     }
@@ -53669,7 +53777,13 @@
         "initial": 98,
         "discountPercent": 75
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Mostly Positive",
+        "totalReviews": 16600,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 72
+      },
       "storeUrl": "https://store.steampowered.com/app/221040/",
       "fetchedAt": "2026-10-25T04:08:51.571Z"
     }
@@ -53823,7 +53937,13 @@
         "initial": 268,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 107898,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 94
+      },
       "storeUrl": "https://store.steampowered.com/app/374320/",
       "fetchedAt": "2026-10-25T14:02:25.257Z"
     }
@@ -54442,7 +54562,13 @@
         "initial": 298,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 28247,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
       "storeUrl": "https://store.steampowered.com/app/447040/",
       "fetchedAt": "2026-10-25T04:08:55.424Z"
     }
@@ -57502,7 +57628,13 @@
         "initial": 248,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 32757,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 89
+      },
       "storeUrl": "https://store.steampowered.com/app/1693980/",
       "fetchedAt": "2026-10-25T04:09:10.443Z"
     }
@@ -57830,7 +57962,13 @@
         "initial": 148,
         "discountPercent": 50
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 698,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 85
+      },
       "storeUrl": "https://store.steampowered.com/app/3046600/",
       "fetchedAt": "2026-10-23T01:29:26.811Z"
     }
@@ -61798,7 +61936,13 @@
         "initial": 268,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 36595,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
       "storeUrl": "https://store.steampowered.com/app/1687950/",
       "fetchedAt": "2026-10-23T01:29:36.134Z"
     }
@@ -71168,7 +71312,13 @@
         "initial": 125,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 46131,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 97
+      },
       "storeUrl": "https://store.steampowered.com/app/1113000/",
       "fetchedAt": "2026-10-23T01:30:01.356Z"
     }
@@ -77942,7 +78092,13 @@
         "initial": 298,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Mostly Positive",
+        "totalReviews": 4677,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 78
+      },
       "storeUrl": "https://store.steampowered.com/app/4435490/",
       "fetchedAt": "2026-10-23T01:30:19.427Z"
     }
@@ -78905,7 +79061,13 @@
         "initial": 230,
         "discountPercent": 0
       },
-      "rating": null,
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 18089,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 82
+      },
       "storeUrl": "https://store.steampowered.com/app/637650/",
       "fetchedAt": "2026-10-23T19:04:07.194Z"
     }
