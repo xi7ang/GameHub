@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8670272",
+    "date": "2026-10-27T08:55:51+08:00",
+    "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
+    "url": "https://github.com/xi7ang/GameHub/commit/867027281122905cf76c4a2a9029b977077c6fda"
+  },
+  {
     "hash": "9f2e2a6",
     "date": "2026-10-27T08:55:50+08:00",
     "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T12:33:20+08:00",
     "message": "data: 下架 12 条失效夸克链接资源",
     "url": "https://github.com/xi7ang/GameHub/commit/4c62913976dface7eb802c76ffee75a4b859d924"
-  },
-  {
-    "hash": "2f2d091",
-    "date": "2026-10-26T11:00:29+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/2f2d0914a9ca6d1b1bb8459f4effa068078a8ea0"
   }
 ]
