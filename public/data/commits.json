@@ -1,5 +1,11 @@
 [
   {
+    "hash": "103f7b1",
+    "date": "2026-10-27T08:57:05+08:00",
+    "message": "fix(data): 10-27 五条资源分类按 Steam genres 校正",
+    "url": "https://github.com/xi7ang/GameHub/commit/103f7b1c5e583ce3b4c1269ae5cd9b0b1f69c0e3"
+  },
+  {
     "hash": "8670272",
     "date": "2026-10-27T08:55:51+08:00",
     "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T15:05:17+08:00",
     "message": "data: 移除已下架游戏的热门搜索词艾尔登法环",
     "url": "https://github.com/xi7ang/GameHub/commit/d435fb57bef052b43aacec578e51c9da4a8a9e93"
-  },
-  {
-    "hash": "4c62913",
-    "date": "2026-10-26T12:33:20+08:00",
-    "message": "data: 下架 12 条失效夸克链接资源",
-    "url": "https://github.com/xi7ang/GameHub/commit/4c62913976dface7eb802c76ffee75a4b859d924"
   }
 ]
