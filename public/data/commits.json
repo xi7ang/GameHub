@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b98f2ce",
+    "date": "2026-10-27T08:47:52+08:00",
+    "message": "sync: 新增资源《工政2/ INDUSTRIA 2   Build.25815016  免安装中文》",
+    "url": "https://github.com/xi7ang/GameHub/commit/b98f2ce66bf415934dfe17229e77bf18650bf968"
+  },
+  {
     "hash": "bdc5896",
     "date": "2026-10-27T08:34:35+08:00",
     "message": "data: 修正两条错配封面",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T00:26:30+08:00",
     "message": "data: PvZ 系列封面补全（6 条）",
     "url": "https://github.com/xi7ang/GameHub/commit/24cd1c375746b47f7f94724fb97f2199e5b7af81"
-  },
-  {
-    "hash": "2070e20",
-    "date": "2026-10-26T00:22:36+08:00",
-    "message": "feat: 补 PvZ 系列封面（3590/1262240 官方头图）",
-    "url": "https://github.com/xi7ang/GameHub/commit/2070e20fc025e5539a71208ba7fcc03f0c293f7b"
   }
 ]
