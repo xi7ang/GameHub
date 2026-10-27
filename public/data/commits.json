@@ -1,5 +1,11 @@
 [
   {
+    "hash": "97a1baa",
+    "date": "2026-10-27T08:57:33+08:00",
+    "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
+    "url": "https://github.com/xi7ang/GameHub/commit/97a1baae4fd8b4f7799a16f910f1b67dbd5d5321"
+  },
+  {
     "hash": "103f7b1",
     "date": "2026-10-27T08:57:05+08:00",
     "message": "fix(data): 10-27 五条资源分类按 Steam genres 校正",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T15:37:35+08:00",
     "message": "data: 移除热门搜索词文明6",
     "url": "https://github.com/xi7ang/GameHub/commit/6b7579e64f4ebfa862dd24f01e7e621756af7183"
-  },
-  {
-    "hash": "d435fb5",
-    "date": "2026-10-26T15:05:17+08:00",
-    "message": "data: 移除已下架游戏的热门搜索词艾尔登法环",
-    "url": "https://github.com/xi7ang/GameHub/commit/d435fb57bef052b43aacec578e51c9da4a8a9e93"
   }
 ]
