@@ -80548,7 +80548,7 @@
   {
     "id": "other-202610-0011",
     "title": "工政2/ INDUSTRIA 2   Build.25815016  免安装中文版",
-    "enTitle": "",
+    "enTitle": "INDUSTRIA 2",
     "category": "action",
     "tags": [],
     "platform": "quark",
@@ -80556,19 +80556,80 @@
     "pwd": "tEJE",
     "size": "11.3GB",
     "sizeBytes": 12174174938,
-    "cover": "/covers/u234704b83f39.webp",
-    "steamAppID": null,
+    "cover": "/covers/2154070.webp",
+    "steamAppID": 2154070,
     "desc": "更新内容 查看所有更新 更新6:主要关节复工,更多 漏洞、系统与放大器;性能 将内存占用容量从15GB降低至5GB 半途游戏启动时间(不再长黑屏) 游戏安装容量从17GB缩短至13GB 更新 Wwise 以移除在几何结构的每个角落发生的音频剪切,这些夹板占用了两边声音 修复了电梯上的积蓄问题,有时会将玩家锁定 修复了在被击倒后从地上起身时,导致敌方NPC在被撞倒时跳向空中的漏洞(有时仍会发生,同时监控这一情况) 使用正确的光功能配置,让重新调整的播放器手电筒更具实用性,看起来更好看 修复了在布伦特无线电场景中不会隐藏武器附件以及从墙壁上拔掉木板的漏洞 尝试通过暂时移除自动保存老虎机2和置放大器来修复自动保存击球;3个用户界面元素(文件仍在您的目录中)。 监控这个!",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-27T08:47:49+08:00",
     "updatedAt": "2026-10-27T08:47:49+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 2154070,
+      "developer": "Bleakmill",
+      "publisher": "Headup、Beep Japan",
+      "releaseDate": "2026 年 4 月 29 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 日语, 葡萄牙语 - 巴西, 俄语, 简体中文, 土耳其语, 乌克兰语, 繁体中文\n具有完全音频支持的语言",
+      "summary": "《INDUSTRIA 2》是一款叙事类第一人称射击冒险游戏，讲述了一位女性被困平行维度的故事。贪婪无度的人工智能吞噬了北境，你要在这里探索、搜寻、战斗，找到回家的路。",
+      "description": "前作《INDUSTRIA》的故事过去多年后，诺拉被困在了一个远离家园的平行维度。在一座宁静的小岛上，一栋空荡荡的公寓大楼矗立在无垠的孤独中。诺拉独自生活在这里，她要建造一台机器，带她返回家的维度：1989 年的东柏林。\n就在这个为期一年的项目即将完成时，一连串的意外把她重新拉回了人工智能 ATLAS 的心脏。\n诺拉很快就认识到自己无法逃避过去。她曾参与创造出无法控制的人工智能，现在也必须面对自己的责任。\n沉浸式玩法：基于物理的互动和制作系统，以及叙境式物品栏，都使游戏深深植根于环境中\n英雄之旅：这款第一人称射击游戏的核心是叙事。在这里，你会遇到令人难忘的角色，跟随游戏进程，体验感人至深的故事\n独特的设定：在广阔的北境风光中，除了满目工业的衰败，你还将一睹异世界的奇妙机械\n可升级武器：用消音器、扩充弹匣或特殊攻击等配件来升级五种武器\n机器人“肉体恐怖”：生动的机油喷溅、身体肢解和由此引发的激烈交火\n紧凑的独立游戏体验：由热爱游戏的小型独立团队制作，让你享受 4-6 小时毫无拖沓的刺激旅程\n电影级声音效果：完整配音、动感音乐以及精细的声音设计，通过 Wwise 实时音频反射技术完美地融为了一体\n次世代视觉效果：虚幻引擎 5 的全动态照明引擎 Lumen 让精心制作的美术素材焕发光彩",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/abd9a51f763a6b93a458aaed20abefab007ca72f/ss_abd9a51f763a6b93a458aaed20abefab007ca72f.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/d7395c147aca1351d83a9666c27c28a8681a30a6/ss_d7395c147aca1351d83a9666c27c28a8681a30a6.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/8fcdec55410a62400b82bc0b27751d6c89836423/ss_8fcdec55410a62400b82bc0b27751d6c89836423.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/d6d429e1753cb2eca18a6f1745d864305b54cd66/ss_d6d429e1753cb2eca18a6f1745d864305b54cd66.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/ss_420bdce0fa0d59c668b71011c777aaeb85cc13c5.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/ss_ddb15e9c99d79ffdda818824dac4b301e22dd43c.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/ss_8e74fb3d6e01c22d74d8580fc82ad6c8fcee7229.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/ss_62d748ea6567e3085cdc629948ecbc507b852897.1920x1080.jpg?t=1788111824",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2154070/ss_59c636b000ce02fd5e5959bbde30c1c719b1897d.1920x1080.jpg?t=1788111824"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows® 10, Windows® 11 (64-bit OS required)",
+          "处理器: Intel i5-8600 or AMD Ryzen 5 3600 or similar",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia GeForce RTX 2060 Super (8GB) or similar",
+          "DirectX 版本: 11",
+          "存储空间: 需要 20 GB 可用空间",
+          "附注事项: SSD Recommend"
+        ],
+        "recommended": [
+          "操作系统: Windows® 10, Windows® 11 (64-bit OS required)",
+          "处理器: Intel i7-8700K or AMD Ryzen 5 3600 or similar",
+          "内存: 16 GB RAM",
+          "显卡: Nvidia GeForce RTX 3080 or similar",
+          "DirectX 版本: 12",
+          "存储空间: 需要 20 GB 可用空间",
+          "附注事项: SSD Recommend"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 60.3,
+        "initial": 90,
+        "discountPercent": 33
+      },
+      "rating": {
+        "scoreDesc": "Mixed",
+        "totalReviews": 448,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 49
+      },
+      "storeUrl": "https://store.steampowered.com/app/2154070/",
+      "fetchedAt": "2026-10-27T18:56:37.179Z"
+    }
   },
   {
     "id": "action-202610-0001",
     "title": "星际勇士/ Star Valor  Build.25793649   全DLC  免安装中文版",
-    "enTitle": "",
+    "enTitle": "Star Valor",
     "category": "action",
     "tags": [],
     "platform": "quark",
@@ -80576,14 +80637,83 @@
     "pwd": "o3FC",
     "size": "998MB",
     "sizeBytes": 1046430124,
-    "cover": "/covers/ub71c13530358.webp",
-    "steamAppID": null,
+    "cover": "/covers/833360.webp",
+    "steamAppID": 833360,
     "desc": "更新内容 查看所有更新 更新 2.2.5a 新增了Testudo:4级独立货机,5号尺码(Cruiser)。 这是一个特殊的(隐藏)解锁。 为所有船只增加了20%的货舱空间。 为所有接送服务增加了一个副驾驶座位。 道奇车轮接送车现在需要花费0个能源。 光激光增强范围为50到60。 光炮损伤从11次增加至13次 重炮损伤从42增加至50,每次射门的弹药减少3次至2次。 超大炮损伤从70增加至85,每针的弹药减少4次至3次。 如今,随着修复梁的修复和修复行为,可以产生。 为莱斯温队增添了一个核心优势。 “霍尔德火”行动现在对舰船而言始终是永久性的,而不是在使用时要求换挡。 使用护卫舰或更大的船只时,拉特奥斯(特殊船员)的特质现在很活跃,而不是没有船队。 修复了在使用永久性追火动作后导致船船订单起火导致无法工作的BUG。 在向容器添加装甲时修复了BUG。 修复了维修玩家站时获得的修复XP和积分。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-27T08:49:06+08:00",
     "updatedAt": "2026-10-27T08:49:06+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 833360,
+      "developer": "Rafael Burgos",
+      "publisher": "Rafael Burgos",
+      "releaseDate": "2022 年 8 月 3 日",
+      "genres": [
+        "动作",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 葡萄牙语 - 巴西, 德语, 西班牙语 - 西班牙, 法语, 俄语, 简体中文, 越南语, 韩语, 波兰语, 意大利语, 日语, 葡萄牙语 - 葡萄牙, 西班牙语 - 拉丁美洲",
+      "summary": "你可以控制属于自己的飞船去探索茫茫宇宙，或冒险、或贸易、或战斗、或制作武器。你甚至可以自定义个人的独特飞船。你的起步随低，但是随着不断地完成任务、升级飞船和设备、招募伙伴或雇佣佣兵，终有一天你也可以成为争霸银河的一份子。",
+      "description": "什么是 Star Valor\nStar Valor 是一款太空动作 RPG 游戏，让你掌控自己的宇宙飞船和命运。探索一个广阔的开放世界程序生成的银河系，从一无所有到成为银河系中最著名的名字。但在这个宇宙中，最后的人类由几乎让他们灭绝的外星生物统治，财富和权力并不容易获得。\n游戏玩法\n在 Star Valor 中，你完全掌控自己的进步方式以及最终成为什么样的人。在你的旅程中，你将选择加入哪些派系，这将改变谁视你为朋友，谁视你为敌人。或者，你也可以选择独立，自己在宇宙中找到自己的道路和盟友与敌人。\n通过多种活动来赚取信用点，逐步建立自己的势力，比如采矿小行星获取贵重的材料和矿物、完成各种任务、交易商品、打捞船只残骸、制造武器、悬赏追捕海盗，甚至走上海盗之路。你做什么以及如何成就自己的名声与财富，完全由你决定。\n在你的旅程中，你将获得经验并升级，解锁新选项，并获得技能点，可以根据个人喜好分配，从而创造最适合你的游戏风格。万事皆有可能，你完全掌控如何游戏。\n特色\n开放世界探索程序生成的银河系 – 每一局游戏都与上一次完全不同，玩家可以选择银河系的大小。\n动态且易于学习的战斗系统 – 参与一对一的空战或庞大的舰队战斗。\n打造自己的武器 – 使用从船只残骸和小行星采矿中获得的材料打造武器，并添加自己的修改器，创造独特的武器，满足你的需求。\n超过 190 种不同的船只装备 – 提供丰富的船只装备选择，让你根据自己的需求自由定制船只，打造完美的装备组合。\n超过 100 种不同的船只 – 超过 100 种不同类型和角色的船只可供选择，从小型战斗机到大型战舰。\n随着升级选择新角色能力 – 随着等级提升，你将获得技能点，可以分配到你选择的技能和技能树上，打造符合你游戏风格的角色。\n雇佣船员提升船只，雇佣炮手操作炮塔 – 随着你成长并拥有更大的船只，你将需要雇佣船员来协助管理船只，并雇佣炮手来操作炮塔。\n注册并装备新舰长为你助阵 – 成为舰队指挥官，指挥你的舰队帮助你进行战斗或采矿，或者你也可以雇佣雇佣兵为你效力……但需要付费。\n解锁奖励以开启新玩法 – 完成特定任务或做出特定选择，解锁新奖励，带来各种不同的玩法。\n故事和程序化任务系统 – 开始一段跨越整个银河系的故事，或者接受大量程序化任务。\n七大派系可互动 – 与七个不同的派系互动，每个派系都有自己的目标。与一个派系结盟可能会让其他派系成为敌人。\n派系之间的战争 – 参与派系之间的战争和冲突，争夺权力。\n竞技场模式专注于战斗挑战 – 另有竞技场模式供你测试战斗能力，面对越来越强大的敌人，随着你的进步，敌人也会变得越来越强大。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_4412326436de60a6348609bac9d9ede4ee20455e.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_13cf46cf05c9c0ee3f7f94baf2f54c4be14c4b7b.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_60f33e67fd3fae5f0d454d702b06aca1a31c0daf.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_927c700c37090c78aa32017fa041eabbace3c2bb.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_8d810507bc1fe439943bf9d6ddf280964286a016.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_c01cfaea140482cbdb27a2823edbb71272d949b5.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_13112ebd6294a9c097dba1686080061536ac83fb.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_6f2de195633281e2209665d9f64362d3d83283c3.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_f11ef6ad79505c4f9e6178af204c58a873a0f9cc.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_4ef986a5d381b04edef653bf3abf124c7215753b.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_1c93edd9aa384772b3cfbeb214d78e7027fc7c7b.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_634be5abc416944fd3baff1a14ab1ff291ad9206.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_2ad67bd27da0c68d3885a07f982f5b8a1c1fa2a2.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_192ba8ea05d783b0f61a16f4d48b3a00a252c808.1920x1080.jpg?t=1792424230",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/833360/ss_2a2ed0d9fa45efbd55ca2d84c818780ddf406de0.1920x1080.jpg?t=1792424230"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7",
+          "处理器: 2.0 Ghz",
+          "内存: 2 GB RAM",
+          "显卡: Intel HD 4000",
+          "DirectX 版本: 9.0",
+          "存储空间: 需要 3 GB 可用空间",
+          "声卡: Yes"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7",
+          "处理器: 2.0 Ghz Dual Core CPU",
+          "内存: 4 GB RAM",
+          "显卡: Any GPU with 256MB memory",
+          "DirectX 版本: 9.0",
+          "存储空间: 需要 3 GB 可用空间",
+          "声卡: Yes"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 36.8,
+        "initial": 92,
+        "discountPercent": 60
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 2251,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 88
+      },
+      "storeUrl": "https://store.steampowered.com/app/833360/",
+      "fetchedAt": "2026-10-27T18:56:40.359Z"
+    }
   },
   {
     "id": "sandbox-202610-0001",
@@ -80608,14 +80738,14 @@
   {
     "id": "puzzle-202610-0002",
     "title": "黯井微光 /Well Dweller    Build.25633433     免安装中文版",
-    "enTitle": "",
+    "enTitle": "Well Dweller",
     "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/d6d8d7f08dca?pwd=YKbE",
     "pwd": "YKbE",
-    "size": "",
-    "sizeBytes": null,
+    "size": "710.7MB",
+    "sizeBytes": 745184440,
     "cover": "/covers/3699590.webp",
     "steamAppID": 3699590,
     "desc": "《黯井微光》是一款暗黑童话风格的类银河城游戏，由《冥界清道夫》（Crypt Custodian）和《Islets》的原班人马倾力打造。 在森林深处、井底之地，栖息着唯一敢于挑战女王的生灵。玩家将扮演一只手持火柴棒的小鸟——微光，踏上焚灭邪恶女王、拯救家族的旅程。探索充满暗黑童话气息的世界，与居住在王国底层之中的迷人角色成为朋友。与可怖的怪兽激战，习得新能力，拓展你的地图。解开谜题，发现秘密，揭开这座腐朽王国中隐藏的神秘真相。 在腐朽的废墟之中，有一群努力求生的可爱角色等待你的相遇。与阿尔多一起露营——这只小老鼠正在逃离女王的魔爪。与神秘拾荒者鲁特同行，探索一座废弃城堡——鲁特在王国各地搜寻最珍贵的战利品。找到并解救那些原本一直受到庇护、却在一夜之间被疯狂猎人掳走的、四散躲藏的兄弟姐妹。 点燃你的火柴棒，照亮黑暗世界，并在战斗中助你一臂之力。",
@@ -80623,26 +80753,143 @@
     "featured": false,
     "addedAt": "2026-10-27T08:54:46+08:00",
     "updatedAt": "2026-10-27T08:54:46+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 3699590,
+      "developer": "Kyle Thompson",
+      "publisher": "Kyle Thompson、Top Hat Studios, Inc.、Doyoyo Games",
+      "releaseDate": "2026 年 9 月 22 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 俄语, 简体中文, 日语, 韩语, 繁体中文",
+      "summary": "《黯井微光》是一款暗黑童话风格的类银河城游戏，讲述了栖身于破败王国中的一群迷人角色的故事。玩家将扮演一只手持火柴棒的小鸟——微光，踏上焚灭邪恶女王、拯救家族的旅程。",
+      "description": "《黯井微光》是一款暗黑童话风格的类银河城游戏，由《冥界清道夫》（Crypt Custodian）和《Islets》的原班人马倾力打造。\n在森林深处、井底之地，栖息着唯一敢于挑战女王的生灵。玩家将扮演一只手持火柴棒的小鸟——微光，踏上焚灭邪恶女王、拯救家族的旅程。探索充满暗黑童话气息的世界，与居住在王国底层之中的迷人角色成为朋友。与可怖的怪兽激战，习得新能力，拓展你的地图。解开谜题，发现秘密，揭开这座腐朽王国中隐藏的神秘真相。\n在腐朽的废墟之中，有一群努力求生的可爱角色等待你的相遇。与阿尔多一起露营——这只小老鼠正在逃离女王的魔爪。与神秘拾荒者鲁特同行，探索一座废弃城堡——鲁特在王国各地搜寻最珍贵的战利品。找到并解救那些原本一直受到庇护、却在一夜之间被疯狂猎人掳走的、四散躲藏的兄弟姐妹。\n点燃你的火柴棒，照亮黑暗世界，并在战斗中助你一臂之力。收集小饰品以强化自身能力，自由组合搭配，打造属于你的独特玩法。解开谜题，击败凶恶的首领，开辟通往女王寝宫的道路，拯救你的家人。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/7fae3603699d80c3ac1a568e85674d4d4f28e1aa/ss_7fae3603699d80c3ac1a568e85674d4d4f28e1aa.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/04fbb32687fdfdce741a80cddbfb398bcbeb66d3/ss_04fbb32687fdfdce741a80cddbfb398bcbeb66d3.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/aed9afbfa49cc3d171b59566bcc2861e545f9631/ss_aed9afbfa49cc3d171b59566bcc2861e545f9631.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/a3b2c3e46f9b48ba9effca11e11f071745bf72b9/ss_a3b2c3e46f9b48ba9effca11e11f071745bf72b9.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/72a7e3e03289e1b94cbde5faad659ad2f60f6e09/ss_72a7e3e03289e1b94cbde5faad659ad2f60f6e09.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/7cbacc6a03ddaeab92467ea20119734190b70d2d/ss_7cbacc6a03ddaeab92467ea20119734190b70d2d.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/7502b26a16180fc5556ef46ae666bd8d2079830c/ss_7502b26a16180fc5556ef46ae666bd8d2079830c.1920x1080.jpg?t=1790314621",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3699590/9a53cbc387884207e56edc5aaffc0b98917a8db7/ss_9a53cbc387884207e56edc5aaffc0b98917a8db7.1920x1080.jpg?t=1790314621"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10",
+          "处理器: Intel Pentium E2180 (2 * 2000), AMD Athlon Dual Core 4450e (2 * 2300), or equivalent",
+          "内存: 4 GB RAM",
+          "显卡: GeForce GT 220 (1024 MB), Radeon HD 4650 (1024 VRAM), or equivalent",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 68,
+        "initial": 68,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1909,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/3699590/",
+      "fetchedAt": "2026-10-27T18:56:47.009Z"
+    }
   },
   {
     "id": "strategy-202610-0001",
     "title": "秘奥回响/Echoes of Mystralia    Build.26053669   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Echoes of Mystralia",
     "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/c435da7885aa?pwd=EgS0",
     "pwd": "EgS0",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u9e3d8be07a8b.webp",
-    "steamAppID": null,
+    "size": "5.3GB",
+    "sizeBytes": 5689212274,
+    "cover": "/covers/974480.webp",
+    "steamAppID": 974480,
     "desc": "更新内容 查看所有更新 Mystralia 的回音——所有可以提升的音值——补丁 0.11.3 新 为焦点点数新增了地下室升级 改进 改进的 SFX 反馈 在营地找到Mended Echoes的机会更大 改善假人健康 基本假人获得100%的提升 搬家的假人获得了33%的提升 创伤性假人获得100%的提升 弱假人获得了59%的增幅 精英傻瓜获得了∞%的提升 BUG FIXES 固定式竞技场相撞机 修复了电弧内存碰撞问题 修复错误的内存图标 固定地下室软锁 固定拼写制作教程接口问题 游戏介绍 《秘奥回响》是一款以自由法术构筑为核心的 Roguelite 动作 RPG。你将扮演记忆轮回的守护者马扎里姆，创造并强化不同法术，调整战斗策略，在一次次冒险中选择属于自己的前进路线。 重返充满魔法的秘奥王国，对抗吞噬记忆的过去阴影，帮助居民找回失落的记忆，并逐步揭开你与这个世界之间的联系。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-27T08:55:47+08:00",
     "updatedAt": "2026-10-27T08:55:47+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 974480,
+      "developer": "Borealys Games",
+      "publisher": "Borealys Games",
+      "releaseDate": "2026 年 8 月 11 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演",
+        "抢先体验"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 日语, 韩语, 葡萄牙语 - 巴西, 俄语, 简体中文, 西班牙语 - 拉丁美洲\n具有完全音频支持的语言",
+      "summary": "《秘奥法师》续作带来更自由的法术构筑：组合基础法术、触发条件与强化效果，在快节奏动作 Roguelite 战斗中打造专属流派。挣脱旧日阴影，拯救秘奥王国，唤回世界失落的记忆。",
+      "description": "《秘奥回响》是一款以自由法术构筑为核心的 Roguelite 动作 RPG。你将扮演记忆轮回的守护者马扎里姆，创造并强化不同法术，调整战斗策略，在一次次冒险中选择属于自己的前进路线。\n重返充满魔法的秘奥王国，对抗吞噬记忆的过去阴影，帮助居民找回失落的记忆，并逐步揭开你与这个世界之间的联系。\n继承并扩展《秘奥法师》广受好评的法术创造系统。组合基础法术、触发条件与强化效果，让同一种魔法呈现不同的攻击方式、作用范围和联动效果。\n根据敌人特点与关卡环境调整法术构筑，在快节奏战斗中不断测试和完善你的组合，逐步形成独特的战斗流派，迎战危险的生物与强大头目。\n遗忘正在秘奥王国的道路、村庄、湖泊与群山之间不断蔓延。每次冒险中，你都需要在不同路线、事件与奖励之间作出选择。\n安全的道路更容易推进，危险的区域则可能带来更强的升级与更丰厚的回报。结合当前的法术构筑规划路线，在不断变化的冒险中寻找最适合自己的前进方式。\n在探索秘奥王国的过程中收集失落的记忆，并通过一次次战斗与冒险不断强化自己。你遇见的居民、击败的过去阴影以及找回的记忆，都将逐步揭示马扎里姆的过去，以及他与秘奥王国命运之间的联系。\n每一次探索不仅会让你更加接近掌握魔法，也会推动故事继续发展，让你逐渐了解这个世界被遗忘的真相。\n帮助村庄与城镇中的居民找回失去的记忆。完成他们委托的任务，揭开隐藏的秘密并获得相应奖励，逐步恢复散落在秘奥王国各地的故事。\n随着冒险和剧情不断推进，世界地图也会随之发生变化，呈现新的状态与故事内容。你的每一次行动，都将帮助这个逐渐被遗忘的王国重新找回自己的过去。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/85a54f49d467d8da3b99aab50798b7385f5ba291/ss_85a54f49d467d8da3b99aab50798b7385f5ba291.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/1bb71680e701b43fa7fe9790bff10d994f6450bf/ss_1bb71680e701b43fa7fe9790bff10d994f6450bf.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/d5a21b4ee2718a50f31e48d06e520f0d3181c838/ss_d5a21b4ee2718a50f31e48d06e520f0d3181c838.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/dff0617409ab653c8f1a76a41b127ae4d6c9e5ad/ss_dff0617409ab653c8f1a76a41b127ae4d6c9e5ad.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/2aacc0a4f1f12d55170a987f052ee9e1ff2a61d2/ss_2aacc0a4f1f12d55170a987f052ee9e1ff2a61d2.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/d5cee55140a97676cf649ce666e663d2af1dd444/ss_d5cee55140a97676cf649ce666e663d2af1dd444.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/f9aa7561cb22e1df56d34e3c8bec53e00f031254/ss_f9aa7561cb22e1df56d34e3c8bec53e00f031254.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/4a9eb1d3bb2e9f260adf4107231e46c06c366f81/ss_4a9eb1d3bb2e9f260adf4107231e46c06c366f81.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/e4e1a07ad0c7da4c6b116cf301d1c163f8d91de1/ss_e4e1a07ad0c7da4c6b116cf301d1c163f8d91de1.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/d7187b32061a398beaddecabd9c52e5712449c25/ss_d7187b32061a398beaddecabd9c52e5712449c25.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/ba8d26318129c7aa21f8eca3d74a23a04a582319/ss_ba8d26318129c7aa21f8eca3d74a23a04a582319.1920x1080.jpg?t=1792780026",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/974480/7bdb72633e5b3d3f89a55e0601d0e8bcd71f94f4/ss_7bdb72633e5b3d3f89a55e0601d0e8bcd71f94f4.1920x1080.jpg?t=1792780026"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Quad Core 2.4 GHz",
+          "内存: 8 GB RAM",
+          "显卡: GeForce GTX 1060, Radeon RX 580",
+          "存储空间: 需要 10 GB 可用空间",
+          "附注事项: Low graphics settings"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Quad Core 2.4 GHz",
+          "内存: 16 GB RAM",
+          "显卡: GeForce RTX 2060, Radeon RX 5600XT",
+          "存储空间: 需要 10 GB 可用空间",
+          "附注事项: 1080p resolution, SSD recommended"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 77,
+        "initial": 77,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 724,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 83
+      },
+      "storeUrl": "https://store.steampowered.com/app/974480/",
+      "fetchedAt": "2026-10-27T18:56:50.044Z"
+    }
   }
 ]
