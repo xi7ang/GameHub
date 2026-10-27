@@ -1,5 +1,53 @@
 [
   {
+    "hash": "bdc5896",
+    "date": "2026-10-27T08:34:35+08:00",
+    "message": "data: 修正两条错配封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/bdc5896afb4afe6e266371ef3e1f7e156e56a9cd"
+  },
+  {
+    "hash": "9cd553d",
+    "date": "2026-10-27T08:32:50+08:00",
+    "message": "data: 新增 5269280/3841050 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/9cd553d47afda503b113fb608395720f92fddfb3"
+  },
+  {
+    "hash": "613bb0d",
+    "date": "2026-10-27T08:00:13+08:00",
+    "message": "data: 分类与封面待确认项处理",
+    "url": "https://github.com/xi7ang/GameHub/commit/613bb0dcfe501d82f190b7829cdaa65cca61cd61"
+  },
+  {
+    "hash": "62e6602",
+    "date": "2026-10-27T07:58:16+08:00",
+    "message": "data: 新增 2428980 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/62e660231acc896ce92f35cfe2e87ddd6844e3d2"
+  },
+  {
+    "hash": "9a1ac25",
+    "date": "2026-10-27T07:38:39+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/9a1ac25864c95f959ba5eea5bd9c675eddebba01"
+  },
+  {
+    "hash": "097867d",
+    "date": "2026-10-26T20:32:07+08:00",
+    "message": "chore: 每日公告：发布【2026-10-26】游戏资源更新通知（6 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/097867d78a5fd633142091209bff6ff1c37a4fef"
+  },
+  {
+    "hash": "042ffa3",
+    "date": "2026-10-26T19:27:29+08:00",
+    "message": "feat: 资源详情页隐藏头部资源描述",
+    "url": "https://github.com/xi7ang/GameHub/commit/042ffa317e6559d0c21cf4ae9595cb0c3c723499"
+  },
+  {
+    "hash": "775d963",
+    "date": "2026-10-26T19:11:10+08:00",
+    "message": "fix(data): 10-26 五条资源描述按句末标点重新截断",
+    "url": "https://github.com/xi7ang/GameHub/commit/775d963330a899ba8f7c115c5751ad77b3c62076"
+  },
+  {
     "hash": "6df165c",
     "date": "2026-10-26T19:10:24+08:00",
     "message": "fix(data): 10-26 五条资源标题回填为 lzlgo 原始标题",
@@ -130,53 +178,5 @@
     "date": "2026-10-26T00:22:36+08:00",
     "message": "feat: 补 PvZ 系列封面（3590/1262240 官方头图）",
     "url": "https://github.com/xi7ang/GameHub/commit/2070e20fc025e5539a71208ba7fcc03f0c293f7b"
-  },
-  {
-    "hash": "3933067",
-    "date": "2026-10-26T00:16:21+08:00",
-    "message": "data: 夸克分享大小全量补全（1268 条）",
-    "url": "https://github.com/xi7ang/GameHub/commit/39330676a92f4a07162f5a0e8988c1c45857a77b"
-  },
-  {
-    "hash": "d91ee4d",
-    "date": "2026-10-25T22:41:50+08:00",
-    "message": "feat: 默认主题改为黑暗模式",
-    "url": "https://github.com/xi7ang/GameHub/commit/d91ee4d257441be911a653d5211fa93b78c0e531"
-  },
-  {
-    "hash": "96de61e",
-    "date": "2026-10-25T22:14:02+08:00",
-    "message": "data: 73 条 Steam 匹配评审写回：55 条采纳并补齐 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/96de61e37139e2f529298c94367bf7091705895c"
-  },
-  {
-    "hash": "4ba68ad",
-    "date": "2026-10-25T22:05:03+08:00",
-    "message": "covers: 上传 3 张新 appid 官方头图（4968640/1672983/3444020）",
-    "url": "https://github.com/xi7ang/GameHub/commit/4ba68add62a4aaf4979b6d3fb7de585dbfc750d7"
-  },
-  {
-    "hash": "01ae853",
-    "date": "2026-10-25T21:48:54+08:00",
-    "message": "perf(search): 搜索结果页改用 loadSearch，加数据加载态",
-    "url": "https://github.com/xi7ang/GameHub/commit/01ae8530e5a0e9c30b0f2d5aa98e098961d757de"
-  },
-  {
-    "hash": "d037b55",
-    "date": "2026-10-25T21:46:48+08:00",
-    "message": "perf(search): 搜索页新增 loadSearch，改拉 resource-index.json 瘦索引",
-    "url": "https://github.com/xi7ang/GameHub/commit/d037b55e21f2b0daa242ff8b439a7ac7c9ccdd4c"
-  },
-  {
-    "hash": "8760da6",
-    "date": "2026-10-25T20:31:49+08:00",
-    "message": "chore: 每日公告：发布【2026-10-25】游戏资源更新通知（11 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/8760da6d0a0bf1476e4e598a678809b3f4050f31"
-  },
-  {
-    "hash": "88563f2",
-    "date": "2026-10-25T14:23:48+08:00",
-    "message": "data: 背景墙换成 Steam 热门/经典/最新 30 款游戏胶囊图",
-    "url": "https://github.com/xi7ang/GameHub/commit/88563f240e8f3120b1c706d558860b1d6ec50fdc"
   }
 ]
