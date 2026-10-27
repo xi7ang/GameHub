@@ -1,5 +1,17 @@
 [
   {
+    "hash": "8690412",
+    "date": "2026-10-27T08:53:55+08:00",
+    "message": "data: 补全最近新增资源大小",
+    "url": "https://github.com/xi7ang/GameHub/commit/869041214487028eeac97d3665f031dd028523e7"
+  },
+  {
+    "hash": "3e87aa9",
+    "date": "2026-10-27T08:53:44+08:00",
+    "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3e87aa906d253ff97cd5818bc6a0fd36d5e4522b"
+  },
+  {
     "hash": "fa30e70",
     "date": "2026-10-27T08:50:55+08:00",
     "message": "sync: 新增资源《砖厂/ Brick Rigs   Build.25831956   免安装中文版》",
@@ -166,17 +178,5 @@
     "date": "2026-10-26T00:42:14+08:00",
     "message": "Delete public/data/resources-new.json",
     "url": "https://github.com/xi7ang/GameHub/commit/65eac1adf85e414dcbdc5266fb773f37f82040c9"
-  },
-  {
-    "hash": "6db1f3a",
-    "date": "2026-10-26T00:37:38+08:00",
-    "message": "data: PvZ 系列封面补全（6 条）",
-    "url": "https://github.com/xi7ang/GameHub/commit/6db1f3a0d8033fca2d17b75d31682f12b65ed3d2"
-  },
-  {
-    "hash": "cc856c6",
-    "date": "2026-10-26T00:30:29+08:00",
-    "message": "Delete public/data/resources-temp.json",
-    "url": "https://github.com/xi7ang/GameHub/commit/cc856c65d789e3837e7d8a35323ae92b89e1397b"
   }
 ]
