@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d95bc61",
+    "date": "2026-10-27T08:49:09+08:00",
+    "message": "sync: 新增资源《星际勇士/ Star Valor  Build.25793649   全DLC 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d95bc615ea04c73549c9b9fc37f3e43423e3dda0"
+  },
+  {
     "hash": "b98f2ce",
     "date": "2026-10-27T08:47:52+08:00",
     "message": "sync: 新增资源《工政2/ INDUSTRIA 2   Build.25815016  免安装中文》",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T00:29:28+08:00",
     "message": "Rename resources-new.json to resources-temp.json",
     "url": "https://github.com/xi7ang/GameHub/commit/2ce28fa65a92c115284b0e881e4ef3b04f04c8a9"
-  },
-  {
-    "hash": "24cd1c3",
-    "date": "2026-10-26T00:26:30+08:00",
-    "message": "data: PvZ 系列封面补全（6 条）",
-    "url": "https://github.com/xi7ang/GameHub/commit/24cd1c375746b47f7f94724fb97f2199e5b7af81"
   }
 ]
