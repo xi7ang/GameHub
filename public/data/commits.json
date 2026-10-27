@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fa30e70",
+    "date": "2026-10-27T08:50:55+08:00",
+    "message": "sync: 新增资源《砖厂/ Brick Rigs   Build.25831956   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fa30e703d1d118e418227989c965ada91cfc5952"
+  },
+  {
     "hash": "d95bc61",
     "date": "2026-10-27T08:49:09+08:00",
     "message": "sync: 新增资源《星际勇士/ Star Valor  Build.25793649   全DLC 》",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T00:30:29+08:00",
     "message": "Delete public/data/resources-temp.json",
     "url": "https://github.com/xi7ang/GameHub/commit/cc856c65d789e3837e7d8a35323ae92b89e1397b"
-  },
-  {
-    "hash": "2ce28fa",
-    "date": "2026-10-26T00:29:28+08:00",
-    "message": "Rename resources-new.json to resources-temp.json",
-    "url": "https://github.com/xi7ang/GameHub/commit/2ce28fa65a92c115284b0e881e4ef3b04f04c8a9"
   }
 ]
