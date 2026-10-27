@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d99877d",
+    "date": "2026-10-27T08:54:51+08:00",
+    "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d99877d67d7abb01b8c513f3768ee114c0fb9132"
+  },
+  {
     "hash": "8690412",
     "date": "2026-10-27T08:53:55+08:00",
     "message": "data: 补全最近新增资源大小",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T00:48:20+08:00",
     "message": "data: PvZ 系列封面补全（6 条）",
     "url": "https://github.com/xi7ang/GameHub/commit/c9d6a24d80ef05b3f02929a8496ed7cc69ec305d"
-  },
-  {
-    "hash": "65eac1a",
-    "date": "2026-10-26T00:42:14+08:00",
-    "message": "Delete public/data/resources-new.json",
-    "url": "https://github.com/xi7ang/GameHub/commit/65eac1adf85e414dcbdc5266fb773f37f82040c9"
   }
 ]
