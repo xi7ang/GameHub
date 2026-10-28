@@ -80911,5 +80911,25 @@
     "addedAt": "2026-10-28T09:06:46+08:00",
     "updatedAt": "2026-10-28T09:06:46+08:00",
     "month": "202610"
+  },
+  {
+    "id": "other-202610-0012",
+    "title": "瑞奇与叮当 时空跳转/ Ratchet and Clank: Rift Apart  v1.00  免安装中文版",
+    "enTitle": "",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/d95b7c34f6eb?pwd=yg6t",
+    "pwd": "yg6t",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/1895880.webp",
+    "steamAppID": 1895880,
+    "desc": "更新内容 查看所有更新 小型更新/补丁说明发布于 7月8日周三 改进的DualSense Edge对《瑞奇与叮当：裂痕分离》的支持 今天我们发布了一个小更新，以提升对DualSense Edge手柄的支持。 该补丁还修复了几个漏洞，我们已将AMD FSR更新至3.1.4版本，增加了支持硬件上基于机器学习的FSR帧生成兼容性。 补丁说明 v3.630.1.0 对DualSense Edge控制器的支持有所提升。 增加了与基于机器学习的 AMD FSR“Redstone” 帧生成*的兼容性 修复了一个问题，DLSS帧生成在切换到FSR帧生成或禁用帧生成后，菜单中可能无法使用。 启用驱动中的AMD FSR 4时，游戏现在也会在菜单和启动器中显示该版本。 * 需AMD Radeon RX 9000系列GPU和驱动25.12.1及以上版本。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-10-28T09:11:48+08:00",
+    "updatedAt": "2026-10-28T09:11:48+08:00",
+    "month": "202610"
   }
 ]

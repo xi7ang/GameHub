@@ -1,5 +1,29 @@
 [
   {
+    "hash": "506125d",
+    "date": "2026-10-28T09:08:48+08:00",
+    "message": "merge: 合并远端 Steam 回填与本地新资源（瑞奇与叮当）",
+    "url": "https://github.com/xi7ang/GameHub/commit/506125df95fcc6dd8ef0668f4f036c7173fb60bf"
+  },
+  {
+    "hash": "47f376e",
+    "date": "2026-10-28T09:06:49+08:00",
+    "message": "sync: 新增资源《瑞奇与叮当/Ratchet and Clank    v1.00    免安装中》",
+    "url": "https://github.com/xi7ang/GameHub/commit/47f376e5f95367c7ad16f2428482937c4a1e878a"
+  },
+  {
+    "hash": "f826b30",
+    "date": "2026-10-28T07:21:14+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/f826b302aad0ce1581a2dd500f60f6fcd0fbe652"
+  },
+  {
+    "hash": "ac0528e",
+    "date": "2026-10-28T07:15:48+08:00",
+    "message": "data: 新增 INDUSTRIA 2 与 Star Valor Steam 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/ac0528ebfeaaa5566a2550e24c33043ed5be6ac6"
+  },
+  {
     "hash": "c1e3d1b",
     "date": "2026-10-27T20:32:14+08:00",
     "message": "chore: 每日公告：发布2026-10-27游戏资源更新通知（5 条新资源）",
@@ -154,29 +178,5 @@
     "date": "2026-10-26T19:03:29+08:00",
     "message": "fix(data): 删除 10-26 并发写入造成的 2 条重复资源",
     "url": "https://github.com/xi7ang/GameHub/commit/64461ba798cc575f1c4a24bcd9ea00d5acd63b19"
-  },
-  {
-    "hash": "00727f0",
-    "date": "2026-10-26T19:01:33+08:00",
-    "message": "sync: 新增资源《再见，甜美的卡罗尔》",
-    "url": "https://github.com/xi7ang/GameHub/commit/00727f0b5a8ba920d3349701be2217028ab17e01"
-  },
-  {
-    "hash": "27bfeae",
-    "date": "2026-10-26T19:01:26+08:00",
-    "message": "sync: 新增资源《再见，甜美的卡罗尔》",
-    "url": "https://github.com/xi7ang/GameHub/commit/27bfeae2ae78f9eb043468de08269af77d654766"
-  },
-  {
-    "hash": "95f713b",
-    "date": "2026-10-26T19:00:14+08:00",
-    "message": "sync: 新增资源《夜间记录：一墙之隔》",
-    "url": "https://github.com/xi7ang/GameHub/commit/95f713b337cbfe6b1a99ae4af7e8dc9b8fef3d9b"
-  },
-  {
-    "hash": "cb29f92",
-    "date": "2026-10-26T18:59:34+08:00",
-    "message": "sync: 新增资源《入侵幸存者》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cb29f92d4f79128c72806b8c5d8144c52e23c9d0"
   }
 ]
