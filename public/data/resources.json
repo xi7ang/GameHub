@@ -80718,7 +80718,7 @@
   {
     "id": "sandbox-202610-0001",
     "title": "砖厂/ Brick Rigs   Build.25831956   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Brick Rigs",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
@@ -80726,14 +80726,66 @@
     "pwd": "Gob3",
     "size": "765.6MB",
     "sizeBytes": 802741812,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "cover": "/covers/552100.webp",
+    "steamAppID": 552100,
     "desc": "更新内容 查看所有更新 1.11 更新已发布! 新增可扩展砖块 添加一块混凝土砖 添加了随机的天气设置 在免费相机生成框中添加了一个中心指示灯 制造警报器使用模拟喇叭输入来控制音量 为编辑器添加了唯一的砖块ID 增加了一个座椅输出通道,以指示座椅是否被占用 添加了排气效果的不透明度设置 错误修复 对编辑器UI刻度进行更改可立即应用 制作砖勾顺序尊重输入通道依赖,减少帧延迟 将自动团队平衡选项从僵尸模式中移除 修复了在僵尸模式下显示的回合时长设置 固定库存老虎机小部件被随机禁用 游戏介绍 Brick Rigs 是一款物理沙盒游戏，可让您建造、驾驶和摧毁几乎任何可以想象的车辆类型。无论是飙车、消防车、叉车、直升机、飞机、火车、轮船，甚至是坦克，您都可以在 Brick Rigs 中建造它。 您还可以将您的作品上传到创意工坊，与社区分享。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-27T08:50:51+08:00",
     "updatedAt": "2026-10-27T08:50:51+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 552100,
+      "developer": "Fluppisoft GmbH",
+      "publisher": "Fluppisoft GmbH",
+      "releaseDate": "2023 年 7 月 14 日",
+      "genres": [
+        "模拟"
+      ],
+      "languages": "英语, 德语, 法语, 阿拉伯语, 葡萄牙语 - 巴西, 简体中文, 日语, 韩语, 波兰语, 俄语, 乌克兰语, 孟加拉语, 印地语, 意大利语, 西班牙语 - 西班牙, 捷克语, 芬兰语, 匈牙利语, 挪威语, 瑞典语, 泰语, 土耳其语, 哈萨克语",
+      "summary": "在这款充满混乱破坏、无尽玩家创作与不可预知冒险的物理沙盒中，随心所欲地做你想做的事。建造、破坏、角色扮演、胡闹捣蛋——无论单人还是和好友一起都能乐在其中！",
+      "description": "在 Brick Rigs 里，你可以扮演任何角色：火速赶赴现场的消防员、投入激烈空战的飞行员，或是在高速追捕中的警察。建造、游玩、试验、破坏——一切由你做主。怎么玩、玩什么，完全随你决定。唯一的规则只有一条：一定要好玩。\n打造你自己的载具、机器、生物或建筑。在 Brick Rigs 编辑器中，你的想象力没有边界。曾经幻想过一艘会飞的潜艇吗？只要有点耐心，你几乎可以建造出任何东西，并直接在游戏里试一试。强大的编辑器让你可以制作出细节丰富、机械结构逼真且功能完善的模型。\n没耐心自己造载具？没关系。充满野心与热情的 Brick Rigs 玩家早已在 Workshop 里塞满了一个奇妙的建造宇宙。从细致入微的面包车，到巨型运输机，乃至整座摩天大楼，应有尽有。现在就去 Steam Workshop 探索一番吧。\n没错，亲手造载具本身就很有趣。但说实话——把它们摧毁也一样爽快。借助动态破坏物理效果，每一次碰撞都格外震撼。看看你能把那些砖块炸飞多远吧。\nBrick Rigs 拥有一个庞大而热情的社区。和朋友一起游玩、组队合作，或独自研究各种玩法。\n从角色扮演服务器、高速追逐，到大规模多人混战，玩家们不断发明全新的玩法。\n在 Brick Rigs 中，一切皆有可能——只要你玩得开心！\nBob 是 Brick Rigs 的招牌人物。从最初版本起他就一直在这里，经历了无数冒险、灾难、派对，以及各种稀奇古怪的事情。那 Bob 实际上会做什么呢？基本上，什么也不会。不过他是真的讨人喜欢。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_e1dc8353ccbe61be025d1b31bee647675c078bc7.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_b42261bfb67e3f2e34cca6d9d0aa00b1cd75788b.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_793d8671e6ae4bed1e64df2b2f770135ff21aba2.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_c2fdfb2097894691aef3a2eb18ab6de9acc3c92c.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_bd23b47c8ed0f8276866f9dff7f04bd11f45d25f.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_da26a6b386ab8b974c9bf463b03a4da0c33471f0.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_0c7c40bb5d8bb61e4184034c44d021b538888acb.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_ec6823af3970c27dca0e8c6feecc7430eadce4d7.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_6aca7480d8544cf25dd09a6cc5ddf2b10bb93f88.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_ab6d232776a6a9fd7fe6eeb66f3464070a47c016.1920x1080.jpg?t=1780405668",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552100/ss_69227e7b8e85093bb430605f023c51e9df6ee572.1920x1080.jpg?t=1780405668"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10/11（64 位）",
+          "处理器: Intel Core i5-7300U 3.5 GHz、AMD Ryzen 3 3300U 或同等处理器",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia GTX 960、AMD R9 280 或同等显卡",
+          "DirectX 版本: 11",
+          "存储空间: 需要 4 GB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 48.51,
+        "initial": 77,
+        "discountPercent": 37
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 28480,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 95
+      },
+      "storeUrl": "https://store.steampowered.com/app/552100/",
+      "fetchedAt": "2026-10-28T01:12:12.808Z"
+    }
   },
   {
     "id": "puzzle-202610-0002",
