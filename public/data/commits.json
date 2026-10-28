@@ -1,5 +1,41 @@
 [
   {
+    "hash": "c1e3d1b",
+    "date": "2026-10-27T20:32:14+08:00",
+    "message": "chore: 每日公告：发布2026-10-27游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c1e3d1b5ad5244819aed364e22802a9b24719b89"
+  },
+  {
+    "hash": "211d5ba",
+    "date": "2026-10-27T09:51:44+08:00",
+    "message": "data: 轨道狂潮封面改为 Steam 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/211d5bad87c82cfad9d3c93241ee2ff7c0ad0a94"
+  },
+  {
+    "hash": "bc8bfe5",
+    "date": "2026-10-27T09:50:36+08:00",
+    "message": "data: 新增轨道狂潮 Steam 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/bc8bfe5f08641600ddf35038e5e914b67ada1f89"
+  },
+  {
+    "hash": "957b209",
+    "date": "2026-10-27T09:42:23+08:00",
+    "message": "feat: steam-import 商店页年龄验证重试 + 回填 27 条年龄验证游戏评价",
+    "url": "https://github.com/xi7ang/GameHub/commit/957b209060d9791997a95185bbcf39fdd7cd20fa"
+  },
+  {
+    "hash": "56ffbd6",
+    "date": "2026-10-27T09:25:19+08:00",
+    "message": "fix(data): 删除黯井微光重复条目",
+    "url": "https://github.com/xi7ang/GameHub/commit/56ffbd61f7b51ccfefafb30312a46de751594835"
+  },
+  {
+    "hash": "97f2bba",
+    "date": "2026-10-27T09:24:23+08:00",
+    "message": "feat: steam-import 评价备用口径（商店页 All Reviews）+ 回填 284 条资源评价",
+    "url": "https://github.com/xi7ang/GameHub/commit/97f2bba950af73381164b461c366baba17f9adee"
+  },
+  {
     "hash": "97a1baa",
     "date": "2026-10-27T08:57:33+08:00",
     "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
@@ -142,41 +178,5 @@
     "date": "2026-10-26T18:59:34+08:00",
     "message": "sync: 新增资源《入侵幸存者》",
     "url": "https://github.com/xi7ang/GameHub/commit/cb29f92d4f79128c72806b8c5d8144c52e23c9d0"
-  },
-  {
-    "hash": "13b0f1f",
-    "date": "2026-10-26T18:58:38+08:00",
-    "message": "sync: 新增资源《入侵幸存者》",
-    "url": "https://github.com/xi7ang/GameHub/commit/13b0f1f10174d134b89ddf634e16d964579bad0a"
-  },
-  {
-    "hash": "bf87625",
-    "date": "2026-10-26T18:57:35+08:00",
-    "message": "sync: 新增资源《秘奥法师》",
-    "url": "https://github.com/xi7ang/GameHub/commit/bf876259134e7c315b788dcf5877cdeb6baabf88"
-  },
-  {
-    "hash": "06de48f",
-    "date": "2026-10-26T18:57:14+08:00",
-    "message": "sync: 新增资源《秘奥法师》",
-    "url": "https://github.com/xi7ang/GameHub/commit/06de48fcf7e0c4d5c322971ce9ecec48a3034fa4"
-  },
-  {
-    "hash": "bc7991a",
-    "date": "2026-10-26T18:55:52+08:00",
-    "message": "sync: 新增资源《喵斯快跑 PC+手机双端 v6.7.0 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/bc7991a9c6a6a723d548a4d536778834470166b2"
-  },
-  {
-    "hash": "5c6a579",
-    "date": "2026-10-26T18:55:43+08:00",
-    "message": "sync: 新增资源《纷乱深渊》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5c6a5794a7bef386b131296e1f904cd42fd1fc7c"
-  },
-  {
-    "hash": "6b7579e",
-    "date": "2026-10-26T15:37:35+08:00",
-    "message": "data: 移除热门搜索词文明6",
-    "url": "https://github.com/xi7ang/GameHub/commit/6b7579e64f4ebfa862dd24f01e7e621756af7183"
   }
 ]
