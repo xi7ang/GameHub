@@ -1,5 +1,17 @@
 [
   {
+    "hash": "22a705e",
+    "date": "2026-10-28T09:15:37+08:00",
+    "message": "sync: 新增资源《火影忍者：忍者崛起/Naruto Rise of a Ninja   v0.3.》",
+    "url": "https://github.com/xi7ang/GameHub/commit/22a705ec7ee4aa79d9a488513bb333d19af3c831"
+  },
+  {
+    "hash": "3b60dbc",
+    "date": "2026-10-28T09:13:01+08:00",
+    "message": "data: 新增砖厂 Brick Rigs Steam 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/3b60dbcdb5e1ac833a02acb4eef36ae9fe1bd41f"
+  },
+  {
     "hash": "335ce74",
     "date": "2026-10-28T09:11:51+08:00",
     "message": "sync: 新增资源《瑞奇与叮当 时空跳转/ Ratchet and Clank: Rift Apar》",
@@ -166,17 +178,5 @@
     "date": "2026-10-26T19:27:29+08:00",
     "message": "feat: 资源详情页隐藏头部资源描述",
     "url": "https://github.com/xi7ang/GameHub/commit/042ffa317e6559d0c21cf4ae9595cb0c3c723499"
-  },
-  {
-    "hash": "775d963",
-    "date": "2026-10-26T19:11:10+08:00",
-    "message": "fix(data): 10-26 五条资源描述按句末标点重新截断",
-    "url": "https://github.com/xi7ang/GameHub/commit/775d963330a899ba8f7c115c5751ad77b3c62076"
-  },
-  {
-    "hash": "6df165c",
-    "date": "2026-10-26T19:10:24+08:00",
-    "message": "fix(data): 10-26 五条资源标题回填为 lzlgo 原始标题",
-    "url": "https://github.com/xi7ang/GameHub/commit/6df165c79b6213113ff615af83be717c3252b8d2"
   }
 ]
