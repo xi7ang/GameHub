@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c50d556",
+    "date": "2026-10-28T09:19:37+08:00",
+    "message": "sync: 新增资源《瑞卡|蕾卡的移动工坊 / REKA   v1.0正式版   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c50d55627a7a642924c2d6ee3885971e8ee12337"
+  },
+  {
     "hash": "22a705e",
     "date": "2026-10-28T09:15:37+08:00",
     "message": "sync: 新增资源《火影忍者：忍者崛起/Naruto Rise of a Ninja   v0.3.》",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T20:32:07+08:00",
     "message": "chore: 每日公告：发布【2026-10-26】游戏资源更新通知（6 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/097867d78a5fd633142091209bff6ff1c37a4fef"
-  },
-  {
-    "hash": "042ffa3",
-    "date": "2026-10-26T19:27:29+08:00",
-    "message": "feat: 资源详情页隐藏头部资源描述",
-    "url": "https://github.com/xi7ang/GameHub/commit/042ffa317e6559d0c21cf4ae9595cb0c3c723499"
   }
 ]
