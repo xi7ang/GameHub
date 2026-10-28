@@ -1,5 +1,11 @@
 [
   {
+    "hash": "335ce74",
+    "date": "2026-10-28T09:11:51+08:00",
+    "message": "sync: 新增资源《瑞奇与叮当 时空跳转/ Ratchet and Clank: Rift Apar》",
+    "url": "https://github.com/xi7ang/GameHub/commit/335ce7459c2c0fe7f080d0c5dc935b3031191829"
+  },
+  {
     "hash": "506125d",
     "date": "2026-10-28T09:08:48+08:00",
     "message": "merge: 合并远端 Steam 回填与本地新资源（瑞奇与叮当）",
@@ -172,11 +178,5 @@
     "date": "2026-10-26T19:10:24+08:00",
     "message": "fix(data): 10-26 五条资源标题回填为 lzlgo 原始标题",
     "url": "https://github.com/xi7ang/GameHub/commit/6df165c79b6213113ff615af83be717c3252b8d2"
-  },
-  {
-    "hash": "64461ba",
-    "date": "2026-10-26T19:03:29+08:00",
-    "message": "fix(data): 删除 10-26 并发写入造成的 2 条重复资源",
-    "url": "https://github.com/xi7ang/GameHub/commit/64461ba798cc575f1c4a24bcd9ea00d5acd63b19"
   }
 ]
