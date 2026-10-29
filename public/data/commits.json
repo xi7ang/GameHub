@@ -1,5 +1,41 @@
 [
   {
+    "hash": "170d39a",
+    "date": "2026-10-29T06:40:09+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/170d39a6558357686e8edaed6dc51362de71155f"
+  },
+  {
+    "hash": "5247614",
+    "date": "2026-10-29T06:39:11+08:00",
+    "message": "assets: 新增 1737870（REKA）Steam 官方封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/52476142038eeb37bc8b8a3b69ecf0fbfb3807fe"
+  },
+  {
+    "hash": "cc64749",
+    "date": "2026-10-28T20:32:05+08:00",
+    "message": "chore: 每日公告：发布【2026-10-28】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/cc647491d8eae02aae4ab81ce1046cc782298af1"
+  },
+  {
+    "hash": "f68405c",
+    "date": "2026-10-28T09:25:11+08:00",
+    "message": "fix(data): 修正本批 3 处数据问题",
+    "url": "https://github.com/xi7ang/GameHub/commit/f68405cf30bbd0d824cb57feed6c7ec514ab3a02"
+  },
+  {
+    "hash": "015411e",
+    "date": "2026-10-28T09:23:21+08:00",
+    "message": "sync: 新增资源《消防模拟：火苗燃动/ Firefighting Simulator Ignite》",
+    "url": "https://github.com/xi7ang/GameHub/commit/015411ec691d633a8cfba86b5a48f20e7e267a44"
+  },
+  {
+    "hash": "3cc1e88",
+    "date": "2026-10-28T09:20:44+08:00",
+    "message": "data: 砖厂 appid 更正为 552100 并补 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/3cc1e8863eec550e6623e4e5e3a169cb9c4ec65a"
+  },
+  {
     "hash": "c50d556",
     "date": "2026-10-28T09:19:37+08:00",
     "message": "sync: 新增资源《瑞卡|蕾卡的移动工坊 / REKA   v1.0正式版   免安装中文版》",
@@ -142,41 +178,5 @@
     "date": "2026-10-27T08:47:52+08:00",
     "message": "sync: 新增资源《工政2/ INDUSTRIA 2   Build.25815016  免安装中文》",
     "url": "https://github.com/xi7ang/GameHub/commit/b98f2ce66bf415934dfe17229e77bf18650bf968"
-  },
-  {
-    "hash": "bdc5896",
-    "date": "2026-10-27T08:34:35+08:00",
-    "message": "data: 修正两条错配封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/bdc5896afb4afe6e266371ef3e1f7e156e56a9cd"
-  },
-  {
-    "hash": "9cd553d",
-    "date": "2026-10-27T08:32:50+08:00",
-    "message": "data: 新增 5269280/3841050 官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/9cd553d47afda503b113fb608395720f92fddfb3"
-  },
-  {
-    "hash": "613bb0d",
-    "date": "2026-10-27T08:00:13+08:00",
-    "message": "data: 分类与封面待确认项处理",
-    "url": "https://github.com/xi7ang/GameHub/commit/613bb0dcfe501d82f190b7829cdaa65cca61cd61"
-  },
-  {
-    "hash": "62e6602",
-    "date": "2026-10-27T07:58:16+08:00",
-    "message": "data: 新增 2428980 官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/62e660231acc896ce92f35cfe2e87ddd6844e3d2"
-  },
-  {
-    "hash": "9a1ac25",
-    "date": "2026-10-27T07:38:39+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/9a1ac25864c95f959ba5eea5bd9c675eddebba01"
-  },
-  {
-    "hash": "097867d",
-    "date": "2026-10-26T20:32:07+08:00",
-    "message": "chore: 每日公告：发布【2026-10-26】游戏资源更新通知（6 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/097867d78a5fd633142091209bff6ff1c37a4fef"
   }
 ]
