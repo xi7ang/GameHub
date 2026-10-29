@@ -1,5 +1,11 @@
 [
   {
+    "hash": "cabacc2",
+    "date": "2026-10-29T20:47:21+08:00",
+    "message": "sync: 新增资源《恶魔之魂：重制版/Demon’s Souls Remake     游戏v1.0》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cabacc2662335bb691b6950d5ea21344db3141af"
+  },
+  {
     "hash": "56e4296",
     "date": "2026-10-29T20:43:24+08:00",
     "message": "sync: 新增资源《勇者斗恶龙4：被引导的人们/Dragon Quest IV Chapters o》",
@@ -172,11 +178,5 @@
     "date": "2026-10-27T08:53:44+08:00",
     "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
     "url": "https://github.com/xi7ang/GameHub/commit/3e87aa906d253ff97cd5818bc6a0fd36d5e4522b"
-  },
-  {
-    "hash": "fa30e70",
-    "date": "2026-10-27T08:50:55+08:00",
-    "message": "sync: 新增资源《砖厂/ Brick Rigs   Build.25831956   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fa30e703d1d118e418227989c965ada91cfc5952"
   }
 ]
