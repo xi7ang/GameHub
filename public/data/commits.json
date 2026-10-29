@@ -1,5 +1,11 @@
 [
   {
+    "hash": "604293a",
+    "date": "2026-10-29T20:39:15+08:00",
+    "message": "sync: 新增资源《塞尔达传说：荒野之息 /The Legend of Zelda: Breath 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/604293aac1cab255955d596ba1f5e37c92c721fa"
+  },
+  {
     "hash": "170d39a",
     "date": "2026-10-29T06:40:09+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
@@ -172,11 +178,5 @@
     "date": "2026-10-27T08:49:09+08:00",
     "message": "sync: 新增资源《星际勇士/ Star Valor  Build.25793649   全DLC 》",
     "url": "https://github.com/xi7ang/GameHub/commit/d95bc615ea04c73549c9b9fc37f3e43423e3dda0"
-  },
-  {
-    "hash": "b98f2ce",
-    "date": "2026-10-27T08:47:52+08:00",
-    "message": "sync: 新增资源《工政2/ INDUSTRIA 2   Build.25815016  免安装中文》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b98f2ce66bf415934dfe17229e77bf18650bf968"
   }
 ]
