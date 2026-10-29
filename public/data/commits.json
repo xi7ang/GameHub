@@ -1,5 +1,11 @@
 [
   {
+    "hash": "1c2534e",
+    "date": "2026-10-29T20:50:55+08:00",
+    "message": "sync: 新增资源《皇牌空战零：贝尔卡战争/ACE COMBAT ZERO THE BELKAN W》",
+    "url": "https://github.com/xi7ang/GameHub/commit/1c2534e6e49ab8db68ab5a3eea872750e2ec6167"
+  },
+  {
     "hash": "cabacc2",
     "date": "2026-10-29T20:47:21+08:00",
     "message": "sync: 新增资源《恶魔之魂：重制版/Demon’s Souls Remake     游戏v1.0》",
@@ -172,11 +178,5 @@
     "date": "2026-10-27T08:53:55+08:00",
     "message": "data: 补全最近新增资源大小",
     "url": "https://github.com/xi7ang/GameHub/commit/869041214487028eeac97d3665f031dd028523e7"
-  },
-  {
-    "hash": "3e87aa9",
-    "date": "2026-10-27T08:53:44+08:00",
-    "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3e87aa906d253ff97cd5818bc6a0fd36d5e4522b"
   }
 ]
