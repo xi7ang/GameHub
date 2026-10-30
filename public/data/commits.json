@@ -1,5 +1,23 @@
 [
   {
+    "hash": "9d69f17",
+    "date": "2026-10-30T07:12:31+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/9d69f176d6b4a68455f5b514325c0e51748d44f3"
+  },
+  {
+    "hash": "c457b95",
+    "date": "2026-10-29T20:56:58+08:00",
+    "message": "fix(data): 本批 5 条收尾修正",
+    "url": "https://github.com/xi7ang/GameHub/commit/c457b95909567fcccddba7a28b411e43f8248b9a"
+  },
+  {
+    "hash": "f08fb3e",
+    "date": "2026-10-29T20:54:25+08:00",
+    "message": "sync: 新增资源《乐高次元/LEGO Dimensions     游戏v01.24_移植器v1.》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f08fb3e151c63eceec07cc93a58607fb334cc5fe"
+  },
+  {
     "hash": "1c2534e",
     "date": "2026-10-29T20:50:55+08:00",
     "message": "sync: 新增资源《皇牌空战零：贝尔卡战争/ACE COMBAT ZERO THE BELKAN W》",
@@ -160,23 +178,5 @@
     "date": "2026-10-27T08:55:51+08:00",
     "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
     "url": "https://github.com/xi7ang/GameHub/commit/867027281122905cf76c4a2a9029b977077c6fda"
-  },
-  {
-    "hash": "9f2e2a6",
-    "date": "2026-10-27T08:55:50+08:00",
-    "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9f2e2a6eb2bb1efdf8b283d0907eb3793b69e5c3"
-  },
-  {
-    "hash": "d99877d",
-    "date": "2026-10-27T08:54:51+08:00",
-    "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d99877d67d7abb01b8c513f3768ee114c0fb9132"
-  },
-  {
-    "hash": "8690412",
-    "date": "2026-10-27T08:53:55+08:00",
-    "message": "data: 补全最近新增资源大小",
-    "url": "https://github.com/xi7ang/GameHub/commit/869041214487028eeac97d3665f031dd028523e7"
   }
 ]
