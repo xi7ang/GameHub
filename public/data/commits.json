@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7658f01",
+    "date": "2026-10-30T14:50:19+08:00",
+    "message": "sync: 新增资源《铃响之前/Carol and the Bells A Cozy Strategy》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7658f017d815f15a969f802476fb9c058b88d06d"
+  },
+  {
     "hash": "04d8c91",
     "date": "2026-10-30T14:44:36+08:00",
     "message": "sync: 新增资源《克里萨纳/Kritsana   Build.26240637   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-27T09:24:23+08:00",
     "message": "feat: steam-import 评价备用口径（商店页 All Reviews）+ 回填 284 条资源评价",
     "url": "https://github.com/xi7ang/GameHub/commit/97f2bba950af73381164b461c366baba17f9adee"
-  },
-  {
-    "hash": "97a1baa",
-    "date": "2026-10-27T08:57:33+08:00",
-    "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
-    "url": "https://github.com/xi7ang/GameHub/commit/97a1baae4fd8b4f7799a16f910f1b67dbd5d5321"
   }
 ]
