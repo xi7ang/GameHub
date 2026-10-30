@@ -81325,14 +81325,14 @@
   {
     "id": "other-202610-0015",
     "title": "复古街机8合1合集/Retro Mix 8 Arcade Collection   Build.25858662   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Retro Mix 8: Arcade Collection",
     "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/f96153b35c1a?pwd=ycz3",
     "pwd": "ycz3",
-    "size": "",
-    "sizeBytes": null,
+    "size": "180.6MB",
+    "sizeBytes": 189389079,
     "cover": "/covers/5265990.webp",
     "steamAppID": 5265990,
     "desc": "小时候的快乐很简单——一台电脑，一个小游戏，就能玩上一整个下午。 《童年怀旧小游戏八合一》将八种令人熟悉的经典玩法重新制作成一套轻松易上手的小游戏合集。 守基地、吃小鱼、抓黄金、守海滩、炸迷宫、弹射彩珠、连连看、打砖块…… 来吧，再玩一局。 这一次回忆的是游戏，更是童年的乐趣。",
@@ -81340,39 +81340,153 @@
     "featured": false,
     "addedAt": "2026-10-30T14:39:52+08:00",
     "updatedAt": "2026-10-30T14:39:52+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 5265990,
+      "developer": "Maple Ridge Haven",
+      "publisher": "Maple Ridge Haven",
+      "releaseDate": "2026 年 10 月 27 日",
+      "genres": [
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "languages": "英语, 西班牙语 - 西班牙, 俄语, 简体中文, 葡萄牙语 - 巴西",
+      "summary": "还记得小时候那些一玩就是一下午的小游戏吗？《童年怀旧小游戏八合一》把守基地、吃小鱼、连连看、打砖块等八种熟悉玩法做成单人复古街机合集。快来打开游戏，再玩一次小时候舍不得关掉的那一局！",
+      "description": "小时候的快乐很简单——一台电脑，一个小游戏，就能玩上一整个下午。\n《童年怀旧小游戏八合一》将八种令人熟悉的经典玩法重新制作成一套轻松易上手的小游戏合集。\n守基地、吃小鱼、抓黄金、守海滩、炸迷宫、弹射彩珠、连连看、打砖块……\n来吧，再玩一局。\n这一次回忆的是游戏，更是童年的乐趣。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/e76aa8f317dbdeb6d44a3a2f8e3b92d7c00ca1bc/ss_e76aa8f317dbdeb6d44a3a2f8e3b92d7c00ca1bc.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/76a5bf18e7c0fb81ef0d5cb273712d461b175a03/ss_76a5bf18e7c0fb81ef0d5cb273712d461b175a03.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/9d852500f575e479a4df1ac16535a1f7d02f9959/ss_9d852500f575e479a4df1ac16535a1f7d02f9959.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/b92d84e23443caa842a1517c4befb0d1daca3cc6/ss_b92d84e23443caa842a1517c4befb0d1daca3cc6.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/d0d4fad550afe2a910fe4a8107a11d46b883dcea/ss_d0d4fad550afe2a910fe4a8107a11d46b883dcea.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/c68ac99e9b556cb594f1fc9c8e2c165a2239cd12/ss_c68ac99e9b556cb594f1fc9c8e2c165a2239cd12.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/d04db0a8de8df8ad44db503e41f6f2b7e503bcc5/ss_d04db0a8de8df8ad44db503e41f6f2b7e503bcc5.1920x1080.jpg?t=1793109259",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5265990/419102301fcb60aa7b3ec2581e1e4a1161de7c46/ss_419102301fcb60aa7b3ec2581e1e4a1161de7c46.1920x1080.jpg?t=1793109259"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 (64-bit) or later",
+          "内存: 4 GB RAM",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 20.8,
+        "initial": 26,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Positive",
+        "totalReviews": 10,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 100
+      },
+      "storeUrl": "https://store.steampowered.com/app/5265990/",
+      "fetchedAt": "2026-10-30T19:00:23.521Z"
+    }
   },
   {
     "id": "other-202610-0016",
     "title": "克里萨纳/Kritsana   Build.26240637   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Kritsana",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/c1e223b1a530?pwd=7Y2x",
     "pwd": "7Y2x",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u748a6cb3000a.webp",
-    "steamAppID": null,
+    "size": "229.2MB",
+    "sizeBytes": 240290822,
+    "cover": "/covers/5089240.webp",
+    "steamAppID": 5089240,
     "desc": "1997年，克里萨纳告诉他的精神科医生，他家里有什么东西。 他装上摄像头，想录下家里发生的事。塔纳帕医生看了录像带，读了他的笔记，最后认定这只是幻觉。 然而，怪事并没有停止。 2004年。案件档案就摆在你的桌上。录像带还在盒子里，医生的笔记也在。你的任务是把这一切重新梳理一遍，找出所有人都忽略了的东西。 录像带的拍摄地点 与此案相关的四个地点，都位于泰国乡村： – 克里萨纳的杂货店，也是他的住处 – 他父亲工作过的修车厂 – 塔纳帕医生的诊所 – 当地的寺庙 玩法 在各个摄像头之间切换，留意任何变化。大多数变化都很细微。一分钟前还不在架子上的罐子。一扇本该关着的门。 但有些变化可一点都不细微。地板上出现了脚印。一只鸟在镜头前坠地而死。空无一人的店里，警报突然响起。 发现异常就报告。一直盯到5点。 连续五次误报，或者同时累积四个异常，就会导致系统故障，只能从头再来。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-10-30T14:44:33+08:00",
     "updatedAt": "2026-10-30T14:44:33+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 5089240,
+      "developer": "Debuz Studio",
+      "publisher": "Debuz Studio",
+      "releaseDate": "2026 年 10 月 27 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "languages": "英语, 西班牙语 - 西班牙, 泰语, 印度尼西亚语, 日语, 韩语, 葡萄牙语 - 巴西, 简体中文, 法语, 德语, 俄语\n具有完全音频支持的语言",
+      "summary": "一款来自泰国的找异常类恐怖游戏。1997年，一个男人坚称他家里有东西，他的精神科医生却说没有。如今这桩案子交到了你手上。翻看他留下的旧监控录像带，报告每一处异常，查明这起案件为何始终说不通。",
+      "description": "1997年，克里萨纳告诉他的精神科医生，他家里有什么东西。\n他装上摄像头，想录下家里发生的事。塔纳帕医生看了录像带，读了他的笔记，最后认定这只是幻觉。\n然而，怪事并没有停止。\n2004年。案件档案就摆在你的桌上。录像带还在盒子里，医生的笔记也在。你的任务是把这一切重新梳理一遍，找出所有人都忽略了的东西。\n录像带的拍摄地点\n与此案相关的四个地点，都位于泰国乡村：\n- 克里萨纳的杂货店，也是他的住处\n- 他父亲工作过的修车厂\n- 塔纳帕医生的诊所\n- 当地的寺庙\n玩法\n在各个摄像头之间切换，留意任何变化。大多数变化都很细微。一分钟前还不在架子上的罐子。一扇本该关着的门。\n但有些变化可一点都不细微。地板上出现了脚印。一只鸟在镜头前坠地而死。空无一人的店里，警报突然响起。\n发现异常就报告。一直盯到5点。\n连续五次误报，或者同时累积四个异常，就会导致系统故障，只能从头再来。\n案件随游戏进程逐步揭开\n每盘录像带播放前后，你都要翻阅证据：医生的笔记、档案记录，以及留下来的东西。完成一个地点，案件档案就会向你揭示更多。找出该地点的所有异常，你就能获得它的全部内容。\n结局只有一个。但你能理解多少，取决于你发现了多少。\n游戏特色\n- 四个地点，200多种异常\n- 首次通关约2小时，若想全部找齐则需要更长时间\n- 缓慢而安静的恐怖。有少量突发惊吓，但大部分时候只有你和一片寂静\n- 英语和泰语配音，字幕支持英语、简体中文、俄语、西班牙语、葡萄牙语、德语、日语、法语、韩语、泰语和印尼语\n- 由泰国团队打造",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/d2004e5eaf9410747668282e94b7d84fa46d4028/ss_d2004e5eaf9410747668282e94b7d84fa46d4028.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/0745122d9bf51945888985e6be7329649ff328c9/ss_0745122d9bf51945888985e6be7329649ff328c9.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/9f1514ff9b3025ee642d70e9816241c4cd897151/ss_9f1514ff9b3025ee642d70e9816241c4cd897151.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/f4ccd89896b34f95f23dde6698fa580414479455/ss_f4ccd89896b34f95f23dde6698fa580414479455.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/a0c474ee2e3335fe49cd440f2ab7890c16734d6f/ss_a0c474ee2e3335fe49cd440f2ab7890c16734d6f.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/9c28a0ba6a031023e1eb0dff5e9992c4de6dc8e8/ss_9c28a0ba6a031023e1eb0dff5e9992c4de6dc8e8.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/c2425e52fdd93268f2b720c0545c8d596bd78aa2/ss_c2425e52fdd93268f2b720c0545c8d596bd78aa2.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/7cb496ee38982b873acd3c60fa68f6180e03ac85/ss_7cb496ee38982b873acd3c60fa68f6180e03ac85.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/0b3b3b27b54dffafa5be155caa3f851a4d81658a/ss_0b3b3b27b54dffafa5be155caa3f851a4d81658a.1920x1080.jpg?t=1793235850",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5089240/6626c48f9f12d4e7924723957e2b84b5450de593/ss_6626c48f9f12d4e7924723957e2b84b5450de593.1920x1080.jpg?t=1793235850"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: 64-bit CPU with SSE4.2 support",
+          "内存: 4 GB RAM",
+          "显卡: GPU with OpenGL 3.3 support (Integrated graphics supported)",
+          "DirectX 版本: 10",
+          "存储空间: 需要 2 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: 64-bit CPU with SSE4.2 support",
+          "内存: 8 MB RAM",
+          "显卡: GPU with OpenGL 3.3 support (Integrated graphics supported)",
+          "DirectX 版本: 10",
+          "存储空间: 需要 2 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 23.4,
+        "initial": 26,
+        "discountPercent": 10
+      },
+      "rating": {
+        "scoreDesc": "Positive",
+        "totalReviews": 11,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 100
+      },
+      "storeUrl": "https://store.steampowered.com/app/5089240/",
+      "fetchedAt": "2026-10-30T19:00:26.014Z"
+    }
   },
   {
     "id": "strategy-202610-0002",
     "title": "铃响之前/Carol and the Bells A Cozy Strategy Game   Build.25521467   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Carol and the Bells: A Cozy Strategy Game",
     "category": "strategy",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/9ada773cbeae?pwd=fDy7",
     "pwd": "fDy7",
-    "size": "",
-    "sizeBytes": null,
+    "size": "120MB",
+    "sizeBytes": 125796866,
     "cover": "/covers/4334850.webp",
     "steamAppID": 4334850,
     "desc": "**《铃响之前》**是一款发生在雪夜中的回合制策略肉鸽游戏，其中融合了扫雷的玩法 游戏在一个小型格子棋盘上进行，每一个格子都来自你所构筑的牌组。 在每一关开始前，你需要选择并构建牌组，决定棋盘上可能出现的内容——奖励、道具与其他事件。在探索过程中，你需要根据提示猜测敌人的位置，谨慎决定翻开哪些格子、承担多大的风险，以及是否该敲响铃铛安全离开。 你可以用探索中获得的资源购买棋盘上的内容和升级项，构筑适合你的组合。 这里没有唯一正确的路线。你可以稳健前行，也可以大胆冒险。尽情享受这场圣诞冒险吧！",
@@ -81380,19 +81494,69 @@
     "featured": false,
     "addedAt": "2026-10-30T14:50:15+08:00",
     "updatedAt": "2026-10-30T14:50:15+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 4334850,
+      "developer": "flavedogame",
+      "publisher": "糕薯科技",
+      "releaseDate": "2026 年 8 月 31 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "languages": "英语, 简体中文",
+      "summary": "《铃响之前》是一款在格子棋盘上进行的回合制策略肉鸽扫雷游戏。 通过构筑牌组来决定场面内容，权衡风险，并选择何时敲响铃铛离开。",
+      "description": "**《铃响之前》**是一款发生在雪夜中的回合制策略肉鸽游戏，其中融合了扫雷的玩法\n游戏在一个小型格子棋盘上进行，每一个格子都来自你所构筑的牌组。\n在每一关开始前，你需要选择并构建牌组，决定棋盘上可能出现的内容——奖励、道具与其他事件。在探索过程中，你需要根据提示猜测敌人的位置，谨慎决定翻开哪些格子、承担多大的风险，以及是否该敲响铃铛安全离开。\n你可以用探索中获得的资源购买棋盘上的内容和升级项，构筑适合你的组合。\n这里没有唯一正确的路线。你可以稳健前行，也可以大胆冒险。尽情享受这场圣诞冒险吧！",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4334850/27f59877c4c2f311c7cfd44f82bbf253713326d6/ss_27f59877c4c2f311c7cfd44f82bbf253713326d6.1920x1080.jpg?t=1788234912",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4334850/d76d4f70c0364b4ad5b416a666e90eb61bee41e4/ss_d76d4f70c0364b4ad5b416a666e90eb61bee41e4.1920x1080.jpg?t=1788234912",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4334850/ff145f9b82d2e383830e28ef1dca69763e719245/ss_ff145f9b82d2e383830e28ef1dca69763e719245.1920x1080.jpg?t=1788234912",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4334850/808063213b1947b0d0680fc5fe53803ea2573f2a/ss_808063213b1947b0d0680fc5fe53803ea2573f2a.1920x1080.jpg?t=1788234912",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4334850/41b9a25522d80811341ba080cccfd9762e82cdb9/ss_41b9a25522d80811341ba080cccfd9762e82cdb9.1920x1080.jpg?t=1788234912"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10",
+          "处理器: Intel Core i3 or equivalent",
+          "内存: 4096 MB RAM",
+          "显卡: Integrated graphics or better",
+          "DirectX 版本: 11",
+          "存储空间: 需要 500 MB 可用空间",
+          "声卡: Any",
+          "附注事项: Mouse required."
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 6,
+        "initial": 6,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Positive",
+        "totalReviews": 16,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 81
+      },
+      "storeUrl": "https://store.steampowered.com/app/4334850/",
+      "fetchedAt": "2026-10-30T19:00:28.488Z"
+    }
   },
   {
     "id": "other-202610-0017",
     "title": "美德与重锤/Virtue and a Sledgehammer   Build.26242019   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Virtue and a Sledgehammer",
     "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/0fc3dcddd6ac?pwd=rGGO",
     "pwd": "rGGO",
-    "size": "",
-    "sizeBytes": null,
+    "size": "3.8GB",
+    "sizeBytes": 4077558121,
     "cover": "/covers/3743260.webp",
     "steamAppID": 3743260,
     "desc": "很多人寄希望于心理治疗，但你选择了更勇猛的手段——一柄大锤。 在《Virtue and a Sledgehammer》里，玩家需要探索童年家乡的遗迹，那里早已遍布幽灵般的机器人，代表着被数字化的邻居们。前方的道路不会永远通畅，因此你需要破拆一切挡路的建筑，从而开辟自己的道路。 这场旅途注定痛苦不堪，不仅因为这座山中小镇里早已了无人气，只有漫山遍野的机器人不断侵扰你，还因为你会在拆解仅存的童年印迹时发掘出的旧日回忆——它们有时温暖，有时却会让你重温噩梦。 这是一部关于家庭、传统以及格格不入的游戏。 9公斤重的物理媒介 把你手中的重锤像挥舞审判法器一样挥舞起来，横扫那些机械化的“人类替身”，也扫过他们所谓的家园。但这场暴力的宣泄，究竟能否抚平灵魂的创伤？还是只会让疼痛燃得更炽烈？ 核心是一段叙事体验 破拆从小长大的地方，怎么能不招惹一些幽灵孤魂呢？",
@@ -81400,19 +81564,82 @@
     "featured": false,
     "addedAt": "2026-10-30T14:53:45+08:00",
     "updatedAt": "2026-10-30T14:53:45+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 3743260,
+      "developer": " Deconstructeam、Selkie Harbour",
+      "publisher": "Devolver Digital",
+      "releaseDate": "2026 年 10 月 27 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "languages": "英语, 法语, 西班牙语 - 西班牙, 日语, 简体中文, 葡萄牙语 - 巴西, 俄语",
+      "summary": "在这部叙事类探索游戏中，你可以回到故乡，亲自用一柄大锤去摧毁一切。去直面你的过去吧，在令人崩溃的故事中体会“自己已不再属于从小长大的故乡”的感觉。",
+      "description": "很多人寄希望于心理治疗，但你选择了更勇猛的手段——一柄大锤。\n在《Virtue and a Sledgehammer》里，玩家需要探索童年家乡的遗迹，那里早已遍布幽灵般的机器人，代表着被数字化的邻居们。前方的道路不会永远通畅，因此你需要破拆一切挡路的建筑，从而开辟自己的道路。\n这场旅途注定痛苦不堪，不仅因为这座山中小镇里早已了无人气，只有漫山遍野的机器人不断侵扰你，还因为你会在拆解仅存的童年印迹时发掘出的旧日回忆——它们有时温暖，有时却会让你重温噩梦。\n这是一部关于家庭、传统以及格格不入的游戏。\n9公斤重的物理媒介\n把你手中的重锤像挥舞审判法器一样挥舞起来，横扫那些机械化的“人类替身”，也扫过他们所谓的家园。但这场暴力的宣泄，究竟能否抚平灵魂的创伤？还是只会让疼痛燃得更炽烈？\n核心是一段叙事体验\n破拆从小长大的地方，怎么能不招惹一些幽灵孤魂呢？这部影视化的互动小说将会揭露你所有的恐惧、渴望以及原生家庭盘根错节的美德与缺陷。\n真心希望你能无忧无虑度过一生\n肉体无非是疼痛和病态幽默的源头罢了。\n只有现在，抛却了骨肉的累赘、没有了饥饿的负担，我才能告诉你……\n我从没像现在这般快乐。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/334ac945ef980274801224b23cd67a665f197044/ss_334ac945ef980274801224b23cd67a665f197044.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/0308da4242ff720d49590949136e9da99b52d612/ss_0308da4242ff720d49590949136e9da99b52d612.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/954575c7b1996f12fa5d8c598c66ac30d67527ff/ss_954575c7b1996f12fa5d8c598c66ac30d67527ff.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/7d3797a7cacab0d4f808cbe27887239205a3e928/ss_7d3797a7cacab0d4f808cbe27887239205a3e928.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/3eeda93166a51c737922a079e311cc05c78b13e0/ss_3eeda93166a51c737922a079e311cc05c78b13e0.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/cc6da0455999bf61eaea100eb4426970d7a853f5/ss_cc6da0455999bf61eaea100eb4426970d7a853f5.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/77a1117651c325a251026f20c1eadc3cc2fd3728/ss_77a1117651c325a251026f20c1eadc3cc2fd3728.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/6ea01314912a747a04f1310eaf36d71f778f76fe/ss_6ea01314912a747a04f1310eaf36d71f778f76fe.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/0e9817f2092de661ed01c89f004842c4ddab71a5/ss_0e9817f2092de661ed01c89f004842c4ddab71a5.1920x1080.jpg?t=1793197089",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3743260/b84cb744a8b9b9110a563544711ae791b848087f/ss_b84cb744a8b9b9110a563544711ae791b848087f.1920x1080.jpg?t=1793197089"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 x64 Bit",
+          "处理器: Intel Core i5-6600K / AMD Ryzen 5 3550H",
+          "内存: 8 GB RAM",
+          "显卡: GeForce GTX 960 / Radeon RX 570 / Arc A380",
+          "DirectX 版本: 11",
+          "存储空间: 需要 3 GB 可用空间",
+          "附注事项: Low Quality setting, in 1080p, producing 60 FPS"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11 x64 Bit",
+          "处理器: Intel Core i7-6950 / AMD Ryzen 7 2700X",
+          "内存: 16 GB RAM",
+          "显卡: GeForce GTX 1080 / Radeon RX 5700",
+          "DirectX 版本: 12",
+          "存储空间: 需要 3 GB 可用空间",
+          "附注事项: High Quality setting, in 1080p, producing 60 FPS"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 59,
+        "initial": 59,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 144,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 99
+      },
+      "storeUrl": "https://store.steampowered.com/app/3743260/",
+      "fetchedAt": "2026-10-30T19:00:30.900Z"
+    }
   },
   {
     "id": "tower-defense-202610-0001",
     "title": "魔法觉醒：英雄战歌/Magic Awakening Hero Saga   Build.26219084   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Magic Awakening：Hero Saga",
     "category": "casual",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/0f99650bba83?pwd=f6cz",
     "pwd": "f6cz",
-    "size": "",
-    "sizeBytes": null,
+    "size": "123.3MB",
+    "sizeBytes": 129318468,
     "cover": "/covers/5323650.webp",
     "steamAppID": 5323650,
     "desc": "一款轻松上手、策略深度十足，融合弹幕射击、背包管理、轻度Roguelike与塔防要素的全新力作。在这里，你将体验一场魔法世界的守护之战——面对一波又一波汹涌而来的魔兽大军，合理搭配你的英雄阵容，构建坚不可摧的防线，守护你所在的世界！ 🧙 随机招募，策略布阵 每一次挑战，你都将随机获得一批各具特色的英雄。如何在有限的背包格子内合理分配、升级这些英雄，成为阻挡敌人进攻的关键。100+章节关卡等待你的征服，每一关都是一次全新的策略考验。 ⚔️ 丰富英雄体系，百变战术组合 游戏拥有深度丰富的英雄系统，不同英雄拥有截然不同的战斗定位： 单体爆发型：专注秒杀精英敌人 AOE范围型：清理成群小怪 辅助增益型：为团队提供强力支援 每个英雄占据的背包格子数量各不相同，如何在有限的格子资源中做出最优分配，极度考验你的策略眼光。",
@@ -81420,6 +81647,67 @@
     "featured": false,
     "addedAt": "2026-10-30T14:57:28+08:00",
     "updatedAt": "2026-10-30T14:57:28+08:00",
-    "month": "202610"
+    "month": "202610",
+    "steam": {
+      "appId": 5323650,
+      "developer": "Happy Games",
+      "publisher": "Happy Games",
+      "releaseDate": "2026 年 10 月 27 日",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "languages": "法语, 德语, 乌克兰语, 俄语, 土耳其语, 日语, 波兰语, 简体中文, 繁体中文, 韩语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 葡萄牙语 - 葡萄牙, 西班牙语 - 拉丁美洲, 英语",
+      "summary": "轻松上手的策略肉鸽新作，融合弹幕射击、背包管理与塔防玩法。随机招募英雄、合成进化、招募女神、升级城堡，抵御魔兽浪潮。100+关卡，局外成长，低配畅玩。",
+      "description": "一款轻松上手、策略深度十足，融合弹幕射击、背包管理、轻度Roguelike与塔防要素的全新力作。在这里，你将体验一场魔法世界的守护之战——面对一波又一波汹涌而来的魔兽大军，合理搭配你的英雄阵容，构建坚不可摧的防线，守护你所在的世界！\n🧙 随机招募，策略布阵\n每一次挑战，你都将随机获得一批各具特色的英雄。如何在有限的背包格子内合理分配、升级这些英雄，成为阻挡敌人进攻的关键。100+章节关卡等待你的征服，每一关都是一次全新的策略考验。\n⚔️ 丰富英雄体系，百变战术组合\n游戏拥有深度丰富的英雄系统，不同英雄拥有截然不同的战斗定位：\n单体爆发型：专注秒杀精英敌人\nAOE范围型：清理成群小怪\n辅助增益型：为团队提供强力支援\n每个英雄占据的背包格子数量各不相同，如何在有限的格子资源中做出最优分配，极度考验你的策略眼光。部分英雄合成至最高级后，更可进化为两种不同分支的超级英雄——合理选择进化路线并搭配阵容，才是通关取胜的核心所在。\n🛡️ 女神降临，助力守城\n游戏中还能招募风格各异的女神角色。每位女神都拥有随机生成的技能词条，能够为你的防线提供独特增益。邂逅并培养每一位女神，也是走向胜利的关键因素之一。\n🏰 城堡升级，解锁专属技能\n城堡同样可以升级！当资源充足时，别忘了升级你的城堡。尤其在游戏前期，城堡升星至关重要——每次升星都能解锁城堡专属技能，为你的防守带来质变级的提升。\n🔁 失败也是成长，越战越强\n即使暂时打不过关卡也没关系。每场战斗都会为你积累资源，用于强化武器、升级避难所、培养美女副官。通过不断变强，逐步攻克各类高难度关卡，体验成长与突破的成就感。\n💻 低配友好，畅玩无忧\n游戏对电脑配置要求极低，绝大多数玩家都能流畅运行，无需担心硬件门槛。\n🎮 核心特色一览\n✅ 背包管理 + 轻度Roguelike，每局都有新体验\n✅ 弹幕射击 + 塔防策略，爽快与烧脑并存\n✅ 100+章节关卡，超长游戏时长\n✅ 多样化英雄体系，单体/AOE/辅助自由搭配\n✅ 英雄进化分支，超级英雄等你解锁\n✅ 女神招募系统，随机技能词条组合\n✅ 城堡升星机制，专属技能逐步解锁\n✅ 局外成长系统，武器/避难所/副官全面强化\n✅ 低配置要求，轻松畅玩",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/f02d68b694bc1edf41be5bf221fc2310002c734e/ss_f02d68b694bc1edf41be5bf221fc2310002c734e.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/dd1373979595af4bc742cbcbbda573e4d4e32d7f/ss_dd1373979595af4bc742cbcbbda573e4d4e32d7f.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/e542e01461bb1c847cf22c0c98c6ec7af6be73f4/ss_e542e01461bb1c847cf22c0c98c6ec7af6be73f4.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/38ff2feea39c731a3e82f6a24fa5923b6e19af44/ss_38ff2feea39c731a3e82f6a24fa5923b6e19af44.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/38b123e0b4ce46761c1b3f5e3b4271490a6db4c2/ss_38b123e0b4ce46761c1b3f5e3b4271490a6db4c2.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/b0637e12ec89d03d3e7e0a80cc3465de8c52d5fb/ss_b0637e12ec89d03d3e7e0a80cc3465de8c52d5fb.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/74e330b353e4ece6077193ef19cb512962d00520/ss_74e330b353e4ece6077193ef19cb512962d00520.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/5ee8870d00b5b6df40465ae540e8bc169f41e387/ss_5ee8870d00b5b6df40465ae540e8bc169f41e387.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/61086b62437b32442059116512dfc548fc5d19fe/ss_61086b62437b32442059116512dfc548fc5d19fe.1920x1080.jpg?t=1793198200",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5323650/14c46fe25496955aabe2b1ea8c03895cb8a19ec4/ss_14c46fe25496955aabe2b1ea8c03895cb8a19ec4.1920x1080.jpg?t=1793198200"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11 (64-bit)",
+          "处理器: Intel Core i3-4160 / AMD A8-7600",
+          "内存: 2 GB RAM",
+          "显卡: NVIDIA GeForce GTX 750 Ti / AMD Radeon RX 550 (2GB VRAM)",
+          "DirectX 版本: 10",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11 (64-bit)",
+          "处理器: Intel Core i5-6400 / AMD Ryzen 3 1200",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 570 (4GB VRAM)",
+          "DirectX 版本: 11",
+          "存储空间: 需要 2 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 10.5,
+        "initial": 15,
+        "discountPercent": 30
+      },
+      "rating": {
+        "scoreDesc": "Positive",
+        "totalReviews": 31,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 87
+      },
+      "storeUrl": "https://store.steampowered.com/app/5323650/",
+      "fetchedAt": "2026-10-30T19:00:33.511Z"
+    }
   }
 ]
