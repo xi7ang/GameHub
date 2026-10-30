@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3fd670d",
+    "date": "2026-10-30T14:39:56+08:00",
+    "message": "sync: 新增资源《复古街机8合1合集/Retro Mix 8 Arcade Collection 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3fd670d54848f61c0045b508907a40c889f68386"
+  },
+  {
     "hash": "9d69f17",
     "date": "2026-10-30T07:12:31+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
@@ -172,11 +178,5 @@
     "date": "2026-10-27T08:57:05+08:00",
     "message": "fix(data): 10-27 五条资源分类按 Steam genres 校正",
     "url": "https://github.com/xi7ang/GameHub/commit/103f7b1c5e583ce3b4c1269ae5cd9b0b1f69c0e3"
-  },
-  {
-    "hash": "8670272",
-    "date": "2026-10-27T08:55:51+08:00",
-    "message": "sync: 新增资源《秘奥回响/Echoes of Mystralia    Build.260536》",
-    "url": "https://github.com/xi7ang/GameHub/commit/867027281122905cf76c4a2a9029b977077c6fda"
   }
 ]
