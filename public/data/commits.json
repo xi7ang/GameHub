@@ -1,5 +1,11 @@
 [
   {
+    "hash": "04d8c91",
+    "date": "2026-10-30T14:44:36+08:00",
+    "message": "sync: 新增资源《克里萨纳/Kritsana   Build.26240637   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/04d8c91076421428083d4e52ff1a45c028d11c87"
+  },
+  {
     "hash": "3fd670d",
     "date": "2026-10-30T14:39:56+08:00",
     "message": "sync: 新增资源《复古街机8合1合集/Retro Mix 8 Arcade Collection 》",
@@ -172,11 +178,5 @@
     "date": "2026-10-27T08:57:33+08:00",
     "message": "sync: 新增资源《黯井微光 /Well Dweller    Build.25633433    》",
     "url": "https://github.com/xi7ang/GameHub/commit/97a1baae4fd8b4f7799a16f910f1b67dbd5d5321"
-  },
-  {
-    "hash": "103f7b1",
-    "date": "2026-10-27T08:57:05+08:00",
-    "message": "fix(data): 10-27 五条资源分类按 Steam genres 校正",
-    "url": "https://github.com/xi7ang/GameHub/commit/103f7b1c5e583ce3b4c1269ae5cd9b0b1f69c0e3"
   }
 ]
