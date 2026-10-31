@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e7c255f",
+    "date": "2026-10-31T20:34:40+08:00",
+    "message": "sync: 新增资源《索尼克：释放/Sonic Unleashed   v1.0.3   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e7c255faf62ca92c5730b54c721a189a3865a63b"
+  },
+  {
     "hash": "d00746e",
     "date": "2026-10-31T20:30:38+08:00",
     "message": "chore: 每日公告：发布【2026-10-31】游戏资源更新通知（1 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-28T09:13:01+08:00",
     "message": "data: 新增砖厂 Brick Rigs Steam 官方封面",
     "url": "https://github.com/xi7ang/GameHub/commit/3b60dbcdb5e1ac833a02acb4eef36ae9fe1bd41f"
-  },
-  {
-    "hash": "335ce74",
-    "date": "2026-10-28T09:11:51+08:00",
-    "message": "sync: 新增资源《瑞奇与叮当 时空跳转/ Ratchet and Clank: Rift Apar》",
-    "url": "https://github.com/xi7ang/GameHub/commit/335ce7459c2c0fe7f080d0c5dc935b3031191829"
   }
 ]
