@@ -1,5 +1,41 @@
 [
   {
+    "hash": "d00746e",
+    "date": "2026-10-31T20:30:38+08:00",
+    "message": "chore: 每日公告：发布【2026-10-31】游戏资源更新通知（1 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/d00746e2685954570bf164cbe1bc28376670b992"
+  },
+  {
+    "hash": "3311315",
+    "date": "2026-10-31T20:26:34+08:00",
+    "message": "merge: 合并远端（克里萨纳封面/分类、Steam 资料）与本地新资源",
+    "url": "https://github.com/xi7ang/GameHub/commit/3311315d5910e75185e9b4fb8e7929946c873a08"
+  },
+  {
+    "hash": "9fa8ed6",
+    "date": "2026-10-31T20:25:01+08:00",
+    "message": "sync: 新增资源《最后车队/Geargrave Outlands   v20261026   免安》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9fa8ed66c12b61ebbeeabc5a74127a4242a185cf"
+  },
+  {
+    "hash": "5ab8346",
+    "date": "2026-10-31T08:59:44+08:00",
+    "message": "data: 克里萨纳分类改为休闲",
+    "url": "https://github.com/xi7ang/GameHub/commit/5ab8346b68c91aea9ddc020b0734b65a5e7278f9"
+  },
+  {
+    "hash": "6792b1e",
+    "date": "2026-10-31T03:08:30+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/6792b1e662a58ff42a163f1d93f0c215c88f1720"
+  },
+  {
+    "hash": "bf73194",
+    "date": "2026-10-31T03:04:04+08:00",
+    "message": "data: 克里萨纳官方封面 5089240",
+    "url": "https://github.com/xi7ang/GameHub/commit/bf731948a9fc049b2d04a7905dc6da582dd768f9"
+  },
+  {
     "hash": "150673a",
     "date": "2026-10-30T20:32:10+08:00",
     "message": "chore: 每日公告：发布【2026-10-30】游戏资源更新通知（10 条新资源）",
@@ -142,41 +178,5 @@
     "date": "2026-10-28T09:11:51+08:00",
     "message": "sync: 新增资源《瑞奇与叮当 时空跳转/ Ratchet and Clank: Rift Apar》",
     "url": "https://github.com/xi7ang/GameHub/commit/335ce7459c2c0fe7f080d0c5dc935b3031191829"
-  },
-  {
-    "hash": "506125d",
-    "date": "2026-10-28T09:08:48+08:00",
-    "message": "merge: 合并远端 Steam 回填与本地新资源（瑞奇与叮当）",
-    "url": "https://github.com/xi7ang/GameHub/commit/506125df95fcc6dd8ef0668f4f036c7173fb60bf"
-  },
-  {
-    "hash": "47f376e",
-    "date": "2026-10-28T09:06:49+08:00",
-    "message": "sync: 新增资源《瑞奇与叮当/Ratchet and Clank    v1.00    免安装中》",
-    "url": "https://github.com/xi7ang/GameHub/commit/47f376e5f95367c7ad16f2428482937c4a1e878a"
-  },
-  {
-    "hash": "f826b30",
-    "date": "2026-10-28T07:21:14+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/f826b302aad0ce1581a2dd500f60f6fcd0fbe652"
-  },
-  {
-    "hash": "ac0528e",
-    "date": "2026-10-28T07:15:48+08:00",
-    "message": "data: 新增 INDUSTRIA 2 与 Star Valor Steam 官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/ac0528ebfeaaa5566a2550e24c33043ed5be6ac6"
-  },
-  {
-    "hash": "c1e3d1b",
-    "date": "2026-10-27T20:32:14+08:00",
-    "message": "chore: 每日公告：发布2026-10-27游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c1e3d1b5ad5244819aed364e22802a9b24719b89"
-  },
-  {
-    "hash": "211d5ba",
-    "date": "2026-10-27T09:51:44+08:00",
-    "message": "data: 轨道狂潮封面改为 Steam 官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/211d5bad87c82cfad9d3c93241ee2ff7c0ad0a94"
   }
 ]
