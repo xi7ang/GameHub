@@ -7,7 +7,6 @@
     <section class="hero">
       <div class="container hero__inner">
         <h1 class="hero__title">发现全网<br /><em>优质游戏资源</em></h1>
-        <p class="hero__subtitle">{{ site?.slogan }} · 单机 / 手游 / Switch / MOD 一站式聚合</p>
         <div class="hero__search">
           <SearchBox :lucky-resources="luckyCoverPool" />
         </div>
@@ -385,13 +384,13 @@ onMounted(async () => {
 
 
 /* Hero */
-.hero { padding: 110px 0 50px; text-align: center; position: relative; z-index: 1; }
+.hero { padding: 44px 0 28px; text-align: center; position: relative; z-index: 1; }
 .hero__title {
   font-family: var(--font-display);
-  font-size: clamp(40px, 6vw, 72px);
+  font-size: clamp(32px, 5vw, 56px);
   font-weight: 700;
   line-height: 1.12;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   animation: fadeInUp 0.6s ease-out 0.08s both;
 }
 .hero__title em {
@@ -402,12 +401,6 @@ onMounted(async () => {
   background-clip: text;
   filter: drop-shadow(0 0 24px rgba(var(--accent-rgb), 0.4));
 }
-.hero__subtitle {
-  font-size: 16px;
-  color: var(--text-mid);
-  margin-bottom: 30px;
-  animation: fadeInUp 0.6s ease-out 0.16s both;
-}
 .hero__search {
   max-width: 640px;
   margin: 0 auto;
@@ -415,12 +408,26 @@ onMounted(async () => {
   z-index: 5; /* 让搜索下拉浮层盖过 .hero__hot（动画 transform 也会创建层叠上下文） */
   animation: fadeInUp 0.6s ease-out 0.24s both;
 }
+/* 首页 hero 里的搜索框纵向收紧（搜索结果页的 SearchBox 不动） */
+.hero__search :deep(.search-bar) { padding: 8px 16px; border-radius: 12px; }
+.hero__search :deep(.search-bar__input) { font-size: 15px; }
+.hero__search :deep(.search-bar__lucky) { padding: 5px 10px; font-size: 12px; gap: 5px; }
+/* 手气不错按钮内部同步缩小：骰子 20px → 16px，面距同步 10px → 8px（!important 覆盖内联 transform），点数同步缩小 */
+.hero__search :deep(.search-bar__lucky-die) { width: 16px; height: 16px; perspective: 80px; }
+.hero__search :deep(.search-bar__lucky-die__face) { border-radius: 3px; }
+.hero__search :deep(.search-bar__lucky-die__face:nth-child(1)) { transform: translateZ(8px) !important; }
+.hero__search :deep(.search-bar__lucky-die__face:nth-child(2)) { transform: rotateY(90deg) translateZ(8px) !important; }
+.hero__search :deep(.search-bar__lucky-die__face:nth-child(3)) { transform: rotateX(90deg) translateZ(8px) !important; }
+.hero__search :deep(.search-bar__lucky-die__face:nth-child(4)) { transform: rotateX(-90deg) translateZ(8px) !important; }
+.hero__search :deep(.search-bar__lucky-die__face:nth-child(5)) { transform: rotateY(-90deg) translateZ(8px) !important; }
+.hero__search :deep(.search-bar__lucky-die__face:nth-child(6)) { transform: rotateY(180deg) translateZ(8px) !important; }
+.hero__search :deep(.search-bar__lucky-die__face i) { width: 2px; height: 2px; }
 .hero__hot {
-  margin-top: 22px;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
   animation: fadeInUp 0.6s ease-out 0.32s both;
 }
@@ -428,10 +435,10 @@ onMounted(async () => {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 12px;
+  padding: 3px 10px;
   margin-right: 2px;
   border-radius: 100px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--accent-gold);
   border: 1px dashed rgba(var(--accent-rgb), 0.55);
@@ -439,9 +446,9 @@ onMounted(async () => {
   white-space: nowrap;
 }
 .hot-tag {
-  padding: 7px 18px;
+  padding: 5px 14px;
   border-radius: 100px;
-  font-size: 13.5px;
+  font-size: 12.5px;
   font-weight: 600;
   color: var(--text-hi);
   border: 1px solid rgba(var(--accent-rgb), 0.5);
@@ -456,6 +463,12 @@ onMounted(async () => {
   background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
   box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.55), var(--shadow-glow);
   transform: translateY(-2px);
+}
+/* 移动端 hero 再收紧：首屏多露出一行合集卡 */
+@media (max-width: 640px) {
+  .hero { padding: 28px 0 20px; }
+  /* 热门关键词至多展示两行（标签 32px + 间距 8px = 两行 72px），多余的裁掉 */
+  .hero__hot { max-height: 72px; overflow: hidden; }
 }
 
 /* Stats（页脚上方，无边框） */
