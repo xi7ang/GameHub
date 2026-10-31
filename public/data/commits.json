@@ -1,5 +1,23 @@
 [
   {
+    "hash": "150673a",
+    "date": "2026-10-30T20:32:10+08:00",
+    "message": "chore: 每日公告：发布【2026-10-30】游戏资源更新通知（10 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/150673a93c26422840ed81ed7df60dbce6aea60d"
+  },
+  {
+    "hash": "136ce3b",
+    "date": "2026-10-30T14:58:46+08:00",
+    "message": "fix(data): 本批 5 条收尾修正",
+    "url": "https://github.com/xi7ang/GameHub/commit/136ce3b8a7463034c5f7e69eba69ca9a02479774"
+  },
+  {
+    "hash": "16f9fd0",
+    "date": "2026-10-30T14:57:31+08:00",
+    "message": "sync: 新增资源《魔法觉醒：英雄战歌/Magic Awakening Hero Saga   Bu》",
+    "url": "https://github.com/xi7ang/GameHub/commit/16f9fd0cb49d2e1fb64d43e7c71a6628be2a552b"
+  },
+  {
     "hash": "c7fda61",
     "date": "2026-10-30T14:53:49+08:00",
     "message": "sync: 新增资源《美德与重锤/Virtue and a Sledgehammer   Build.》",
@@ -160,23 +178,5 @@
     "date": "2026-10-27T09:51:44+08:00",
     "message": "data: 轨道狂潮封面改为 Steam 官方封面",
     "url": "https://github.com/xi7ang/GameHub/commit/211d5bad87c82cfad9d3c93241ee2ff7c0ad0a94"
-  },
-  {
-    "hash": "bc8bfe5",
-    "date": "2026-10-27T09:50:36+08:00",
-    "message": "data: 新增轨道狂潮 Steam 官方封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/bc8bfe5f08641600ddf35038e5e914b67ada1f89"
-  },
-  {
-    "hash": "957b209",
-    "date": "2026-10-27T09:42:23+08:00",
-    "message": "feat: steam-import 商店页年龄验证重试 + 回填 27 条年龄验证游戏评价",
-    "url": "https://github.com/xi7ang/GameHub/commit/957b209060d9791997a95185bbcf39fdd7cd20fa"
-  },
-  {
-    "hash": "56ffbd6",
-    "date": "2026-10-27T09:25:19+08:00",
-    "message": "fix(data): 删除黯井微光重复条目",
-    "url": "https://github.com/xi7ang/GameHub/commit/56ffbd61f7b51ccfefafb30312a46de751594835"
   }
 ]
