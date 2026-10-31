@@ -1,5 +1,17 @@
 [
   {
+    "hash": "3238b18",
+    "date": "2026-10-31T20:42:15+08:00",
+    "message": "style: 收紧首页 hero 布局，首屏多展示下方内容",
+    "url": "https://github.com/xi7ang/GameHub/commit/3238b1876786d76db2b13349c0487db9ca0ec02e"
+  },
+  {
+    "hash": "cd360cc",
+    "date": "2026-10-31T20:41:30+08:00",
+    "message": "sync: 新增资源《星球大战：银河赛车手-虚/STAR WARS Galactic Racer HY》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cd360ccfb53d19236ecd1d0eb6f8e81209c52272"
+  },
+  {
     "hash": "19c089b",
     "date": "2026-10-31T20:37:59+08:00",
     "message": "sync: 新增资源《永恒空间2/EVERSPACE 2    Build.25503461  全DL》",
@@ -166,17 +178,5 @@
     "date": "2026-10-28T09:20:44+08:00",
     "message": "data: 砖厂 appid 更正为 552100 并补 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/3cc1e8863eec550e6623e4e5e3a169cb9c4ec65a"
-  },
-  {
-    "hash": "c50d556",
-    "date": "2026-10-28T09:19:37+08:00",
-    "message": "sync: 新增资源《瑞卡|蕾卡的移动工坊 / REKA   v1.0正式版   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c50d55627a7a642924c2d6ee3885971e8ee12337"
-  },
-  {
-    "hash": "22a705e",
-    "date": "2026-10-28T09:15:37+08:00",
-    "message": "sync: 新增资源《火影忍者：忍者崛起/Naruto Rise of a Ninja   v0.3.》",
-    "url": "https://github.com/xi7ang/GameHub/commit/22a705ec7ee4aa79d9a488513bb333d19af3c831"
   }
 ]
