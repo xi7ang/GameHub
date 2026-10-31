@@ -2,14 +2,7 @@
   <header class="site-header">
     <div class="container site-header__inner">
       <a href="/" class="brand">
-        <span class="brand__logo">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
-            <rect x="2" y="6" width="20" height="12" rx="3" stroke="currentColor" stroke-width="1.6"/>
-            <circle cx="8.5" cy="12" r="1.3" fill="currentColor"/>
-            <circle cx="15.5" cy="12" r="1.3" fill="currentColor"/>
-            <path d="M5 3v3M19 3v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
-          </svg>
-        </span>
+        <img class="brand__logo" src="/brand-logo.webp" alt="游戏源神" />
         <span class="brand__name">
           <template v-if="parts.accent">{{ parts.main }}<span class="brand__accent">{{ parts.accent }}</span></template>
           <template v-else>{{ parts.main || site?.brand?.name || 'GameHub' }}</template>
@@ -67,7 +60,7 @@ const parts = computed(() => brandParts(site.value))
   height: 62px;
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand__logo { color: var(--neon-purple); display: flex; }
+.brand__logo { height: 40px; width: auto; display: block; border-radius: 8px; }
 .brand__name {
   font-family: var(--font-display);
   font-size: 22px;
