@@ -82046,7 +82046,7 @@
   {
     "id": "other-202611-0001",
     "title": "生存日志/Survival Log    Build.26294912 送修改器    免安装中文版",
-    "enTitle": "",
+    "enTitle": "Survival Log",
     "category": "other",
     "tags": [],
     "platform": "quark",
@@ -82054,19 +82054,80 @@
     "pwd": "",
     "size": "",
     "sizeBytes": null,
-    "cover": "/covers/u372c390d978f.webp",
-    "steamAppID": null,
+    "cover": "/covers/4164790.webp",
+    "steamAppID": 4164790,
     "desc": "更新内容 查看所有更新 [更新公告] 10月29日更新 关键更新 新增内容:新增两组随机事件:[Delivery Zombie] 和 [Rising Water];Item Search 现支持直接输入商品名称;在翻新系统中新增4个壁纸和2个新楼层;操作建议优化。 常见问题:[完全准备好的]成就现在统计了不同储蓄设施的设施;修复了一些僵尸被困的问题,阻止了僵尸部落的终结;当熟练程度被最大化时,重复的规划卡片将不再出现。 [生存与互动] 新送货僵尸随机事件:末日过后,你家门口偶尔会出现骑电动自行车、携带保温袋的僵尸。 你可以选择不同的方式来处理它们;有些会产生赵得,而另一些则会花费你。 新的上升水随机事件:在中后期连续降雨后,水位可能在交叉路口积聚。 您可以选择清理下水道或忽略它。 水位上升时,你需要在有限时间内堵住门。 你也可以利用水坑钓一次鱼。 雨停后,水会退去一段时间。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-01T13:10:49+08:00",
     "updatedAt": "2026-11-01T13:10:49+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4164790,
+      "developer": "Midnight Workshop",
+      "publisher": "Lilith Games",
+      "releaseDate": "2026 年 8 月 12 日",
+      "genres": [
+        "冒险",
+        "角色扮演",
+        "模拟",
+        "策略"
+      ],
+      "languages": "英语, 简体中文",
+      "summary": "《生存日志》是一款以丧尸末日为题材的囤货生存模拟游戏。你扮演一名预知丧尸危机爆发的普通人，利用重生优势，在灾难来临前疯狂囤积物资、加固住所，为生存而战。游戏聚焦策略规划与资源管理，带来独特的“囤货避难”沉浸体验。每一次死亡都会成为下一次轮回的经验，让你不断优化计划、突破极限——这次，一定要活下去！",
+      "description": "游戏融合「灾前疯狂囤货」与「灾后据点经营」两大核心玩法，围绕策略规划、资源管理与长期生存展开。\n一场死亡，让你提前知晓了10小时后的末日降临。趁灾难尚未爆发，你必须争分夺秒采购物资、加固住所、规划生存方案，为即将到来的尸潮做好万全准备。\n末日将至，疯狂囤积物资\n奔走于超市、工具店、装修公司、农贸市场等城市角落，在秩序崩溃前尽可能囤积一切生存所需。\n是优先购买食物和饮水，还是加固门窗、储备燃料？每一个选择都会影响末日后的生存。\n通过囤货清单实时查看物资储备，查漏补缺，在灾难来临前做好最充分的准备。\n改造家园，构筑末日堡垒\n采购家具、设施与建材，规划安全屋布局，并亲手完成安装与升级。\n随着生存需求不断增加，逐步扩建多层安全屋。起居、囤货、发电、种植各安其位。\n灾前投入的每一份资源，都将在灾后成为支撑你活下去的重要保障。\n经营据点，实现自给自足\n种植作物、烹饪料理，在末日里实现「餐桌自由」。\n柴油机、人力发电、太阳能等多种供电方式自由搭配，每一度电都需精打细算。\n管理库存，维持饱腹、精力与心态，在漫长的求生过程中努力维持生存秩序。\n应对灾变，直面未知危险\n暴雨、寒潮、停电等突发灾害接踵而至，不断考验你的前期准备。\n面对一波又一波袭来的尸潮，加固防御、合理布置设施，守住最后的避难所。\n走出安全屋，探索废弃超市、学校与城市废墟，在危险之中寻找稀缺资源，也可能遭遇未知威胁。\n守望相助，改写生存结局\n帮助被困的邻居，利用无人机与远方幸存者进行无接触交易，在末日中建立新的联系。\n打工仔、大学生、仓库管理员……不同的开局身份将带来截然不同的挑战。\n每一次失败都化为经验。带着记忆重生，直至揭开灾难真相、抵达属于你的结局。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/dcdf33698fb37a9dbbc5d256fa34c4365ef73ff3/ss_dcdf33698fb37a9dbbc5d256fa34c4365ef73ff3.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/45c0eb20d8f99c10be76e383138ff84431b066ae/ss_45c0eb20d8f99c10be76e383138ff84431b066ae.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/d5f21937b7fa1ea08e7aa9cc17970180ab563417/ss_d5f21937b7fa1ea08e7aa9cc17970180ab563417.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/c77ed5e61a40957cc41aaa9266c86161d23cdeb0/ss_c77ed5e61a40957cc41aaa9266c86161d23cdeb0.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/e33843184af7854116f61dd3f2fd97dd306c32d1/ss_e33843184af7854116f61dd3f2fd97dd306c32d1.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/3a1ae3ed7838c51075b8d3391c79ded5dd0505da/ss_3a1ae3ed7838c51075b8d3391c79ded5dd0505da.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/0ef8d65fa4dfeddfdcaeb830f4f9e5111ac882f2/ss_0ef8d65fa4dfeddfdcaeb830f4f9e5111ac882f2.1920x1080.jpg?t=1790679893",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4164790/c998dd37f89520805afb527d179800a5c2a4fa8c/ss_c998dd37f89520805afb527d179800a5c2a4fa8c.1920x1080.jpg?t=1790679893"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 (64-bit)",
+          "处理器: Intel Core i5-8500 / AMD Ryzen 5 2600X",
+          "内存: 16 GB RAM",
+          "显卡: GeForce GTX 1060 / Radeon RX 6500 XT",
+          "DirectX 版本: 11",
+          "存储空间: 需要 10 GB 可用空间",
+          "附注事项: 使用1080p或更高分辨率游戏时，建议画质设置为“低”"
+        ],
+        "recommended": [
+          "操作系统: Windows 10/11 (64-bit)",
+          "处理器: Intel Core i5-11600K / AMD Ryzen 5 5600",
+          "内存: 16 GB RAM",
+          "显卡: GeForce RTX 3060 / Radeon RX 6700 XT(8GB+)",
+          "DirectX 版本: 11",
+          "存储空间: 需要 10 GB 可用空间",
+          "附注事项: 使用1440p或更高分辨率游戏时，建议画质设置为“中”或“低”"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 46,
+        "initial": 46,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 351,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 84
+      },
+      "storeUrl": "https://store.steampowered.com/app/4164790/",
+      "fetchedAt": "2026-11-01T19:03:56.714Z"
+    }
   },
   {
     "id": "simulation-202611-0001",
     "title": "孤山独影/ Cairn   v1.1.593    免安装中文版",
-    "enTitle": "",
+    "enTitle": "Cairn",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
@@ -82081,12 +82142,77 @@
     "featured": false,
     "addedAt": "2026-11-01T13:14:06+08:00",
     "updatedAt": "2026-11-01T13:14:06+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1588550,
+      "developer": "The Game Bakers",
+      "publisher": "The Game Bakers",
+      "releaseDate": "2026 年 1 月 29 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "模拟",
+        "体育"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 日语, 俄语, 简体中文, 韩语, 繁体中文, 葡萄牙语 - 巴西\n具有完全音频支持的语言",
+      "summary": "在《Furi》和《Haven》制作组打造的全新生存攀岩游戏中，挑战自我，刷新登高记录。自由攀登, 仔细规划路线, 管理岩钉和资源，在无情的神之山中存活下来。探明艾瓦为实现一生的登顶目标，愿意付出什么代价。",
+      "description": "真实攀岩模拟\n在模拟真实登山体验的 CAIRN 孤山独影 中，运用直觉勇敢攀登——找到最佳支点，用简单的操作即可丝滑地放置你的双手和双脚。谨慎调整姿势、力度和平衡。如果粗心大意，你就会从山上坠落！\n千载难逢的登顶之旅\n你将扮演专业登山者艾瓦，踏上登顶神之山的旅程，挑战从未有人涉足的巅峰。旅途之中，偶遇各个同伴，倾听留在半途的人讲述他们的故事。揭开山脉的过往，帮助艾瓦决定，她需要为实现梦想作出怎样的牺牲。\n开辟自己的道路\n你可以自由地四处攀登。探索山脉，出发前仔细分析岩壁，小心规划你的登顶之路。在岩壁上解决各种难题，应对不同的地形。你可以攀上任何物体，请谨慎选择自己的路径！\n登山即战斗\n登山是一项颇具挑战的运动。攀登每一面墙都像是在打 BOSS 战。对乐于挑战自我的人来说，这是一场刺激的挑战。但你也可以调整难度，自定义游戏体验。\n在致命之山存活\n管理你的各类资源——岩钉、防滑粉、缠手带、食物、水和药品，在漫长的登山之旅中存活。布置营地，探索山脉，收集所需资源，最终攀上顶峰。\n屡获大奖的团队\n《Furi》和《Haven》的制作组、《Limbo》《Inside》《Control》及《Cocoon》的音乐和音效团队，以及负责美术和剧情的知名漫画家 Mathieu Bablet，共同为您带来难忘的游戏体验。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/bf1a0195af2a834226b5747bb0c304f36b55072c/ss_bf1a0195af2a834226b5747bb0c304f36b55072c.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/827a05c5af0d469f5e27bbd4e5b298be244f7fb4/ss_827a05c5af0d469f5e27bbd4e5b298be244f7fb4.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/bae00fc0710749179c1f87d41aa4c1733f5fa9a0/ss_bae00fc0710749179c1f87d41aa4c1733f5fa9a0.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/c5bcd1ca562b791b8191771af3917cc852634639/ss_c5bcd1ca562b791b8191771af3917cc852634639.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/48e842321193d50c98df59ac4cd29cdc3b512d56/ss_48e842321193d50c98df59ac4cd29cdc3b512d56.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/aedd55253a365e28eeb2ac65adb92f41c6911feb/ss_aedd55253a365e28eeb2ac65adb92f41c6911feb.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/c12d7afe49643939e1fbb339d60acf449a203ee3/ss_c12d7afe49643939e1fbb339d60acf449a203ee3.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/a6c12610ddc959dfea72f978e96eb871aa665bce/ss_a6c12610ddc959dfea72f978e96eb871aa665bce.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/6e6de2c22cec3310e4070d53b866da877e263676/ss_6e6de2c22cec3310e4070d53b866da877e263676.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/e43bc7a2106fd7fb45a9a9174cbc3fdd5b2e969f/ss_e43bc7a2106fd7fb45a9a9174cbc3fdd5b2e969f.1920x1080.jpg?t=1793289602",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/6e53d0c2e7d945fc6d6fba7d3f5547796cfe10b5/ss_6e53d0c2e7d945fc6d6fba7d3f5547796cfe10b5.1920x1080.jpg?t=1793289602"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: Intel Core i7-6700 (4 * 3400), AMD Ryzen 5 1500X (4 * 3500) or equivalent",
+          "内存: 8 GB RAM",
+          "显卡: GeForce GTX 1050 Ti (4096 MB), Radeon RX 570 (8192 MB)",
+          "存储空间: 需要 10 GB 可用空间",
+          "附注事项: SSD required. Controller recommended."
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: Intel Core i7-10700 (8 * 2900), AMD Ryzen 7 3700X (8 * 3600) or equivalent",
+          "内存: 8 GB RAM",
+          "显卡: Geforce RTX 2060 Super (6144 MB), Radeon RX 5700 (8192 MB)",
+          "存储空间: 需要 10 GB 可用空间",
+          "附注事项: SSD required. Controller recommended."
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 75.6,
+        "initial": 108,
+        "discountPercent": 30
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 10051,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 94
+      },
+      "storeUrl": "https://store.steampowered.com/app/1588550/",
+      "fetchedAt": "2026-11-01T19:03:59.672Z"
+    }
   },
   {
     "id": "horror-202611-0001",
     "title": "幽灵大师：复生 /Ghost Master Resurrection    Build.26299317      全DLC     免安装中文版",
-    "enTitle": "",
+    "enTitle": "Mortal Path: Mighty Senior Brother",
     "category": "horror",
     "tags": [],
     "platform": "quark",
@@ -82101,12 +82227,56 @@
     "featured": false,
     "addedAt": "2026-11-01T13:17:37+08:00",
     "updatedAt": "2026-11-01T13:17:37+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5324770,
+      "developer": "Happy Games",
+      "publisher": "Happy Games",
+      "releaseDate": "2026 年 11 月 3 日",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "languages": "法语, 德语, 乌克兰语, 俄语, 土耳其语, 日语, 波兰语, 简体中文, 繁体中文, 韩语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 葡萄牙语 - 葡萄牙, 西班牙语 - 拉丁美洲",
+      "summary": "背包Like×策略搭配×弹幕射击的仙侠Roguelike。随机法宝、有限格子、合成进化，打造最强流派。邂逅红颜师妹，升级道体，守护人间净土。轻松护肝，一局接一局，割草清屏停不下来！",
+      "description": "轻松上手，越玩越上头：背包管理 × 策略搭配 × 弹幕射击的仙侠 Roguelike\n千年前仙魔大战，仙界惨胜，通往凡间的“界门”破碎。天地灵气紊乱，妖魔横行。你所在之地，是人类最后的净土，坐落于巨型天然屏障“断界山脉”的唯一缺口。山外是妖气弥漫的“万妖荒原”，山内是仅存的凡人国度。妖魔不断从荒原涌出，而你，作为师兄，要守住这最后一片人间净土。\n背包 Like × 策略搭配 × 弹幕射击\n每一波妖魔来袭前，你都会随机获得各种法宝。你需要在有限的背包格子内，合理摆放、升级、合成这些法宝，抵挡一波又一波的攻击。\n法宝种类丰富，各有侧重：\n有些擅长单体爆发\n有些擅长范围群攻\n有些擅长回复生命\n有些擅长控制减速\n每个法宝占用的格子数不同，如何在有限空间里做出最优选择，非常考验你的策略与取舍。游戏带有明显的背包 like / 背包管理玩法，越到后期越有成就感。\n法宝合成与进化，打造超级流派\n部分法宝合成到最高级后，可以进化成两个不同类别的超级法宝。合理选择进化路线，搭配不同英雄与法宝，才能形成真正强力的 build。是走爆发单体伤害，还是持续消耗？是单体点杀，还是全屏清场？每一局都有不同答案。\n邂逅红颜师妹，组建你的仙侠阵容\n在仙侠世界中，你会邂逅多位红颜师妹。每位师妹都是强大的辅助，拥有不同能力与定位，是通关高难度关卡的关键因素之一。合理搭配师妹与法宝，才能让队伍战力最大化。\n道体升级与升星，别忽略前期成长\n各位师兄在变强的同时，别忘了升级道体。前期道体升星非常重要，千万别忽略。道体越强，你在战斗中的生存与输出能力就越稳定。每场战斗积累资源，让法宝、道体、师妹们一起成长，才能挑战更高难度关卡。\n轻松护肝，策略耐玩\n电脑配置要求不高，满足绝大部分玩家需求\n一局接一局，轻松又耐玩\n策略深度足，适合喜欢背包管理、Build 搭配、塔防与弹幕射击的玩家\n仙侠题材 + 背包 Like + 弹幕射击 + 策略 Roguelike，一次玩个够\n适合这样的你\n如果你喜欢：\n背包 Like / 背包管理 / 背包乱斗类玩法\n策略搭配、Build 构建、Roguelike 随机性\n弹幕射击、塔防、割草清屏\n仙侠题材、修仙、师兄师妹、道体升星\n轻松护肝、可长时间反复游玩\n那么，这片最后的净土，正等着你来守护。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/35436989b47f502d5e0535b3abf520af80a37c6a/ss_35436989b47f502d5e0535b3abf520af80a37c6a.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/1b954ddca16baa9030157e60eeff9f0dfa0f05d0/ss_1b954ddca16baa9030157e60eeff9f0dfa0f05d0.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/00b51fd7f5c9f8b85efc06f9a45c761138fba009/ss_00b51fd7f5c9f8b85efc06f9a45c761138fba009.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/edc047862200ffd9ae5f7d11558200de7888a695/ss_edc047862200ffd9ae5f7d11558200de7888a695.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/fe8c17b7ba404f2a9c69a284cc2170c0fc554dd5/ss_fe8c17b7ba404f2a9c69a284cc2170c0fc554dd5.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/987bdece048bb718ab67ba9e01e654d2526f354d/ss_987bdece048bb718ab67ba9e01e654d2526f354d.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/3138cb1561a1496d0857ab4953e7db850e10f8b5/ss_3138cb1561a1496d0857ab4953e7db850e10f8b5.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/31e9012130b54612e80bccc349ef5565fe5ee84c/ss_31e9012130b54612e80bccc349ef5565fe5ee84c.1920x1080.jpg?t=1793100374",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5324770/a526fe87789c9216680ef8ae834a6909a6f4976a/ss_a526fe87789c9216680ef8ae834a6909a6f4976a.1920x1080.jpg?t=1793100374"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11 (64-bit)",
+          "处理器: Intel Core i3-4160 / AMD A8-7600",
+          "DirectX 版本: 10",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11 (64-bit)",
+          "显卡: NVIDIA GeForce GTX 1050 Ti / AMD Radeon RX 570 (4GB VRAM)",
+          "DirectX 版本: 11",
+          "存储空间: 需要 2 GB 可用空间"
+        ]
+      },
+      "price": null,
+      "rating": null,
+      "storeUrl": "https://store.steampowered.com/app/5324770/",
+      "fetchedAt": "2026-11-01T19:04:02.768Z"
+    }
   },
   {
     "id": "simulation-202611-0002",
     "title": "网吧模拟器（Internet Cafe Simulator）Build.26289373   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Internet Cafe Simulator 2",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
@@ -82121,12 +82291,70 @@
     "featured": false,
     "addedAt": "2026-11-01T13:35:42+08:00",
     "updatedAt": "2026-11-01T13:35:42+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1563180,
+      "developer": "Cheesecake Dev",
+      "publisher": "Cheesecake Dev",
+      "releaseDate": "2022 年 1 月 7 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "休闲",
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 简体中文, 日语, 波兰语, 葡萄牙语 - 葡萄牙, 俄语, 土耳其语, 韩语",
+      "summary": "网吧模拟器2是一款极其全面和细致的网吧经营模拟游戏。",
+      "description": "该系列的第二款游戏包含更详细和不同的新机制。\n建立一个伟大的网吧。不要让街头暴徒和暴徒拿走你的钱。他们甚至可以在你的咖啡馆里扔炸弹。\n您可以在下雨天吸引更多客户。增加你想从科技树发展的技能。您会成为商业神童还是擅长保护咖啡馆的斗士？\n你必须赚钱还你兄弟的债务！\n留守卫。为您的客户准备餐点。安装发电机以备停电。\n改进计算机。购买游戏授权。取悦客户。把废墟变成一个很棒的咖啡馆。\n作为一个正派的人，他可以正常进行。或者您可能参与完全非法的业务。\n为您的咖啡馆雇用员工并善待他们。\n记住，顾客永远是对的！",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_ff45ed78f3f7dc6c433505468af3c1adbc255abc.1920x1080.jpg?t=1792091892",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_305a761bba7752cac71abc211de6ecdcd1ba5fc3.1920x1080.jpg?t=1792091892",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_afdb6f9f988fb5cdf0cb693a9af59c38ae075a41.1920x1080.jpg?t=1792091892",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_75ac8c8fcc30a59ff7a6bb19aec690915cb01764.1920x1080.jpg?t=1792091892",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_3503de18df462f4b9ff998748762968b957fcb87.1920x1080.jpg?t=1792091892",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_41c867d5be1dbc740d0e9998ea312297e581c71b.1920x1080.jpg?t=1792091892",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1563180/ss_d73d496291214def0e474d253f4c912fda17502a.1920x1080.jpg?t=1792091892"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: Windows 7",
+          "处理器: 2 GHz Dual Core CPU",
+          "内存: 4 GB RAM",
+          "显卡: Intel HD Graphics 4000 or better",
+          "存储空间: 需要 7 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10",
+          "处理器: 2.5 GHz Dual Core CPU",
+          "内存: 6 GB RAM",
+          "显卡: Geforce GTX 970/Radeon RX470 or better",
+          "存储空间: 需要 7 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 76,
+        "initial": 76,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Mostly Positive",
+        "totalReviews": 2118,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 70
+      },
+      "storeUrl": "https://store.steampowered.com/app/1563180/",
+      "fetchedAt": "2026-11-01T19:04:05.723Z"
+    }
   },
   {
     "id": "horror-202611-0002",
     "title": "麦迪逊|失心疯/MADiSON    v3.0.5    免安装中文版",
-    "enTitle": "",
+    "enTitle": "MADiSON",
     "category": "horror",
     "tags": [],
     "platform": "quark",
@@ -82134,13 +82362,75 @@
     "pwd": "",
     "size": "",
     "sizeBytes": null,
-    "cover": "/covers/uef38418497b2.webp",
-    "steamAppID": null,
+    "cover": "/covers/1670870.webp",
+    "steamAppID": 1670870,
     "desc": "MADiSON 是一款第一人称视角的心理恐怖游戏，你将获得出色而惊悚的游戏和剧情体验。 剧情 醒来的时候，你发现自己身处黑暗的房间，双手沾满了鲜血，你会怎么做？游戏中你将扮演Luca（卢卡），不仅会面临恶魔MADiSON的残忍折磨，还会在其逼迫下继续数十年前就已经开始的血腥仪式，犯下种种恶劣的行径。你能否完成这罪恶的仪式呢？ 角色 游戏中的每名角色都有着令人不安的故事，与主要剧情紧密相连。你必须小心谨慎，千万别引来任何不必要的关注。除了你，这里还有其他的存在。 游戏 利用手里的拍立得在折磨中活下来或者深入其中 冲洗亲手拍摄的照片， 直面揭露真相的恐惧 绝不放过任何蛛丝马迹，为了生存将其收入囊中或与其交互 随机发生的事件和变化的谜题能让你获得较高的重复游戏体验。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-01T13:45:58+08:00",
     "updatedAt": "2026-11-01T13:45:58+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1670870,
+      "developer": "BLOODIOUS GAMES",
+      "publisher": "BLOODIOUS GAMES",
+      "releaseDate": "2022 年 7 月 7 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "模拟"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 简体中文, 韩语, 西班牙语 - 拉丁美洲, 日语, 波兰语, 葡萄牙语 - 巴西, 罗马尼亚语, 俄语, 泰语, 土耳其语, 阿拉伯语, 西班牙语 - 西班牙, 捷克语, 繁体中文, 希腊语, 匈牙利语, 瑞典语, 乌克兰语\n具有完全音频支持的语言",
+      "summary": "MADiSON是一款第一人称视角的心理恐怖游戏，它将会为你带来沉浸式的恐怖体验。在拍立得的帮助下，生者与死者的世界因此联通，你需要拍摄并冲洗照片，解开谜题，探索周遭的事物，而最重要的是，活下来。",
+      "description": "MADiSON 是一款第一人称视角的心理恐怖游戏，你将获得出色而惊悚的游戏和剧情体验。\n剧情\n醒来的时候，你发现自己身处黑暗的房间，双手沾满了鲜血，你会怎么做？游戏中你将扮演Luca（卢卡），不仅会面临恶魔MADiSON的残忍折磨，还会在其逼迫下继续数十年前就已经开始的血腥仪式，犯下种种恶劣的行径。你能否完成这罪恶的仪式呢？\n角色\n游戏中的每名角色都有着令人不安的故事，与主要剧情紧密相连。你必须小心谨慎，千万别引来任何不必要的关注。除了你，这里还有其他的存在。\n游戏\n利用手里的拍立得在折磨中活下来或者深入其中\n冲洗亲手拍摄的照片， 直面揭露真相的恐惧\n绝不放过任何蛛丝马迹，为了生存将其收入囊中或与其交互\n随机发生的事件和变化的谜题能让你获得较高的重复游戏体验。\n高质量视觉效果和3D声效让你获得更加沉浸和恐怖的游戏体验\n欢迎加入我们的Discord频道并关注我们的社交媒体频道！",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_f8a79fdf7249fba6c952a69fe9ee85b245390ce5.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_1d6f3f87a77f5bdce8aee3109b3e219d7d0324a8.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_f4b2a32bc27cb61684dd21aee08a00d019ec8b4a.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_9e161d17084767e18d5658e597b8b2a199b95016.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_04b974d739ca319537b804c73a731098f288de67.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_c3bb18d4b6293a05e178f4eb7fb6ded66ad56208.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_4219fbe9fd09df72b0081520fa4d859f8a0d08a8.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_764f95522424549e37acb6de2603a602d5f2438d.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_ae6a386bfbfd1fb61dbd2945f38318fc57494fe6.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_621c13517b9af866f082b26a6f83eb16aaf66558.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_2ac6746e7310a4c7c88df03ce5812502887003c8.1920x1080.jpg?t=1793030910",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1670870/ss_d38e11bdf1ce6ba9843347d1447d46374559e393.1920x1080.jpg?t=1793030910"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: WINDOWS® 7, 8, 8.1, 10, 11",
+          "处理器: Intel® Core™ i3 or AMD Ryzen™ 3",
+          "内存: 6 GB RAM",
+          "显卡: NVIDIA® GeForce® GTX 950 or AMD Radeon™ R7 370",
+          "DirectX 版本: 10",
+          "存储空间: 需要 10 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10",
+          "处理器: Intel® Core™ i5 or AMD Ryzen™ 5",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA® GeForce® GTX 1060 or AMD Radeon™ RX 480",
+          "存储空间: 需要 10 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 74.99,
+        "initial": 124.99,
+        "discountPercent": 40
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 1224,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 85
+      },
+      "storeUrl": "https://store.steampowered.com/app/1670870/",
+      "fetchedAt": "2026-11-01T19:04:09.117Z"
+    }
   }
 ]
