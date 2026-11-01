@@ -1,5 +1,11 @@
 [
   {
+    "hash": "22074b4",
+    "date": "2026-11-01T13:17:40+08:00",
+    "message": "sync: 新增资源《幽灵大师：复生 /Ghost Master Resurrection    Bu》",
+    "url": "https://github.com/xi7ang/GameHub/commit/22074b418ddd7e8c2e2e3a3640e521e07e98040b"
+  },
+  {
     "hash": "c018d43",
     "date": "2026-11-01T13:14:09+08:00",
     "message": "sync: 新增资源《孤山独影/ Cairn   v1.1.593    免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-29T20:54:25+08:00",
     "message": "sync: 新增资源《乐高次元/LEGO Dimensions     游戏v01.24_移植器v1.》",
     "url": "https://github.com/xi7ang/GameHub/commit/f08fb3e151c63eceec07cc93a58607fb334cc5fe"
-  },
-  {
-    "hash": "1c2534e",
-    "date": "2026-10-29T20:50:55+08:00",
-    "message": "sync: 新增资源《皇牌空战零：贝尔卡战争/ACE COMBAT ZERO THE BELKAN W》",
-    "url": "https://github.com/xi7ang/GameHub/commit/1c2534e6e49ab8db68ab5a3eea872750e2ec6167"
   }
 ]
