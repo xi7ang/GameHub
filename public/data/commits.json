@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c018d43",
+    "date": "2026-11-01T13:14:09+08:00",
+    "message": "sync: 新增资源《孤山独影/ Cairn   v1.1.593    免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c018d431f5dc50a92f25f026f22971e55484ee83"
+  },
+  {
     "hash": "ea2aff4",
     "date": "2026-11-01T13:10:53+08:00",
     "message": "sync: 新增资源《生存日志/Survival Log    Build.26294912 送修改器》",
@@ -172,11 +178,5 @@
     "date": "2026-10-29T20:50:55+08:00",
     "message": "sync: 新增资源《皇牌空战零：贝尔卡战争/ACE COMBAT ZERO THE BELKAN W》",
     "url": "https://github.com/xi7ang/GameHub/commit/1c2534e6e49ab8db68ab5a3eea872750e2ec6167"
-  },
-  {
-    "hash": "cabacc2",
-    "date": "2026-10-29T20:47:21+08:00",
-    "message": "sync: 新增资源《恶魔之魂：重制版/Demon’s Souls Remake     游戏v1.0》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cabacc2662335bb691b6950d5ea21344db3141af"
   }
 ]
