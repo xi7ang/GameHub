@@ -1,5 +1,11 @@
 [
   {
+    "hash": "3fd932f",
+    "date": "2026-11-08T23:39:02+08:00",
+    "message": "sync: 新增资源《纸头/PAPERHEAD    v51.1   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/3fd932fabd3f0308682415d2257e6bcafa9f583d"
+  },
+  {
     "hash": "05e5363",
     "date": "2026-11-08T21:24:12+08:00",
     "message": "chore: 每日公告：发布【2026-11-08】游戏资源更新通知（9 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-10-30T14:58:46+08:00",
     "message": "fix(data): 本批 5 条收尾修正",
     "url": "https://github.com/xi7ang/GameHub/commit/136ce3b8a7463034c5f7e69eba69ca9a02479774"
-  },
-  {
-    "hash": "16f9fd0",
-    "date": "2026-10-30T14:57:31+08:00",
-    "message": "sync: 新增资源《魔法觉醒：英雄战歌/Magic Awakening Hero Saga   Bu》",
-    "url": "https://github.com/xi7ang/GameHub/commit/16f9fd0cb49d2e1fb64d43e7c71a6628be2a552b"
   }
 ]
