@@ -82532,5 +82532,25 @@
     "addedAt": "2026-11-08T23:53:55+08:00",
     "updatedAt": "2026-11-08T23:53:55+08:00",
     "month": "202611"
+  },
+  {
+    "id": "simulation-202611-0003",
+    "title": "深空当铺：可能是偷的/Probably Stolen    Build.26317870    免安装中文版",
+    "enTitle": "",
+    "category": "simulation",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/53c483af6f8f",
+    "pwd": "",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/u5001ddccf24a.webp",
+    "steamAppID": null,
+    "desc": "更新内容 查看所有更新 累积更新 – 1.0.0.12 新功能 Dialogue: 对话:现在您可以点击对话气泡或名称气泡,以自动和手动预先模式推进对话。 空间仍然像以前一样有效。 Options: 可选:添加了“对话气泡大小”,可将商店和手机上的语音气泡、名称标签和回复选项从50%缩放至150%。 Options: 选项:已添加“将购买的物品移动至库存”(默认为)。 选项:在 Gameplay 中新增了“禁用流行文化角色”,阻止流行文化激发顾客(Case Enjoper 和 Foodie Tourist)无法前往商店。 电源线劫持现在也使得电流转换器运行成本降低15%,并允许它们在停电期间工作。 新增了电源线Hijack II和III,这使得电流转换器运行成本更低。 现在可以重新进色了Intake和Outlet Hoppers。 激活新模组时,改进了警告显示。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-08T23:57:01+08:00",
+    "updatedAt": "2026-11-08T23:57:01+08:00",
+    "month": "202611"
   }
 ]

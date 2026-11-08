@@ -1,5 +1,11 @@
 [
   {
+    "hash": "9a86c9f",
+    "date": "2026-11-08T23:53:58+08:00",
+    "message": "sync: 新增资源《赛菲莉娅/ Sephiria / 单机+联机   v1.1.1  免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9a86c9f74828ef22ca9f7506400f2f60ad9bb3bc"
+  },
+  {
     "hash": "8812381",
     "date": "2026-11-08T23:50:55+08:00",
     "message": "sync: 新增资源《女王魔域/Queen’s Domain   v1.01.03   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-31T03:08:30+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/6792b1e662a58ff42a163f1d93f0c215c88f1720"
-  },
-  {
-    "hash": "bf73194",
-    "date": "2026-10-31T03:04:04+08:00",
-    "message": "data: 克里萨纳官方封面 5089240",
-    "url": "https://github.com/xi7ang/GameHub/commit/bf731948a9fc049b2d04a7905dc6da582dd768f9"
   }
 ]
