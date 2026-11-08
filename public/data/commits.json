@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8812381",
+    "date": "2026-11-08T23:50:55+08:00",
+    "message": "sync: 新增资源《女王魔域/Queen’s Domain   v1.01.03   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/88123817b1ae9ccf2975b4a6ac647da0811fb0ff"
+  },
+  {
     "hash": "ae42069",
     "date": "2026-11-08T23:47:32+08:00",
     "message": "sync: 新增资源《自在城镇/Town To City   v1.1.1.11298  免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-31T03:04:04+08:00",
     "message": "data: 克里萨纳官方封面 5089240",
     "url": "https://github.com/xi7ang/GameHub/commit/bf731948a9fc049b2d04a7905dc6da582dd768f9"
-  },
-  {
-    "hash": "150673a",
-    "date": "2026-10-30T20:32:10+08:00",
-    "message": "chore: 每日公告：发布【2026-10-30】游戏资源更新通知（10 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/150673a93c26422840ed81ed7df60dbce6aea60d"
   }
 ]
