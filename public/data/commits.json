@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ba385a9",
+    "date": "2026-11-09T13:31:22+08:00",
+    "message": "sync: 新增资源《木木屋/Woodo    v811    免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ba385a9d4ac25ff1b290f65eb5c3b729313cfe2f"
+  },
+  {
     "hash": "49a481f",
     "date": "2026-11-09T13:25:23+08:00",
     "message": "Merge remote-tracking branch 'origin/main'",
@@ -172,11 +178,5 @@
     "date": "2026-10-31T20:37:59+08:00",
     "message": "sync: 新增资源《永恒空间2/EVERSPACE 2    Build.25503461  全DL》",
     "url": "https://github.com/xi7ang/GameHub/commit/19c089b95dc35c2f3aec32ca51e233a242ab5977"
-  },
-  {
-    "hash": "e7c255f",
-    "date": "2026-10-31T20:34:40+08:00",
-    "message": "sync: 新增资源《索尼克：释放/Sonic Unleashed   v1.0.3   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e7c255faf62ca92c5730b54c721a189a3865a63b"
   }
 ]
