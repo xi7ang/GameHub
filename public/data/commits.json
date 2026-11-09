@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5efffc9",
+    "date": "2026-11-09T13:41:22+08:00",
+    "message": "sync: 新增资源《利维坦：犀牛/Leviathan Rhino   Build.26483084 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5efffc908d9ba8fbf09f3dbea0002531db83b19d"
+  },
+  {
     "hash": "f92b020",
     "date": "2026-11-09T13:36:32+08:00",
     "message": "sync: 新增资源《精灵女猎手：阳光之幕/Elven Huntress Sunveil   Buil》",
@@ -172,11 +178,5 @@
     "date": "2026-10-31T20:42:15+08:00",
     "message": "style: 收紧首页 hero 布局，首屏多展示下方内容",
     "url": "https://github.com/xi7ang/GameHub/commit/3238b1876786d76db2b13349c0487db9ca0ec02e"
-  },
-  {
-    "hash": "cd360cc",
-    "date": "2026-10-31T20:41:30+08:00",
-    "message": "sync: 新增资源《星球大战：银河赛车手-虚/STAR WARS Galactic Racer HY》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cd360ccfb53d19236ecd1d0eb6f8e81209c52272"
   }
 ]
