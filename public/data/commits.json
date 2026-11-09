@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f92b020",
+    "date": "2026-11-09T13:36:32+08:00",
+    "message": "sync: 新增资源《精灵女猎手：阳光之幕/Elven Huntress Sunveil   Buil》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f92b0207c6b26e03931bcf3746c7a29e823eb33c"
+  },
+  {
     "hash": "ba385a9",
     "date": "2026-11-09T13:31:22+08:00",
     "message": "sync: 新增资源《木木屋/Woodo    v811    免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-10-31T20:41:30+08:00",
     "message": "sync: 新增资源《星球大战：银河赛车手-虚/STAR WARS Galactic Racer HY》",
     "url": "https://github.com/xi7ang/GameHub/commit/cd360ccfb53d19236ecd1d0eb6f8e81209c52272"
-  },
-  {
-    "hash": "19c089b",
-    "date": "2026-10-31T20:37:59+08:00",
-    "message": "sync: 新增资源《永恒空间2/EVERSPACE 2    Build.25503461  全DL》",
-    "url": "https://github.com/xi7ang/GameHub/commit/19c089b95dc35c2f3aec32ca51e233a242ab5977"
   }
 ]
