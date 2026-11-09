@@ -1,5 +1,29 @@
 [
   {
+    "hash": "49a481f",
+    "date": "2026-11-09T13:25:23+08:00",
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "url": "https://github.com/xi7ang/GameHub/commit/49a481f096f7df5a67c6178dfbba90a18d1076c9"
+  },
+  {
+    "hash": "2cafe79",
+    "date": "2026-11-09T13:08:50+08:00",
+    "message": "sync: 新增资源《蹄印湾马场/Horses of Hoofprint Bay   v1.0.1  》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2cafe79235b01099d1c8d3641532907bc63fbe9c"
+  },
+  {
+    "hash": "da60612",
+    "date": "2026-11-09T08:01:13+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/da6061210bb4ef4df9d0f878d4b6519ca9542f7e"
+  },
+  {
+    "hash": "c1e9d02",
+    "date": "2026-11-09T03:05:26+08:00",
+    "message": "data: 上传官方封面 2680280、3115220、1799840、4348910",
+    "url": "https://github.com/xi7ang/GameHub/commit/c1e9d023fcde963cfcce4e4f61a6ff7afdd4d9eb"
+  },
+  {
     "hash": "37d8ca7",
     "date": "2026-11-08T23:57:04+08:00",
     "message": "sync: 新增资源《深空当铺：可能是偷的/Probably Stolen    Build.2631》",
@@ -154,29 +178,5 @@
     "date": "2026-10-31T20:34:40+08:00",
     "message": "sync: 新增资源《索尼克：释放/Sonic Unleashed   v1.0.3   免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/e7c255faf62ca92c5730b54c721a189a3865a63b"
-  },
-  {
-    "hash": "d00746e",
-    "date": "2026-10-31T20:30:38+08:00",
-    "message": "chore: 每日公告：发布【2026-10-31】游戏资源更新通知（1 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/d00746e2685954570bf164cbe1bc28376670b992"
-  },
-  {
-    "hash": "3311315",
-    "date": "2026-10-31T20:26:34+08:00",
-    "message": "merge: 合并远端（克里萨纳封面/分类、Steam 资料）与本地新资源",
-    "url": "https://github.com/xi7ang/GameHub/commit/3311315d5910e75185e9b4fb8e7929946c873a08"
-  },
-  {
-    "hash": "9fa8ed6",
-    "date": "2026-10-31T20:25:01+08:00",
-    "message": "sync: 新增资源《最后车队/Geargrave Outlands   v20261026   免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9fa8ed66c12b61ebbeeabc5a74127a4242a185cf"
-  },
-  {
-    "hash": "5ab8346",
-    "date": "2026-10-31T08:59:44+08:00",
-    "message": "data: 克里萨纳分类改为休闲",
-    "url": "https://github.com/xi7ang/GameHub/commit/5ab8346b68c91aea9ddc020b0734b65a5e7278f9"
   }
 ]
