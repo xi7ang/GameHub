@@ -82856,54 +82856,178 @@
   {
     "id": "other-202611-0004",
     "title": "格林默威克之歌/Songs of Glimmerwick   Build.26413938  免安装中文版",
-    "enTitle": "",
+    "enTitle": "Songs of Glimmerwick",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/e14708992fe6?pwd=KvmZ",
     "pwd": "KvmZ",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u1769875d9e70.webp",
-    "steamAppID": null,
+    "size": "1.4GB",
+    "sizeBytes": 1524016736,
+    "cover": "/covers/1706510.webp",
+    "steamAppID": 1706510,
     "desc": "更新内容 查看所有更新 版本 1.11 和 1.12 固定字符相互堆积,并被困在威斯克入口桥以东 固定胡萝卜籽不分类 梅尔的瓶子与围巾日之间的固定冲突 (对于已经存在该漏洞的人,您需要从前一天晚上开始,抱歉!) 修复了在寂静之殿中与音乐室修复相冲突的加里会面的漏洞 使用快速转账或直接从手工烘焙店将烘焙食品倒在地板上时,对明星面包师的管理进行固定监督 游泳时能够快速旅行的修复 在Steam Deck上为扳机和保险杠制作正确的格子 某些可读性中用于非字体的固定字体 更新后的本地化字符串,一些仅用英语的字符串现在应具有翻译 游戏介绍 微光维克因其魔法学校而闻名遐迩，而幸运的是，你已经是其中一员！在这个林地奇幻世界中，演奏音乐是施展法术的秘密。古老歌谣能让园艺工作事半功倍，也是探索岛屿每个角落的关键。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-10T10:17:19+08:00",
     "updatedAt": "2026-11-10T10:17:19+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1706510,
+      "developer": "Eastshade Studios",
+      "publisher": "Eastshade Studios",
+      "releaseDate": "2026 年 9 月 30 日",
+      "genres": [
+        "冒险",
+        "角色扮演"
+      ],
+      "languages": "英语, 法语, 德语, 俄语, 日语, 简体中文, 葡萄牙语 - 巴西, 西班牙语 - 西班牙\n具有完全音频支持的语言",
+      "summary": "沉浸在一个音乐与林地奇幻交织的世界中，施展法术就像演奏歌曲般轻松自如。在这款剧情导向的女巫学院RPG游戏中，你将上课学习、打理学校花园、与同学与镇民建立友谊，并探索岛上诸多奇闻异事与谜团。",
+      "description": "微光维克因其魔法学校而闻名遐迩，而幸运的是，你已经是其中一员！在这个林地奇幻世界中，演奏音乐是施展法术的秘密。古老歌谣能让园艺工作事半功倍，也是探索岛屿每个角落的关键。带着你信赖的长笛和歌本，你将上课学习、加入课后社团、与同学和镇民建立友谊，并揭开微光维克诸多奇闻异事与谜团——在这款平和、剧情导向的RPG游戏中，尽情享受一整年的四季变化、节庆活动、诅咒风波，以及充满女巫气息的嬉闹趣事。\n游戏特色\nRPG风格任务\n循序展开的叙事任务，着重描绘独特角色与故事。\n照料学校花园\n栽种平凡作物！培育奥秘之物！召唤云朵降下雨水！\n每一首歌都是法术\n借助音乐的力量与树木交谈，给工具施法让它们自动工作，抬升地面以越过天然障碍等等！\n鲜活的世界\n有课要上，有神秘传闻可探听，有当地轶事可关注，还有熙攘热闹的节日——微光维克的学生、教职员工、镇民以及活跃的精灵生物都拥有丰富的故事和生活。\n全程配音\n无论戏份轻重，每个角色的对话都因出色表演而栩栩如生。\n角色成长\n随着你在冒险中获得经验，你可以选择能够帮助自己打理花园、进行交易或取得特殊能力的技能，比如与青蛙交谈！\n自定义外观\n选择你的外貌。\n课外活动\n在微光维克，课堂之外也有很多事可做——探索岛屿、加入乐队、钓鱼、潜入水中寻找贝壳，或者与绿精灵一同展开森林探险。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/8f81aa9749570b1101434d289e65923e8d0ad3ed/ss_8f81aa9749570b1101434d289e65923e8d0ad3ed.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_694e8977429e866f98b221e02d313ac8c3e7ae78.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/d1679309c946e407de8e9a7f0caef1cf9710f3d9/ss_d1679309c946e407de8e9a7f0caef1cf9710f3d9.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/4b132873db451efda6964f55044bfe8966f27d89/ss_4b132873db451efda6964f55044bfe8966f27d89.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_78cc9dec9f20385c6dcc8e789c37fb738f2c674a.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/16df3d43a568262f58afc072a60f514285c530d5/ss_16df3d43a568262f58afc072a60f514285c530d5.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_95fec42318115decc133c66223268d5deaae08c2.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_646d51d4a1ef2aa01b151a1fad35a958f522bb65.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_ac9e637aa79f55b67825be2cac8ac5629d44f2b5.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/b482f7dfe2095e29ee7e8c67294e6152e02c9f75/ss_b482f7dfe2095e29ee7e8c67294e6152e02c9f75.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_dfea81fae09fdb88b526115235c6ed9bc7c5c44c.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_2137e4d37142fd813ea948ea5a156e3e6bcfa84a.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_ae687bb453ddb51fc333aef3e4f40dbed9b99558.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_2f8a6efb29d82e6ffc9c8fcd2da18f8560e585fd.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_4873b94fbc948dd8196a2513cd79f3da96d6598c.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_f49189a4c61d1eb780db91e91f6a6c0864c6ceba.1920x1080.jpg?t=1792629844",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1706510/ss_5e3a90966d79d02edfc222d8e4921bd6bcbee554.1920x1080.jpg?t=1792629844"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7 64bit",
+          "处理器: Dual-core processor (Intel Dual Core 2.0 GHz or AMD Athlon X2 5200+ 2.6 GHz)",
+          "内存: 6 GB RAM",
+          "显卡: Geforce 9600 GS, Radeon HD4000, Shader Model 3.0, 512 MB",
+          "DirectX 版本: 9.0c",
+          "存储空间: 需要 5 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 93,
+        "initial": 93,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 448,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 92
+      },
+      "storeUrl": "https://store.steampowered.com/app/1706510/",
+      "fetchedAt": "2026-11-10T18:59:19.978Z"
+    }
   },
   {
     "id": "puzzle-202611-0002",
     "title": "银松镇/Silver Pines     Build.26489514    免安装中文版",
-    "enTitle": "",
+    "enTitle": "Silver Pines",
     "category": "puzzle",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/edc12f031c50?pwd=6Reu",
     "pwd": "6Reu",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/5324770.webp",
-    "steamAppID": 5324770,
+    "size": "2.6GB",
+    "sizeBytes": 2775791630,
+    "cover": "/covers/2333000.webp",
+    "steamAppID": 2333000,
     "desc": "更新内容 查看所有更新 银松木热修复3现已登陆Steam 附加 使用某些用户界面来增加字体大小,游戏界面现在允许在“显示”设置下使用“UI Scalite”选项,最多可扩展110%。 添加一个选项,将相机从快速菜单中排除。 支持双感灯条控制器。 现在可以在游戏正装时从主菜单中按下“新游戏”,因此您无需再删除个人资料或切换个人资料即可开始新游戏。 修复 修复某些宽高比被切断的速度运行时用户界面。 修复殡仪馆地图上出现错误的储物箱。 数据损坏时可节省处理的改进。 修复了在某些情况下能够拍摄比允许的更多照片的问题。 本地化和文本修复。 楼梯和梯形穿越图标的用户界面改进,现在看起来更流畅,在某些地方已不再显示。 将警长安全解谜输入的弱项弱,以不允许误报。 在尝试互动时,应被敌人击中,使玩家角色无法转身。 使用卡带播放器在警长部门修复软锁。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-10T10:24:01+08:00",
     "updatedAt": "2026-11-10T10:24:01+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2333000,
+      "developer": "Wych Elm",
+      "publisher": "Team17",
+      "releaseDate": "2026 年 10 月 8 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 日语, 简体中文, 繁体中文, 葡萄牙语 - 巴西, 西班牙语 - 拉丁美洲, 俄语\n具有完全音频支持的语言",
+      "summary": "《银松镇》是一款生存、恐怖、类银河战士恶魔城游戏，背景设定在美国小镇。在噩梦般的恐怖中奋战，破解重重谜题，同时管理稀缺资源，逐步揭开那些可能掌握救赎之钥的谜团。",
+      "description": "寻找 Eddie Velvet。\n私家侦探 Red Walker 来到了半荒废、半遗忘的偏远小镇银松镇，只为追查 Eddie Velvet 的下落。Velvet 是一位失踪的音乐家。随着案件逐渐揭开一段黑暗的过往，Walker 很快便陷入了一种诡异且如噩梦般的失控坠落状态。\n踏上一段恐惧氛围十足的旅程。被往昔阴影所困扰的银松镇正等待着揭开它黑暗的秘密。\n***\n一封致敬经典生存恐怖游戏的情书。在搜刮资源、破解阻挡去路的谜题时，你必须直面或躲避小镇中的种种恐怖。\n***\n紧锁的门扉与隐秘的路径无处不在，每一次转弯都可能揭开未被发现的线索、资源或是黑暗中蛰伏的未知事物。随着更精良的工具和武器逐渐解锁，小镇中越来越多的区域将变得可探索。\n***\n这座城镇的恐怖之处在于，这里栖息着种类繁多的强悍怪物与魁梧首领，每场遭遇战都充满紧张与危险。\n***\n物品栏的空间有限。尽可能地寻找物品吧，每颗子弹、每瓶药品和每次升级都至关重要。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/a7630a1d9bee1267d7ebec560e2285aff46d82c9/ss_a7630a1d9bee1267d7ebec560e2285aff46d82c9.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/3ab713a4a26d907522067941ecff9376bd5e7401/ss_3ab713a4a26d907522067941ecff9376bd5e7401.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/db5c8786cb3398017379a6d8d9df505b7e40eb46/ss_db5c8786cb3398017379a6d8d9df505b7e40eb46.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/57ae4a463c25fe5a06ad03dcdefc48b9b4d3ebb9/ss_57ae4a463c25fe5a06ad03dcdefc48b9b4d3ebb9.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2e1a1a86a223ee5e2e8eb64e61cffabbc669d866/ss_2e1a1a86a223ee5e2e8eb64e61cffabbc669d866.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/25d572980312d1b992301eb9d3fcd06f22024bf6/ss_25d572980312d1b992301eb9d3fcd06f22024bf6.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/2bf2ccbadb0bd68ca3d1c6d55d308e75a442de27/ss_2bf2ccbadb0bd68ca3d1c6d55d308e75a442de27.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/ee75589e9bc5179e298dc3560868f74104afdc98/ss_ee75589e9bc5179e298dc3560868f74104afdc98.1920x1080.jpg?t=1793974979",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/e039a95bd262bd2214b8b447145f4f6a9eb50ee3/ss_e039a95bd262bd2214b8b447145f4f6a9eb50ee3.1920x1080.jpg?t=1793974979"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: Intel Core i5-4460 or AMD Ryzen 3 1200",
+          "内存: 8 GB RAM",
+          "显卡: NIVIDIA GeForce GTX 660 Ti, AMD Radeon R9 270X",
+          "DirectX 版本: 11",
+          "存储空间: 需要 5 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: Intel Core i5-6600 or AMD Ryzen 5 1600",
+          "内存: 8 GB RAM",
+          "显卡: NIVIDIA GeForce GTX 770, AMD Radeon R9 380",
+          "DirectX 版本: 11",
+          "存储空间: 需要 5 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 90,
+        "initial": 90,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 2591,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 97
+      },
+      "storeUrl": "https://store.steampowered.com/app/2333000/",
+      "fetchedAt": "2026-11-10T18:59:23.866Z"
+    }
   },
   {
     "id": "horror-202611-0005",
     "title": "克里夫·巴克猛鬼追魂：复苏/ Clive Barker’s Hellraiser Revival   Build.26259912  免安装中文版",
-    "enTitle": "",
-    "category": "horror",
+    "enTitle": "Clive Barker's Hellraiser: Revival",
+    "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/67f17cfca039?pwd=LkgY",
     "pwd": "LkgY",
-    "size": "",
-    "sizeBytes": null,
+    "size": "66.6GB",
+    "sizeBytes": 71563884324,
     "cover": "/covers/1551980.webp",
     "steamAppID": 1551980,
     "desc": "置身传奇惊悚系列，体验前所未有的全新篇章。《克里夫·巴克猛鬼追魂：复苏》将第一人称动作恐怖生存游戏提升到了全新高度。 扮演艾登进行游戏，在游戏中利用一个名叫创世之匣的神秘拼图盒的力量，帮助他的女友桑妮逃离这个异世界地狱迷宫。 掌控拼图盒的强大力量，直面与邪恶人物大头针的交易，并与地狱使者的恐怖信徒殊死搏斗。 经典《猛鬼追魂》的全新篇章 – 大头针的仪式在无意中启动，释放前所未有的极致痛苦与快感。 掌控拼图盒的力量 – 将创世之匣独特而恐怖的能力与一系列现实武器结合起来，对受虐成性的敌人施加令人筋骨爆裂、皮焦肉烂的痛苦。或许，这其实是一种快感？ 对抗邪恶敌人 – 在剧情驱动的惊悚生存游戏中，与地狱的恶徒、堕落者、狂信者，甚至是最恐怖的地狱祭司展开对决。",
@@ -82911,46 +83035,226 @@
     "featured": false,
     "addedAt": "2026-11-10T10:29:03+08:00",
     "updatedAt": "2026-11-10T10:29:03+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1551980,
+      "developer": "Saber Interactive",
+      "publisher": "Saber Interactive",
+      "releaseDate": "2026 年 10 月 8 日",
+      "genres": [
+        "动作"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 俄语, 简体中文, 葡萄牙语 - 巴西\n具有完全音频支持的语言",
+      "summary": "置身传奇惊悚系列，体验前所未有的全新篇章。《克里夫·巴克猛鬼追魂：复苏》将第一人称动作恐怖生存游戏提升到了全新高度。",
+      "description": "置身传奇惊悚系列，体验前所未有的全新篇章。《克里夫·巴克猛鬼追魂：复苏》将第一人称动作恐怖生存游戏提升到了全新高度。\n扮演艾登进行游戏，在游戏中利用一个名叫创世之匣的神秘拼图盒的力量，帮助他的女友桑妮逃离这个异世界地狱迷宫。\n掌控拼图盒的强大力量，直面与邪恶人物大头针的交易，并与地狱使者的恐怖信徒殊死搏斗。\n经典《猛鬼追魂》的全新篇章 – 大头针的仪式在无意中启动，释放前所未有的极致痛苦与快感。\n掌控拼图盒的力量 – 将创世之匣独特而恐怖的能力与一系列现实武器结合起来，对受虐成性的敌人施加令人筋骨爆裂、皮焦肉烂的痛苦。或许，这其实是一种快感？\n对抗邪恶敌人 – 在剧情驱动的惊悚生存游戏中，与地狱的恶徒、堕落者、狂信者，甚至是最恐怖的地狱祭司展开对决。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/ee693688114623ede11637a3aceeb24636b85fae/ss_ee693688114623ede11637a3aceeb24636b85fae.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/957f5c82ab19603419738c47e96f4a4c750e8214/ss_957f5c82ab19603419738c47e96f4a4c750e8214.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/678f626dbe4c7aee9a9be3adc7d8fe40749b14ce/ss_678f626dbe4c7aee9a9be3adc7d8fe40749b14ce.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/21d919f04b42d75acc471040851b9b34fe39fee1/ss_21d919f04b42d75acc471040851b9b34fe39fee1.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/9b74be37e56cceaae86904138eefe0b80cff3531/ss_9b74be37e56cceaae86904138eefe0b80cff3531.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/2aa71fefa0c6e99f07dc2d3fba09607fb26e82ca/ss_2aa71fefa0c6e99f07dc2d3fba09607fb26e82ca.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/bf55a0ac040064dba42864b59be7a156cca57925/ss_bf55a0ac040064dba42864b59be7a156cca57925.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/486582a5ff8ef90a1ca3001dac987b0b2a09e381/ss_486582a5ff8ef90a1ca3001dac987b0b2a09e381.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/7307075fe131105a3ae0b7ff55d0fa3a72605d9a/ss_7307075fe131105a3ae0b7ff55d0fa3a72605d9a.1920x1080.jpg?t=1791462446",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551980/7a04586b6c5c373d99ee8abde6965540ef269660/ss_7a04586b6c5c373d99ee8abde6965540ef269660.1920x1080.jpg?t=1791462446"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit + (22H2 update or later)",
+          "处理器: AMD Ryzen 5 1500X, Intel Core i5-8400",
+          "内存: 8 GB RAM",
+          "显卡: AMD Radeon RX Vega 64 8GB, NVIDIA GeForce GTX 1660",
+          "存储空间: 需要 80 GB 可用空间",
+          "附注事项: SSD is recommended"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit + (22H2 update or later)",
+          "处理器: AMD Ryzen 5 5600X, Intel Core i5-12400F",
+          "内存: 16 GB RAM",
+          "显卡: AMD Radeon RX 6600 XT, NVIDIA RTX 3060",
+          "存储空间: 需要 80 GB 可用空间",
+          "附注事项: SSD is recommended"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 175.2,
+        "initial": 219,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 5310,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 93
+      },
+      "storeUrl": "https://store.steampowered.com/app/1551980/",
+      "fetchedAt": "2026-11-10T18:59:27.440Z"
+    }
   },
   {
     "id": "casual-202611-0001",
     "title": "守城英雄传/Legend of Defenders   v1.0.6   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Legend of Defenders",
     "category": "casual",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/d7b73532396c?pwd=hpbP",
     "pwd": "hpbP",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "436.9MB",
+    "sizeBytes": 458170352,
+    "cover": "/covers/4740930.webp",
+    "steamAppID": 4740930,
     "desc": "享受零内购的纯粹单机体验，用英雄与防御塔筑起火力防线，在怪潮中守住你的城堡！把游戏切到后台自动战斗，就能轻松挂机积累资源。随着怪物强度不断提升，强化火力、调整英雄配队与防御塔布置；在关键时刻释放英雄大招，打出逆转战局的爽快一击！每一次守城都会让你的阵容更强、防线更稳，逐步打造出让怪潮寸步难进的坚固要塞。游戏还支持老板键，方便随时隐藏，摸鱼也能安心守城。 招募新的英雄，搭配防御塔，不断扩充你的守城阵容！ 每个单位都有独特效果与优势区间，不同元素、攻击方式和控制效果之间还能形成多样搭配。你可以选择高频输出压制怪潮，用范围伤害快速清场，也可以依靠集中爆发处理强敌。应对每一波怪潮，逐步打磨出最适合自己的守城流派。灵活编队、调整火力，让每一次布阵都成为守住城堡的关键！ 把每一份挂机的收益都变成更强的火力！",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-10T10:33:41+08:00",
     "updatedAt": "2026-11-10T10:33:41+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4740930,
+      "developer": "KaiPlay Studio",
+      "publisher": "Gamersky Games",
+      "releaseDate": "2026 年 11 月 2 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "languages": "简体中文, 英语, 日语, 繁体中文, 韩语",
+      "summary": "超爽塔防，轻松挂机，战力无限飙升，享受零内购的纯粹单机体验！排兵布阵，防线自动阻击汹涌怪潮，后台挂机也能积累资源。利用摸鱼间隙或碎片时间招募角色、升级塔防，提升你的防线战力，让你的城堡从临时搭建的防线逐步成长为固若金汤的要塞！ P.S. 游戏支持老板键一键隐藏，随时随地安心守城！",
+      "description": "享受零内购的纯粹单机体验，用英雄与防御塔筑起火力防线，在怪潮中守住你的城堡！把游戏切到后台自动战斗，就能轻松挂机积累资源。随着怪物强度不断提升，强化火力、调整英雄配队与防御塔布置；在关键时刻释放英雄大招，打出逆转战局的爽快一击！每一次守城都会让你的阵容更强、防线更稳，逐步打造出让怪潮寸步难进的坚固要塞。游戏还支持老板键，方便随时隐藏，摸鱼也能安心守城。\n招募新的英雄，搭配防御塔，不断扩充你的守城阵容！\n每个单位都有独特效果与优势区间，不同元素、攻击方式和控制效果之间还能形成多样搭配。你可以选择高频输出压制怪潮，用范围伤害快速清场，也可以依靠集中爆发处理强敌。应对每一波怪潮，逐步打磨出最适合自己的守城流派。灵活编队、调整火力，让每一次布阵都成为守住城堡的关键！\n把每一份挂机的收益都变成更强的火力！分配金币、经验与天赋点，升级英雄、防御塔与城堡设施，搭配技能树、宝物和装备，把阵容战力和防线强度一路堆高。放置积累资源，收菜完成养成，再去抵御更强的怪潮——无需时刻紧盯战场，也能让城堡越打越强。再次迎战怪潮时，曾经难缠的Boss也能被一波集火快速击败！\n城墙已经筑起，怪潮仍在逼近。开始经营你的后台防线，在一波又一波守城战中积累资源，迎接更多挑战！",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/75dc37021ff6358e00ca75f13bd6d0d7256b4493/ss_75dc37021ff6358e00ca75f13bd6d0d7256b4493.1920x1080.jpg?t=1793778203",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/8d3b06b4d2c5ea399ec6a148ace1eb69d7c4050e/ss_8d3b06b4d2c5ea399ec6a148ace1eb69d7c4050e.1920x1080.jpg?t=1793778203",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/93623095a08c408cc50fa1899be57533e26b15cc/ss_93623095a08c408cc50fa1899be57533e26b15cc.1920x1080.jpg?t=1793778203",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/f28aea67d7e0d765ac87db1651361361ace0bfe9/ss_f28aea67d7e0d765ac87db1651361361ace0bfe9.1920x1080.jpg?t=1793778203",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/068623997dc80bb0efecbcdf1bff1e1b633db49a/ss_068623997dc80bb0efecbcdf1bff1e1b633db49a.1920x1080.jpg?t=1793778203",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/c1305390b1ba1372da2c6d65c462149a54732983/ss_c1305390b1ba1372da2c6d65c462149a54732983.1920x1080.jpg?t=1793778203",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4740930/6307ed020842d5fd8136d23d49152108b6cfc3ca/ss_6307ed020842d5fd8136d23d49152108b6cfc3ca.1920x1080.jpg?t=1793778203"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 version 21H1 or newer, 64-bit",
+          "处理器: Intel Core i3 or AMD equivalent",
+          "内存: 8 GB RAM",
+          "显卡: DirectX 11 compatible graphics card with 1 GB VRAM",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间",
+          "声卡: DirectX compatible",
+          "附注事项: 64-bit processor and operating system required."
+        ],
+        "recommended": [
+          "操作系统: Windows 10/11 64-bit",
+          "处理器: Intel Core i5 or AMD equivalent",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1060 / AMD Radeon RX 580 or better",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间",
+          "声卡: DirectX compatible",
+          "附注事项: 64-bit processor and operating system required."
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 37.8,
+        "initial": 54,
+        "discountPercent": 30
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 557,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 80
+      },
+      "storeUrl": "https://store.steampowered.com/app/4740930/",
+      "fetchedAt": "2026-11-10T18:59:31.125Z"
+    }
   },
   {
     "id": "shooter-202611-0001",
     "title": "无限摩托骑行/Motorcycle Ride Infinity   Build.26472121   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Motorcycle Ride: Infinity",
     "category": "shooter",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/083744b9a69b?pwd=9o5s",
     "pwd": "9o5s",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u98863edf15f0.webp",
-    "steamAppID": null,
+    "size": "4.2GB",
+    "sizeBytes": 4532115976,
+    "cover": "/covers/3895080.webp",
+    "steamAppID": 3895080,
     "desc": "Motorcycle Ride: Infinity – 开启音乐。拧动油门。无拘无束。 踏上辽阔公路，穿梭于车流之间，体验摩托车骑行的纯粹自由。探索不同的公路风景，收集各式机车，随心个性化改装，不断突破自我极限。 随心驰骋 探索辽阔高速公路、蜿蜒盘山路与风景旖旎的观光路线。 穿梭于车流之中，完成炫酷翘头特技，飙破250公里/小时。 沉浸于逼真的第一人称骑行视角，聆听澎湃的引擎与排气声浪。 在背景中畅听喜爱的音乐，在Steam排行榜上冲击骑行距离纪录。 打造专属车库 赚取收益，购置全新摩托，不断丰富你的机车收藏。 随心定制涂装、个性贴纸与改装配件，打造专属坐骑。 清洗养护爱车，维修损伤部位，让每辆车都独具灵魂。 彰显个性风格 定制独特涂装与酷炫贴花，定义你的个人风采。 搭配钥匙扣、小挂件与毛绒饰品，让摩托充满温度与个性。 解锁更多新车，从车库中直接浏览并选购商店精品。 你的公路。你的机车。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-10T10:38:20+08:00",
     "updatedAt": "2026-11-10T10:38:20+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3895080,
+      "developer": "Blightcore Studio",
+      "publisher": "Blightcore Studio",
+      "releaseDate": "2026 年 11 月 6 日",
+      "genres": [
+        "独立",
+        "竞速",
+        "模拟"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 繁体中文, 日语, 波兰语, 葡萄牙语 - 葡萄牙, 俄语, 土耳其语, 西班牙语 - 西班牙, 阿拉伯语, 简体中文, 葡萄牙语 - 巴西, 保加利亚语, 丹麦语, 印度尼西亚语, 荷兰语, 芬兰语, 韩语, 西班牙语 - 拉丁美洲, 匈牙利语, 马来语, 挪威语, 罗马尼亚语, 泰语, 乌克兰语, 越南语, 希腊语, 捷克语, 瑞典语",
+      "summary": "踏上辽阔公路，穿梭于车流之间，体验摩托车骑行的纯粹自由。探索不同的公路风景，收集各式机车，随心个性化改装，不断突破自我极限。",
+      "description": "Motorcycle Ride: Infinity – 开启音乐。拧动油门。无拘无束。\n踏上辽阔公路，穿梭于车流之间，体验摩托车骑行的纯粹自由。探索不同的公路风景，收集各式机车，随心个性化改装，不断突破自我极限。\n随心驰骋\n探索辽阔高速公路、蜿蜒盘山路与风景旖旎的观光路线。\n穿梭于车流之中，完成炫酷翘头特技，飙破250公里/小时。\n沉浸于逼真的第一人称骑行视角，聆听澎湃的引擎与排气声浪。\n在背景中畅听喜爱的音乐，在Steam排行榜上冲击骑行距离纪录。\n打造专属车库\n赚取收益，购置全新摩托，不断丰富你的机车收藏。\n随心定制涂装、个性贴纸与改装配件，打造专属坐骑。\n清洗养护爱车，维修损伤部位，让每辆车都独具灵魂。\n彰显个性风格\n定制独特涂装与酷炫贴花，定义你的个人风采。\n搭配钥匙扣、小挂件与毛绒饰品，让摩托充满温度与个性。\n解锁更多新车，从车库中直接浏览并选购商店精品。\n你的公路。你的机车。你的旅程。\n《Motorcycle Ride: Infinity》目前处于积极开发阶段，未来更新将带来更多丰富内容与全方位优化。\n立即加入愿望单，启程出发！",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/4690a52a38cd2d3a786822cdcc91fd495959b374/ss_4690a52a38cd2d3a786822cdcc91fd495959b374.1920x1080.jpg?t=1793984431",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/dd34db6b8fcf18f2eab4f0fcdf456c36c6ee9cdf/ss_dd34db6b8fcf18f2eab4f0fcdf456c36c6ee9cdf.1920x1080.jpg?t=1793984431",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/fc9314c07392ec101a28ef4ee82662e7149455ed/ss_fc9314c07392ec101a28ef4ee82662e7149455ed.1920x1080.jpg?t=1793984431",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/8e89685b106433a91140cd7821f2a7fd89142a23/ss_8e89685b106433a91140cd7821f2a7fd89142a23.1920x1080.jpg?t=1793984431",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/18447063d105b6e0d1f8317b1ae50b0176aef91d/ss_18447063d105b6e0d1f8317b1ae50b0176aef91d.1920x1080.jpg?t=1793984431",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/87604adac66343ec4c300a3f4627772050b1ba7b/ss_87604adac66343ec4c300a3f4627772050b1ba7b.1920x1080.jpg?t=1793984431",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3895080/1edf77f89d4c8f42c3fe12df3fe187e62900d22f/ss_1edf77f89d4c8f42c3fe12df3fe187e62900d22f.1920x1080.jpg?t=1793984431"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core i5-8400 @ 2.8 GHz or AMD Ryzen 5 2600",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 560",
+          "存储空间: 需要 6 GB 可用空间",
+          "附注事项: Best experienced with headphones and on a SSD drive"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core i7-9700K @ 3.6 GHz or AMD Ryzen 7 3700X",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GeForce RTX 2060 or AMD Radeon RX 5700",
+          "存储空间: 需要 6 GB 可用空间",
+          "附注事项: Best experienced with headphones and on a SSD drive"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 18.2,
+        "initial": 26,
+        "discountPercent": 30
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 75,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 80
+      },
+      "storeUrl": "https://store.steampowered.com/app/3895080/",
+      "fetchedAt": "2026-11-10T18:59:34.811Z"
+    }
   }
 ]
