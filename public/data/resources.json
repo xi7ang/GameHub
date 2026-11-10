@@ -82462,14 +82462,14 @@
   {
     "id": "simulation-202611-0004",
     "title": "蹄印湾马场/Horses of Hoofprint Bay   v1.0.1   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Horses of Hoofprint Bay",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/8a01eb42b9e8?pwd=LCbh",
     "pwd": "LCbh",
-    "size": "",
-    "sizeBytes": null,
+    "size": "1.3GB",
+    "sizeBytes": 1406589588,
     "cover": "/covers/3727090.webp",
     "steamAppID": 3727090,
     "desc": "打造属于你的梦想马场 你终于攒够钱，买下了一块属于自己的土地。眼前只有一间破旧的马厩和一片等待重建的马场——条件虽然简陋，但这里将成为你梦想开始的地方。 从最信赖的母马开始，训练马匹、参加赛事、赢取奖金，不断提升马匹的实力与价值。随着经营逐渐步入正轨，你将扩建马场、繁育优秀后代、培养冠军赛马，并一步步把这片不起眼的土地，打造成为真正属于你的梦想繁育马场。 悉心照料你的马匹 亲手照料你的马匹，从梳理毛发到清洁马蹄，让每一次护理都轻松自然，同时保留真实而细腻的养马体验。 使用马刷和蹄钩做好日常护理，预防鞍伤和蹄部脓肿；如果马匹不慎擦伤或受伤，也要及时处理。悉心照顾它们的每一天，让你的马始终保持良好状态，自信迎接训练与比赛。 训练 · 竞技 · 探索 通过训练不断提升马匹的力量和胆量，逐步解锁更高难度的场地障碍赛与越野赛，在比赛中赢取奖金，见证你的马一步步成长。",
@@ -82477,19 +82477,71 @@
     "featured": false,
     "addedAt": "2026-11-09T13:08:46+08:00",
     "updatedAt": "2026-11-09T13:08:46+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3727090,
+      "developer": "Thogli Studios",
+      "publisher": "The Mane Quest、FinPlay (CN/JP)",
+      "releaseDate": "2026 年 11 月 4 日",
+      "genres": [
+        "休闲",
+        "模拟",
+        "体育"
+      ],
+      "languages": "英语, 德语, 法语, 荷兰语, 俄语, 意大利语, 西班牙语 - 西班牙, 捷克语, 芬兰语, 匈牙利语, 挪威语, 波兰语, 葡萄牙语 - 巴西, 葡萄牙语 - 葡萄牙, 土耳其语, 乌克兰语, 斯洛伐克语, 丹麦语, 韩语, 罗马尼亚语, 简体中文, 日语, 西班牙语 - 拉丁美洲, 瑞典语",
+      "summary": "\"《蹄印湾马场》是一款温馨治愈的手绘 2D 马场经营模拟游戏。 悉心照料你的马匹，通过训练提升它们的力量与胆量，参加各类赛事赢取奖金。繁育可爱的幼驹，探索风景优美的骑行路线，雇佣并管理员工，不断扩建马场，打造属于你的梦想天地！\"",
+      "description": "打造属于你的梦想马场\n你终于攒够钱，买下了一块属于自己的土地。眼前只有一间破旧的马厩和一片等待重建的马场——条件虽然简陋，但这里将成为你梦想开始的地方。\n从最信赖的母马开始，训练马匹、参加赛事、赢取奖金，不断提升马匹的实力与价值。随着经营逐渐步入正轨，你将扩建马场、繁育优秀后代、培养冠军赛马，并一步步把这片不起眼的土地，打造成为真正属于你的梦想繁育马场。\n悉心照料你的马匹\n亲手照料你的马匹，从梳理毛发到清洁马蹄，让每一次护理都轻松自然，同时保留真实而细腻的养马体验。\n使用马刷和蹄钩做好日常护理，预防鞍伤和蹄部脓肿；如果马匹不慎擦伤或受伤，也要及时处理。悉心照顾它们的每一天，让你的马始终保持良好状态，自信迎接训练与比赛。\n训练 · 竞技 · 探索\n通过训练不断提升马匹的力量和胆量，逐步解锁更高难度的场地障碍赛与越野赛，在比赛中赢取奖金，见证你的马一步步成长。\n想放慢节奏时，就带着爱马去蹄印湾周边骑行探索吧。穿过森林、沿着海岸前行，或踏上山间小径，在不同风景中享受悠闲时光。每一次出发，都可能遇见新的景色和意想不到的发现。\n繁育 · 成长\n精心搭配种公马与母马，培育出一代比一代更优秀的马匹。幼驹会继承父母双方的毛色、白斑、能力和性格，每一次繁育都有可能带来新的惊喜。\n你可以专注于培育更漂亮的外形、更出色的能力，或同时兼顾两者。通过一代代筛选和繁育，打造属于你的理想血统，最终培育出真正的冠军马匹。\n扩建 · 经营\n扩建马场、升级设施，不只是为了容纳更多马匹，也能让照料、训练和繁育变得更加高效。随着马群不断壮大，雇佣合适的员工分担日常工作，让你把更多精力投入到比赛、繁育和马场发展上。\n更高级的建筑会解锁新的训练项目、更多员工选择，以及更专业的繁育功能。建成高科技繁育实验室后，你可以提前预览潜在幼驹的特征，更有针对性地规划配种，并拓展种公马配种服务，让马场获得更多收入与发展空间。\n不只养马，也更懂马\n《蹄印湾马场》由三位真正热爱马匹的“马女孩”共同打造。我们把对马的喜爱和了解，尽可能融进了游戏里的每一个细节。\n为了让游戏更好玩，有些内容不会完全照搬现实；但在不影响游玩体验的前提下，我们始终尽量做到准确、自然，也希望你能在照料、训练和繁育马匹的过程中，慢慢了解更多关于它们的知识。\n游戏内还设有资料库，收录了不少马匹、马术和日常护理相关内容。无论你本来就懂马，还是只是单纯喜欢这些动物，都可以一边经营自己的马场，一边更深入地认识真实的马匹世界。\n个性装扮 · 自由定制\n使用游戏内的配色工具，自由搭配角色和马具的外观，打造你喜欢的风格。\n想玩得更个性一点？你还可以直接修改开放的贴图和文本文件，自定义角色、马匹和装备的颜色，让整个蹄印湾都更有你的味道。\n本游戏的美术与内容均由开发团队独立创作，全程未使用生成式 AI。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/a0251fa39505c8122c77d89cbc83c22d4a47756e/ss_a0251fa39505c8122c77d89cbc83c22d4a47756e.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/7161ba4a0f2b1cd8163d4941795903e8e9e69629/ss_7161ba4a0f2b1cd8163d4941795903e8e9e69629.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/0f3331b87e4c2f6a22379c97b624484bd9113b06/ss_0f3331b87e4c2f6a22379c97b624484bd9113b06.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/739d5af410b5fbe1bb05a83eb9e01838021f5f45/ss_739d5af410b5fbe1bb05a83eb9e01838021f5f45.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/02c271dde602800a8aa1949bba350a5ab9bdee45/ss_02c271dde602800a8aa1949bba350a5ab9bdee45.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/3fc7648f2e1ea574bbbdd4a1380ab0d14a583005/ss_3fc7648f2e1ea574bbbdd4a1380ab0d14a583005.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/99e0740d6b32881bcef9b7865aeb6276cac38d80/ss_99e0740d6b32881bcef9b7865aeb6276cac38d80.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/ec4243ab83087128623de11c343fb461017f4986/ss_ec4243ab83087128623de11c343fb461017f4986.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/d4063d3e3ed77b7157bf0f6d1c1ff7e4817b232e/ss_d4063d3e3ed77b7157bf0f6d1c1ff7e4817b232e.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/6bb900e6a49d425f9a67fdfed7c9c2d07267502e/ss_6bb900e6a49d425f9a67fdfed7c9c2d07267502e.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/8a55cd3ed7f1f8f0b26b0800a4a607635a52e254/ss_8a55cd3ed7f1f8f0b26b0800a4a607635a52e254.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/0e9db0dc0017802d0bc7b2bbbddbe684e901340a/ss_0e9db0dc0017802d0bc7b2bbbddbe684e901340a.1920x1080.jpg?t=1793830906",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3727090/d5620fa25a98710e9068a46eb5ec96b7cad9d363/ss_d5620fa25a98710e9068a46eb5ec96b7cad9d363.1920x1080.jpg?t=1793830906"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 version 21H1 (build 19043) or newer",
+          "处理器: x86, x64 architecture with SSE2 instruction set support, Arm64"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 57.8,
+        "initial": 68,
+        "discountPercent": 15
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1253,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/3727090/",
+      "fetchedAt": "2026-11-09T19:00:46.770Z"
+    }
   },
   {
     "id": "adventure-202611-0001",
     "title": "木木屋/Woodo    v811    免安装中文版",
-    "enTitle": "",
-    "category": "adventure",
+    "enTitle": "Woodo",
+    "category": "casual",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/f6200c87cbad?pwd=obTT",
     "pwd": "obTT",
-    "size": "",
-    "sizeBytes": null,
+    "size": "1.7GB",
+    "sizeBytes": 1874902668,
     "cover": "/covers/2572040.webp",
     "steamAppID": 2572040,
     "desc": "《木木屋》是一款拼装立体模型的闲适益智游戏，玩家需要将木制场景一块块拼好。当玩家正确放置各种物品时，场景就会慢慢着色、焕发生机，精彩动画和小小惊喜纷纷呈现。随着弗希与青蛙阿本的故事，探索一系列相互联系的立体模型，每一幕都捕捉了他们共同冒险里的独特瞬间。 这感觉就像是在拼装真正的玩具，每个部件就位都会带来令人满足的触觉反馈，仿佛物品就在手中。 组装物品并非按部就班就能完成——玩家需要在三维空间中转动视角、四处探索，才能发现隐藏的部件。玩家的摆放方式会触发趣味动画，欣赏每个部件改变周围的世界，让立体模型景观焕发生机。 聆听友善的旁白声，将自己沉浸在游戏世界里，这里时间充裕，大部分时间在户外度过；这里最简单的事物都能带来惊喜；这里每天都有很棒的冒险在等待。这类感受在童年时更常见，随着时光流逝，往往只剩怀念萦绕，甚至被逐渐遗忘。",
@@ -82497,39 +82549,158 @@
     "featured": false,
     "addedAt": "2026-11-09T13:31:19+08:00",
     "updatedAt": "2026-11-09T13:31:19+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2572040,
+      "developer": "Tiny Monks Tales",
+      "publisher": "Daedalic Entertainment",
+      "releaseDate": "2026 年 9 月 16 日",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 日语, 俄语, 简体中文, 繁体中文, 韩语, 意大利语, 捷克语, 荷兰语, 匈牙利语, 波兰语, 葡萄牙语 - 巴西, 西班牙语 - 拉丁美洲, 泰语, 土耳其语, 乌克兰语\n具有完全音频支持的语言",
+      "summary": "《木木屋》就像一本可以触摸的3D填色书，通过精心打造的木制立体模型，讲述放松舒缓的故事。这里没有压力，只有一方惬意小天地，让人回忆起做回小孩的感觉。",
+      "description": "《木木屋》是一款拼装立体模型的闲适益智游戏，玩家需要将木制场景一块块拼好。当玩家正确放置各种物品时，场景就会慢慢着色、焕发生机，精彩动画和小小惊喜纷纷呈现。随着弗希与青蛙阿本的故事，探索一系列相互联系的立体模型，每一幕都捕捉了他们共同冒险里的独特瞬间。\n这感觉就像是在拼装真正的玩具，每个部件就位都会带来令人满足的触觉反馈，仿佛物品就在手中。\n组装物品并非按部就班就能完成——玩家需要在三维空间中转动视角、四处探索，才能发现隐藏的部件。玩家的摆放方式会触发趣味动画，欣赏每个部件改变周围的世界，让立体模型景观焕发生机。\n聆听友善的旁白声，将自己沉浸在游戏世界里，这里时间充裕，大部分时间在户外度过；这里最简单的事物都能带来惊喜；这里每天都有很棒的冒险在等待。这类感受在童年时更常见，随着时光流逝，往往只剩怀念萦绕，甚至被逐渐遗忘。\n游戏里迷人有趣的角色营造出无忧无虑、轻松幽默的氛围，提醒玩家幸福快乐才是内在小孩需要的东西。\n体验独特的解谜机制，逐块拼装美丽的立体模型\n玩家掌控游戏节奏，游戏会在需要时提供帮助\n游戏玩法随着叙事变化\n简单却富有深意的故事\n旁白温暖的声音一路陪伴左右\n陶醉于简单纯粹的旧时光\n许多让人莞尔的好笑角色与蠢蠢动画",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/998fc7cd737c0973c699d0a01f4fcdc0c7175d55/ss_998fc7cd737c0973c699d0a01f4fcdc0c7175d55.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/dab90c4d91cc9cbaca1fbc509a48cca5d564682a/ss_dab90c4d91cc9cbaca1fbc509a48cca5d564682a.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/39692c0409257108bbfb77f748a433856baca99f/ss_39692c0409257108bbfb77f748a433856baca99f.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/4ffd838c7f00c6f19308f10604581e25125d1aa0/ss_4ffd838c7f00c6f19308f10604581e25125d1aa0.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/01ad52ba101ce3f00fcc1936b0ac75f647de0801/ss_01ad52ba101ce3f00fcc1936b0ac75f647de0801.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/a2164a5782210673d100647059837e47676e3bd8/ss_a2164a5782210673d100647059837e47676e3bd8.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/8014eaa7ebc112c123c96811b277ea07b9582195/ss_8014eaa7ebc112c123c96811b277ea07b9582195.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/2a1c28a28a9eb23c51fc5a92403dc44bc94a20f6/ss_2a1c28a28a9eb23c51fc5a92403dc44bc94a20f6.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/0f98d97aed03c80e46e0d73ec694b045d4932df1/ss_0f98d97aed03c80e46e0d73ec694b045d4932df1.1920x1080.jpg?t=1793895034",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2572040/ab62ae379ca7e923c893e6642d88b1ae115f72c2/ss_ab62ae379ca7e923c893e6642d88b1ae115f72c2.1920x1080.jpg?t=1793895034"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 (64bit)",
+          "处理器: AMD Ryzen 5 3400g / Intel Core i5-9400",
+          "内存: 4 GB RAM",
+          "显卡: AMD Radeon RX 560 (4 GB) / NVIDIA GeForce GTX 1050 Ti (4 GB)",
+          "DirectX 版本: 11",
+          "存储空间: 需要 2700 MB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11 (64bit)",
+          "处理器: AMD Ryzen 5 5600X / Intel Core i5-12400F",
+          "内存: 8 GB RAM",
+          "显卡: AMD Radeon RX 5600 XT / NVIDIA GeForce RTX 2060",
+          "DirectX 版本: 12",
+          "存储空间: 需要 2700 MB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 57,
+        "initial": 57,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1421,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/2572040/",
+      "fetchedAt": "2026-11-09T19:00:50.492Z"
+    }
   },
   {
     "id": "puzzle-202611-0001",
     "title": "精灵女猎手：阳光之幕/Elven Huntress Sunveil   Build.26490703   英文   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Elven Huntress: Sunveil",
     "category": "puzzle",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/75e7d442313f?pwd=Ic80",
     "pwd": "Ic80",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "6.3GB",
+    "sizeBytes": 6787140111,
+    "cover": "/covers/4725170.webp",
+    "steamAppID": 4725170,
     "desc": "Elven Huntress: Sunveil 是 款氛围独特的第三人称3D动作角色扮演游戏，融合了探索、战利品收集、物品制作和角色定制等元素。 扮演精灵女猎手，通过魔法传送门探索奇幻地点，与兽人、人类和亡灵战斗，寻找稀有装备，并提升你的角色。 探索奇幻世界 穿过传送门，前往以下地点： 白雪皑皑的山峦遗迹。 松林密布的荒野。 古老的堡垒。 地牢。 亡灵的幽暗之地。 与敌人战斗，收集资源，解锁新装备，提升你的角色能力。 创建你专属的精灵猎手 使用角色创建器，自定义你的外观，寻找独特的装备套装。 Sunveil 堡垒 Sunveil 是你的主要据点与成长中心。 在每次探索之间，升级要塞并解锁新的功能： 武器和盔甲制作。 炼金术和药剂制作。 装备幻化。 符文强化物品。 商店。 角色成长系统。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-09T13:36:28+08:00",
     "updatedAt": "2026-11-09T13:36:28+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4725170,
+      "developer": "Satur Entertainment",
+      "publisher": "Satur Entertainment",
+      "releaseDate": "2026 年 11 月 6 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 俄语",
+      "summary": "一款充满氛围感的 动作 RPG，扮演精灵女猎手穿越魔法传送门探索奇幻世界。战斗、收集稀有装备，并提升你的角色。",
+      "description": "Elven Huntress: Sunveil 是 款氛围独特的第三人称3D动作角色扮演游戏，融合了探索、战利品收集、物品制作和角色定制等元素。\n扮演精灵女猎手，通过魔法传送门探索奇幻地点，与兽人、人类和亡灵战斗，寻找稀有装备，并提升你的角色。\n探索奇幻世界\n穿过传送门，前往以下地点：\n白雪皑皑的山峦遗迹。\n松林密布的荒野。\n古老的堡垒。\n地牢。\n亡灵的幽暗之地。\n与敌人战斗，收集资源，解锁新装备，提升你的角色能力。\n创建你专属的精灵猎手\n使用角色创建器，自定义你的外观，寻找独特的装备套装。\nSunveil 堡垒\nSunveil 是你的主要据点与成长中心。\n在每次探索之间，升级要塞并解锁新的功能：\n武器和盔甲制作。\n炼金术和药剂制作。\n装备幻化。\n符文强化物品。\n商店。\n角色成长系统。\nElven Huntress: Sunveil 是一款氛围独特的单人冒险游戏，拥有精美的角色、引人入胜的成长体验以及一个令人流连忘返的世界。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/e75d82f1690bc513e6a14787dc866439c78e20b3/ss_e75d82f1690bc513e6a14787dc866439c78e20b3.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/a0c2a39ebe5c339ab88fd1ee0bf0432142b8494b/ss_a0c2a39ebe5c339ab88fd1ee0bf0432142b8494b.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/b5779ec9a3a830bb984a4e2194ebb7267e3ee72e/ss_b5779ec9a3a830bb984a4e2194ebb7267e3ee72e.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/017387151331fba3a12565b44c10e62cf6a4fcd7/ss_017387151331fba3a12565b44c10e62cf6a4fcd7.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/6c3bed5c5c7bc52b5425b1046717e516ed32b40a/ss_6c3bed5c5c7bc52b5425b1046717e516ed32b40a.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/c725f5b34dc8160c36bef1640c3c0a3bca0addfc/ss_c725f5b34dc8160c36bef1640c3c0a3bca0addfc.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/a2f4b59788f4c2f6fe0f5ad09a81f71d4962ee99/ss_a2f4b59788f4c2f6fe0f5ad09a81f71d4962ee99.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/76642c742945b53c08fcc3d9841b266e9a3c8f3b/ss_76642c742945b53c08fcc3d9841b266e9a3c8f3b.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/707c0fe6798e2f745e8564fdc6bbd47bfd52a60d/ss_707c0fe6798e2f745e8564fdc6bbd47bfd52a60d.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/a01c2ac9c75295fa6f4645fb7b3d7e3db54610f8/ss_a01c2ac9c75295fa6f4645fb7b3d7e3db54610f8.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/44fc2d6997bf206e57bd7487804cf66aa98739d1/ss_44fc2d6997bf206e57bd7487804cf66aa98739d1.1920x1080.jpg?t=1793959270",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4725170/2227c87aa91ee2f5b9f7749322fcf8ca9182204d/ss_2227c87aa91ee2f5b9f7749322fcf8ca9182204d.1920x1080.jpg?t=1793959270"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core i7-8700K or AMD Ryzen 5 1600X",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GTX 970/1650 / AMD Radeon R9 290X",
+          "DirectX 版本: 11",
+          "存储空间: 需要 15 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 47.2,
+        "initial": 59,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 107,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 83
+      },
+      "storeUrl": "https://store.steampowered.com/app/4725170/",
+      "fetchedAt": "2026-11-09T19:00:53.997Z"
+    }
   },
   {
     "id": "horror-202611-0004",
     "title": "利维坦：犀牛/Leviathan Rhino   Build.26483084   免安装中文版",
-    "enTitle": "",
-    "category": "horror",
+    "enTitle": "Leviathan: Rhino",
+    "category": "simulation",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/47d939c1e7ed?pwd=ejot",
     "pwd": "ejot",
-    "size": "",
-    "sizeBytes": null,
+    "size": "210.9MB",
+    "sizeBytes": 221167384,
     "cover": "/covers/4784510.webp",
     "steamAppID": 4784510,
     "desc": "有些事情，我们无力改变。有些变化，我们无法抗拒。有时，我们唯一能做的，就是离开，或者留下来，眼看着我们所爱的一切逐渐消失。 在这个世界里，利维坦这种拥有洛夫克拉夫特式庞大尺度的巨型怪物，早已成为日常生活的一部分。它们无法被阻止。人类唯一能做的，就是监视它们的动向，并及时避开它们的路线。但有些人已经无处可去，也没有理由离开。 以第一人称视角探索这座小村庄，与村民交谈，完成一些简单的日常琐事。 喂牛。拜访邻居。听新闻。回忆过去。等待。 Leviathan: Rhino 是一款关于不可避免、眷恋、孤独、愧疚，以及一种微弱希望的存在主义恐怖游戏：即使在最后一刻到来之前，光明也依然可能存在。",
@@ -82537,27 +82708,150 @@
     "featured": false,
     "addedAt": "2026-11-09T13:41:19+08:00",
     "updatedAt": "2026-11-09T13:41:19+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4784510,
+      "developer": "Amortiz Games",
+      "publisher": "solarsuit.games",
+      "releaseDate": "2026 年 11 月 6 日",
+      "genres": [
+        "独立",
+        "模拟"
+      ],
+      "languages": "英语, 俄语, 简体中文, 德语, 法语, 西班牙语 - 西班牙, 日语, 西班牙语 - 拉丁美洲, 乌克兰语, 波兰语, 芬兰语, 塞尔维亚语",
+      "summary": "亲历老人 Petro 在一座小村庄中的最后几天。一头巨大的利维坦正步步逼近这里。这是一款关于不可避免、孤独，以及一个无处可去、也没有理由离开的人的存在主义恐怖游戏。",
+      "description": "有些事情，我们无力改变。有些变化，我们无法抗拒。有时，我们唯一能做的，就是离开，或者留下来，眼看着我们所爱的一切逐渐消失。\n在这个世界里，利维坦这种拥有洛夫克拉夫特式庞大尺度的巨型怪物，早已成为日常生活的一部分。它们无法被阻止。人类唯一能做的，就是监视它们的动向，并及时避开它们的路线。但有些人已经无处可去，也没有理由离开。\n以第一人称视角探索这座小村庄，与村民交谈，完成一些简单的日常琐事。\n喂牛。拜访邻居。听新闻。回忆过去。等待。\nLeviathan: Rhino 是一款关于不可避免、眷恋、孤独、愧疚，以及一种微弱希望的存在主义恐怖游戏：即使在最后一刻到来之前，光明也依然可能存在。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/b2d1d8fea8a61669ac5ca22eebe723d672a3b3e9/ss_b2d1d8fea8a61669ac5ca22eebe723d672a3b3e9.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/54fcd19112901b6fd1fbf5eb64a87788be182fa8/ss_54fcd19112901b6fd1fbf5eb64a87788be182fa8.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/fa3e4ac30e3494ba55fb12a50ca705381e34d7f4/ss_fa3e4ac30e3494ba55fb12a50ca705381e34d7f4.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/32ac19cf586836fa378059f5fb3aebdf26ebfd42/ss_32ac19cf586836fa378059f5fb3aebdf26ebfd42.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/bf20d8f8079c114c790bfa7819f6d276c14136f7/ss_bf20d8f8079c114c790bfa7819f6d276c14136f7.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/05b93e4296ba258c687875dedb2965269a011daa/ss_05b93e4296ba258c687875dedb2965269a011daa.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/033240197f2250dbf0c86e958171951e753ef66b/ss_033240197f2250dbf0c86e958171951e753ef66b.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/895878c7619d67472935dc614137e30a903f878d/ss_895878c7619d67472935dc614137e30a903f878d.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/d5e3487803545bb329e9816a9c123f9ac6153eba/ss_d5e3487803545bb329e9816a9c123f9ac6153eba.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/b548e764f104222cba87a2bfc958b8009f21511e/ss_b548e764f104222cba87a2bfc958b8009f21511e.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/8fce5944559b48dae962414c9321dfa1daecfdba/ss_8fce5944559b48dae962414c9321dfa1daecfdba.1920x1080.jpg?t=1793981530",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4784510/a5263482c03f5b5d826416c07057d5616636ee99/ss_a5263482c03f5b5d826416c07057d5616636ee99.1920x1080.jpg?t=1793981530"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10",
+          "处理器: Core i3",
+          "内存: 2 GB RAM",
+          "显卡: GTX 980 Ti",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10",
+          "处理器: Core i5",
+          "内存: 4 GB RAM",
+          "显卡: GTX 980 Ti",
+          "存储空间: 需要 1 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 18.7,
+        "initial": 22,
+        "discountPercent": 15
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 90,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 95
+      },
+      "storeUrl": "https://store.steampowered.com/app/4784510/",
+      "fetchedAt": "2026-11-09T19:00:57.534Z"
+    }
   },
   {
     "id": "other-202611-0003",
     "title": "巨龙宝藏整理师/Gildoria – Organize a Dragon’s Hoard   v1.0.0   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Gildoria - Organize a Dragon's Hoard",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/e25d5ff8f96f?pwd=5DNs",
     "pwd": "5DNs",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/udcc1c9035f23.webp",
-    "steamAppID": null,
+    "size": "1.2GB",
+    "sizeBytes": 1258996821,
+    "cover": "/covers/5017810.webp",
+    "steamAppID": 5017810,
     "desc": "– Organize a Dragon’s Hoard 几百年来，巨龙只顾收藏，从未整理。如今金币已经淹没了书架、家具和大半个地面，而巨龙真正珍视的宝贝，全都埋在金山下的某个角落。你有一个袋子，也有的是时间。开始整理吧。 清扫金山 用袋子对准金堆，把金币吸进来，起初一枚一枚，后来一把一把，越抓越贪心。倒进巢穴各处的宝箱里；宝箱装满便“砰”地合上，那些金子就归你支配。 熟练得可怕 更深的袋子、更快的手、一次抓起更多金币。活儿还是那个活儿，手感却完全不同。到后来，过去要几分钟的活，你几秒就能干完。 找出被金子埋住的东西 书籍、遗物、纪念品、稀奇玩意。几百年来，金山吞掉了太多东西。看到金币间的一点微光，就把它挖出来，抱到书架前，放回它应在的位置。集齐一套收藏，巢穴还会再打开一角。 撸猫 这些猫来得比你早，走得比你晚。每一只都可以撸，游戏还会帮你计数。 慢慢来 没有倒计时，没有失败，也没人盯着你。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-09T13:47:10+08:00",
     "updatedAt": "2026-11-09T13:47:10+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5017810,
+      "developer": "LoudScream",
+      "publisher": "LoudScream",
+      "releaseDate": "2026 年 11 月 5 日",
+      "genres": [
+        "冒险",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 阿拉伯语, 简体中文, 繁体中文, 日语, 韩语, 俄语, 土耳其语, 葡萄牙语 - 巴西, 西班牙语 - 拉丁美洲",
+      "summary": "巨龙的宝山已经彻底失控。安坐下来，一枚一枚扫起金山，装满一只只宝箱，再把埋在金子下的宝物一一放回架上原位。看着混乱一点点变回井井有条。一款温馨的整理游戏。还有猫。",
+      "description": "Gildoria - Organize a Dragon's Hoard\n几百年来，巨龙只顾收藏，从未整理。如今金币已经淹没了书架、家具和大半个地面，而巨龙真正珍视的宝贝，全都埋在金山下的某个角落。你有一个袋子，也有的是时间。开始整理吧。\n清扫金山\n用袋子对准金堆，把金币吸进来，起初一枚一枚，后来一把一把，越抓越贪心。倒进巢穴各处的宝箱里；宝箱装满便“砰”地合上，那些金子就归你支配。\n熟练得可怕\n更深的袋子、更快的手、一次抓起更多金币。活儿还是那个活儿，手感却完全不同。到后来，过去要几分钟的活，你几秒就能干完。\n找出被金子埋住的东西\n书籍、遗物、纪念品、稀奇玩意。几百年来，金山吞掉了太多东西。看到金币间的一点微光，就把它挖出来，抱到书架前，放回它应在的位置。集齐一套收藏，巢穴还会再打开一角。\n撸猫\n这些猫来得比你早，走得比你晚。每一只都可以撸，游戏还会帮你计数。\n慢慢来\n没有倒计时，没有失败，也没人盯着你。金山不会跑，进度会自动保存。\n简而言之\n数不清的金币，每一枚都等你亲手搬走\n让苦差事变成习惯的升级路线\n一本收藏图鉴，一格一格慢慢填满\n猫：可撸，且计入统计\n完整手柄支持",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/bbc5650da0c61438a8973b2c09024a7168a19236/ss_bbc5650da0c61438a8973b2c09024a7168a19236.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/f72538a1fe855b02ff9ae44929e1641ca9c18f46/ss_f72538a1fe855b02ff9ae44929e1641ca9c18f46.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/e9a64b341296b4805145301843b8f84949345bf6/ss_e9a64b341296b4805145301843b8f84949345bf6.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/dd133b59fbdf14cc375e3dcd85ee8adcee6bd531/ss_dd133b59fbdf14cc375e3dcd85ee8adcee6bd531.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/e2ee2bab80075f48827f1e857969e54cf76a7b97/ss_e2ee2bab80075f48827f1e857969e54cf76a7b97.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/c9197d385f5b598fa9305ac83e631c9fcee330a5/ss_c9197d385f5b598fa9305ac83e631c9fcee330a5.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/2d32cde195797b459c213dc3936468794c695bca/ss_2d32cde195797b459c213dc3936468794c695bca.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/02d160f66063f9e6f412c8610c3459c27184f4f2/ss_02d160f66063f9e6f412c8610c3459c27184f4f2.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/a71412e262f419e8bc66a5e65da0f0a89e59b430/ss_a71412e262f419e8bc66a5e65da0f0a89e59b430.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/e979619bfc91fbfd12dccb4901e48b41e6a4d2f5/ss_e979619bfc91fbfd12dccb4901e48b41e6a4d2f5.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/281b852a86ff5aea2a96f253db79a05f1dc0348d/ss_281b852a86ff5aea2a96f253db79a05f1dc0348d.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/0199b59c7b95a80e3870f26ec91f5fa583cb3a6a/ss_0199b59c7b95a80e3870f26ec91f5fa583cb3a6a.1920x1080.jpg?t=1793894730",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5017810/022f11a32faf42318d86d5ccf3bd75ada8e82e75/ss_022f11a32faf42318d86d5ccf3bd75ada8e82e75.1920x1080.jpg?t=1793894730"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB",
+          "DirectX 版本: 12",
+          "存储空间: 需要 2 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10 / 11 64-bit",
+          "处理器: Intel Core i5-10400 / AMD Ryzen 5 3600",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GeForce RTX 2060 / AMD Radeon RX 5600 XT",
+          "DirectX 版本: 12",
+          "存储空间: 需要 2 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 17.1,
+        "initial": 19,
+        "discountPercent": 10
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 193,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 88
+      },
+      "storeUrl": "https://store.steampowered.com/app/5017810/",
+      "fetchedAt": "2026-11-09T19:01:01.060Z"
+    }
   },
   {
     "id": "other-202611-0004",
