@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b3bab33",
+    "date": "2026-11-10T10:24:04+08:00",
+    "message": "sync: 新增资源《银松镇/Silver Pines     Build.26489514    免》",
+    "url": "https://github.com/xi7ang/GameHub/commit/b3bab33fe311713cbd9c76da0c861160c0d9ff2a"
+  },
+  {
     "hash": "c398ad1",
     "date": "2026-11-10T10:18:36+08:00",
     "message": "Merge remote-tracking branch 'origin/main'",
@@ -172,11 +178,5 @@
     "date": "2026-11-01T13:10:53+08:00",
     "message": "sync: 新增资源《生存日志/Survival Log    Build.26294912 送修改器》",
     "url": "https://github.com/xi7ang/GameHub/commit/ea2aff43ecd997c23dd73ab15227899a7c53f8c4"
-  },
-  {
-    "hash": "b316fa0",
-    "date": "2026-11-01T08:40:39+08:00",
-    "message": "data: 永恒空间2 分类 other→simulation（用户确认）",
-    "url": "https://github.com/xi7ang/GameHub/commit/b316fa075482f3667d00167381572ef31d70a411"
   }
 ]
