@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d9de25c",
+    "date": "2026-11-10T10:33:45+08:00",
+    "message": "sync: 新增资源《守城英雄传/Legend of Defenders   v1.0.6   免安装》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d9de25c6c76f87b13936ad1530a71b72097386b2"
+  },
+  {
     "hash": "fd93aee",
     "date": "2026-11-10T10:29:05+08:00",
     "message": "sync: 新增资源《克里夫·巴克猛鬼追魂：复苏/ Clive Barker’s Hellraiser》",
@@ -172,11 +178,5 @@
     "date": "2026-11-01T13:17:40+08:00",
     "message": "sync: 新增资源《幽灵大师：复生 /Ghost Master Resurrection    Bu》",
     "url": "https://github.com/xi7ang/GameHub/commit/22074b418ddd7e8c2e2e3a3640e521e07e98040b"
-  },
-  {
-    "hash": "c018d43",
-    "date": "2026-11-01T13:14:09+08:00",
-    "message": "sync: 新增资源《孤山独影/ Cairn   v1.1.593    免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c018d431f5dc50a92f25f026f22971e55484ee83"
   }
 ]
