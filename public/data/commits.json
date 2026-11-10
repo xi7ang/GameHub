@@ -1,5 +1,29 @@
 [
   {
+    "hash": "c398ad1",
+    "date": "2026-11-10T10:18:36+08:00",
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "url": "https://github.com/xi7ang/GameHub/commit/c398ad10d24a4848b1eaab4f821c113fd79a098d"
+  },
+  {
+    "hash": "9443309",
+    "date": "2026-11-10T10:17:24+08:00",
+    "message": "sync: 新增资源《格林默威克之歌/Songs of Glimmerwick   Build.264》",
+    "url": "https://github.com/xi7ang/GameHub/commit/94433090c4f4e3d811d1155694e34568184873bd"
+  },
+  {
+    "hash": "4dfd318",
+    "date": "2026-11-10T08:02:24+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/4dfd31889ee8d7a1dc1cff0416a03f328b2751b9"
+  },
+  {
+    "hash": "88eb414",
+    "date": "2026-11-10T03:06:38+08:00",
+    "message": "data: 上传官方封面 4725170、5017810",
+    "url": "https://github.com/xi7ang/GameHub/commit/88eb4140287e41ff31eedb35323e5b42e5298492"
+  },
+  {
     "hash": "3ae3454",
     "date": "2026-11-09T20:32:54+08:00",
     "message": "chore: 每日公告：发布【2026-11-09】游戏资源更新通知（10 条新资源）",
@@ -154,29 +178,5 @@
     "date": "2026-11-01T08:40:39+08:00",
     "message": "data: 永恒空间2 分类 other→simulation（用户确认）",
     "url": "https://github.com/xi7ang/GameHub/commit/b316fa075482f3667d00167381572ef31d70a411"
-  },
-  {
-    "hash": "0196b81",
-    "date": "2026-11-01T08:26:44+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/0196b81da6c9639acd3e497a845067e11158a537"
-  },
-  {
-    "hash": "9918524",
-    "date": "2026-11-01T03:04:08+08:00",
-    "message": "assets: 新增官方封面 5367400/1128920/4078430",
-    "url": "https://github.com/xi7ang/GameHub/commit/9918524457bde0e0b98ad54c99e51a6a7b86aa05"
-  },
-  {
-    "hash": "a338e75",
-    "date": "2026-10-31T21:42:38+08:00",
-    "message": "style: 品牌 logo 改为图片",
-    "url": "https://github.com/xi7ang/GameHub/commit/a338e75267e6a40b619ef27a88a3b5ab23fb2f14"
-  },
-  {
-    "hash": "bf03c6d",
-    "date": "2026-10-31T21:42:08+08:00",
-    "message": "assets: 新增品牌 logo 图片",
-    "url": "https://github.com/xi7ang/GameHub/commit/bf03c6d5d9cac9d97cfc89ce85078c310a6d0620"
   }
 ]
