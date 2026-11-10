@@ -19,6 +19,20 @@
             class="hot-tag"
           >{{ k }}</a>
         </div>
+        <!-- 快捷入口：热门关键词下方三张主题背景图卡片 -->
+        <div class="hero__links">
+          <a class="quick-card quick-card--video" href="https://v.devmini.space" target="_blank" rel="noreferrer">
+            <span class="quick-card__title">免费影视资源</span>
+            <span class="quick-card__sub">剧集/综艺/电影</span>
+          </a>
+          <a class="quick-card quick-card--study" href="https://xuexi.devmini.space" target="_blank" rel="noreferrer">
+            <span class="quick-card__title">免费学习资源</span>
+            <span class="quick-card__sub">考公/中高考/办公</span>
+          </a>
+          <a class="quick-card quick-card--games" href="/category.html">
+            <span class="quick-card__title">更多游戏资源</span>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -463,6 +477,56 @@ onMounted(async () => {
   background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-deep));
   box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.55), var(--shadow-glow);
   transform: translateY(-2px);
+}
+/* 快捷入口：热门关键词下方三张主题背景图卡片（图片见 public/images/quick-*.webp，
+   上层半透明暗色遮罩保白字可读；白天黑夜共用同一套图） */
+.hero__links {
+  margin: 16px auto 0;
+  max-width: 640px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  animation: fadeInUp 0.6s ease-out 0.4s both;
+}
+.quick-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 64px;
+  padding: 12px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+.quick-card__title { font-size: 15px; font-weight: 700; letter-spacing: 0.02em; white-space: nowrap; }
+.quick-card__sub { font-size: 12px; font-weight: 500; color: rgba(255, 255, 255, 0.85); white-space: nowrap; }
+.quick-card--video { background-image: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.55)), url('/images/quick-video.webp'); }
+.quick-card--study { background-image: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.55)), url('/images/quick-study.webp'); }
+.quick-card--games { background-image: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.55)), url('/images/quick-games.webp'); }
+/* 悬停：沿用站内卡片规范（上浮 + 阴影），再提亮一点；按下回落；移出由 transition 原路返回 */
+.quick-card:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.07);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28), var(--shadow-glow);
+}
+.quick-card:active {
+  transform: translateY(0) scale(0.98);
+  filter: brightness(0.97);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.quick-card:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
+@media (max-width: 640px) {
+  .hero__links { gap: 8px; margin-top: 14px; }
+  .quick-card { min-height: 56px; padding: 10px 6px; border-radius: 13px; }
+  .quick-card__title { font-size: 13.5px; }
+  .quick-card__sub { font-size: 11px; }
 }
 /* 移动端 hero 再收紧：首屏多露出一行合集卡 */
 @media (max-width: 640px) {
