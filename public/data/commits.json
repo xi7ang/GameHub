@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fd93aee",
+    "date": "2026-11-10T10:29:05+08:00",
+    "message": "sync: 新增资源《克里夫·巴克猛鬼追魂：复苏/ Clive Barker’s Hellraiser》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fd93aeefa2926cda39bc4eeb3ae65c1a3756cd5d"
+  },
+  {
     "hash": "b3bab33",
     "date": "2026-11-10T10:24:04+08:00",
     "message": "sync: 新增资源《银松镇/Silver Pines     Build.26489514    免》",
@@ -172,11 +178,5 @@
     "date": "2026-11-01T13:14:09+08:00",
     "message": "sync: 新增资源《孤山独影/ Cairn   v1.1.593    免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/c018d431f5dc50a92f25f026f22971e55484ee83"
-  },
-  {
-    "hash": "ea2aff4",
-    "date": "2026-11-01T13:10:53+08:00",
-    "message": "sync: 新增资源《生存日志/Survival Log    Build.26294912 送修改器》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ea2aff43ecd997c23dd73ab15227899a7c53f8c4"
   }
 ]
