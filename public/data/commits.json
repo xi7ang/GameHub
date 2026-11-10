@@ -1,5 +1,23 @@
 [
   {
+    "hash": "3ae3454",
+    "date": "2026-11-09T20:32:54+08:00",
+    "message": "chore: 每日公告：发布【2026-11-09】游戏资源更新通知（10 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/3ae345485ea34db4a78dbe30df1f09157f245e32"
+  },
+  {
+    "hash": "7e598be",
+    "date": "2026-11-09T19:06:27+08:00",
+    "message": "chore: 移除 5 条无原始链接的资源 + 10 条补充 pwd 提取码",
+    "url": "https://github.com/xi7ang/GameHub/commit/7e598bed8c5d4ddb86c6cb92fd348835a5ab8abd"
+  },
+  {
+    "hash": "9e49e9a",
+    "date": "2026-11-09T13:47:13+08:00",
+    "message": "sync: 新增资源《巨龙宝藏整理师/Gildoria – Organize a Dragon’s H》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9e49e9ad8d5f9ff860f413b0490af8f1df2acbbf"
+  },
+  {
     "hash": "5efffc9",
     "date": "2026-11-09T13:41:22+08:00",
     "message": "sync: 新增资源《利维坦：犀牛/Leviathan Rhino   Build.26483084 》",
@@ -160,23 +178,5 @@
     "date": "2026-10-31T21:42:08+08:00",
     "message": "assets: 新增品牌 logo 图片",
     "url": "https://github.com/xi7ang/GameHub/commit/bf03c6d5d9cac9d97cfc89ce85078c310a6d0620"
-  },
-  {
-    "hash": "43cb5c0",
-    "date": "2026-10-31T20:49:54+08:00",
-    "message": "fix(data): 失落的奥德赛描述修正为干净文本，分类 other->rpg",
-    "url": "https://github.com/xi7ang/GameHub/commit/43cb5c08951c1383b11dd298bafc4e8fe22467a8"
-  },
-  {
-    "hash": "25b218a",
-    "date": "2026-10-31T20:48:31+08:00",
-    "message": "sync: 新增资源《失落的奥德赛/Lost Odyssey   v1.1.0   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/25b218a304a5ab3ff1396785f77ce612ae2306f3"
-  },
-  {
-    "hash": "3238b18",
-    "date": "2026-10-31T20:42:15+08:00",
-    "message": "style: 收紧首页 hero 布局，首屏多展示下方内容",
-    "url": "https://github.com/xi7ang/GameHub/commit/3238b1876786d76db2b13349c0487db9ca0ec02e"
   }
 ]
