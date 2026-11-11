@@ -1,5 +1,11 @@
 [
   {
+    "hash": "eb2d8cf",
+    "date": "2026-11-11T20:35:41+08:00",
+    "message": "sync: 新增资源《拉面店模拟器/Ramen Shop Simulator    v0.6.8.10》",
+    "url": "https://github.com/xi7ang/GameHub/commit/eb2d8cfadffcaac4d8dd35f4c7900cafa63c5c5f"
+  },
+  {
     "hash": "cd87c71",
     "date": "2026-11-11T20:31:37+08:00",
     "message": "chore: 每日公告：发布【2026-11-11】游戏资源更新通知（3 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T13:31:22+08:00",
     "message": "sync: 新增资源《木木屋/Woodo    v811    免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/ba385a9d4ac25ff1b290f65eb5c3b729313cfe2f"
-  },
-  {
-    "hash": "49a481f",
-    "date": "2026-11-09T13:25:23+08:00",
-    "message": "Merge remote-tracking branch 'origin/main'",
-    "url": "https://github.com/xi7ang/GameHub/commit/49a481f096f7df5a67c6178dfbba90a18d1076c9"
   }
 ]
