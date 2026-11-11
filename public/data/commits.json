@@ -1,5 +1,65 @@
 [
   {
+    "hash": "f38e32e",
+    "date": "2026-11-11T19:57:49+08:00",
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "url": "https://github.com/xi7ang/GameHub/commit/f38e32e240813a42f6334bdca985adb8a2ce1391"
+  },
+  {
+    "hash": "833d2e9",
+    "date": "2026-11-11T19:33:06+08:00",
+    "message": "sync: 新增资源《喂龙高手 /Feed the Scorchpot   Build.2653746》",
+    "url": "https://github.com/xi7ang/GameHub/commit/833d2e929d279779537c6923c16bf66e057f235e"
+  },
+  {
+    "hash": "247faff",
+    "date": "2026-11-11T08:15:21+08:00",
+    "message": "data: 人工确认 8 条多映射分类（用户 2026-11-11 定）",
+    "url": "https://github.com/xi7ang/GameHub/commit/247faffdbaf6b4f8606c88ba016f55b78bcd99dc"
+  },
+  {
+    "hash": "f10e6ca",
+    "date": "2026-11-11T07:25:55+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/f10e6ca28bf5189ef694e31c5ff39e25758c86e7"
+  },
+  {
+    "hash": "e9f46fa",
+    "date": "2026-11-11T03:04:54+08:00",
+    "message": "covers: add 1706510.webp, 2333000.webp, 4740930.webp, 3895080.webp",
+    "url": "https://github.com/xi7ang/GameHub/commit/e9f46fa3f6b7923dcefe5d10bec673221e42e231"
+  },
+  {
+    "hash": "ac38553",
+    "date": "2026-11-10T21:59:49+08:00",
+    "message": "feat: 首页热门关键词下方新增三个快捷入口卡片（影视/学习/游戏）",
+    "url": "https://github.com/xi7ang/GameHub/commit/ac3855312f7dd0c60a9fc6812fde55aa4dcf1d87"
+  },
+  {
+    "hash": "d48c218",
+    "date": "2026-11-10T21:58:42+08:00",
+    "message": "images: add quick-video/quick-study/quick-games.webp (homepage shortcut card backgrounds)",
+    "url": "https://github.com/xi7ang/GameHub/commit/d48c2188eb58d92d82cbf1498d9a5fe41b286060"
+  },
+  {
+    "hash": "aac71d7",
+    "date": "2026-11-10T21:45:41+08:00",
+    "message": "data: 孤岛惊魂5分类 rpg→action（按 Steam 类型 动作/冒险，用户定）",
+    "url": "https://github.com/xi7ang/GameHub/commit/aac71d74b1aedf0eb351241ab42b0c6b1a84677e"
+  },
+  {
+    "hash": "f9d36d6",
+    "date": "2026-11-10T21:42:52+08:00",
+    "message": "data: 修正孤岛惊魂5与秘奥法师错配 appid（4511370→552520、974480→529660）",
+    "url": "https://github.com/xi7ang/GameHub/commit/f9d36d66216371290a41a92f01f76abec5cd6f68"
+  },
+  {
+    "hash": "107ebf1",
+    "date": "2026-11-10T21:41:41+08:00",
+    "message": "covers: add 552520.webp (Far Cry 5), 529660.webp (Mages of Mystralia)",
+    "url": "https://github.com/xi7ang/GameHub/commit/107ebf1d50a65c451e2f46f807a9c6a441d173a4"
+  },
+  {
     "hash": "364b77c",
     "date": "2026-11-10T20:31:21+08:00",
     "message": "chore: 每日公告：发布【2026-11-10】游戏资源更新通知（5 条新资源）",
@@ -118,65 +178,5 @@
     "date": "2026-11-08T23:57:04+08:00",
     "message": "sync: 新增资源《深空当铺：可能是偷的/Probably Stolen    Build.2631》",
     "url": "https://github.com/xi7ang/GameHub/commit/37d8ca79ff8dc1ef8d71a789b0da2bf900a7228e"
-  },
-  {
-    "hash": "9a86c9f",
-    "date": "2026-11-08T23:53:58+08:00",
-    "message": "sync: 新增资源《赛菲莉娅/ Sephiria / 单机+联机   v1.1.1  免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9a86c9f74828ef22ca9f7506400f2f60ad9bb3bc"
-  },
-  {
-    "hash": "8812381",
-    "date": "2026-11-08T23:50:55+08:00",
-    "message": "sync: 新增资源《女王魔域/Queen’s Domain   v1.01.03   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/88123817b1ae9ccf2975b4a6ac647da0811fb0ff"
-  },
-  {
-    "hash": "ae42069",
-    "date": "2026-11-08T23:47:32+08:00",
-    "message": "sync: 新增资源《自在城镇/Town To City   v1.1.1.11298  免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ae420696372ba2e869ff47df0b9b143561426883"
-  },
-  {
-    "hash": "3fd932f",
-    "date": "2026-11-08T23:39:02+08:00",
-    "message": "sync: 新增资源《纸头/PAPERHEAD    v51.1   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3fd932fabd3f0308682415d2257e6bcafa9f583d"
-  },
-  {
-    "hash": "05e5363",
-    "date": "2026-11-08T21:24:12+08:00",
-    "message": "chore: 每日公告：发布【2026-11-08】游戏资源更新通知（9 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/05e53638b61d5bae98ab30c2bddf224d62e75a85"
-  },
-  {
-    "hash": "10c8d12",
-    "date": "2026-11-02T08:29:20+08:00",
-    "message": "data: 修正幽灵大师：复生错配 appid（5324770→3289090）",
-    "url": "https://github.com/xi7ang/GameHub/commit/10c8d12a3b109442d3e0bc25f13a8e8f22e3ba60"
-  },
-  {
-    "hash": "64d3564",
-    "date": "2026-11-02T08:28:29+08:00",
-    "message": "data: 上传官方封面 3289090",
-    "url": "https://github.com/xi7ang/GameHub/commit/64d35645b146ebe541adb158462b4bec9d7ad44f"
-  },
-  {
-    "hash": "3d73e8e",
-    "date": "2026-11-02T07:31:02+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/3d73e8ed3796cb9acf5b0cb54a704b5260df16ae"
-  },
-  {
-    "hash": "ab49d28",
-    "date": "2026-11-02T03:09:14+08:00",
-    "message": "data: 上传官方封面 4164790、1670870",
-    "url": "https://github.com/xi7ang/GameHub/commit/ab49d2832a03e1ff9733b7257eda3dbd4f381289"
-  },
-  {
-    "hash": "929b1fc",
-    "date": "2026-11-01T13:46:01+08:00",
-    "message": "sync: 新增资源《麦迪逊|失心疯/MADiSON    v3.0.5    免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/929b1fc176cec108ab89a2a20a2a6bd2b1552485"
   }
 ]
