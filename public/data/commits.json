@@ -1,5 +1,11 @@
 [
   {
+    "hash": "9939ca6",
+    "date": "2026-11-11T20:20:28+08:00",
+    "message": "sync: 新增资源《梦幻魔法公主/Magical Princess    v1.6.0   免安装中》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9939ca663d2847ee76273c75084256c69019a8da"
+  },
+  {
     "hash": "32e3f40",
     "date": "2026-11-11T19:58:14+08:00",
     "message": "data: 重建索引（合并远端后同步喂龙高手）",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T08:01:13+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/da6061210bb4ef4df9d0f878d4b6519ca9542f7e"
-  },
-  {
-    "hash": "c1e9d02",
-    "date": "2026-11-09T03:05:26+08:00",
-    "message": "data: 上传官方封面 2680280、3115220、1799840、4348910",
-    "url": "https://github.com/xi7ang/GameHub/commit/c1e9d023fcde963cfcce4e4f61a6ff7afdd4d9eb"
   }
 ]
