@@ -1,5 +1,11 @@
 [
   {
+    "hash": "32e3f40",
+    "date": "2026-11-11T19:58:14+08:00",
+    "message": "data: 重建索引（合并远端后同步喂龙高手）",
+    "url": "https://github.com/xi7ang/GameHub/commit/32e3f405b0e2a322bd28e17fd9f3e3d6e8decfb9"
+  },
+  {
     "hash": "f38e32e",
     "date": "2026-11-11T19:57:49+08:00",
     "message": "Merge remote-tracking branch 'origin/main'",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T03:05:26+08:00",
     "message": "data: 上传官方封面 2680280、3115220、1799840、4348910",
     "url": "https://github.com/xi7ang/GameHub/commit/c1e9d023fcde963cfcce4e4f61a6ff7afdd4d9eb"
-  },
-  {
-    "hash": "37d8ca7",
-    "date": "2026-11-08T23:57:04+08:00",
-    "message": "sync: 新增资源《深空当铺：可能是偷的/Probably Stolen    Build.2631》",
-    "url": "https://github.com/xi7ang/GameHub/commit/37d8ca79ff8dc1ef8d71a789b0da2bf900a7228e"
   }
 ]
