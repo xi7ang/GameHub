@@ -1,5 +1,17 @@
 [
   {
+    "hash": "cd87c71",
+    "date": "2026-11-11T20:31:37+08:00",
+    "message": "chore: 每日公告：发布【2026-11-11】游戏资源更新通知（3 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/cd87c711f5fb856bd6664ea76dfe59b5a3f9cece"
+  },
+  {
+    "hash": "22f3f84",
+    "date": "2026-11-11T20:27:08+08:00",
+    "message": "sync: 新增资源《战锤40K：爆矢枪2 /Warhammer 40000 Boltgun 2   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/22f3f84887935ab1de012a65ccda6361788a9920"
+  },
+  {
     "hash": "9939ca6",
     "date": "2026-11-11T20:20:28+08:00",
     "message": "sync: 新增资源《梦幻魔法公主/Magical Princess    v1.6.0   免安装中》",
@@ -166,17 +178,5 @@
     "date": "2026-11-09T13:25:23+08:00",
     "message": "Merge remote-tracking branch 'origin/main'",
     "url": "https://github.com/xi7ang/GameHub/commit/49a481f096f7df5a67c6178dfbba90a18d1076c9"
-  },
-  {
-    "hash": "2cafe79",
-    "date": "2026-11-09T13:08:50+08:00",
-    "message": "sync: 新增资源《蹄印湾马场/Horses of Hoofprint Bay   v1.0.1  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/2cafe79235b01099d1c8d3641532907bc63fbe9c"
-  },
-  {
-    "hash": "da60612",
-    "date": "2026-11-09T08:01:13+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/da6061210bb4ef4df9d0f878d4b6519ca9542f7e"
   }
 ]

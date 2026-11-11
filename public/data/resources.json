@@ -83258,7 +83258,7 @@
     }
   },
   {
-    "id": "simulation-202610-0004",
+    "id": "simulation-202611-0004",
     "title": "喂龙高手 /Feed the Scorchpot   Build.26537468   免安装中文版",
     "enTitle": "",
     "category": "simulation",
@@ -83275,10 +83275,10 @@
     "featured": false,
     "addedAt": "2026-11-11T19:33:03+08:00",
     "updatedAt": "2026-11-11T19:33:03+08:00",
-    "month": "202610"
+    "month": "202611"
   },
   {
-    "id": "simulation-202610-0005",
+    "id": "simulation-202611-0005",
     "title": "梦幻魔法公主/Magical Princess    v1.6.0   免安装中文版",
     "enTitle": "",
     "category": "simulation",
@@ -83295,10 +83295,10 @@
     "featured": false,
     "addedAt": "2026-11-11T20:20:25+08:00",
     "updatedAt": "2026-11-11T20:20:25+08:00",
-    "month": "202610"
+    "month": "202611"
   },
   {
-    "id": "rhythm-202610-0002",
+    "id": "rhythm-202611-0002",
     "title": "战锤40K：爆矢枪2 /Warhammer 40000 Boltgun 2     Build.26057167     免安装中文版",
     "enTitle": "",
     "category": "rhythm",
@@ -83315,6 +83315,26 @@
     "featured": false,
     "addedAt": "2026-11-11T20:27:05+08:00",
     "updatedAt": "2026-11-11T20:27:05+08:00",
+    "month": "202611"
+  },
+  {
+    "id": "simulation-202610-0004",
+    "title": "拉面店模拟器/Ramen Shop Simulator    v0.6.8.10    免安装中文版",
+    "enTitle": "",
+    "category": "simulation",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/b5ee286528ac?pwd=jtwA",
+    "pwd": "jtwA",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4380740.webp",
+    "steamAppID": 4380740,
+    "desc": "《拉面店模拟器》是一款经营模拟游戏。接手一条被遗忘的旧巷，把一间破败的小店重新开张，从修设备、刷墙壁开始，一步步做出属于自己风格的那碗拉面。 · 重焕街巷生机：在灯笼点亮的背街里闲逛寻找灵感，去街角便利店淘些新食材或别致的摆设，说不定某个角落就压着一份没人记得的老食谱。 · 随心装点店面：亲手修好厨房里的设备、把旧墙重新粉刷，完成挑战就能解锁各式各样的装饰、定制选项与新食谱。想要一间热闹随性、桌椅都不成套的小馆，还是格调讲究的正餐餐厅，随你决定；别忘了去扭蛋机碰碰手气，也许能抽到那件特别的摆件。 · 靠干净做到最好：扫地、确保每盏灯都亮着、留意洗手间，把店里收拾得清爽。肯下功夫的人用得上最好的设备、买得起最好的食材，也可以把钱花在五十个达摩摆件上。只是别让地板脏着、垃圾桶满着——客人真的会注意到。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-11T20:35:38+08:00",
+    "updatedAt": "2026-11-11T20:35:38+08:00",
     "month": "202610"
   }
 ]
