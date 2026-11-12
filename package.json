@@ -19,6 +19,7 @@
     "gen-detail": "node scripts/gen-detail.js"
   },
   "dependencies": {
+    "artalk": "^2.10.1",
     "qrcode": "^1.5.4",
     "vue": "^3.5.13"
   },
