@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7a2d027",
+    "date": "2026-11-12T08:22:19+08:00",
+    "message": "sync: 新增资源《请你削土豆/Potato Please v1.0.4 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7a2d0274e0b236a02977e6a2ccf69a3476d1f281"
+  },
+  {
     "hash": "7ad5f9a",
     "date": "2026-11-12T08:18:57+08:00",
     "message": "sync: 新增资源《群侠传：幸存者 v0.2.3.6 免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T20:32:54+08:00",
     "message": "chore: 每日公告：发布【2026-11-09】游戏资源更新通知（10 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/3ae345485ea34db4a78dbe30df1f09157f245e32"
-  },
-  {
-    "hash": "7e598be",
-    "date": "2026-11-09T19:06:27+08:00",
-    "message": "chore: 移除 5 条无原始链接的资源 + 10 条补充 pwd 提取码",
-    "url": "https://github.com/xi7ang/GameHub/commit/7e598bed8c5d4ddb86c6cb92fd348835a5ab8abd"
   }
 ]
