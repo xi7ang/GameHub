@@ -83396,5 +83396,25 @@
     "addedAt": "2026-11-12T08:18:55+08:00",
     "updatedAt": "2026-11-12T08:18:55+08:00",
     "month": "202611"
+  },
+  {
+    "id": "other-202611-0005",
+    "title": "请你削土豆/Potato Please v1.0.4 免安装中文版",
+    "enTitle": "Potato Please",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/b0403eccab67?pwd=ETnL",
+    "pwd": "ETnL",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/5266240.webp",
+    "steamAppID": 5266240,
+    "desc": "恭喜你，同志。国家把一项至关重要的责任交给了你：让军队吃饱。削好土豆，备齐补给，并为了集体利益不断提升你的工作效率。努力工作，高效工作，并牢记：军队还饿着肚子。 批量收集土豆，用机器处理它们，并随着你的工作规模扩大，把越来越多的流程交给自动化。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-12T08:22:16+08:00",
+    "updatedAt": "2026-11-12T08:22:16+08:00",
+    "month": "202611"
   }
 ]

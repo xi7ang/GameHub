@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7ad5f9a",
+    "date": "2026-11-12T08:18:57+08:00",
+    "message": "sync: 新增资源《群侠传：幸存者 v0.2.3.6 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7ad5f9ac82ab08ba199feb8a12ea457b2a88d78e"
+  },
+  {
     "hash": "52a219c",
     "date": "2026-11-12T08:15:44+08:00",
     "message": "sync: 新增资源《未知伤亡/Casualties Unknown Build.26525321 免》",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T19:06:27+08:00",
     "message": "chore: 移除 5 条无原始链接的资源 + 10 条补充 pwd 提取码",
     "url": "https://github.com/xi7ang/GameHub/commit/7e598bed8c5d4ddb86c6cb92fd348835a5ab8abd"
-  },
-  {
-    "hash": "9e49e9a",
-    "date": "2026-11-09T13:47:13+08:00",
-    "message": "sync: 新增资源《巨龙宝藏整理师/Gildoria – Organize a Dragon’s H》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9e49e9ad8d5f9ff860f413b0490af8f1df2acbbf"
   }
 ]
