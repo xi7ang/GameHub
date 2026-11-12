@@ -193,6 +193,15 @@
       </div>
     </section>
 
+    <!-- 资源求助：Artalk 评论区（固定帖子，大家在这里求资源） -->
+    <section class="container section">
+      <h2 class="section-title">🙏 资源求助</h2>
+      <div class="glass comments-card">
+        <p class="comments-hint text-low">想找的游戏这里没有？在这里留言求资源，填个昵称和邮箱就能发；新留言需审核后显示。</p>
+        <ArtalkComments page-key="home-resource-requests" page-title="资源求助" />
+      </div>
+    </section>
+
     <SiteFooter />
 
   </div>
@@ -206,6 +215,7 @@ import SiteHeader from '../components/SiteHeader.vue'
 import BgWall from '../components/BgWall.vue'
 import SearchBox from '../components/SearchBox.vue'
 import ResourceCard from '../components/ResourceCard.vue'
+import ArtalkComments from '../components/ArtalkComments.vue'
 import SiteFooter from '../components/SiteFooter.vue'
 import AnnouncementModal from '../components/AnnouncementModal.vue'
 import { useData } from '../composables/useData.js'
