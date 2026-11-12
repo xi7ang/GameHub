@@ -1,5 +1,11 @@
 [
   {
+    "hash": "52a219c",
+    "date": "2026-11-12T08:15:44+08:00",
+    "message": "sync: 新增资源《未知伤亡/Casualties Unknown Build.26525321 免》",
+    "url": "https://github.com/xi7ang/GameHub/commit/52a219cd15b4b64290ecfdcef2bd32f189652c5c"
+  },
+  {
     "hash": "b18ede4",
     "date": "2026-11-12T00:29:44+08:00",
     "message": "fix: 修正资源 id 撞车与 month 不匹配（喂龙高手/梦幻魔法公主/拉面店模拟器/王冠与金币）",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T13:47:13+08:00",
     "message": "sync: 新增资源《巨龙宝藏整理师/Gildoria – Organize a Dragon’s H》",
     "url": "https://github.com/xi7ang/GameHub/commit/9e49e9ad8d5f9ff860f413b0490af8f1df2acbbf"
-  },
-  {
-    "hash": "5efffc9",
-    "date": "2026-11-09T13:41:22+08:00",
-    "message": "sync: 新增资源《利维坦：犀牛/Leviathan Rhino   Build.26483084 》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5efffc908d9ba8fbf09f3dbea0002531db83b19d"
   }
 ]

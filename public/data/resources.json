@@ -83376,5 +83376,25 @@
     "addedAt": "2026-11-12T08:15:40+08:00",
     "updatedAt": "2026-11-12T08:15:40+08:00",
     "month": "202611"
+  },
+  {
+    "id": "rpg-202611-0002",
+    "title": "群侠传：幸存者 v0.2.3.6 免安装中文版",
+    "enTitle": "",
+    "category": "rpg",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/ebf1f0f23102?pwd=GR1D",
+    "pwd": "GR1D",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4957110.webp",
+    "steamAppID": 4957110,
+    "desc": "《群侠传：幸存者》是一款武侠题材的幸存者类（Survivors-like）动作 Roguelite。如果你喜欢《吸血鬼幸存者》、《土豆兄弟》式的割草与构筑，这里有一个用武学、内功和江湖奇物重新演绎的版本。 选择你的角色、门派和武学路数。已掌握的武功会按照你设定的顺序自动施展，你只需专注于走位、闪避，以及捡起满地的银钱与战利品。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-12T08:18:55+08:00",
+    "updatedAt": "2026-11-12T08:18:55+08:00",
+    "month": "202611"
   }
 ]
