@@ -178,20 +178,20 @@
           </section>
         </template>
 
-        <!-- 同分类推荐 -->
-        <section v-if="related.length" class="section">
-          <h2 class="section-title">🎯 同类推荐</h2>
-          <div class="rc-grid">
-            <ResourceCard v-for="rel in related" :key="rel.id" :r="rel" />
-          </div>
-        </section>
-
         <!-- 评论：Artalk（自托管，匿名可评），每款资源一个帖子 -->
         <section class="section">
           <h2 class="section-title">💬 评论</h2>
           <div class="glass comments-card">
             <p class="comments-hint text-low">无需登录，填个昵称和邮箱就能评论；新评论需审核后显示。</p>
             <ArtalkComments :page-key="r.id" :page-title="r.title" />
+          </div>
+        </section>
+
+        <!-- 同分类推荐 -->
+        <section v-if="related.length" class="section">
+          <h2 class="section-title">🎯 同类推荐</h2>
+          <div class="rc-grid">
+            <ResourceCard v-for="rel in related" :key="rel.id" :r="rel" />
           </div>
         </section>
       </template>
