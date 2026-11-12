@@ -1,5 +1,11 @@
 [
   {
+    "hash": "b18ede4",
+    "date": "2026-11-12T00:29:44+08:00",
+    "message": "fix: 修正资源 id 撞车与 month 不匹配（喂龙高手/梦幻魔法公主/拉面店模拟器/王冠与金币）",
+    "url": "https://github.com/xi7ang/GameHub/commit/b18ede4657754ca5ebeeeafc12fd937ae8106867"
+  },
+  {
     "hash": "c0bcbee",
     "date": "2026-11-11T20:42:42+08:00",
     "message": "sync: 新增资源《王冠与金币：百年战争/Crown & Coin The Hundred Year》",
@@ -172,11 +178,5 @@
     "date": "2026-11-09T13:41:22+08:00",
     "message": "sync: 新增资源《利维坦：犀牛/Leviathan Rhino   Build.26483084 》",
     "url": "https://github.com/xi7ang/GameHub/commit/5efffc908d9ba8fbf09f3dbea0002531db83b19d"
-  },
-  {
-    "hash": "f92b020",
-    "date": "2026-11-09T13:36:32+08:00",
-    "message": "sync: 新增资源《精灵女猎手：阳光之幕/Elven Huntress Sunveil   Buil》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f92b0207c6b26e03931bcf3746c7a29e823eb33c"
   }
 ]

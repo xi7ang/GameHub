@@ -83356,5 +83356,25 @@
     "addedAt": "2026-11-11T20:42:38+08:00",
     "updatedAt": "2026-11-11T20:42:38+08:00",
     "month": "202611"
+  },
+  {
+    "id": "simulation-202611-0009",
+    "title": "未知伤亡/Casualties Unknown Build.26525321 免安装中文版",
+    "enTitle": "Casualties Unknown",
+    "category": "simulation",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/b49824fb21e6?pwd=7vmX",
+    "pwd": "7vmX",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4576490.webp",
+    "steamAppID": 4576490,
+    "desc": "在严酷的世界中生存 每一层都会抵达新的深度，带来全新挑战，要求你重新适应。 肢体与心血管模拟系统 受伤在所难免。你需要为自己包扎，应对感染的伤口，控制失血避免失去意识。此外，情绪也会显著影响生存几率，过度悲观会让你的处境更加艰难。 制作以求生存 身为具备理性的生物，制作工具能够帮助你更高效地穿越层层洞穴。万一发生出血，洞穴生物群提供的丰富资源也能够帮助你处理伤口。 风险自负的探索 过往的",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-12T08:15:40+08:00",
+    "updatedAt": "2026-11-12T08:15:40+08:00",
+    "month": "202611"
   }
 ]
