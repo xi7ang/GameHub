@@ -178,6 +178,10 @@ input, select, textarea { font-family: inherit; }
   background: linear-gradient(90deg, var(--glass-border), transparent);
 }
 
+/* 评论区：glass 卡片（详情页与主页求助区共用） */
+.comments-card { padding: 18px 22px; position: relative; z-index: 1; }
+.comments-hint { font-size: 13px; margin: 0 0 12px; }
+
 /* ── 玻璃卡片 ── */
 .glass {
   background: var(--glass-bg);
