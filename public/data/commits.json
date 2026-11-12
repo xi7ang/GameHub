@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f712f9e",
+    "date": "2026-11-12T08:25:52+08:00",
+    "message": "sync: 新增资源《欢迎来到古原镇/Welcome to Elderfield v1.0.4b 免安》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f712f9e1d2767da2e392a878261f2d71ec29b641"
+  },
+  {
     "hash": "7a2d027",
     "date": "2026-11-12T08:22:19+08:00",
     "message": "sync: 新增资源《请你削土豆/Potato Please v1.0.4 免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-10T03:06:38+08:00",
     "message": "data: 上传官方封面 4725170、5017810",
     "url": "https://github.com/xi7ang/GameHub/commit/88eb4140287e41ff31eedb35323e5b42e5298492"
-  },
-  {
-    "hash": "3ae3454",
-    "date": "2026-11-09T20:32:54+08:00",
-    "message": "chore: 每日公告：发布【2026-11-09】游戏资源更新通知（10 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/3ae345485ea34db4a78dbe30df1f09157f245e32"
   }
 ]

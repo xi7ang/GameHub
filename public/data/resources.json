@@ -83436,5 +83436,25 @@
     "addedAt": "2026-11-12T08:25:46+08:00",
     "updatedAt": "2026-11-12T08:25:46+08:00",
     "month": "202611"
+  },
+  {
+    "id": "simulation-202611-0010",
+    "title": "斗灵对决 /Batomon Showdown v1.5.0 免安装中文版",
+    "enTitle": "Batomon Showdown",
+    "category": "simulation",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/70790296fb9c?pwd=4bS8",
+    "pwd": "4bS8",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4557380.webp",
+    "steamAppID": 4557380,
+    "desc": "添加了纯萮和甜美的蒳克小饰品,取代了基础璐璐。 普莱恩·卢尔让普通怪物更频繁地出现在商店里,而甜美的美勒也同样为普通怪物和不常见怪物做同样的表演。 吉尔德谢尔德拉科纳奇+吉德谢尔在排名较高时表现尤为优异,因此触发因素已被改变,以打破协同效应。收益出售价值:战斗开始 → 每天开始时",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-12T08:29:19+08:00",
+    "updatedAt": "2026-11-12T08:29:19+08:00",
+    "month": "202611"
   }
 ]
