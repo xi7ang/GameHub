@@ -1,5 +1,65 @@
 [
   {
+    "hash": "5b2482e",
+    "date": "2026-11-12T20:53:23+08:00",
+    "message": "chore: 每日公告：发布【2026-11-12】游戏资源更新通知（7 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/5b2482ed5abef6b28635552a2aed03f006c2a899"
+  },
+  {
+    "hash": "faf2e2a",
+    "date": "2026-11-12T15:53:18+08:00",
+    "message": "feat: 资源详情页评论区移到同类推荐之前",
+    "url": "https://github.com/xi7ang/GameHub/commit/faf2e2a83a425f19ef9c5340a3687b8d7cddc7f0"
+  },
+  {
+    "hash": "7a1c091",
+    "date": "2026-11-12T15:29:33+08:00",
+    "message": "feat: 首页公告新增评论区上线通知",
+    "url": "https://github.com/xi7ang/GameHub/commit/7a1c091ef832745a1e3e3c4da54e49c3076c345c"
+  },
+  {
+    "hash": "0b04c35",
+    "date": "2026-11-12T14:59:05+08:00",
+    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
+    "url": "https://github.com/xi7ang/GameHub/commit/0b04c356165aef263bdee66fbd79cda6311e9aea"
+  },
+  {
+    "hash": "c4fda19",
+    "date": "2026-11-12T14:58:08+08:00",
+    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c4fda19e5ba07617980ea54f7f8b8eeb00dbeb69"
+  },
+  {
+    "hash": "aed5eea",
+    "date": "2026-11-12T14:57:02+08:00",
+    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
+    "url": "https://github.com/xi7ang/GameHub/commit/aed5eea8096cd32d20e74c9fef0685f64194c987"
+  },
+  {
+    "hash": "e0ff3e1",
+    "date": "2026-11-12T14:56:01+08:00",
+    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
+    "url": "https://github.com/xi7ang/GameHub/commit/e0ff3e1ff06256b4285e6222a69bc0fb9a7691ff"
+  },
+  {
+    "hash": "5fe5d53",
+    "date": "2026-11-12T11:41:30+08:00",
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "url": "https://github.com/xi7ang/GameHub/commit/5fe5d53da6c6103a5a95a8eeaeb8786948c80b58"
+  },
+  {
+    "hash": "d6803b7",
+    "date": "2026-11-12T08:29:23+08:00",
+    "message": "sync: 新增资源《斗灵对决 /Batomon Showdown v1.5.0 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d6803b7579214b545bb2d629eeb8fb72bacd1d52"
+  },
+  {
+    "hash": "4a78a8b",
+    "date": "2026-11-12T08:25:55+08:00",
+    "message": "data: 王冠与金币：百年战争 分类定为策略（用户 2026-11-12 定）",
+    "url": "https://github.com/xi7ang/GameHub/commit/4a78a8b5300f0f5ec02e10d91da98f3b3c15583a"
+  },
+  {
     "hash": "f712f9e",
     "date": "2026-11-12T08:25:52+08:00",
     "message": "sync: 新增资源《欢迎来到古原镇/Welcome to Elderfield v1.0.4b 免安》",
@@ -22,6 +82,18 @@
     "date": "2026-11-12T08:15:44+08:00",
     "message": "sync: 新增资源《未知伤亡/Casualties Unknown Build.26525321 免》",
     "url": "https://github.com/xi7ang/GameHub/commit/52a219cd15b4b64290ecfdcef2bd32f189652c5c"
+  },
+  {
+    "hash": "d779a2f",
+    "date": "2026-11-12T08:12:55+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/d779a2fa0d008cca150dfcec2bd9d3276a86f189"
+  },
+  {
+    "hash": "d4bdbd0",
+    "date": "2026-11-12T03:24:10+08:00",
+    "message": "covers: 新增官方封面 3393720 / 3562120",
+    "url": "https://github.com/xi7ang/GameHub/commit/d4bdbd0b75e5a23e304f2f4a1b1c7fa173e091f7"
   },
   {
     "hash": "b18ede4",
@@ -106,77 +178,5 @@
     "date": "2026-11-10T21:58:42+08:00",
     "message": "images: add quick-video/quick-study/quick-games.webp (homepage shortcut card backgrounds)",
     "url": "https://github.com/xi7ang/GameHub/commit/d48c2188eb58d92d82cbf1498d9a5fe41b286060"
-  },
-  {
-    "hash": "aac71d7",
-    "date": "2026-11-10T21:45:41+08:00",
-    "message": "data: 孤岛惊魂5分类 rpg→action（按 Steam 类型 动作/冒险，用户定）",
-    "url": "https://github.com/xi7ang/GameHub/commit/aac71d74b1aedf0eb351241ab42b0c6b1a84677e"
-  },
-  {
-    "hash": "f9d36d6",
-    "date": "2026-11-10T21:42:52+08:00",
-    "message": "data: 修正孤岛惊魂5与秘奥法师错配 appid（4511370→552520、974480→529660）",
-    "url": "https://github.com/xi7ang/GameHub/commit/f9d36d66216371290a41a92f01f76abec5cd6f68"
-  },
-  {
-    "hash": "107ebf1",
-    "date": "2026-11-10T21:41:41+08:00",
-    "message": "covers: add 552520.webp (Far Cry 5), 529660.webp (Mages of Mystralia)",
-    "url": "https://github.com/xi7ang/GameHub/commit/107ebf1d50a65c451e2f46f807a9c6a441d173a4"
-  },
-  {
-    "hash": "364b77c",
-    "date": "2026-11-10T20:31:21+08:00",
-    "message": "chore: 每日公告：发布【2026-11-10】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/364b77cdd4f5bf44e681559df9d5ce88c1378e60"
-  },
-  {
-    "hash": "cbe0f86",
-    "date": "2026-11-10T10:38:23+08:00",
-    "message": "sync: 新增资源《无限摩托骑行/Motorcycle Ride Infinity   Build.》",
-    "url": "https://github.com/xi7ang/GameHub/commit/cbe0f86ad084c73ef68eae24565c979f41b16609"
-  },
-  {
-    "hash": "d9de25c",
-    "date": "2026-11-10T10:33:45+08:00",
-    "message": "sync: 新增资源《守城英雄传/Legend of Defenders   v1.0.6   免安装》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d9de25c6c76f87b13936ad1530a71b72097386b2"
-  },
-  {
-    "hash": "fd93aee",
-    "date": "2026-11-10T10:29:05+08:00",
-    "message": "sync: 新增资源《克里夫·巴克猛鬼追魂：复苏/ Clive Barker’s Hellraiser》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fd93aeefa2926cda39bc4eeb3ae65c1a3756cd5d"
-  },
-  {
-    "hash": "b3bab33",
-    "date": "2026-11-10T10:24:04+08:00",
-    "message": "sync: 新增资源《银松镇/Silver Pines     Build.26489514    免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b3bab33fe311713cbd9c76da0c861160c0d9ff2a"
-  },
-  {
-    "hash": "c398ad1",
-    "date": "2026-11-10T10:18:36+08:00",
-    "message": "Merge remote-tracking branch 'origin/main'",
-    "url": "https://github.com/xi7ang/GameHub/commit/c398ad10d24a4848b1eaab4f821c113fd79a098d"
-  },
-  {
-    "hash": "9443309",
-    "date": "2026-11-10T10:17:24+08:00",
-    "message": "sync: 新增资源《格林默威克之歌/Songs of Glimmerwick   Build.264》",
-    "url": "https://github.com/xi7ang/GameHub/commit/94433090c4f4e3d811d1155694e34568184873bd"
-  },
-  {
-    "hash": "4dfd318",
-    "date": "2026-11-10T08:02:24+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/4dfd31889ee8d7a1dc1cff0416a03f328b2751b9"
-  },
-  {
-    "hash": "88eb414",
-    "date": "2026-11-10T03:06:38+08:00",
-    "message": "data: 上传官方封面 4725170、5017810",
-    "url": "https://github.com/xi7ang/GameHub/commit/88eb4140287e41ff31eedb35323e5b42e5298492"
   }
 ]
