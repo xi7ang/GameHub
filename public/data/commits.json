@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c214e0f",
+    "date": "2026-11-13T14:47:17+08:00",
+    "message": "sync: 批量新增 4 条资源",
+    "url": "https://github.com/xi7ang/GameHub/commit/c214e0f59896b701a91c5a98504cd0f0ea42bfcc"
+  },
+  {
     "hash": "5b2482e",
     "date": "2026-11-12T20:53:23+08:00",
     "message": "chore: 每日公告：发布【2026-11-12】游戏资源更新通知（7 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-11-10T21:59:49+08:00",
     "message": "feat: 首页热门关键词下方新增三个快捷入口卡片（影视/学习/游戏）",
     "url": "https://github.com/xi7ang/GameHub/commit/ac3855312f7dd0c60a9fc6812fde55aa4dcf1d87"
-  },
-  {
-    "hash": "d48c218",
-    "date": "2026-11-10T21:58:42+08:00",
-    "message": "images: add quick-video/quick-study/quick-games.webp (homepage shortcut card backgrounds)",
-    "url": "https://github.com/xi7ang/GameHub/commit/d48c2188eb58d92d82cbf1498d9a5fe41b286060"
   }
 ]

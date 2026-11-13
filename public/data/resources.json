@@ -84383,5 +84383,25 @@
       "storeUrl": "https://store.steampowered.com/app/2826790/",
       "fetchedAt": "2026-11-13T06:54:09.583Z"
     }
+  },
+  {
+    "id": "other-202611-0008",
+    "title": "我们专偷老年人/We Steal From Old People The Game Build.26575047 免安装中文版",
+    "enTitle": "",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/495ec9ece4f9?pwd=qIEv",
+    "pwd": "qIEv",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4511370.webp",
+    "steamAppID": 4511370,
+    "desc": "Reckless Ben and One Big Sip present: We Steal From Old People: The Game! Beat swarms of old people and take their bricks in this incremental action roguelite. Rip them from their disgusting old",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-13T16:11:02+08:00",
+    "updatedAt": "2026-11-13T16:11:02+08:00",
+    "month": "202611"
   }
 ]
