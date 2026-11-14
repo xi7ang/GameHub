@@ -84387,21 +84387,81 @@
   {
     "id": "other-202611-0008",
     "title": "我们专偷老年人/We Steal From Old People The Game Build.26575047 免安装中文版",
-    "enTitle": "",
+    "enTitle": "We Steal From Old People: The Game",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/495ec9ece4f9?pwd=qIEv",
     "pwd": "qIEv",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "257.2MB",
+    "sizeBytes": 269656943,
+    "cover": "/covers/5051080.webp",
+    "steamAppID": 5051080,
     "desc": "Reckless Ben and One Big Sip present: We Steal From Old People: The Game! Beat swarms of old people and take their bricks in this incremental action roguelite. Rip them from their disgusting old",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-13T16:11:02+08:00",
     "updatedAt": "2026-11-13T16:11:02+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5051080,
+      "developer": "One Big Sip",
+      "publisher": "One Big Sip",
+      "releaseDate": "2026 年 11 月 10 日",
+      "genres": [
+        "动作",
+        "休闲",
+        "独立"
+      ],
+      "languages": "英语\n具有完全音频支持的语言",
+      "summary": "Beat swarms of old people and take their bricks in this action roguelike. Rip them from their disgusting old hands. You need bricks. You need all the bricks for yourself because you’re a slimy little brick weasel. You are like a brick vampire and bricks are the blood you need!",
+      "description": "Reckless Ben and One Big Sip present: We Steal From Old People: The Game!\nBeat swarms of old people and take their bricks in this incremental action roguelite. Rip them from their disgusting old hands. You need bricks. You need all the bricks for yourself because you’re a slimy little brick weasel. You are like a brick vampire and bricks are the blood you need!\nSTEAL FROM OLD PEOPLE. BUILD AN EMPIRE. FEEL NOTHING.\nBeat up helpless old people and take every single brick they own all for yourself. You need these bricks more than they do. They’re going to die soon anyway. Beat them, take their bricks, and then use those bricks to become more powerful. Become extremely powerful by snatching all the most rare bricks you can. Hire goons to help you. Hunt for the old people. Hit them. Beat the bricks out of their pockets. They disgust me.\nTHE INTERNET IS COMING FOR YOU\nWatch out for all the stupid annoying self-proclaimed “internet vigilantes” who seem to want to help the old people for some reason. There are many different types of them and you hate them. Why would anyone bother helping an old person? What do they get out of it? NOTHING! So kill them all!\nHIRE A WORKFORCE WITH NO STANDARDS\nMMMMmmm Bricks. You want the bricks but you also NEED them! Your brick builds will earn you passive income that you can use to hire goons! Karen Managers. Corrupt Cops, and many more to help you stop the meddling internet scum who stand between you and YOUR BRICKS!\nBUILD DUMB THINGS. GET STRONGER.\nIn my lair, your brick creations will also make you more powerful! So you can beat old people more efficiently and steal their bricks with greater ease! So many secret builds to discover and increase your power!\nNow Hurry! Get to these old people before someone else does! Beat them and take their bricks! Become a BRICK GOD!! BRICKS!! I LOVE BRICKS MORE THAN ANYTHING ELSE!!!",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/7479e2ea671c9881f3dcae876d5ffc998995b929/ss_7479e2ea671c9881f3dcae876d5ffc998995b929.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/f41d5ef230934e2d02b91adcce8f1d35f12ee52b/ss_f41d5ef230934e2d02b91adcce8f1d35f12ee52b.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/be0149520b4e82d64233453bb4c70b94cd519583/ss_be0149520b4e82d64233453bb4c70b94cd519583.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/382a62bac62a2324eda7bce67c8dc7865991898b/ss_382a62bac62a2324eda7bce67c8dc7865991898b.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/e6214919e33e09d26c1f98563b9d5e326b329bdb/ss_e6214919e33e09d26c1f98563b9d5e326b329bdb.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/43f5f38397d9db88ebb526b2aba5041a79a09fc5/ss_43f5f38397d9db88ebb526b2aba5041a79a09fc5.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/0c7ba834d647c555874b916c97a683457e12307b/ss_0c7ba834d647c555874b916c97a683457e12307b.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/fddce3fd4ee1b687f114310a4e626d1af7c62ad7/ss_fddce3fd4ee1b687f114310a4e626d1af7c62ad7.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/292669ff8cc02d05fdc0a8598cb3361881190199/ss_292669ff8cc02d05fdc0a8598cb3361881190199.1920x1080.jpg?t=1794318125",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5051080/dc7dddd68553f5a4e29635fa96c322c07bf939dc/ss_dc7dddd68553f5a4e29635fa96c322c07bf939dc.1920x1080.jpg?t=1794318125"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core 2 Duo E8200 / AMD FX-4100 (64-bit, SSE4.2)",
+          "内存: 4 GB RAM",
+          "显卡: Vulkan 1.0 compatible GPU – Intel HD Graphics 510 / AMD Radeon R5 (Kaveri) or better",
+          "DirectX 版本: 12",
+          "存储空间: 需要 500 MB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 11 64-bit",
+          "处理器: Intel Core i5-6600K / AMD Ryzen 5 1600",
+          "内存: 8 GB RAM",
+          "显卡: VIDIA GeForce GTX 1050 / AMD Radeon RX 460 (Vulkan 1.2)",
+          "DirectX 版本: 12",
+          "存储空间: 需要 500 MB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 34.86,
+        "initial": 42,
+        "discountPercent": 17
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 232,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 93
+      },
+      "storeUrl": "https://store.steampowered.com/app/5051080/",
+      "fetchedAt": "2026-11-13T18:57:43.327Z"
+    }
   }
 ]
