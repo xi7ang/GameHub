@@ -1,5 +1,47 @@
 [
   {
+    "hash": "f5c472d",
+    "date": "2026-11-14T11:39:21+08:00",
+    "message": "data: 下架《星球大战：银河赛车手-虚》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f5c472dc34268ab70f090be82b74c49b3785683c"
+  },
+  {
+    "hash": "62e33c6",
+    "date": "2026-11-14T10:04:25+08:00",
+    "message": "data: 修正《我们专偷老年人》分类为动作",
+    "url": "https://github.com/xi7ang/GameHub/commit/62e33c6b008c6da93efc06115e3f00ebb1e7ebc2"
+  },
+  {
+    "hash": "ec45355",
+    "date": "2026-11-14T09:52:40+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/ec45355eb0475af001c8a037e734a7fd0cb99cb1"
+  },
+  {
+    "hash": "d9d434d",
+    "date": "2026-11-14T03:03:00+08:00",
+    "message": "covers: add official Steam cover for We Steal From Old People (5051080)",
+    "url": "https://github.com/xi7ang/GameHub/commit/d9d434d72bc718ffff87efa062f7056d8afb0a0f"
+  },
+  {
+    "hash": "c87aa91",
+    "date": "2026-11-13T20:31:23+08:00",
+    "message": "chore: 每日公告：发布【2026-11-13】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/c87aa914f06cc4575644aff4014003395f1327b3"
+  },
+  {
+    "hash": "e2af5c8",
+    "date": "2026-11-13T16:11:05+08:00",
+    "message": "sync: 新增资源《我们专偷老年人/We Steal From Old People The Gam》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e2af5c88f26362972af57fb2a858f420bc6985be"
+  },
+  {
+    "hash": "a3020f4",
+    "date": "2026-11-13T14:56:28+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/a3020f4b8378b0e80b403a341d6de8aa78b6a9cd"
+  },
+  {
     "hash": "c214e0f",
     "date": "2026-11-13T14:47:17+08:00",
     "message": "sync: 批量新增 4 条资源",
@@ -136,47 +178,5 @@
     "date": "2026-11-11T20:20:28+08:00",
     "message": "sync: 新增资源《梦幻魔法公主/Magical Princess    v1.6.0   免安装中》",
     "url": "https://github.com/xi7ang/GameHub/commit/9939ca663d2847ee76273c75084256c69019a8da"
-  },
-  {
-    "hash": "32e3f40",
-    "date": "2026-11-11T19:58:14+08:00",
-    "message": "data: 重建索引（合并远端后同步喂龙高手）",
-    "url": "https://github.com/xi7ang/GameHub/commit/32e3f405b0e2a322bd28e17fd9f3e3d6e8decfb9"
-  },
-  {
-    "hash": "f38e32e",
-    "date": "2026-11-11T19:57:49+08:00",
-    "message": "Merge remote-tracking branch 'origin/main'",
-    "url": "https://github.com/xi7ang/GameHub/commit/f38e32e240813a42f6334bdca985adb8a2ce1391"
-  },
-  {
-    "hash": "833d2e9",
-    "date": "2026-11-11T19:33:06+08:00",
-    "message": "sync: 新增资源《喂龙高手 /Feed the Scorchpot   Build.2653746》",
-    "url": "https://github.com/xi7ang/GameHub/commit/833d2e929d279779537c6923c16bf66e057f235e"
-  },
-  {
-    "hash": "247faff",
-    "date": "2026-11-11T08:15:21+08:00",
-    "message": "data: 人工确认 8 条多映射分类（用户 2026-11-11 定）",
-    "url": "https://github.com/xi7ang/GameHub/commit/247faffdbaf6b4f8606c88ba016f55b78bcd99dc"
-  },
-  {
-    "hash": "f10e6ca",
-    "date": "2026-11-11T07:25:55+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/f10e6ca28bf5189ef694e31c5ff39e25758c86e7"
-  },
-  {
-    "hash": "e9f46fa",
-    "date": "2026-11-11T03:04:54+08:00",
-    "message": "covers: add 1706510.webp, 2333000.webp, 4740930.webp, 3895080.webp",
-    "url": "https://github.com/xi7ang/GameHub/commit/e9f46fa3f6b7923dcefe5d10bec673221e42e231"
-  },
-  {
-    "hash": "ac38553",
-    "date": "2026-11-10T21:59:49+08:00",
-    "message": "feat: 首页热门关键词下方新增三个快捷入口卡片（影视/学习/游戏）",
-    "url": "https://github.com/xi7ang/GameHub/commit/ac3855312f7dd0c60a9fc6812fde55aa4dcf1d87"
   }
 ]

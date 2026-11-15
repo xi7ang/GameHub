@@ -84368,5 +84368,25 @@
       "storeUrl": "https://store.steampowered.com/app/5051080/",
       "fetchedAt": "2026-11-13T18:57:43.327Z"
     }
+  },
+  {
+    "id": "card-202611-0001",
+    "title": "卡包英雄/Booster Pack Heroes Build.26580360 免安装中文版",
+    "enTitle": "Booster Pack Heroes",
+    "category": "card",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/b27d0d2abbb9?pwd=113E",
+    "pwd": "113E",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4618570.webp",
+    "steamAppID": 4618570,
+    "desc": "开启卡包，抵御敌潮。 《卡包英雄》是一款增量游戏，每个卡包都有可能开出新的强力角色。发现英雄与法术，为他们升级能力，抵御无穷无尽的怪物大军，在各个国度中奋力前行。 开启卡包 撕开卡包，每个卡包都有独特的英雄与法术抽取池。搜寻稀有卡牌，打造实力强劲的卡组，击溃最难缠的敌人。 提升实力 撑过激烈的战斗，获得精通点数。用这些点数强化自己的英雄和法术，解锁强力的新技能，将你的卡组化为所向披靡的力",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-15T17:52:41+08:00",
+    "updatedAt": "2026-11-15T17:52:41+08:00",
+    "month": "202611"
   }
 ]
