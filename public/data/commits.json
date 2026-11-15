@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7c321ae",
+    "date": "2026-11-15T18:02:32+08:00",
+    "message": "sync: 新增资源《阿比亚：弹射之旅/Dashoot ABYA’s Adventure Build.》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7c321aed7d1989e4208ba121075e3015a1afce77"
+  },
+  {
     "hash": "78e16d1",
     "date": "2026-11-15T17:57:31+08:00",
     "message": "sync: 新增资源《行尸走肉：求生街头/The Walking Dead Streets of Su》",
@@ -172,11 +178,5 @@
     "date": "2026-11-11T20:35:41+08:00",
     "message": "sync: 新增资源《拉面店模拟器/Ramen Shop Simulator    v0.6.8.10》",
     "url": "https://github.com/xi7ang/GameHub/commit/eb2d8cfadffcaac4d8dd35f4c7900cafa63c5c5f"
-  },
-  {
-    "hash": "cd87c71",
-    "date": "2026-11-11T20:31:37+08:00",
-    "message": "chore: 每日公告：发布【2026-11-11】游戏资源更新通知（3 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/cd87c711f5fb856bd6664ea76dfe59b5a3f9cece"
   }
 ]
