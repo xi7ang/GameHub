@@ -1,5 +1,11 @@
 [
   {
+    "hash": "78e16d1",
+    "date": "2026-11-15T17:57:31+08:00",
+    "message": "sync: 新增资源《行尸走肉：求生街头/The Walking Dead Streets of Su》",
+    "url": "https://github.com/xi7ang/GameHub/commit/78e16d1c294a5431f7832839cb45076ce385b18a"
+  },
+  {
     "hash": "6b8d4fe",
     "date": "2026-11-15T17:52:44+08:00",
     "message": "sync: 新增资源《卡包英雄/Booster Pack Heroes Build.26580360 》",
@@ -172,11 +178,5 @@
     "date": "2026-11-11T20:31:37+08:00",
     "message": "chore: 每日公告：发布【2026-11-11】游戏资源更新通知（3 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/cd87c711f5fb856bd6664ea76dfe59b5a3f9cece"
-  },
-  {
-    "hash": "22f3f84",
-    "date": "2026-11-11T20:27:08+08:00",
-    "message": "sync: 新增资源《战锤40K：爆矢枪2 /Warhammer 40000 Boltgun 2   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/22f3f84887935ab1de012a65ccda6361788a9920"
   }
 ]
