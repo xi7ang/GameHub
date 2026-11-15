@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6b8d4fe",
+    "date": "2026-11-15T17:52:44+08:00",
+    "message": "sync: 新增资源《卡包英雄/Booster Pack Heroes Build.26580360 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6b8d4fe202f07f4715cc9453bc00e18a450bd2c2"
+  },
+  {
     "hash": "f5c472d",
     "date": "2026-11-14T11:39:21+08:00",
     "message": "data: 下架《星球大战：银河赛车手-虚》",
@@ -172,11 +178,5 @@
     "date": "2026-11-11T20:27:08+08:00",
     "message": "sync: 新增资源《战锤40K：爆矢枪2 /Warhammer 40000 Boltgun 2   》",
     "url": "https://github.com/xi7ang/GameHub/commit/22f3f84887935ab1de012a65ccda6361788a9920"
-  },
-  {
-    "hash": "9939ca6",
-    "date": "2026-11-11T20:20:28+08:00",
-    "message": "sync: 新增资源《梦幻魔法公主/Magical Princess    v1.6.0   免安装中》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9939ca663d2847ee76273c75084256c69019a8da"
   }
 ]
