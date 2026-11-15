@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c106a3c",
+    "date": "2026-11-15T18:06:37+08:00",
+    "message": "sync: 新增资源《法术连锁/SpellChain v1.0.3 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c106a3cac10035ee058aa8d0b4678e362b35aa01"
+  },
+  {
     "hash": "7c321ae",
     "date": "2026-11-15T18:02:32+08:00",
     "message": "sync: 新增资源《阿比亚：弹射之旅/Dashoot ABYA’s Adventure Build.》",
@@ -172,11 +178,5 @@
     "date": "2026-11-11T20:42:42+08:00",
     "message": "sync: 新增资源《王冠与金币：百年战争/Crown & Coin The Hundred Year》",
     "url": "https://github.com/xi7ang/GameHub/commit/c0bcbeea6ac36764b5000b7a83db76d36cc9c26b"
-  },
-  {
-    "hash": "eb2d8cf",
-    "date": "2026-11-11T20:35:41+08:00",
-    "message": "sync: 新增资源《拉面店模拟器/Ramen Shop Simulator    v0.6.8.10》",
-    "url": "https://github.com/xi7ang/GameHub/commit/eb2d8cfadffcaac4d8dd35f4c7900cafa63c5c5f"
   }
 ]
