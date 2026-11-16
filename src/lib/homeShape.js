@@ -36,6 +36,29 @@ export function slimCard(r) {
   return o
 }
 
+// 分类页/搜索页专用瘦卡片：slimCard + 分类筛选/排序要用的字段。
+// 只进 resource-index.json（scripts/gen-detail.js），不进 home.json——
+// 首页 coverPool 不需要这些字段，别把 home.json 撑大。
+// 字段与 src/pages/Category.vue 的筛选/排序一一对应：
+//   platform（网盘筛选）、month（月份归档）、sizeBytes（按大小排序）、
+//   steam.genres（题材）、steam.summary（主题关键词）、steam.hasZh（支持中文）、steam.free（免费游戏）
+export function categoryCard(r) {
+  const o = slimCard(r)
+  o.platform = r.platform || ''
+  o.month = r.month || ''
+  o.sizeBytes = r.sizeBytes ?? 0
+  if (r.steam) {
+    o.steam = {
+      ...(o.steam || {}),
+      genres: Array.isArray(r.steam.genres) ? r.steam.genres : [],
+      summary: r.steam.summary || '',
+      hasZh: String(r.steam.languages || '').includes('简体中文'),
+      free: r.steam.price?.free === true,
+    }
+  }
+  return o
+}
+
 // addedAt 形如 2026-10-02T11:56:51+08:00，前 10 位就是站点所在时区(+08:00)的本地日期
 function dayKey(iso) {
   return String(iso || '').slice(0, 10)

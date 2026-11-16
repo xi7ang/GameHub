@@ -3,8 +3,9 @@
  * scripts/gen-detail.js
  * 从 public/data/resources.json 生成详情页专用数据：
  *   public/data/detail/<id>.json   每条资源一个全量文件（详情页按需拉，约几 KB）
- *   public/data/resource-index.json 全站瘦索引（卡片字段 + Steam 角标摘要，
- *                                   详情页用它算相关推荐、解析短码 id）
+ *   public/data/resource-index.json 全站瘦索引（分类页/搜索页/详情页共用：
+ *                                   卡片字段 + Steam 角标摘要 + 分类筛选字段，
+ *                                   见 src/lib/homeShape.js 的 categoryCard）
  *
  * 为什么拆：详情页原来每次打开都拉全量 resources.json（补完 Steam 数据后 3.4MB），
  * 拆完后首次打开只拉索引（约 500KB，带构建号强缓存、跨详情页复用）+ 单条详情（几 KB），
@@ -16,7 +17,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { slimCard } from '../src/lib/homeShape.js'
+import { slimCard, categoryCard } from '../src/lib/homeShape.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = path.join(__dirname, '../public/data')
@@ -44,7 +45,7 @@ for (const f of fs.readdirSync(DETAIL_DIR)) {
   }
 }
 
-const index = { generatedAt: new Date().toISOString().slice(0, 10), items: resources.map(slimCard) }
+const index = { generatedAt: new Date().toISOString().slice(0, 10), items: resources.map(categoryCard) }
 fs.writeFileSync(INDEX_OUT, JSON.stringify(index))
 
 const kb = (n) => (n / 1024).toFixed(1)

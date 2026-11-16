@@ -230,14 +230,16 @@ async function loadDetail(rawId) {
   return state
 }
 
-// 搜索页专用轻量加载器：只拉「瘦索引 + 分类/站点配置」，不再拉全量 resources.json（5.3MB）。
+// 搜索页/分类页共用轻量加载器：只拉「瘦索引 + 分类/站点配置」，不再拉全量 resources.json（6MB）。
 // 瘦索引（resource-index.json）由 scripts/gen-detail.js 在构建期生成，卡片字段与
 // ResourceCard 实际读取的字段一一对应（id/title/enTitle/cover/category/tags/size/status/
-// featured/addedAt/updatedAt/steam 评分摘要+发行日期），渲染结果与全量一致。
-// 索引不可用时回退全量 load()，保证搜索页永远能开。
-let searchLoaded = false
-async function loadSearch() {
-  if (searchLoaded) return state
+// featured/addedAt/updatedAt/steam 评分摘要+发行日期），渲染结果与全量一致；
+// 分类页筛选/排序要用的 platform/month/sizeBytes/steam.genres/summary/hasZh/free 也在索引里
+// （见 lib/homeShape.js 的 categoryCard）。
+// 索引不可用时回退全量 load()，保证页面永远能开。
+let slimLoaded = false
+async function loadSlim() {
+  if (slimLoaded) return state
   const cb = CB
   try {
     const [index, cats, site] = await Promise.all([
@@ -247,16 +249,19 @@ async function loadSearch() {
     ])
     const items = index?.items
     if (!Array.isArray(items)) throw new Error('resource-index 结构异常')
-    state.resources = items
+    // 与全量 load() 保持同一基准顺序（addedAt 倒序）：分类页的「好评率/评测数/大小」
+    // 等排序是稳定排序，并列时靠这个基准顺序定先后；不排的话并列顺序会变成文件顺序，
+    // 导致「好评率最高」前几名与全量时代不一致
+    state.resources = items.sort((a, b) => (b.addedAt || '').localeCompare(a.addedAt || ''))
     state.categories = cats.sort((a, b) => a.order - b.order)
     state.site = site
     applyBrandToDoc(site)
-    searchLoaded = true
+    slimLoaded = true
   } catch (e) {
     // 兜底：回退全量加载
     try {
       await load()
-      searchLoaded = true
+      slimLoaded = true
     } catch (e2) {
       state.error = String(e2)
     }
@@ -267,5 +272,5 @@ async function loadSearch() {
 }
 
 export function useData() {
-  return { state, load, loadHome, loadCategories, loadDetail, loadSearch, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
+  return { state, load, loadHome, loadCategories, loadDetail, loadSearch: loadSlim, loadCategory: loadSlim, detectPlatform, extractPwd, parseLines, catLabel, catMeta }
 }
