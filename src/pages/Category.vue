@@ -157,7 +157,13 @@
         <div v-for="i in 8" :key="i" class="skeleton" style="height: 260px"></div>
       </div>
       <div v-else-if="filtered.length" class="rc-grid">
-        <ResourceCard v-for="r in filtered" :key="r.id" :r="r" />
+        <ResourceCard v-for="r in paged" :key="r.id" :r="r" />
+      </div>
+      <div v-if="!state.loading && filtered.length > visibleCount" class="load-more">
+        <button type="button" class="btn btn-primary" @click="visibleCount += PAGE_SIZE">
+          加载更多（还剩 {{ filtered.length - visibleCount }} 个）
+        </button>
+        <p class="text-low">已显示 {{ Math.min(visibleCount, filtered.length) }} / {{ filtered.length }} 个资源</p>
       </div>
       <div v-else class="empty glass">
         <div style="font-size: 40px; margin-bottom: 10px">🕹️</div>
@@ -178,7 +184,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import SiteHeader from '../components/SiteHeader.vue'
 import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
@@ -187,7 +193,7 @@ import AnnouncementModal from '../components/AnnouncementModal.vue'
 import { useData } from '../composables/useData.js'
 import { useFavorites } from '../composables/useFavorites.js'
 
-const { state, load, catMeta } = useData()
+const { state, loadCategory, catMeta } = useData()
 
 const site = computed(() => state.site)
 
@@ -278,6 +284,7 @@ function themeText(r) {
 function featureOk(r, key) {
   if (key === 'zh')
     return (
+      r.steam?.hasZh === true ||
       String(r.steam?.languages || '').includes('简体中文') ||
       (r.tags || []).some((t) => t === '中文' || t === '汉化')
     )
@@ -286,7 +293,7 @@ function featureOk(r, key) {
       (r.tags || []).includes('联机') ||
       (r.steam?.genres || []).includes('大型多人在线')
     )
-  if (key === 'free') return r.steam?.price?.free === true
+  if (key === 'free') return r.steam?.free === true || r.steam?.price?.free === true
   return true
 }
 function dimOk(r) {
@@ -349,8 +356,19 @@ function fmtMonth(m) {
   return `${m.slice(0, 4)}年${m.slice(4)}月`
 }
 
+// ── 增量渲染：首屏只挂 48 张卡，点「加载更多」再挂 48 张 ──
+// 之前是 filtered 全量一次性挂载（「全部」1333 张），Vue 挂载 + 首屏图片请求
+// 是卡片迟迟不出现的主因；筛选/排序仍在全量上算，只分页渲染。
+const PAGE_SIZE = 48
+const visibleCount = ref(PAGE_SIZE)
+const paged = computed(() => filtered.value.slice(0, visibleCount.value))
+// 筛选/排序/分类变化 → 列表变了，回到第一页
+watch(filtered, () => {
+  visibleCount.value = PAGE_SIZE
+})
+
 onMounted(async () => {
-  await load()
+  await loadCategory()
   // 进分类页 = 看过了：把追更的「新货」计数归零
   if (curCat) markFollowSeen(curCat)
 })
@@ -459,6 +477,8 @@ onMounted(async () => {
 }
 
 .rc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.load-more { text-align: center; margin: 26px 0 8px; position: relative; z-index: 1; }
+.load-more p { margin-top: 10px; font-size: 13px; }
 .empty { padding: 60px 20px; text-align: center; }
 
 @media (max-width: 1024px) { .rc-grid { grid-template-columns: repeat(3, 1fr); } }
