@@ -1,5 +1,65 @@
 [
   {
+    "hash": "372ce35",
+    "date": "2026-11-17T01:04:27+08:00",
+    "message": "Merge remote-tracking branch 'origin/main'",
+    "url": "https://github.com/xi7ang/GameHub/commit/372ce35816934970f74a67faad446d179aecb532"
+  },
+  {
+    "hash": "3123ef1",
+    "date": "2026-11-17T01:04:01+08:00",
+    "message": "content: announce site and Android app speed improvements",
+    "url": "https://github.com/xi7ang/GameHub/commit/3123ef11a882b4c88fb93c6bd850b0b1cacc9227"
+  },
+  {
+    "hash": "a1a01d1",
+    "date": "2026-11-16T22:10:38+08:00",
+    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
+    "url": "https://github.com/xi7ang/GameHub/commit/a1a01d10b041a87765e6d8449c288f34a5e03058"
+  },
+  {
+    "hash": "3e2cf72",
+    "date": "2026-11-16T22:10:02+08:00",
+    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
+    "url": "https://github.com/xi7ang/GameHub/commit/3e2cf728ff1b894e4bafe092d916eadcccc3d6b0"
+  },
+  {
+    "hash": "a3922cd",
+    "date": "2026-11-16T22:09:12+08:00",
+    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
+    "url": "https://github.com/xi7ang/GameHub/commit/a3922cd60c1acd9e44ca2db0b44f0d0876110c3a"
+  },
+  {
+    "hash": "07d082e",
+    "date": "2026-11-16T22:08:32+08:00",
+    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
+    "url": "https://github.com/xi7ang/GameHub/commit/07d082e1c635e3d4132cce718d5316b79f2b07e1"
+  },
+  {
+    "hash": "f9679f0",
+    "date": "2026-11-16T21:58:31+08:00",
+    "message": "chore(pages): 自定义域名改为 gh.devmini.space",
+    "url": "https://github.com/xi7ang/GameHub/commit/f9679f0ece27355aacc7d449f17b146d17ede44d"
+  },
+  {
+    "hash": "4e1502d",
+    "date": "2026-11-16T07:40:19+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/4e1502dbdf392e5a018163b1c4788d626105d663"
+  },
+  {
+    "hash": "0c640fa",
+    "date": "2026-11-15T20:31:20+08:00",
+    "message": "chore: 每日公告：发布【2026-11-15】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/0c640fae59917e1ecab5d565305a60e93b4f83de"
+  },
+  {
+    "hash": "696b8ab",
+    "date": "2026-11-15T18:10:40+08:00",
+    "message": "sync: 新增资源《狸狸：胖哒的夏日/TANUKI Pon’s Summer Build.26529》",
+    "url": "https://github.com/xi7ang/GameHub/commit/696b8ab439ce08efd21dfbb845c8892dd26ca376"
+  },
+  {
     "hash": "c106a3c",
     "date": "2026-11-15T18:06:37+08:00",
     "message": "sync: 新增资源《法术连锁/SpellChain v1.0.3 免安装中文版》",
@@ -118,65 +178,5 @@
     "date": "2026-11-12T11:41:30+08:00",
     "message": "Merge remote-tracking branch 'origin/main'",
     "url": "https://github.com/xi7ang/GameHub/commit/5fe5d53da6c6103a5a95a8eeaeb8786948c80b58"
-  },
-  {
-    "hash": "d6803b7",
-    "date": "2026-11-12T08:29:23+08:00",
-    "message": "sync: 新增资源《斗灵对决 /Batomon Showdown v1.5.0 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d6803b7579214b545bb2d629eeb8fb72bacd1d52"
-  },
-  {
-    "hash": "4a78a8b",
-    "date": "2026-11-12T08:25:55+08:00",
-    "message": "data: 王冠与金币：百年战争 分类定为策略（用户 2026-11-12 定）",
-    "url": "https://github.com/xi7ang/GameHub/commit/4a78a8b5300f0f5ec02e10d91da98f3b3c15583a"
-  },
-  {
-    "hash": "f712f9e",
-    "date": "2026-11-12T08:25:52+08:00",
-    "message": "sync: 新增资源《欢迎来到古原镇/Welcome to Elderfield v1.0.4b 免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f712f9e1d2767da2e392a878261f2d71ec29b641"
-  },
-  {
-    "hash": "7a2d027",
-    "date": "2026-11-12T08:22:19+08:00",
-    "message": "sync: 新增资源《请你削土豆/Potato Please v1.0.4 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7a2d0274e0b236a02977e6a2ccf69a3476d1f281"
-  },
-  {
-    "hash": "7ad5f9a",
-    "date": "2026-11-12T08:18:57+08:00",
-    "message": "sync: 新增资源《群侠传：幸存者 v0.2.3.6 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7ad5f9ac82ab08ba199feb8a12ea457b2a88d78e"
-  },
-  {
-    "hash": "52a219c",
-    "date": "2026-11-12T08:15:44+08:00",
-    "message": "sync: 新增资源《未知伤亡/Casualties Unknown Build.26525321 免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/52a219cd15b4b64290ecfdcef2bd32f189652c5c"
-  },
-  {
-    "hash": "d779a2f",
-    "date": "2026-11-12T08:12:55+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/d779a2fa0d008cca150dfcec2bd9d3276a86f189"
-  },
-  {
-    "hash": "d4bdbd0",
-    "date": "2026-11-12T03:24:10+08:00",
-    "message": "covers: 新增官方封面 3393720 / 3562120",
-    "url": "https://github.com/xi7ang/GameHub/commit/d4bdbd0b75e5a23e304f2f4a1b1c7fa173e091f7"
-  },
-  {
-    "hash": "b18ede4",
-    "date": "2026-11-12T00:29:44+08:00",
-    "message": "fix: 修正资源 id 撞车与 month 不匹配（喂龙高手/梦幻魔法公主/拉面店模拟器/王冠与金币）",
-    "url": "https://github.com/xi7ang/GameHub/commit/b18ede4657754ca5ebeeeafc12fd937ae8106867"
-  },
-  {
-    "hash": "c0bcbee",
-    "date": "2026-11-11T20:42:42+08:00",
-    "message": "sync: 新增资源《王冠与金币：百年战争/Crown & Coin The Hundred Year》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c0bcbeea6ac36764b5000b7a83db76d36cc9c26b"
   }
 ]
