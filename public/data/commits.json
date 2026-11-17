@@ -1,5 +1,11 @@
 [
   {
+    "hash": "1b94e12",
+    "date": "2026-11-17T20:40:49+08:00",
+    "message": "sync: 新增资源《失物招领有限公司/Lost and Found Co. v1.2.2a 免安装中》",
+    "url": "https://github.com/xi7ang/GameHub/commit/1b94e1227eaac5c8b8cf6cce64ab96c3a0aba8f8"
+  },
+  {
     "hash": "df1d35d",
     "date": "2026-11-17T20:36:38+08:00",
     "message": "sync: 新增资源《爆炸香蕉！/BOMBANANA!/单机+联机 v1.3.0 免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-12T14:57:02+08:00",
     "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
     "url": "https://github.com/xi7ang/GameHub/commit/aed5eea8096cd32d20e74c9fef0685f64194c987"
-  },
-  {
-    "hash": "e0ff3e1",
-    "date": "2026-11-12T14:56:01+08:00",
-    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
-    "url": "https://github.com/xi7ang/GameHub/commit/e0ff3e1ff06256b4285e6222a69bc0fb9a7691ff"
   }
 ]
