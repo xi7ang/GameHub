@@ -47,6 +47,16 @@
             </span>
             <span class="tl-chev" aria-hidden="true">{{ expandedIdx === i ? '▾' : '▸' }}</span>
           </button>
+          <div v-if="Array.isArray(it.covers) && it.covers.length" class="tl-covers">
+            <img
+              v-for="cover in it.covers"
+              :key="cover.url || cover.title"
+              class="tl-cover"
+              :src="cover.url"
+              :alt="`${cover.title || '游戏资源'}封面`"
+              loading="lazy"
+            />
+          </div>
           <div v-show="expandedIdx === i" class="tl-body" v-html="linkify(it.content)"></div>
         </div>
       </div>
@@ -373,6 +383,21 @@ onBeforeUnmount(() => {
   line-height: 1.8;
   white-space: pre-line;
 }
+.tl-covers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0 16px 12px 51px;
+}
+.tl-cover {
+  width: 100%;
+  height: clamp(100px, 18vw, 150px);
+  border-radius: 9px;
+  object-fit: cover;
+  object-position: center;
+  background: rgba(var(--bg-1-rgb, 20, 20, 32), 0.65);
+  border: 1px solid var(--glass-border);
+}
 .tl-link {
   color: var(--accent-gold);
   text-decoration: underline;
@@ -394,5 +419,8 @@ onBeforeUnmount(() => {
 @media (max-width: 480px) {
   .announcement-modal { padding: 30px 22px 22px; }
   .announcement-modal h2 { font-size: 23px; }
+  .tl-covers { margin-left: 12px; margin-right: 12px; }
+  .tl-cover { height: 112px; }
+  .tl-body { padding-left: 16px; }
 }
 </style>
