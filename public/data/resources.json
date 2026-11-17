@@ -84773,13 +84773,13 @@
     "id": "other-202611-0009",
     "title": "爆炸香蕉！/BOMBANANA!/单机+联机 v1.3.0 免安装中文版",
     "enTitle": "BOMBANANA!",
-    "category": "other",
+    "category": "casual",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/34608592b9e1?pwd=3sss",
     "pwd": "3sss",
-    "size": "",
-    "sizeBytes": null,
+    "size": "364.5MB",
+    "sizeBytes": 382208989,
     "cover": "/covers/4656000.webp",
     "steamAppID": 4656000,
     "desc": "《BOMBANANA!》是一款让人鸡飞狗跳的合作拆弹游戏，三名玩家分别扮演不见猴、不听猴和不言猴，各自掌握部分情报，必须默契配合拆除炸弹，稍有不慎就会集体升天！你们的友谊能否经受住这样的终极考验呢？ 我们是三不猴！ 🙈 不见猴：虽然看不到炸弹，但能摸到炸弹！👍 可惜的是，由于无法看见颜色或阅读屏幕，剩下的只能依靠队友了。 🙊 不言猴：唯一能够阅读拆弹手册的猴子，但却无法直接开口将已知信息",
@@ -84787,7 +84787,71 @@
     "featured": false,
     "addedAt": "2026-11-17T20:36:35+08:00",
     "updatedAt": "2026-11-17T20:36:35+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4656000,
+      "developer": "Lefto Studio",
+      "publisher": "TARK",
+      "releaseDate": "2026 年 9 月 2 日",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "languages": "英语, 土耳其语, 法语, 德语, 西班牙语 - 西班牙, 简体中文, 葡萄牙语 - 巴西, 日语, 韩语, 俄语, 波兰语, 意大利语, 西班牙语 - 拉丁美洲, 繁体中文, 乌克兰语",
+      "summary": "大家一起来拆弹，猴友欢乐闹翻天！在这款3人合作游戏中，分别扮演不见、不听、不言的三不猴，依靠不完整的信息相互沟通，破解限时谜题。你们能在轰然爆炸前，凭默契拯救一切吗？",
+      "description": "《BOMBANANA!》是一款让人鸡飞狗跳的合作拆弹游戏，三名玩家分别扮演不见猴、不听猴和不言猴，各自掌握部分情报，必须默契配合拆除炸弹，稍有不慎就会集体升天！你们的友谊能否经受住这样的终极考验呢？\n我们是三不猴！\n🙈 不见猴：虽然看不到炸弹，但能摸到炸弹！👍 可惜的是，由于无法看见颜色或阅读屏幕，剩下的只能依靠队友了。\n🙊 不言猴：唯一能够阅读拆弹手册的猴子，但却无法直接开口将已知信息告诉其他猴子。\n🙉 不听猴：能看到炸弹，也能看到好友疯狂地打手势，只是什么也听不见。不过，都这种时候了，也没有很想听见吧？\n在赌上好友性命之际，就必须依靠彼此独有的能力。沟通是关键，而拆除炸弹并非只有唯一正解。如何沟通由你们自己决定——挥手示意、大声叫喊、投掷香蕉……手段没有限制，欢迎各显神通。\n警告！\n游戏中玩家可能面临鸡同鸭讲、互相甩锅、疯狂比划的局面，各位的友谊岌岌可危。即便全程积极交流，最后也不一定能安全拆弹。哪怕顺利拆了炸弹，友情的小船也要摇摇晃晃了。可能有人会说这是一款“好友同乐”游戏，我们并不这么认为。硬要说的话，这是一种全新类型：好友同怒，或者干脆叫“吵架模拟器”。🤔\n究竟如何，就由你们来判定吧！\n特色！\n• 3人合作：不多不少，三只猴子正正好\n• 3种游戏模式：\n◦ 经典：30个精心设计的关卡，难度逐步提升\n◦ 无尽：程序生成的关卡，一波更比一波难\n◦ 自定义：玩家通过调整炸弹难度、定时器、模块类型、环境威胁以及试错次数等，自行创造挑战\n• 非对称角色：每名玩家在看、听、做这三方面承担不同职能\n• 趣味互动：伸手指、摆手掌、挥手臂、动全身……姿势不怕癫狂，敢想何惧抽象（表情轮盘就该填个满满当当）\n• 掌掴：显然是一项必不可少的功能\n• 新环境：那辆可靠的小货车我们都很熟悉，但飞机呢？你们还能在哪些其他环境中拆除炸弹？\n• 环境威胁：停电、障碍物、噪音干扰等状况轮番来袭\n• 语音聊天：你们当中有些猴能说话，有些则不能……看着办呗\n• 解谜模块：每颗炸弹都有不同的模块和规则，相同的地方在于——必定制造各种各样的恐慌\n• 关卡系统：拆除炸弹即可解锁新的关卡，越往后拆，难度越大\n• 色盲模式：谁说看不见的猴子不会拆炸弹！各个物体和UI所用的颜色均可根据需要调整，支持两种不同类型的色盲模式",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/429d033410531fc2ec6ba0cd24956868beaff095/ss_429d033410531fc2ec6ba0cd24956868beaff095.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/e476a3ed312794922d58c9553130922acc7f393d/ss_e476a3ed312794922d58c9553130922acc7f393d.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/88b677bb5d6ec91c12ad8bfbdcc5faf3ff15a044/ss_88b677bb5d6ec91c12ad8bfbdcc5faf3ff15a044.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/edb04b7f1714524fc59691ad0368492488e317cc/ss_edb04b7f1714524fc59691ad0368492488e317cc.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/5564e2b1729232a6c4f9cdc190b5d10f0afc4946/ss_5564e2b1729232a6c4f9cdc190b5d10f0afc4946.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/c1063e896d08eaa213aa43498a1a9ac7e9c481d6/ss_c1063e896d08eaa213aa43498a1a9ac7e9c481d6.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/c84dbad068fc3d4acf9dcf0c3452334b14f6e93a/ss_c84dbad068fc3d4acf9dcf0c3452334b14f6e93a.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/6f8d8f164074991c437af0e1ed2e87e3e0abb636/ss_6f8d8f164074991c437af0e1ed2e87e3e0abb636.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/fb8fb4054ea65d680088e6899738606a972cac8c/ss_fb8fb4054ea65d680088e6899738606a972cac8c.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/cc186a192c05ef8436115794a5942c01d1a04a75/ss_cc186a192c05ef8436115794a5942c01d1a04a75.1920x1080.jpg?t=1794217137",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/d937e891d44bbca2d31f9cb54cdfcfd47b07a67d/ss_d937e891d44bbca2d31f9cb54cdfcfd47b07a67d.1920x1080.jpg?t=1794217137"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11 64-bit",
+          "处理器: Intel Core i3-6100 / AMD Ryzen 3 1200",
+          "内存: 8 GB RAM",
+          "显卡: Intel HD Graphics 520 / AMD Radeon Vega 3 or equivalent",
+          "网络: 宽带互联网连接",
+          "存储空间: 需要 300 MB 可用空间",
+          "声卡: DirectX compatible"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11 64-bit",
+          "处理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "内存: 16 GB RAM",
+          "显卡: Intel Iris Xe / NVIDIA GTX 1050 / AMD RX 560",
+          "网络: 宽带互联网连接",
+          "存储空间: 需要 300 MB 可用空间",
+          "声卡: DirectX compatible"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 29,
+        "initial": 29,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1440,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
+      "storeUrl": "https://store.steampowered.com/app/4656000/",
+      "fetchedAt": "2026-11-17T18:57:00.861Z"
+    }
   },
   {
     "id": "casual-202611-0002",
@@ -84798,8 +84862,8 @@
     "platform": "quark",
     "url": "https://pan.quark.cn/s/b18335555f44?pwd=MHgC",
     "pwd": "MHgC",
-    "size": "",
-    "sizeBytes": null,
+    "size": "1.8GB",
+    "sizeBytes": 1985908918,
     "cover": "/covers/2101390.webp",
     "steamAppID": 2101390,
     "desc": "《失物招领有限公司》是一款轻松愉快的点击寻物游戏。神明“梅龙”已经被世人遗忘了很久很久，而你——小鸭，作为梅龙新创办的快递公司的第一位员工身负重任！快来帮助小鸭寻找神秘的遗失之物并恢复梅龙往日的光辉！ 体验一场精彩纷呈、令人振奋的旅程吧！见证古代势力之间史诗般的战斗，并且用你的行动影响未来。",
@@ -84807,19 +84871,77 @@
     "featured": false,
     "addedAt": "2026-11-17T20:40:44+08:00",
     "updatedAt": "2026-11-17T20:40:44+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2101390,
+      "developer": "Bit Egg Inc.",
+      "publisher": "Bit Egg Inc.、Gamirror Games",
+      "releaseDate": "2026 年 3 月 5 日",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "languages": "英语, 简体中文, 泰语, 繁体中文, 日语, 德语, 韩语\n具有完全音频支持的语言",
+      "summary": "《失物招领有限公司》是一款轻松愉快的点击寻物冒险游戏。快来加入这群古灵精怪的朋友，探访琳琅满目的魔法世界吧！在休闲舒适的世界里，寻找丢失的物品、解开重重的谜团、帮助这位小龙女拿回她的神秘力量吧！",
+      "description": "《失物招领有限公司》是一款轻松愉快的点击寻物游戏。神明“梅龙”已经被世人遗忘了很久很久，而你——小鸭，作为梅龙新创办的快递公司的第一位员工身负重任！快来帮助小鸭寻找神秘的遗失之物并恢复梅龙往日的光辉！\n加入冒险吧！\n体验一场精彩纷呈、令人振奋的旅程吧！见证古代势力之间史诗般的战斗，并且用你的行动影响未来。\n改变世界吧！\n努力寻找遗失的物品，赚取工资，吸引新的客户，并用定制的物品装扮属于你的办公室！\n探索无数神奇的地方吧！\n《失物招领有限公司》的世界充满生命力和各种意想不到的事件。丰富多彩且活力四射的生活在此满溢！\n奇妙兴奋的故事情节 🔎\n拥有各种令人兴奋的场景及与之互动的广阔空间 👀\n结识各种古灵精怪的朋友 👆\n激动人心的谜题和秘密 📦\n各类收藏品和成就 🌈",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/14a7addd31033bfe9721f674f2ce1ed4149648d7/ss_14a7addd31033bfe9721f674f2ce1ed4149648d7.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_85fe92a0b4b4cdf50d13a332a08309a252935c1b.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ss_6bee5a772a4c48517709b835c143fd096ddb781e.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/a76cccef23e914c83827100a43a1fb0274051cfa/ss_a76cccef23e914c83827100a43a1fb0274051cfa.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/dc386de2a4534d1f2310ccdbf73896b6a81112db/ss_dc386de2a4534d1f2310ccdbf73896b6a81112db.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/077bdf4894ccf716dca0f343861eed1f17e00959/ss_077bdf4894ccf716dca0f343861eed1f17e00959.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/78e8086545cf6f04576d8786f61051a9598c3761/ss_78e8086545cf6f04576d8786f61051a9598c3761.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/ba1bd0978b97597ae5aeacd34a4abc4c52fdb0f7/ss_ba1bd0978b97597ae5aeacd34a4abc4c52fdb0f7.1920x1080.jpg?t=1792654189",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2101390/074079cb4ed516b08d8b58434efcc694af4ac8e6/ss_074079cb4ed516b08d8b58434efcc694af4ac8e6.1920x1080.jpg?t=1792654189"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 or later",
+          "处理器: Requires a 64-bit processor",
+          "内存: 8 GB RAM",
+          "显卡: Requires GPU with 1GB VRAM",
+          "存储空间: 需要 2 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 or later",
+          "处理器: Requires a 64-bit processor",
+          "内存: 16 GB RAM",
+          "显卡: GeForce GTX 750 Ti / Radeon R7 250",
+          "存储空间: 需要 4 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 58,
+        "initial": 58,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1529,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 97
+      },
+      "storeUrl": "https://store.steampowered.com/app/2101390/",
+      "fetchedAt": "2026-11-17T18:57:04.060Z"
+    }
   },
   {
     "id": "visual-novel-202611-0001",
     "title": "服从我吧！最终抉择：路西法/Obey Me! Sinner’s Choice Lucifer Build.26311790 免安装中文版",
     "enTitle": "Obey Me! Sinner’s Choice Lucifer",
-    "category": "visual-novel",
+    "category": "adventure",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/1659a845dae7?pwd=5AtL",
     "pwd": "5AtL",
-    "size": "",
-    "sizeBytes": null,
+    "size": "3.3GB",
+    "sizeBytes": 3565816001,
     "cover": "/covers/4444800.webp",
     "steamAppID": 4444800,
     "desc": "《服从我吧！最终抉择：路西法》是一款以地狱为舞台的黑暗恋爱视觉小说游戏。 与你本应审判的男人，共度七日。一句选择，将决定他的命运。 敬请体验这段充满禁忌的黑暗恋情。 游戏内容 本作是一款以剧情为核心的视觉小说游戏，玩家通过阅读故事并与角色互动来推进剧情。 在七日之中，你将： 与路西法及其兄弟们共度时光 观察他们的言行与彼此关系 逐步了解地狱的世界与他们的过去 在故事的最后，你将面临一次唯",
@@ -84827,7 +84949,72 @@
     "featured": false,
     "addedAt": "2026-11-17T20:44:23+08:00",
     "updatedAt": "2026-11-17T20:44:23+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4444800,
+      "developer": "Frontwing",
+      "publisher": "NTT Solmare、GOOD SMILE COMPANY",
+      "releaseDate": "2026 年 11 月 15 日",
+      "genres": [
+        "冒险"
+      ],
+      "languages": "英语, 简体中文, 繁体中文, 日语\n具有完全音频支持的语言",
+      "summary": "你的身份是审判官，而路西法则是被告人。 在这部暗黑浪漫视觉小说中，你将审问堕落天使，并决定他的命运。 等待你的会是救赎，还是毁灭——亦或是，更加危险的结局？",
+      "description": "《服从我吧！最终抉择：路西法》是一款以地狱为舞台的黑暗恋爱视觉小说游戏。\n与你本应审判的男人，共度七日。一句选择，将决定他的命运。\n敬请体验这段充满禁忌的黑暗恋情。\n游戏内容\n本作是一款以剧情为核心的视觉小说游戏，玩家通过阅读故事并与角色互动来推进剧情。\n在七日之中，你将：\n与路西法及其兄弟们共度时光\n观察他们的言行与彼此关系\n逐步了解地狱的世界与他们的过去\n在故事的最后，你将面临一次唯一的选择。\n该选择将使剧情产生分支，并导向不同的结局。\n游戏特色\n来自《Obey Me!》开发团队的全新黑暗恋爱作品\n由深受全球玩家喜爱的NTT Solmare打造，全新的“罪与爱”物语\n超过20万字的大体量剧情\n细腻描绘爱与罪交织的七日故事\n全程语音演出，沉浸感十足\n通过细腻的声音表现，感受角色的情感变化\n唯一一次的选择，以及它的“重量”\n你的选择将决定他的全部命运\n全高清画面呈现的地狱世界\n细致展现既美丽又残酷的黑暗幻想世界\n剧情\n堕落的炽天使路西法，和他的弟弟们。\n身为兄长的路西法，将在地狱最深层・监狱‘科赛特斯河’接受审判。\n他的精神是天使，还是恶魔？\n降下审判的人——是你。\n而在故事的结尾，将会迎来唯一一次选择。\n你是会拯救他呢？\n还是，会破坏他呢？\n傲慢、强欲、嫉妒、愤怒、色域、暴食、怠惰。\n与堕落一同觉醒的七大罪。\n兄弟们各自觉醒了不同的欲望，\n名为“家人”的理想，正逐渐开始崩坏。\n爱并不是治愈。\n而是，剖开内心的利刃。\n利刃所指之人——是你。\n他渴求着你。\n最初，只是为了利用。\n那份不知何时发生了变化的感情——\n是爱？\n还是执念？\n那个选择，不容宽恕。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/3362d17ac8e6362e49f1b69ddb669b25e110b6b9/ss_3362d17ac8e6362e49f1b69ddb669b25e110b6b9.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/dd6cc23390d5095489b6125d9b8270e3db728613/ss_dd6cc23390d5095489b6125d9b8270e3db728613.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/ff472446b390415da646bc4267bbc0e73e062f1f/ss_ff472446b390415da646bc4267bbc0e73e062f1f.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/123d59c6d0012ff5b1d279958f0d61dee71fe69a/ss_123d59c6d0012ff5b1d279958f0d61dee71fe69a.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/aa06aea1d623cb3dbe32a32e96b20183a1603867/ss_aa06aea1d623cb3dbe32a32e96b20183a1603867.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/2141df7777877c7f4bacadccd35badc4c05341d4/ss_2141df7777877c7f4bacadccd35badc4c05341d4.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/97852a6dc1495d4ffcd81ecc925bdb587c984357/ss_97852a6dc1495d4ffcd81ecc925bdb587c984357.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/35d7f626c7429aabe6e1e0f49dc24ef06c9beca8/ss_35d7f626c7429aabe6e1e0f49dc24ef06c9beca8.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/9078c31a6d0a8b135e9304945e99a9c8fae82bad/ss_9078c31a6d0a8b135e9304945e99a9c8fae82bad.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/d02884bde08624ad77d2493f6aba457aeee74715/ss_d02884bde08624ad77d2493f6aba457aeee74715.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/eddccf1b1e708cc5ec3b62e8d8289147ae949064/ss_eddccf1b1e708cc5ec3b62e8d8289147ae949064.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/c327b1055c6afe8ec4c6cc88cac5dec574979a09/ss_c327b1055c6afe8ec4c6cc88cac5dec574979a09.1920x1080.jpg?t=1794815710",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4444800/18d6017031eaf7828bebd78c1103af2f68726a2f/ss_18d6017031eaf7828bebd78c1103af2f68726a2f.1920x1080.jpg?t=1794815710"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: Intel Core i3-10100Y / AMD Ryzen 3 3250U 或更高",
+          "内存: 4 GB RAM",
+          "显卡: Intel HD Graphics 615 / NVIDIA GeForce GT 1030 / AMD Radeon Pro 555 或更高",
+          "DirectX 版本: 11",
+          "声卡: 需要支持 DirectSound 的声卡",
+          "附注事项: 需要指针设备"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: Intel Core i5-10400 / AMD Ryzen 5 3600 或更高",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GT 1030 (GDDR5) / AMD Radeon RX 550 或更高",
+          "DirectX 版本: 11",
+          "声卡: 需要支持 DirectSound 的声卡",
+          "附注事项: 需要指针设备"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 88.2,
+        "initial": 98,
+        "discountPercent": 10
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 112,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 91
+      },
+      "storeUrl": "https://store.steampowered.com/app/4444800/",
+      "fetchedAt": "2026-11-17T18:57:07.106Z"
+    }
   },
   {
     "id": "rpg-202611-0003",
@@ -84838,8 +85025,8 @@
     "platform": "quark",
     "url": "https://pan.quark.cn/s/fd6ecc917ee7?pwd=qPd8",
     "pwd": "qPd8",
-    "size": "",
-    "sizeBytes": null,
+    "size": "14.5GB",
+    "sizeBytes": 15546176088,
     "cover": "/covers/2902170.webp",
     "steamAppID": 2902170,
     "desc": "《Kernel Hearts》这款游戏多人合作游戏融合了动作角色扮演和类Rogue元素。你们作为魔法小队的成员，受命攀登巴别塔，消灭挡住去路的天使，推翻天神，最终拯救世界，令其免于被灰烬淹没的命运。又拒绝了一个神 每一局游戏，你们都可以搭配进攻招数、法术和动作，配合独特的力量，以强大的连击消灭路上的敌人。游戏支持多至四位玩家在线合作，以便你们携手痛击圣经记载的各种怪物。每一关都有一场激烈的头目战，需要迎战那个领地的守护。装备并自定义你的单位",
@@ -84847,7 +85034,69 @@
     "featured": false,
     "addedAt": "2026-11-17T20:47:36+08:00",
     "updatedAt": "2026-11-17T20:47:36+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2902170,
+      "developer": "Ephemera Games",
+      "publisher": "Whitethorn Games",
+      "releaseDate": "2026 年 9 月 17 日",
+      "genres": [
+        "动作",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 日语, 西班牙语 - 拉丁美洲, 简体中文, 繁体中文\n具有完全音频支持的语言",
+      "summary": "集结同伴，消灭天使，变身魔法少女，诛杀天神。 《Kernel Hearts》是一款多人合作角色扮演类Rogue动作游戏，讲述了四名魔法少女如何试图拯救世界，令其免于被灰烬淹没的命运。",
+      "description": "《Kernel Hearts》这款游戏多人合作游戏融合了动作角色扮演和类Rogue元素。你们作为魔法小队的成员，受命攀登巴别塔，消灭挡住去路的天使，推翻天神，最终拯救世界，令其免于被灰烬淹没的命运。又拒绝了一个神\n每一局游戏，你们都可以搭配进攻招数、法术和动作，配合独特的力量，以强大的连击消灭路上的敌人。游戏支持多至四位玩家在线合作，以便你们携手痛击圣经记载的各种怪物。每一关都有一场激烈的头目战，需要迎战那个领地的守护。装备并自定义你的单位\n每次征途之后，你们都将回归实验室上一次的记忆备份，而这个实验室位于人类最后一个抵抗根据地的外面。\n每局游戏获得的奖励可以解锁芯片，并将它们装入你的魔法操作系统（至多可装备256KB），然后根据需要自行设置。变身魔法少女\n驾驭高塔的力量，消除自己身上的天堂诅咒，对附近的敌人发起毁灭性的攻击，短暂地回归你的真实形态。.与盟友建立联结\n与塔内的各类居民互动，通过赠送礼物加深你与对方的感情。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/8ee81da0a56173915f4a1555fdb60d94e7858d34/ss_8ee81da0a56173915f4a1555fdb60d94e7858d34.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/88078553b7fdd46bf11f0bcc1c435c0780e3a199/ss_88078553b7fdd46bf11f0bcc1c435c0780e3a199.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/674a81ec253e5753f3df34b628bc8479ad0e1d2d/ss_674a81ec253e5753f3df34b628bc8479ad0e1d2d.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/0edb6ca2e74c29ac41cd96308c0fc8d0d132fdd7/ss_0edb6ca2e74c29ac41cd96308c0fc8d0d132fdd7.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/a7410d408fbbb0ea6cb91100314b3b7a26d054cc/ss_a7410d408fbbb0ea6cb91100314b3b7a26d054cc.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/ss_2ddb69c6d0d4b3b45b5afe7d2909c113ce7c57b3.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/9fbe3f4cbb7c16fea81f9106e8a1faa7c62c0e0d/ss_9fbe3f4cbb7c16fea81f9106e8a1faa7c62c0e0d.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/06f6de52d6c1291fe94d2951ebdca911c4c7ec15/ss_06f6de52d6c1291fe94d2951ebdca911c4c7ec15.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/9a08a86d3a7f8f10b2ee740903e361d87eecd57c/ss_9a08a86d3a7f8f10b2ee740903e361d87eecd57c.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/ss_2e31929245860388dff459642d98acd0af6dd198.1920x1080.jpg?t=1793651021",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2902170/ss_c4ac7a1a4f9df69cca84887cafb0a39edd3f6090.1920x1080.jpg?t=1793651021"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 or Above",
+          "处理器: Intel Core i7-9750H @ 2.60GHz or equivalent",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1060 or equivalent",
+          "存储空间: 需要 15 GB 可用空间",
+          "附注事项: Minimum specs target 1080p gameplay on Low/Medium settings. Performance may vary during online co-op."
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 or Above",
+          "处理器: Intel Core i7-10700 / AMD Ryzen 5 3600 or equivalent",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GeForce RTX 2060 / GTX 1660 Ti or equivalent",
+          "存储空间: 需要 15 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 77,
+        "initial": 77,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 310,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 80
+      },
+      "storeUrl": "https://store.steampowered.com/app/2902170/",
+      "fetchedAt": "2026-11-17T18:57:10.158Z"
+    }
   },
   {
     "id": "rhythm-202611-0003",
@@ -84858,8 +85107,8 @@
     "platform": "quark",
     "url": "https://pan.quark.cn/s/3764a672493c?pwd=GHCz",
     "pwd": "GHCz",
-    "size": "",
-    "sizeBytes": null,
+    "size": "1.5GB",
+    "sizeBytes": 1639824589,
     "cover": "/covers/4560660.webp",
     "steamAppID": 4560660,
     "desc": "在快节奏的竞技场战斗中操控一名战士。瞄准技能、移动并实时反应，通过走位和时机压制对手。或者后撤一步，制定战术，观看你的队伍作战。 赢得战斗获取金币，买卖佣兵并强化你的阵容。发现拥有独特技能的职业，打造你的队伍，并在赛季中不断提升。 在结构化的联赛和锦标赛中检验你的队伍。对抗强大的俱乐部和独特的领袖，招募稀有冠军，一路攀登至顶峰。",
@@ -84867,6 +85116,75 @@
     "featured": false,
     "addedAt": "2026-11-17T20:52:55+08:00",
     "updatedAt": "2026-11-17T20:52:55+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4560660,
+      "developer": "shirowita",
+      "publisher": "Tripwire Presents",
+      "releaseDate": "2026 年 8 月 24 日",
+      "genres": [
+        "动作",
+        "独立",
+        "模拟",
+        "策略",
+        "抢先体验"
+      ],
+      "languages": "英语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 俄语, 简体中文, 韩语, 法语, 德语, 意大利语, 土耳其语, 日语\n具有完全音频支持的语言",
+      "summary": "投身竞技场对决，经营自己的佣兵俱乐部。在不断变化的市场中招募佣兵，组建队伍，在一个又一个赛季中征战联赛与杯赛。",
+      "description": "在快节奏的竞技场对战中，你可以让队伍自动战斗，也可以亲自操控一名斗士。瞄准目标施放技能，根据战况实时调整走位，抓准时机出手，抢占上风。你也可以退居场边，布置战术，看队员们如何应战。\n赢得比赛，获得金币和宝箱，通过买卖佣兵补强阵容。探索不同职业的独特技能，自由搭配阵容，在一个又一个赛季中提升队伍实力。你还可以聘请教练和其他工作人员，搜寻稀有的闪光佣兵。\n带队征战联赛和锦标赛，挑战实力强劲的俱乐部及其风格各异的领袖。赛场上既有紧张的 1v1 对决，也有激烈的 8v8 混战。你可以招募稀有的冠军斗士，也可以从初始阵容中挑选一名新秀，在培养过程中自定义其技能和属性，助其晋升为冠军斗士。\n在异步 PvP 对战中挑战好友，或参加排位赛，与 Elo 评分相近的对手一较高下。到了游戏后期，你还可以带领最强阵容闯荡传奇殿堂，迎接一系列 PvE 挑战。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/50bd5583a17c1ebbcfa35149000a425da2caa303/ss_50bd5583a17c1ebbcfa35149000a425da2caa303.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/083dc22a4ac65db2cc1a2174015287072b5f3022/ss_083dc22a4ac65db2cc1a2174015287072b5f3022.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/1eec47f969fe5a7956340fbc647d102e855979b1/ss_1eec47f969fe5a7956340fbc647d102e855979b1.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/ae5f131dab9552c08be9132b55eeb8a25d41c855/ss_ae5f131dab9552c08be9132b55eeb8a25d41c855.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/72c13309dd6ae40b705057f76cecd80b6108c364/ss_72c13309dd6ae40b705057f76cecd80b6108c364.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/130a022cf5ee1713894ed3db0facd725fa4ff21e/ss_130a022cf5ee1713894ed3db0facd725fa4ff21e.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/fd23178fbf54de758a375a39ce7cc2c9a47ad0df/ss_fd23178fbf54de758a375a39ce7cc2c9a47ad0df.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/c92b8ae36cdf3805ae2681dcfdf33249c1a6a3cc/ss_c92b8ae36cdf3805ae2681dcfdf33249c1a6a3cc.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/1a1301973627a2a38a14742e048124c31d92fd69/ss_1a1301973627a2a38a14742e048124c31d92fd69.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/6d08c210906e3320a658d783867af80a41ab24b8/ss_6d08c210906e3320a658d783867af80a41ab24b8.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/7f1fa46b14db949a5edb031518f6540f4a5c33d2/ss_7f1fa46b14db949a5edb031518f6540f4a5c33d2.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/7840ef0fe06d9258e0ec5aa4b2ed44de28543a47/ss_7840ef0fe06d9258e0ec5aa4b2ed44de28543a47.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/d08a006a5f36d0e4bf9fcb089059381d3eb0d2a2/ss_d08a006a5f36d0e4bf9fcb089059381d3eb0d2a2.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/e4442b414836c738e47bc8e0bd28d3b42c1a5866/ss_e4442b414836c738e47bc8e0bd28d3b42c1a5866.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/a1aae8d8a22a37c52acb4da32e5975cbad5f4007/ss_a1aae8d8a22a37c52acb4da32e5975cbad5f4007.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/0145dcb32e79bb1408a09170766fdd12d76e2748/ss_0145dcb32e79bb1408a09170766fdd12d76e2748.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/8af298c47d618082c40831fe8a9047d2d497a062/ss_8af298c47d618082c40831fe8a9047d2d497a062.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/e48ceb99bfac5b6a8dcdf3a2852d3930ffc94d83/ss_e48ceb99bfac5b6a8dcdf3a2852d3930ffc94d83.1920x1080.jpg?t=1793897554",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4560660/18d39ea4964bedc548e8b453d9fbd6f94431ed3f/ss_18d39ea4964bedc548e8b453d9fbd6f94431ed3f.1920x1080.jpg?t=1793897554"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 (64-bit)",
+          "处理器: Intel Core i3-2100 / AMD FX-4300",
+          "内存: 8 GB RAM",
+          "显卡: Intel HD Graphics 4000",
+          "存储空间: 需要 2 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10 / 11 (64-bit)",
+          "处理器: Intel Core i5-4460 / AMD Ryzen 3 1200",
+          "内存: 16 GB RAM",
+          "显卡: NVIDIA GTX 750 Ti / AMD Radeon R7 260X",
+          "存储空间: 需要 5 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 47.2,
+        "initial": 59,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 1747,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 94
+      },
+      "storeUrl": "https://store.steampowered.com/app/4560660/",
+      "fetchedAt": "2026-11-17T18:57:13.153Z"
+    }
   }
 ]
