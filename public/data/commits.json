@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c96ae84",
+    "date": "2026-11-17T20:44:26+08:00",
+    "message": "sync: 新增资源《服从我吧！最终抉择：路西法/Obey Me! Sinner’s Choice L》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c96ae8448fdba0f1ec61a8cca402900b68779c1d"
+  },
+  {
     "hash": "1b94e12",
     "date": "2026-11-17T20:40:49+08:00",
     "message": "sync: 新增资源《失物招领有限公司/Lost and Found Co. v1.2.2a 免安装中》",
@@ -172,11 +178,5 @@
     "date": "2026-11-12T14:58:08+08:00",
     "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
     "url": "https://github.com/xi7ang/GameHub/commit/c4fda19e5ba07617980ea54f7f8b8eeb00dbeb69"
-  },
-  {
-    "hash": "aed5eea",
-    "date": "2026-11-12T14:57:02+08:00",
-    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
-    "url": "https://github.com/xi7ang/GameHub/commit/aed5eea8096cd32d20e74c9fef0685f64194c987"
   }
 ]
