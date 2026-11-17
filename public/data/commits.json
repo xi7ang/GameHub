@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6443d78",
+    "date": "2026-11-17T20:47:40+08:00",
+    "message": "sync: 新增资源《内核之心/Kernel Hearts Build.26654984 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6443d788618c06db4473930d48bae963523b0ebd"
+  },
+  {
     "hash": "c96ae84",
     "date": "2026-11-17T20:44:26+08:00",
     "message": "sync: 新增资源《服从我吧！最终抉择：路西法/Obey Me! Sinner’s Choice L》",
@@ -172,11 +178,5 @@
     "date": "2026-11-12T14:59:05+08:00",
     "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
     "url": "https://github.com/xi7ang/GameHub/commit/0b04c356165aef263bdee66fbd79cda6311e9aea"
-  },
-  {
-    "hash": "c4fda19",
-    "date": "2026-11-12T14:58:08+08:00",
-    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c4fda19e5ba07617980ea54f7f8b8eeb00dbeb69"
   }
 ]

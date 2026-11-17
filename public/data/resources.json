@@ -84848,5 +84848,25 @@
     "addedAt": "2026-11-17T20:47:36+08:00",
     "updatedAt": "2026-11-17T20:47:36+08:00",
     "month": "202611"
+  },
+  {
+    "id": "rhythm-202611-0003",
+    "title": "艾斯莱邦/ Eslabong Build.26671482 免安装中文版",
+    "enTitle": "Eslabong",
+    "category": "rhythm",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/3764a672493c?pwd=GHCz",
+    "pwd": "GHCz",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4560660.webp",
+    "steamAppID": 4560660,
+    "desc": "在快节奏的竞技场战斗中操控一名战士。瞄准技能、移动并实时反应，通过走位和时机压制对手。或者后撤一步，制定战术，观看你的队伍作战。 赢得战斗获取金币，买卖佣兵并强化你的阵容。发现拥有独特技能的职业，打造你的队伍，并在赛季中不断提升。 在结构化的联赛和锦标赛中检验你的队伍。对抗强大的俱乐部和独特的领袖，招募稀有冠军，一路攀登至顶峰。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-17T20:52:55+08:00",
+    "updatedAt": "2026-11-17T20:52:55+08:00",
+    "month": "202611"
   }
 ]
