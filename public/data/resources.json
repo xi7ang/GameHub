@@ -60566,83 +60566,6 @@
     }
   },
   {
-    "id": "pc-202608-0034",
-    "title": "乐高蝙蝠侠：黑暗骑士之遗-虚拟机版/LEGO Batman Legacy of the Dark Knight v1.008|Build.24240150 免安装中文版",
-    "enTitle": "LEGO® Batman™: Legacy of the Dark Knight",
-    "category": "action",
-    "tags": [],
-    "platform": "quark",
-    "url": "https://pan.quark.cn/s/334801a29bec?pwd=AxwL",
-    "pwd": "AxwL",
-    "size": "37.3GB",
-    "sizeBytes": 40050913299,
-    "cover": "",
-    "desc": "",
-    "status": "active",
-    "featured": false,
-    "addedAt": "2026-08-01T00:00:00+08:00",
-    "updatedAt": "2026-08-25T10:45:29+08:00",
-    "month": "202608",
-    "steamAppID": 2215200,
-    "steam": {
-      "appId": 2215200,
-      "developer": "TT Games",
-      "publisher": "Warner Bros. Games、Warner Bros. Interactive Entertainment",
-      "releaseDate": "2026 年 5 月 22 日",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 阿拉伯语, 丹麦语, 荷兰语, 日语, 韩语, 波兰语, 葡萄牙语 - 巴西, 俄语, 简体中文, 西班牙语 - 拉丁美洲, 繁体中文\n具有完全音频支持的语言",
-      "summary": "以黑暗骑士的身份崛起，体验蝙蝠侠的精彩故事。在充满刺激和动作的大胆冒险中，体验激烈的战斗、开放世界的哥谭市，以及粉丝熟知和喜爱的乐高标志性魅力。",
-      "description": "《乐高®蝙蝠侠™：黑暗骑士之遗》这款叙事动作冒险游戏由《乐高®星球大战™：天行者传奇》的创作者 TT Games 开发。踏上布鲁斯·韦恩的旅程，成为蝙蝠侠。与值得信赖的盟友携手，一起面对哥谭市最危险且经典的 DC 超级反派。\n踏上一段从蝙蝠侠的起源开始的旅程，年轻的布鲁斯·韦恩在影子联盟接受训练、成为哥谭市的英雄，并与吉姆·戈登、猫女、罗宾、夜翼和蝙蝠女组成新的盟友家族。面对小丑、企鹅人、急冻人、毒藤女、贝恩等来自蝙蝠侠“流氓画廊”日益严重的威胁。\n扮演蝙蝠侠，体验激动人心的全新战斗系统，将流畅的连击、潜行技巧和侦探技能融为一体，在哥谭市的街道和屋顶上打击犯罪。驾驶包括传奇“不倒翁”在内的各种蝙蝠车和蝙蝠摩托，在开放而沉浸式的哥谭市中穿梭。以敏捷和速度在开放世界中抓钩、滑翔或驾驶，同时发现犯罪、挑战、奖励、秘密以及阿卡姆疯人院、ACE 化工厂和韦恩塔等标志性地标。\n准备好塑造黑暗骑士的传奇，并守护哥谭市了吗？",
-      "screenshots": [
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/26d8ea3f288ffaa1fe9956620cbd920f10b171f4/ss_26d8ea3f288ffaa1fe9956620cbd920f10b171f4.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/3c98a7a4d4624f8799d553a58fdb31d33ce1e494/ss_3c98a7a4d4624f8799d553a58fdb31d33ce1e494.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/fdbad71e14ed79de392e8d4b3915d2bec2895dbb/ss_fdbad71e14ed79de392e8d4b3915d2bec2895dbb.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/ce6fbdc2574a3c8119d4b6200a9728f0b0d10573/ss_ce6fbdc2574a3c8119d4b6200a9728f0b0d10573.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/d8a37aef421cac8d67dbdf76f103b332d6040e4a/ss_d8a37aef421cac8d67dbdf76f103b332d6040e4a.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/5f100b6c92ce7a0b860dea928bcdc9bc5b1676b4/ss_5f100b6c92ce7a0b860dea928bcdc9bc5b1676b4.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/976fe59f0cb0b31d6f1fddd488c1a05742245bac/ss_976fe59f0cb0b31d6f1fddd488c1a05742245bac.1920x1080.jpg?t=1789746326",
-        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/261056fb830839878fb4fcb8af6f5804e4bc6899/ss_261056fb830839878fb4fcb8af6f5804e4bc6899.1920x1080.jpg?t=1789746326"
-      ],
-      "requirements": {
-        "minimum": [
-          "需要 64 位处理器和操作系统",
-          "操作系统: Windows 11",
-          "处理器: Intel Core i5-10600K or AMD Ryzen 5 1600",
-          "内存: 16 GB RAM",
-          "显卡: NVIDIA GeForce GTX 960, 4 GB or AMD Radeon RX 6400, 4 GB or Intel Arc A580, 8 GB",
-          "存储空间: 需要 50 GB 可用空间"
-        ],
-        "recommended": [
-          "需要 64 位处理器和操作系统",
-          "操作系统: Windows 11",
-          "处理器: Intel Core i7-12700 or AMD Ryzen 7 5800X",
-          "内存: 16 GB RAM",
-          "显卡: NVIDIA GeForce RTX 2070 SUPER, 8 GB or AMD Radeon RX 6650 XT, 8 GB or Intel Arc B580, 12 GB",
-          "存储空间: 需要 50 GB 可用空间"
-        ]
-      },
-      "price": {
-        "free": false,
-        "currency": "CNY",
-        "final": 298,
-        "initial": 298,
-        "discountPercent": 0
-      },
-      "rating": {
-        "scoreDesc": "Overwhelmingly Positive",
-        "totalReviews": 6868,
-        "positive": null,
-        "negative": null,
-        "positiveRate": 95
-      },
-      "storeUrl": "https://store.steampowered.com/app/2215200/",
-      "fetchedAt": "2026-10-25T04:09:24.586Z"
-    }
-  },
-  {
     "id": "pc-202608-0035",
     "title": "僵尸枪战 离线畅玩版",
     "enTitle": "",
@@ -85102,7 +85025,7 @@
     "id": "rhythm-202611-0003",
     "title": "艾斯莱邦/ Eslabong Build.26671482 免安装中文版",
     "enTitle": "Eslabong",
-    "category": "rhythm",
+    "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/3764a672493c?pwd=GHCz",
