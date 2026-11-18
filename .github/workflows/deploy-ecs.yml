@@ -1,7 +1,7 @@
 name: Deploy GameHub to Aliyun ECS
 
 # 与 deploy.yml（GitHub Pages → pan.devmini.space）并行，互不影响。
-# 本工作流把构建产物推送到阿里云 ECS 的 nginx 站点 https://mibear.top
+# 本工作流把构建产物推送到阿里云 ECS 的 nginx 站点 https://pan.devmini.space
 #
 # 为什么用 GitHub Actions 而不是在 ECS 上拉代码：
 #   该 ECS 到 github.com:443 时通时断（实测 TCP 超时、git ls-remote 卡死），
@@ -42,27 +42,21 @@ jobs:
       - name: Validate data
         run: node scripts/validate.js
 
-      # 源数据里的公告文案与资源详情链接硬编码为 pan.devmini.space（Pages 那套域名）。
-      # 这里只改本工作流的产物，deploy.yml 推给 Pages 的版本不受影响。
-      - name: Rewrite hardcoded domain for mibear.top
-        run: sed -i 's|pan\.devmini\.space|mibear.top|g' public/data/site.json
-
+      # 保持公告文案与资源详情链接使用主域名 pan.devmini.space，不做域名替换。
       - name: Build
         run: npm run build
 
-      # sitemap.xml / robots.txt 由 postbuild 的 gen-sitemap.js 生成，域名取自 site.json 的 url 字段；
-      # 该字段缺省回退到 https://pan.devmini.space，所以 ECS 的产物必须再改一次，否则 mibear.top
-      # 会把站点地图指向 Pages 域名，搜索引擎照着爬的是另一个站。只改本工作流的 dist/，Pages 那套不动。
-      - name: Rewrite domain in generated sitemap/robots
+      # sitemap.xml / robots.txt 由 postbuild 的 gen-sitemap.js 生成，保持 pan.devmini.space。
+      # 不在 ECS 工作流中替换域名，避免 ECS 与 Pages 使用不同的站点地址。
+      - name: Verify generated sitemap/robots domain
         run: |
-          sed -i 's|pan\.devmini\.space|mibear.top|g' dist/sitemap.xml dist/robots.txt
-          if grep -q 'pan\.devmini\.space' dist/sitemap.xml dist/robots.txt; then
-            echo '::error::sitemap.xml/robots.txt 仍残留 pan.devmini.space，替换未生效'
+          grep -q 'Sitemap: https://pan.devmini.space/sitemap.xml' dist/robots.txt
+          if grep -q 'mibear\.top' dist/sitemap.xml dist/robots.txt; then
+            echo '::error::sitemap.xml/robots.txt 不应包含 mibear.top'
             exit 1
           fi
-          grep -q 'Sitemap: https://mibear.top/sitemap.xml' dist/robots.txt
           echo "robots.txt -> $(grep '^Sitemap:' dist/robots.txt)"
-          echo "sitemap.xml -> $(grep -c '<loc>https://mibear.top' dist/sitemap.xml) 条 mibear.top URL"
+          echo "sitemap.xml -> $(grep -c '<loc>https://pan.devmini.space' dist/sitemap.xml) 条 pan.devmini.space URL"
 
       - name: Deploy to Aliyun ECS via rsync
         uses: burnett01/rsync-deployments@v9
@@ -77,12 +71,12 @@ jobs:
 
       - name: Health check
         run: |
-          code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 https://mibear.top/)
-          echo "https://mibear.top/ -> $code"
+          code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 https://pan.devmini.space/)
+          echo "https://pan.devmini.space/ -> $code"
           [ "$code" = "200" ] || exit 1
-          # SEO 文件也必须指向 mibear.top：只验首页会让「域名替换没生效」静默通过
-          curl -sS --max-time 30 https://mibear.top/robots.txt | grep -q 'Sitemap: https://mibear.top/sitemap.xml' || {
-            echo '::error::线上 robots.txt 的 Sitemap 未指向 mibear.top'; exit 1; }
-          left=$(curl -sS --max-time 30 https://mibear.top/sitemap.xml | grep -c 'pan\.devmini\.space' || true)
-          echo "线上 sitemap.xml 残留 pan.devmini.space: $left"
+          # SEO 文件必须继续指向 pan.devmini.space。
+          curl -sS --max-time 30 https://pan.devmini.space/robots.txt | grep -q 'Sitemap: https://pan.devmini.space/sitemap.xml' || {
+            echo '::error::线上 robots.txt 的 Sitemap 未指向 pan.devmini.space'; exit 1; }
+          left=$(curl -sS --max-time 30 https://pan.devmini.space/sitemap.xml | grep -c 'mibear\.top' || true)
+          echo "线上 sitemap.xml 残留 mibear.top: $left"
           [ "$left" = "0" ] || exit 1
