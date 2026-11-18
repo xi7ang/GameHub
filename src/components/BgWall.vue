@@ -1,6 +1,6 @@
 <template>
-  <!-- 全页背景：游戏胶囊图墙（Steam 胶囊图，默认 30 张，Admin 可一键随机刷新） -->
-  <div class="bg-wall" aria-hidden="true">
+  <!-- 背景墙最后挂载：不参与首屏内容渲染，避免图片抢占页面加载资源。 -->
+  <div v-if="wallReady" class="bg-wall" aria-hidden="true">
     <div class="game-wall">
       <div class="game-wall__track">
         <template v-for="(row, ri) in gameRows" :key="ri">
@@ -75,27 +75,46 @@ const DEFAULT_COVERS = [
   { slug: 'GodOfWar', name: '战神', short: '战神', img: `${BASE}game-covers/GodOfWar.webp` },
 ]
 
-const gameCovers = ref([...DEFAULT_COVERS])
+const gameCovers = ref([])
+const wallReady = ref(false)
+
+function scheduleBackgroundLoad(callback) {
+  const afterPaint = () => {
+    if (typeof window.requestIdleCallback === 'function') {
+      window.requestIdleCallback(callback, { timeout: 2000 })
+    } else {
+      window.setTimeout(callback, 120)
+    }
+  }
+  // 让页面主内容至少完成两帧绘制后，再挂载背景墙并请求图片。
+  window.requestAnimationFrame(() => window.requestAnimationFrame(afterPaint))
+}
+
+// 背景墙必须最后加载：先让页面内容、文字和首屏卡片完成渲染，
+// 再在浏览器空闲时读取配置并挂载图片，避免首屏被几十张背景图拖慢。
+function loadBackgroundWall() {
+  wallReady.value = true
+  gameCovers.value = [...DEFAULT_COVERS]
+  fetch(`${BASE}data/bgwall.json?v=${BUILD_ID || Date.now()}`)
+    .then((res) => res.ok ? res.json() : null)
+    .then((data) => {
+      if (!data) return
+      if (data.images && data.images.length) {
+        gameCovers.value = data.images.map(g => ({
+          ...g,
+          short: g.short || g.slug || g.name,
+          img: g.img.startsWith('http') ? g.img : (g.img.startsWith(BASE) ? g.img : `${BASE}${g.img.replace(/^\/+/, '')}`),
+        }))
+      }
+      if (Number.isFinite(data.rows) && data.rows > 0) {
+        rowCount.value = Math.min(40, Math.floor(data.rows))
+      }
+    })
+    .catch(() => { /* 加载失败使用默认列表 */ })
+}
 
 // 从 bgwall.json 加载配置（有则覆盖默认）
-onMounted(async () => {
-  try {
-    const res = await fetch(`${BASE}data/bgwall.json?v=${BUILD_ID || Date.now()}`)
-    if (!res.ok) return
-    const data = await res.json()
-    if (data.images && data.images.length) {
-      // 用 bgwall.json 中的图片列表覆盖默认
-      gameCovers.value = data.images.map(g => ({
-        ...g,
-        short: g.short || g.slug || g.name,
-        img: g.img.startsWith('http') ? g.img : (g.img.startsWith(BASE) ? g.img : `${BASE}${g.img.replace(/^\/+/, '')}`),
-      }))
-    }
-    if (Number.isFinite(data.rows) && data.rows > 0) {
-      rowCount.value = Math.min(40, Math.floor(data.rows))
-    }
-  } catch { /* 加载失败用默认列表 */ }
-})
+onMounted(() => scheduleBackgroundLoad(loadBackgroundWall))
 
 // 暴露刷新方法给父组件/全局调用
 function shuffleCovers() {
