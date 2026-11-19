@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0c98d9c",
+    "date": "2026-11-19T09:08:02+08:00",
+    "message": "sync: 新增资源《虚无 Op.0/Nientum – Op.ZERO Build.26614335》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0c98d9c40342a7facf2af0d05ed16bdee7e0919a"
+  },
+  {
     "hash": "fddd9df",
     "date": "2026-11-19T09:03:47+08:00",
     "message": "sync: 新增资源《失落维基：遗失文件大整理/Deleted Wiki Clean Up the L》",
@@ -172,11 +178,5 @@
     "date": "2026-11-14T10:04:25+08:00",
     "message": "data: 修正《我们专偷老年人》分类为动作",
     "url": "https://github.com/xi7ang/GameHub/commit/62e33c6b008c6da93efc06115e3f00ebb1e7ebc2"
-  },
-  {
-    "hash": "ec45355",
-    "date": "2026-11-14T09:52:40+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/ec45355eb0475af001c8a037e734a7fd0cb99cb1"
   }
 ]

@@ -85149,5 +85149,25 @@
     "addedAt": "2026-11-19T09:07:59+08:00",
     "updatedAt": "2026-11-19T09:07:59+08:00",
     "month": "202611"
+  },
+  {
+    "id": "simulation-202611-0013",
+    "title": "点点岛/Clicky Islands Build.26701014 免安装中文版",
+    "enTitle": "Clicky Islands",
+    "category": "simulation",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/4d47c123b1c5?pwd=KtzX",
+    "pwd": "KtzX",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4178790.webp",
+    "steamAppID": 4178790,
+    "desc": "《Clicky Islands / 点点岛》是一款融合了放置点击、城市建造与资源管理的独特游戏。你将扮演国王任命的总督，负责探索并开发岛屿，拓展未来的王国。 你的目标是通过多个阶段的建设，将你的村庄升级为一座宏伟的王国。为此，你需要结合经典的点击操作、招募各类单位协助生产，并利用强大的天赋树来获得各种增益效果。 每座岛屿都会根据你在天赋树中解锁的天赋进行程序化生成，带来独一无二的体验。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-19T09:11:20+08:00",
+    "updatedAt": "2026-11-19T09:11:20+08:00",
+    "month": "202611"
   }
 ]
