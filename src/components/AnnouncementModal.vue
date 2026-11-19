@@ -54,15 +54,15 @@
                   <span class="tl-game__title">🎮《{{ game.title || '未命名游戏' }}》</span>
                   <span v-if="game.description" class="tl-game__desc">{{ game.description }}</span>
                   <a v-if="game.url" :href="game.url" target="_blank" rel="noopener" class="tl-link">详情链接</a>
+                  <img
+                    v-if="game.cover"
+                    class="tl-game__cover"
+                    :src="game.cover"
+                    :alt="`${game.title || '游戏资源'}封面`"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
-                <img
-                  v-if="game.cover"
-                  class="tl-game__cover"
-                  :src="game.cover"
-                  :alt="`${game.title || '游戏资源'}封面`"
-                  loading="lazy"
-                  decoding="async"
-                />
               </article>
             </div>
           </template>
@@ -409,15 +409,14 @@ onBeforeUnmount(() => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding: 10px 0 14px;
+  padding: 8px 0 12px;
   border-bottom: 1px dashed color-mix(in srgb, var(--glass-border) 70%, transparent);
   text-align: center;
 }
 .tl-game:last-child { border-bottom: 0; }
-.tl-game__text { display: flex; flex-direction: column; align-items: center; gap: 2px; width: 100%; }
-.tl-game__title { color: var(--text-hi); font-weight: 650; }
-.tl-game__desc { max-width: 100%; }
+.tl-game__text { display: flex; flex-direction: column; align-items: center; gap: 4px; width: 100%; }
+.tl-game__title { color: var(--text-hi); font-weight: 650; line-height: 1.45; }
+.tl-game__desc { max-width: 100%; line-height: 1.55; }
 .tl-game__cover {
   display: block;
   width: min(25%, 96px);
@@ -426,7 +425,7 @@ onBeforeUnmount(() => {
   height: auto;
   object-fit: cover;
   object-position: center;
-  margin: 2px auto 0;
+  margin: 4px auto 0;
   border-radius: 6px;
   border: 1px solid var(--glass-border);
   background: rgba(var(--bg-1-rgb, 20, 20, 32), 0.65);
