@@ -1,5 +1,11 @@
 [
   {
+    "hash": "9f77dbf",
+    "date": "2026-11-19T09:18:25+08:00",
+    "message": "sync: 新增资源《灵魂收割者/ScopeCreep Build.26689325 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/9f77dbf1a87a8f641e398ef9a23bae64f5de684f"
+  },
+  {
     "hash": "cab9f91",
     "date": "2026-11-19T09:11:23+08:00",
     "message": "sync: 新增资源《点点岛/Clicky Islands Build.26701014 免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-15T17:52:44+08:00",
     "message": "sync: 新增资源《卡包英雄/Booster Pack Heroes Build.26580360 》",
     "url": "https://github.com/xi7ang/GameHub/commit/6b8d4fe202f07f4715cc9453bc00e18a450bd2c2"
-  },
-  {
-    "hash": "f5c472d",
-    "date": "2026-11-14T11:39:21+08:00",
-    "message": "data: 下架《星球大战：银河赛车手-虚》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f5c472dc34268ab70f090be82b74c49b3785683c"
   }
 ]
