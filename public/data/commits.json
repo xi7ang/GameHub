@@ -1,5 +1,53 @@
 [
   {
+    "hash": "57e21d7",
+    "date": "2026-11-19T08:45:46+08:00",
+    "message": "feat: 公告按游戏展示对应封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/57e21d7e68e6eefdcf33447a381f8fdb1bf262e4"
+  },
+  {
+    "hash": "4df8150",
+    "date": "2026-11-18T20:31:27+08:00",
+    "message": "chore: 每日公告：发布【2026-11-18】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/4df8150e43d9b899474eadc0daa6d0825e0aec24"
+  },
+  {
+    "hash": "c199872",
+    "date": "2026-11-18T18:44:48+08:00",
+    "message": "perf: 延后加载背景图片墙",
+    "url": "https://github.com/xi7ang/GameHub/commit/c1998721470bea4daa0885e475ab591e727ea276"
+  },
+  {
+    "hash": "3254fbb",
+    "date": "2026-11-18T18:03:01+08:00",
+    "message": "fix: 保持 ECS 部署使用 pan.devmini.space",
+    "url": "https://github.com/xi7ang/GameHub/commit/3254fbb67b417511f1c125e08b630ce9c52d0382"
+  },
+  {
+    "hash": "b34a4fd",
+    "date": "2026-11-18T14:21:14+08:00",
+    "message": "data: 下架乐高蝙蝠侠：黑暗骑士之遗，艾斯莱邦分类改动作",
+    "url": "https://github.com/xi7ang/GameHub/commit/b34a4fd43fa204b6a6f97db7ab80fc6928490c67"
+  },
+  {
+    "hash": "5605da2",
+    "date": "2026-11-18T07:39:18+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/5605da297696cfe6b3bbe440889eaef75ef7f8f8"
+  },
+  {
+    "hash": "e3c937a",
+    "date": "2026-11-17T21:10:11+08:00",
+    "message": "feat: 公告弹窗展示游戏封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/e3c937a3c2152aa593609a74fb03c98d89715945"
+  },
+  {
+    "hash": "f20734a",
+    "date": "2026-11-17T20:52:57+08:00",
+    "message": "sync: 新增资源《艾斯莱邦/ Eslabong Build.26671482 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f20734aea6227ef61f0ddb416c85a268adf51591"
+  },
+  {
     "hash": "6443d78",
     "date": "2026-11-17T20:47:40+08:00",
     "message": "sync: 新增资源《内核之心/Kernel Hearts Build.26654984 免安装中文版》",
@@ -130,53 +178,5 @@
     "date": "2026-11-14T03:03:00+08:00",
     "message": "covers: add official Steam cover for We Steal From Old People (5051080)",
     "url": "https://github.com/xi7ang/GameHub/commit/d9d434d72bc718ffff87efa062f7056d8afb0a0f"
-  },
-  {
-    "hash": "c87aa91",
-    "date": "2026-11-13T20:31:23+08:00",
-    "message": "chore: 每日公告：发布【2026-11-13】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/c87aa914f06cc4575644aff4014003395f1327b3"
-  },
-  {
-    "hash": "e2af5c8",
-    "date": "2026-11-13T16:11:05+08:00",
-    "message": "sync: 新增资源《我们专偷老年人/We Steal From Old People The Gam》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e2af5c88f26362972af57fb2a858f420bc6985be"
-  },
-  {
-    "hash": "a3020f4",
-    "date": "2026-11-13T14:56:28+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/a3020f4b8378b0e80b403a341d6de8aa78b6a9cd"
-  },
-  {
-    "hash": "c214e0f",
-    "date": "2026-11-13T14:47:17+08:00",
-    "message": "sync: 批量新增 4 条资源",
-    "url": "https://github.com/xi7ang/GameHub/commit/c214e0f59896b701a91c5a98504cd0f0ea42bfcc"
-  },
-  {
-    "hash": "5b2482e",
-    "date": "2026-11-12T20:53:23+08:00",
-    "message": "chore: 每日公告：发布【2026-11-12】游戏资源更新通知（7 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/5b2482ed5abef6b28635552a2aed03f006c2a899"
-  },
-  {
-    "hash": "faf2e2a",
-    "date": "2026-11-12T15:53:18+08:00",
-    "message": "feat: 资源详情页评论区移到同类推荐之前",
-    "url": "https://github.com/xi7ang/GameHub/commit/faf2e2a83a425f19ef9c5340a3687b8d7cddc7f0"
-  },
-  {
-    "hash": "7a1c091",
-    "date": "2026-11-12T15:29:33+08:00",
-    "message": "feat: 首页公告新增评论区上线通知",
-    "url": "https://github.com/xi7ang/GameHub/commit/7a1c091ef832745a1e3e3c4da54e49c3076c345c"
-  },
-  {
-    "hash": "0b04c35",
-    "date": "2026-11-12T14:59:05+08:00",
-    "message": "feat: 评论系统切换为 Artalk（匿名评论 + 主页资源求助）",
-    "url": "https://github.com/xi7ang/GameHub/commit/0b04c356165aef263bdee66fbd79cda6311e9aea"
   }
 ]

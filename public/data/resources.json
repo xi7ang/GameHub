@@ -85109,5 +85109,25 @@
       "storeUrl": "https://store.steampowered.com/app/4560660/",
       "fetchedAt": "2026-11-17T18:57:13.153Z"
     }
+  },
+  {
+    "id": "other-202611-0010",
+    "title": "失落维基：遗失文件大整理/Deleted Wiki Clean Up the Lost Files Build.26304123 免安装中文版",
+    "enTitle": "Deleted Wiki Clean Up the Lost Files",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/05048198a29a?pwd=o9nF",
+    "pwd": "o9nF",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/5204830.webp",
+    "steamAppID": 5204830,
+    "desc": "Deleted Wiki: Clean Up the Lost Files is a cozy incremental sorting game. A vandal has wiped every item page from a 2007 fan wiki, and you're the new Moderator putting all 10,324 of them back, on",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-19T09:03:44+08:00",
+    "updatedAt": "2026-11-19T09:03:44+08:00",
+    "month": "202611"
   }
 ]
