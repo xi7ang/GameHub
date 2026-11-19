@@ -67,7 +67,7 @@
             </div>
           </template>
           <template v-else>
-            <div v-if="Array.isArray(it.covers) && it.covers.length" class="tl-covers">
+            <div v-if="Array.isArray(it.covers) && it.covers.length && !hasGameCovers(it)" class="tl-covers">
               <img
                 v-for="cover in it.covers"
                 :key="cover.url || cover.title"
@@ -78,7 +78,20 @@
                 decoding="async"
               />
             </div>
-            <div v-show="expandedIdx === i" class="tl-body" v-html="linkify(it.content)"></div>
+            <div v-show="expandedIdx === i" class="tl-body" v-if="!hasGameCovers(it)" v-html="linkify(it.content)"></div>
+            <div v-show="expandedIdx === i" class="tl-body tl-body--blocks" v-else>
+              <template v-for="(block, bi) in contentBlocks(it)" :key="bi">
+                <div class="tl-block" v-html="linkify(block.text)"></div>
+                <img
+                  v-if="block.cover"
+                  class="tl-game__cover"
+                  :src="block.cover.url"
+                  :alt="`${block.cover.title || '游戏资源'}封面`"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </template>
+            </div>
           </template>
         </div>
       </div>
@@ -113,6 +126,21 @@ function linkify(text) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
   return esc.replace(/(https?:\/\/[^\s<)】]+)/g, (u) => `<a href="${u}" target="_blank" rel="noopener" class="tl-link">${u}</a>`)
+}
+// 公告正文按空行切块；以 🎮 开头的块是游戏块，按顺序配 covers 里的封面，
+// 渲染时封面放在对应游戏块（详情链接）的下方、居中
+function contentBlocks(item) {
+  const covers = Array.isArray(item?.covers) ? item.covers : []
+  const rawBlocks = String(item?.content || '').split(/\n{2,}/).map((s) => s.trim()).filter(Boolean)
+  let coverIdx = 0
+  return rawBlocks.map((text) => {
+    const isGame = text.startsWith('🎮')
+    const cover = isGame && coverIdx < covers.length ? covers[coverIdx++] : null
+    return { text, cover, isGame }
+  })
+}
+function hasGameCovers(item) {
+  return contentBlocks(item).some((b) => b.cover)
 }
 // 「今日关闭」：按天记在 localStorage
 const ANNOUNCEMENT_DISMISSED_KEY = 'gamehub-announcement-dismissed'
@@ -216,6 +244,7 @@ onBeforeUnmount(() => {
 .announcement-modal {
   position: relative;
   width: min(100%, 540px);
+  container-type: inline-size;
   padding: 34px 34px 28px;
   text-align: center;
   box-shadow: 0 18px 70px rgba(0, 0, 0, 0.24), var(--shadow-card), var(--shadow-glow);
@@ -419,17 +448,20 @@ onBeforeUnmount(() => {
 .tl-game__desc { max-width: 100%; line-height: 1.55; }
 .tl-game__cover {
   display: block;
-  width: min(25%, 96px);
-  min-width: 56px;
+  /* 弹窗窗口宽度的四分之一：25cqw 是相对弹窗内容区宽度，需补回 25% 的弹窗横向内边距（桌面 34px×2 → +17px） */
+  width: 25%;
+  width: calc(25cqw + 17px);
   aspect-ratio: 460 / 215;
   height: auto;
   object-fit: cover;
   object-position: center;
-  margin: 4px auto 0;
+  margin: 6px auto 16px;
   border-radius: 6px;
   border: 1px solid var(--glass-border);
   background: rgba(var(--bg-1-rgb, 20, 20, 32), 0.65);
 }
+.tl-block { white-space: pre-line; margin: 0 0 14px; }
+.tl-body--blocks > :last-child { margin-bottom: 0; }
 .tl-covers { display: none; }
 .tl-cover { display: block; width: min(25%, 96px); min-width: 56px; aspect-ratio: 460 / 215; height: auto; object-fit: cover; margin: 2px auto 12px; border-radius: 6px; border: 1px solid var(--glass-border); }
 .tl-link {
@@ -455,6 +487,7 @@ onBeforeUnmount(() => {
   .announcement-modal h2 { font-size: 23px; }
   .tl-covers { display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
   .tl-cover { width: min(25%, 76px); min-width: 48px; }
-  .tl-game__cover { width: min(25%, 76px); min-width: 48px; }
+  /* 窄屏弹窗横向内边距 22px×2 → 补 11px，仍为弹窗窗口宽度的四分之一 */
+  .tl-game__cover { width: 25%; width: calc(25cqw + 11px); }
 }
 </style>
