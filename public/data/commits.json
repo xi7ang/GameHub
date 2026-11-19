@@ -1,5 +1,11 @@
 [
   {
+    "hash": "cab9f91",
+    "date": "2026-11-19T09:11:23+08:00",
+    "message": "sync: 新增资源《点点岛/Clicky Islands Build.26701014 免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cab9f91e58ee8e4f386fbcba7ac0e53d58872e97"
+  },
+  {
     "hash": "0c98d9c",
     "date": "2026-11-19T09:08:02+08:00",
     "message": "sync: 新增资源《虚无 Op.0/Nientum – Op.ZERO Build.26614335》",
@@ -172,11 +178,5 @@
     "date": "2026-11-14T11:39:21+08:00",
     "message": "data: 下架《星球大战：银河赛车手-虚》",
     "url": "https://github.com/xi7ang/GameHub/commit/f5c472dc34268ab70f090be82b74c49b3785683c"
-  },
-  {
-    "hash": "62e33c6",
-    "date": "2026-11-14T10:04:25+08:00",
-    "message": "data: 修正《我们专偷老年人》分类为动作",
-    "url": "https://github.com/xi7ang/GameHub/commit/62e33c6b008c6da93efc06115e3f00ebb1e7ebc2"
   }
 ]
