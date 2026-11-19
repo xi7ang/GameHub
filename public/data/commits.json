@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fddd9df",
+    "date": "2026-11-19T09:03:47+08:00",
+    "message": "sync: 新增资源《失落维基：遗失文件大整理/Deleted Wiki Clean Up the L》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fddd9df255f6a37b2edc85f6aa085630d6c24b38"
+  },
+  {
     "hash": "57e21d7",
     "date": "2026-11-19T08:45:46+08:00",
     "message": "feat: 公告按游戏展示对应封面",
@@ -172,11 +178,5 @@
     "date": "2026-11-14T09:52:40+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/ec45355eb0475af001c8a037e734a7fd0cb99cb1"
-  },
-  {
-    "hash": "d9d434d",
-    "date": "2026-11-14T03:03:00+08:00",
-    "message": "covers: add official Steam cover for We Steal From Old People (5051080)",
-    "url": "https://github.com/xi7ang/GameHub/commit/d9d434d72bc718ffff87efa062f7056d8afb0a0f"
   }
 ]
