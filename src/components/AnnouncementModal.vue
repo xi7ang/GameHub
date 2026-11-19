@@ -47,17 +47,39 @@
             </span>
             <span class="tl-chev" aria-hidden="true">{{ expandedIdx === i ? '▾' : '▸' }}</span>
           </button>
-          <div v-if="Array.isArray(it.covers) && it.covers.length" class="tl-covers">
-            <img
-              v-for="cover in it.covers"
-              :key="cover.url || cover.title"
-              class="tl-cover"
-              :src="cover.url"
-              :alt="`${cover.title || '游戏资源'}封面`"
-              loading="lazy"
-            />
-          </div>
-          <div v-show="expandedIdx === i" class="tl-body" v-html="linkify(it.content)"></div>
+          <template v-if="Array.isArray(it.games) && it.games.length">
+            <div v-show="expandedIdx === i" class="tl-body">
+              <article v-for="(game, gi) in it.games" :key="game.url || game.title || gi" class="tl-game">
+                <div class="tl-game__text">
+                  <span class="tl-game__title">🎮《{{ game.title || '未命名游戏' }}》</span>
+                  <span v-if="game.description" class="tl-game__desc">{{ game.description }}</span>
+                  <a v-if="game.url" :href="game.url" target="_blank" rel="noopener" class="tl-link">详情链接</a>
+                </div>
+                <img
+                  v-if="game.cover"
+                  class="tl-game__cover"
+                  :src="game.cover"
+                  :alt="`${game.title || '游戏资源'}封面`"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </article>
+            </div>
+          </template>
+          <template v-else>
+            <div v-if="Array.isArray(it.covers) && it.covers.length" class="tl-covers">
+              <img
+                v-for="cover in it.covers"
+                :key="cover.url || cover.title"
+                class="tl-cover"
+                :src="cover.url"
+                :alt="`${cover.title || '游戏资源'}封面`"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div v-show="expandedIdx === i" class="tl-body" v-html="linkify(it.content)"></div>
+          </template>
         </div>
       </div>
       <div v-else class="announcement-modal__content" v-html="linkify(announcement.content)"></div>
@@ -383,21 +405,34 @@ onBeforeUnmount(() => {
   line-height: 1.8;
   white-space: pre-line;
 }
-.tl-covers {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-  margin: 0 16px 12px 51px;
+.tl-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 0 14px;
+  border-bottom: 1px dashed color-mix(in srgb, var(--glass-border) 70%, transparent);
+  text-align: center;
 }
-.tl-cover {
-  width: 100%;
-  height: clamp(100px, 18vw, 150px);
-  border-radius: 9px;
+.tl-game:last-child { border-bottom: 0; }
+.tl-game__text { display: flex; flex-direction: column; align-items: center; gap: 2px; width: 100%; }
+.tl-game__title { color: var(--text-hi); font-weight: 650; }
+.tl-game__desc { max-width: 100%; }
+.tl-game__cover {
+  display: block;
+  width: min(25%, 96px);
+  min-width: 56px;
+  aspect-ratio: 460 / 215;
+  height: auto;
   object-fit: cover;
   object-position: center;
-  background: rgba(var(--bg-1-rgb, 20, 20, 32), 0.65);
+  margin: 2px auto 0;
+  border-radius: 6px;
   border: 1px solid var(--glass-border);
+  background: rgba(var(--bg-1-rgb, 20, 20, 32), 0.65);
 }
+.tl-covers { display: none; }
+.tl-cover { display: block; width: min(25%, 96px); min-width: 56px; aspect-ratio: 460 / 215; height: auto; object-fit: cover; margin: 2px auto 12px; border-radius: 6px; border: 1px solid var(--glass-border); }
 .tl-link {
   color: var(--accent-gold);
   text-decoration: underline;
@@ -419,8 +454,8 @@ onBeforeUnmount(() => {
 @media (max-width: 480px) {
   .announcement-modal { padding: 30px 22px 22px; }
   .announcement-modal h2 { font-size: 23px; }
-  .tl-covers { margin-left: 12px; margin-right: 12px; }
-  .tl-cover { height: 112px; }
-  .tl-body { padding-left: 16px; }
+  .tl-covers { display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
+  .tl-cover { width: min(25%, 76px); min-width: 48px; }
+  .tl-game__cover { width: min(25%, 76px); min-width: 48px; }
 }
 </style>
