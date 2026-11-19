@@ -448,9 +448,9 @@ onBeforeUnmount(() => {
 .tl-game__desc { max-width: 100%; line-height: 1.55; }
 .tl-game__cover {
   display: block;
-  /* 弹窗窗口宽度的四分之一：25cqw 是相对弹窗内容区宽度，需补回 25% 的弹窗横向内边距（桌面 34px×2 → +17px） */
-  width: 25%;
-  width: calc(25cqw + 17px);
+  /* 弹窗窗口宽度的黄金比例（1/φ ≈ 0.618）：61.8cqw 是相对弹窗内容区宽度，需补回 61.8% 的弹窗横向内边距（桌面 34px×2 → +42px） */
+  width: 61.8%;
+  width: calc(61.8cqw + 42px);
   aspect-ratio: 460 / 215;
   height: auto;
   object-fit: cover;
@@ -487,7 +487,7 @@ onBeforeUnmount(() => {
   .announcement-modal h2 { font-size: 23px; }
   .tl-covers { display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; }
   .tl-cover { width: min(25%, 76px); min-width: 48px; }
-  /* 窄屏弹窗横向内边距 22px×2 → 补 11px，仍为弹窗窗口宽度的四分之一 */
-  .tl-game__cover { width: 25%; width: calc(25cqw + 11px); }
+  /* 窄屏弹窗横向内边距 22px×2 → 补 27px，仍为弹窗窗口宽度的黄金比例 */
+  .tl-game__cover { width: 61.8%; width: calc(61.8cqw + 27px); }
 }
 </style>
