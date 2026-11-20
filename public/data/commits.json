@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c98ec2b",
+    "date": "2026-11-20T21:58:21+08:00",
+    "message": "sync: 新增资源《魔女庭院/Garden of Witches   Build.26316003 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c98ec2bc80a78c6046b416f7ce4b294334673d15"
+  },
+  {
     "hash": "f2139c9",
     "date": "2026-11-20T21:54:51+08:00",
     "message": "sync: 新增资源《AI奥林匹斯|人工智能奥林匹斯/AI Olympius    Build.267》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T20:52:57+08:00",
     "message": "sync: 新增资源《艾斯莱邦/ Eslabong Build.26671482 免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/f20734aea6227ef61f0ddb416c85a268adf51591"
-  },
-  {
-    "hash": "6443d78",
-    "date": "2026-11-17T20:47:40+08:00",
-    "message": "sync: 新增资源《内核之心/Kernel Hearts Build.26654984 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6443d788618c06db4473930d48bae963523b0ebd"
   }
 ]
