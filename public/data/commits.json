@@ -1,5 +1,11 @@
 [
   {
+    "hash": "69e6d8e",
+    "date": "2026-11-21T07:07:13+08:00",
+    "message": "sync: 新增资源《高中生J/J Highschool J   Build.26779610   免》",
+    "url": "https://github.com/xi7ang/GameHub/commit/69e6d8e40feb619b58af962c2968491a74dcbf76"
+  },
+  {
     "hash": "ac83906",
     "date": "2026-11-21T07:03:13+08:00",
     "message": "sync: 新增资源《虫群粉碎者/Swarmbreaker   Build.26771911   免安》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T11:13:42+08:00",
     "message": "fix: 公告封面宽度改为弹窗黄金比例，等比例缩放",
     "url": "https://github.com/xi7ang/GameHub/commit/cc42ca1a6f4b655d1730c7d99334ba835efc269b"
-  },
-  {
-    "hash": "542ecd3",
-    "date": "2026-11-19T11:04:48+08:00",
-    "message": "fix: 公告封面放到对应游戏链接下方，居中且宽为弹窗四分之一",
-    "url": "https://github.com/xi7ang/GameHub/commit/542ecd393d308f2f4fcf5e24543df399411b4a05"
   }
 ]
