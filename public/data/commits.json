@@ -1,5 +1,11 @@
 [
   {
+    "hash": "30dc4f3",
+    "date": "2026-11-20T21:45:47+08:00",
+    "message": "sync: 新增资源《哞琪牛奶屋/Milki Delivery   Build.26728418   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/30dc4f309c386ab32943fc393bcc441c28ea893a"
+  },
+  {
     "hash": "fc90667",
     "date": "2026-11-20T21:39:16+08:00",
     "message": "sync: 新增资源《谢谢你，巴士司机/Thank You Bus Driver   Build.25》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T20:40:49+08:00",
     "message": "sync: 新增资源《失物招领有限公司/Lost and Found Co. v1.2.2a 免安装中》",
     "url": "https://github.com/xi7ang/GameHub/commit/1b94e1227eaac5c8b8cf6cce64ab96c3a0aba8f8"
-  },
-  {
-    "hash": "df1d35d",
-    "date": "2026-11-17T20:36:38+08:00",
-    "message": "sync: 新增资源《爆炸香蕉！/BOMBANANA!/单机+联机 v1.3.0 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/df1d35d91b8b0849e4bbff2b6aa16e21d99c4fea"
   }
 ]
