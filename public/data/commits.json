@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5e4f36d",
+    "date": "2026-11-21T06:42:44+08:00",
+    "message": "sync: 新增资源《数据库侦探：轻罪调查科/Database Detective Minor Cri》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5e4f36d8fd6877cf66fe445459e77c7791a017bd"
+  },
+  {
     "hash": "0382eac",
     "date": "2026-11-21T06:37:39+08:00",
     "message": "sync: 新增资源《哈玛雷特   v0.7.0.16   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T09:08:02+08:00",
     "message": "sync: 新增资源《虚无 Op.0/Nientum – Op.ZERO Build.26614335》",
     "url": "https://github.com/xi7ang/GameHub/commit/0c98d9c40342a7facf2af0d05ed16bdee7e0919a"
-  },
-  {
-    "hash": "fddd9df",
-    "date": "2026-11-19T09:03:47+08:00",
-    "message": "sync: 新增资源《失落维基：遗失文件大整理/Deleted Wiki Clean Up the L》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fddd9df255f6a37b2edc85f6aa085630d6c24b38"
   }
 ]
