@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fc90667",
+    "date": "2026-11-20T21:39:16+08:00",
+    "message": "sync: 新增资源《谢谢你，巴士司机/Thank You Bus Driver   Build.25》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fc906674a4e422ee1023e32914b16fda7be1cbbb"
+  },
+  {
     "hash": "4ffd5d6",
     "date": "2026-11-20T21:35:06+08:00",
     "message": "sync: 新增资源《梅尔沃放置2：符文世界冒险/Melvor Idle 2 A RuneScape 》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T20:36:38+08:00",
     "message": "sync: 新增资源《爆炸香蕉！/BOMBANANA!/单机+联机 v1.3.0 免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/df1d35d91b8b0849e4bbff2b6aa16e21d99c4fea"
-  },
-  {
-    "hash": "372ce35",
-    "date": "2026-11-17T01:04:27+08:00",
-    "message": "Merge remote-tracking branch 'origin/main'",
-    "url": "https://github.com/xi7ang/GameHub/commit/372ce35816934970f74a67faad446d179aecb532"
   }
 ]
