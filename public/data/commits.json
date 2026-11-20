@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ac83906",
+    "date": "2026-11-21T07:03:13+08:00",
+    "message": "sync: 新增资源《虫群粉碎者/Swarmbreaker   Build.26771911   免安》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ac83906e803361eff3b030e42800b4029ee2840b"
+  },
+  {
     "hash": "457cbc4",
     "date": "2026-11-21T06:59:37+08:00",
     "message": "sync: 新增资源《疯狂台球/Pool of Madness    Build.26733928  》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T11:04:48+08:00",
     "message": "fix: 公告封面放到对应游戏链接下方，居中且宽为弹窗四分之一",
     "url": "https://github.com/xi7ang/GameHub/commit/542ecd393d308f2f4fcf5e24543df399411b4a05"
-  },
-  {
-    "hash": "420f4ce",
-    "date": "2026-11-19T10:35:32+08:00",
-    "message": "fix: 将公告封面放到对应链接下方",
-    "url": "https://github.com/xi7ang/GameHub/commit/420f4ceee15a0ed6ef51c050a4514c0a3e524ad9"
   }
 ]
