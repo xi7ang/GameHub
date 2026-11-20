@@ -1,5 +1,11 @@
 [
   {
+    "hash": "856be11",
+    "date": "2026-11-21T06:04:56+08:00",
+    "message": "sync: 新增资源《惬意失业生活/The Cozy Funemployment   Build.26》",
+    "url": "https://github.com/xi7ang/GameHub/commit/856be113f805bca8b370db0635cbbb9abf4975d0"
+  },
+  {
     "hash": "ff66b85",
     "date": "2026-11-21T06:01:35+08:00",
     "message": "sync: 新增资源《恶魔回廊/KORRIDOR   Build.26770734   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-18T14:21:14+08:00",
     "message": "data: 下架乐高蝙蝠侠：黑暗骑士之遗，艾斯莱邦分类改动作",
     "url": "https://github.com/xi7ang/GameHub/commit/b34a4fd43fa204b6a6f97db7ab80fc6928490c67"
-  },
-  {
-    "hash": "5605da2",
-    "date": "2026-11-18T07:39:18+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/5605da297696cfe6b3bbe440889eaef75ef7f8f8"
   }
 ]
