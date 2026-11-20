@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ff66b85",
+    "date": "2026-11-21T06:01:35+08:00",
+    "message": "sync: 新增资源《恶魔回廊/KORRIDOR   Build.26770734   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ff66b8571daca07a513df6b4c270b458f99df5ed"
+  },
+  {
     "hash": "52b0d75",
     "date": "2026-11-21T05:58:11+08:00",
     "message": "sync: 新增资源《从农场到餐桌/Farm to Table    Build.26361739  》",
@@ -172,11 +178,5 @@
     "date": "2026-11-18T07:39:18+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/5605da297696cfe6b3bbe440889eaef75ef7f8f8"
-  },
-  {
-    "hash": "e3c937a",
-    "date": "2026-11-17T21:10:11+08:00",
-    "message": "feat: 公告弹窗展示游戏封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/e3c937a3c2152aa593609a74fb03c98d89715945"
   }
 ]
