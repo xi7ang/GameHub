@@ -85856,5 +85856,25 @@
     "addedAt": "2026-11-21T06:37:36+08:00",
     "updatedAt": "2026-11-21T06:37:36+08:00",
     "month": "202611"
+  },
+  {
+    "id": "other-202611-0018",
+    "title": "数据库侦探：轻罪调查科/Database Detective Minor Crimes Division   Build.26527005   免安装中文版",
+    "enTitle": "",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/ca347c5bee5e?pwd=rUPx",
+    "pwd": "rUPx",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4511370.webp",
+    "steamAppID": 4511370,
+    "desc": "There’s been a backlog of unsolved cases piling up in the Minor Crimes Division of the Los Zorangeles Police Department and we’ll need a Database Detective to help solve them. We’ll need you to analyze clues and manipulate data using SQL , a database querying language。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-21T06:42:41+08:00",
+    "updatedAt": "2026-11-21T06:42:41+08:00",
+    "month": "202611"
   }
 ]

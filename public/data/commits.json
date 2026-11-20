@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0382eac",
+    "date": "2026-11-21T06:37:39+08:00",
+    "message": "sync: 新增资源《哈玛雷特   v0.7.0.16   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0382eacbfe032a463490ec558c19ecce222dd699"
+  },
+  {
     "hash": "7dcc501",
     "date": "2026-11-21T06:34:25+08:00",
     "message": "sync: 新增资源《代词宫殿/Pronoun Palace   Build.25887362   免》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T09:03:47+08:00",
     "message": "sync: 新增资源《失落维基：遗失文件大整理/Deleted Wiki Clean Up the L》",
     "url": "https://github.com/xi7ang/GameHub/commit/fddd9df255f6a37b2edc85f6aa085630d6c24b38"
-  },
-  {
-    "hash": "57e21d7",
-    "date": "2026-11-19T08:45:46+08:00",
-    "message": "feat: 公告按游戏展示对应封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/57e21d7e68e6eefdcf33447a381f8fdb1bf262e4"
   }
 ]
