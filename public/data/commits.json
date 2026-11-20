@@ -1,5 +1,11 @@
 [
   {
+    "hash": "52b0d75",
+    "date": "2026-11-21T05:58:11+08:00",
+    "message": "sync: 新增资源《从农场到餐桌/Farm to Table    Build.26361739  》",
+    "url": "https://github.com/xi7ang/GameHub/commit/52b0d75cc30ef13fa6640a0af95dd6606cfeb5c2"
+  },
+  {
     "hash": "c98ec2b",
     "date": "2026-11-20T21:58:21+08:00",
     "message": "sync: 新增资源《魔女庭院/Garden of Witches   Build.26316003 》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T21:10:11+08:00",
     "message": "feat: 公告弹窗展示游戏封面",
     "url": "https://github.com/xi7ang/GameHub/commit/e3c937a3c2152aa593609a74fb03c98d89715945"
-  },
-  {
-    "hash": "f20734a",
-    "date": "2026-11-17T20:52:57+08:00",
-    "message": "sync: 新增资源《艾斯莱邦/ Eslabong Build.26671482 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f20734aea6227ef61f0ddb416c85a268adf51591"
   }
 ]
