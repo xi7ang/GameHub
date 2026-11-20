@@ -85596,5 +85596,25 @@
     "addedAt": "2026-11-20T21:35:03+08:00",
     "updatedAt": "2026-11-20T21:35:03+08:00",
     "month": "202611"
+  },
+  {
+    "id": "simulation-202611-0015",
+    "title": "谢谢你，巴士司机/Thank You Bus Driver   Build.25945061   免安装中文版",
+    "enTitle": "",
+    "category": "simulation",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/63d2eea9880e?pwd=SNM8",
+    "pwd": "SNM8",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4511370.webp",
+    "steamAppID": 4511370,
+    "desc": "Thank You Bus Driver is a chaotic bus driving game, where you take on the role of a town’s bus driver just trying to get through the day with minimal rule breaking and maximum gratitude… in the form of Thank Yous! Get behind the wheel and remember the three main priorities on your bus: No Rule Breaking Your bus, your rules! Who cares that they change every single day?",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-20T21:39:13+08:00",
+    "updatedAt": "2026-11-20T21:39:13+08:00",
+    "month": "202611"
   }
 ]

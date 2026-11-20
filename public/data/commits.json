@@ -1,5 +1,11 @@
 [
   {
+    "hash": "4ffd5d6",
+    "date": "2026-11-20T21:35:06+08:00",
+    "message": "sync: 新增资源《梅尔沃放置2：符文世界冒险/Melvor Idle 2 A RuneScape 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/4ffd5d6c8894bf730aa4fc23fecb0356fe66df6c"
+  },
+  {
     "hash": "0e9889d",
     "date": "2026-11-20T21:28:23+08:00",
     "message": "sync: 新增资源《东方：你的灵梦/Your Reimu   Build.26657525   免安》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T01:04:27+08:00",
     "message": "Merge remote-tracking branch 'origin/main'",
     "url": "https://github.com/xi7ang/GameHub/commit/372ce35816934970f74a67faad446d179aecb532"
-  },
-  {
-    "hash": "3123ef1",
-    "date": "2026-11-17T01:04:01+08:00",
-    "message": "content: announce site and Android app speed improvements",
-    "url": "https://github.com/xi7ang/GameHub/commit/3123ef11a882b4c88fb93c6bd850b0b1cacc9227"
   }
 ]
