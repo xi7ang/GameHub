@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f2139c9",
+    "date": "2026-11-20T21:54:51+08:00",
+    "message": "sync: 新增资源《AI奥林匹斯|人工智能奥林匹斯/AI Olympius    Build.267》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f2139c96379e787e9f0ca84f6f2cbb28918be93f"
+  },
+  {
     "hash": "8655b50",
     "date": "2026-11-20T21:49:48+08:00",
     "message": "sync: 新增资源《侦探杀：罪恶之城 /Dupery A Game of Solo Deductio》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T20:47:40+08:00",
     "message": "sync: 新增资源《内核之心/Kernel Hearts Build.26654984 免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/6443d788618c06db4473930d48bae963523b0ebd"
-  },
-  {
-    "hash": "c96ae84",
-    "date": "2026-11-17T20:44:26+08:00",
-    "message": "sync: 新增资源《服从我吧！最终抉择：路西法/Obey Me! Sinner’s Choice L》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c96ae8448fdba0f1ec61a8cca402900b68779c1d"
   }
 ]
