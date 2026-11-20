@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8655b50",
+    "date": "2026-11-20T21:49:48+08:00",
+    "message": "sync: 新增资源《侦探杀：罪恶之城 /Dupery A Game of Solo Deductio》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8655b50004123a1ccd63f7b75d01e0f39fcf781b"
+  },
+  {
     "hash": "30dc4f3",
     "date": "2026-11-20T21:45:47+08:00",
     "message": "sync: 新增资源《哞琪牛奶屋/Milki Delivery   Build.26728418   》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T20:44:26+08:00",
     "message": "sync: 新增资源《服从我吧！最终抉择：路西法/Obey Me! Sinner’s Choice L》",
     "url": "https://github.com/xi7ang/GameHub/commit/c96ae8448fdba0f1ec61a8cca402900b68779c1d"
-  },
-  {
-    "hash": "1b94e12",
-    "date": "2026-11-17T20:40:49+08:00",
-    "message": "sync: 新增资源《失物招领有限公司/Lost and Found Co. v1.2.2a 免安装中》",
-    "url": "https://github.com/xi7ang/GameHub/commit/1b94e1227eaac5c8b8cf6cce64ab96c3a0aba8f8"
   }
 ]
