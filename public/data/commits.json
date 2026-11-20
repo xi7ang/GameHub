@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8e29d91",
+    "date": "2026-11-20T21:11:21+08:00",
+    "message": "sync: 新增资源《投资之神/Angel Investor Simulator   v1.4.0  》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8e29d913926d6d31368797e7b7c89f05c6808386"
+  },
+  {
     "hash": "f6626d9",
     "date": "2026-11-20T21:07:45+08:00",
     "message": "sync: 新增资源《帝国恩典/Imperial Grace   Build.26679260   免》",
@@ -172,11 +178,5 @@
     "date": "2026-11-16T22:10:02+08:00",
     "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
     "url": "https://github.com/xi7ang/GameHub/commit/3e2cf728ff1b894e4bafe092d916eadcccc3d6b0"
-  },
-  {
-    "hash": "a3922cd",
-    "date": "2026-11-16T22:09:12+08:00",
-    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
-    "url": "https://github.com/xi7ang/GameHub/commit/a3922cd60c1acd9e44ca2db0b44f0d0876110c3a"
   }
 ]
