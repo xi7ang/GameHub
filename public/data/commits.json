@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0e9889d",
+    "date": "2026-11-20T21:28:23+08:00",
+    "message": "sync: 新增资源《东方：你的灵梦/Your Reimu   Build.26657525   免安》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0e9889d1cb51b3d4e75d7e479478b1bbebdd3b15"
+  },
+  {
     "hash": "d607a21",
     "date": "2026-11-20T21:16:25+08:00",
     "message": "sync: 新增资源《新纪元轮回/Novus Orbis   v1.0.0   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-17T01:04:01+08:00",
     "message": "content: announce site and Android app speed improvements",
     "url": "https://github.com/xi7ang/GameHub/commit/3123ef11a882b4c88fb93c6bd850b0b1cacc9227"
-  },
-  {
-    "hash": "a1a01d1",
-    "date": "2026-11-16T22:10:38+08:00",
-    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
-    "url": "https://github.com/xi7ang/GameHub/commit/a1a01d10b041a87765e6d8449c288f34a5e03058"
   }
 ]
