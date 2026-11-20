@@ -1,5 +1,11 @@
 [
   {
+    "hash": "fc622c9",
+    "date": "2026-11-21T07:30:32+08:00",
+    "message": "sync: 新增资源《兔兔奇遇记/Bunny Eureka   Build.26772853   免安》",
+    "url": "https://github.com/xi7ang/GameHub/commit/fc622c98f75c8a31ea61bfd34690f7c7ae9ee85e"
+  },
+  {
     "hash": "0926f5f",
     "date": "2026-11-21T07:26:54+08:00",
     "message": "sync: 新增资源《私掠与复仇/Marque & Reprisal   Build.26775414》",
@@ -172,11 +178,5 @@
     "date": "2026-11-20T05:41:45+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/1fcf39b9a3ed5a816bd98b21d9ca107d159efac8"
-  },
-  {
-    "hash": "ca61fa5",
-    "date": "2026-11-19T20:31:45+08:00",
-    "message": "chore: 每日公告：发布【2026-11-19】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/ca61fa5aa9873549a0dd90cce8f65896560f01fb"
   }
 ]
