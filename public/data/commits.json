@@ -1,5 +1,47 @@
 [
   {
+    "hash": "76a44ce",
+    "date": "2026-11-20T20:03:56+08:00",
+    "message": "data: 待定分类 10 条按用户决定改分类（虚无 Op.0 不动）",
+    "url": "https://github.com/xi7ang/GameHub/commit/76a44ce0f73b98f845d7eac33724ae26ee53551a"
+  },
+  {
+    "hash": "1fcf39b",
+    "date": "2026-11-20T05:41:45+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/1fcf39b9a3ed5a816bd98b21d9ca107d159efac8"
+  },
+  {
+    "hash": "ca61fa5",
+    "date": "2026-11-19T20:31:45+08:00",
+    "message": "chore: 每日公告：发布【2026-11-19】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/ca61fa5aa9873549a0dd90cce8f65896560f01fb"
+  },
+  {
+    "hash": "cc42ca1",
+    "date": "2026-11-19T11:13:42+08:00",
+    "message": "fix: 公告封面宽度改为弹窗黄金比例，等比例缩放",
+    "url": "https://github.com/xi7ang/GameHub/commit/cc42ca1a6f4b655d1730c7d99334ba835efc269b"
+  },
+  {
+    "hash": "542ecd3",
+    "date": "2026-11-19T11:04:48+08:00",
+    "message": "fix: 公告封面放到对应游戏链接下方，居中且宽为弹窗四分之一",
+    "url": "https://github.com/xi7ang/GameHub/commit/542ecd393d308f2f4fcf5e24543df399411b4a05"
+  },
+  {
+    "hash": "420f4ce",
+    "date": "2026-11-19T10:35:32+08:00",
+    "message": "fix: 将公告封面放到对应链接下方",
+    "url": "https://github.com/xi7ang/GameHub/commit/420f4ceee15a0ed6ef51c050a4514c0a3e524ad9"
+  },
+  {
+    "hash": "be3cc40",
+    "date": "2026-11-19T09:22:18+08:00",
+    "message": "sync: 新增资源《树木恨死你/Trees Hate You Build.26715262 免安装中》",
+    "url": "https://github.com/xi7ang/GameHub/commit/be3cc4059811cdc6c21e371ab77a630372cbcd36"
+  },
+  {
     "hash": "9f77dbf",
     "date": "2026-11-19T09:18:25+08:00",
     "message": "sync: 新增资源《灵魂收割者/ScopeCreep Build.26689325 免安装中文版》",
@@ -136,47 +178,5 @@
     "date": "2026-11-16T21:58:31+08:00",
     "message": "chore(pages): 自定义域名改为 gh.devmini.space",
     "url": "https://github.com/xi7ang/GameHub/commit/f9679f0ece27355aacc7d449f17b146d17ede44d"
-  },
-  {
-    "hash": "4e1502d",
-    "date": "2026-11-16T07:40:19+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/4e1502dbdf392e5a018163b1c4788d626105d663"
-  },
-  {
-    "hash": "0c640fa",
-    "date": "2026-11-15T20:31:20+08:00",
-    "message": "chore: 每日公告：发布【2026-11-15】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/0c640fae59917e1ecab5d565305a60e93b4f83de"
-  },
-  {
-    "hash": "696b8ab",
-    "date": "2026-11-15T18:10:40+08:00",
-    "message": "sync: 新增资源《狸狸：胖哒的夏日/TANUKI Pon’s Summer Build.26529》",
-    "url": "https://github.com/xi7ang/GameHub/commit/696b8ab439ce08efd21dfbb845c8892dd26ca376"
-  },
-  {
-    "hash": "c106a3c",
-    "date": "2026-11-15T18:06:37+08:00",
-    "message": "sync: 新增资源《法术连锁/SpellChain v1.0.3 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c106a3cac10035ee058aa8d0b4678e362b35aa01"
-  },
-  {
-    "hash": "7c321ae",
-    "date": "2026-11-15T18:02:32+08:00",
-    "message": "sync: 新增资源《阿比亚：弹射之旅/Dashoot ABYA’s Adventure Build.》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7c321aed7d1989e4208ba121075e3015a1afce77"
-  },
-  {
-    "hash": "78e16d1",
-    "date": "2026-11-15T17:57:31+08:00",
-    "message": "sync: 新增资源《行尸走肉：求生街头/The Walking Dead Streets of Su》",
-    "url": "https://github.com/xi7ang/GameHub/commit/78e16d1c294a5431f7832839cb45076ce385b18a"
-  },
-  {
-    "hash": "6b8d4fe",
-    "date": "2026-11-15T17:52:44+08:00",
-    "message": "sync: 新增资源《卡包英雄/Booster Pack Heroes Build.26580360 》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6b8d4fe202f07f4715cc9453bc00e18a450bd2c2"
   }
 ]
