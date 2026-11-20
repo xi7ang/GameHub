@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d607a21",
+    "date": "2026-11-20T21:16:25+08:00",
+    "message": "sync: 新增资源《新纪元轮回/Novus Orbis   v1.0.0   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d607a2167f8e53561bd43bada8d1240c8b1eccf9"
+  },
+  {
     "hash": "8e29d91",
     "date": "2026-11-20T21:11:21+08:00",
     "message": "sync: 新增资源《投资之神/Angel Investor Simulator   v1.4.0  》",
@@ -172,11 +178,5 @@
     "date": "2026-11-16T22:10:38+08:00",
     "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
     "url": "https://github.com/xi7ang/GameHub/commit/a1a01d10b041a87765e6d8449c288f34a5e03058"
-  },
-  {
-    "hash": "3e2cf72",
-    "date": "2026-11-16T22:10:02+08:00",
-    "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
-    "url": "https://github.com/xi7ang/GameHub/commit/3e2cf728ff1b894e4bafe092d916eadcccc3d6b0"
   }
 ]
