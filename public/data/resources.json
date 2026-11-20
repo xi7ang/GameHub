@@ -85480,94 +85480,323 @@
   {
     "id": "sports-202611-0001",
     "title": "只是排球/just volleyball   Build.26705269   免安装中文版",
-    "enTitle": "",
+    "enTitle": "just volleyball",
     "category": "sports",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/954f19b17d83?pwd=ZVqp",
     "pwd": "ZVqp",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u36493fd40eb0.webp",
-    "steamAppID": null,
+    "size": "201MB",
+    "sizeBytes": 210807542,
+    "cover": "/covers/5037200.webp",
+    "steamAppID": 5037200,
     "desc": "just volleyball is an arcade-style action volleyball game that aims to bring a freeform, addicting, and simple volleyball experience to PC, with full online & offline play. with a cursor-based aiming system and fully manual movement, the game may seem simple to pick up, but has a steep and rewarding learning curve. features: 1v1s, 2v2s, 3v3s, 4v4s, 5v5s… and 6v6!",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T20:53:38+08:00",
     "updatedAt": "2026-11-20T20:53:38+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5037200,
+      "developer": "temkosoft",
+      "publisher": "temkosoft",
+      "releaseDate": "2026 年 11 月 16 日",
+      "genres": [
+        "动作",
+        "休闲",
+        "独立",
+        "体育"
+      ],
+      "languages": "英语\n具有完全音频支持的语言",
+      "summary": "just volleyball is an online and offline volleyball game with unique yet intuitive controls and deep player expression. take on others in anything from 1v1s & 2v2s to full team-based 6v6 matches. there's no right way to play, it's just volleyball!",
+      "description": "just volleyball is an arcade-style action volleyball game that aims to bring a freeform, addicting, and simple volleyball experience to PC, with full online & offline play. with a cursor-based aiming system and fully manual movement, the game may seem simple to pick up, but has a steep and rewarding learning curve.\nfeatures:\n1v1s, 2v2s, 3v3s, 4v4s, 5v5s... and 6v6! play whichever format of volleyball you enjoy the most!\noffline & online play: practice by yourself with bots, or head online!\ncharacter customization: personalize your player with a simple yet dynamic avatar creation system.\nreplay mode: review your highlights & capture cinematic moments!",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/7c817d292f4dc7333d2007576085a34550c632ea/ss_7c817d292f4dc7333d2007576085a34550c632ea.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/8fa2393b78e2b5db7a3cd8310fac160c4b1e6d76/ss_8fa2393b78e2b5db7a3cd8310fac160c4b1e6d76.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/4f3c081877347741dbffa1e17f0b18a3d352dd55/ss_4f3c081877347741dbffa1e17f0b18a3d352dd55.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/ed6843f98499455946d86f483cb71a3c96c78ef0/ss_ed6843f98499455946d86f483cb71a3c96c78ef0.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/f72d1672bad1155125de0f2ad39a00c478927d18/ss_f72d1672bad1155125de0f2ad39a00c478927d18.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/89f570403736888ca4d90b2b1421ef196538778f/ss_89f570403736888ca4d90b2b1421ef196538778f.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/8f791d6d7632c30047e10ddf7ccb56201c1d3b62/ss_8f791d6d7632c30047e10ddf7ccb56201c1d3b62.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/ca63c9ab39a86e8ea388cd67e7b10a1e4bc4332c/ss_ca63c9ab39a86e8ea388cd67e7b10a1e4bc4332c.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/ccd2413308fc6cabbc82c6e3d7bd813cc3b29889/ss_ccd2413308fc6cabbc82c6e3d7bd813cc3b29889.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/b0b0809b90612d1754ff83673ff0497d949d8979/ss_b0b0809b90612d1754ff83673ff0497d949d8979.1920x1080.jpg?t=1794852941",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/2892017a709a5537ede4d913fbfa42402554a8f3/ss_2892017a709a5537ede4d913fbfa42402554a8f3.1920x1080.jpg?t=1794852941"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core i5-7600 or equivalent",
+          "内存: 8 GB RAM",
+          "显卡:  Intel HD Graphics 630 or equivalent (OpenGL 3.3)",
+          "网络: 宽带互联网连接",
+          "存储空间: 需要 500 MB 可用空间",
+          "附注事项: In the case of issues on certain hardware, try the launch options provided. Total storage use increases with saved replay files."
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11 64-bit",
+          "处理器: Intel Core i5-8400 / AMD Ryzen 5 2600 or equivalent",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GTX 1050 Ti / AMD RX 570 or equivalent",
+          "DirectX 版本: 12",
+          "网络: 宽带互联网连接",
+          "存储空间: 需要 500 MB 可用空间",
+          "附注事项: In the case of issues on certain hardware, try the launch options provided. Total storage use increases with saved replay files."
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 17.36,
+        "initial": 28,
+        "discountPercent": 38
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1347,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/5037200/",
+      "fetchedAt": "2026-11-20T19:01:29.197Z"
+    }
   },
   {
     "id": "other-202611-0012",
     "title": "帝国恩典/Imperial Grace   Build.26679260   免安装中文版",
-    "enTitle": "",
-    "category": "other",
+    "enTitle": "Imperial Grace",
+    "category": "adventure",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/dbe0b7b27764?pwd=zqT4",
     "pwd": "zqT4",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4217660.webp",
-    "steamAppID": 4217660,
+    "size": "568.2MB",
+    "sizeBytes": 595793012,
+    "cover": "/covers/1652580.webp",
+    "steamAppID": 1652580,
     "desc": "Imperial Grace is a visual novel / otome game , focusing on politics and romance in an imaginary medieval world. As the new Empress of Calidya your choices will determine your future and your kingdom’s, so rule wisely. Play as a strong and ambitious woman。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T21:07:42+08:00",
     "updatedAt": "2026-11-20T21:07:42+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1652580,
+      "developer": "Synstoria",
+      "publisher": "Abiding Bridge",
+      "releaseDate": "2026 年 11 月 11 日",
+      "genres": [
+        "冒险",
+        "独立"
+      ],
+      "languages": "英语, 法语",
+      "summary": "Imperial Grace is a visual novel about romance, medieval intrigue, and political strategy. Will you rule with your head, or your heart?",
+      "description": "Imperial Grace is a visual novel / otome game, focusing on politics and romance in an imaginary medieval world. As the new Empress of Calidya your choices will determine your future and your kingdom's, so rule wisely.\nPlay as a strong and ambitious woman, and hold an entire country in the palm of your hand. Thanks to the many choices offered throughout the game and the avatar customisation options, become the Empress you want to be!\nFall under the charm of the three love interests and their flamboyant personalities, and discover the kingdom of Calidya through colourful and well-developed secondary characters.\nGuide your subjects by addressing their petitions, and navigate the crises unsettling your realm. It's up to you to tackle the many dilemmas that will change the history of Calidya... for better or for worse.\nEnjoy the story with infinite resources, or spice up your game by wisely managing your kingdom's resources, making each choice even more difficult.\nYour Grace your Empire awaits!",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/000c125ab078f4170d09d96f341cdb8afba30176/ss_000c125ab078f4170d09d96f341cdb8afba30176.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/2dea6c17f87b7cac52b8c003ce128d35dbf521c6/ss_2dea6c17f87b7cac52b8c003ce128d35dbf521c6.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/e50ada3df7563bafc6f8dbc6f04f8ca79701e25a/ss_e50ada3df7563bafc6f8dbc6f04f8ca79701e25a.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/828f41e8693f119d41d26d0b861d2af29762deec/ss_828f41e8693f119d41d26d0b861d2af29762deec.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/006b7d95cba633d81ebf6e40138f99b0a47ca23b/ss_006b7d95cba633d81ebf6e40138f99b0a47ca23b.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/1fb6b1fd5c29c7fc423158f03b44112cc433aec9/ss_1fb6b1fd5c29c7fc423158f03b44112cc433aec9.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/9345e32dfd726ab8d48671b29589e237dbaecbe6/ss_9345e32dfd726ab8d48671b29589e237dbaecbe6.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/00c4d2a31b2610a2ae1a88dbc8b2a551f12860eb/ss_00c4d2a31b2610a2ae1a88dbc8b2a551f12860eb.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/5f8dca5dcd3d37c3a620dbedc69d434f30580cda/ss_5f8dca5dcd3d37c3a620dbedc69d434f30580cda.1920x1080.jpg?t=1794700247",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1652580/4d2ed293dd3f87717ba06f5acd2637f091295e9b/ss_4d2ed293dd3f87717ba06f5acd2637f091295e9b.1920x1080.jpg?t=1794700247"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: Windows 7 (SP1+), Windows 10 and Windows 11",
+          "处理器: x86, x64 architecture with SSE2",
+          "内存: 4 GB RAM",
+          "显卡: DirectX or OpenGL compatible card",
+          "DirectX 版本: 11",
+          "存储空间: 需要 500 MB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 76.66,
+        "initial": 76.66,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 126,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 94
+      },
+      "storeUrl": "https://store.steampowered.com/app/1652580/",
+      "fetchedAt": "2026-11-20T19:01:32.546Z"
+    }
   },
   {
     "id": "simulation-202611-0014",
     "title": "投资之神/Angel Investor Simulator   v1.4.0   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Angel Investor Simulator™",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/1c47ffe5e932?pwd=mKO3",
     "pwd": "mKO3",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "233.4MB",
+    "sizeBytes": 244733258,
+    "cover": "/covers/4771830.webp",
+    "steamAppID": 4771830,
     "desc": "从众多创业项目中寻找投资机会，通过竞价争夺股份，并用专家团队与资本帮助企业成长。产品质量、定价、营销、销售和客服都会影响市场份额，你需要在资本、人才与成本之间权衡，推动企业完成IPO，再进入股票市场寻找下一次机会 创业公司不会主动告诉你它们值多少钱。投资前，利用专家进行尽职调查与市场研究，了解项目的基础条件与发展潜力。面对其他投资人的竞争，通过竞价争夺股份，在有限资本下判断哪些项目值得下注 公司的市场份额取决于产品质量、价格、营销与公关、销售能力以及客户支持。调整产品定价，应对竞争对手。增加营销投入，提升市场竞争力。通过合理配置资源，持续改善公司的经营表现。即使创业点子天马行空，背后的经济模拟依然会让每一次商业决策产生影响 投资只是开始。将员工与专家分配到不同创业公司，帮助它们改善经营状况，同时管理工资与运营支出。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T21:11:15+08:00",
     "updatedAt": "2026-11-20T21:11:15+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4771830,
+      "developer": "Bigosaur",
+      "publisher": "Gamersky Games、GAMIKE",
+      "releaseDate": "2026 年 11 月 17 日",
+      "genres": [
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "languages": "英语, 法语, 日语, 韩语, 简体中文, 繁体中文, 意大利语, 德语, 西班牙语 - 西班牙, 保加利亚语, 捷克语, 丹麦语, 荷兰语, 芬兰语, 匈牙利语, 印度尼西亚语, 挪威语, 波兰语, 葡萄牙语 - 巴西, 葡萄牙语 - 葡萄牙, 俄语, 西班牙语 - 拉丁美洲, 瑞典语, 土耳其语, 越南语, 希腊语, 罗马尼亚语, 乌克兰语, 塞尔维亚语",
+      "summary": "掌控资本，深度调研，把握风口，以小博大。成为身家百亿的天使投资人，寻找潜力创业公司，参与竞价，组建专业团队，调配资本与资源。小商品，但大战略！在瞬息万变的市场中把控企业命脉，体验硬核金融模拟与投资博弈。从第一笔投资开始，打造你的商业帝国",
+      "description": "从众多创业项目中寻找投资机会，通过竞价争夺股份，并用专家团队与资本帮助企业成长。产品质量、定价、营销、销售和客服都会影响市场份额，你需要在资本、人才与成本之间权衡，推动企业完成IPO，再进入股票市场寻找下一次机会\n创业公司不会主动告诉你它们值多少钱。投资前，利用专家进行尽职调查与市场研究，了解项目的基础条件与发展潜力。面对其他投资人的竞争，通过竞价争夺股份，在有限资本下判断哪些项目值得下注\n公司的市场份额取决于产品质量、价格、营销与公关、销售能力以及客户支持。调整产品定价，应对竞争对手。增加营销投入，提升市场竞争力。通过合理配置资源，持续改善公司的经营表现。即使创业点子天马行空，背后的经济模拟依然会让每一次商业决策产生影响\n投资只是开始。将员工与专家分配到不同创业公司，帮助它们改善经营状况，同时管理工资与运营支出。专家可以参与企业发展、研究和尽职调查，你还可以帮助公司申请专利、参与重要商业决策，让有限资本发挥更大价值。\n当投资的创业公司完成IPO，你可以选择退出投资，也可以进入股票交易市场寻找新的机会。游戏提供3个不同难度的挑战场景，以及自由施展你商业才华的沙盒模式，让你尝试不同的投资策略，在不同规则下管理资本并完成目标。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/fd03f0677495772a11e88e10e0163825c35cd133/ss_fd03f0677495772a11e88e10e0163825c35cd133.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/0f03dd9b914ce663d5effa6ee7c3e16ffa1d64cd/ss_0f03dd9b914ce663d5effa6ee7c3e16ffa1d64cd.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/611c0028474dffb1201e5edd4345cfe4a1323e7d/ss_611c0028474dffb1201e5edd4345cfe4a1323e7d.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/c393e0db9eabc0a3ad0ec013042d1c83df1e3efc/ss_c393e0db9eabc0a3ad0ec013042d1c83df1e3efc.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/8fc0eec57b1b1c0e11cf9af55dbd87dcbfb9a0ca/ss_8fc0eec57b1b1c0e11cf9af55dbd87dcbfb9a0ca.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/2d15fc282d8b77af660041d5c08e4ef1acd1f352/ss_2d15fc282d8b77af660041d5c08e4ef1acd1f352.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/ed6fad2b8f31241aea622e4cc6416baad61e5bb4/ss_ed6fad2b8f31241aea622e4cc6416baad61e5bb4.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/f10e709c56804d995aa6004041e7fa3e32e1bd9b/ss_f10e709c56804d995aa6004041e7fa3e32e1bd9b.1920x1080.jpg?t=1794987115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4771830/d42f436209a3f7c8fac911b14b281cbc85f111cc/ss_d42f436209a3f7c8fac911b14b281cbc85f111cc.1920x1080.jpg?t=1794987115"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7及以上",
+          "处理器: Core2Duo 1.0 GHz",
+          "显卡: 256MB显存，OpenGL 1.1+，集成显卡也能用",
+          "存储空间: 需要 400 MB 可用空间",
+          "附注事项: 已测试，通过Proton在Linux和Steam Deck上运行很流畅"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 29.6,
+        "initial": 37,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 59,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 86
+      },
+      "storeUrl": "https://store.steampowered.com/app/4771830/",
+      "fetchedAt": "2026-11-20T19:01:35.626Z"
+    }
   },
   {
     "id": "card-202611-0002",
     "title": "新纪元轮回/Novus Orbis   v1.0.0   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Novus Orbis",
     "category": "card",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/42c48b155bf3?pwd=vpzL",
     "pwd": "vpzL",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/ubf33a02113ea.webp",
-    "steamAppID": null,
+    "size": "2.4GB",
+    "sizeBytes": 2539316538,
+    "cover": "/covers/2437330.webp",
+    "steamAppID": 2437330,
     "desc": "穿越这个破碎世界仅存的残片，对抗来自时空之外的存在 《Novus Orbis》是一款Roguelike卡牌构筑游戏，凭借深度的卡组连击、强大的祝福与大量有待发掘的秘密，鼓励你打造复杂的流派。串联卡牌，化解敌人的意图，增强自身的力量与学识，让秩序重回你的故土。 深度卡组构筑 3大职业任你选择（战士、法师与机械师），各自拥有专属卡池和截然不同的玩法机制。 尝试各种组合，开发强力联动，打造越来越离谱的流派。 从300多张卡牌中挑选，并通过印记系统为卡牌追加能力；获得100多种足以颠覆流派的祝福，再招募10只宠物与你并肩作战。 串联连击 每张卡牌都有费用和连击值。出牌顺序至关重要！每张卡牌都有费用和连击值。出牌顺序至关重要！ 串联卡牌，打出强力连击，释放它们的全部潜能。也可以在恰当的时机有策略地中断连击，换取更有利的结果。 摸清卡牌之间的互动，规划出牌顺序，用富有创意的方式让每个回合发挥最大价值！",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T21:16:22+08:00",
     "updatedAt": "2026-11-20T21:16:22+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2437330,
+      "developer": "Seizo Games",
+      "publisher": "2 Left Thumbs",
+      "releaseDate": "2026 年 11 月 13 日",
+      "genres": [
+        "冒险",
+        "角色扮演",
+        "策略"
+      ],
+      "languages": "英语, 日语, 意大利语, 德语, 葡萄牙语 - 巴西, 俄语, 简体中文, 西班牙语 - 拉丁美洲",
+      "summary": "一款以连击为核心的Roguelike卡牌构筑游戏，故事发生在一场时空循环之中：收集卡牌、获得祝福、招募宠物入队，让自己越变越强。按正确顺序串联卡牌，打出最大威力，抢在敌人之前行动。构筑相互联动的卡组，发掘众多秘密，打出爆表的大数字！",
+      "description": "穿越这个破碎世界仅存的残片，对抗来自时空之外的存在\n《Novus Orbis》是一款Roguelike卡牌构筑游戏，凭借深度的卡组连击、强大的祝福与大量有待发掘的秘密，鼓励你打造复杂的流派。串联卡牌，化解敌人的意图，增强自身的力量与学识，让秩序重回你的故土。\n深度卡组构筑\n3大职业任你选择（战士、法师与机械师），各自拥有专属卡池和截然不同的玩法机制。\n尝试各种组合，开发强力联动，打造越来越离谱的流派。\n从300多张卡牌中挑选，并通过印记系统为卡牌追加能力；获得100多种足以颠覆流派的祝福，再招募10只宠物与你并肩作战。\n串联连击\n每张卡牌都有费用和连击值。出牌顺序至关重要！每张卡牌都有费用和连击值。出牌顺序至关重要！\n串联卡牌，打出强力连击，释放它们的全部潜能。也可以在恰当的时机有策略地中断连击，换取更有利的结果。\n摸清卡牌之间的互动，规划出牌顺序，用富有创意的方式让每个回合发挥最大价值！\n分秒必争\n倒计时系统：敌人可不会乖乖等你结束回合。\n你每打出一张牌，敌人就离发动攻击更近一步；结束回合则会让倒计时减少2。规划好每一步，防范或避开回合中途可能袭来的攻击！\n有策略地结束回合，才能有效掌控倒计时。是再打一张牌，为毁灭性的连击铺路？还是趁为时未晚，先解决眼前的威胁？\n选择你的道路\n每一局都会带你穿越一个路线交织、分支众多的世界。\n动态关卡难度：通关某个关卡后，下次再来时难度会提高；落败则会重置难度。规划好路线，决定何时何地放手一搏。\n丰富的事件、秘密与特殊互动，大大提升了重玩价值。每一个行动、选择和路线，都可能左右胜负。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/7a3cd1e0522613109e4ed8188fc6d241e09eea79/ss_7a3cd1e0522613109e4ed8188fc6d241e09eea79.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/aca53f36fa33e9b301d3b695d6e7d508eea1a5d5/ss_aca53f36fa33e9b301d3b695d6e7d508eea1a5d5.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/4e767b4fe92cfcc1f6fc9e76e48f47cdef1f9df5/ss_4e767b4fe92cfcc1f6fc9e76e48f47cdef1f9df5.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/a7079de084b268a31770a4821802658b7b0f40b9/ss_a7079de084b268a31770a4821802658b7b0f40b9.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/f100bf79ef58314d744fe86cd03aeac3b0a25818/ss_f100bf79ef58314d744fe86cd03aeac3b0a25818.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/29de8f051c53505132a493b302cd89fd24c0eca8/ss_29de8f051c53505132a493b302cd89fd24c0eca8.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/ss_c56a7a32bb015b8e726cd5310160d2e8a2c93ee6.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/ss_1e7dc3e174bc2aa2f81b9ec71bf9ccb0411ad05d.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/60c2cc208c8fb0f04cf991de0c9d06e8d4a2ca2c/ss_60c2cc208c8fb0f04cf991de0c9d06e8d4a2ca2c.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/15027235ef7565e882b075c2608eba01ac638183/ss_15027235ef7565e882b075c2608eba01ac638183.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/16795d198ebba2eeadaf864317cbce96eab9e967/ss_16795d198ebba2eeadaf864317cbce96eab9e967.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/64e2d8c3a45650b4bb25a0d39f40daa68aa487ff/ss_64e2d8c3a45650b4bb25a0d39f40daa68aa487ff.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/902509515ff3565f720e0c5f0ecfd9a1711dcf46/ss_902509515ff3565f720e0c5f0ecfd9a1711dcf46.1920x1080.jpg?t=1794593343",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2437330/ss_bfb091d268090f1746648da1c3ffa1ee8fd42999.1920x1080.jpg?t=1794593343"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: Windows 7, 8/8.1, 10, 11",
+          "处理器: 2.0 Ghz",
+          "内存: 2 GB RAM",
+          "显卡: 1GB Video Memory",
+          "存储空间: 需要 500 MB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 36,
+        "initial": 60,
+        "discountPercent": 40
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 74,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 91
+      },
+      "storeUrl": "https://store.steampowered.com/app/2437330/",
+      "fetchedAt": "2026-11-20T19:01:38.781Z"
+    }
   },
   {
     "id": "casual-202611-0003",
     "title": "东方：你的灵梦/Your Reimu   Build.26657525   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Touhou: Your Reimu",
     "category": "casual",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/8d517aa57966?pwd=PQD7",
     "pwd": "PQD7",
-    "size": "",
-    "sizeBytes": null,
+    "size": "103.8MB",
+    "sizeBytes": 108856954,
     "cover": "/covers/5069180.webp",
     "steamAppID": 5069180,
     "desc": "把灵梦带到你的桌面 Your Reimu 是一款与东方 Project 的博丽灵梦一同度过日常的桌面陪伴应用。 工作时，把灵梦放在屏幕的一角吧。她偶尔会自言自语，会在你久别归来时迎接你，还会在纪念日讲些与平时不一样的话。 她漫不经心又有些冷淡，却以自己的方式留在你身边。 点一点，拎起来，随意挪动 点击灵梦，她会配合台词做出反应。要是一个劲儿地连点，她说不定会嫌烦地嘟囔一句。 长按可以把灵梦拎起来，移动到你想要的位置。她会跟着光标晃动、倾斜，松手后自然地落在原地。 你还可以用鼠标滚轮调整她的大小，位置和大小在重新启动应用后依然保留。 把待办交给灵梦记着 可以在桌面上放一个简单的 TODO 清单，用来记录该做的事。 添加待办，勾选已完成的项目，或删除不需要的项目。每完成一项，灵梦都会有所回应；当你把整个清单都完成时，她会体谅你的辛苦，说今天稍微歇一歇也无妨。 “做完一件了嘛。",
@@ -85575,7 +85804,57 @@
     "featured": false,
     "addedAt": "2026-11-20T21:28:20+08:00",
     "updatedAt": "2026-11-20T21:28:20+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5069180,
+      "developer": "ZK",
+      "publisher": "ZK",
+      "releaseDate": "2026 年 11 月 10 日",
+      "genres": [
+        "休闲"
+      ],
+      "languages": "英语, 日语, 韩语, 简体中文\n具有完全音频支持的语言",
+      "summary": "博丽灵梦来到你的桌面。戳一戳或把她拎起来，她都会像灵梦那样回应你，还会帮你记着待办和闹钟。虽然嘴上冷淡，却总是默默陪在你身边。",
+      "description": "把灵梦带到你的桌面\nYour Reimu 是一款与东方 Project 的博丽灵梦一同度过日常的桌面陪伴应用。\n工作时，把灵梦放在屏幕的一角吧。她偶尔会自言自语，会在你久别归来时迎接你，还会在纪念日讲些与平时不一样的话。\n她漫不经心又有些冷淡，却以自己的方式留在你身边。\n点一点，拎起来，随意挪动\n点击灵梦，她会配合台词做出反应。要是一个劲儿地连点，她说不定会嫌烦地嘟囔一句。\n长按可以把灵梦拎起来，移动到你想要的位置。她会跟着光标晃动、倾斜，松手后自然地落在原地。\n你还可以用鼠标滚轮调整她的大小，位置和大小在重新启动应用后依然保留。\n把待办交给灵梦记着\n可以在桌面上放一个简单的 TODO 清单，用来记录该做的事。\n添加待办，勾选已完成的项目，或删除不需要的项目。每完成一项，灵梦都会有所回应；当你把整个清单都完成时，她会体谅你的辛苦，说今天稍微歇一歇也无妨。\n“做完一件了嘛。比想象中还挺行的嘛。”\n计时器和闹钟也一应俱全\n需要专注时，可以立即启动计时器，或者直接输入想要的时间。也可以设置在特定时刻响起的闹钟。\n计时结束前一分钟，灵梦会提醒你该收尾了；时间到了，她会伴着提示音亲自催你。\n“时间我帮你盯着，你只管做你的事。”\nTODO 清单和闹钟小组件可以分别单独打开，并移动到你想要的位置。\n不打扰你，却分明就在身边\n没有灵梦和小组件的区域依旧可以正常点击，因此不会妨碍你使用其他程序。只在需要时和她搭话，或打开 TODO 清单和闹钟即可。\n与其说是替你干活的秘书，不如说更像在一旁看着、时不时搭句话的同居人。\n和这位嘴上冷淡、怕麻烦、又喜欢香火钱的灵梦一起度过日常吧。\n[hr][/hr]月影工房 第七作\n本作是上海爱丽丝幻乐团「东方Project」的同人二次创作作品，并非官方作品。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/7fd9e929f40dce5ab126201a5d668a9f0cb4e861/ss_7fd9e929f40dce5ab126201a5d668a9f0cb4e861.1920x1080.jpg?t=1794404190",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/f0f647044c63447c23cc077444e84f297d58f17b/ss_f0f647044c63447c23cc077444e84f297d58f17b.1920x1080.jpg?t=1794404190",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/6648b3d9b58edb0ac4237d51425ac81b808f1670/ss_6648b3d9b58edb0ac4237d51425ac81b808f1670.1920x1080.jpg?t=1794404190",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/05f7e0e72141c0398015f8760a8dec840621fcbc/ss_05f7e0e72141c0398015f8760a8dec840621fcbc.1920x1080.jpg?t=1794404190",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/23e86e7674f00008f4d0bdac2e183dc576fac152/ss_23e86e7674f00008f4d0bdac2e183dc576fac152.1920x1080.jpg?t=1794404190",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/1fa5e7c0b21ebee831b9f9f2883900884a195bf8/ss_1fa5e7c0b21ebee831b9f9f2883900884a195bf8.1920x1080.jpg?t=1794404190",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5069180/0f4f88f415126991ca3f61a17fc342ddf6986a70/ss_0f4f88f415126991ca3f61a17fc342ddf6986a70.1920x1080.jpg?t=1794404190"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64bit / Windows 11 64bit",
+          "处理器: Intel Core i3",
+          "内存: 4 GB RAM",
+          "显卡: Intel UHD Graphics 730",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 8.5,
+        "initial": 10,
+        "discountPercent": 15
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 59,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 86
+      },
+      "storeUrl": "https://store.steampowered.com/app/5069180/",
+      "fetchedAt": "2026-11-20T19:01:41.631Z"
+    }
   },
   {
     "id": "adventure-202611-0003",
@@ -85586,10 +85865,10 @@
     "platform": "quark",
     "url": "https://pan.quark.cn/s/2f7a0251bce3?pwd=ApTA",
     "pwd": "ApTA",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "539MB",
+    "sizeBytes": 565146064,
+    "cover": "",
+    "steamAppID": null,
     "desc": "Embark on a brand new adventure in Melvor Idle 2! Melvor Idle 2 expands upon the beloved foundations of its predecessor and the wider world, to bring a deeper, richer, and more refined idle gaming experience. This single-player adventure lets you explore an ever-growing world of skills, combat, and strategy at your own pace. Whether you’re a veteran of idle games。",
     "status": "active",
     "featured": false,
@@ -85600,54 +85879,177 @@
   {
     "id": "simulation-202611-0015",
     "title": "谢谢你，巴士司机/Thank You Bus Driver   Build.25945061   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Thank You Bus Driver",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/63d2eea9880e?pwd=SNM8",
     "pwd": "SNM8",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "849.3MB",
+    "sizeBytes": 890539366,
+    "cover": "/covers/5067360.webp",
+    "steamAppID": 5067360,
     "desc": "Thank You Bus Driver is a chaotic bus driving game, where you take on the role of a town’s bus driver just trying to get through the day with minimal rule breaking and maximum gratitude… in the form of Thank Yous! Get behind the wheel and remember the three main priorities on your bus: No Rule Breaking Your bus, your rules! Who cares that they change every single day?",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T21:39:13+08:00",
     "updatedAt": "2026-11-20T21:39:13+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5067360,
+      "developer": "Double Fine Productions",
+      "publisher": "Double Fine Action Labs",
+      "releaseDate": "2026 年 10 月 14 日",
+      "genres": [
+        "独立"
+      ],
+      "languages": "英语",
+      "summary": "Take on the role of a town’s rules-driven (and reckless) bus driver in Thank You Bus Driver! Drive fast, slap faster, and toss any rulebreakers out of your bus to reach true victory: being appreciated.",
+      "description": "Thank You Bus Driver is a chaotic bus driving game, where you take on the role of a town’s bus driver just trying to get through the day with minimal rule breaking and maximum gratitude... in the form of Thank Yous!\nGet behind the wheel and remember the three main priorities on your bus:\nNo Rule Breaking\nYour bus, your rules! Who cares that they change every single day? And that you keep adding rules? And that some of these rules are just itching to be broken?\nNo matter! Slap any of those annoying rulebreakers to remind them of who runs the road. And if they’re repeat offenders? Revoke their bus privileges.\nStay on Track\nGetting to your next stop is all that matters. That might mean pulling up your map mid-turn or it might mean a shortcut through the corn field. Avoiding pedestrians, incoming traffic, or the fence directly in front of you is optional.\nYour passengers certainly don’t care as long as you make it to your next stop before they get upset!\nBe on Schedule\nYou have a tight timeline! Get to the next stop before your time runs out. And remember: the only thing that fuels you is a happy rider. The more Thank Yous, the more time you have to get to the next stop.\nCollect even more Thank Yous to unlock additional bus tchotchkes, town variants, and more!\nRun a strict bus and you may very well become the best bus driver this town has ever seen.\nJust don’t forget, Bus Driver: Keep 'em in line... but get there on time!",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/4dff09c13c0db0c23d120d3304121efa29266c50/ss_4dff09c13c0db0c23d120d3304121efa29266c50.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/9a0fcd63cc73d204c20f98c09c89463037fd6fd4/ss_9a0fcd63cc73d204c20f98c09c89463037fd6fd4.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/f42426443b152cad3912bd92d1467e0537a3b8cd/ss_f42426443b152cad3912bd92d1467e0537a3b8cd.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/3f3de80493c3a3a2626dd20109d2a8fb1622ee4b/ss_3f3de80493c3a3a2626dd20109d2a8fb1622ee4b.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/42df887a17850e73bb88a1ec1567abe598154af0/ss_42df887a17850e73bb88a1ec1567abe598154af0.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/78c764bed97463d8dfdae4b3c52bf05abde09d33/ss_78c764bed97463d8dfdae4b3c52bf05abde09d33.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/e84fac04bd20b03a7055f1baa85b8c37d1c5edc1/ss_e84fac04bd20b03a7055f1baa85b8c37d1c5edc1.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/6756df7ee54bf2c5764bf3b27ca0b99ab29ecee0/ss_6756df7ee54bf2c5764bf3b27ca0b99ab29ecee0.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/6627388b65ac2f18980392b7d3284877af4718ae/ss_6627388b65ac2f18980392b7d3284877af4718ae.1920x1080.jpg?t=1793061120",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5067360/1b2d68f4bda3ea73c57c45ff60f1302d6dc06e94/ss_1b2d68f4bda3ea73c57c45ff60f1302d6dc06e94.1920x1080.jpg?t=1793061120"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: Intel Core i3-3225 / AMD Phenom II X6 1100T",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1050 / AMD Radeon RX 560, VRAM: 2 GB",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: Intel Core i7-7700K / AMD Ryzen 5 1600",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia GeForce GTX 1060 / AMD Radeon RX 580, VRAM: 4 GB",
+          "DirectX 版本: 12",
+          "存储空间: 需要 1 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 22,
+        "initial": 22,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 209,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 93
+      },
+      "storeUrl": "https://store.steampowered.com/app/5067360/",
+      "fetchedAt": "2026-11-20T19:01:44.744Z"
+    }
   },
   {
     "id": "adventure-202611-0004",
     "title": "哞琪牛奶屋/Milki Delivery   Build.26728418   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Milki Delivery",
     "category": "adventure",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/141a2caa5507?pwd=0NN1",
     "pwd": "0NN1",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/ua23bf3e1329d.webp",
-    "steamAppID": null,
+    "size": "182MB",
+    "sizeBytes": 190886163,
+    "cover": "/covers/4259360.webp",
+    "steamAppID": 4259360,
     "desc": "化身 小小送奶员 妮哈，骑着自行车 探索 迷人的乡间。这场 冒险 虽然 短小 却非常充实，只用 鼠标 就能体验。你会挨家挨户 送牛奶 ，给你的宠物奶牛哞琪找食物，结识友好又有趣的乡亲，还有完成各式各样的小任务，帮助村里。 送牛奶🐮 你和哞琪要一起送奶啦！赚钱、收集资源、升级谷仓，慢慢把生意做大。 探索乡间🌻 草地青翠，树林葱郁，大海波光粼粼，这片土的美景就等你来发现！升级自行车，合理选好路线，才能发现藏在各处的小秘密，结识每一位乡亲！ 修复乡邻关系💌 这个地方曾有“奶牛之乡”的美名，可惜一场神秘事件波及了所有奶牛，不少乡亲也因此陆续搬走。在送奶的日子里，你会逐渐从居民口中了解这片土地的往事，然后和大家一起为这片土地开创未来！ 游戏特色 ✅《哞琪牛奶屋》能让你： 体验一场简短的冒险： 欣赏3–5个小时的美景，体验轻度资源管理，做些压力不大的选择，再和乡亲们聊上几句。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T21:45:43+08:00",
     "updatedAt": "2026-11-20T21:45:43+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4259360,
+      "developer": "Blibloop、Doot",
+      "publisher": "Doot Tiny Games、Wholesome Games Presents",
+      "releaseDate": "2026 年 11 月 17 日",
+      "genres": [
+        "冒险",
+        "休闲",
+        "独立",
+        "模拟"
+      ],
+      "languages": "英语",
+      "summary": "带上宠物奶牛哞琪，开启简短的送奶之旅。收集资源、升级谷仓，骑着自行车，走过乡间的小路、微风之下的草甸和海边的码头，把新鲜的牛奶送到乡亲手上，让这片乡野一点点苏醒过来。",
+      "description": "化身小小送奶员妮哈，骑着自行车探索迷人的乡间。这场冒险虽然短小却非常充实，只用鼠标就能体验。你会挨家挨户送牛奶，给你的宠物奶牛哞琪找食物，结识友好又有趣的乡亲，还有完成各式各样的小任务，帮助村里。\n送牛奶🐮\n你和哞琪要一起送奶啦！赚钱、收集资源、升级谷仓，慢慢把生意做大。\n探索乡间🌻\n草地青翠，树林葱郁，大海波光粼粼，这片土的美景就等你来发现！升级自行车，合理选好路线，才能发现藏在各处的小秘密，结识每一位乡亲！\n修复乡邻关系💌\n这个地方曾有“奶牛之乡”的美名，可惜一场神秘事件波及了所有奶牛，不少乡亲也因此陆续搬走。在送奶的日子里，你会逐渐从居民口中了解这片土地的往事，然后和大家一起为这片土地开创未来！\n游戏特色\n✅《哞琪牛奶屋》能让你：\n体验一场简短的冒险： 欣赏3–5个小时的美景，体验轻度资源管理，做些压力不大的选择，再和乡亲们聊上几句。\n全程鼠标操作： 点击鼠标就能控制妮哈移动，还有跟人和物体互动。\n游戏机制简单易懂：选路线、卖牛奶、获得食材、完成小任务。\n氛围悠闲治愈：夏日气息满满，手绘风景徐徐展开，角色可爱有趣，音乐令人放松！\n游戏简单易上手，不用担心失败：按自己的节奏慢慢享受！\n❌ 《哞琪牛奶屋》没有：\n篇幅宏大的史诗旅程，也没有几个小时的任务和分支叙事。\n控制自行车的街机玩法。\n任何形式的多人模式。\n开发团队\n大家好，我们是Blibloop和Doot！我们一起开发了《南之町》之后，想换个方向，不想再那么侧重经营管理，而是希望带大家去探索一个世界和生活在其中的人。\n我们在本作会继续和作曲家Zakku合作。他创作的音乐与音效也继续为我们的游戏注入灵魂。\n对我们来说，这个游戏是一次全新的尝试，我们也在不断摸索和学习，还请大家多多包涵。我们一定会全力以赴的！真心希望大家会喜欢我们的游戏《哞琪牛奶屋》💖",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/e803caa6eb80ddb8eb7b4ab5de475f8799467c68/ss_e803caa6eb80ddb8eb7b4ab5de475f8799467c68.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/7112c82050051df7137adfa7999978b63a277c84/ss_7112c82050051df7137adfa7999978b63a277c84.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/7c28d0a2daa7193a4e72d8c38166f1da0805e10e/ss_7c28d0a2daa7193a4e72d8c38166f1da0805e10e.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/25fd493ec60168bdbcf8d6591427b414e6b6d090/ss_25fd493ec60168bdbcf8d6591427b414e6b6d090.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/2a3f0c8545066c3c425c7e44e83d50b2c45da847/ss_2a3f0c8545066c3c425c7e44e83d50b2c45da847.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/726f5207cd04dd96f484e39b1aec93ff53f31730/ss_726f5207cd04dd96f484e39b1aec93ff53f31730.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/023f7046ca08c7b483abeb9e6b8820c77e12b374/ss_023f7046ca08c7b483abeb9e6b8820c77e12b374.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/aac0561d5dbfd8bbfdd982bbf339c2062946b924/ss_aac0561d5dbfd8bbfdd982bbf339c2062946b924.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/b121eee64bd0a1c44ef90c86e288787dc6d35a59/ss_b121eee64bd0a1c44ef90c86e288787dc6d35a59.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/2a38f5c0b488fe10acaca84ad9795e6c11990289/ss_2a38f5c0b488fe10acaca84ad9795e6c11990289.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/009316ed4a182ededb3e6877f0d02b9faf08eeb8/ss_009316ed4a182ededb3e6877f0d02b9faf08eeb8.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/3fca41bdced859dda646b9bc5ff90a8a2bee5a72/ss_3fca41bdced859dda646b9bc5ff90a8a2bee5a72.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/e11b128be42d99b649808ed042c008137a4014c4/ss_e11b128be42d99b649808ed042c008137a4014c4.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/c35c3c58256f8d61755cfb2d66e39383114e632b/ss_c35c3c58256f8d61755cfb2d66e39383114e632b.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/5f97f8ad3874f10ed16a636a876ac9daad0919b3/ss_5f97f8ad3874f10ed16a636a876ac9daad0919b3.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/634440841e48da7d41105f037dfaa93bb680ee49/ss_634440841e48da7d41105f037dfaa93bb680ee49.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/566b6d6027200ec688865cebeb8935692dd08c01/ss_566b6d6027200ec688865cebeb8935692dd08c01.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/35e1512a18ef67fa4bb9e99555cf2555b7b9f20e/ss_35e1512a18ef67fa4bb9e99555cf2555b7b9f20e.1920x1080.jpg?t=1794927593",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4259360/7065fb43e7c5de13a204721b1e290bc318b5d776/ss_7065fb43e7c5de13a204721b1e290bc318b5d776.1920x1080.jpg?t=1794927593"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 version 21H1 (build 19043) or newer",
+          "处理器: x86, x64 architecture",
+          "内存: 4 GB RAM",
+          "显卡: Integrated graphics should be enough",
+          "存储空间: 需要 300 MB 可用空间",
+          "附注事项: 4:3 unsupported. If you have a very potato PC and the game runs slowly on it, feel free to contact me so I can update this."
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 20,
+        "initial": 25,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 392,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 99
+      },
+      "storeUrl": "https://store.steampowered.com/app/4259360/",
+      "fetchedAt": "2026-11-20T19:01:47.987Z"
+    }
   },
   {
     "id": "other-202611-0013",
     "title": "侦探杀：罪恶之城 /Dupery A Game of Solo Deduction    Build.26539353    免安装中文版",
-    "enTitle": "",
+    "enTitle": "Dupery: A Game of Solo Deduction",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/914cdc7e3186?pwd=Ftze",
     "pwd": "Ftze",
-    "size": "",
-    "sizeBytes": null,
+    "size": "470.9MB",
+    "sizeBytes": 493755524,
     "cover": "/covers/3845070.webp",
     "steamAppID": 3845070,
     "desc": "更新内容 查看所有更新 涂布 v1.0.16 补丁说明 如今, Good 魔鬼将《好角色》( 如其描述所说) Innocent 而非纯粹的无辜角色。 将游戏畅玩时主菜单中的小微光修复了几分钟 Kraken Mirage Stowaway 修复了“完美犯罪”/“邪恶嫌疑人”存在问题时与Kraken、Mirage和Stowawawa日的问题 Perfect Crime”/”Evil Suspects obscuring 使用 Stowaway Stowawaway 修复了异常模糊的漏洞( 当被 Kraken obscured/unobscured 遮蔽/未遮挡时) 修复了VIP可以宣布他们两次玷污同一角色的漏洞 VIP tainted 角色不能假装为潜藏者 ( 即使说谎 ), hiding 除非至少有一名角色在隐藏角色中 已修复了 Medium 公告中的拼写错误。",
@@ -85655,7 +86057,59 @@
     "featured": false,
     "addedAt": "2026-11-20T21:49:45+08:00",
     "updatedAt": "2026-11-20T21:49:45+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3845070,
+      "developer": "Gilded Rune Games",
+      "publisher": "Yogscast Games、GamerSky Games",
+      "releaseDate": "2026 年 10 月 15 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "languages": "英语, 日语, 韩语, 简体中文, 泰语, 繁体中文, 法语, 德语, 西班牙语 - 西班牙, 葡萄牙语 - 巴西, 俄语\n具有完全音频支持的语言",
+      "summary": "《侦探杀：罪恶之城》是一款主打单机体验的社会派推理Roguelite游戏，你需要在每起案件中识别证人们的真话与谎言，推敲他们的身份与动机，并巧用不同证人的独特身份技能，协助你排除干扰，梳理思路，直捣邪恶辛迪加的老巢。",
+      "description": "《侦探杀：罪恶之城》是一款主打单机体验的社会派推理游戏，受“血染钟楼”“狼人杀”“阿瓦隆”等游戏的启发，我们希望可以为大家带来那种基于“多重信息源的矛盾推演，并完成身份甄别和识破”的推理体验。\n作为侦探的你，需要在每一起案件中识别证人们的真话与谎言，梳理关键信息，推敲他们的身份与动机，并借助他们的不同身份技能，协助你排除干扰，梳理思路，直捣邪恶辛迪加的老巢。\n调查板是你的破案工具，每个案件都会从居民身份库（正式版超过175个身份）里抽取一组本案嫌疑人，每种身份都有他们的独特信息和机制。掌握这些身份的特点，推演他们互相之间的发言，借助他们的技能，并勤加使用你的笔记工具，甄别出谁在说谎，谁又是案件里的真正“恶魔”。\n但请务必小心，如果你逮捕了无辜的好人，名誉将会受损，甚至会被取消办案资格。\n在这些案件的背后，一股更加强大的邪恶势力潜伏在阴影之中，随着调查越发深入，你将会掌握越来越多的线索，并尝试瓦解这个辛迪加组织的小头领们，最终锁定那位作恶多端的“地下皇帝”。当然了，他们可不会束手就擒，若想得到答案，你必须破解城市里每个区域的独有案件和谜题。\n当你收集够足以挑战辛迪加组织首领的关键线索之后，一切都将迎来终局，城市因你而摆脱罪恶之源。\n在《侦探杀：罪恶之城》中，游戏方式绝不单一。哪怕你已经完成了“击溃辛迪加”的正义事业，在未来你仍然可以尝试每日随机案件、自定义案件，以及“无尽探案”模式等多种玩法。游戏在后续还将提供模组和创意工坊支持。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/126c7dc2031e089005c10707fd6c9e92df7ddee5/ss_126c7dc2031e089005c10707fd6c9e92df7ddee5.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/0c4a6769eb89a32b1108083b0b5d9a97724bcd49/ss_0c4a6769eb89a32b1108083b0b5d9a97724bcd49.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/e0637585112dda53406e9bc34f2333808e166cc0/ss_e0637585112dda53406e9bc34f2333808e166cc0.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/58abee844cd4d11fd22efcb60dfb60bc2b4fe1c2/ss_58abee844cd4d11fd22efcb60dfb60bc2b4fe1c2.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/1ea2da14c13fd0f796bd57822bb3f056a85926ff/ss_1ea2da14c13fd0f796bd57822bb3f056a85926ff.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/c6374fd5061bc99973d4e407572d5aa0d7e73016/ss_c6374fd5061bc99973d4e407572d5aa0d7e73016.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/8adc672c1958e6e15f8aa40f95aaf9bac2999111/ss_8adc672c1958e6e15f8aa40f95aaf9bac2999111.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/8a8af3630e8bd1928d5eb20e6c230aceccb59c92/ss_8a8af3630e8bd1928d5eb20e6c230aceccb59c92.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/b097d5ec284c06f711645f04a25fc8bc98f9f54c/ss_b097d5ec284c06f711645f04a25fc8bc98f9f54c.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/95ca35cabbf4a44f413f47beeb7acb3ada3cb141/ss_95ca35cabbf4a44f413f47beeb7acb3ada3cb141.1920x1080.jpg?t=1794543495",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/ec5de050655d9e5823f4b37527304a47a5923ff7/ss_ec5de050655d9e5823f4b37527304a47a5923ff7.1920x1080.jpg?t=1794543495"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 or later",
+          "处理器: Dual Core 2.5GHz",
+          "内存: 2 GB RAM",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 58,
+        "initial": 58,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 1007,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 85
+      },
+      "storeUrl": "https://store.steampowered.com/app/3845070/",
+      "fetchedAt": "2026-11-20T19:01:51.348Z"
+    }
   },
   {
     "id": "shooter-202611-0004",
@@ -85666,10 +86120,10 @@
     "platform": "quark",
     "url": "https://pan.quark.cn/s/32418b524426?pwd=XOXg",
     "pwd": "XOXg",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "2.3GB",
+    "sizeBytes": 2448364447,
+    "cover": "",
+    "steamAppID": null,
     "desc": "更新内容 查看所有更新 小型更新/补丁说明发布于 8月27日周四 更新 0.9.58 在岛上增加了一些逐步目标和界面亮点，帮助玩家建立起始基地。 总部还添加了文字提示，暗示岛上可使用。 在盾牌被不当武器击中时增加了特殊命中标记。 修正了网络上量子位移的行为。 修复了高帧率时的物理行为。 小型更新/补丁说明发布于 6月29日周一 更新 0.9.45 新增了建筑元素。 修复了男性角色脖子弯曲的问题。 声音和画面有小幅改进。 系统小修。 游戏介绍 在《人工智能奥林匹斯》中参与为人类自由而战的战斗！ 在这款以故事情节为主导、包含 RPG 元素的第三人称射击游戏中，加入反抗军，征服奥林匹斯山顶上自诩为神的人工智能。 世界的多变性 游戏中的任务发生在地球的不同区域，因此每个区域都与前一个区域不同。 早期访问 游戏共有 17 个战役任务，游戏时间约为 9-14 小时。另一部分故事正在开发中。",
     "status": "active",
     "featured": false,
@@ -85680,21 +86134,80 @@
   {
     "id": "other-202611-0014",
     "title": "魔女庭院/Garden of Witches   Build.26316003   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Garden of Witches",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/07c54169b89e?pwd=FWvu",
     "pwd": "FWvu",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "973.9MB",
+    "sizeBytes": 1021179446,
+    "cover": "/covers/2530470.webp",
+    "steamAppID": 2530470,
     "desc": "更新内容 查看所有更新 万圣节快乐! 2026年——万圣节服装及更新说明 万圣节服装 新增了一套在万圣节活动期间可获得的新服装。 礼品盒系统 增加了一个礼品盒系统,用于接收活动奖励。 礼品盒出现在保存时段,其中至少尝试过一次。 礼盒位于西尔的家中、第一和第二号的入口处,以及《倒声3》中西尔家的镜像版本中。 活动服装为每个保存时段分别获得并拥有。 衣柜功能 新增了衣柜功能,可让您在军械库无法使用的特定内容中更换服装。 衣柜可在Epilogue 3、Epilogue 3: Callenge Run和Fearless Mode的某些区域使用。 修复错误 修复了在Epilogue 3中某个BOSS对战序列中该角色可能陷入环境的问题。 为某些服装更新了图标。 游戏介绍 游戏信息 庭院正在坍塌，这一切都归咎于那些毫无危机意识、不守承诺的懒散魔女们。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-20T21:58:18+08:00",
     "updatedAt": "2026-11-20T21:58:18+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2530470,
+      "developer": "Team Tapas",
+      "publisher": "Team Tapas",
+      "releaseDate": "2026 年 8 月 28 日",
+      "genres": [
+        "动作",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 日语, 简体中文, 繁体中文, 韩语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 俄语\n具有完全音频支持的语言",
+      "summary": "『魔女庭院』是一款充满了美妙感情和刺激冒险的roguelike动作游戏。主人公“茜尔”正因为那些随心所欲的魔女们头疼不已，快帮助她，一起拯救“庭院”吧！",
+      "description": "《魔女庭院》是一款快节奏动作 Roguelike 游戏。挥舞巨大的剪刀，施展各种魔法，击败庭院中的魔女们。掌握敌人的攻击模式，打造强大的配置，并在庭院崩塌之前将所有魔女聚集到一起。\n收服所有魔女\n你将化身线之魔女茜尔，为了一年一度的茶会召集所有魔女。然而，这些任性妄为的魔女可不会乖乖来参加茶会。\n面对拥有不同个性、变身形态与攻击模式的首领。摸清每位魔女的战斗方式，找到破绽并将她们收服吧！\n尽情施展你喜欢的魔法\n在武器库中选择你喜欢的剪刀、魔法和特殊技能，以自己的方式闯过庭院。\n探索庭院的过程中，可以通过刻印与魔导具进一步强化自己喜欢的技能。即使是同一种技能，也能根据选择的刻印，以截然不同的方式使用。\n认识庭院中的魔女们\n探索这个充满迷人魔法与任性魔女的世界。每位魔女都有属于自己的独特领域。\n通过共 5 章的主线剧情逐渐了解这些魔女，并在之后由 3 部组成的后日谈中，见证她们的故事直到最后。\n日语配音阵容\n跨越死亡，变得更加强大\n对魔女而言，死亡并不是故事的终点。\n通过永久升级以及此前挑战中积累的经验变得更加强大，再次发起挑战吧。尝试各种技能，完善自己喜欢的配置，并进一步磨炼自己的战斗技巧。\n当你足够强大之后，还可以在各种挑战模式中检验自己的配置与实力。\n集结所有魔女，拯救庭院。\n还有，在这个过程中尽量别死。毕竟就算是魔女，也不会喜欢死亡嘛。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/f5f8b303cae3ac4c9f91e1b59f8a9c8787745641/ss_f5f8b303cae3ac4c9f91e1b59f8a9c8787745641.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/e6ff70f08745dd93b4c5553c04af70aff29d0d34/ss_e6ff70f08745dd93b4c5553c04af70aff29d0d34.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/404aca32ac453e3c30fa79e0a4ad3dac914ef900/ss_404aca32ac453e3c30fa79e0a4ad3dac914ef900.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/f2651bf3d7ed04bcd90f77c722eb19a79e65edc5/ss_f2651bf3d7ed04bcd90f77c722eb19a79e65edc5.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/6a2df2730383f1cc6e1a703613c39413d863954a/ss_6a2df2730383f1cc6e1a703613c39413d863954a.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/8b132e839eceb4b72c0969f6b2f99c7703b91b10/ss_8b132e839eceb4b72c0969f6b2f99c7703b91b10.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/e6467b8f39ba44728a22d64ddd65dcc7840416ae/ss_e6467b8f39ba44728a22d64ddd65dcc7840416ae.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/33a6acb74848bce5f07a05768b2e886ba81c4844/ss_33a6acb74848bce5f07a05768b2e886ba81c4844.1920x1080.jpg?t=1792046430",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530470/94525ed9752331bf18c9601ddeab4dfb17709508/ss_94525ed9752331bf18c9601ddeab4dfb17709508.1920x1080.jpg?t=1792046430"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10, 11",
+          "处理器: Intel Core i3-4160 / AMD FX-4350",
+          "内存: 4 GB RAM",
+          "显卡: GeForce GTX 650 Ti / Radeon HD 7750 (1GB VRAM)",
+          "存储空间: 需要 4 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10, 11",
+          "处理器: Intel Core i5-4570 / AMD Ryzen 5 1400",
+          "内存: 8 GB RAM",
+          "显卡: GeForce GTX 960 / Radeon R9 380 (2GB VRAM)",
+          "存储空间: 需要 4 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 75,
+        "initial": 75,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 442,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 93
+      },
+      "storeUrl": "https://store.steampowered.com/app/2530470/",
+      "fetchedAt": "2026-11-20T19:01:54.342Z"
+    }
   }
 ]
