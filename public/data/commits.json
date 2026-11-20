@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5c727c1",
+    "date": "2026-11-21T06:10:46+08:00",
+    "message": "sync: 新增资源《相信直觉/Trust Your Gut   Build.26753210   免》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5c727c1e1c6297348c2145ac13415dd259b60329"
+  },
+  {
     "hash": "856be11",
     "date": "2026-11-21T06:04:56+08:00",
     "message": "sync: 新增资源《惬意失业生活/The Cozy Funemployment   Build.26》",
@@ -172,11 +178,5 @@
     "date": "2026-11-18T18:03:01+08:00",
     "message": "fix: 保持 ECS 部署使用 pan.devmini.space",
     "url": "https://github.com/xi7ang/GameHub/commit/3254fbb67b417511f1c125e08b630ce9c52d0382"
-  },
-  {
-    "hash": "b34a4fd",
-    "date": "2026-11-18T14:21:14+08:00",
-    "message": "data: 下架乐高蝙蝠侠：黑暗骑士之遗，艾斯莱邦分类改动作",
-    "url": "https://github.com/xi7ang/GameHub/commit/b34a4fd43fa204b6a6f97db7ab80fc6928490c67"
   }
 ]
