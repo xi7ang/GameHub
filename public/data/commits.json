@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f3f2ab9",
+    "date": "2026-11-21T06:30:41+08:00",
+    "message": "sync: 新增资源《771：微笑工作/771 Smile and work   Build.2671》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f3f2ab92486af52857d2bce61c28df4e3e0c6279"
+  },
+  {
     "hash": "e862d32",
     "date": "2026-11-21T06:13:53+08:00",
     "message": "sync: 新增资源《敲敲打宝 /Tap Tap Loot   v2.0.3  免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-18T20:31:27+08:00",
     "message": "chore: 每日公告：发布【2026-11-18】游戏资源更新通知（5 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/4df8150e43d9b899474eadc0daa6d0825e0aec24"
-  },
-  {
-    "hash": "c199872",
-    "date": "2026-11-18T18:44:48+08:00",
-    "message": "perf: 延后加载背景图片墙",
-    "url": "https://github.com/xi7ang/GameHub/commit/c1998721470bea4daa0885e475ab591e727ea276"
   }
 ]
