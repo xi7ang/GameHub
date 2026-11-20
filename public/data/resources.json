@@ -85896,5 +85896,25 @@
     "addedAt": "2026-11-21T06:46:17+08:00",
     "updatedAt": "2026-11-21T06:46:17+08:00",
     "month": "202611"
+  },
+  {
+    "id": "other-202611-0019",
+    "title": "灭菌小队|真菌朋克/ Mycopunk   v2.0.5正式版   免安装中文版",
+    "enTitle": "",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/bee5ee8a8471?pwd=IdHo",
+    "pwd": "IdHo",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4511370.webp",
+    "steamAppID": 4511370,
+    "desc": "更新内容 查看所有更新 补丁 2.0.4 崩溃 修复了使用控制器从某些用户界面元素导航时发生的崩溃 修复了一次罕见的碰撞事故,如果两个板式启动板在你站在其中一个板上时,它们会相互卡住 修复了可能引发罕见崩溃但又导致的网状缺陷 升级 固定的清洁升级不计入履行/战时以收集 x 升级 修复了升级网格上方临时升级存储在12次升级后无法使用的问题 (真菌学家)修复了Catapult取代Sporelift图标的Fungal Skewer图标的问题 (Plate Launcher)为充电端口的修复数据添加了小范围 (滑翔机)内核回程:充电速度不受图案大小影响 (Streetsweeper) 激子吸收器上的速度值有反转,因此最大值更好 (伏利路德)修复了在启用自动冲刺时完成Livewire的问题,从而取消了Mycocopers的Hypersprint (铅调)化学共生也可能引发衰变、腐烂、蜜蜂。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-21T06:50:58+08:00",
+    "updatedAt": "2026-11-21T06:50:58+08:00",
+    "month": "202611"
   }
 ]
