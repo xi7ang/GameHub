@@ -1,5 +1,11 @@
 [
   {
+    "hash": "457cbc4",
+    "date": "2026-11-21T06:59:37+08:00",
+    "message": "sync: 新增资源《疯狂台球/Pool of Madness    Build.26733928  》",
+    "url": "https://github.com/xi7ang/GameHub/commit/457cbc4f10264e683851996f529f2bb7395b666f"
+  },
+  {
     "hash": "deeccf8",
     "date": "2026-11-21T06:56:00+08:00",
     "message": "sync: 新增资源《降妖散记/Yao-Guai Hunter   v1.2.12   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T10:35:32+08:00",
     "message": "fix: 将公告封面放到对应链接下方",
     "url": "https://github.com/xi7ang/GameHub/commit/420f4ceee15a0ed6ef51c050a4514c0a3e524ad9"
-  },
-  {
-    "hash": "be3cc40",
-    "date": "2026-11-19T09:22:18+08:00",
-    "message": "sync: 新增资源《树木恨死你/Trees Hate You Build.26715262 免安装中》",
-    "url": "https://github.com/xi7ang/GameHub/commit/be3cc4059811cdc6c21e371ab77a630372cbcd36"
   }
 ]
