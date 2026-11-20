@@ -1,5 +1,11 @@
 [
   {
+    "hash": "e862d32",
+    "date": "2026-11-21T06:13:53+08:00",
+    "message": "sync: 新增资源《敲敲打宝 /Tap Tap Loot   v2.0.3  免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e862d3206b16dce217b91d216a494acc650e322e"
+  },
+  {
     "hash": "5c727c1",
     "date": "2026-11-21T06:10:46+08:00",
     "message": "sync: 新增资源《相信直觉/Trust Your Gut   Build.26753210   免》",
@@ -172,11 +178,5 @@
     "date": "2026-11-18T18:44:48+08:00",
     "message": "perf: 延后加载背景图片墙",
     "url": "https://github.com/xi7ang/GameHub/commit/c1998721470bea4daa0885e475ab591e727ea276"
-  },
-  {
-    "hash": "3254fbb",
-    "date": "2026-11-18T18:03:01+08:00",
-    "message": "fix: 保持 ECS 部署使用 pan.devmini.space",
-    "url": "https://github.com/xi7ang/GameHub/commit/3254fbb67b417511f1c125e08b630ce9c52d0382"
   }
 ]
