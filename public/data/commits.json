@@ -1,5 +1,11 @@
 [
   {
+    "hash": "deeccf8",
+    "date": "2026-11-21T06:56:00+08:00",
+    "message": "sync: 新增资源《降妖散记/Yao-Guai Hunter   v1.2.12   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/deeccf8056ada94eee725c8353c867830b627956"
+  },
+  {
     "hash": "03299b7",
     "date": "2026-11-21T06:51:01+08:00",
     "message": "sync: 新增资源《灭菌小队|真菌朋克/ Mycopunk   v2.0.5正式版   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T09:22:18+08:00",
     "message": "sync: 新增资源《树木恨死你/Trees Hate You Build.26715262 免安装中》",
     "url": "https://github.com/xi7ang/GameHub/commit/be3cc4059811cdc6c21e371ab77a630372cbcd36"
-  },
-  {
-    "hash": "9f77dbf",
-    "date": "2026-11-19T09:18:25+08:00",
-    "message": "sync: 新增资源《灵魂收割者/ScopeCreep Build.26689325 免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/9f77dbf1a87a8f641e398ef9a23bae64f5de684f"
   }
 ]
