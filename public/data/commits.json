@@ -1,5 +1,11 @@
 [
   {
+    "hash": "7dcc501",
+    "date": "2026-11-21T06:34:25+08:00",
+    "message": "sync: 新增资源《代词宫殿/Pronoun Palace   Build.25887362   免》",
+    "url": "https://github.com/xi7ang/GameHub/commit/7dcc501bab80facf3b74924a583326246a2fe23b"
+  },
+  {
     "hash": "f3f2ab9",
     "date": "2026-11-21T06:30:41+08:00",
     "message": "sync: 新增资源《771：微笑工作/771 Smile and work   Build.2671》",
@@ -172,11 +178,5 @@
     "date": "2026-11-19T08:45:46+08:00",
     "message": "feat: 公告按游戏展示对应封面",
     "url": "https://github.com/xi7ang/GameHub/commit/57e21d7e68e6eefdcf33447a381f8fdb1bf262e4"
-  },
-  {
-    "hash": "4df8150",
-    "date": "2026-11-18T20:31:27+08:00",
-    "message": "chore: 每日公告：发布【2026-11-18】游戏资源更新通知（5 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/4df8150e43d9b899474eadc0daa6d0825e0aec24"
   }
 ]
