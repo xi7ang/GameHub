@@ -1,5 +1,11 @@
 [
   {
+    "hash": "324a629",
+    "date": "2026-11-20T20:53:44+08:00",
+    "message": "sync: 新增资源《只是排球/just volleyball   Build.26705269   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/324a62984ca702f49351174fb259376c6be76a25"
+  },
+  {
     "hash": "76a44ce",
     "date": "2026-11-20T20:03:56+08:00",
     "message": "data: 待定分类 10 条按用户决定改分类（虚无 Op.0 不动）",
@@ -172,11 +178,5 @@
     "date": "2026-11-16T22:08:32+08:00",
     "message": "perf(category): 分类页改拉瘦索引 + 首屏只渲染 48 张卡",
     "url": "https://github.com/xi7ang/GameHub/commit/07d082e1c635e3d4132cce718d5316b79f2b07e1"
-  },
-  {
-    "hash": "f9679f0",
-    "date": "2026-11-16T21:58:31+08:00",
-    "message": "chore(pages): 自定义域名改为 gh.devmini.space",
-    "url": "https://github.com/xi7ang/GameHub/commit/f9679f0ece27355aacc7d449f17b146d17ede44d"
   }
 ]
