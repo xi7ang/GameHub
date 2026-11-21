@@ -1,5 +1,11 @@
 [
   {
+    "hash": "f057ad8",
+    "date": "2026-11-21T07:57:13+08:00",
+    "message": "sync: 新增资源《我的梦想家/Tiny Dwellings   Build.26760651   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f057ad8232cf590fef36e59e5eaf1c70ef9d39ba"
+  },
+  {
     "hash": "fc622c9",
     "date": "2026-11-21T07:30:32+08:00",
     "message": "sync: 新增资源《兔兔奇遇记/Bunny Eureka   Build.26772853   免安》",
@@ -172,11 +178,5 @@
     "date": "2026-11-20T20:03:56+08:00",
     "message": "data: 待定分类 10 条按用户决定改分类（虚无 Op.0 不动）",
     "url": "https://github.com/xi7ang/GameHub/commit/76a44ce0f73b98f845d7eac33724ae26ee53551a"
-  },
-  {
-    "hash": "1fcf39b",
-    "date": "2026-11-20T05:41:45+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/1fcf39b9a3ed5a816bd98b21d9ca107d159efac8"
   }
 ]
