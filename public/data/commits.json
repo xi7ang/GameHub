@@ -1,5 +1,11 @@
 [
   {
+    "hash": "0e7a7ca",
+    "date": "2026-11-23T07:04:18+08:00",
+    "message": "sync: 新增资源《灯下行   v20261117   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/0e7a7ca35869b620a615a07c4495c3cbe5a36356"
+  },
+  {
     "hash": "2c91ed7",
     "date": "2026-11-22T20:39:22+08:00",
     "message": "fix: 补齐新增资源封面",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T08:17:14+08:00",
     "message": "data: 补 2 条 appid 与 Steam 资料，改 5 条分类（梅尔沃放置2、AI奥林匹斯）",
     "url": "https://github.com/xi7ang/GameHub/commit/e6c3c19f329d055ab092908a7e86dfca4c3546f4"
-  },
-  {
-    "hash": "2da9adb",
-    "date": "2026-11-21T08:16:58+08:00",
-    "message": "covers: 新增 2 张官方 Steam 封面（梅尔沃放置2、AI奥林匹斯）",
-    "url": "https://github.com/xi7ang/GameHub/commit/2da9adb09f3a633db3cc164ffff17e7d2d82cb8e"
   }
 ]
