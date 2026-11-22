@@ -87875,14 +87875,14 @@
  {
   "id": "other-202611-0021",
   "title": "瘾君子/Crackheads   Build.26773315   免安装中文版",
-  "enTitle": "",
+  "enTitle": "Crackheads",
   "category": "other",
   "tags": [],
   "platform": "quark",
   "url": "https://pan.quark.cn/s/ef5e5f8579db?pwd=TNjC",
   "pwd": "TNjC",
-  "size": "",
-  "sizeBytes": null,
+  "size": "1.2GB",
+  "sizeBytes": 1286293819,
   "cover": "/covers/4450600.webp",
   "steamAppID": 4450600,
   "desc": "系统配置 最低配置: 操作系统: Windows 10 处理器: Intel Celeron CPU 1005M 显卡: 4 GB RAM 游戏截图",
@@ -87890,39 +87890,150 @@
   "featured": false,
   "addedAt": "2026-11-22T07:03:50+08:00",
   "updatedAt": "2026-11-22T07:03:50+08:00",
-  "month": "202611"
+  "month": "202611",
+  "steam": {
+   "appId": 4450600,
+   "developer": "ODale Studios",
+   "publisher": "ODale Studios",
+   "releaseDate": "2026 年 11 月 18 日",
+   "genres": [
+    "动作",
+    "冒险",
+    "休闲",
+    "独立",
+    "竞速",
+    "模拟"
+   ],
+   "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 阿拉伯语, 保加利亚语, 捷克语, 丹麦语, 荷兰语, 芬兰语, 希腊语, 匈牙利语, 印度尼西亚语, 日语, 韩语, 挪威语, 波兰语, 葡萄牙语 - 巴西, 葡萄牙语 - 葡萄牙, 罗马尼亚语, 俄语, 简体中文, 西班牙语 - 拉丁美洲, 瑞典语, 繁体中文, 土耳其语, 乌克兰语\n具有完全音频支持的语言",
+   "summary": "独自一人或与最多 50 名玩家一起探索《Crackheads》的奇妙世界。组队合作，背刺好友，赚钱致富，建立你的帝国，翻垃圾做出可疑的饭菜，并全程保持嗨翻天的状态。",
+   "description": "",
+   "screenshots": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/2ffd42a9175b2042be9167a524765d2b8adbd86d/ss_2ffd42a9175b2042be9167a524765d2b8adbd86d.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/5d23bf59d49a46b01a89af03b0e83e913ebdf372/ss_5d23bf59d49a46b01a89af03b0e83e913ebdf372.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/aaf2f53efd645521fd7b7c1b6a963bf5fd255279/ss_aaf2f53efd645521fd7b7c1b6a963bf5fd255279.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/f3d8931fcbe03d1ab9ef576f8483bd8e54c1b058/ss_f3d8931fcbe03d1ab9ef576f8483bd8e54c1b058.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/c158145b4770132173f33d9ab07eb05d5530af36/ss_c158145b4770132173f33d9ab07eb05d5530af36.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/d938a193f3667f6f36a0e91309d0ca21c7675c17/ss_d938a193f3667f6f36a0e91309d0ca21c7675c17.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/6cc1ea047f0e9bc60319af242cfc1fd51807ff89/ss_6cc1ea047f0e9bc60319af242cfc1fd51807ff89.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/e95cd77a7977943151d621410ac84fed5d117ae9/ss_e95cd77a7977943151d621410ac84fed5d117ae9.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/21dd8978e7f757933eaf8b01bd9d84e8531a4e7e/ss_21dd8978e7f757933eaf8b01bd9d84e8531a4e7e.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/d0080669232964f9f085c20d9f9012c9f6742494/ss_d0080669232964f9f085c20d9f9012c9f6742494.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/1a58b359b012a35a3eae0dcfde73b169947dede8/ss_1a58b359b012a35a3eae0dcfde73b169947dede8.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/d92a9bd8789379828476cafc3efb8238dddf2b29/ss_d92a9bd8789379828476cafc3efb8238dddf2b29.1920x1080.jpg?t=1795019158",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4450600/f01d8cddf886a7b640727e889b77c087d8ac63b7/ss_f01d8cddf886a7b640727e889b77c087d8ac63b7.1920x1080.jpg?t=1795019158"
+   ],
+   "requirements": {
+    "minimum": [
+     "操作系统: Windows 10",
+     "处理器: Intel Celeron CPU 1005M",
+     "显卡: 4 GB RAM"
+    ],
+    "recommended": []
+   },
+   "price": {
+    "free": false,
+    "currency": "CNY",
+    "final": 14.25,
+    "initial": 19,
+    "discountPercent": 25
+   },
+   "rating": {
+    "scoreDesc": "Positive",
+    "totalReviews": 37,
+    "positive": null,
+    "negative": null,
+    "positiveRate": 91
+   },
+   "storeUrl": "https://store.steampowered.com/app/4450600/",
+   "fetchedAt": "2026-11-22T18:58:08.064Z"
+  }
  },
  {
   "id": "tower-defense-202611-0001",
   "title": "澳大利亚干的：末日铁路防卫公司/Australia Did It End-of-the-World Railway Defense Business   v1.0.7   免安装中文版",
-  "enTitle": "",
+  "enTitle": "Australia Did It: End-of-the-World Railway Defense Business",
   "category": "tower-defense",
   "tags": [],
   "platform": "quark",
   "url": "https://pan.quark.cn/s/641be9f91bab?pwd=txRt",
   "pwd": "txRt",
-  "size": "",
-  "sizeBytes": null,
-  "cover": "/covers/4511370.webp",
-  "steamAppID": 4511370,
+  "size": "730.1MB",
+  "sizeBytes": 765600748,
+  "cover": "/covers/2396130.webp",
+  "steamAppID": 2396130,
   "desc": "职位招聘：需要雇佣兵。货到付款。 欢迎加入，雇佣兵！我们公司的座右铭很简单：货物必达 。 维修随便。 没有人知道原因，但数十年前的这场灾变让大西洋彻底干涸，留下一片环境恶劣的荒芜之地。如今，那里爬满了巨大的虫子，充斥着复苏的远古武器和各种古怪的变异生物。 至于你的任务？就是用火车护送客户的珍贵货物，穿越这片险恶的地带。你将在每一站抵挡敌人无尽的攻击。 如果抵达时货物完好无损，就算胜利。 《都是澳洲惹的祸》并不拘泥于已有游戏类型……而是自成一派。踏入战术反向弹幕地狱，见证深谋远虑的回合制塔防与独特单位合并机制的巧妙融合，并通过轰天震地、令人血脉偾张的铁轨反向弹幕地狱战斗来增强体验。运筹帷幄，抵御源源不断涌现的敌人，然后化身弹幕地狱，释放超载武器，在混战中横扫千军。 工作职责： 守护你的车站： 在列车出发前，对有限的单位进行战略部署，抵挡不断涌来的敌人。",
   "status": "active",
   "featured": false,
   "addedAt": "2026-11-22T07:07:42+08:00",
   "updatedAt": "2026-11-22T07:07:42+08:00",
-  "month": "202611"
+  "month": "202611",
+  "steam": {
+   "appId": 2396130,
+   "developer": "Rami Ismail、Aesthetician Labs",
+   "publisher": "Mystic Forge",
+   "releaseDate": "2026 年 11 月 17 日",
+   "genres": [
+    "动作",
+    "策略"
+   ],
+   "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 阿拉伯语, 日语, 韩语, 葡萄牙语 - 巴西, 俄语, 简体中文, 繁体中文\n具有完全音频支持的语言",
+   "summary": "加入我们的雇佣兵团：高风险、低收益，虚位以待！在这个融合了回合制塔防和反向弹幕地狱玩法的创新游戏中，守护你的货运列车。部署单位，将其合并为强大的新型单位和变体，抵御源源不断涌来的敌人，成功送达货物。",
+   "description": "职位招聘：需要雇佣兵。货到付款。\n欢迎加入，雇佣兵！我们公司的座右铭很简单：货物必达。 维修随便。\n没有人知道原因，但数十年前的这场灾变让大西洋彻底干涸，留下一片环境恶劣的荒芜之地。如今，那里爬满了巨大的虫子，充斥着复苏的远古武器和各种古怪的变异生物。\n至于你的任务？就是用火车护送客户的珍贵货物，穿越这片险恶的地带。你将在每一站抵挡敌人无尽的攻击。 如果抵达时货物完好无损，就算胜利。\n《都是澳洲惹的祸》并不拘泥于已有游戏类型……而是自成一派。踏入战术反向弹幕地狱，见证深谋远虑的回合制塔防与独特单位合并机制的巧妙融合，并通过轰天震地、令人血脉偾张的铁轨反向弹幕地狱战斗来增强体验。运筹帷幄，抵御源源不断涌现的敌人，然后化身弹幕地狱，释放超载武器，在混战中横扫千军。\n工作职责：\n守护你的车站：在列车出发前，对有限的单位进行战略部署，抵挡不断涌来的敌人。战斗如同下棋，但速度更快，任何错误都有可能造成惊天一炸。\n进化你的单位：即时合并单位，解锁30多种单位组成的1500多种搭配。创造强到离谱的全新单位或专业队伍。多进行尝试是关键……但小心别把自己炸飞了。\n在反向弹幕地狱中生存：列车启动，混乱伊始。你将化身弹幕地狱，展开紧张刺激的铁轨战斗，使用超载武器，横扫千军。记住，货物必须完整送达。\n自定义你的策略：每次成功守护车站后，挑选特殊奖励卡以获得独特效果与加成。将卡片与不断升级的队伍进行搭配，制定创新策略，打造独具一格的战斗配置。\n快速规划的战术塔防\n反向弹幕地狱战斗，进攻才能确保生存\n独特合并机制，超过1500种单位组合和30多种单位类型\n通过奖励卡实现深度自定义对局\n可解锁大量带有独特属性的列车模型\n感兴趣吗？立刻申请——名额每日随机开放。训练自便。无需长期承诺。\n现在添加至愿望单，以便在第一时间获得征召。",
+   "screenshots": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/addc5dab6b6dbf12a42eafd9cd2c24173b9a1411/ss_addc5dab6b6dbf12a42eafd9cd2c24173b9a1411.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/39d40fb1f8cf10d0a243cd29b8481af43f9645e8/ss_39d40fb1f8cf10d0a243cd29b8481af43f9645e8.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/aad19a20f334d74f3d1ede575cd4197c0130a810/ss_aad19a20f334d74f3d1ede575cd4197c0130a810.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/051c9d56c6498a20b15ead35be3585be2d98bf1c/ss_051c9d56c6498a20b15ead35be3585be2d98bf1c.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/98a13d20b7a1dfb3727124efcc6abd414d8ae118/ss_98a13d20b7a1dfb3727124efcc6abd414d8ae118.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/b9b4306bae8508e78700f061682567ae6d0d11dc/ss_b9b4306bae8508e78700f061682567ae6d0d11dc.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/4f7e830e981e00112821b18a83cd17ff7f4c721d/ss_4f7e830e981e00112821b18a83cd17ff7f4c721d.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/3ac01f1be28f284da081337556a3745955f2242c/ss_3ac01f1be28f284da081337556a3745955f2242c.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/ba612d16bb6d188d386b1548fce2308d30edb9a6/ss_ba612d16bb6d188d386b1548fce2308d30edb9a6.1920x1080.jpg?t=1794938777",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2396130/29c9be7ad11cd20e3fdbca067a71a8c3b9df3767/ss_29c9be7ad11cd20e3fdbca067a71a8c3b9df3767.1920x1080.jpg?t=1794938777"
+   ],
+   "requirements": {
+    "minimum": [
+     "需要 64 位处理器和操作系统",
+     "操作系统 *: Windows 7, 8, 10",
+     "处理器: Intel Core i3 3.0 GHz",
+     "内存: 4 GB RAM",
+     "显卡: GTX 1030",
+     "DirectX 版本: 10",
+     "存储空间: 需要 3 GB 可用空间"
+    ],
+    "recommended": [
+     "需要 64 位处理器和操作系统"
+    ]
+   },
+   "price": {
+    "free": false,
+    "currency": "CNY",
+    "final": 48.6,
+    "initial": 54,
+    "discountPercent": 10
+   },
+   "rating": {
+    "scoreDesc": "Positive",
+    "totalReviews": 39,
+    "positive": null,
+    "negative": null,
+    "positiveRate": 84
+   },
+   "storeUrl": "https://store.steampowered.com/app/2396130/",
+   "fetchedAt": "2026-11-22T18:58:10.788Z"
+  }
  },
  {
   "id": "shooter-202611-0007",
   "title": "窗口王国/Windowed Realms   v1.0.0   免安装中文版",
-  "enTitle": "",
+  "enTitle": "Windowed Realms",
   "category": "shooter",
   "tags": [],
   "platform": "quark",
   "url": "https://pan.quark.cn/s/9526de3e2dd2?pwd=Y3uC",
   "pwd": "Y3uC",
-  "size": "",
-  "sizeBytes": null,
+  "size": "94.5MB",
+  "sizeBytes": 99038605,
   "cover": "/covers/4281800.webp",
   "steamAppID": 4281800,
   "desc": "Windowed Realms 是一个住在你桌面上的王国。小岛待在屏幕的小角落里，军队在另一个窗口里打仗，你可以一边工作、学习或追剧，一边看着一切自己运转。 替你干活的小兵 小兵们会砍树、碎石、摘水果。最多可以雇三名，想帮忙的时候，点一下资源就能一起采集！工具越好，能采到的材料就越多，建筑每次升级都会变得更大、更好看。山上的洞穴时不时会放出几只怪物，这时小兵们就会放下斧头，冲上去打架！ 你的军队 训练战士、弓箭手、枪兵、牧师和苦工，运气好的话还能招募英雄。你发下去的每件装备都会显示在单位身上，所以没有两支队伍长得一样（有些还挺帅）。部分装备有稀有的暗影版本，还能用附魔、精炼和打倒怪物得到的卡片来强化。 三个探索之地 远征会自动进行，一个房间接一个房间。穿过荆棘林，扬帆前往海盗海岸，那里的海盗会从塔楼、小船甚至海马上发动攻击，再去迷雾谷挑战地精的塔楼。",
@@ -87930,6 +88041,68 @@
   "featured": false,
   "addedAt": "2026-11-22T07:11:08+08:00",
   "updatedAt": "2026-11-22T07:11:08+08:00",
-  "month": "202611"
+  "month": "202611",
+  "steam": {
+   "appId": 4281800,
+   "developer": "Tiny Loom Studio",
+   "publisher": "Tiny Loom Studio",
+   "releaseDate": "2026 年 11 月 13 日",
+   "genres": [
+    "休闲",
+    "独立",
+    "角色扮演",
+    "模拟",
+    "策略"
+   ],
+   "languages": "葡萄牙语 - 巴西, 英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 简体中文, 繁体中文, 韩语, 西班牙语 - 拉丁美洲, 日语, 葡萄牙语 - 葡萄牙, 俄语, 泰语, 土耳其语, 乌克兰语, 捷克语, 匈牙利语, 波兰语",
+   "summary": "一个住在你桌面上的小小放置王国，你工作或休息时它也在运转。小兵自己采集，军队在三个地区作战，每个单位用什么装备、学什么技能由你决定。",
+   "description": "Windowed Realms是一个住在你桌面上的王国。小岛待在屏幕的小角落里，军队在另一个窗口里打仗，你可以一边工作、学习或追剧，一边看着一切自己运转。\n替你干活的小兵\n小兵们会砍树、碎石、摘水果。最多可以雇三名，想帮忙的时候，点一下资源就能一起采集！工具越好，能采到的材料就越多，建筑每次升级都会变得更大、更好看。山上的洞穴时不时会放出几只怪物，这时小兵们就会放下斧头，冲上去打架！\n你的军队\n训练战士、弓箭手、枪兵、牧师和苦工，运气好的话还能招募英雄。你发下去的每件装备都会显示在单位身上，所以没有两支队伍长得一样（有些还挺帅）。部分装备有稀有的暗影版本，还能用附魔、精炼和打倒怪物得到的卡片来强化。\n三个探索之地\n远征会自动进行，一个房间接一个房间。穿过荆棘林，扬帆前往海盗海岸，那里的海盗会从塔楼、小船甚至海马上发动攻击，再去迷雾谷挑战地精的塔楼。房间永远没有尽头，难度从简单到噩梦：想吃多少苦，你说了算！\n越来越强\n每个职业都有自己的技能树。到上限了？你的单位会转生变得更强，然后继续前进。还有怪物图鉴等你收集，每周都有新挑战，排行榜也能看看谁走得最远。\n边用电脑边玩\n窗口想拖到哪里就拖到哪里\n缩小成一条小小的横条，游戏照样运行\n喜欢传统玩法？也有全屏模式\n支持 19 种语言\nWindowed Realms将于 11 月 13 日发售。快加入愿望单吧，小兵们已经在磨斧头了！",
+   "screenshots": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/6ce551f30b014d1c6ae660f5e487b436b09bcc3c/ss_6ce551f30b014d1c6ae660f5e487b436b09bcc3c.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/583998f84b7ea46877da9a828bcd8e35479d3073/ss_583998f84b7ea46877da9a828bcd8e35479d3073.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/94e21373841023f24a8a5b04d9c0379d7cdcd3b5/ss_94e21373841023f24a8a5b04d9c0379d7cdcd3b5.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/f534ba3a0d29a1d80874c6c7410b615462d55836/ss_f534ba3a0d29a1d80874c6c7410b615462d55836.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/4a1b4d18aece3e831db98dc20283b64d6de315f6/ss_4a1b4d18aece3e831db98dc20283b64d6de315f6.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/031d5aebad46730c5de32db60a28dd7437ea3763/ss_031d5aebad46730c5de32db60a28dd7437ea3763.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/65df0ecd2a9866cb2bb02732091ea13b4e29f693/ss_65df0ecd2a9866cb2bb02732091ea13b4e29f693.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/1cc515e2f2b479ca46e1d31aa0b056caf5923b5a/ss_1cc515e2f2b479ca46e1d31aa0b056caf5923b5a.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/583b131ab1bdb2d320fbd4be5e4243c250d9bd5f/ss_583b131ab1bdb2d320fbd4be5e4243c250d9bd5f.1920x1080.jpg?t=1794833672",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4281800/02e67dc3e920156ee86b03152f9b6956d5a8bf34/ss_02e67dc3e920156ee86b03152f9b6956d5a8bf34.1920x1080.jpg?t=1794833672"
+   ],
+   "requirements": {
+    "minimum": [
+     "操作系统: Windows 10",
+     "处理器: Intel® Core™ i5 @ 3.2 GHz",
+     "内存: 4 GB RAM",
+     "显卡: 集成显卡",
+     "DirectX 版本: 12",
+     "存储空间: 需要 500 MB 可用空间"
+    ],
+    "recommended": [
+     "操作系统: Windows 10/11 (64-bit)",
+     "处理器: Intel® Core™ i5 (8th gen) / AMD Ryzen™ 5 2600",
+     "内存: 8 GB RAM",
+     "显卡: NVIDIA GeForce GTX 1050 / AMD Radeon RX 560 / Intel® UHD Graphics 620 (Vulkan 1.2 / DirectX 12)",
+     "DirectX 版本: 12",
+     "存储空间: 需要 1 GB 可用空间"
+    ]
+   },
+   "price": {
+    "free": false,
+    "currency": "CNY",
+    "final": 28,
+    "initial": 28,
+    "discountPercent": 0
+   },
+   "rating": {
+    "scoreDesc": "Positive",
+    "totalReviews": 14,
+    "positive": null,
+    "negative": null,
+    "positiveRate": 100
+   },
+   "storeUrl": "https://store.steampowered.com/app/4281800/",
+   "fetchedAt": "2026-11-22T18:58:13.435Z"
+  }
  }
 ]
