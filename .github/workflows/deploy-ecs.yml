@@ -2,6 +2,8 @@ name: Deploy GameHub to Aliyun ECS
 
 # 与 deploy.yml（GitHub Pages → pan.devmini.space）并行，互不影响。
 # 本工作流把构建产物推送到阿里云 ECS 的 nginx 站点 https://pan.devmini.space
+# 注意：pan.devmini.space 在 ECS nginx 上 301 跳转到 https://mibear.top（pan-acme.conf），
+# Health check 用 curl -L 跟随跳转检查最终落点 mibear.top。
 #
 # 为什么用 GitHub Actions 而不是在 ECS 上拉代码：
 #   该 ECS 到 github.com:443 时通时断（实测 TCP 超时、git ls-remote 卡死），
@@ -71,12 +73,14 @@ jobs:
 
       - name: Health check
         run: |
-          code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 30 https://pan.devmini.space/)
-          echo "https://pan.devmini.space/ -> $code"
+          # pan.devmini.space 在 ECS nginx 上 301 跳转到 mibear.top（pan-acme.conf），
+          # 跟随跳转检查最终落点 mibear.top。
+          code=$(curl -sS -L -o /dev/null -w '%{http_code}' --max-time 30 https://pan.devmini.space/)
+          echo "https://pan.devmini.space/ -> $code (follow redirect to mibear.top)"
           [ "$code" = "200" ] || exit 1
           # SEO 文件必须继续指向 pan.devmini.space。
-          curl -sS --max-time 30 https://pan.devmini.space/robots.txt | grep -q 'Sitemap: https://pan.devmini.space/sitemap.xml' || {
+          curl -sS -L --max-time 30 https://pan.devmini.space/robots.txt | grep -q 'Sitemap: https://pan.devmini.space/sitemap.xml' || {
             echo '::error::线上 robots.txt 的 Sitemap 未指向 pan.devmini.space'; exit 1; }
-          left=$(curl -sS --max-time 30 https://pan.devmini.space/sitemap.xml | grep -c 'mibear\.top' || true)
+          left=$(curl -sS -L --max-time 30 https://pan.devmini.space/sitemap.xml | grep -c 'mibear\.top' || true)
           echo "线上 sitemap.xml 残留 mibear.top: $left"
           [ "$left" = "0" ] || exit 1
