@@ -1,182 +1,182 @@
 [
   {
-    "hash": "f057ad8",
+    "hash": "2c91ed7",
+    "date": "2026-11-22T20:39:22+08:00",
+    "message": "fix: 补齐新增资源封面",
+    "url": "https://github.com/xi7ang/GameHub/commit/2c91ed79ba5b5ae35c797424ac01d536f7c09c8d"
+  },
+  {
+    "hash": "f432391",
+    "date": "2026-11-22T20:35:11+08:00",
+    "message": "chore: 每日公告：发布【2026-11-22】游戏资源更新通知（3 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/f43239120bb05e4ab829d951a182a6ee2ac76ae8"
+  },
+  {
+    "hash": "d5930c2",
+    "date": "2026-11-22T20:34:12+08:00",
+    "message": "sync: 合并本地新增资源到最新 main",
+    "url": "https://github.com/xi7ang/GameHub/commit/d5930c209a3e71e0ae20f109fedc193d9415642e"
+  },
+  {
+    "hash": "9aed69d",
+    "date": "2026-11-22T09:21:42+08:00",
+    "message": "data: 分类待定 9 条按 Steam 首个类型改（771、数据库侦探不动）",
+    "url": "https://github.com/xi7ang/GameHub/commit/9aed69de88c253aa1fd25d009845f7e363420a12"
+  },
+  {
+    "hash": "e81793a",
+    "date": "2026-11-22T04:50:06+08:00",
+    "message": "data: 恢复 11-21 批被上游同步覆盖的 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/e81793a9d0295b266752acfe997d4349569753a9"
+  },
+  {
+    "hash": "637a721",
+    "date": "2026-11-22T04:43:28+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/637a7215934fb1acf7372b068f46cfca9e2f1d46"
+  },
+  {
+    "hash": "2348efc",
+    "date": "2026-11-22T03:05:27+08:00",
+    "message": "covers: add 13 official Steam covers for new resources",
+    "url": "https://github.com/xi7ang/GameHub/commit/2348efc104582937a4ee19e7b0a981d3f96dd7b3"
+  },
+  {
+    "hash": "8802325",
+    "date": "2026-11-21T20:32:10+08:00",
+    "message": "chore: 每日公告：发布【2026-11-21】游戏资源更新通知（30 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/8802325918bde41f4668150a55494b0476423614"
+  },
+  {
+    "hash": "e2ad139",
+    "date": "2026-11-21T08:23:02+08:00",
+    "message": "sync: 新增资源《邪恶领主/Malignus   Build.26777544   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/e2ad13932bae4781e974ccb41e70cabd7486a96a"
+  },
+  {
+    "hash": "af266d6",
     "date": "2026-11-21T07:57:13+08:00",
     "message": "sync: 新增资源《我的梦想家/Tiny Dwellings   Build.26760651   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f057ad8232cf590fef36e59e5eaf1c70ef9d39ba"
+    "url": "https://github.com/xi7ang/GameHub/commit/af266d63c9f56ccc8ccc1bcf37bb4a34ce107387"
   },
   {
-    "hash": "fc622c9",
+    "hash": "0b9bb36",
     "date": "2026-11-21T07:30:32+08:00",
     "message": "sync: 新增资源《兔兔奇遇记/Bunny Eureka   Build.26772853   免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fc622c98f75c8a31ea61bfd34690f7c7ae9ee85e"
+    "url": "https://github.com/xi7ang/GameHub/commit/0b9bb360c2d830004eb24595da65c9f6bd047a44"
   },
   {
-    "hash": "0926f5f",
+    "hash": "641ef65",
     "date": "2026-11-21T07:26:54+08:00",
     "message": "sync: 新增资源《私掠与复仇/Marque & Reprisal   Build.26775414》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0926f5ffab83b2061e04df4c7acc48bcab152366"
+    "url": "https://github.com/xi7ang/GameHub/commit/641ef65953c037dcf322c1a47c9caf22fcbdd6ba"
   },
   {
-    "hash": "69e6d8e",
+    "hash": "7cfddec",
     "date": "2026-11-21T07:07:13+08:00",
     "message": "sync: 新增资源《高中生J/J Highschool J   Build.26779610   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/69e6d8e40feb619b58af962c2968491a74dcbf76"
+    "url": "https://github.com/xi7ang/GameHub/commit/7cfddecf710d39ae0cdbeefde6b0904bf1bb06a6"
   },
   {
-    "hash": "ac83906",
+    "hash": "3658ce7",
     "date": "2026-11-21T07:03:13+08:00",
     "message": "sync: 新增资源《虫群粉碎者/Swarmbreaker   Build.26771911   免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ac83906e803361eff3b030e42800b4029ee2840b"
+    "url": "https://github.com/xi7ang/GameHub/commit/3658ce7da85318617be7a1777b012d49e83fffe2"
   },
   {
-    "hash": "457cbc4",
+    "hash": "8634bbf",
     "date": "2026-11-21T06:59:37+08:00",
     "message": "sync: 新增资源《疯狂台球/Pool of Madness    Build.26733928  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/457cbc4f10264e683851996f529f2bb7395b666f"
+    "url": "https://github.com/xi7ang/GameHub/commit/8634bbf643670885c367f8af10cc11abdcd29023"
   },
   {
-    "hash": "deeccf8",
+    "hash": "942c6fa",
     "date": "2026-11-21T06:56:00+08:00",
     "message": "sync: 新增资源《降妖散记/Yao-Guai Hunter   v1.2.12   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/deeccf8056ada94eee725c8353c867830b627956"
+    "url": "https://github.com/xi7ang/GameHub/commit/942c6fa61b68ba71758fc40b9b4a09284270f4bc"
   },
   {
-    "hash": "03299b7",
+    "hash": "fd1d0c4",
     "date": "2026-11-21T06:51:01+08:00",
     "message": "sync: 新增资源《灭菌小队|真菌朋克/ Mycopunk   v2.0.5正式版   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/03299b755fa141ca23c61da4bbcbabd04d396246"
+    "url": "https://github.com/xi7ang/GameHub/commit/fd1d0c4008d2f0c69a249171136a68c4d8e64707"
   },
   {
-    "hash": "097dabf",
+    "hash": "d21736c",
     "date": "2026-11-21T06:46:20+08:00",
     "message": "sync: 新增资源《星际交锋/Engagement   Build.26755664   免安装中文》",
-    "url": "https://github.com/xi7ang/GameHub/commit/097dabf7781ef60bcf39acb6229a9144d3524389"
+    "url": "https://github.com/xi7ang/GameHub/commit/d21736c8fefbc0227ff05c3aaf90a98a31ff1a0b"
   },
   {
-    "hash": "5e4f36d",
+    "hash": "5b86b19",
     "date": "2026-11-21T06:42:44+08:00",
     "message": "sync: 新增资源《数据库侦探：轻罪调查科/Database Detective Minor Cri》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5e4f36d8fd6877cf66fe445459e77c7791a017bd"
+    "url": "https://github.com/xi7ang/GameHub/commit/5b86b19cfeb632ce2b2404923131d6bc158d91d1"
   },
   {
-    "hash": "0382eac",
+    "hash": "85efae9",
     "date": "2026-11-21T06:37:39+08:00",
     "message": "sync: 新增资源《哈玛雷特   v0.7.0.16   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0382eacbfe032a463490ec558c19ecce222dd699"
+    "url": "https://github.com/xi7ang/GameHub/commit/85efae9a3fc51426b93e161c3dbf8ed63a7e85f8"
   },
   {
-    "hash": "7dcc501",
+    "hash": "ddf714b",
     "date": "2026-11-21T06:34:25+08:00",
     "message": "sync: 新增资源《代词宫殿/Pronoun Palace   Build.25887362   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7dcc501bab80facf3b74924a583326246a2fe23b"
+    "url": "https://github.com/xi7ang/GameHub/commit/ddf714b6f28107cf24b833df037c59a63420d66a"
   },
   {
-    "hash": "f3f2ab9",
+    "hash": "d67d29f",
     "date": "2026-11-21T06:30:41+08:00",
     "message": "sync: 新增资源《771：微笑工作/771 Smile and work   Build.2671》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f3f2ab92486af52857d2bce61c28df4e3e0c6279"
+    "url": "https://github.com/xi7ang/GameHub/commit/d67d29f2f57331a905867493eeef7161fe5fa75d"
   },
   {
-    "hash": "e862d32",
+    "hash": "ae6c081",
     "date": "2026-11-21T06:13:53+08:00",
     "message": "sync: 新增资源《敲敲打宝 /Tap Tap Loot   v2.0.3  免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e862d3206b16dce217b91d216a494acc650e322e"
+    "url": "https://github.com/xi7ang/GameHub/commit/ae6c081c3955fe8d8aaf742ed26f830940a522e5"
   },
   {
-    "hash": "5c727c1",
+    "hash": "122c4ad",
     "date": "2026-11-21T06:10:46+08:00",
     "message": "sync: 新增资源《相信直觉/Trust Your Gut   Build.26753210   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5c727c1e1c6297348c2145ac13415dd259b60329"
+    "url": "https://github.com/xi7ang/GameHub/commit/122c4addad4b4e7b2c2e667d2142ff53019b138a"
   },
   {
-    "hash": "856be11",
+    "hash": "078a25f",
     "date": "2026-11-21T06:04:56+08:00",
     "message": "sync: 新增资源《惬意失业生活/The Cozy Funemployment   Build.26》",
-    "url": "https://github.com/xi7ang/GameHub/commit/856be113f805bca8b370db0635cbbb9abf4975d0"
+    "url": "https://github.com/xi7ang/GameHub/commit/078a25f8867efd0a423cc040c4e691d5452c0632"
   },
   {
-    "hash": "ff66b85",
+    "hash": "b19fe2a",
     "date": "2026-11-21T06:01:35+08:00",
     "message": "sync: 新增资源《恶魔回廊/KORRIDOR   Build.26770734   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ff66b8571daca07a513df6b4c270b458f99df5ed"
+    "url": "https://github.com/xi7ang/GameHub/commit/b19fe2a7686dd203a3934ba0a488d23a8fd5f979"
   },
   {
-    "hash": "52b0d75",
+    "hash": "b5a8901",
     "date": "2026-11-21T05:58:11+08:00",
     "message": "sync: 新增资源《从农场到餐桌/Farm to Table    Build.26361739  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/52b0d75cc30ef13fa6640a0af95dd6606cfeb5c2"
+    "url": "https://github.com/xi7ang/GameHub/commit/b5a89015b70c35aaf20f7d238a27a403db79df9d"
   },
   {
-    "hash": "c98ec2b",
-    "date": "2026-11-20T21:58:21+08:00",
-    "message": "sync: 新增资源《魔女庭院/Garden of Witches   Build.26316003 》",
-    "url": "https://github.com/xi7ang/GameHub/commit/c98ec2bc80a78c6046b416f7ce4b294334673d15"
+    "hash": "737cf47",
+    "date": "2026-11-21T08:20:10+08:00",
+    "message": "data: 移除 2 个搜不到资源的热门词（寂寞的村庄、风岭）",
+    "url": "https://github.com/xi7ang/GameHub/commit/737cf4731b53b0798245e1b8893a2d204625103b"
   },
   {
-    "hash": "f2139c9",
-    "date": "2026-11-20T21:54:51+08:00",
-    "message": "sync: 新增资源《AI奥林匹斯|人工智能奥林匹斯/AI Olympius    Build.267》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f2139c96379e787e9f0ca84f6f2cbb28918be93f"
+    "hash": "e6c3c19",
+    "date": "2026-11-21T08:17:14+08:00",
+    "message": "data: 补 2 条 appid 与 Steam 资料，改 5 条分类（梅尔沃放置2、AI奥林匹斯）",
+    "url": "https://github.com/xi7ang/GameHub/commit/e6c3c19f329d055ab092908a7e86dfca4c3546f4"
   },
   {
-    "hash": "8655b50",
-    "date": "2026-11-20T21:49:48+08:00",
-    "message": "sync: 新增资源《侦探杀：罪恶之城 /Dupery A Game of Solo Deductio》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8655b50004123a1ccd63f7b75d01e0f39fcf781b"
-  },
-  {
-    "hash": "30dc4f3",
-    "date": "2026-11-20T21:45:47+08:00",
-    "message": "sync: 新增资源《哞琪牛奶屋/Milki Delivery   Build.26728418   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/30dc4f309c386ab32943fc393bcc441c28ea893a"
-  },
-  {
-    "hash": "fc90667",
-    "date": "2026-11-20T21:39:16+08:00",
-    "message": "sync: 新增资源《谢谢你，巴士司机/Thank You Bus Driver   Build.25》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fc906674a4e422ee1023e32914b16fda7be1cbbb"
-  },
-  {
-    "hash": "4ffd5d6",
-    "date": "2026-11-20T21:35:06+08:00",
-    "message": "sync: 新增资源《梅尔沃放置2：符文世界冒险/Melvor Idle 2 A RuneScape 》",
-    "url": "https://github.com/xi7ang/GameHub/commit/4ffd5d6c8894bf730aa4fc23fecb0356fe66df6c"
-  },
-  {
-    "hash": "0e9889d",
-    "date": "2026-11-20T21:28:23+08:00",
-    "message": "sync: 新增资源《东方：你的灵梦/Your Reimu   Build.26657525   免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0e9889d1cb51b3d4e75d7e479478b1bbebdd3b15"
-  },
-  {
-    "hash": "d607a21",
-    "date": "2026-11-20T21:16:25+08:00",
-    "message": "sync: 新增资源《新纪元轮回/Novus Orbis   v1.0.0   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d607a2167f8e53561bd43bada8d1240c8b1eccf9"
-  },
-  {
-    "hash": "8e29d91",
-    "date": "2026-11-20T21:11:21+08:00",
-    "message": "sync: 新增资源《投资之神/Angel Investor Simulator   v1.4.0  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8e29d913926d6d31368797e7b7c89f05c6808386"
-  },
-  {
-    "hash": "f6626d9",
-    "date": "2026-11-20T21:07:45+08:00",
-    "message": "sync: 新增资源《帝国恩典/Imperial Grace   Build.26679260   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/f6626d99fbc20eb74265f0d9740ec7c9e237b110"
-  },
-  {
-    "hash": "324a629",
-    "date": "2026-11-20T20:53:44+08:00",
-    "message": "sync: 新增资源《只是排球/just volleyball   Build.26705269   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/324a62984ca702f49351174fb259376c6be76a25"
-  },
-  {
-    "hash": "76a44ce",
-    "date": "2026-11-20T20:03:56+08:00",
-    "message": "data: 待定分类 10 条按用户决定改分类（虚无 Op.0 不动）",
-    "url": "https://github.com/xi7ang/GameHub/commit/76a44ce0f73b98f845d7eac33724ae26ee53551a"
+    "hash": "2da9adb",
+    "date": "2026-11-21T08:16:58+08:00",
+    "message": "covers: 新增 2 张官方 Steam 封面（梅尔沃放置2、AI奥林匹斯）",
+    "url": "https://github.com/xi7ang/GameHub/commit/2da9adb09f3a633db3cc164ffff17e7d2d82cb8e"
   }
 ]
