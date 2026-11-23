@@ -214,31 +214,13 @@
       </div>
     </div>
 
-    <!-- 二维码弹窗（PC 端「一键获取」触发，qrcode 渐变游戏风二维码） -->
-    <div v-if="showQr" class="modal-mask" @click.self="showQr = false">
-      <div class="modal glass game-modal">
-        <button class="game-modal__close" @click="showQr = false" title="关闭">✕</button>
-        <h3 class="game-modal__title">🎮 扫码获取资源</h3>
-        <p class="game-modal__hint">手机扫一扫，资源立即到手</p>
-        <div class="game-modal__qr-wrap">
-          <canvas ref="qrRef" class="game-modal__qr"></canvas>
-        </div>
-        <div v-if="r?.pwd" class="game-modal__pwd">
-          <span class="text-low">提取码：</span>
-          <code class="pwd-code">{{ r.pwd }}</code>
-        </div>
-        <p class="game-modal__tip">⚡ 扫一扫，资源到手 🎮</p>
-      </div>
-    </div>
-
     <SiteFooter />
   </div>
   <AnnouncementModal />
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch, nextTick } from 'vue'
-import QRCode from 'qrcode'
+import { ref, computed, onMounted, watch } from 'vue'
 import SiteHeader from '../components/SiteHeader.vue'
 import BgWall from '../components/BgWall.vue'
 import ResourceCard from '../components/ResourceCard.vue'
@@ -269,8 +251,6 @@ function applyDocTitle() {
 }
 const rawId = params.get('id')
 const legacyCat = params.get('c')
-const showQr = ref(false)
-const qrRef = ref(null)
 
 // Umami 自建统计（script 由 postbuild 的 inject-build.js 注入全站，见那里第 7 条）。
 // 事件名带资源 id：view:<id> / get:<id>，聚合侧 join 出「每资源点击率 = get / view」。
@@ -421,9 +401,6 @@ function daysAgo(iso) {
   if (Number.isNaN(t)) return null
   return Math.max(0, Math.floor((Date.now() - t) / 86400000))
 }
-// 移动端点了之后按钮换兜底文案：目标页被拦截/加载慢时用户能再点一次，这是真实的流失点
-const gotIt = ref(false)
-
 function fmtFull(iso) {
   if (!iso) return ''
   const d = new Date(iso)
@@ -438,74 +415,11 @@ async function copyPwd() {
     alert('提取码: ' + r.value.pwd)
   }
 }
-// 「一键获取」设备分流：PC 弹二维码，移动端直接跳转网盘
-function onGet(e) {
-  // 先埋点再分流：两条路径（弹码 / 直接跳）都算一次「获取」
+// 「一键转存」不再分设备：PC 与移动端一样，直接跳转网盘链接（默认导航）
+function onGet() {
+  // 只埋点：点击即算一次「获取」，跳转由 <a> 默认导航完成
   if (r.value?.id) track('get:' + r.value.id)
-  if (window.matchMedia('(min-width: 768px)').matches) {
-    e.preventDefault()
-    showQr.value = true
-    return
-  }
-  // 移动端直接跳网盘；这里不动 preventDefault，让默认导航照常发生
-  gotIt.value = true
 }
-
-// 渐变游戏风二维码：深色模块替换为紫→蓝→青渐变
-function lerp(a, b, t) {
-  return Math.round(a + (b - a) * t)
-}
-function hexToRgb(hex) {
-  const n = parseInt(hex.slice(1), 16)
-  return [(n >> 16) & 255, (n >> 8) & 255, n & 255]
-}
-const QR_GRAD = ['#7c3aed', '#4f46e5', '#0891b2'] // 紫→靛蓝→深青
-async function drawGradientQr(canvas, text) {
-  const size = 240
-  const tmp = document.createElement('canvas')
-  tmp.width = tmp.height = size
-  // 1. 生成基础二维码：深色模块不透明，浅色区域透明
-  // 注意：qrcode 库颜色只支持 hex（含 #RRGGBBAA），不支持 rgba() 字符串
-  await QRCode.toCanvas(tmp, text, {
-    width: size,
-    margin: 2,
-    color: { dark: '#000000ff', light: '#ffffff00' },
-  })
-  // 2. 目标画布：白底 + 渐变填充
-  const ctx = canvas.getContext('2d')
-  canvas.width = canvas.height = size
-  ctx.fillStyle = '#ffffff'
-  ctx.fillRect(0, 0, size, size)
-  const stops = QR_GRAD.map(hexToRgb)
-  for (let y = 0; y < size; y++) {
-    const t = y / (size - 1)
-    const seg = t * (stops.length - 1)
-    const i = Math.min(Math.floor(seg), stops.length - 2)
-    const f = seg - i
-    const [r1, g1, b1] = stops[i]
-    const [r2, g2, b2] = stops[i + 1]
-    const r = lerp(r1, r2, f)
-    const g = lerp(g1, g2, f)
-    const b = lerp(b1, b2, f)
-    ctx.fillStyle = `rgb(${r},${g},${b})`
-    ctx.fillRect(0, y, size, 1)
-  }
-  // 3. 用二维码深色模块作遮罩，只保留渐变
-  ctx.globalCompositeOperation = 'destination-in'
-  ctx.drawImage(tmp, 0, 0)
-  ctx.globalCompositeOperation = 'source-over'
-}
-
-watch(showQr, async (v) => {
-  if (!v || !r.value) return
-  await nextTick() // 先等 v-if 弹窗挂载完成，再拿 canvas
-  if (!qrRef.value) return
-  try {
-    await drawGradientQr(qrRef.value, r.value.url)
-  } catch (e) {
-    console.error('二维码生成失败:', e)
-  }
-})
 
 </script>
 
@@ -954,91 +868,6 @@ watch(showQr, async (v) => {
   justify-content: center;
   padding: 20px;
 }
-.modal { padding: 30px; text-align: center; max-width: 340px; width: 90%; }
-.modal__title { margin-bottom: 10px; }
-.modal__hint { font-size: 13px; margin-bottom: 16px; }
-.modal__iframe {
-  width: 100%;
-  height: 380px;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #fff;
-}
-.modal__iframe iframe { width: 100%; height: 100%; border: 0; display: block; }
-.modal__pwd { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 4px; }
-
-/* 游戏风弹窗：霓虹渐变边框 + 渐变二维码 */
-.game-modal {
-  position: relative;
-  max-width: 400px;
-  width: 92%;
-  padding: 32px 28px 26px;
-  border-radius: 20px;
-  border: 1.5px solid transparent;
-  background:
-    linear-gradient(rgba(10, 10, 24, 0.97), rgba(10, 10, 24, 0.97)) padding-box,
-    linear-gradient(135deg, rgba(168, 85, 247, 0.7), rgba(34, 211, 238, 0.7), rgba(244, 114, 182, 0.6)) border-box;
-  box-shadow: 0 0 50px rgba(124, 58, 237, 0.25), 0 0 80px rgba(34, 211, 238, 0.12);
-  animation: gameModalIn 0.28s ease-out;
-}
-@keyframes gameModalIn {
-  from { transform: scale(0.92); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-.game-modal__close {
-  position: absolute;
-  top: 12px;
-  right: 14px;
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text-mid);
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s;
-  z-index: 5;
-}
-.game-modal__close:hover { color: var(--neon-cyan); border-color: var(--neon-cyan); box-shadow: 0 0 12px rgba(34, 211, 238, 0.4); }
-.game-modal__title {
-  font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 6px;
-  background: linear-gradient(135deg, #a78bfa, #22d3ee, #f472b6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  filter: drop-shadow(0 0 16px rgba(168, 85, 247, 0.35));
-}
-.game-modal__hint { font-size: 13px; color: var(--text-mid); margin-bottom: 16px; }
-.game-modal__qr-wrap {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 14px;
-}
-.game-modal__qr {
-  width: 240px;
-  height: 240px;
-  border-radius: 16px;
-  background: #fff;
-  box-shadow: 0 0 24px rgba(34, 211, 238, 0.25), 0 4px 20px rgba(0, 0, 0, 0.4);
-  padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-.game-modal__pwd { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 10px; }
-.game-modal__tip {
-  font-size: 13px;
-  color: var(--text-mid);
-  letter-spacing: 0.05em;
-  animation: tipPulse 2s ease-in-out infinite;
-}
-@keyframes tipPulse {
-  0%, 100% { opacity: 0.85; }
-  50% { opacity: 1; text-shadow: 0 0 14px rgba(34, 211, 238, 0.6); }
-}
-
 /* ── Steam 资料区块（全宽 section，承接放不进头部双栏的长内容） ── */
 .steam-sec { padding-bottom: 0; }
 .steam-card { padding: 22px 24px; position: relative; z-index: 1; }
