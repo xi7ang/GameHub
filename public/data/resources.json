@@ -88144,5 +88144,25 @@
     "addedAt": "2026-11-23T07:08:46+08:00",
     "updatedAt": "2026-11-23T07:08:46+08:00",
     "month": "202611"
+  },
+  {
+    "id": "visual-novel-202611-0002",
+    "title": "盛夏的我们 /Love in Summer    Build.26664842   免安装中文版",
+    "enTitle": "",
+    "category": "visual-novel",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/3f87657e5428?pwd=VNgN",
+    "pwd": "VNgN",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4511370.webp",
+    "steamAppID": 4511370,
+    "desc": "更新内容 查看所有更新 夏季更新中的爱情——修复漏洞与控制改进 Visual Improvements: 视觉改进:游戏某些部分的视觉效果提升。 Startup Fixes: 启动修复:修复了在某些情况下可能导致黑屏或阻止游戏启动的问题。 Save Data Fixes: 保存数据修复:修复了一些可能导致数据损坏的问题。 Mouse Cursor Fixes: 鼠标曲线修复:修复了鼠标光标显示错误的问题。 Controller Improvements: 控制器改进:提升控制器体验。 游戏介绍 《盛夏的我们》是一款恋爱模拟类的全动态真人互动影像作品。这个暑假，你将和四名性格迥异的女同学，共同经历一场轻松愉快的青春之旅。这个暑假，有暧昧、有拉扯、有欢笑、亦有感动。 人生会有许多个夏天，但不会有一个夏天，会如今夏般热烈。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-24T07:04:51+08:00",
+    "updatedAt": "2026-11-24T07:04:51+08:00",
+    "month": "202611"
   }
 ]

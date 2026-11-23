@@ -1,9 +1,57 @@
 [
   {
-    "hash": "0e7a7ca",
+    "hash": "8656362",
+    "date": "2026-11-23T20:33:38+08:00",
+    "message": "chore: 每日公告：发布【2026-11-23】游戏资源更新通知（2 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/865636257e198655593260f8efd3d8f3a91ace41"
+  },
+  {
+    "hash": "ff61772",
+    "date": "2026-11-23T07:08:50+08:00",
+    "message": "sync: 新增资源《杀毒幸存者2003专业版/Antivirus Survivors 2003 Pr》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ff617723b3a25384f56187395fb9767010f2f127"
+  },
+  {
+    "hash": "60a8a1a",
     "date": "2026-11-23T07:04:18+08:00",
     "message": "sync: 新增资源《灯下行   v20261117   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0e7a7ca35869b620a615a07c4495c3cbe5a36356"
+    "url": "https://github.com/xi7ang/GameHub/commit/60a8a1a50c594ebab7f589ce9f3679dbdae9833a"
+  },
+  {
+    "hash": "3b23f9c",
+    "date": "2026-11-23T07:46:05+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/3b23f9c001a94b9f3d72db16debcc473311e09a8"
+  },
+  {
+    "hash": "09727d9",
+    "date": "2026-11-23T03:00:27+08:00",
+    "message": "补澳大利亚干的官方封面 2396130",
+    "url": "https://github.com/xi7ang/GameHub/commit/09727d9c1857a68f6c50672f0656306cbc079f88"
+  },
+  {
+    "hash": "b2bd00c",
+    "date": "2026-11-22T20:49:28+08:00",
+    "message": "health check 跟随 pan→mibear.top 301 跳转（curl -L），查最终落点 mibear.top。",
+    "url": "https://github.com/xi7ang/GameHub/commit/b2bd00c71c6a69228563e163e3efce2a0110f0d7"
+  },
+  {
+    "hash": "b5176f8",
+    "date": "2026-11-22T20:40:29+08:00",
+    "message": "纠瘾君子 appid 4155880→4450600 并改封面路径（部署 validate 缺封面；4155880 实为时来运转）",
+    "url": "https://github.com/xi7ang/GameHub/commit/b5176f8936a87972a788da2d2c51fa8533845336"
+  },
+  {
+    "hash": "484d635",
+    "date": "2026-11-22T20:40:07+08:00",
+    "message": "补瘾君子官方封面 4450600（部署 validate 缺封面；appid 已纠 4155880→4450600）",
+    "url": "https://github.com/xi7ang/GameHub/commit/484d635335e2ac9e40fea914a2c358ccb7280bb9"
+  },
+  {
+    "hash": "35ac1a5",
+    "date": "2026-11-22T20:39:56+08:00",
+    "message": "补窗口王国官方封面 4281800（部署 validate 缺封面）",
+    "url": "https://github.com/xi7ang/GameHub/commit/35ac1a50c1b321258062d52bac9b540b38bf29ef"
   },
   {
     "hash": "2c91ed7",
@@ -130,53 +178,5 @@
     "date": "2026-11-21T06:34:25+08:00",
     "message": "sync: 新增资源《代词宫殿/Pronoun Palace   Build.25887362   免》",
     "url": "https://github.com/xi7ang/GameHub/commit/ddf714b6f28107cf24b833df037c59a63420d66a"
-  },
-  {
-    "hash": "d67d29f",
-    "date": "2026-11-21T06:30:41+08:00",
-    "message": "sync: 新增资源《771：微笑工作/771 Smile and work   Build.2671》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d67d29f2f57331a905867493eeef7161fe5fa75d"
-  },
-  {
-    "hash": "ae6c081",
-    "date": "2026-11-21T06:13:53+08:00",
-    "message": "sync: 新增资源《敲敲打宝 /Tap Tap Loot   v2.0.3  免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ae6c081c3955fe8d8aaf742ed26f830940a522e5"
-  },
-  {
-    "hash": "122c4ad",
-    "date": "2026-11-21T06:10:46+08:00",
-    "message": "sync: 新增资源《相信直觉/Trust Your Gut   Build.26753210   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/122c4addad4b4e7b2c2e667d2142ff53019b138a"
-  },
-  {
-    "hash": "078a25f",
-    "date": "2026-11-21T06:04:56+08:00",
-    "message": "sync: 新增资源《惬意失业生活/The Cozy Funemployment   Build.26》",
-    "url": "https://github.com/xi7ang/GameHub/commit/078a25f8867efd0a423cc040c4e691d5452c0632"
-  },
-  {
-    "hash": "b19fe2a",
-    "date": "2026-11-21T06:01:35+08:00",
-    "message": "sync: 新增资源《恶魔回廊/KORRIDOR   Build.26770734   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b19fe2a7686dd203a3934ba0a488d23a8fd5f979"
-  },
-  {
-    "hash": "b5a8901",
-    "date": "2026-11-21T05:58:11+08:00",
-    "message": "sync: 新增资源《从农场到餐桌/Farm to Table    Build.26361739  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/b5a89015b70c35aaf20f7d238a27a403db79df9d"
-  },
-  {
-    "hash": "737cf47",
-    "date": "2026-11-21T08:20:10+08:00",
-    "message": "data: 移除 2 个搜不到资源的热门词（寂寞的村庄、风岭）",
-    "url": "https://github.com/xi7ang/GameHub/commit/737cf4731b53b0798245e1b8893a2d204625103b"
-  },
-  {
-    "hash": "e6c3c19",
-    "date": "2026-11-21T08:17:14+08:00",
-    "message": "data: 补 2 条 appid 与 Steam 资料，改 5 条分类（梅尔沃放置2、AI奥林匹斯）",
-    "url": "https://github.com/xi7ang/GameHub/commit/e6c3c19f329d055ab092908a7e86dfca4c3546f4"
   }
 ]
