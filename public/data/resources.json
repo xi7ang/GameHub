@@ -88108,14 +88108,14 @@
   {
     "id": "rhythm-202611-0006",
     "title": "灯下行   v20261117   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Where Lanterns Lead",
     "category": "rhythm",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/1cf0a66b12ae?pwd=Y9Xy",
     "pwd": "Y9Xy",
-    "size": "",
-    "sizeBytes": null,
+    "size": "947MB",
+    "sizeBytes": 993014484,
     "cover": "/covers/5445740.webp",
     "steamAppID": 5445740,
     "desc": "《灯下行》（Where Lanterns Lead）是一款以东方诡异民俗为背景的单人策略养成游戏。研习招式、收集计略，在每个月的修炼与见闻中成长，并在战斗中组合出自己的路数。 招式与计略，搭出你的战斗路数 挑选已学招式，搭配不同触发方式的计略。在有限槽位中权衡伤害、防护、毒层与行动节奏；根据对手调整配置，留意内力消耗、冷却和使用次数。 按月成长，在见闻中做出取舍 安排修炼、前往习艺堂学习，并从月度见闻中选择参与的事件。有限的精力、行动与铜钱，让每一步成长都有取舍。 掌握出手节奏 双方行动条决定出手时机。选择招式、使用道具、观察生命、护盾和状态变化，让进攻与防护彼此配合。 谋划融合，寻找新的搭配 谋划开放后，可将两项同品质、未装备的计略作为材料进行融合，再从成果候选中选择一项，继续调整自己的搭配。 在灯火与旧馆之间前行 纸页、铜边与幽暗灯火构成东方民俗氛围。",
@@ -88123,27 +88123,142 @@
     "featured": false,
     "addedAt": "2026-11-23T07:04:15+08:00",
     "updatedAt": "2026-11-23T07:04:15+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5445740,
+      "developer": "照夜集工作室 ",
+      "publisher": "照夜集工作室",
+      "releaseDate": "2026 年 11 月 16 日",
+      "genres": [
+        "独立",
+        "角色扮演",
+        "策略"
+      ],
+      "languages": "简体中文, 英语, 日语, 繁体中文, 韩语",
+      "summary": "《灯下行》（Where Lanterns Lead）是一款东方诡异民俗题材的单人策略养成游戏。研习招式、收集计略，在有限槽位中组合自己的战斗路数；安排每个月的修炼与见闻，权衡精力、行动和铜钱，并通过谋划融合探索新的搭配。",
+      "description": "《灯下行》（Where Lanterns Lead）是一款以东方诡异民俗为背景的单人策略养成游戏。研习招式、收集计略，在每个月的修炼与见闻中成长，并在战斗中组合出自己的路数。招式与计略，搭出你的战斗路数\n挑选已学招式，搭配不同触发方式的计略。在有限槽位中权衡伤害、防护、毒层与行动节奏；根据对手调整配置，留意内力消耗、冷却和使用次数。按月成长，在见闻中做出取舍\n安排修炼、前往习艺堂学习，并从月度见闻中选择参与的事件。有限的精力、行动与铜钱，让每一步成长都有取舍。掌握出手节奏\n双方行动条决定出手时机。选择招式、使用道具、观察生命、护盾和状态变化，让进攻与防护彼此配合。谋划融合，寻找新的搭配\n谋划开放后，可将两项同品质、未装备的计略作为材料进行融合，再从成果候选中选择一项，继续调整自己的搭配。在灯火与旧馆之间前行\n纸页、铜边与幽暗灯火构成东方民俗氛围。选择人物，在成长、事件与战斗中逐步走出自己的道路。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/b2a950edd88398b2094fb69de67b52edc9ddf465/ss_b2a950edd88398b2094fb69de67b52edc9ddf465.1920x1080.jpg?t=1794900433",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/38445986a643fe75bbb91c4301fed3fa1df52dea/ss_38445986a643fe75bbb91c4301fed3fa1df52dea.1920x1080.jpg?t=1794900433",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/23c09b50f54f0a65e97bd63d924ec9f578dd70d0/ss_23c09b50f54f0a65e97bd63d924ec9f578dd70d0.1920x1080.jpg?t=1794900433",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/04675811afc1675a6abed671fe23803cf2841ce7/ss_04675811afc1675a6abed671fe23803cf2841ce7.1920x1080.jpg?t=1794900433",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/0f0e65dab806eb49ebbe318eb25f0b56db2183b5/ss_0f0e65dab806eb49ebbe318eb25f0b56db2183b5.1920x1080.jpg?t=1794900433",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/9964d52b72dcd1d7956fede2792e2d76f54839e3/ss_9964d52b72dcd1d7956fede2792e2d76f54839e3.1920x1080.jpg?t=1794900433",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5445740/1498887df86963a6ec24a31265939c654d783c7d/ss_1498887df86963a6ec24a31265939c654d783c7d.1920x1080.jpg?t=1794900433"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 / Windows 11（64 位）",
+          "处理器: 2.0 GHz 或更高的双核处理器",
+          "内存: 4 GB RAM",
+          "显卡: 支持 DirectX 11 的显卡",
+          "DirectX 版本: 11",
+          "存储空间: 需要 3 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 11.05,
+        "initial": 13,
+        "discountPercent": 15
+      },
+      "rating": {
+        "scoreDesc": "Positive",
+        "totalReviews": 21,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 95
+      },
+      "storeUrl": "https://store.steampowered.com/app/5445740/",
+      "fetchedAt": "2026-11-23T19:00:08.079Z"
+    }
   },
   {
     "id": "strategy-202611-0001",
     "title": "杀毒幸存者2003专业版/Antivirus Survivors 2003 Professional   Build.26733700   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Antivirus Survivors 2003 Professional",
     "category": "strategy",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/9e6c954f2788?pwd=tH2l",
     "pwd": "tH2l",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u994c8c441787.webp",
-    "steamAppID": null,
+    "size": "215.5MB",
+    "sizeBytes": 225965297,
+    "cover": "/covers/3832490.webp",
+    "steamAppID": 3832490,
     "desc": "开机，登录，准备好让鼠标双击到冒烟吧。 在《杀软幸存者 2003 专业版》中，您将穿梭于各个文件夹之间一路双击，一边躲避虚空、避开垃圾广告弹窗、一边与病毒战斗、击败头目。探索文件夹，打开文件能够获得经验值和密钥；完成任务与策略挑战，赢取更多奖励。利用升级和插件完善您的专属构筑，解锁新的武器和游戏风格。 紧张刺激的 Roguelike 玩法，与对世纪初操作系统的深深热爱相结合，让您在每轮 30~40 分钟的游戏中尽情重温纯粹的 Y2K 怀旧体验。 完整版游戏包含： 24 个武器：弹球、纸牌、扫雷（其实是埋雷）、防火墙（其实是放火墙），以及更多从 2000 年代电脑文化汲取灵感的武器。 50 个驱动：用专属升级改变武器通常的战斗方式。 33 种文件类型：双击您喜欢的文件类型，打开获取奖励——LemWire、网际巨浪、碎片整理等等。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-23T07:08:46+08:00",
     "updatedAt": "2026-11-23T07:08:46+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3832490,
+      "developer": "Shaun Hammond Business Solutions Limited",
+      "publisher": "Shaun Hammond Business Solutions Limited",
+      "releaseDate": "2026 年 9 月 28 日",
+      "genres": [
+        "动作",
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 意大利语, 德语, 西班牙语 - 西班牙, 波兰语, 俄语, 乌克兰语, 葡萄牙语 - 巴西, 克罗地亚语, 日语, 印度尼西亚语, 土耳其语, 法语, 荷兰语, 泰语, 加泰罗尼亚语, 捷克语, 芬兰语, 挪威语, 繁体中文, 立陶宛语, 简体中文, 匈牙利语\n具有完全音频支持的语言",
+      "summary": "家里的电脑又中病毒了！现在您需要使用各种 Y2K 风格的武器，抵御一波又一波病毒和广告软件敌人的进攻。《杀软幸存者 2003 专业版》是一款类幸存者自动射击游戏，每一处都致敬着那个电脑真正充满乐趣的年代。",
+      "description": "开机，登录，准备好让鼠标双击到冒烟吧。\n在《杀软幸存者 2003 专业版》中，您将穿梭于各个文件夹之间一路双击，一边躲避虚空、避开垃圾广告弹窗、一边与病毒战斗、击败头目。探索文件夹，打开文件能够获得经验值和密钥；完成任务与策略挑战，赢取更多奖励。利用升级和插件完善您的专属构筑，解锁新的武器和游戏风格。\n紧张刺激的 Roguelike 玩法，与对世纪初操作系统的深深热爱相结合，让您在每轮 30~40 分钟的游戏中尽情重温纯粹的 Y2K 怀旧体验。\n完整版游戏包含：\n24 个武器：弹球、纸牌、扫雷（其实是埋雷）、防火墙（其实是放火墙），以及更多从 2000 年代电脑文化汲取灵感的武器。\n50 个驱动：用专属升级改变武器通常的战斗方式。\n33 种文件类型：双击您喜欢的文件类型，打开获取奖励——LemWire、网际巨浪、碎片整理等等。\n62 个插件：打开注册机获取密钥，用密钥安装插件，大幅增强玩家和武器的属性。\n18 个全局升级：慎重做出选择，在局外成长中决定你的发展方向。\n5 个难度：五个协议文件夹，风险与收益逐级递增。\n15 个策略：每个策略都是独特的挑战，让您能以难度更高、趣味更足的方式体验游戏。\n18 个角色属性：升级伤害、速度、幸运和其他属性，打造独特的构筑。\n81 张壁纸和 8 个主题：解锁各种外观内容，定制您的个性化桌面。\n6 个头目和迷你头目：打败这些威力加强的敌人和强大的头目。\n超过 200 个任务：完成额外的任务，便可解锁新的文件、武器、插件，还有更多！\n双击、解压、下载、升级、生存。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/0d0e88f9839b5bdfd4d4ca461b98d0789e608c0e/ss_0d0e88f9839b5bdfd4d4ca461b98d0789e608c0e.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/b24aac6968a1d49d0e44c246fe6d61f0168a8d5b/ss_b24aac6968a1d49d0e44c246fe6d61f0168a8d5b.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/39bf9cb5bec02665af6ccb28adc84ec1f4d1212d/ss_39bf9cb5bec02665af6ccb28adc84ec1f4d1212d.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/f07d9a3ebfd87b68d94f83668778b0b5144acb88/ss_f07d9a3ebfd87b68d94f83668778b0b5144acb88.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/d5ffb2c5a882f3ba056e06c9e42702bfa493b2b9/ss_d5ffb2c5a882f3ba056e06c9e42702bfa493b2b9.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/1d65bf1be7e9557cbc3dd773b4358bf3111372b3/ss_1d65bf1be7e9557cbc3dd773b4358bf3111372b3.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/bd547ae3d56530da8bfaff15d3ccbdefffc310c5/ss_bd547ae3d56530da8bfaff15d3ccbdefffc310c5.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/7de988db5430c72070ab30776c5be8b3654711bc/ss_7de988db5430c72070ab30776c5be8b3654711bc.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/10be9345356f4ad9b170478923cbda40a4c91886/ss_10be9345356f4ad9b170478923cbda40a4c91886.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/152593939550cdb9a776e28d03ecf082db70e23f/ss_152593939550cdb9a776e28d03ecf082db70e23f.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/13ada29287e7acff4a86c3ba0dcbce381b34a8c6/ss_13ada29287e7acff4a86c3ba0dcbce381b34a8c6.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/10c030f7677e4d778f09f7c5a2a5d16c26d052f5/ss_10c030f7677e4d778f09f7c5a2a5d16c26d052f5.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/1dcae4b4a2256fb6f856a3597f2237ad8f5457fc/ss_1dcae4b4a2256fb6f856a3597f2237ad8f5457fc.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/5665db69e22cae1206f25046a923562cd7003737/ss_5665db69e22cae1206f25046a923562cd7003737.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/aa43ff9e850eef5572de31a741855aaa62242eba/ss_aa43ff9e850eef5572de31a741855aaa62242eba.1920x1080.jpg?t=1795175381",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3832490/c376ed3d560589b6615c5bcd793820f1329cc2e3/ss_c376ed3d560589b6615c5bcd793820f1329cc2e3.1920x1080.jpg?t=1795175381"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: 2.0 GHz",
+          "内存: 1 GB RAM",
+          "显卡: 512 MB VRAM",
+          "存储空间: 需要 256 MB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 26,
+        "initial": 26,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1615,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/3832490/",
+      "fetchedAt": "2026-11-23T19:00:12.345Z"
+    }
   },
   {
     "id": "visual-novel-202611-0002",
