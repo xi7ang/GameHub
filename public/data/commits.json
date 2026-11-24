@@ -1,5 +1,35 @@
 [
   {
+    "hash": "1255b06",
+    "date": "2026-11-24T20:31:43+08:00",
+    "message": "chore: 每日公告：发布【2026-11-24】游戏资源更新通知（1 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/1255b062b8998fd6c5d6d0888a060630108d2b4c"
+  },
+  {
+    "hash": "d08c65b",
+    "date": "2026-11-24T07:39:51+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/d08c65b270b8626c4a29321adc9f7f27eafb0301"
+  },
+  {
+    "hash": "2d6e085",
+    "date": "2026-11-24T07:04:56+08:00",
+    "message": "sync: 新增资源《盛夏的我们 /Love in Summer    Build.26664842 》",
+    "url": "https://github.com/xi7ang/GameHub/commit/2d6e085ef5831132306ab91c1816381a1b12c281"
+  },
+  {
+    "hash": "f299b82",
+    "date": "2026-11-24T03:04:16+08:00",
+    "message": "补杀毒幸存者2003专业版官方封面 3832490",
+    "url": "https://github.com/xi7ang/GameHub/commit/f299b82946ce6e99c1e09e47612bc621ebdfd90d"
+  },
+  {
+    "hash": "11d0834",
+    "date": "2026-11-23T20:44:07+08:00",
+    "message": "PC 端一键转存直接跳转夸克链接，不再弹二维码",
+    "url": "https://github.com/xi7ang/GameHub/commit/11d08346115ec4c20cf46bdd4f6f090e512c9d61"
+  },
+  {
     "hash": "8656362",
     "date": "2026-11-23T20:33:38+08:00",
     "message": "chore: 每日公告：发布【2026-11-23】游戏资源更新通知（2 条新资源）",
@@ -148,35 +178,5 @@
     "date": "2026-11-21T06:56:00+08:00",
     "message": "sync: 新增资源《降妖散记/Yao-Guai Hunter   v1.2.12   免安装中文版》",
     "url": "https://github.com/xi7ang/GameHub/commit/942c6fa61b68ba71758fc40b9b4a09284270f4bc"
-  },
-  {
-    "hash": "fd1d0c4",
-    "date": "2026-11-21T06:51:01+08:00",
-    "message": "sync: 新增资源《灭菌小队|真菌朋克/ Mycopunk   v2.0.5正式版   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/fd1d0c4008d2f0c69a249171136a68c4d8e64707"
-  },
-  {
-    "hash": "d21736c",
-    "date": "2026-11-21T06:46:20+08:00",
-    "message": "sync: 新增资源《星际交锋/Engagement   Build.26755664   免安装中文》",
-    "url": "https://github.com/xi7ang/GameHub/commit/d21736c8fefbc0227ff05c3aaf90a98a31ff1a0b"
-  },
-  {
-    "hash": "5b86b19",
-    "date": "2026-11-21T06:42:44+08:00",
-    "message": "sync: 新增资源《数据库侦探：轻罪调查科/Database Detective Minor Cri》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5b86b19cfeb632ce2b2404923131d6bc158d91d1"
-  },
-  {
-    "hash": "85efae9",
-    "date": "2026-11-21T06:37:39+08:00",
-    "message": "sync: 新增资源《哈玛雷特   v0.7.0.16   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/85efae9a3fc51426b93e161c3dbf8ed63a7e85f8"
-  },
-  {
-    "hash": "ddf714b",
-    "date": "2026-11-21T06:34:25+08:00",
-    "message": "sync: 新增资源《代词宫殿/Pronoun Palace   Build.25887362   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ddf714b6f28107cf24b833df037c59a63420d66a"
   }
 ]
