@@ -1,5 +1,11 @@
 [
   {
+    "hash": "016f41c",
+    "date": "2026-11-25T11:50:43+08:00",
+    "message": "sync: 新增资源《允许开火 /Cleared Hot   Build.26455845   免安装》",
+    "url": "https://github.com/xi7ang/GameHub/commit/016f41c267f9024e067cab0e93b3897ce76ab6a4"
+  },
+  {
     "hash": "af78604",
     "date": "2026-11-25T11:45:36+08:00",
     "message": "sync: 新增资源《不/存在的莉莉丝 /The NOexistenceN of Lilith    》",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T07:26:54+08:00",
     "message": "sync: 新增资源《私掠与复仇/Marque & Reprisal   Build.26775414》",
     "url": "https://github.com/xi7ang/GameHub/commit/641ef65953c037dcf322c1a47c9caf22fcbdd6ba"
-  },
-  {
-    "hash": "7cfddec",
-    "date": "2026-11-21T07:07:13+08:00",
-    "message": "sync: 新增资源《高中生J/J Highschool J   Build.26779610   免》",
-    "url": "https://github.com/xi7ang/GameHub/commit/7cfddecf710d39ae0cdbeefde6b0904bf1bb06a6"
   }
 ]
