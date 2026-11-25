@@ -1,5 +1,29 @@
 [
   {
+    "hash": "22a4833",
+    "date": "2026-11-25T20:31:34+08:00",
+    "message": "chore: 每日公告：发布【2026-11-25】游戏资源更新通知（7 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/22a483386cbf5b3b97bed6fe759bd168cd9234bc"
+  },
+  {
+    "hash": "40cbe0d",
+    "date": "2026-11-25T14:17:10+08:00",
+    "message": "data: 纠正《盛夏的我们》steamAppID 4511370→4767430",
+    "url": "https://github.com/xi7ang/GameHub/commit/40cbe0d1b31daa8a1fac5af338a97971e236fa1e"
+  },
+  {
+    "hash": "507d53c",
+    "date": "2026-11-25T14:16:54+08:00",
+    "message": "covers: add official header for Love in Summer (4767430)",
+    "url": "https://github.com/xi7ang/GameHub/commit/507d53ce13bb441277f80538d1a722e5f26db273"
+  },
+  {
+    "hash": "37544f8",
+    "date": "2026-11-25T14:12:37+08:00",
+    "message": "sync: 新增资源《编程农场/The Farmer Was Replaced   Build.267》",
+    "url": "https://github.com/xi7ang/GameHub/commit/37544f8d2d414c27ecd4d8857d5fcbb763d3ba3d"
+  },
+  {
     "hash": "07b72e7",
     "date": "2026-11-25T12:42:07+08:00",
     "message": "sync: 新增资源《蓬莱的雪/Snow of Penglai   Build.26644878   》",
@@ -154,29 +178,5 @@
     "date": "2026-11-22T04:43:28+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/637a7215934fb1acf7372b068f46cfca9e2f1d46"
-  },
-  {
-    "hash": "2348efc",
-    "date": "2026-11-22T03:05:27+08:00",
-    "message": "covers: add 13 official Steam covers for new resources",
-    "url": "https://github.com/xi7ang/GameHub/commit/2348efc104582937a4ee19e7b0a981d3f96dd7b3"
-  },
-  {
-    "hash": "8802325",
-    "date": "2026-11-21T20:32:10+08:00",
-    "message": "chore: 每日公告：发布【2026-11-21】游戏资源更新通知（30 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/8802325918bde41f4668150a55494b0476423614"
-  },
-  {
-    "hash": "e2ad139",
-    "date": "2026-11-21T08:23:02+08:00",
-    "message": "sync: 新增资源《邪恶领主/Malignus   Build.26777544   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/e2ad13932bae4781e974ccb41e70cabd7486a96a"
-  },
-  {
-    "hash": "af266d6",
-    "date": "2026-11-21T07:57:13+08:00",
-    "message": "sync: 新增资源《我的梦想家/Tiny Dwellings   Build.26760651   》",
-    "url": "https://github.com/xi7ang/GameHub/commit/af266d63c9f56ccc8ccc1bcf37bb4a34ce107387"
   }
 ]
