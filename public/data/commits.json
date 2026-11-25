@@ -1,5 +1,11 @@
 [
   {
+    "hash": "af78604",
+    "date": "2026-11-25T11:45:36+08:00",
+    "message": "sync: 新增资源《不/存在的莉莉丝 /The NOexistenceN of Lilith    》",
+    "url": "https://github.com/xi7ang/GameHub/commit/af7860498efa91cf6ac8610e280e0c4107ca7ec6"
+  },
+  {
     "hash": "235257b",
     "date": "2026-11-25T11:42:27+08:00",
     "message": "sync: 新增资源《恋爱字节/lovebyte.exe   Build.26796971   免安装》",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T07:07:13+08:00",
     "message": "sync: 新增资源《高中生J/J Highschool J   Build.26779610   免》",
     "url": "https://github.com/xi7ang/GameHub/commit/7cfddecf710d39ae0cdbeefde6b0904bf1bb06a6"
-  },
-  {
-    "hash": "3658ce7",
-    "date": "2026-11-21T07:03:13+08:00",
-    "message": "sync: 新增资源《虫群粉碎者/Swarmbreaker   Build.26771911   免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/3658ce7da85318617be7a1777b012d49e83fffe2"
   }
 ]
