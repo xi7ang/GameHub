@@ -1,5 +1,11 @@
 [
   {
+    "hash": "235257b",
+    "date": "2026-11-25T11:42:27+08:00",
+    "message": "sync: 新增资源《恋爱字节/lovebyte.exe   Build.26796971   免安装》",
+    "url": "https://github.com/xi7ang/GameHub/commit/235257b13f1faf9635b89b2bac50028cab2bd667"
+  },
+  {
     "hash": "060c569",
     "date": "2026-11-25T07:07:08+08:00",
     "message": "sync: 新增资源《连锁城邦 类Rogue城市营造游戏/Combolands Roguelike C》",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T07:03:13+08:00",
     "message": "sync: 新增资源《虫群粉碎者/Swarmbreaker   Build.26771911   免安》",
     "url": "https://github.com/xi7ang/GameHub/commit/3658ce7da85318617be7a1777b012d49e83fffe2"
-  },
-  {
-    "hash": "8634bbf",
-    "date": "2026-11-21T06:59:37+08:00",
-    "message": "sync: 新增资源《疯狂台球/Pool of Madness    Build.26733928  》",
-    "url": "https://github.com/xi7ang/GameHub/commit/8634bbf643670885c367f8af10cc11abdcd29023"
   }
 ]
