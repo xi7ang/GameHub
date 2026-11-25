@@ -1,5 +1,11 @@
 [
   {
+    "hash": "ef23b7a",
+    "date": "2026-11-26T00:42:13+08:00",
+    "message": "sync: 新增资源《天坑追匪   Build.26883895   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ef23b7a0d014cb810ba6e6fda93bd1b8fbea720b"
+  },
+  {
     "hash": "02b5520",
     "date": "2026-11-26T00:14:37+08:00",
     "message": "sync: 新增资源《777勇者 ～逆时之人～/The One Who Defies Time   B》",
@@ -172,11 +178,5 @@
     "date": "2026-11-22T20:35:11+08:00",
     "message": "chore: 每日公告：发布【2026-11-22】游戏资源更新通知（3 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/f43239120bb05e4ab829d951a182a6ee2ac76ae8"
-  },
-  {
-    "hash": "d5930c2",
-    "date": "2026-11-22T20:34:12+08:00",
-    "message": "sync: 合并本地新增资源到最新 main",
-    "url": "https://github.com/xi7ang/GameHub/commit/d5930c209a3e71e0ae20f109fedc193d9415642e"
   }
 ]

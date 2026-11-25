@@ -88971,5 +88971,25 @@
     "addedAt": "2026-11-26T00:42:09+08:00",
     "updatedAt": "2026-11-26T00:42:09+08:00",
     "month": "202611"
+  },
+  {
+    "id": "puzzle-202611-0003",
+    "title": "锈湖：湖之仆从/Servant of the Lake   v1.6.3.W   免安装中文版",
+    "enTitle": "",
+    "category": "puzzle",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/b95d4178a6e3?pwd=ehkx",
+    "pwd": "ehkx",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/4511370.webp",
+    "steamAppID": 4511370,
+    "desc": "更新内容 查看所有更新 湖畔仆人 – 补丁说明 1.6.3 在窗口模式下修复了介绍顺序中的小插曲。 修复了范德布姆浴室中鼠标的声音问题。 能够复制涉及大量锻炼的某种成就 延长学分 对 Steam API 进行了修改,希望能修复某些人无法解锁的成就。 修复了在某些情况下无法立即打开笔记本的问题。 游戏介绍 欢迎来到Vanderboom宅邸，这里是臭名昭著的Vanderboom家族的居所！ 访客即将到来，而你需要立刻开始履行你的职责！ 解开各种谜题，完成每日任务，打理家务，迎接访客并确保他们的舒适，同时协助家族实现他们的在炼金术道路上的野心。 Servant of the Lake是Rusty Lake系列最新推出的点击式解谜冒险游戏，由Cube Escape系列游戏，The Past Within和 Underground Blossom的同班人马创作。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-26T00:45:46+08:00",
+    "updatedAt": "2026-11-26T00:45:46+08:00",
+    "month": "202611"
   }
 ]
