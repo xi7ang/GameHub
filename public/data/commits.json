@@ -1,5 +1,11 @@
 [
   {
+    "hash": "07b72e7",
+    "date": "2026-11-25T12:42:07+08:00",
+    "message": "sync: 新增资源《蓬莱的雪/Snow of Penglai   Build.26644878   》",
+    "url": "https://github.com/xi7ang/GameHub/commit/07b72e758edd7dad99fc362fd9636d8accf52b42"
+  },
+  {
     "hash": "d15e70d",
     "date": "2026-11-25T11:54:12+08:00",
     "message": "sync: 新增资源《摇滚乐队模拟器/Rock Band Simulator   Build.2681》",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T07:57:13+08:00",
     "message": "sync: 新增资源《我的梦想家/Tiny Dwellings   Build.26760651   》",
     "url": "https://github.com/xi7ang/GameHub/commit/af266d63c9f56ccc8ccc1bcf37bb4a34ce107387"
-  },
-  {
-    "hash": "0b9bb36",
-    "date": "2026-11-21T07:30:32+08:00",
-    "message": "sync: 新增资源《兔兔奇遇记/Bunny Eureka   Build.26772853   免安》",
-    "url": "https://github.com/xi7ang/GameHub/commit/0b9bb360c2d830004eb24595da65c9f6bd047a44"
   }
 ]
