@@ -1,5 +1,11 @@
 [
   {
+    "hash": "6dfc1f4",
+    "date": "2026-11-26T00:10:45+08:00",
+    "message": "sync: 新增资源《深海拓荒者/Oceaneers   Build.26529571   免安装中文》",
+    "url": "https://github.com/xi7ang/GameHub/commit/6dfc1f4b0795c43f11b932a66c88df610800b2c1"
+  },
+  {
     "hash": "22a4833",
     "date": "2026-11-25T20:31:34+08:00",
     "message": "chore: 每日公告：发布【2026-11-25】游戏资源更新通知（7 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-11-22T04:50:06+08:00",
     "message": "data: 恢复 11-21 批被上游同步覆盖的 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/e81793a9d0295b266752acfe997d4349569753a9"
-  },
-  {
-    "hash": "637a721",
-    "date": "2026-11-22T04:43:28+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/637a7215934fb1acf7372b068f46cfca9e2f1d46"
   }
 ]
