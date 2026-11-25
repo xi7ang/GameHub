@@ -88299,5 +88299,25 @@
     "addedAt": "2026-11-25T07:07:03+08:00",
     "updatedAt": "2026-11-25T07:07:03+08:00",
     "month": "202611"
+  },
+  {
+    "id": "visual-novel-202611-0003",
+    "title": "恋爱字节/lovebyte.exe   Build.26796971   免安装中文版",
+    "enTitle": "",
+    "category": "visual-novel",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/6f060f607b20?pwd=FGSZ",
+    "pwd": "FGSZ",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/2739420.webp",
+    "steamAppID": 2739420,
+    "desc": "Your kamioshi’s stream abruptly ends one day & his silence creates rampant rumors. Avoiding the online toxicity, you join a degenerate group chat where VTuber fans chat about their oshis freely. But you start noticing strange coincidences – is your kamioshi in this chat? In this dating chatsim, who’s real & who’s pretending in chat?",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-25T11:42:23+08:00",
+    "updatedAt": "2026-11-25T11:42:23+08:00",
+    "month": "202611"
   }
 ]

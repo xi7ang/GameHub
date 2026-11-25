@@ -1,5 +1,11 @@
 [
   {
+    "hash": "060c569",
+    "date": "2026-11-25T07:07:08+08:00",
+    "message": "sync: 新增资源《连锁城邦 类Rogue城市营造游戏/Combolands Roguelike C》",
+    "url": "https://github.com/xi7ang/GameHub/commit/060c569a9f6ad8628c83d2d32115c07d73422fe2"
+  },
+  {
     "hash": "1255b06",
     "date": "2026-11-24T20:31:43+08:00",
     "message": "chore: 每日公告：发布【2026-11-24】游戏资源更新通知（1 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T06:59:37+08:00",
     "message": "sync: 新增资源《疯狂台球/Pool of Madness    Build.26733928  》",
     "url": "https://github.com/xi7ang/GameHub/commit/8634bbf643670885c367f8af10cc11abdcd29023"
-  },
-  {
-    "hash": "942c6fa",
-    "date": "2026-11-21T06:56:00+08:00",
-    "message": "sync: 新增资源《降妖散记/Yao-Guai Hunter   v1.2.12   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/942c6fa61b68ba71758fc40b9b4a09284270f4bc"
   }
 ]
