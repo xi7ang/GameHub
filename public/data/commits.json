@@ -1,5 +1,11 @@
 [
   {
+    "hash": "02b5520",
+    "date": "2026-11-26T00:14:37+08:00",
+    "message": "sync: 新增资源《777勇者 ～逆时之人～/The One Who Defies Time   B》",
+    "url": "https://github.com/xi7ang/GameHub/commit/02b552046b5e0f8d5b29645d8fc080c29f51f491"
+  },
+  {
     "hash": "5278660",
     "date": "2026-11-26T00:12:49+08:00",
     "message": "sync: 新增资源《火湖/SULFUR   Build.26756522    免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-22T20:34:12+08:00",
     "message": "sync: 合并本地新增资源到最新 main",
     "url": "https://github.com/xi7ang/GameHub/commit/d5930c209a3e71e0ae20f109fedc193d9415642e"
-  },
-  {
-    "hash": "9aed69d",
-    "date": "2026-11-22T09:21:42+08:00",
-    "message": "data: 分类待定 9 条按 Steam 首个类型改（771、数据库侦探不动）",
-    "url": "https://github.com/xi7ang/GameHub/commit/9aed69de88c253aa1fd25d009845f7e363420a12"
   }
 ]
