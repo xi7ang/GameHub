@@ -1,5 +1,11 @@
 [
   {
+    "hash": "d15e70d",
+    "date": "2026-11-25T11:54:12+08:00",
+    "message": "sync: 新增资源《摇滚乐队模拟器/Rock Band Simulator   Build.2681》",
+    "url": "https://github.com/xi7ang/GameHub/commit/d15e70d3d9b05e64d32708622bf90c4c5512fd1d"
+  },
+  {
     "hash": "016f41c",
     "date": "2026-11-25T11:50:43+08:00",
     "message": "sync: 新增资源《允许开火 /Cleared Hot   Build.26455845   免安装》",
@@ -172,11 +178,5 @@
     "date": "2026-11-21T07:30:32+08:00",
     "message": "sync: 新增资源《兔兔奇遇记/Bunny Eureka   Build.26772853   免安》",
     "url": "https://github.com/xi7ang/GameHub/commit/0b9bb360c2d830004eb24595da65c9f6bd047a44"
-  },
-  {
-    "hash": "641ef65",
-    "date": "2026-11-21T07:26:54+08:00",
-    "message": "sync: 新增资源《私掠与复仇/Marque & Reprisal   Build.26775414》",
-    "url": "https://github.com/xi7ang/GameHub/commit/641ef65953c037dcf322c1a47c9caf22fcbdd6ba"
   }
 ]
