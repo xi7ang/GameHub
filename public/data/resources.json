@@ -88346,54 +88346,158 @@
   {
     "id": "simulation-202611-0017",
     "title": "连锁城邦 类Rogue城市营造游戏/Combolands Roguelike Citybuilder    Build.25997697   免安装英文版",
-    "enTitle": "",
-    "category": "simulation",
+    "enTitle": "Combolands: Roguelike Citybuilder",
+    "category": "strategy",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/8d889eb027c6?pwd=SjYl",
     "pwd": "SjYl",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u6a57533dce17.webp",
-    "steamAppID": null,
+    "size": "215.8MB",
+    "sizeBytes": 226283792,
+    "cover": "/covers/4075620.webp",
+    "steamAppID": 4075620,
     "desc": "更新内容 查看所有更新 v1.0.7a 热修复 之前的更新在加载/补充屏幕上的构建/传声图标上出现了悬空。 这解决了这个问题。 游戏介绍 《连锁城邦》是一款小体量的类Rogue城市营造游戏，每局流程短小紧凑，但同时又不失策略深度！建设你的迷你城邦，修造建筑，解锁强力联动，触发越来越强的连锁效果。游戏共有21种公会组合，策略空间值得钻研，也能体验数字节节攀升的爽快，每局只需约30分钟，就能获得酣畅淋漓的游戏体验。 随着游戏推进，你会解锁新的公会。每个公会都有各自的定位、长板和短板。每局游戏都要选择2种公会配合，每局都是程序生成的全新地图，见证你把小小的村落建设成为繁荣的城邦。 突破平衡，打磨策略，建成一座传世之城！",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-25T07:07:03+08:00",
     "updatedAt": "2026-11-25T07:07:03+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4075620,
+      "developer": "Crux Games",
+      "publisher": "Crux Games",
+      "releaseDate": "2026 年 8 月 24 日",
+      "genres": [
+        "独立",
+        "策略"
+      ],
+      "languages": "英语\n具有完全音频支持的语言",
+      "summary": "类Rogue城市营造迷你游戏。修造建筑，叠出连锁组合，钻研深度的策略，在一局局短平快的经营之中钻，建设出欣欣向荣的小小城邦！",
+      "description": "《连锁城邦》是一款小体量的类Rogue城市营造游戏，每局流程短小紧凑，但同时又不失策略深度！建设你的迷你城邦，修造建筑，解锁强力联动，触发越来越强的连锁效果。游戏共有21种公会组合，策略空间值得钻研，也能体验数字节节攀升的爽快，每局只需约30分钟，就能获得酣畅淋漓的游戏体验。\n随着游戏推进，你会解锁新的公会。每个公会都有各自的定位、长板和短板。每局游戏都要选择2种公会配合，每局都是程序生成的全新地图，见证你把小小的村落建设成为繁荣的城邦。\n突破平衡，打磨策略，建成一座传世之城！\n特色：\n融合牌组构筑与城市营造，打造爽快的类Rogue体验\n7个公会，各有各的建筑和玩法，每局任选2个搭配\n海岛由程序生成，每局地图各有不同\n120多种建筑，供你建设城邦\n100多件被动传家宝，进一步强化你的构筑\n升级项目可以改变建筑的行为，药水可以改变地图格局\n超过13位城邦议员等你招募，每位都有自己的成长路线和能力\n10个衔级一个比一个难，就等你来挑战",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/218e90ea9cd9c3d34a1627097bdcad2a90134fd6/ss_218e90ea9cd9c3d34a1627097bdcad2a90134fd6.1920x1080.jpg?t=1787743588",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/7c4dc9691dee36cf189e7c6d63a8171b0eed27f5/ss_7c4dc9691dee36cf189e7c6d63a8171b0eed27f5.1920x1080.jpg?t=1787743588",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/53696379f2524e19f062a90d2afd1c323855e5b6/ss_53696379f2524e19f062a90d2afd1c323855e5b6.1920x1080.jpg?t=1787743588",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/2499f80e445060bad6f180ea7b60f63507de3a8d/ss_2499f80e445060bad6f180ea7b60f63507de3a8d.1920x1080.jpg?t=1787743588",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/8811216dcee58c0bc6897263e13189337f0a0e2f/ss_8811216dcee58c0bc6897263e13189337f0a0e2f.1920x1080.jpg?t=1787743588",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4075620/8e42c13caac27fceeb395d79ef6b0234815ff6cf/ss_8e42c13caac27fceeb395d79ef6b0234815ff6cf.1920x1080.jpg?t=1787743588"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11",
+          "处理器: Intel Core i5-7500, AMD Ryzen 5 3600",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia GeForce GTX 1060 3gb, AMD Radeon R9 Fury",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10/11",
+          "处理器: Intel Core i5-7500, AMD Ryzen 5 3600 or better",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia GeForce RTX 2060，AMD Radeon 5600XT or better",
+          "存储空间: 需要 1 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 42,
+        "initial": 42,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1898,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
+      "storeUrl": "https://store.steampowered.com/app/4075620/",
+      "fetchedAt": "2026-11-25T12:28:32.225Z"
+    }
   },
   {
     "id": "visual-novel-202611-0003",
     "title": "恋爱字节/lovebyte.exe   Build.26796971   免安装中文版",
-    "enTitle": "",
+    "enTitle": "lovebyte.exe",
     "category": "visual-novel",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/6f060f607b20?pwd=FGSZ",
     "pwd": "FGSZ",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/2739420.webp",
-    "steamAppID": 2739420,
+    "size": "475.1MB",
+    "sizeBytes": 498137752,
+    "cover": "/covers/3491690.webp",
+    "steamAppID": 3491690,
     "desc": "Your kamioshi’s stream abruptly ends one day & his silence creates rampant rumors. Avoiding the online toxicity, you join a degenerate group chat where VTuber fans chat about their oshis freely. But you start noticing strange coincidences – is your kamioshi in this chat? In this dating chatsim, who’s real & who’s pretending in chat?",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-25T11:42:23+08:00",
     "updatedAt": "2026-11-25T11:42:23+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3491690,
+      "developer": "Nochi Studios",
+      "publisher": "Nochi Studios",
+      "releaseDate": "2026 年 8 月 24 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "角色扮演",
+        "模拟",
+        "抢先体验"
+      ],
+      "languages": "英语\n具有完全音频支持的语言",
+      "summary": "A chat dating sim game inspired by Mystic Messenger, VTuber communities, and internet spam",
+      "description": "Your kamioshi's stream abruptly ends one day & his silence creates rampant rumors. Avoiding the online toxicity, you join a degenerate group chat where VTuber fans chat about their oshis freely. But you start noticing strange coincidences - is your kamioshi in this chat?\nIn this dating chatsim, who's real & who's pretending in chat?\nlovebyte.exe : inspired by Mystic Messenger, VTubers, and internet spam\nGame Features\n🎙️ Unlock voice-acted scenes from real VTubers such as Roy Chiato, Banzoin Hakka, RiiKami, Kaine Knight, Bluebell, and rachie.\n📸 Unlock delulu & parasocial content and CGs across different channels, including streams and discord chats\n🎨 Customize your in-game Discord profile & desktop\n🔎 Sift through fake surveys, sketchy internet downloads, and sus emails in minigames to avoid scams and earn money to support your kamioshi\n🔁 Reveal romanceable characters' irl-selves and explore multiple endings as answer choices matter!\nRomanceable Characters\nPiece together the identities of 6 romanceable characters:\nMINK!! Mochaberry\nSolo Lightracer\nWizardPit\nDolphin Daddy\nPochima\nForever 🐸 Frog\nGame Features\nSift through fake surveys, sketchy internet downloads, and sus emails in minigames that blur the line between truth and scam. Can you tell what is real?\nUnlockable CGs, discord voice calls, DMs, and more\nCustomizable MC\nUnlockable Achievements\nMultiple Endings",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491690/c6e8b180d80cdd9bd841753bb9960063aa6e79f3/ss_c6e8b180d80cdd9bd841753bb9960063aa6e79f3.1920x1080.jpg?t=1794945107",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491690/7a78e14590cdee444caaa0c5f7c977a0f1a13849/ss_7a78e14590cdee444caaa0c5f7c977a0f1a13849.1920x1080.jpg?t=1794945107",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491690/2ef89a991cddd5d987760990d0b1f0b00b2a68a9/ss_2ef89a991cddd5d987760990d0b1f0b00b2a68a9.1920x1080.jpg?t=1794945107",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491690/d89be3cb1fece3aa6c2236c0777f4eff7127030a/ss_d89be3cb1fece3aa6c2236c0777f4eff7127030a.1920x1080.jpg?t=1794945107",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491690/3c62950d35ce1e57dbac584b2d47f048571a726a/ss_3c62950d35ce1e57dbac584b2d47f048571a726a.1920x1080.jpg?t=1794945107",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3491690/fd9df4fcb456e6efd5a1471aeea3e272448e6df5/ss_fd9df4fcb456e6efd5a1471aeea3e272448e6df5.1920x1080.jpg?t=1794945107"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统 *: Windows 7 or higher",
+          "处理器: 2.0 Ghz 64-bit Intel-compatible",
+          "内存: 2 GB RAM",
+          "显卡: 2 GB RAM"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 48,
+        "initial": 48,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 420,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
+      "storeUrl": "https://store.steampowered.com/app/3491690/",
+      "fetchedAt": "2026-11-25T12:30:41.611Z"
+    }
   },
   {
     "id": "other-202611-0022",
     "title": "不/存在的莉莉丝 /The NOexistenceN of Lilith    Build.26406479   免安装中文版",
-    "enTitle": "",
+    "enTitle": "The NOexistenceN of Lilith",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/d7fc64611f95?pwd=Xtjx",
     "pwd": "Xtjx",
-    "size": "",
-    "sizeBytes": null,
+    "size": "299.7MB",
+    "sizeBytes": 314230383,
     "cover": "/covers/4643090.webp",
     "steamAppID": 4643090,
     "desc": "更新内容 查看所有更新 V1.1.0 更新通知:完整日文 VO 现 右键单击任务栏中的“Lilith的无存在”和“NBsp;icon”,然后选择“设置”。 前往“语言”和“语言”,以切换你的游戏语音语言。 二、更改和添加 优化游戏内日语文字和对话线。 三。 更新说明 此更新不会影响现有的保存文件,您可以直接更新。 2026年9月22日更新的补丁说明:v1.0.11 补丁 1。 修复 修复了游戏屏幕在某些情况下会变白并无响应的问题。 与项目掉落相关的优化代码。 2. 更新说明 此更新不会影响现有的保存文件,您可以直接更新。 查看2026年9月15日更新更新说明： v1.0.10补丁 1. 修复 修复了某些场景下存档无法正确保存的问题; 优化了游戏屏幕在某些情况下突然变白的问题。 2. 更新说明 本次更新不影响现有存档;你可以直接更新。",
@@ -88401,39 +88505,161 @@
     "featured": false,
     "addedAt": "2026-11-25T11:45:33+08:00",
     "updatedAt": "2026-11-25T11:45:33+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4643090,
+      "developer": "Nino Games",
+      "publisher": " Nino Games",
+      "releaseDate": "2026 年 7 月 16 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "languages": "简体中文, 英语, 繁体中文, 日语, 俄语, 泰语, 越南语, 韩语, 印度尼西亚语, 土耳其语, 葡萄牙语 - 巴西, 西班牙语 - 拉丁美洲\n具有完全音频支持的语言",
+      "summary": "幻境归来，可爱少女莉莉丝正式常驻你的桌面！ 搭载流畅动态形象，灵动神态随心展现，支持全桌面自由游走摆放，贴合时间实时感知日常状态。轻松开启暖心互动养成，闲暇时刻相伴左右，治愈烦闷日常",
+      "description": "这是一个桌面伴侣游戏\n她还是那个莉莉丝，只不过这次住进了你的桌面\n她会呼吸、会发呆，也会在你面前慢慢“活过来”\n她会打哈欠、会犯困，也会在深夜轻声提醒你该休息了\n她会坐在任务栏边晃着腿，偶尔四处走走，像是在你的世界里待着",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643090/4e4524b129e05453e98db67314fd12c20d5ae4ef/ss_4e4524b129e05453e98db67314fd12c20d5ae4ef.1920x1080.jpg?t=1791796595",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643090/b5b6f7e3b971b7bffb0212edfaa65d43004508c5/ss_b5b6f7e3b971b7bffb0212edfaa65d43004508c5.1920x1080.jpg?t=1791796595",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643090/24bd0afc96c3343fef3548c53e66f2ef1990a58e/ss_24bd0afc96c3343fef3548c53e66f2ef1990a58e.1920x1080.jpg?t=1791796595",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643090/df8748a490f31e80c3691a9b3bdde809cfe4a2a9/ss_df8748a490f31e80c3691a9b3bdde809cfe4a2a9.1920x1080.jpg?t=1791796595",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643090/b40932e89951b9cc04253f4cf3726fe63a77a3b8/ss_b40932e89951b9cc04253f4cf3726fe63a77a3b8.1920x1080.jpg?t=1791796595",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4643090/42aa05601c8133fcf91c8dba1b01a94abe3a94dc/ss_42aa05601c8133fcf91c8dba1b01a94abe3a94dc.1920x1080.jpg?t=1791796595"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10, Windows 11",
+          "处理器: Intel Core i3-4130 / AMD FX-4300 或同等性能",
+          "内存: 4 GB RAM",
+          "显卡: 支持 DirectX 11 的集成显卡（Intel HD Graphics 4400 或同等）",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间",
+          "声卡:  与 Windows 兼容的声卡"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10, Windows 11",
+          "处理器: Intel Core i3-8100 / AMD Ryzen 3 2200G 或更高",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GTX 750 Ti / AMD Radeon RX 550 / Intel UHD 630 或更高",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间",
+          "声卡:  与 Windows 兼容的声卡"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 11,
+        "initial": 11,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 918,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/4643090/",
+      "fetchedAt": "2026-11-25T12:28:37.952Z"
+    }
   },
   {
     "id": "shooter-202611-0008",
     "title": "允许开火 /Cleared Hot   Build.26455845   免安装中文版",
-    "enTitle": "",
-    "category": "shooter",
+    "enTitle": "Cleared Hot",
+    "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/a216af24ef51?pwd=nh8z",
     "pwd": "nh8z",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/u3f3abb4f7f12.webp",
-    "steamAppID": null,
+    "size": "2.7GB",
+    "sizeBytes": 2926665266,
+    "cover": "/covers/1710820.webp",
+    "steamAppID": 1710820,
     "desc": "更新内容 查看所有更新 第0.4.3 第28562 号 战斗 低路面:侧装迷你枪现在汇聚在横边 一个人的繁荣 修复了未正确播放的音乐过渡 训练跑 修复一些放置不当的道具 趁热时获取 固定地形故障 通用 更新到 Unity 的新版本 游戏介绍 《允许开火》 是一款拥有优秀物理效果和轻度战术元素的复古风直升机射击游戏。射击，躲避，在战场上移动你的小队，几乎一切都能用绳子和磁铁吊起。 通过完全基于物理效果的操作，你可以发挥创造力，利用环境获得优势。用火箭让敌人在空中翻滚，或用绳子将岩石扔向敌人 将你的小队运往敌占区，或安排他们防御自己的基地。明智地部署他们，完成你的目标，尽量别在路上落下太多人。 快动起来，重新引导热追踪导弹。带上坦克，让它协助进攻敌方基地。吊起敌人，送他们飞向死亡。你可以吊起一切未被固定的物体，尽情发挥创造力吧。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-25T11:50:40+08:00",
     "updatedAt": "2026-11-25T11:50:40+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 1710820,
+      "developer": "Not Knowing Corporation",
+      "publisher": "MicroProse Software",
+      "releaseDate": "2025 年 11 月 20 日",
+      "genres": [
+        "动作",
+        "独立",
+        "抢先体验"
+      ],
+      "languages": "英语, 法语, 德语, 西班牙语 - 西班牙, 日语, 韩语, 俄语, 简体中文, 乌克兰语\n具有完全音频支持的语言",
+      "summary": "《允许开火》是一款拥有优秀物理效果和轻度战术元素的复古风直升机射击游戏。射击，躲避，在战场上移动你的小队，几乎一切都能用绳子和磁铁吊起。",
+      "description": "《允许开火》是一款拥有优秀物理效果和轻度战术元素的复古风直升机射击游戏。射击，躲避，在战场上移动你的小队，几乎一切都能用绳子和磁铁吊起。\n通过完全基于物理效果的操作，你可以发挥创造力，利用环境获得优势。用火箭让敌人在空中翻滚，或用绳子将岩石扔向敌人。\n将你的小队运往敌占区，或安排他们防御自己的基地。明智地部署他们，完成你的目标，尽量别在路上落下太多人。\n快动起来，重新引导热追踪导弹。带上坦克，让它协助进攻敌方基地。吊起敌人，送他们飞向死亡。你可以吊起一切未被固定的物体，尽情发挥创造力吧。\n完全基于物理特性，吊起载具、敌军或重新引导热追踪导弹，随机应变\n完整单人战役\n购买和升级直升机\n可自定义配置\n3种环境：沙漠、丛林、极地\n日间和夜间任务\n各种拥有物理效果的敌方载具：坦克、吉普车、小卡车、防空炮塔、船只和战斗机",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/1cd183f5d9dbbd2334f660ba3189d0c6d97c4beb/ss_1cd183f5d9dbbd2334f660ba3189d0c6d97c4beb.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/22154bcaea525ad3cb5d80cd3c0ef3a46cb7438b/ss_22154bcaea525ad3cb5d80cd3c0ef3a46cb7438b.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/2015ddb5c86f502b4e6c06d4fab83adc189f881c/ss_2015ddb5c86f502b4e6c06d4fab83adc189f881c.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/8535499b5a66f03f066cdeda9b8816749bcd97db/ss_8535499b5a66f03f066cdeda9b8816749bcd97db.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/ee7a1096b701f60fe1a76025b5d108ab2b33a341/ss_ee7a1096b701f60fe1a76025b5d108ab2b33a341.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/c7c2c1793e94c1695d2dcb211432015d0abed05f/ss_c7c2c1793e94c1695d2dcb211432015d0abed05f.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/2e3bec67ccb8b95041546f958951ccdde1358eb9/ss_2e3bec67ccb8b95041546f958951ccdde1358eb9.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/e26410a176592fa4dc0987e4eb407016dd87dca8/ss_e26410a176592fa4dc0987e4eb407016dd87dca8.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/13bee75547d02670ddeb63794afe8c1d8a0b748b/ss_13bee75547d02670ddeb63794afe8c1d8a0b748b.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/48f477f6b7fc09ab54a288c572355e347c8d9485/ss_48f477f6b7fc09ab54a288c572355e347c8d9485.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/d1ef9bd52ac61955e1a480e09c12c684ab55ba6f/ss_d1ef9bd52ac61955e1a480e09c12c684ab55ba6f.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/ss_55713bc1d7de0b4d8314e872757853e8f14929dc.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/4bde254a8c773428c0d075d5f6386d346b2cf4ed/ss_4bde254a8c773428c0d075d5f6386d346b2cf4ed.1920x1080.jpg?t=1792156097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1710820/955720a9d36f6b5c36e51b512c7df19f8676ce08/ss_955720a9d36f6b5c36e51b512c7df19f8676ce08.1920x1080.jpg?t=1792156097"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: Intel® Core™ i5-2500K / AMD FX-6300",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia GeForce GTX 960 2GB / AMD Radeon R9 280 3GB",
+          "DirectX 版本: 12",
+          "存储空间: 需要 5 GB 可用空间",
+          "附注事项: Cleared Hot is currently in development, and minimum specifications may change prior to release."
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 69,
+        "initial": 69,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 3235,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
+      "storeUrl": "https://store.steampowered.com/app/1710820/",
+      "fetchedAt": "2026-11-25T12:28:40.715Z"
+    }
   },
   {
     "id": "rhythm-202611-0007",
     "title": "摇滚乐队模拟器/Rock Band Simulator   Build.26812758   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Rock Band Simulator",
     "category": "rhythm",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/8e03ceeb52d3?pwd=Vy5v",
     "pwd": "Vy5v",
-    "size": "",
-    "sizeBytes": null,
+    "size": "413.5MB",
+    "sizeBytes": 433556411,
     "cover": "/covers/4697880.webp",
     "steamAppID": 4697880,
     "desc": "Rock Band Simulator 是一款第一人称摇滚乐队生活模拟游戏，背景设定在上世纪90年代一个鱼龙混杂的街区。你是主音吉他手，身边有两个队友，兜里没几个钱，还有七天时间，得想办法混出点名堂。 排练。找点更好的设备。上台演出。反正计划是这么定的。可这些都得花钱，而那些给你介绍工作的人，不怎么爱讲细节。 到了 21:00 ，你们照样得演出。 带齐设备，参加节奏玩法的现场演出。选择下一首歌，掌控整场演出的节奏，再决定什么时候收工。 演得好，名声见涨。演砸了，哥几个回家路上就有得吵了。 音箱他妈的坏了。换一个得花钱。该出去找活儿了。 捡易拉罐。打点零工。去二十一点赌桌试试手气。你可以花一下午挣够需要的钱，也可以说服自己，就差一手好牌。 总有人知道更快的来钱路子。 认识街坊，接点活儿。干得越深入，就越难跟人解释你到底在干什么。躲过摄像头，干点脏活，争取在有人开始问问题之前走人。",
@@ -88441,46 +88667,229 @@
     "featured": false,
     "addedAt": "2026-11-25T11:54:09+08:00",
     "updatedAt": "2026-11-25T11:54:09+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4697880,
+      "developer": "KONTRĀST MEDIA",
+      "publisher": "PlayWay S.A.",
+      "releaseDate": "2026 年 11 月 20 日",
+      "genres": [
+        "动作",
+        "独立",
+        "模拟"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 波兰语, 葡萄牙语 - 巴西, 俄语, 土耳其语, 乌克兰语, 拉脱维亚语, 日语, 韩语, 简体中文, 西班牙语 - 拉丁美洲, 繁体中文\n具有完全音频支持的语言",
+      "summary": "一款第一人称摇滚乐队生活模拟游戏。跟着节奏登台演出，接点见不得光的活儿，赌博、打架，升级装备和车库。把乐队凑齐，再尽量保住自己这副身子。不管出了什么事，晚上九点，你们还有场演出。",
+      "description": "Rock Band Simulator 是一款第一人称摇滚乐队生活模拟游戏，背景设定在上世纪90年代一个鱼龙混杂的街区。你是主音吉他手，身边有两个队友，兜里没几个钱，还有七天时间，得想办法混出点名堂。\n排练。找点更好的设备。上台演出。反正计划是这么定的。可这些都得花钱，而那些给你介绍工作的人，不怎么爱讲细节。\n到了 21:00，你们照样得演出。\n带齐设备，参加节奏玩法的现场演出。选择下一首歌，掌控整场演出的节奏，再决定什么时候收工。\n演得好，名声见涨。演砸了，哥几个回家路上就有得吵了。\n音箱他妈的坏了。换一个得花钱。该出去找活儿了。\n捡易拉罐。打点零工。去二十一点赌桌试试手气。你可以花一下午挣够需要的钱，也可以说服自己，就差一手好牌。\n总有人知道更快的来钱路子。\n认识街坊，接点活儿。干得越深入，就越难跟人解释你到底在干什么。躲过摄像头，干点脏活，争取在有人开始问问题之前走人。\n其实你自己早该先问几个问题。\n喝一杯。吵一架。看看还有多少人想掺和进来。\n挥拳、格挡，有什么顺手的就用什么。地下拳赛、黑帮、警察，随便碰上哪样，都能让你剩下的半天泡汤。\n这双手，演出还得用呢。\n探索阿什波特，这里有酒吧、后屋、车库，还有总能给你找点事做的人。推进主线任务，接点支线差事，撞上奇怪的遭遇，再应付下个街角等着你的人。\n实在受不了了，就找个安静的地方待会儿。\n看看这次又能怎么样。\nEvgen弹贝斯。Diman打鼓。你得把他们俩凑到同一个地方，最好都还醒着。\n演出结束，回家的路上不管又发生了什么，都别忘了升级、布置你的车库。给乐队弄个值得回来的地方。\n收集海报，拍照，在游戏内的社交媒体上涨粉。把自己挣来的东西摆满车库。\n有些还真是合法挣来的。\n忘掉血条吧。习惯一下肾上腺素（ADR）系统。\n保持在最佳区间，出拳更狠。冲过了头，你就得躺下。啤酒、香烟和其他物质都会影响你的状态，所以往身体里塞什么，自己得有点数。\n今天剩下的时间，你还得撑过去。\n每天都有新任务、支线差事、随机事件和小头目。你的名声在涨，人际关系在变，新的机会也会找上门来。有些说不定还真能帮上忙。\n这一周怎么过，决定你最后落到什么境地。等着你的结局不止一种。\n现在，先找到哥几个。拿好设备。\n21:00，你们还有场演出。\n要崩溃，演完再说。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/5b91eaa36542a0f1045921c36c4d51e511c76640/ss_5b91eaa36542a0f1045921c36c4d51e511c76640.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/e998df40d939374f3b7681d9c25022fe3dce10cd/ss_e998df40d939374f3b7681d9c25022fe3dce10cd.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/3572d7501b6f708a35407c20c12367bd7fdf00cd/ss_3572d7501b6f708a35407c20c12367bd7fdf00cd.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/66f5f827c2ad4a8540b4b4becf2cdd81ad4b76a3/ss_66f5f827c2ad4a8540b4b4becf2cdd81ad4b76a3.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/09d1625f598415ba099a32d3d530a466bac34545/ss_09d1625f598415ba099a32d3d530a466bac34545.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/880d16b66768b3dde14a401b9633bf8b435b378b/ss_880d16b66768b3dde14a401b9633bf8b435b378b.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/f883e53496e325b896dbcd8525f5aefebd7e2050/ss_f883e53496e325b896dbcd8525f5aefebd7e2050.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/274d1bbf1976fba1a2fac0ebc1c0350d6397cc7e/ss_274d1bbf1976fba1a2fac0ebc1c0350d6397cc7e.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/98fdb3e5dfa15fb27010a478afc8932123213e24/ss_98fdb3e5dfa15fb27010a478afc8932123213e24.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/8482094f3a5fac5a613f327cc2dae979b153b55c/ss_8482094f3a5fac5a613f327cc2dae979b153b55c.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/390d3cb87c02fcfa947183228b6bc54cea915cf8/ss_390d3cb87c02fcfa947183228b6bc54cea915cf8.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/e732ee38dd3882f3f945c6ce78fe893e99d61ae5/ss_e732ee38dd3882f3f945c6ce78fe893e99d61ae5.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/8f49078c8dac756ff093ff559b0ec54fb12fe6e4/ss_8f49078c8dac756ff093ff559b0ec54fb12fe6e4.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/ae465fc5ca1e4cebf74425c907445937c314b19d/ss_ae465fc5ca1e4cebf74425c907445937c314b19d.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/c013b3ea1de1ed5e4dfc44a96711c0774dae80f6/ss_c013b3ea1de1ed5e4dfc44a96711c0774dae80f6.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/262a207a50c877001c4324aa262e7180e5c18784/ss_262a207a50c877001c4324aa262e7180e5c18784.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/06509cf0edddedd0ffcfccb876308e27c08bdb6f/ss_06509cf0edddedd0ffcfccb876308e27c08bdb6f.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/4b79167355f9d3509a4c58d776fe0fd018057895/ss_4b79167355f9d3509a4c58d776fe0fd018057895.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/41958754f10956520099423aff3566c95d2c3917/ss_41958754f10956520099423aff3566c95d2c3917.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/c8ae4bad46f6f666820ea7db300b547ddfd03a9a/ss_c8ae4bad46f6f666820ea7db300b547ddfd03a9a.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/37e450a561ce312d6d6a16900ebd6e2e245e25c8/ss_37e450a561ce312d6d6a16900ebd6e2e245e25c8.1920x1080.jpg?t=1795338167",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4697880/fbbb92f98ce122d64a370e9dc629704956162936/ss_fbbb92f98ce122d64a370e9dc629704956162936.1920x1080.jpg?t=1795338167"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 64-bit",
+          "处理器: Intel Core i3-6100 / AMD Ryzen 3 1200",
+          "内存: 4 GB RAM",
+          "显卡: NVIDIA GeForce GTX 750 Ti / AMD RX 460 (2 GB VRAM, DirectX 11)",
+          "DirectX 版本: 11",
+          "存储空间: 需要 2 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10/11 64-bit",
+          "处理器: Intel Core i5-8400 / AMD Ryzen 5 2600",
+          "内存: 8 GB RAM",
+          "显卡: NVIDIA GeForce GTX 1060 / AMD RX 580 (4 GB VRAM)",
+          "DirectX 版本: 11",
+          "存储空间: 需要 2 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 44,
+        "initial": 55,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 670,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 97
+      },
+      "storeUrl": "https://store.steampowered.com/app/4697880/",
+      "fetchedAt": "2026-11-25T12:28:43.497Z"
+    }
   },
   {
     "id": "visual-novel-202611-0004",
     "title": "蓬莱的雪/Snow of Penglai   Build.26644878   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Snow of Penglai",
     "category": "visual-novel",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/297a23423986?pwd=nJpE",
     "pwd": "nJpE",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/uf4dec90fde2c.webp",
-    "steamAppID": null,
+    "size": "1.1GB",
+    "sizeBytes": 1146518908,
+    "cover": "/covers/5157730.webp",
+    "steamAppID": 5157730,
     "desc": "《蓬莱的雪》是一款 女性向 百合视觉小说，玩家将通过人偶璇花的视角，直面巫师祝寒川的一切。 或者说，亲历一场浴血化生的新莲之旅。 玩家主视角——璇花：身体由木材做成的人偶，性格热情活泼，目前正处于观察学习人类，以便于融入人类社会的状态中。 其他角色——祝寒川：救死扶伤的名医，使用巫术创造出了璇花。在意的东西是医学，在意的人是璇花，除此之外对所有的一切都漠不关心。 5w+文字，4个结局，人物插图29张，文字插图15张 系统配置 最低配置: 需要 64 位处理器和操作系统 操作系统: Win10 处理器: Intel Core i5-8400 内存: 4 MB RAM 显卡: GTX 1650 DirectX 版本: 11 存储空间: 需要 2 MB 可用空间 推荐配置: 需要 64 位处理器和操作系统 游戏截图",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-25T12:42:01+08:00",
     "updatedAt": "2026-11-25T12:42:01+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5157730,
+      "developer": "百千灯游戏制作组",
+      "publisher": "百千灯游戏制作组",
+      "releaseDate": "2026 年 11 月 5 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "日语, 简体中文, 繁体中文, 英语",
+      "summary": "《蓬莱的雪》是一款女性向百合视觉小说，玩家将通过人偶璇花的视角，直面巫师祝寒川的一切。 或者说，亲历一场浴血化生的新莲之旅。",
+      "description": "《蓬莱的雪》是一款 女性向 百合视觉小说，玩家将通过人偶璇花的视角，直面巫师祝寒川的一切。\n或者说，亲历一场浴血化生的新莲之旅。\n玩家主视角——璇花：身体由木材做成的人偶，性格热情活泼，目前正处于观察学习人类，以便于融入人类社会的状态中。\n其他角色——祝寒川：救死扶伤的名医，使用巫术创造出了璇花。在意的东西是医学，在意的人是璇花，除此之外对所有的一切都漠不关心。\n5w+文字，4个结局，人物插图29张，文字插图15张",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/4368b197952968d38c87e47619caba96030ad587/ss_4368b197952968d38c87e47619caba96030ad587.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/217a7281590ee5d7552cdeb49434a706cc972312/ss_217a7281590ee5d7552cdeb49434a706cc972312.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/4e7e67eae3f30cbbfc4fa06b184bde6420f7cafb/ss_4e7e67eae3f30cbbfc4fa06b184bde6420f7cafb.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/4b0fca4c41f2ccb99604c650d9e7c434f38136d6/ss_4b0fca4c41f2ccb99604c650d9e7c434f38136d6.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/ad053d7a8a62d13ad8def2d9492346c8f786656b/ss_ad053d7a8a62d13ad8def2d9492346c8f786656b.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/1b6a4244ca250a59dd0e6eecbf0c6b9df3d37c71/ss_1b6a4244ca250a59dd0e6eecbf0c6b9df3d37c71.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/5b253f8530ccc79db8ea933fc8318b86a209102c/ss_5b253f8530ccc79db8ea933fc8318b86a209102c.1920x1080.jpg?t=1795289131",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5157730/b9ce452fe273cba9afa0ab660eba98312e4618ff/ss_b9ce452fe273cba9afa0ab660eba98312e4618ff.1920x1080.jpg?t=1795289131"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Win10",
+          "处理器: Intel Core i5-8400",
+          "内存: 4 MB RAM",
+          "显卡: GTX 1650",
+          "DirectX 版本: 11",
+          "存储空间: 需要 2 MB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 5,
+        "initial": 5,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 125,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
+      "storeUrl": "https://store.steampowered.com/app/5157730/",
+      "fetchedAt": "2026-11-25T12:28:46.226Z"
+    }
   },
   {
     "id": "simulation-202611-0018",
     "title": "编程农场/The Farmer Was Replaced   Build.26732695   免安装中文版",
-    "enTitle": "",
+    "enTitle": "The Farmer Was Replaced",
     "category": "simulation",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/033b1b7ac71d?pwd=zv44",
     "pwd": "zv44",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4304510.webp",
-    "steamAppID": 4304510,
+    "size": "127.7MB",
+    "sizeBytes": 133927096,
+    "cover": "/covers/2060160.webp",
+    "steamAppID": 2060160,
     "desc": "更新内容 查看所有更新 排行榜补丁和更多错误修复 修复了两个用于替代任意免调试功能和导入函数的排行榜成本漏洞。 现在销毁的列表需要1个勾选,而不是0。 这可以防止一些基于列表构建的无计算结构,这些列表能够免费完成各种操作。 多次破坏仍然免费。 在调用 set_world_size(1) 时修复了意外的无人机远程传送。 如果将导入的模块重新赋值为新变量,那么对该动态重新分配模块的每次访问都需要1个勾选,而不是0。 写作已经如此,但现在也影响了阅读。 对排行榜上接受的最大代码大小增加了非常宽大的限制,以限制生成的大量脚本的有效性。 其他修复 根据每次升级实际增加50%的速度,调整了挖矿升级速度,同时保留了挖掘时间。 固定工作区缩放和边界计算,包括对接窗口。 改进了光线主题中的光标对比度。 修复了几次结冰和崩溃。 修复编辑代码后功能工具提示变得错误。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-25T14:12:33+08:00",
     "updatedAt": "2026-11-25T14:12:33+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2060160,
+      "developer": "Timon Herzog",
+      "publisher": "Metaroot、Timon Herzog",
+      "releaseDate": "2025 年 10 月 10 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "模拟",
+        "策略"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 日语, 韩语, 波兰语, 葡萄牙语 - 巴西, 俄语, 简体中文\n具有完全音频支持的语言",
+      "summary": "编程并不断优化你的无人机，实现农场自动化。安坐一旁，看它为你打理一切；收集资源，解锁更尖端的科技，成为全世界效率第一的农场主。畅享游戏快乐，同时不断提高解决问题和编写代码的能力。",
+      "description": "使用简洁的类 Python 语言为无人机编程，将枯燥磨人的各式农活彻底自动化。只需轻点“执行”按钮，即可欣赏无人机包揽所有繁重劳动，感受自动化带来的满足与享受。\n与多数编程游戏不同，本作摒弃了传统的关卡制，并以连贯无缝的曲线成长机制取而代之。\n经营你的农场，不断获取资源，并在随后解锁新科技。\n使用类 Python 的简洁语言进行编程。游戏初期，我们将循序渐进，逐一为你引入所有必备的编程基础概念，带你轻松入门。\n游戏将为你铺好基石，但不会牵着你的手走完全程，带你完成任务。面对各式各样的挑战，你必须独辟蹊径，自行摸索答案。对于编程新手而言，这将是一场真正的考验。\n如果你有丰富的编程经验，那么游戏前期不过是牛刀小试，帮你快速热身。真正的大餐，是后期错综复杂，同时又趣味盎然的艰巨任务，它们一定能够点燃你的挑战欲望。\n本游戏所使用的编程语言虽非 Python 本身，但却一脉相承，可让 Python IntelliSense（智能感知）功能大显身手。所有代码均以 .py 文件格式保存，你完全可以选用 VS Code 等外部代码编辑器进行创作。只需开启“文件监视器”设置，游戏便可即时检测外部修改。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/cbc6d11bbfc223effb9025e4ecdcc55317f0d9d5/ss_cbc6d11bbfc223effb9025e4ecdcc55317f0d9d5.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/aabfc36854cf0f657a9433226de03c4d150f0862/ss_aabfc36854cf0f657a9433226de03c4d150f0862.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/626c7fd80f4febd821a57499a936a331dd782b26/ss_626c7fd80f4febd821a57499a936a331dd782b26.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/e73b5d1fa288e22f49d81180138e54459b96d60f/ss_e73b5d1fa288e22f49d81180138e54459b96d60f.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/c9da1711920aeafa732ebe5bdef18da3afe3c717/ss_c9da1711920aeafa732ebe5bdef18da3afe3c717.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/ec1c68d2502ff19b7670ff87690b8582660627c8/ss_ec1c68d2502ff19b7670ff87690b8582660627c8.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/756bbbb834c91e506a373ed2545253d7dd9e5cf7/ss_756bbbb834c91e506a373ed2545253d7dd9e5cf7.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/8280805b57b961993801145d0f2856121f42d952/ss_8280805b57b961993801145d0f2856121f42d952.1920x1080.jpg?t=1793711051",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/ba884a1dad75964e7d00809387bbd04f8bb4e049/ss_ba884a1dad75964e7d00809387bbd04f8bb4e049.1920x1080.jpg?t=1793711051"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7 (64-bit)",
+          "处理器: Intel Core i3",
+          "内存: 4 GB RAM",
+          "显卡: Nvidia Geforce GTX 550/equivalent or higher*",
+          "DirectX 版本: 11",
+          "存储空间: 需要 1 GB 可用空间",
+          "附注事项: May run on weaker systems"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 42,
+        "initial": 42,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 4652,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 95
+      },
+      "storeUrl": "https://store.steampowered.com/app/2060160/",
+      "fetchedAt": "2026-11-25T12:30:44.754Z"
+    }
   }
 ]
