@@ -1,5 +1,11 @@
 [
   {
+    "hash": "5278660",
+    "date": "2026-11-26T00:12:49+08:00",
+    "message": "sync: 新增资源《火湖/SULFUR   Build.26756522    免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/5278660cc65184118676cd8c81c68b33aa4a9dad"
+  },
+  {
     "hash": "6dfc1f4",
     "date": "2026-11-26T00:10:45+08:00",
     "message": "sync: 新增资源《深海拓荒者/Oceaneers   Build.26529571   免安装中文》",
@@ -172,11 +178,5 @@
     "date": "2026-11-22T09:21:42+08:00",
     "message": "data: 分类待定 9 条按 Steam 首个类型改（771、数据库侦探不动）",
     "url": "https://github.com/xi7ang/GameHub/commit/9aed69de88c253aa1fd25d009845f7e363420a12"
-  },
-  {
-    "hash": "e81793a",
-    "date": "2026-11-22T04:50:06+08:00",
-    "message": "data: 恢复 11-21 批被上游同步覆盖的 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/e81793a9d0295b266752acfe997d4349569753a9"
   }
 ]
