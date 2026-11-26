@@ -1,5 +1,11 @@
 [
   {
+    "hash": "c1049e6",
+    "date": "2026-11-27T07:08:12+08:00",
+    "message": "sync: 新增资源《红色沙漠：增强版-虚拟机版/ Crimson Desert    v2.05.0》",
+    "url": "https://github.com/xi7ang/GameHub/commit/c1049e63e68d7ec99283d324cd2eac30f3257f06"
+  },
+  {
     "hash": "95ae449",
     "date": "2026-11-27T07:04:29+08:00",
     "message": "sync: 新增资源《君王之塔/Sovereign Tower    v1.2.1   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-23T07:46:05+08:00",
     "message": "data: 每日自动补齐新资源 Steam 资料",
     "url": "https://github.com/xi7ang/GameHub/commit/3b23f9c001a94b9f3d72db16debcc473311e09a8"
-  },
-  {
-    "hash": "09727d9",
-    "date": "2026-11-23T03:00:27+08:00",
-    "message": "补澳大利亚干的官方封面 2396130",
-    "url": "https://github.com/xi7ang/GameHub/commit/09727d9c1857a68f6c50672f0656306cbc079f88"
   }
 ]
