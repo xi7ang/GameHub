@@ -1,5 +1,11 @@
 [
   {
+    "hash": "95ae449",
+    "date": "2026-11-27T07:04:29+08:00",
+    "message": "sync: 新增资源《君王之塔/Sovereign Tower    v1.2.1   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/95ae4492201a41a28ee9c686b632453889d5ba8d"
+  },
+  {
     "hash": "e913263",
     "date": "2026-11-26T20:31:45+08:00",
     "message": "chore: 每日公告：发布【2026-11-26】游戏资源更新通知（5 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-11-23T03:00:27+08:00",
     "message": "补澳大利亚干的官方封面 2396130",
     "url": "https://github.com/xi7ang/GameHub/commit/09727d9c1857a68f6c50672f0656306cbc079f88"
-  },
-  {
-    "hash": "b2bd00c",
-    "date": "2026-11-22T20:49:28+08:00",
-    "message": "health check 跟随 pan→mibear.top 301 跳转（curl -L），查最终落点 mibear.top。",
-    "url": "https://github.com/xi7ang/GameHub/commit/b2bd00c71c6a69228563e163e3efce2a0110f0d7"
   }
 ]
