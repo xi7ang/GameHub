@@ -1,27 +1,57 @@
 [
   {
-    "hash": "ef23b7a",
+    "hash": "e913263",
+    "date": "2026-11-26T20:31:45+08:00",
+    "message": "chore: 每日公告：发布【2026-11-26】游戏资源更新通知（5 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/e913263e5aafe2920f69e279c184b6953ae2e1a3"
+  },
+  {
+    "hash": "f038f3e",
+    "date": "2026-11-26T00:45:50+08:00",
+    "message": "sync: 新增资源《锈湖：湖之仆从/Servant of the Lake   v1.6.3.W  》",
+    "url": "https://github.com/xi7ang/GameHub/commit/f038f3ee0eaf35650d21d5af26755d3897f64086"
+  },
+  {
+    "hash": "bb71dbc",
     "date": "2026-11-26T00:42:13+08:00",
     "message": "sync: 新增资源《天坑追匪   Build.26883895   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ef23b7a0d014cb810ba6e6fda93bd1b8fbea720b"
+    "url": "https://github.com/xi7ang/GameHub/commit/bb71dbc10356a3f1263f8a7780b67da167767a3f"
   },
   {
-    "hash": "02b5520",
+    "hash": "5c34cc3",
     "date": "2026-11-26T00:14:37+08:00",
     "message": "sync: 新增资源《777勇者 ～逆时之人～/The One Who Defies Time   B》",
-    "url": "https://github.com/xi7ang/GameHub/commit/02b552046b5e0f8d5b29645d8fc080c29f51f491"
+    "url": "https://github.com/xi7ang/GameHub/commit/5c34cc31f3e5851a6f5d0ccea1b74a867815fc2b"
   },
   {
-    "hash": "5278660",
+    "hash": "a9c8066",
     "date": "2026-11-26T00:12:49+08:00",
     "message": "sync: 新增资源《火湖/SULFUR   Build.26756522    免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/5278660cc65184118676cd8c81c68b33aa4a9dad"
+    "url": "https://github.com/xi7ang/GameHub/commit/a9c8066440184cac2e56ea99e00be46a999f6974"
   },
   {
-    "hash": "6dfc1f4",
+    "hash": "ed8b679",
     "date": "2026-11-26T00:10:45+08:00",
     "message": "sync: 新增资源《深海拓荒者/Oceaneers   Build.26529571   免安装中文》",
-    "url": "https://github.com/xi7ang/GameHub/commit/6dfc1f4b0795c43f11b932a66c88df610800b2c1"
+    "url": "https://github.com/xi7ang/GameHub/commit/ed8b6793c575da7571deea9048156eec9fe67977"
+  },
+  {
+    "hash": "caecdd0",
+    "date": "2026-11-26T20:15:36+08:00",
+    "message": "分类修正：10 条按 Steam 首个类型调整",
+    "url": "https://github.com/xi7ang/GameHub/commit/caecdd0aba407896e75815c558ae4dc984500d39"
+  },
+  {
+    "hash": "60788e7",
+    "date": "2026-11-25T20:47:02+08:00",
+    "message": "data: 每日自动补齐新资源 Steam 资料",
+    "url": "https://github.com/xi7ang/GameHub/commit/60788e7d14842da999bb4968956439842fdbc933"
+  },
+  {
+    "hash": "4e9bb77",
+    "date": "2026-11-25T20:34:35+08:00",
+    "message": "covers: add official headers for Combolands (4075620), lovebyte.exe (3491690), Cleared Hot (1710820), Snow of Penglai (5157730), The Farmer Was Replaced (2060160)",
+    "url": "https://github.com/xi7ang/GameHub/commit/4e9bb779bd25920c5d33bedd78b21bf5b1d7d908"
   },
   {
     "hash": "22a4833",
@@ -148,35 +178,5 @@
     "date": "2026-11-22T20:49:28+08:00",
     "message": "health check 跟随 pan→mibear.top 301 跳转（curl -L），查最终落点 mibear.top。",
     "url": "https://github.com/xi7ang/GameHub/commit/b2bd00c71c6a69228563e163e3efce2a0110f0d7"
-  },
-  {
-    "hash": "b5176f8",
-    "date": "2026-11-22T20:40:29+08:00",
-    "message": "纠瘾君子 appid 4155880→4450600 并改封面路径（部署 validate 缺封面；4155880 实为时来运转）",
-    "url": "https://github.com/xi7ang/GameHub/commit/b5176f8936a87972a788da2d2c51fa8533845336"
-  },
-  {
-    "hash": "484d635",
-    "date": "2026-11-22T20:40:07+08:00",
-    "message": "补瘾君子官方封面 4450600（部署 validate 缺封面；appid 已纠 4155880→4450600）",
-    "url": "https://github.com/xi7ang/GameHub/commit/484d635335e2ac9e40fea914a2c358ccb7280bb9"
-  },
-  {
-    "hash": "35ac1a5",
-    "date": "2026-11-22T20:39:56+08:00",
-    "message": "补窗口王国官方封面 4281800（部署 validate 缺封面）",
-    "url": "https://github.com/xi7ang/GameHub/commit/35ac1a50c1b321258062d52bac9b540b38bf29ef"
-  },
-  {
-    "hash": "2c91ed7",
-    "date": "2026-11-22T20:39:22+08:00",
-    "message": "fix: 补齐新增资源封面",
-    "url": "https://github.com/xi7ang/GameHub/commit/2c91ed79ba5b5ae35c797424ac01d536f7c09c8d"
-  },
-  {
-    "hash": "f432391",
-    "date": "2026-11-22T20:35:11+08:00",
-    "message": "chore: 每日公告：发布【2026-11-22】游戏资源更新通知（3 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/f43239120bb05e4ab829d951a182a6ee2ac76ae8"
   }
 ]
