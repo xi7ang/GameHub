@@ -1,5 +1,11 @@
 [
   {
+    "hash": "8ede91a",
+    "date": "2026-11-28T07:12:27+08:00",
+    "message": "sync: 新增资源《钢铁之泪|金属之泪 /Tears of Metal / 单机+联机   v0.2》",
+    "url": "https://github.com/xi7ang/GameHub/commit/8ede91a5fdf74b22937d47194209b343a683f443"
+  },
+  {
     "hash": "cf51586",
     "date": "2026-11-28T07:08:43+08:00",
     "message": "sync: 新增资源《开拓物语/Frontier Tale   v2.1.6   免安装中文版》",
@@ -172,11 +178,5 @@
     "date": "2026-11-24T03:04:16+08:00",
     "message": "补杀毒幸存者2003专业版官方封面 3832490",
     "url": "https://github.com/xi7ang/GameHub/commit/f299b82946ce6e99c1e09e47612bc621ebdfd90d"
-  },
-  {
-    "hash": "11d0834",
-    "date": "2026-11-23T20:44:07+08:00",
-    "message": "PC 端一键转存直接跳转夸克链接，不再弹二维码",
-    "url": "https://github.com/xi7ang/GameHub/commit/11d08346115ec4c20cf46bdd4f6f090e512c9d61"
   }
 ]
