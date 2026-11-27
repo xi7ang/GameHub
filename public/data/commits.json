@@ -1,5 +1,11 @@
 [
   {
+    "hash": "cf51586",
+    "date": "2026-11-28T07:08:43+08:00",
+    "message": "sync: 新增资源《开拓物语/Frontier Tale   v2.1.6   免安装中文版》",
+    "url": "https://github.com/xi7ang/GameHub/commit/cf515868e4ab9a31e528ff5cd5463ac318b44095"
+  },
+  {
     "hash": "88e4dc3",
     "date": "2026-11-28T07:05:07+08:00",
     "message": "sync: 新增资源《尼瓦利斯之夜/ Nivalis Nights    v1.1.0045    免》",
@@ -172,11 +178,5 @@
     "date": "2026-11-23T20:44:07+08:00",
     "message": "PC 端一键转存直接跳转夸克链接，不再弹二维码",
     "url": "https://github.com/xi7ang/GameHub/commit/11d08346115ec4c20cf46bdd4f6f090e512c9d61"
-  },
-  {
-    "hash": "8656362",
-    "date": "2026-11-23T20:33:38+08:00",
-    "message": "chore: 每日公告：发布【2026-11-23】游戏资源更新通知（2 条新资源）",
-    "url": "https://github.com/xi7ang/GameHub/commit/865636257e198655593260f8efd3d8f3a91ace41"
   }
 ]
