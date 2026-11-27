@@ -7,8 +7,34 @@
     "enabled": true,
     "title": "🎉游戏源神欢迎您~",
     "content": "这里是个游戏源神の资源仓库，单机/手游/Switch/联机/MOD 都有，全部免费，主打一个分享交流～\n\n上手就三步：\n① 顶部搜🎮游戏名，或者按分类慢慢逛；\n② 看到喜欢的点进去，都是俺筛选过的；\n③ 转存到自己☁️网盘再下载，稳的一批。\n\n小提示：\n· 每天都有新货上架，没事回来蹲蹲；\n· 资源仅供学习交流，喜欢的话记得支持正版；\n· 游戏挂了/找不到，来群里喊一声，看到就会补。\n\n聊游戏、求资源，欢迎来🐧QQ 群 / ✈️Telegram 找我玩！",
-    "version": "2026-11-26-59",
+    "version": "2026-11-27-60",
     "items": [
+      {
+        "date": "2026-11-27",
+        "tag": "更新",
+        "title": "【2026-11-27】游戏资源更新通知",
+        "games": [
+          {
+            "title": "君王之塔/Sovereign Tower v1.2.1 免安装中文版",
+            "description": "在君王之塔中经营王国、处理任务与权力抉择，1.2.1 更新带来更高难度与多项修复。",
+            "url": "https://pan.devmini.space/resource.html?id=sgf2s9",
+            "cover": "/covers/4113940.webp"
+          },
+          {
+            "title": "红色沙漠：增强版-虚拟机版/Crimson Desert v2.05.01（Build.26480942）全DLC 免安装中文版",
+            "description": "踏入开放世界展开高强度冒险，增强版 2.05.01 更新了库存体验、角色动作与多项任务及战斗修复。",
+            "url": "https://pan.devmini.space/resource.html?id=j3ds50",
+            "cover": "/covers/4511370.webp"
+          },
+          {
+            "title": "再来亿竿/One Last Cast Build.26863455 免安装中文版",
+            "description": "把像素风钓鱼旅行放在桌面一角，挂机收获鱼获、升级装备，慢慢享受每一竿的期待。",
+            "url": "https://pan.devmini.space/resource.html?id=282k1x",
+            "cover": "/covers/5508060.webp"
+          }
+        ],
+        "content": "🎮 新资源到货！今晚这波有点东西，来看看刚上新的好货~\n\n🎮《君王之塔/Sovereign Tower v1.2.1 免安装中文版》（其他）\n在君王之塔中经营王国、处理任务与权力抉择，1.2.1 更新带来更高难度与多项修复。\n详情链接 https://pan.devmini.space/resource.html?id=sgf2s9\n\n🎮《红色沙漠：增强版-虚拟机版/Crimson Desert v2.05.01（Build.26480942）全DLC 免安装中文版》（动作）\n踏入开放世界展开高强度冒险，增强版 2.05.01 更新了库存体验、角色动作与多项任务及战斗修复。\n详情链接 https://pan.devmini.space/resource.html?id=j3ds50\n\n🎮《再来亿竿/One Last Cast Build.26863455 免安装中文版》（休闲）\n把像素风钓鱼旅行放在桌面一角，挂机收获鱼获、升级装备，慢慢享受每一竿的期待。\n详情链接 https://pan.devmini.space/resource.html?id=282k1x\n\n资源挂了或找不到，来 QQ 群 / Telegram 喊一声，看到就补~"
+      },
       {
         "date": "2026-11-26",
         "tag": "更新",
@@ -718,7 +744,7 @@
         "content": "· 每天都有新货上架，没事回来蹲蹲；\n· 资源仅供学习交流，喜欢的话记得支持正版；\n· 游戏挂了/找不到，来群里喊一声，看到就会补；\n· 聊游戏、求资源，欢迎来 QQ 群 / Telegram 找我玩！"
       }
     ],
-    "watermark": "2026-11-26T00:45:46+08:00"
+    "watermark": "2026-11-27T07:11:50+08:00"
   },
   "siteName": "游戏源神",
   "slogan": "全网游戏资源聚合 · 免费 · 持续更新",
