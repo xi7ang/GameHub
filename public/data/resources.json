@@ -88895,74 +88895,266 @@
   {
     "id": "other-202611-0023",
     "title": "深海拓荒者/Oceaneers   Build.26529571   免安装中文版",
-    "enTitle": "",
+    "enTitle": "Oceaneers",
     "category": "other",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/5bc576c7a07b?pwd=S5jF",
     "pwd": "S5jF",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "433.4MB",
+    "sizeBytes": 454441950,
+    "cover": "/covers/3052510.webp",
+    "steamAppID": 3052510,
     "desc": "控制一群被困的幸存者，努力在一个被洪水淹没的世界中保持漂浮。这里唯一的陆地是可能会沉没的不稳定岛屿！您需建立一个完美的岛屿殖民地，让您的幸存者快乐地生活，并保护他们免受陆地和海洋危险。 在浮岛上生存 岛上的生活并非只有阳光和椰子。在资源稀缺、岛屿空间有限的情况下，规划至关重要。您需要建造工作站，管理粮食生产，确保饮用水的供应，同时还要确保您的岛屿庇护所能保持漂浮。 掌握木筏制作 设计并建造您自己的木筏！从一个简单的划桨开始，然后研究大型木筏和更强大的引擎，将岛屿运送回您的主基地。 利用浮力技术保持漂浮 从一家神秘的洪水前公司重新发现岛屿浮力技术。建造预警系统并研究装置，让您的岛屿保持漂浮。 开展探险！ 一个小小的岛屿不足以实现长期生存……派遣幸存者进行探险，从不同的生物群落收集资源。在岛屿沉没或漂走之前，尽可能多地收集物资。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-26T00:10:42+08:00",
     "updatedAt": "2026-11-26T00:10:42+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3052510,
+      "developer": "Barrel Smash Studios",
+      "publisher": "Barrel Smash Studios",
+      "releaseDate": "2026 年 4 月 13 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "休闲",
+        "独立",
+        "模拟",
+        "策略",
+        "抢先体验"
+      ],
+      "languages": "英语\n具有完全音频支持的语言",
+      "summary": "这是一款以可沉没岛屿为背景的木筏制作生存管理冒险游戏。您将控制一群幸存者，通过拾荒、采集和制作，最终建立一个岛屿殖民地！您将建造探险木筏，研究让岛屿保持漂浮的装置，并打造属于您的浮动家园。",
+      "description": "控制一群被困的幸存者，努力在一个被洪水淹没的世界中保持漂浮。这里唯一的陆地是可能会沉没的不稳定岛屿！您需建立一个完美的岛屿殖民地，让您的幸存者快乐地生活，并保护他们免受陆地和海洋危险。\n在浮岛上生存\n岛上的生活并非只有阳光和椰子。在资源稀缺、岛屿空间有限的情况下，规划至关重要。您需要建造工作站，管理粮食生产，确保饮用水的供应，同时还要确保您的岛屿庇护所能保持漂浮。\n掌握木筏制作\n设计并建造您自己的木筏！从一个简单的划桨开始，然后研究大型木筏和更强大的引擎，将岛屿运送回您的主基地。\n利用浮力技术保持漂浮\n从一家神秘的洪水前公司重新发现岛屿浮力技术。建造预警系统并研究装置，让您的岛屿保持漂浮。\n开展探险！\n一个小小的岛屿不足以实现长期生存……派遣幸存者进行探险，从不同的生物群落收集资源。在岛屿沉没或漂走之前，尽可能多地收集物资。\n抵御来自天气、岛屿和海洋的威胁\n保护您的殖民地免受恶劣天气和陆地及海洋的威胁。加固您的木筏，使您的建筑物防风雨，并制定反制措施，应对会偷食的海鸥、会夹脚的螃蟹和会破坏木筏的鲨鱼！\n特色:\n● 在单人游戏中控制多个角色。\n● 将更多的岛屿拖运到您的殖民地，扩展您的家园。\n● 通过装置改善岛屿的浮力，使其保持漂浮。\n● 研究并解锁高级工作站和升级选项。\n● 在陆地和海洋上抵御天气事件和各种威胁。\n● 种植作物、准备口粮并烹饪食物。\n● 管理幸存者的需求，并通过完成任务获得经验。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/ca0829229eb554ae1289581216a1f187523f26ba/ss_ca0829229eb554ae1289581216a1f187523f26ba.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/271f71b8e75be499998d51a40980f2757f53fa7a/ss_271f71b8e75be499998d51a40980f2757f53fa7a.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/288a9dc4ec3dff9ae7518cc65cc6a7b51dddc5f3/ss_288a9dc4ec3dff9ae7518cc65cc6a7b51dddc5f3.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/522142ed45b8bfcf6e861b89dac50ae545e97691/ss_522142ed45b8bfcf6e861b89dac50ae545e97691.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/03b2b553e92aae56d2cddffbff768e696b21fa10/ss_03b2b553e92aae56d2cddffbff768e696b21fa10.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/55c05cff471d132e5adca12cf177ca53280c7182/ss_55c05cff471d132e5adca12cf177ca53280c7182.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/c31de57b3e515032a071c7ac9e383158f24d6359/ss_c31de57b3e515032a071c7ac9e383158f24d6359.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/37a5e9bc1ec45d7295f98284090089e51f0ccb25/ss_37a5e9bc1ec45d7295f98284090089e51f0ccb25.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/0b2c090d556cf961f0e6936376d9cae6eed6198f/ss_0b2c090d556cf961f0e6936376d9cae6eed6198f.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/74d2a9292100f06720b94fb5b374421a9dd823f3/ss_74d2a9292100f06720b94fb5b374421a9dd823f3.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/c3148954a15eab7a19e8fb76142054edaeff7586/ss_c3148954a15eab7a19e8fb76142054edaeff7586.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/46c7294add010316b87877126ae31b4bb795340f/ss_46c7294add010316b87877126ae31b4bb795340f.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/e911209b735e83cdfee211d7a9206d88ee1a1501/ss_e911209b735e83cdfee211d7a9206d88ee1a1501.1920x1080.jpg?t=1776394206",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3052510/c0efec03fe89c445da2df975d604ae0fd2d45e31/ss_c0efec03fe89c445da2df975d604ae0fd2d45e31.1920x1080.jpg?t=1776394206"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统 *: Windows 7 or later",
+          "处理器: Intel i3-540 or similar",
+          "内存: 4 GB RAM",
+          "显卡: Nvidia GTX 560 or smilar",
+          "存储空间: 需要 4 GB 可用空间",
+          "附注事项: KB & Mouse Recommended"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64bit",
+          "处理器: Intel i5 3GHz or similar",
+          "内存: 8 GB RAM",
+          "显卡: Nvidia 960 or similar",
+          "存储空间: 需要 4 GB 可用空间",
+          "附注事项: KB & Mouse Recommended"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 83.7,
+        "initial": 93,
+        "discountPercent": 10
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 113,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 86
+      },
+      "storeUrl": "https://store.steampowered.com/app/3052510/",
+      "fetchedAt": "2026-11-27T12:29:06.958Z"
+    }
   },
   {
     "id": "action-202611-0002",
     "title": "火湖/SULFUR   Build.26756522    免安装中文版",
-    "enTitle": "",
+    "enTitle": "SULFUR",
     "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/072099de18cc?pwd=DNHM",
     "pwd": "DNHM",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/3099590.webp",
-    "steamAppID": 3099590,
+    "size": "903MB",
+    "sizeBytes": 946856493,
+    "cover": "/covers/2124120.webp",
+    "steamAppID": 2124120,
     "desc": "更新内容 查看所有更新 补丁说明 1.0.7 修复了游戏手柄导航问题,使武器无法进入。 修复了加密中会永久降低玩家最大 hp 的问题。 修复了皇帝的问题,如果你过度使用他尾巴的最后部分,可能会软锁游戏。 修复了导致玩家在使用护身符时处于无休止模式的问题。 修复了 Lurks 的问题,该问题可能导致软锁处于无尽模式。 游戏介绍 提前规划以智取敌人，并在充满黑暗生物和狡猾恶魔的世界中前行。在原始而激烈的战斗中，运用兼具可玩性和质感的武器。借助武器、装备、工具和魔法来打造创造性的配装，助你完成任务。成为胆色过人的冒险者，或是机智过人的战略家。丰富的游玩风格任你选择。 一个满是动作、迷人枪械、炫酷战斗和每个角落都有怪物出没的地方。组合五花八门的魔法和附件来强化枪械。通过探索来揭开秘密、寻找战利品和宝藏——只是务必要多加小心。 三思而后行；",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-26T00:12:45+08:00",
     "updatedAt": "2026-11-26T00:12:45+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 2124120,
+      "developer": "Perfect Random",
+      "publisher": "Perfect Random",
+      "releaseDate": "2026 年 10 月 28 日",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "languages": "英语, 日语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 韩语, 波兰语, 葡萄牙语 - 巴西, 俄语, 简体中文, 土耳其语, 瑞典语",
+      "summary": "SULFUR《火湖》是一款新颖的老式动作冒险游戏：智取敌人、寻找宝藏、改进武器、驾驭力量。继续深入，找到答案，了结这一切。",
+      "description": "提前规划以智取敌人，并在充满黑暗生物和狡猾恶魔的世界中前行。在原始而激烈的战斗中，运用兼具可玩性和质感的武器。借助武器、装备、工具和魔法来打造创造性的配装，助你完成任务。成为胆色过人的冒险者，或是机智过人的战略家。丰富的游玩风格任你选择。\n一个满是动作、迷人枪械、炫酷战斗和每个角落都有怪物出没的地方。组合五花八门的魔法和附件来强化枪械。通过探索来揭开秘密、寻找战利品和宝藏——只是务必要多加小心。\n三思而后行；随身携带的每样东西都有可能遗失，未携带的任何东西都远水解不了近渴。每个决定都附带着风险。\n在一个处于救赎之中的世界里，体验氛围、悬疑和磨难。发生了什么事？为什么会发生？走过迷雾笼罩的山谷、黑暗的森林、肮脏的黑公会小屋，穿越城堡围墙并进一步探索未知。继续深入，一往无前。答案终将找上懂得倾听之人。\n探索、发现，揭示真相。在冒险旅途中，你会在最意想不到的地方遭遇怪异生物——留意它们的警告。它们可能会鄙视你、钦佩你、为你喝彩，或者对你和你的冒险不屑一顾。你会不得不向它们施展魅力，威胁、贿赂或摆脱它们吗？它们会帮助你吗？你会帮助它们吗？\n浸着血渍的白衣领\n你的鞋上沾着厚厚的泥土\n你的双肩疼痛异常\n这不过是个诡计吗？\n一个可疑的集会\n一座着火的教堂\n谁才是罪犯？\n谁又该承担罪责？\n大海在尖啸\n拧着劲地旋转\n口干舌也燥\n双眼在燃烧\n但你必须举步向前\n没有悔恨可言\n将那盐水薄雾\n从你的Palehorse™上抹去",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_264c35daa8e599f8c1b91d987e6b097ce16c964a.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_6a4189c456f0f3aa02348d7fe3fb15a3502a4eed.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_41f47179be05032e00866adc8997554116d45fdf.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_bb72c1f48a82fb9af0ac80cb1c6fbac73d98b26e.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_3a001bb940be5e3f59ada04744096de2368df9b3.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_208624ffe32ade066590946b133d9bc291537622.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_b6de0fe1cab7fcaaff720ec5b56ee40ef33a7ae7.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_500f612bdd32446a99d25fcacff65503ca766635.1920x1080.jpg?t=1795304956",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/ss_ce9ac942d2af70f91829b12c2246d8c5ea05b793.1920x1080.jpg?t=1795304956"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10 64位或更高版本",
+          "处理器: 2.4GHZ双核处理器或更高配置",
+          "内存: 8 GB RAM",
+          "显卡: GTX 970 或同等性能显卡",
+          "DirectX 版本: 9.0",
+          "存储空间: 需要 2 GB 可用空间",
+          "声卡: 必须能够承受高音量的音乐和爆炸"
+        ],
+        "recommended": [
+          "操作系统: Windows 10 64-bit",
+          "处理器: 2.4 GHZ Quad Core Processor",
+          "内存: 16 GB RAM",
+          "显卡: GTX 1080 or equivalent",
+          "DirectX 版本: 11",
+          "存储空间: 需要 4 GB 可用空间",
+          "声卡: MORE BEATS MORE EXPLOSIONS"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 99,
+        "initial": 99,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 7761,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 90
+      },
+      "storeUrl": "https://store.steampowered.com/app/2124120/",
+      "fetchedAt": "2026-11-27T12:29:09.867Z"
+    }
   },
   {
     "id": "rpg-202611-0005",
     "title": "777勇者 ～逆时之人～/The One Who Defies Time   Build.26839311   免安装中文版",
-    "enTitle": "",
+    "enTitle": "777 HERO ~The One Who Defies Time~",
     "category": "rpg",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/9105b3bac1ae?pwd=OayF",
     "pwd": "OayF",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "296.2MB",
+    "sizeBytes": 310546925,
+    "cover": "/covers/5457010.webp",
+    "steamAppID": 5457010,
     "desc": "目前试玩版已支持简体中文。正式版的中文剧情仍在制作中。 双手休息，多巴胺上班 弹珠在黄铜钉之间弹跳，转轮飞转，闪光保留一闪一闪……三个相同的数字并排停下。世界化为黑白，时间静止，主角冲向BOSS。 777勇者 是一款放置像素RPG，把日本帕青哥的心跳瞬间（听牌、闪光保留、RUSH连庄、最后一刻的逆转）原汁原味搬了过来。完全不花真钱，货币只有在游戏里赚到的灵魂。 开着就行 打开自动发射，弹珠就会自己滚起来。把窗口缩小，继续忙你的。 切到迷你模式，可以只把战斗画面挂在小窗口里。 大当之后只要向右打一发，剩下的交给主角。 提醒模式会关掉音乐，只在有好事发生时用声音和任务栏通知你。 RUSH中也会随时自动存档，关掉再开，从停下的地方继续。 帕青哥的心跳，赌博为零 越接近抽选越变色的闪光保留：绿、紫、红……还有彩虹。 听牌、逆转演出、震动预告、RUSH连庄、V-STOCK，还有神秘的「视界裂隙」。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-26T00:14:33+08:00",
     "updatedAt": "2026-11-26T00:14:33+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5457010,
+      "developer": "Deadcat123",
+      "publisher": "DOPAMINE GAMES",
+      "releaseDate": "2026 年 11 月 12 日",
+      "genres": [
+        "休闲",
+        "独立",
+        "角色扮演",
+        "模拟",
+        "抢先体验"
+      ],
+      "languages": "英语, 日语, 韩语, 简体中文, 繁体中文",
+      "summary": "发射弹珠，转轮飞转，三个相同数字连成一线的瞬间，时间静止，主角冲向BOSS。只留下帕青哥心跳感的放置像素RPG。不花真钱，没有抽卡。",
+      "description": "目前试玩版已支持简体中文。正式版的中文剧情仍在制作中。\n双手休息，多巴胺上班\n弹珠在黄铜钉之间弹跳，转轮飞转，闪光保留一闪一闪……三个相同的数字并排停下。世界化为黑白，时间静止，主角冲向BOSS。\n777勇者是一款放置像素RPG，把日本帕青哥的心跳瞬间（听牌、闪光保留、RUSH连庄、最后一刻的逆转）原汁原味搬了过来。完全不花真钱，货币只有在游戏里赚到的灵魂。\n开着就行\n打开自动发射，弹珠就会自己滚起来。把窗口缩小，继续忙你的。\n切到迷你模式，可以只把战斗画面挂在小窗口里。\n大当之后只要向右打一发，剩下的交给主角。\n提醒模式会关掉音乐，只在有好事发生时用声音和任务栏通知你。\nRUSH中也会随时自动存档，关掉再开，从停下的地方继续。\n帕青哥的心跳，赌博为零\n越接近抽选越变色的闪光保留：绿、紫、红……还有彩虹。\n听牌、逆转演出、震动预告、RUSH连庄、V-STOCK，还有神秘的「视界裂隙」。\nRUSH每4连庄，奖励弹珠倾泻而下的弹珠瀑布（大奖时间）。\n每次抽选都是独立的，没有暗中修正。「转数」甚至会告诉你这波连续未中有多倒霉。\n每个区域都有不同规则\n每个BOSS都有独特的机制和抽选规则。把保留冻住的暴雪、靠金币加长的RUSH、一分为二的镜面抽选、塔罗牌轮盘……同样是帕青哥，每个区域的玩法都完全不同。\n打造自己的流派\n四条技能树路线：一击必杀的剑士、赌运气的赌徒、用灵魂砸人的富豪、靠数量碾压的弹幕流。路线尽头是颠覆玩法的基石技能。\n异世界次元能力：RUSH连庄时三选一，这场BOSS战期间都归你。共84种。\n武器强化：最高+20。靠工匠的意志和磨刀石扛过失败。\n宝箱要用脚踢\n装备和遗物宝箱不是点开的，是踢开的。踢三脚。每一脚光环都可能变色，偶尔一片寂静……然后迎来逆转。开出传说中的女神的祝福等级时，画面变暗，女神亲自降临。每30分钟还会有宝箱从异次元掉下来。\n128种装备，从剑到护符共8个部位\n37种遗物（拥有即生效）\n239个成就，大部分条件都是秘密\n11个称号，从新手到半神\n59个节点的技能树，5个基石技能\n8个品质等级：高品质装备会随着主角成长才发挥真正的力量\n故事\n两年前，姐姐离家后再也没有回来。挥剑一百万次、实战零次的胆小20岁剑士，只带着姐姐给的怀表踏上旅程。\n可那块表开口说话了。里面住着一位女神，而且这位女神话很多。\n穿过15个区域、3个章节，遇见15位BOSS，站在第4章「魔界」的门前。\n独立开发\n777勇者由一个人制作。新区域、BOSS和成就会持续增加，旅程计划延续到第21区域（全5章）。\n语言：韩语、英语、日语，试玩版另有简体中文、繁体中文\n可选像素字体或黑体\n帧率限制、后台省电和迷你模式，适合长时间挂机\n游戏内百科，随时查看术语、弹珠、大奖和区域信息",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/0b46134c93e7086e721f1f83c5ad4128686a01f5/ss_0b46134c93e7086e721f1f83c5ad4128686a01f5.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/7cdf34a4dc76c524d13f44e531ae176e358be46b/ss_7cdf34a4dc76c524d13f44e531ae176e358be46b.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/3d94a3bb86a345f7eaabc9c0b2229ec3838c35de/ss_3d94a3bb86a345f7eaabc9c0b2229ec3838c35de.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/549422168d3cb7e70122de885300039a332d085f/ss_549422168d3cb7e70122de885300039a332d085f.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/48c9610550d2976d5d46419ab56fe8c04d8498db/ss_48c9610550d2976d5d46419ab56fe8c04d8498db.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/5ae18958f04d19d8d5057b6e9770bc215cef4d6a/ss_5ae18958f04d19d8d5057b6e9770bc215cef4d6a.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/4072776c1aec41a738ed8f9f679664b53554b330/ss_4072776c1aec41a738ed8f9f679664b53554b330.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/b829ba67d8a4f480787a548339d9dddbb48e3d10/ss_b829ba67d8a4f480787a548339d9dddbb48e3d10.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/baabbe03af7b98f0c7558aa85d1f573bf097b537/ss_baabbe03af7b98f0c7558aa85d1f573bf097b537.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/08cf646f9ac21fb9183f24366fd807a1a94b6ca2/ss_08cf646f9ac21fb9183f24366fd807a1a94b6ca2.1920x1080.jpg?t=1794753878",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5457010/fca9e21eb4de7b05045ba22f4aea839fca3c4069/ss_fca9e21eb4de7b05045ba22f4aea839fca3c4069.1920x1080.jpg?t=1794753878"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit (version 1709 or later)",
+          "处理器: 2 cores, 4 threads (comparable to i3-6100 or Ryzen 3 1200)",
+          "内存: 4 GB RAM",
+          "显卡: Integrated graphics with DirectX 12 support (comparable to Intel UHD 620)",
+          "DirectX 版本: 12",
+          "存储空间: 需要 500 MB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 22,
+        "initial": 22,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 169,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 95
+      },
+      "storeUrl": "https://store.steampowered.com/app/5457010/",
+      "fetchedAt": "2026-11-27T12:29:12.731Z"
+    }
   },
   {
     "id": "visual-novel-202611-0005",
     "title": "天坑追匪   Build.26883895   免安装中文版",
-    "enTitle": "",
+    "enTitle": "天坑追匪",
     "category": "visual-novel",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/ab432fee6d17?pwd=kf0H",
     "pwd": "kf0H",
-    "size": "",
-    "sizeBytes": null,
+    "size": "53.6GB",
+    "sizeBytes": 57529766921,
     "cover": "/covers/4498140.webp",
     "steamAppID": 4498140,
     "desc": "天下霸唱IP首部悬疑探险真人互动影游《天坑追匪》即将与大家会面！ 跨越关山，宿命可逆！ 东北老爷岭原始密林深处，一支汇集中外学者的联合科考队进山勘探，进山后竟全员离奇失联，再无半点音讯。 紧急搜救任务即刻启动。你是临危受命的搜救队长赵工，一手精通通讯抢修，一手熟练掌握日语翻译。此行与经验丰富的老猎户大腮帮子、警卫员小陈、考古学家雪莉及一众日方科研团队地质教授高木一郎、助手中山兰子、小林健次共同驰援密林，合力搜救失踪科考人员。 黄金森林的宝藏，地底的秘密，深挖之下最终的走向由你而定。 队伍之中暗流涌动：中外人员立场各异、心思难测，山野乡民的固有偏见，搜救小队内部矛盾不断激化，冲突随时爆发。众人僵持不下之时，幽暗林海怪事接连发生：无形的神秘力量暗中驱赶众人，诡异飞猴频频突袭，危机步步紧逼。 一场突发意外，整支搜救队失足坠入与世隔绝的隐秘天坑。深山禁地、地底秘境层层浮现，各类诡异怪事接踵而来。",
@@ -88970,39 +89162,145 @@
     "featured": false,
     "addedAt": "2026-11-26T00:42:09+08:00",
     "updatedAt": "2026-11-26T00:42:09+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4498140,
+      "developer": "浙江华智数媒传媒股份有限公司、Liquid Meow",
+      "publisher": "杭州天阙采样文化传媒有限公司",
+      "releaseDate": "2026 年 11 月 23 日",
+      "genres": [
+        "冒险",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "languages": "简体中文\n具有完全音频支持的语言",
+      "summary": "天下霸唱IP首部悬疑探险互动影游。跨越关山，宿命可逆！东北老爷岭，中外科考队深入原始密林开展勘探任务，意外坠入隐秘天坑后全员离奇失联，音讯全无。你将临危受命带队深入绝境、踏破关山迷雾，直面未知宿命，以每一次抉择，逆转所有人的命运结局。",
+      "description": "天下霸唱IP首部悬疑探险真人互动影游《天坑追匪》即将与大家会面！\n跨越关山，宿命可逆！\n东北老爷岭原始密林深处，一支汇集中外学者的联合科考队进山勘探，进山后竟全员离奇失联，再无半点音讯。\n紧急搜救任务即刻启动。你是临危受命的搜救队长赵工，一手精通通讯抢修，一手熟练掌握日语翻译。此行与经验丰富的老猎户大腮帮子、警卫员小陈、考古学家雪莉及一众日方科研团队地质教授高木一郎、助手中山兰子、小林健次共同驰援密林，合力搜救失踪科考人员。\n黄金森林的宝藏，地底的秘密，深挖之下最终的走向由你而定。\n队伍之中暗流涌动：中外人员立场各异、心思难测，山野乡民的固有偏见，搜救小队内部矛盾不断激化，冲突随时爆发。众人僵持不下之时，幽暗林海怪事接连发生：无形的神秘力量暗中驱赶众人，诡异飞猴频频突袭，危机步步紧逼。\n一场突发意外，整支搜救队失足坠入与世隔绝的隐秘天坑。深山禁地、地底秘境层层浮现，各类诡异怪事接踵而来。科考队失踪的真相、林间异象的源头、深埋天坑的千年秘辛，重重谜团静待探寻。\n此外，《天坑追匪》的声音制作以“虚拟全景声”作为核心特色，把声音从传统影视中的氛围辅助，升级为互动影游体验的一部分。\n通过虚拟全景声技术，在普通双声道设备上模拟多方位、立体化的三维声场，无需专业多声道设备，只需佩戴普通耳机，玩家便能感受到声音从前后左右、远近高低的不同方位传来，仿佛真正置身于幽深莫测的天坑之中。\n同时，环境音、动作音效与情绪音乐共同参与叙事，强化悬疑探险、剿匪追凶和生死抉择的临场感。让玩家不仅是在“观看”一场悬疑追凶，更是在用双耳感知现场、辨别方向，并亲历每一次未知与生死抉择。\n来吧，加入心愿单！跨越重重关山，直面未知宿命，你的每一次选择，都可逆转结局。\n官方抖音/bilibili/小黑盒/微博：天坑追匪",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/04d69a11b647db5ed6e6cd613370f0b9a347682f/ss_04d69a11b647db5ed6e6cd613370f0b9a347682f.1920x1080.jpg?t=1795500201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/d133279900e56050be0017335f5c4194a848f151/ss_d133279900e56050be0017335f5c4194a848f151.1920x1080.jpg?t=1795500201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/712cb04188e778f961ecf1509497e96be299b2bc/ss_712cb04188e778f961ecf1509497e96be299b2bc.1920x1080.jpg?t=1795500201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/33653d1d7112196020b038c44ed8a01a8ed048f5/ss_33653d1d7112196020b038c44ed8a01a8ed048f5.1920x1080.jpg?t=1795500201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/c4d8c0264153d8be6b2a31a64afae654d2d073e0/ss_c4d8c0264153d8be6b2a31a64afae654d2d073e0.1920x1080.jpg?t=1795500201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/1a07f626ba78cfe3776a49797dc27d569d4725df/ss_1a07f626ba78cfe3776a49797dc27d569d4725df.1920x1080.jpg?t=1795500201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4498140/496afd5cfe0e4d55b6aa227b9cadd77eecc376fe/ss_496afd5cfe0e4d55b6aa227b9cadd77eecc376fe.1920x1080.jpg?t=1795500201"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10",
+          "处理器:  Intel Core i3 / AMD equivalent",
+          "内存: 4 GB RAM",
+          "显卡: NVIDIA GeForce GTX 760 / AMD Radeon R9 280X",
+          "DirectX 版本: 11",
+          "存储空间: 需要 30 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: Windows 10/Windows 11",
+          "处理器: Intel i5 or AMD equivalent or above",
+          "内存: 16 GB RAM",
+          "显卡: Nvidia GTX 1060 / Radeon R9 or better",
+          "DirectX 版本: 11",
+          "存储空间: 需要 50 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 47.2,
+        "initial": 59,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 883,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 97
+      },
+      "storeUrl": "https://store.steampowered.com/app/4498140/",
+      "fetchedAt": "2026-11-27T12:29:15.501Z"
+    }
   },
   {
     "id": "puzzle-202611-0003",
     "title": "锈湖：湖之仆从/Servant of the Lake   v1.6.3.W   免安装中文版",
-    "enTitle": "",
-    "category": "puzzle",
+    "enTitle": "Servant of the Lake",
+    "category": "adventure",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/b95d4178a6e3?pwd=ehkx",
     "pwd": "ehkx",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "564.3MB",
+    "sizeBytes": 591661297,
+    "cover": "/covers/3636770.webp",
+    "steamAppID": 3636770,
     "desc": "更新内容 查看所有更新 湖畔仆人 – 补丁说明 1.6.3 在窗口模式下修复了介绍顺序中的小插曲。 修复了范德布姆浴室中鼠标的声音问题。 能够复制涉及大量锻炼的某种成就 延长学分 对 Steam API 进行了修改,希望能修复某些人无法解锁的成就。 修复了在某些情况下无法立即打开笔记本的问题。 游戏介绍 欢迎来到Vanderboom宅邸，这里是臭名昭著的Vanderboom家族的居所！ 访客即将到来，而你需要立刻开始履行你的职责！ 解开各种谜题，完成每日任务，打理家务，迎接访客并确保他们的舒适，同时协助家族实现他们的在炼金术道路上的野心。 Servant of the Lake是Rusty Lake系列最新推出的点击式解谜冒险游戏，由Cube Escape系列游戏，The Past Within和 Underground Blossom的同班人马创作。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-26T00:45:46+08:00",
     "updatedAt": "2026-11-26T00:45:46+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3636770,
+      "developer": "Rusty Lake",
+      "publisher": "Rusty Lake",
+      "releaseDate": "2026 年 8 月 13 日",
+      "genres": [
+        "冒险",
+        "独立"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 捷克语, 丹麦语, 荷兰语, 芬兰语, 日语, 韩语, 波兰语, 葡萄牙语 - 葡萄牙, 罗马尼亚语, 俄语, 简体中文, 瑞典语, 繁体中文, 土耳其语, 乌克兰语, 越南语, 葡萄牙语 - 巴西, 西班牙语 - 拉丁美洲",
+      "summary": "开启你的新工作，成为神秘的Vanderboom宅邸的仆人吧。在Servant of the Lake中解开谜题，侍奉家族，并揭开他们阴暗的炼金术秘密。Servant of the Lake是一款Rusty Lake即将推出的全新单人点击式解谜冒险游戏。",
+      "description": "欢迎来到Vanderboom宅邸，这里是臭名昭著的Vanderboom家族的居所！\n访客即将到来，而你需要立刻开始履行你的职责！\n解开各种谜题，完成每日任务，打理家务，迎接访客并确保他们的舒适，同时协助家族实现他们的在炼金术道路上的野心。\nServant of the Lake是Rusty Lake系列最新推出的点击式解谜冒险游戏，由Cube Escape系列游戏，The Past Within和 Underground Blossom的同班人马创作。\n游戏特色：\n回归我们的根源 — Servant of the Lake是一款经典的单人Rusty Lake点击式解谜冒险，故事背景设定在Aldous Vanderboom和William Vanderboom时代臭名昭著的Vanderboom宅邸。\n解开超现实的谜题 — 任务将从简单的整理家族画像、洗衣服，到协助复杂的实验与收拾残局逐渐升级。\n揭开黑暗的叙事 — 经历发生在Rusty Lake: Roots数十年前的事件！\n作为Vanderboom宅邸的仆人，你可以探索宅邸的每个房间，同时确保家族得到妥善照料。你觉得自己能撑过这个周末吗？\n沉浸式原声音乐— 由 Victor Butzelaar创作并演奏的萦绕心头的旋律，将在你完成日常任务时伴随左右。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/90839d3961004bd265b462b0b24c1028721439af/ss_90839d3961004bd265b462b0b24c1028721439af.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/dbaa415b5982f41b14e00bbbe32728a5b599b24b/ss_dbaa415b5982f41b14e00bbbe32728a5b599b24b.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/1cfca511ba633cc274ce154706a448e961d9ee52/ss_1cfca511ba633cc274ce154706a448e961d9ee52.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/8a9d416b7c8062dfb244ec64e43af430fb69022c/ss_8a9d416b7c8062dfb244ec64e43af430fb69022c.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/fefa86bdcf5d775821f06e052db9cc9adbd00d99/ss_fefa86bdcf5d775821f06e052db9cc9adbd00d99.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/31d3febc643a9e3e6f237b9d252036f2fa8fa925/ss_31d3febc643a9e3e6f237b9d252036f2fa8fa925.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/390682f0b1f5b8bc6c7364c41683396c18dd7900/ss_390682f0b1f5b8bc6c7364c41683396c18dd7900.1920x1080.jpg?t=1787167955",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3636770/f3deb3e2ce2c5180f90f686b02cdbfc3f8ddab61/ss_f3deb3e2ce2c5180f90f686b02cdbfc3f8ddab61.1920x1080.jpg?t=1787167955"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Microsoft® Windows® 10 or later",
+          "处理器: 2.4GHz Dual Core",
+          "内存: 4 GB RAM",
+          "存储空间: 需要 1 GB 可用空间"
+        ],
+        "recommended": []
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 33,
+        "initial": 33,
+        "discountPercent": 0
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 1853,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 98
+      },
+      "storeUrl": "https://store.steampowered.com/app/3636770/",
+      "fetchedAt": "2026-11-27T12:29:18.370Z"
+    }
   },
   {
     "id": "other-202611-0024",
     "title": "君王之塔/Sovereign Tower    v1.2.1   免安装中文版",
-    "enTitle": "",
-    "category": "other",
+    "enTitle": "Sovereign Tower",
+    "category": "rpg",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/c0ba8da34710?pwd=dmdz",
     "pwd": "dmdz",
-    "size": "",
-    "sizeBytes": null,
+    "size": "905.5MB",
+    "sizeBytes": 949492925,
     "cover": "/covers/4113940.webp",
     "steamAppID": 4113940,
     "desc": "更新内容 查看所有更新 补丁说明 1.2.1 – 更重的皇冠等待,你的优雅! 新硬模式 可以 bes slected 在新游戏开始时; 硬模式细节: Quests XP 的涨幅下降了 33% & nbsp。 Armour 基地维修价格从 15 次上涨至 25 次,重复维修成本也也有所上涨。 维修地点的费用从150至180 增加; 所有设备价格均上涨了25%和1美元; 任务中超过所需数据的奖励略显减少; 在任务中处于必要状态下的处罚略有增加; 骑士在任务期间更容易遭受高额损失; 所有最后通牒要求均增加20%(除所需县数外) 难度可在游戏期间的任何时间恢复; BUG FIXES 修复了在《法案》第3. 3. 3号中,Kingslayer 的 Ultimatum 要求将永久保留在屏幕上的问题。 修复了切斯特在成功完成“大决斗”任务后无法离开圆桌会议的问题,该任务阻碍了2项成就的完成。",
@@ -89010,39 +89308,176 @@
     "featured": false,
     "addedAt": "2026-11-27T07:04:26+08:00",
     "updatedAt": "2026-11-27T07:04:26+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 4113940,
+      "developer": "WILD WITS GAMES",
+      "publisher": "Curve Games",
+      "releaseDate": "2026 年 8 月 6 日",
+      "genres": [
+        "独立",
+        "角色扮演"
+      ],
+      "languages": "英语, 法语, 德语, 日语, 韩语, 简体中文",
+      "summary": "扮演一座魔法高塔的君主，感受这款剧情向的圆桌骑士模拟 RPG 吧。招募性格迥异的骑士，分配任务，平衡各方势力，共同谱写王国的命运。如果命运不如你所愿，那就不断逆转时间，揭开秘密，一次又一次地改写命运。",
+      "description": "- 你的统治，你的规则 - 你所做出的每个选择都将决定你的传承以及王国的命运...\n- 招募古怪的骑士 - 管理一群个性张扬、问题重重且难以捉摸的英雄。\n- 管理你的圆桌骑士 - 派遣骑士执行任务，成败取决于你的判断。\n- 扭转时间，挑战命运 - 回溯过往决策，揭开隐秘真相，追寻禁忌之恋。\n- 扩建你的塔楼 - 建造新的附属建筑，获取升级，智胜敌对统治者。\n啊，终于找到了能胜任此职的君主。没错，就是你，对，站在那儿的那位，过来坐上舒适的王座吧。啊，你很喜欢这感觉，对吧？恭喜你，你被录用了！我叫阿林，是你的顾问。这是你上任的第一天，请允许我为你讲述君主的日常生活，之后你便可自行决定如何治理，陛下...\n- 清晨，你必须照料你的臣民，倾听困扰王国的各种问题。从园艺到驱魔... 王座上的每一天都充满挑战。\n- 你做出的每个决定都会塑造你的王国以及人际关系，既包括与个人的关系，也包括与团体和其他统治者之间的关系。每一次互动都将影响你后世的遗产。\n- 平衡你与商人、神秘主义者、学者、贵族、平民，以及国库之间的距离。当然，你也可以挥霍一切，背叛所有人。两种方法都可行，陛下。\n- 招募古怪、个性鲜明、道德观念颇有争议的骑士加入你的圆桌骑士团。很遗憾，你要依靠这些弄臣来维持王国的正常运转。\n- 自负非凡者，必生诸多波澜！陛下，这些骑士可不是闹着玩的。总有需要听取的建议、需要倾诉的怨恨和需要探索的浪漫情缘。\n- 你必须让你的骑士们满意，否则他们可能永远离开你的宫廷。不过，也许有时候这样反而更好...\n- 管理你的圆桌骑士。在此，你可查看早先应允民众的所有请求。为各项任务委派能力最强的骑士，以降低失败风险。\n- 您的骑士拥有以下属性：力量、敏捷、魅力、魔法和智慧。每项任务都需要不同的技能组合。需要魅力型的骑士？或许我们不该派乌苏拉去，陛下。\n- 骑士完成任务返回后，你会收到任务结果汇报。他们的努力是彻底失败还是巨大成功？或者他们遇到了完全出乎意料的结果？\n- 塔楼地窖中栖息着一只能够逆转时间的恶魔。也就是说，一旦出了差错，你可以带着学到的所有知识回到过去，做出不同的选择，改变命运。\n- 虽说你有我这位首席顾问出谋划策，但还有别人为你效劳。比如，总管热衷于收集你麾下骑士们的秘密。只要你需要，她就会提供那些劲爆的八卦消息！\n- 如果你喜欢和石像谈情说爱，那你来对地方了。不骗你，去和塔楼夫人谈谈就知道了。\n- 通过与邻近郡县携手合作，建立强大的联盟，向对手证明你的实力。\n- 添加新的附属建筑来扩展塔楼，如此一来，你的宫廷中便会开放更多职位。\n- 从铁匠的熔炉到女巫的炼金室，这些新的附属建筑让你能够制作新的物品，帮助骑士完成他们的任务。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/6705ce83201ee51d199f5947a4ac9f008dea9440/ss_6705ce83201ee51d199f5947a4ac9f008dea9440.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/bf49c1146cd0b4468ce6fba57c27c9fdd4b27fbb/ss_bf49c1146cd0b4468ce6fba57c27c9fdd4b27fbb.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/f6900fc85e952e7e04af335018fa5ba24f860d77/ss_f6900fc85e952e7e04af335018fa5ba24f860d77.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/6e978e8a6146cc5c2db22da1b071c4e02f936a50/ss_6e978e8a6146cc5c2db22da1b071c4e02f936a50.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/b8327159cc83a7f7e7050929770da68c28fdad6a/ss_b8327159cc83a7f7e7050929770da68c28fdad6a.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/f5cf2e080276422c4327ea5cf23b05c46c1eb962/ss_f5cf2e080276422c4327ea5cf23b05c46c1eb962.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/0a78f8ac950a14dc0c2501a8993fcef6f4f27245/ss_0a78f8ac950a14dc0c2501a8993fcef6f4f27245.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/284600fd171327f0206364b3ac32fe4d51acc069/ss_284600fd171327f0206364b3ac32fe4d51acc069.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/1428e8f5517618906af12561135ba087eb1b45c9/ss_1428e8f5517618906af12561135ba087eb1b45c9.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/639fd0f2828b019c86b433b66bb07d7b73015110/ss_639fd0f2828b019c86b433b66bb07d7b73015110.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/411da5f8331ade2e331ded2e5673c69b7bdd72eb/ss_411da5f8331ade2e331ded2e5673c69b7bdd72eb.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/5f8bd31aeee477ddd0d20e85f4534c045dade84a/ss_5f8bd31aeee477ddd0d20e85f4534c045dade84a.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/eaba92c131b0cd5cf4b461b769fc89ec9265a9e1/ss_eaba92c131b0cd5cf4b461b769fc89ec9265a9e1.1920x1080.jpg?t=1794850605",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/731ec80432e7b923076fdea00e9a2e8f15c018fa/ss_731ec80432e7b923076fdea00e9a2e8f15c018fa.1920x1080.jpg?t=1794850605"
+      ],
+      "requirements": {
+        "minimum": [
+          "操作系统: Windows 10",
+          "处理器: Intel Core i5-4670K",
+          "内存: 4 GB RAM",
+          "显卡: GeForce GT 1030 (2048 MB)",
+          "DirectX 版本: 12",
+          "存储空间: 需要 3 GB 可用空间"
+        ],
+        "recommended": [
+          "操作系统: 11",
+          "处理器:  Intel Core i5-9600K",
+          "内存: 8 GB RAM",
+          "显卡: GTX 1060, 6GB VRAM",
+          "DirectX 版本: 12",
+          "存储空间: 需要 3 GB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 54.4,
+        "initial": 68,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Overwhelmingly Positive",
+        "totalReviews": 2692,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 96
+      },
+      "storeUrl": "https://store.steampowered.com/app/4113940/",
+      "fetchedAt": "2026-11-27T12:29:21.338Z"
+    }
   },
   {
     "id": "action-202611-0003",
     "title": "红色沙漠：增强版-虚拟机版/ Crimson Desert    v2.05.01（Build.26480942）全DLC  免安装中文版",
-    "enTitle": "",
+    "enTitle": "Crimson Desert Enhanced",
     "category": "action",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/4ed44c61d694?pwd=xv9f",
     "pwd": "xv9f",
-    "size": "",
-    "sizeBytes": null,
-    "cover": "/covers/4511370.webp",
-    "steamAppID": 4511370,
+    "size": "260.1GB",
+    "sizeBytes": 279327019795,
+    "cover": "/covers/3321460.webp",
+    "steamAppID": 3321460,
     "desc": "更新内容 查看所有更新 补丁说明 版本 2.05.01 改进库存,以便立即直接检查宝藏地图、通缉海报、书籍及类似物品。 选择查看详情 >在库存中查看以查看。 然而,如果一本书的知识尚未获得,就无法被审视。 通过在染发和理发屏幕上拖动鼠标来覆盖整个屏幕,从而扩展了摄像头可旋转的区域。 提升角色开始行走时的上身动作。 修复了当将移动控制类型设置为Classic时,某些水下支架无法加速的问题。 [Damiane] 修复了 Skysteph 在某些情况下未能正常激活的问题。 修复了库图姆在某些情况下未发动攻击的问题。 修复了一个问题:如果玩家使用未使用主武器的设备进入过场动画,则该设备在过场动画结束后未再配备。 修复了在启动某些任务后无法切换到其他字符的问题。 修复了《命运的��来》中的一个问题,该角色在与黑星队挂断时分时,时断时续地倒下了。",
     "status": "active",
     "featured": false,
     "addedAt": "2026-11-27T07:08:08+08:00",
     "updatedAt": "2026-11-27T07:08:08+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 3321460,
+      "developer": "Pearl Abyss",
+      "publisher": "Pearl Abyss",
+      "releaseDate": "2026 年 3 月 19 日",
+      "genres": [
+        "动作",
+        "冒险"
+      ],
+      "languages": "英语, 法语, 意大利语, 德语, 西班牙语 - 西班牙, 日语, 韩语, 波兰语, 俄语, 简体中文, 西班牙语 - 拉丁美洲, 繁体中文, 葡萄牙语 - 巴西, 土耳其语, 阿拉伯语\n具有完全音频支持的语言",
+      "summary": "以帕卫尔大陆为背景展开的开放世界动作冒险游戏——《红色沙漠》。 你将化身灰鬃的克里夫，踏上夺回失去的一切、从迫近的威胁中拯救世界的旅程。 驰骋广袤的野生大陆、深入隐藏的古代遗迹、行走于神秘的阿比斯领域，在战斗、探险与发现中开辟只属于你的道路。",
+      "description": "除了全新剧情与动画，还新增更多配音和翻译。一起来体验更加丰富多彩的红色沙漠吧！\n红色沙漠自发售以来历经多次更新，包括全新内容、坐骑、宠物及自定义功能，并进行了多项便利性优化，使得整体完成度不断提升。相信数百万玩家的选择，马上开启全新冒险之旅吧！\n佩伦势力之间的角力，让帕卫尔大陆维持着紧绷的平衡。\n在这里，灰鬃的克里夫与可靠的同伴们一同生活。\n然而，在某个深沉寒冷的夜晚，觊觎灰鬃的宿敌黑熊发动了大规模突袭。\n灰鬃成员在死斗后或丧命，或被迫流散到大陆各地。\n失去如家人般同伴的克里夫，将带着重新集结幸存的灰鬃们，重建势力的坚定决心迈出脚步。\n在这段旅途中，他将遇见新的同盟、新的威胁，以及身份不明的势力，\n并为对抗那些企图撼动大陆秩序的人，挑战前所未有的任务。\n帕卫尔大陆——旅程的开始 邀请你一同踏入其中。绵延无尽的葱郁平原与茂密森林、\n到干旱的沙漠与崎岖的群山 帕卫尔充满大自然的奇观。从繁华城市的喧嚣，\n到无名小村的静谧，无数人都在这里延续各自的生活。沿着遍布各处、引人好奇的古老遗迹与隐藏的宝藏前行，\n你终将抵达天空彼端的神秘领域——“阿比斯”。在那里，一场威胁世界的神秘失衡正等待被修复。\n世界由你自由探索，众多道路等待你去发现。\n你可以抓住马鬃横穿草原，也可以乘坐巨龙或机器人驰骋大地；可以攀爬陡峭悬崖，也能从高处跃下自由滑行。\n在无数任务、与陌生人的遇见、以及巨大的挑战与战斗等待着你的地方，你的故事将由此展开。\n《红色沙漠》的故事核心，正是克里夫。\n随着克里夫继续前行，两位新人物——翁卡和德米安——也将加入旅程。\n你可以选择游玩翁卡或德米安，自由穿行帕卫尔，并推进丰富多样的支线任务。\n通过每位角色独有的战斗风格、专属武器与技能，体验截然不同的探险与战斗。\n《红色沙漠》残酷的战场从没有标准答案。\n如何组合并运用你所拥有的各类技能与装备，取决于你的选择。\n以强力武器发动的攻击，可与沉重的空手搏击、踢踹以及多样的投技交织，形成不断档的连招。\n获得剑与枪、大剑、斧、双持武器，以及多种远程武器等各式装备，\n用强势连招攻击施放强力技能与元素强化能力。你也能策略性运用滑行、闪避与反击，以毫不停歇的机动性掌控战局。\n在一次攻击与一次移动都可能改写命运的高强度战斗中，你必须开拓属于自己的路。\n从冷酷无情的战士到凶猛的野兽，帕卫尔各处都潜伏着试图将你击倒的人。\n从令人手心冒汗的1对1战斗，到小规模混战与大规模战争，迎战各类敌人与BOSS怪，\n击倒并战胜一切挡在你面前的威胁。\n帕卫尔并非只由战斗与探险构成的大陆。\n在这里，无数细小瞬间汇聚成你的旅程，也塑造着日复一日的生活。\n为夺回失去的家园“佩伦”而踏上的旅程，第一步将从灰鬃营地开始。随着扩建营地，它将不再只是休息的空间，\n而会成为更具意义的据点。在广阔的帕卫尔大地上探险，采集资源，并通过料理、钓鱼、\n狩猎等多样活动补充物资，让装备得到更强的锻造与强化。\n在旅途中你也可以与当地居民一起游玩各种小游戏，享受片刻的悠闲时光。\n别忘了在开始一天之前，按当日心情设置发型与纹身；可以使用在旅途中发现或亲手制作染料，\n并用它变更服装颜色的自定义功能，同样不可错过。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/667d1763ae26137aafbc3140963621f530b43289/ss_667d1763ae26137aafbc3140963621f530b43289.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/b154a083ff9a746c71a1513334042e1bb9403a8b/ss_b154a083ff9a746c71a1513334042e1bb9403a8b.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/286938f408f5f0c6409f49584f33e8d497433123/ss_286938f408f5f0c6409f49584f33e8d497433123.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/91f6ddd6a4cc0f704bee1956701a3f36447fe02a/ss_91f6ddd6a4cc0f704bee1956701a3f36447fe02a.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/a14943bf53cb2d32075ed7c42ee50ea085e49fea/ss_a14943bf53cb2d32075ed7c42ee50ea085e49fea.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/b24b12cb001104fe90753f043a7f788c705593c2/ss_b24b12cb001104fe90753f043a7f788c705593c2.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/669119c3747653f41a46c59f213168448d094e04/ss_669119c3747653f41a46c59f213168448d094e04.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/4b178bdd24ed576458116d8d3383b5352dad0fae/ss_4b178bdd24ed576458116d8d3383b5352dad0fae.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/55e514af688f459364b3d0ffb288faf73580c8e5/ss_55e514af688f459364b3d0ffb288faf73580c8e5.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/d889c95c5f37b3a081cc7be68daf4ad2ffb9e291/ss_d889c95c5f37b3a081cc7be68daf4ad2ffb9e291.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/ab4e6544853a3ecb4e1e714b0fa706c50144fbbb/ss_ab4e6544853a3ecb4e1e714b0fa706c50144fbbb.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/17861390a1d7e6bbf3c44854605c63d68127afac/ss_17861390a1d7e6bbf3c44854605c63d68127afac.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/acbecac845c724dd50dfece5e420f5c6e4a2d171/ss_acbecac845c724dd50dfece5e420f5c6e4a2d171.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/10fa299935f8baed56b2311a6d905e2a5d751fa3/ss_10fa299935f8baed56b2311a6d905e2a5d751fa3.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/2fd06c82a96ba625e5e348e964e48ca372022549/ss_2fd06c82a96ba625e5e348e964e48ca372022549.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/da5b8d5347b66aa994119fc7052ca43896971da9/ss_da5b8d5347b66aa994119fc7052ca43896971da9.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/b64711208534731f57e0a4595241cdbb43a0cbc2/ss_b64711208534731f57e0a4595241cdbb43a0cbc2.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/65dce9f0199332d1dc43aa5dd3684e1967d7a551/ss_65dce9f0199332d1dc43aa5dd3684e1967d7a551.1920x1080.jpg?t=1795743151",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/54b5c0b89a83fd2383b67861c148144461d5a87c/ss_54b5c0b89a83fd2383b67861c148144461d5a87c.1920x1080.jpg?t=1795743151"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Ryzen 5 2600X / i5-8500",
+          "内存: 16 GB RAM",
+          "显卡: RX 5500 XT / GTX 1060",
+          "DirectX 版本: 12",
+          "存储空间: 需要 180 GB 可用空间",
+          "声卡: Windows Compatible Audio Device",
+          "附注事项: 必须使用SSD。"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10 64-bit",
+          "处理器: Ryzen 5 5600 / i5-11600K",
+          "内存: 16 GB RAM",
+          "显卡: RX 6700 XT / RTX 2080",
+          "DirectX 版本: 12",
+          "存储空间: 需要 180 GB 可用空间",
+          "声卡: Windows Compatible Audio Device",
+          "附注事项: 必须使用SSD。"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 214.4,
+        "initial": 268,
+        "discountPercent": 20
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 67528,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 87
+      },
+      "storeUrl": "https://store.steampowered.com/app/3321460/",
+      "fetchedAt": "2026-11-27T12:29:24.145Z"
+    }
   },
   {
     "id": "casual-202611-0005",
     "title": "再来亿竿/One Last Cast   Build.26863455   免安装中文版",
-    "enTitle": "",
+    "enTitle": "One Last Cast",
     "category": "casual",
     "tags": [],
     "platform": "quark",
     "url": "https://pan.quark.cn/s/d88279b49afb?pwd=pMWy",
     "pwd": "pMWy",
-    "size": "",
-    "sizeBytes": null,
+    "size": "559.7MB",
+    "sizeBytes": 586885650,
     "cover": "/covers/5508060.webp",
     "steamAppID": 5508060,
     "desc": "再來亿竿-Steam交流群：320653550 把一段钓鱼旅行，放在桌面一角。 工作告一段落，鱼漂刚好动了一下。陪伴你的橘猫坐在岸边，水下的鱼群缓缓游过——这一次，会钓到什么？ 《再来亿竿》是一款像素风桌面挂机钓鱼游戏。让钓鱼小场景陪你度过日常，在想休息的时候看看收获、整理装备，再为下一站做好准备。你可以慢慢钓，也可以为了一条心仪的鱼，认真琢磨下一次抛竿。 悠闲挂机，也有值得琢磨的下一竿 让角色自动垂钓，在忙碌间隙回来查看鱼篓。出售鱼获积攒金币，添置钓具，逐步挑战更有分量的目标。不同钓点、鱼种与水层，需要合适的饵料和装备；找对搭配，让等待多一份期待。 跟着鱼漂，去不同的地方 从杭州西湖到琵琶湖，再到远方的湖泊与湿地，每一站都有不同的风景、鱼种和当地委托。认识这里的鱼，也收集属于这里的轶事，让一次次停留成为旅途中的记忆。",
@@ -89050,6 +89485,61 @@
     "featured": false,
     "addedAt": "2026-11-27T07:11:50+08:00",
     "updatedAt": "2026-11-27T07:11:50+08:00",
-    "month": "202611"
+    "month": "202611",
+    "steam": {
+      "appId": 5508060,
+      "developer": "Shorepause Studio",
+      "publisher": "Shorepause Studio",
+      "releaseDate": "2026 年 11 月 23 日",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "languages": "英语, 简体中文, 繁体中文, 俄语, 日语, 韩语",
+      "summary": "《再来亿竿》是一款轻松的像素风桌面钓鱼游戏。把湖光山色放在屏幕一角，让小伙伴陪你悠闲垂钓。在工作与休息的间隙，收集各地鱼种，偶遇稀有异色鱼，完成当地委托，升级钓具，把旅途中的收获写进手册。说好最后一竿？那就再来亿竿！",
+      "description": "再來亿竿-Steam交流群：320653550\n把一段钓鱼旅行，放在桌面一角。\n工作告一段落，鱼漂刚好动了一下。陪伴你的橘猫坐在岸边，水下的鱼群缓缓游过——这一次，会钓到什么？\n《再来亿竿》是一款像素风桌面挂机钓鱼游戏。让钓鱼小场景陪你度过日常，在想休息的时候看看收获、整理装备，再为下一站做好准备。你可以慢慢钓，也可以为了一条心仪的鱼，认真琢磨下一次抛竿。\n悠闲挂机，也有值得琢磨的下一竿\n让角色自动垂钓，在忙碌间隙回来查看鱼篓。出售鱼获积攒金币，添置钓具，逐步挑战更有分量的目标。不同钓点、鱼种与水层，需要合适的饵料和装备；找对搭配，让等待多一份期待。\n跟着鱼漂，去不同的地方\n从杭州西湖到琵琶湖，再到远方的湖泊与湿地，每一站都有不同的风景、鱼种和当地委托。认识这里的鱼，也收集属于这里的轶事，让一次次停留成为旅途中的记忆。\n收集鱼种，等待意料之外的惊喜\n逐步点亮鱼类图鉴，刷新自己的重量纪录，也留意那些难得一见的异色鱼。下一次收竿，可能是熟悉的老朋友，也可能是一份值得专门停下来欣赏的收获。\n接下委托，让每次收获都有去处\n接取当地委托后，新钓获的符合条件的鱼会优先填入委托进度，其他收获则可以自由安排。完成委托、领取奖励，再决定是强化现有装备，还是为下一段旅程攒钱。\n有伙伴陪钓，也有手册收藏回忆\n解锁陪伴小伙伴，让岸边多一点热闹；把喜欢的鱼留在水族缸里，慢慢欣赏。翻开旅行手册，回看沿途的风景与记录，也可以将当前书页保存成图片，分享自己的钓游故事。\n不用急着赶往终点，眼前的水面还藏着新的可能。\n说好最后一竿？再来亿竿。",
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/bc096835bf6830b2bed9e9f34c64317f9cac77e2/ss_bc096835bf6830b2bed9e9f34c64317f9cac77e2.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/a9e9e39d877c2f2b49d060c9988d8aba84929dae/ss_a9e9e39d877c2f2b49d060c9988d8aba84929dae.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/891c3aa42ea528ffb59ed45d23f3d05e26ce81a0/ss_891c3aa42ea528ffb59ed45d23f3d05e26ce81a0.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/7fec5484b042c9dc729d340502c5cfacfd62966d/ss_7fec5484b042c9dc729d340502c5cfacfd62966d.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/11cceb12e4193fabc0519269e90e128117c1200c/ss_11cceb12e4193fabc0519269e90e128117c1200c.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/ae71be37b204d1d0d1508a8995cec46f826d5836/ss_ae71be37b204d1d0d1508a8995cec46f826d5836.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/9e244681e7ad9be101ab87264ddd7c30cc40e6d0/ss_9e244681e7ad9be101ab87264ddd7c30cc40e6d0.1920x1080.jpg?t=1795747201",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5508060/4973bc8a10ff23964e804c57b4687d8feecf497e/ss_4973bc8a10ff23964e804c57b4687d8feecf497e.1920x1080.jpg?t=1795747201"
+      ],
+      "requirements": {
+        "minimum": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 10",
+          "处理器: intel core i3",
+          "内存: 1 GB RAM",
+          "存储空间: 需要 800 MB 可用空间"
+        ],
+        "recommended": [
+          "需要 64 位处理器和操作系统",
+          "操作系统: Windows 11",
+          "处理器: intel core i5",
+          "内存: 4 GB RAM",
+          "存储空间: 需要 800 MB 可用空间"
+        ]
+      },
+      "price": {
+        "free": false,
+        "currency": "CNY",
+        "final": 15.4,
+        "initial": 22,
+        "discountPercent": 30
+      },
+      "rating": {
+        "scoreDesc": "Very Positive",
+        "totalReviews": 90,
+        "positive": null,
+        "negative": null,
+        "positiveRate": 93
+      },
+      "storeUrl": "https://store.steampowered.com/app/5508060/",
+      "fetchedAt": "2026-11-27T12:29:26.944Z"
+    }
   }
 ]
