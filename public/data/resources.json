@@ -89541,5 +89541,26 @@
       "storeUrl": "https://store.steampowered.com/app/5508060/",
       "fetchedAt": "2026-11-27T12:29:26.944Z"
     }
+    "month": "202611"
+  },
+  {
+    "id": "other-202611-0025",
+    "title": "尼瓦利斯之夜/ Nivalis Nights    v1.1.0045    免安装中文版",
+    "enTitle": "",
+    "category": "other",
+    "tags": [],
+    "platform": "quark",
+    "url": "https://pan.quark.cn/s/eed65d7d7a19?pwd=68ZR",
+    "pwd": "68ZR",
+    "size": "",
+    "sizeBytes": null,
+    "cover": "/covers/1488490.webp",
+    "steamAppID": 1488490,
+    "desc": "更新内容 查看所有更新 尼瓦利斯之夜 – 更新 #8 任务 固定的任务,当故事已经超越其中一个目标时,这些任务可能会陷入困境, Stranger in Need The Aseptic The Network 例如《陌生人需要》《无菌》、《网络》以及《艾娃在哪里》? 加载时已修复现有的储蓄:已完成的目标已完成,而故事过去的目标已被跳过。 当Ava的一个电话被切断或从未玩过时,这些固定任务可能会陷入现有的扑救中。 加载时您的储蓄已修复:宵禁完成,帮助尼瓦利斯人民继续前往JR阿米加,而艾娃在哪里?在通话结束后继续进行。 来自Ava的通话,这些电话被标记为播放,但在加载保存后,现在却从未真正播放过,只要故事没有从它们身上移出即可。 在较旧的保存中,Ava 的一些通话可能在加载后不久就打进来。 修复了萨迪乌斯的退休问题,因为艾娃的“Ava 追踪吉迪恩”电话被切断了。",
+    "status": "active",
+    "featured": false,
+    "addedAt": "2026-11-28T07:05:04+08:00",
+    "updatedAt": "2026-11-28T07:05:04+08:00",
+    "month": "202611"
   }
 ]

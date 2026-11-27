@@ -1,5 +1,17 @@
 [
   {
+    "hash": "7265d6f",
+    "date": "2026-11-27T20:32:16+08:00",
+    "message": "chore: 每日公告：发布【2026-11-27】游戏资源更新通知（3 条新资源）",
+    "url": "https://github.com/xi7ang/GameHub/commit/7265d6fe21c40c60b601afe29c29789421b665d6"
+  },
+  {
+    "hash": "ad5167e",
+    "date": "2026-11-27T07:11:55+08:00",
+    "message": "sync: 新增资源《再来亿竿/One Last Cast   Build.26863455   免安》",
+    "url": "https://github.com/xi7ang/GameHub/commit/ad5167ed38cc9e5d72e3c22802af9ea4bc5c1488"
+  },
+  {
     "hash": "c1049e6",
     "date": "2026-11-27T07:08:12+08:00",
     "message": "sync: 新增资源《红色沙漠：增强版-虚拟机版/ Crimson Desert    v2.05.0》",
@@ -166,17 +178,5 @@
     "date": "2026-11-23T07:08:50+08:00",
     "message": "sync: 新增资源《杀毒幸存者2003专业版/Antivirus Survivors 2003 Pr》",
     "url": "https://github.com/xi7ang/GameHub/commit/ff617723b3a25384f56187395fb9767010f2f127"
-  },
-  {
-    "hash": "60a8a1a",
-    "date": "2026-11-23T07:04:18+08:00",
-    "message": "sync: 新增资源《灯下行   v20261117   免安装中文版》",
-    "url": "https://github.com/xi7ang/GameHub/commit/60a8a1a50c594ebab7f589ce9f3679dbdae9833a"
-  },
-  {
-    "hash": "3b23f9c",
-    "date": "2026-11-23T07:46:05+08:00",
-    "message": "data: 每日自动补齐新资源 Steam 资料",
-    "url": "https://github.com/xi7ang/GameHub/commit/3b23f9c001a94b9f3d72db16debcc473311e09a8"
   }
 ]
