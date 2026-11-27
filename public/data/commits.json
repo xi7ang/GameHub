@@ -1,5 +1,11 @@
 [
   {
+    "hash": "88e4dc3",
+    "date": "2026-11-28T07:05:07+08:00",
+    "message": "sync: 新增资源《尼瓦利斯之夜/ Nivalis Nights    v1.1.0045    免》",
+    "url": "https://github.com/xi7ang/GameHub/commit/88e4dc3fa5961a0ddf74e8757be6ce23a4384316"
+  },
+  {
     "hash": "7265d6f",
     "date": "2026-11-27T20:32:16+08:00",
     "message": "chore: 每日公告：发布【2026-11-27】游戏资源更新通知（3 条新资源）",
@@ -172,11 +178,5 @@
     "date": "2026-11-23T20:33:38+08:00",
     "message": "chore: 每日公告：发布【2026-11-23】游戏资源更新通知（2 条新资源）",
     "url": "https://github.com/xi7ang/GameHub/commit/865636257e198655593260f8efd3d8f3a91ace41"
-  },
-  {
-    "hash": "ff61772",
-    "date": "2026-11-23T07:08:50+08:00",
-    "message": "sync: 新增资源《杀毒幸存者2003专业版/Antivirus Survivors 2003 Pr》",
-    "url": "https://github.com/xi7ang/GameHub/commit/ff617723b3a25384f56187395fb9767010f2f127"
   }
 ]
